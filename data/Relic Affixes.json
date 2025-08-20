@@ -4270,32 +4270,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.009,
-                        0.01
+                        0.01,
+                        0.015
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.01,
-                        0.0115
+                        0.015,
+                        0.02
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.0115,
-                        0.013
+                        0.02,
+                        0.025
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.013,
-                        0.0135
+                        0.025,
+                        0.03
                     ]
                 }
             ],
@@ -4342,48 +4342,48 @@
             "modifierType": "Additive",
             "upgradeModifierOverride": {
                 "0": 0.0,
-                "1": 0.003,
-                "2": 0.006,
-                "3": 0.009,
-                "4": 0.012,
-                "5": 0.015
+                "1": 0.005,
+                "2": 0.01,
+                "3": 0.015,
+                "4": 0.02,
+                "5": 0.025
             },
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "1,25% des Schadens durch Doppelmesser wird in Leben umgewandelt."
+                    "langTranslation": "3% des Schadens durch Doppelmesser wird in Leben umgewandelt."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "1.25% of Double Knives' damage is converted to Life."
+                    "langTranslation": "3% of Double Knives' damage is converted to Life."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "1,25% del daño de Cuchillos Dobles se convierte en vida."
+                    "langTranslation": "3% del daño de Cuchillos Dobles se convierte en vida."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "1,25% des dégâts de Double tranchant sont convertis en santé"
+                    "langTranslation": "3% des dégâts de Double tranchant sont convertis en santé"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ダブルナイフのダメージの1.25%がライフに変換される。"
+                    "langTranslation": "ダブルナイフのダメージの3%がライフに変換される。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "1,25% obrażeń zadawanych przez Podwójne Noże zostaje zamienionych w życie"
+                    "langTranslation": "3% obrażeń zadawanych przez Podwójne Noże zostaje zamienionych w życie"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "1,25% do dano causado por Peixeiras é convertido em Vida."
+                    "langTranslation": "3% do dano causado por Peixeiras é convertido em Vida."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "1,25% урона двойных ножей превращается в здоровье."
+                    "langTranslation": "3% урона двойных ножей превращается в здоровье."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "双刃旋斩造成伤害的 1.25% 转化为生命值。"
+                    "langTranslation": "双刃旋斩造成伤害的 3% 转化为生命值。"
                 }
             ]
         },
