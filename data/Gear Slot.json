@@ -1,0 +1,1020 @@
+{
+    "name": "GearSlotDatabase",
+    "type": "GearSlotDatabase",
+    "regularGearSlotDefinitions": [
+        {
+            "type": "GearSlotDefinition",
+            "slot": "WEAPON",
+            "statDefinition": "Damage",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "RING_LEFT",
+            "statDefinition": "CriticalChance",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "RING_RIGHT",
+            "statDefinition": "CriticalDamage",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "ARMOR",
+            "statDefinition": "Life",
+            "eStatModifierType": "Multiplicative",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "SHOULDERS",
+            "statDefinition": "PhysicalResistance",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "HELMET",
+            "statDefinition": "MagicResistance",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "BOOTS",
+            "statDefinition": "MovementSpeed",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "BRACERS",
+            "statDefinition": "AttackSpeed",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "PANTS",
+            "statDefinition": "CooldownSpeed",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "CAPE",
+            "statDefinition": "ExperienceGain",
+            "eStatModifierType": "Multiplicative",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "TRINKET",
+            "statDefinition": "Mana",
+            "eStatModifierType": "Multiplicative",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Talisman"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Trinket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Amulette"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "護符"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Świecidełko"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vestígio"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护符"
+                }
+            ]
+        }
+    ],
+    "blessedGearSlotDefinitions": [
+        {
+            "type": "GearSlotDefinition",
+            "slot": "WEAPON",
+            "statDefinition": "BaseDamage",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Revolver"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Revolver"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Revólver"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Revolver"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "リボルバー"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Rewolwer"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Revólver"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Револьвер"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "左轮手枪"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "RING_LEFT",
+            "statDefinition": "CriticalChance",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Ring"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Ring"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Anillo"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bague"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "指輪"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Pierścień"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Anel"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Кольцо"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "戒指"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "RING_RIGHT",
+            "statDefinition": "CriticalDamage",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Ring"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Ring"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Anillo"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bague"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "指輪"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Pierścień"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Anel"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Кольцо"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "戒指"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "ARMOR",
+            "statDefinition": "Life",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Jacke"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Jacket"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Chamarra"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Veste"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ジャケット"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Kurtka"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Casaco"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Куртка"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "夹克"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "SHOULDERS",
+            "statDefinition": "MagicResistance",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Schulterrüstung"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Shoulders"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Hombreras"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Épaulière"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "肩"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Ramiona"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ombreira"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Плечи"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护肩"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "HELMET",
+            "statDefinition": "PhysicalResistance",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Haube"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Cap"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Gorra"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Chapeau"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "帽子"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Czapka"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Chapéu"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Фуражка"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "帽子"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "BOOTS",
+            "statDefinition": "MovementSpeed",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Schuhe"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Shoes"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Zapatos"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Chaussure"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "靴"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Buty"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Sapato"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Обувь"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "鞋履"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "BRACERS",
+            "statDefinition": "AttackSpeed",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Armschienen"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Bracers"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Brazales"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bracelet"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "腕甲"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Karwasze"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bracelete"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Браслеты"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "护腕"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "PANTS",
+            "statDefinition": "CooldownSpeed",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Hose"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Pants"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Pantalones"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Pantalon"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ズボン"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Spodnie"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Calça"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Штаны"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "长裤"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "CAPE",
+            "statDefinition": "ExperienceGain",
+            "eStatModifierType": "Multiplicative",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Umhang"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Cape"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Capa"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Cape"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "マント"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Peleryna"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Capa"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Плащ"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "斗篷"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "TRINKET",
+            "statDefinition": "Mana",
+            "eStatModifierType": "Additive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Andenken"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Keepsake"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Recuerdo"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Souvenir"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "形見"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Pamiątka"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Recordação"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Безделушка"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "纪念物"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "ACCESSORY",
+            "statDefinition": "Life",
+            "eStatModifierType": "MultiplicativeAdditive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Accessoire"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Accessory"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Accesorio"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Accessoire"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "アクセサリー"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Akcesorium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Acessório"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Аксессуары"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "配饰"
+                }
+            ]
+        }
+    ]
+}

@@ -2976,7 +2976,7 @@
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Healing, Life Steal and Life Regen effects are reduced by ‑30%[x]."
+                            "langTranslation": "All Healing, Life Leech and Life Regen effects are reduced by ‑30%[x]."
                         },
                         {
                             "langCode": "es",
@@ -3087,7 +3087,7 @@
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Healing, Life Steal and Life Regen effects are reduced by ‑45%[x]."
+                            "langTranslation": "All Healing, Life Leech and Life Regen effects are reduced by ‑45%[x]."
                         },
                         {
                             "langCode": "es",

@@ -1,0 +1,241 @@
+{
+    "name": "PlayerSheet",
+    "type": "PlayerSheet",
+    "vengeanceModeStatConfigs": [
+        {
+            "type": "VengeanceModeStatConfig",
+            "statModifierDefinition": {
+                "type": "StatModifierDefinition",
+                "eStatDefinition": "DamageResistance",
+                "modifierType": "Additive",
+                "value": 0.3
+            },
+            "incrementPerRun": 0.025,
+            "maximumValue": 0.8
+        },
+        {
+            "type": "VengeanceModeStatConfig",
+            "statModifierDefinition": {
+                "type": "StatModifierDefinition",
+                "eStatDefinition": "BaseDamage",
+                "modifierType": "Multiplicative",
+                "value": 1.3
+            },
+            "incrementPerRun": 0.1,
+            "maximumValue": 0.0
+        }
+    ],
+    "summonInheritedStats": {
+        "BaseDamage": "Override",
+        "CriticalChance": "Override",
+        "CriticalDamage": "Override",
+        "PhysicalResistance": "Override",
+        "MovementSpeed": "Additive",
+        "AdditionalPhysicalDamage": "Override",
+        "PhysicalDamage": "Override",
+        "AdditionalFireDamage": "Override",
+        "FireDamage": "Override",
+        "AdditionalPlagueDamage": "Override",
+        "PlagueDamage": "Override",
+        "AdditionalLightningDamage": "Override",
+        "LightningDamage": "Override",
+        "FireResistance": "Override",
+        "LightningResistance": "Override",
+        "PlagueResistance": "Override",
+        "ChanceToApplyBleed": "Override",
+        "ChanceToApplyIgnite": "Override",
+        "ChanceToApplyShock": "Override",
+        "ChanceToApplyBlight": "Override",
+        "StunResistance": "Override",
+        "CrowdControlResistance": "Override",
+        "AilmentDuration": "Override",
+        "BleedDuration": "Override",
+        "IgniteDuration": "Override",
+        "ShockDuration": "Override",
+        "BlightDuration": "Override",
+        "WitherDuration": "Override",
+        "StunDuration": "Override",
+        "AilmentDamage": "Override",
+        "IgniteDamage": "Override",
+        "ShockIntensity": "Override",
+        "BlightIntensity": "Override",
+        "WitherBuildupRate": "Override",
+        "StunBuildupRate": "Override",
+        "AilmentResistance": "Override",
+        "BleedDamage": "Override",
+        "WitherResistance": "Override",
+        "SkillAreaOfEffect": "Override",
+        "AilmentApplication": "Override",
+        "SkillProjectileAmount": "Override",
+        "SkillMeleeDamage": "Override",
+        "ElementalAilmentDuration": "Override",
+        "SkillSpellDamage": "Override",
+        "LifeGain": "Override",
+        "BuffDuration": "Override",
+        "SkillMarksmanDamage": "Override",
+        "SkillMeleeLifeSteal": "Override",
+        "PlagueDamageTakenAsPhysical": "Override",
+        "PlagueDamageTakenAsLightning": "Override",
+        "PlagueDamageTakenAsFire": "Override",
+        "PhysicalDamageTakenAsPlague": "Override",
+        "PhysicalDamageTakenAsLightning": "Override",
+        "PhysicalDamageTakenAsFire": "Override",
+        "LightningDamageTakenAsPlague": "Override",
+        "LightningDamageTakenAsPhysical": "Override",
+        "FireDamageTakenAsLightning": "Override",
+        "FireDamageTakenAsPhysical": "Override",
+        "LightningDamageTakenAsFire": "Override",
+        "FireDamageTakenAsPlague": "Override"
+    },
+    "displayedStats": {
+        "DamageLabel": [
+            "BaseDamage",
+            "PhysicalDamage",
+            "Damage",
+            "FireDamage",
+            "AttackSpeed",
+            "AdditionalFireDamage",
+            "CooldownSpeed",
+            "LightningDamage",
+            "CriticalChance",
+            "AdditionalLightningDamage",
+            "CriticalDamage",
+            "PlagueDamage",
+            "AdditionalPhysicalDamage",
+            "AdditionalPlagueDamage"
+        ],
+        "DefenseLabel": [
+            "PhysicalResistance",
+            "BarrierDecayThreshold",
+            "FireResistance",
+            "BarrierDecayResilience",
+            "LightningResistance",
+            "BarrierGain",
+            "PlagueResistance",
+            "BarrierGeneration",
+            "Evasion",
+            "ManaSpentBarrierRegen",
+            "Endurance",
+            "AntiMagic",
+            "ManaShield"
+        ],
+        "VitalityLabel": [
+            "Life",
+            "LifeRegen",
+            "Mana",
+            "ManaRegen",
+            "MovementSpeed",
+            "PotionCapacity",
+            "SkillManaCost",
+            "PotionEfficiency"
+        ],
+        "OtherLabel": [
+            "ExperienceGain",
+            "BleedDamage",
+            "GoldGain",
+            "IgniteDamage",
+            "SoulStoneGain",
+            "ChanceToApplyBleed",
+            "RelicDropChanceBonus",
+            "ChanceToApplyIgnite",
+            "BlessedGearDropChanceBonus",
+            "WitherBuildupRate",
+            "TrinketDropChanceBonus",
+            "StunBuildupRate",
+            "ChanceToApplyShock",
+            "ChanceToApplyBlight"
+        ]
+    },
+    "statBaseOverrides": [
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "Life",
+                "id": 3,
+                "type": "StatDefinition"
+            },
+            "baseValue": 600.0
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "Mana",
+                "id": 10,
+                "type": "StatDefinition"
+            },
+            "baseValue": 600.0
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "ManaRegen",
+                "id": 29,
+                "type": "StatDefinition"
+            },
+            "baseValue": 0.1
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "StunResistance",
+                "id": 36,
+                "type": "StatDefinition"
+            },
+            "baseValue": 9999.0
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "CrowdControlResistance",
+                "id": 37,
+                "type": "StatDefinition"
+            },
+            "baseValue": 9999.0
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "WitherResistance",
+                "id": 73,
+                "type": "StatDefinition"
+            },
+            "baseValue": 9999.0
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "ChanceToApplyBleed",
+                "id": 30,
+                "type": "StatDefinition"
+            },
+            "baseValue": 0.08
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "ChanceToApplyIgnite",
+                "id": 31,
+                "type": "StatDefinition"
+            },
+            "baseValue": 0.3
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "WitherBuildupRate",
+                "id": 69,
+                "type": "StatDefinition"
+            },
+            "baseValue": 0.1
+        },
+        {
+            "type": "StatBaseOverride",
+            "statDefinition": {
+                "name": "StunBuildupRate",
+                "id": 70,
+                "type": "StatDefinition"
+            },
+            "baseValue": 0.1
+        }
+    ]
+}

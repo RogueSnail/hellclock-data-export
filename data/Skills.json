@@ -118,7 +118,7 @@
             "range": 15.0,
             "skillTags": [
                 "Single Target",
-                "Marksman ",
+                "Marksman",
                 "Projectile",
                 "Physical Damage",
                 "Attack"
@@ -356,7 +356,7 @@
             "ignoreCooldownSpeed": false,
             "range": 15.0,
             "skillTags": [
-                "Marksman ",
+                "Marksman",
                 "Projectile",
                 "Fire Damage",
                 "Elemental Damage",
@@ -807,7 +807,7 @@
             "ignoreCooldownSpeed": false,
             "range": 15.0,
             "skillTags": [
-                "Marksman ",
+                "Marksman",
                 "Projectile",
                 "Physical Damage",
                 "Attack"
@@ -4351,7 +4351,7 @@
             "range": 20.0,
             "skillTags": [
                 "Area of Effect",
-                "Marksman ",
+                "Marksman",
                 "Fire Damage",
                 "Elemental Damage"
             ]
@@ -5374,7 +5374,7 @@
             "ignoreCooldownSpeed": false,
             "range": 20.0,
             "skillTags": [
-                "Marksman ",
+                "Marksman",
                 "Summon",
                 "Projectile",
                 "Physical Damage"

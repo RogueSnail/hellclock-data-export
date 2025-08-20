@@ -1872,7 +1872,7 @@
                 },
                 {
                     "type": "TierCategoryRollRange",
-                    "tier": 2,
+                    "tier": 3,
                     "rollRange": [
                         0.22,
                         0.32
@@ -1880,7 +1880,7 @@
                 },
                 {
                     "type": "TierCategoryRollRange",
-                    "tier": 2,
+                    "tier": 4,
                     "rollRange": [
                         0.3,
                         0.38
@@ -1948,39 +1948,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> Feuerresistenz."
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> Feuerresistenz."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> Fire Resistance"
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> Fire Resistance"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> Resistencia al Fuego"
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> Resistencia al Fuego"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> Résistance au feu"
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> Résistance au feu"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> 火炎抵抗"
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> 火炎抵抗"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> Odporność na ogień"
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> Odporność na ogień"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> Resistência Ígnea"
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> Resistência Ígnea"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Сопротивление огню <style=\"TooltipValue\">+24%</style>"
+                    "langTranslation": "Сопротивление огню <style=\"TooltipValue\">+38%</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">+24%</style> 火焰抗性"
+                    "langTranslation": "<style=\"TooltipValue\">+38%</style> 火焰抗性"
                 }
             ]
         },
@@ -9602,6 +9602,22 @@
                         0.95,
                         0.93
                     ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 3,
+                    "rollRange": [
+                        0.93,
+                        0.91
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 4,
+                    "rollRange": [
+                        0.91,
+                        0.89
+                    ]
                 }
             ],
             "nameLocalizationKey": [
@@ -9656,39 +9672,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> Manakosten für Fertigkeit."
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> Manakosten für Fertigkeit."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> Skill Mana Cost"
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> Skill Mana Cost"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> Costo de maná de habilidades"
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> Costo de maná de habilidades"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> Coût en ferveur des comp."
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> Coût en ferveur des comp."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> スキルのマナコスト"
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> スキルのマナコスト"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> Koszt umiejętności w manie"
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> Koszt umiejętności w manie"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> Custo Geral de Energia"
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> Custo Geral de Energia"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Расход маны на навык <style=\"TooltipValue\">‑7%[x]</style>"
+                    "langTranslation": "Расход маны на навык <style=\"TooltipValue\">‑11%[x]</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">‑7%[x]</style> 技能法力消耗"
+                    "langTranslation": "<style=\"TooltipValue\">‑11%[x]</style> 技能法力消耗"
                 }
             ]
         },
@@ -10033,7 +10049,7 @@
                     "tier": 1,
                     "rollRange": [
                         0.005,
-                        0.0075
+                        0.0065
                     ]
                 },
                 {
@@ -10041,23 +10057,23 @@
                     "tier": 2,
                     "rollRange": [
                         0.0065,
-                        0.00975
+                        0.008
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.00845,
-                        0.0125
+                        0.008,
+                        0.0095
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.0125,
-                        0.015
+                        0.0095,
+                        0.011
                     ]
                 }
             ],
@@ -10104,48 +10120,48 @@
             "modifierType": "Additive",
             "upgradeModifierOverride": {
                 "0": 0.0,
-                "1": 0.0025,
-                "2": 0.005,
-                "3": 0.0075,
-                "4": 0.01,
-                "5": 0.0125
+                "1": 0.001,
+                "2": 0.0025,
+                "3": 0.004,
+                "4": 0.0055,
+                "5": 0.007
             },
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Kritische Treffer durch Nahkampffertigkeiten stellen 1,5% Leben wieder her."
+                    "langTranslation": "Kritische Treffer durch Nahkampffertigkeiten stellen 1% Leben wieder her."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Critical Hits with Melee Skills recover 1.5% Life"
+                    "langTranslation": "Critical Hits with Melee Skills will Leech 1% Life"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Los golpes críticos con habilidades de cuerpo a cuerpo recuperan 1,5% de vida"
+                    "langTranslation": "Los golpes críticos con habilidades de cuerpo a cuerpo recuperan 1% de vida"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Les coups critiques avec les compétences de mêlée régénèrent 1,5% de votre santé"
+                    "langTranslation": "Les coups critiques avec les compétences de mêlée régénèrent 1% de votre santé"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "近接スキルでクリティカルヒットするとライフを1.5%回復する。"
+                    "langTranslation": "近接スキルでクリティカルヒットするとライフを1%回復する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Trafienia krytyczne umiejętnościami wręcz przywracają 1,5% pkt. życia"
+                    "langTranslation": "Trafienia krytyczne umiejętnościami wręcz przywracają 1% pkt. życia"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Acertos Críticos com Habilidades Corpo-a-corpo recuperam 1,5% de Vida"
+                    "langTranslation": "Acertos Críticos com Habilidades Corpo-a-corpo recuperam 1% de Vida"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Критические попадания навыками ближнего боя восстанавливают 1,5% ед. здоровья."
+                    "langTranslation": "Критические попадания навыками ближнего боя восстанавливают 1% ед. здоровья."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "近战技能暴击时可恢复 1.5% 生命值"
+                    "langTranslation": "近战技能暴击时可恢复 1% 生命值"
                 }
             ]
         },
@@ -11552,39 +11568,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Die Alte Glocke beschwört für 8 Sek. 1 Geister der katholischen Garde von Canudos."
+                    "langTranslation": "Die Alte Glocke beschwört für 8 Sek. 1 Geister der katholischen Garde von Canudos. Die Grundabklingzeit wird um 3 Sekunden erhöht."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "The Old Bell spawns 1 Spirits of the Canudos Catholic Guard for 8s."
+                    "langTranslation": "The Old Bell spawns 1 Spirits of the Canudos Catholic Guard for 8s. Base Cooldown is increased by 3 seconds."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "La Campana Antigua invoca 1 espíritus de la Guardia Católica de Canudos durante 8 s."
+                    "langTranslation": "La Campana Antigua invoca 1 espíritus de la Guardia Católica de Canudos durante 8 s. El enfriamiento base se incrementa en 3 segundos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "La Vieille Cloche invoque 1 esprits de la Garde catholique de Canudos pendant 8 s"
+                    "langTranslation": "La Vieille Cloche invoque 1 esprits de la Garde catholique de Canudos pendant 8 s. Le temps de recharge de base est augmenté de 3 secondes."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "古き鐘は1体のカヌードスカトリック衛兵の霊体を8秒間、出現させる。"
+                    "langTranslation": "古き鐘は1体のカヌードスカトリック衛兵の霊体を8秒間、出現させる。基本クールダウンが3秒増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przez 8 s Stary Dzwon przywołuje duchy Guarda Católica z Canudos (1)."
+                    "langTranslation": "Przez 8 s Stary Dzwon przywołuje duchy Guarda Católica z Canudos (1). Bazowy czas odnowienia zostaje wydłużony o 3 sekundy."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "O Velho Sino invoca 1 Espíritos da Guarda Católica de Canudos por 8s."
+                    "langTranslation": "O Velho Sino invoca 1 Espíritos da Guarda Católica de Canudos por 8s. Tempo de Recarga Base é aumentado em 3 segundos."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Старый колокол призывает духов католической стражи Канудуса (1 шт.) на 8 сек."
+                    "langTranslation": "Старый колокол призывает духов католической стражи Канудуса (1 шт.) на 8 сек. Базовое время перезарядки увеличено на 3 секунды."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "古钟生成 1 名卡努杜斯天主教卫队英灵，持续 8 秒。"
+                    "langTranslation": "古钟生成 1 名卡努杜斯天主教卫队英灵，持续 8 秒。基础冷却时间增加了3秒。"
                 }
             ]
         },
@@ -12890,7 +12906,7 @@
                 },
                 {
                     "type": "TierCategoryRollRange",
-                    "tier": 3,
+                    "tier": 4,
                     "rollRange": [
                         1.5,
                         1.6
@@ -12958,39 +12974,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Heiliger Rosenkranz umkreist den Spieler in gleichmäßiger Entfernung und fügt dabei +50%[+] Schaden zu."
+                    "langTranslation": "Heiliger Rosenkranz umkreist den Spieler in gleichmäßiger Entfernung und fügt dabei +60%[+] Schaden zu."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Holy Rosary orbits the player at constant distance dealing +50%[+] damage."
+                    "langTranslation": "Holy Rosary orbits the player at constant distance dealing +60%[+] damage."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Santo Rosario orbita alrededor del jugador a una distancia constante e inflige +50%[+] de daño."
+                    "langTranslation": "Santo Rosario orbita alrededor del jugador a una distancia constante e inflige +60%[+] de daño."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Saint rosaire reste en orbite à distance constante et inflige +50%[+] de dégâts"
+                    "langTranslation": "Saint rosaire reste en orbite à distance constante et inflige +60%[+] de dégâts"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "聖なるロザリオは一定の距離でプレイヤーを周回し、+50%[+]ダメージを与える。"
+                    "langTranslation": "聖なるロザリオは一定の距離でプレイヤーを周回し、+60%[+]ダメージを与える。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Święty Różaniec krąży wokół gracza w stałej odległości, zadając +50%[+] obrażeń."
+                    "langTranslation": "Święty Różaniec krąży wokół gracza w stałej odległości, zadając +60%[+] obrażeń."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Santo Rosário orbita o jogador a uma distância constante, causando +50%[+] de dano."
+                    "langTranslation": "Santo Rosário orbita o jogador a uma distância constante, causando +60%[+] de dano."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Святые четки кружат вокруг игрока на определенном расстоянии и наносят +50%[+] ед. урона."
+                    "langTranslation": "Святые четки кружат вокруг игрока на определенном расстоянии и наносят +60%[+] ед. урона."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "神圣念珠以恒定距离环绕玩家，并造成 +50%[+] 伤害。"
+                    "langTranslation": "神圣念珠以恒定距离环绕玩家，并造成 +60%[+] 伤害。"
                 }
             ]
         },
@@ -14906,7 +14922,7 @@
                 },
                 {
                     "type": "TierCategoryRollRange",
-                    "tier": 3,
+                    "tier": 4,
                     "rollRange": [
                         1.1,
                         1.2
@@ -14957,39 +14973,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beim Wirken von Des Feitors Peitsche erscheint für kurze Zeit ein Geist, der sie erneut wirkt und 110% des ursprünglichen Schadens verursacht. Gilt als Beschwörung und skaliert mit Beschwörungsschaden."
+                    "langTranslation": "Beim Wirken von Des Feitors Peitsche erscheint für kurze Zeit ein Geist, der sie erneut wirkt und 120% des ursprünglichen Schadens verursacht. Gilt als Beschwörung und skaliert mit Beschwörungsschaden."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "When you cast Feitor's Lash, a spirit briefly appears and cast it a second time dealing 110% of the original dmg. Counts as a Summon and scales with Summon damage."
+                    "langTranslation": "When you cast Feitor's Lash, a spirit briefly appears and cast it a second time dealing 120% of the original dmg. Counts as a Summon and scales with Summon damage."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Cuando invocas Látigo de Feitor, aparece brevemente un espíritu que lo invoca de nuevo e inflige 110% del daño original. Cuenta como invocación y se escala con el daño de Invocación."
+                    "langTranslation": "Cuando invocas Látigo de Feitor, aparece brevemente un espíritu que lo invoca de nuevo e inflige 120% del daño original. Cuenta como invocación y se escala con el daño de Invocación."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Lorsque vous lancez Fouet du contremaître, un esprit apparaît et le lance une seconde fois en infligeant 110% des dégâts d'origine. Cet esprit compte comme une invocation et ses dégâts s'ajustent avec les dégâts des invocations."
+                    "langTranslation": "Lorsque vous lancez Fouet du contremaître, un esprit apparaît et le lance une seconde fois en infligeant 120% des dégâts d'origine. Cet esprit compte comme une invocation et ses dégâts s'ajustent avec les dégâts des invocations."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "監督者の鞭を発動するとき、霊体が一時的に出現してこれをもう1回発動し、本来のダメージの110%を与える。これは召喚としてカウントされ、召喚ダメージへの補正を受ける。"
+                    "langTranslation": "監督者の鞭を発動するとき、霊体が一時的に出現してこれをもう1回発動し、本来のダメージの120%を与える。これは召喚としてカウントされ、召喚ダメージへの補正を受ける。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Gdy rzucasz Bicz Nadzorcy, pojawia się duch, który natychmiast rzuca go ponownie, zadając 110% oryginalnych obrażeń. Liczy się jako Przyzwanie i skaluje się z obrażeniami od Przyzwań."
+                    "langTranslation": "Gdy rzucasz Bicz Nadzorcy, pojawia się duch, który natychmiast rzuca go ponownie, zadając 120% oryginalnych obrażeń. Liczy się jako Przyzwanie i skaluje się z obrażeniami od Przyzwań."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Quando você conjura Chicote do Feitor, um espírito aparece brevemente e o conjura uma segunda vez, causando 110% do dano original. Conta como uma Invocação e escala com dano de Invocação."
+                    "langTranslation": "Quando você conjura Chicote do Feitor, um espírito aparece brevemente e o conjura uma segunda vez, causando 120% do dano original. Conta como uma Invocação e escala com dano de Invocação."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Когда вы применяете плеть надзирателя, ненадолго появляется дух и применяет ее второй раз, нанося 110% от первоначального урона. Считается за призыв, и урон зависит от урона призванного существа."
+                    "langTranslation": "Когда вы применяете плеть надзирателя, ненадолго появляется дух и применяет ее второй раз, нанося 120% от первоначального урона. Считается за призыв, и урон зависит от урона призванного существа."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "施展监督者之鞭时，会短暂召唤出一个灵体，由其再次施展该技能，造成原始伤害 110% 的伤害。该效果视为召唤，受召唤伤害加成影响。"
+                    "langTranslation": "施展监督者之鞭时，会短暂召唤出一个灵体，由其再次施展该技能，造成原始伤害 120% 的伤害。该效果视为召唤，受召唤伤害加成影响。"
                 }
             ]
         },
@@ -17585,7 +17601,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Whenever you Life Steal, gain a stack of Bloodshot. Each stack grants +21%[+] Melee Skill damage for 5s. stacking up to 10 times."
+                    "langTranslation": "Whenever you Life Leech, gain a stack of Bloodshot. Each stack grants +21%[+] Melee Skill damage for 5s. stacking up to 10 times."
                 },
                 {
                     "langCode": "es",

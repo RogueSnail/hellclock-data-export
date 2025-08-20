@@ -1,0 +1,450 @@
+{
+    "name": "BaseDropConfig",
+    "type": "BaseDropConfig",
+    "gearDropRarityConfigs": [
+        {
+            "weight": 1.0,
+            "value": {
+                "name": "EpicGearRarity",
+                "type": "GearRarity",
+                "multiplierRange": [
+                    2.0,
+                    2.2
+                ],
+                "sellingValueMultiplier": 12.0,
+                "color": "RGBA(1.000, 0.314, 0.176, 1.000)",
+                "localizedName": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "(Episch)"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Epic"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Épica"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "épique"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "エピック"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Epickie"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Épico"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Эпич."
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "史诗"
+                    }
+                ]
+            }
+        },
+        {
+            "weight": 15.0,
+            "value": {
+                "name": "RareGearRarity",
+                "type": "GearRarity",
+                "multiplierRange": [
+                    1.6,
+                    1.8
+                ],
+                "sellingValueMultiplier": 6.0,
+                "color": "RGBA(0.992, 0.675, 0.000, 1.000)",
+                "localizedName": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "(Selten)"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Rare"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Rara"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "rare"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "レア"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Rzadkie"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Raro"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Редк."
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "稀有"
+                    }
+                ]
+            }
+        },
+        {
+            "weight": 45.0,
+            "value": {
+                "name": "MagicGearRarity",
+                "type": "GearRarity",
+                "multiplierRange": [
+                    1.2,
+                    1.4
+                ],
+                "sellingValueMultiplier": 3.0,
+                "color": "RGBA(0.278, 0.647, 1.000, 1.000)",
+                "localizedName": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "(Magisch)"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Magic"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Mágica"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "magique"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "マジック"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Magiczne"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Mágico"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Необычн."
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "魔法"
+                    }
+                ]
+            }
+        },
+        {
+            "weight": 40.0,
+            "value": {
+                "name": "CommonGearRarity",
+                "type": "GearRarity",
+                "multiplierRange": [
+                    1.0,
+                    1.1
+                ],
+                "sellingValueMultiplier": 1.0,
+                "color": "RGBA(0.764, 0.693, 0.638, 1.000)",
+                "localizedName": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "(Gewöhnlich)"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Common"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Común"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "ordinaire"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "コモン"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Powszechne"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Comum"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Обычн."
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "普通"
+                    }
+                ]
+            }
+        }
+    ],
+    "commonGearRarity": {
+        "name": "CommonGearRarity",
+        "type": "GearRarity",
+        "multiplierRange": [
+            1.0,
+            1.1
+        ],
+        "sellingValueMultiplier": 1.0,
+        "color": "RGBA(0.764, 0.693, 0.638, 1.000)",
+        "localizedName": [
+            {
+                "langCode": "de",
+                "langTranslation": "(Gewöhnlich)"
+            },
+            {
+                "langCode": "en",
+                "langTranslation": "Common"
+            },
+            {
+                "langCode": "es",
+                "langTranslation": "Común"
+            },
+            {
+                "langCode": "fr",
+                "langTranslation": "ordinaire"
+            },
+            {
+                "langCode": "ja",
+                "langTranslation": "コモン"
+            },
+            {
+                "langCode": "pl",
+                "langTranslation": "Powszechne"
+            },
+            {
+                "langCode": "pt-br",
+                "langTranslation": "Comum"
+            },
+            {
+                "langCode": "ru",
+                "langTranslation": "Обычн."
+            },
+            {
+                "langCode": "zh-cn",
+                "langTranslation": "普通"
+            }
+        ]
+    },
+    "uncommonGearRarity": {
+        "name": "MagicGearRarity",
+        "type": "GearRarity",
+        "multiplierRange": [
+            1.2,
+            1.4
+        ],
+        "sellingValueMultiplier": 3.0,
+        "color": "RGBA(0.278, 0.647, 1.000, 1.000)",
+        "localizedName": [
+            {
+                "langCode": "de",
+                "langTranslation": "(Magisch)"
+            },
+            {
+                "langCode": "en",
+                "langTranslation": "Magic"
+            },
+            {
+                "langCode": "es",
+                "langTranslation": "Mágica"
+            },
+            {
+                "langCode": "fr",
+                "langTranslation": "magique"
+            },
+            {
+                "langCode": "ja",
+                "langTranslation": "マジック"
+            },
+            {
+                "langCode": "pl",
+                "langTranslation": "Magiczne"
+            },
+            {
+                "langCode": "pt-br",
+                "langTranslation": "Mágico"
+            },
+            {
+                "langCode": "ru",
+                "langTranslation": "Необычн."
+            },
+            {
+                "langCode": "zh-cn",
+                "langTranslation": "魔法"
+            }
+        ]
+    },
+    "rareGearRarity": {
+        "name": "RareGearRarity",
+        "type": "GearRarity",
+        "multiplierRange": [
+            1.6,
+            1.8
+        ],
+        "sellingValueMultiplier": 6.0,
+        "color": "RGBA(0.992, 0.675, 0.000, 1.000)",
+        "localizedName": [
+            {
+                "langCode": "de",
+                "langTranslation": "(Selten)"
+            },
+            {
+                "langCode": "en",
+                "langTranslation": "Rare"
+            },
+            {
+                "langCode": "es",
+                "langTranslation": "Rara"
+            },
+            {
+                "langCode": "fr",
+                "langTranslation": "rare"
+            },
+            {
+                "langCode": "ja",
+                "langTranslation": "レア"
+            },
+            {
+                "langCode": "pl",
+                "langTranslation": "Rzadkie"
+            },
+            {
+                "langCode": "pt-br",
+                "langTranslation": "Raro"
+            },
+            {
+                "langCode": "ru",
+                "langTranslation": "Редк."
+            },
+            {
+                "langCode": "zh-cn",
+                "langTranslation": "稀有"
+            }
+        ]
+    },
+    "epicGearRarity": {
+        "name": "EpicGearRarity",
+        "type": "GearRarity",
+        "multiplierRange": [
+            2.0,
+            2.2
+        ],
+        "sellingValueMultiplier": 12.0,
+        "color": "RGBA(1.000, 0.314, 0.176, 1.000)",
+        "localizedName": [
+            {
+                "langCode": "de",
+                "langTranslation": "(Episch)"
+            },
+            {
+                "langCode": "en",
+                "langTranslation": "Epic"
+            },
+            {
+                "langCode": "es",
+                "langTranslation": "Épica"
+            },
+            {
+                "langCode": "fr",
+                "langTranslation": "épique"
+            },
+            {
+                "langCode": "ja",
+                "langTranslation": "エピック"
+            },
+            {
+                "langCode": "pl",
+                "langTranslation": "Epickie"
+            },
+            {
+                "langCode": "pt-br",
+                "langTranslation": "Épico"
+            },
+            {
+                "langCode": "ru",
+                "langTranslation": "Эпич."
+            },
+            {
+                "langCode": "zh-cn",
+                "langTranslation": "史诗"
+            }
+        ]
+    },
+    "blessedGearRarity": {
+        "name": "BlessedGearRarity",
+        "type": "GearRarity",
+        "multiplierRange": [
+            1.0,
+            1.33333337
+        ],
+        "sellingValueMultiplier": 1.0,
+        "color": "RGBA(1.000, 0.949, 0.459, 1.000)",
+        "localizedName": [
+            {
+                "langCode": "de",
+                "langTranslation": "(Gesegnet)"
+            },
+            {
+                "langCode": "en",
+                "langTranslation": "Blessed"
+            },
+            {
+                "langCode": "es",
+                "langTranslation": "Bendecida"
+            },
+            {
+                "langCode": "fr",
+                "langTranslation": "céleste"
+            },
+            {
+                "langCode": "ja",
+                "langTranslation": "祝福"
+            },
+            {
+                "langCode": "pl",
+                "langTranslation": "Błogosławione"
+            },
+            {
+                "langCode": "pt-br",
+                "langTranslation": "Abençoado"
+            },
+            {
+                "langCode": "ru",
+                "langTranslation": "Божеств."
+            },
+            {
+                "langCode": "zh-cn",
+                "langTranslation": "圣铸"
+            }
+        ]
+    }
+}
