@@ -4351,39 +4351,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "3% des Schadens durch Doppelmesser wird in Leben umgewandelt."
+                    "langTranslation": "Doppelmesser-Treffer haben 3% Lebensraub"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "3% of Double Knives' damage is converted to Life."
+                    "langTranslation": "Double Knives hits have 3% Life Leech"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "3% del daño de Cuchillos Dobles se convierte en vida."
+                    "langTranslation": "Los golpes de Doble Cuchillo tienen 3% de Robavida"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "3% des dégâts de Double tranchant sont convertis en santé"
+                    "langTranslation": "Les frappes de Double Couteaux ont 3% de Drain de vie"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ダブルナイフのダメージの3%がライフに変換される。"
+                    "langTranslation": "ダブルナイフの攻撃は 3% ライフ吸収を持つ"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "3% obrażeń zadawanych przez Podwójne Noże zostaje zamienionych w życie"
+                    "langTranslation": "Ataki Podwójnych Noży mają 3% Kradzieży życia"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "3% do dano causado por Peixeiras é convertido em Vida."
+                    "langTranslation": "Acertos com Peixeiras concedem 3% de Vampirismo de Vida"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "3% урона двойных ножей превращается в здоровье."
+                    "langTranslation": "Удары Двойных Кинжалов имеют 3% Кражи здоровья"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "双刃旋斩造成伤害的 3% 转化为生命值。"
+                    "langTranslation": "双刃打击拥有 3% 吸血"
                 }
             ]
         },

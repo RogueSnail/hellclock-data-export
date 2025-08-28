@@ -1,6 +1,136 @@
 {
     "name": "PlayerSheet",
     "type": "PlayerSheet",
+    "basicAttackSkillDefinition": {
+        "name": "BasicAttackDefinition",
+        "id": 0,
+        "type": "RangedAttackSkillDefinition"
+    },
+    "availableSkillDefinitions": [
+        {
+            "name": "BasicAttackDefinition",
+            "id": 0,
+            "type": "RangedAttackSkillDefinition"
+        },
+        {
+            "name": "ClosedBodySkillDefinition",
+            "id": 157,
+            "type": "ClosedBodySkillDefinition"
+        },
+        {
+            "name": "DoubleKnivesSkillDefinition",
+            "id": 69,
+            "type": "DoubleKnivesSkillDefinition"
+        },
+        {
+            "name": "FeitorsLashSkillDefinition",
+            "id": 72,
+            "type": "SlashSkillDefinition"
+        },
+        {
+            "name": "JudgementDefinition",
+            "id": 67,
+            "type": "PlaceEffectAreaSkillDefinition"
+        },
+        {
+            "name": "LassoSkillDefinition",
+            "id": 71,
+            "type": "LassoSkillDefinition"
+        },
+        {
+            "name": "PassageSkillDefinition",
+            "id": 70,
+            "type": "PassageSkillDefinition"
+        },
+        {
+            "name": "PrayerOfHealthSkillDefinition",
+            "id": 46,
+            "type": "PrayerOfHealthSkillDefinition"
+        },
+        {
+            "name": "PrayerOfVengeanceSkillDefinition",
+            "id": 49,
+            "type": "PrayerOfVengeanceSkillDefinition"
+        },
+        {
+            "name": "ReflexesDefinition",
+            "id": 4,
+            "type": "ReflexesSkillDefinition"
+        },
+        {
+            "name": "RepeaterDefinition",
+            "id": 3,
+            "type": "RepeaterSkillDefinition"
+        },
+        {},
+        {
+            "name": "ShadowDashDefinition",
+            "id": 2,
+            "type": "ShadowDashSkillDefinition"
+        },
+        {
+            "name": "SplitshotDefinition",
+            "id": 1,
+            "type": "SplitshotSkillDefinition"
+        },
+        {
+            "name": "Matadeira Skill Definition",
+            "id": 209,
+            "type": "SpawnFallingProjectilesSkillDefinition"
+        },
+        {
+            "name": "TheOldBellSkillDefinition",
+            "id": 50,
+            "type": "TheOldBellSkillDefinition"
+        },
+        {
+            "name": "SlowTimeSkillDefinition",
+            "id": 74,
+            "type": "PlaceEffectAreaSkillDefinition"
+        },
+        {
+            "name": "Use Potion Skill Definition",
+            "id": 150,
+            "type": "UsePotionSkillDefinition"
+        },
+        {
+            "name": "BombardmentSkillDefinition",
+            "id": 201,
+            "type": "SpawnFallingProjectilesSkillDefinition"
+        },
+        {
+            "name": "Summon The Guard Skill Definition",
+            "id": 203,
+            "type": "SummonTheGuardSkillDefinition"
+        },
+        {
+            "name": "Holy Rosary Skill Definition",
+            "id": 210,
+            "type": "SpinningProjectileAttackSkillDefinition"
+        },
+        {
+            "name": "Veil of Quils Skill Definition",
+            "id": 211,
+            "type": "HomingProjectileAttackSkillDefinition"
+        },
+        {
+            "name": "Summon Brute Skill Definition",
+            "id": 323,
+            "type": "SummonBruteSkillDefinition"
+        },
+        {},
+        {
+            "name": "Summon Marksmen Skill Definition",
+            "id": 326,
+            "type": "SummonMarksmenSkillDefinition"
+        },
+        {}
+    ],
+    "usePotionSkillDefinition": {
+        "name": "Use Potion Skill Definition",
+        "id": 150,
+        "type": "UsePotionSkillDefinition"
+    },
     "vengeanceModeStatConfigs": [
         {
             "type": "VengeanceModeStatConfig",
