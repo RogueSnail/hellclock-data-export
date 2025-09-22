@@ -11200,6 +11200,13 @@
                             "baseValue": 1.0,
                             "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Rounded"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Max Amount",
+                            "baseValue": 4.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
                         }
                     ]
                 }
