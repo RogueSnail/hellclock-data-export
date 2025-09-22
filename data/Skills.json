@@ -15,7 +15,7 @@
             },
             "bulletCount": 1,
             "bounceAmount": 0,
-            "canPierce": false,
+            "pierceAmount": 0,
             "manaCost": 0.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
@@ -99,8 +99,91 @@
             "icon": "IconSkill_BasicAttack",
             "baseDamageMod": 1.0,
             "eDamageType": "PHYSICAL",
-            "modifiersPerLevel": {},
+            "isAreaDamage": false,
+            "modifiersPerLevel": {
+                "1": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.3
+                    }
+                ],
+                "2": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.6
+                    }
+                ],
+                "3": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.9
+                    }
+                ],
+                "4": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.2
+                    }
+                ],
+                "5": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.5
+                    }
+                ],
+                "6": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.8
+                    }
+                ],
+                "7": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.1
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.4
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.7
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.0
+                    }
+                ]
+            },
             "statModifiersPerRankUpgrade": [],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -148,7 +231,7 @@
             },
             "bulletCount": 3,
             "bounceAmount": 0,
-            "canPierce": false,
+            "pierceAmount": 0,
             "manaCost": 120.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
@@ -230,20 +313,21 @@
                 }
             ],
             "icon": "IconSkill_SplitShot",
-            "baseDamageMod": 0.6,
+            "baseDamageMod": 0.8,
             "eDamageType": "FIRE",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.2
+                        "value": 0.25
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -252,12 +336,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.4
+                        "value": 0.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -266,30 +350,16 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.6
+                        "value": 0.75
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
                 "4": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.8
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.6
-                    }
-                ],
-                "5": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
@@ -299,7 +369,21 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 2.6
+                    }
+                ],
+                "5": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.25
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     }
                 ],
@@ -308,12 +392,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.2
+                        "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.6
                     }
                 ],
@@ -322,12 +406,54 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.4
+                        "value": 1.75
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.25
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -337,9 +463,10 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "CriticalDamage",
                     "modifierType": "Additive",
-                    "value": 0.03
+                    "value": 0.02
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -453,6 +580,7 @@
             "icon": "IconSkill_ShadowDash",
             "baseDamageMod": 0.8,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -464,7 +592,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -478,7 +606,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -492,7 +620,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -506,7 +634,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.0
                     }
                 ],
@@ -520,7 +648,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.3
                     }
                 ],
@@ -534,7 +662,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.65
                     }
                 ],
@@ -548,7 +676,49 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 4.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 5.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -561,6 +731,7 @@
                     "value": 0.975
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -681,20 +852,21 @@
                 }
             ],
             "icon": "IconSkill_Repeater",
-            "baseDamageMod": 0.66,
+            "baseDamageMod": 0.8,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.2
+                        "value": 0.24
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -703,12 +875,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.4
+                        "value": 0.48
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -717,12 +889,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.6
+                        "value": 0.72
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -731,30 +903,16 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.8
+                        "value": 0.96
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     }
                 ],
                 "5": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.0
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.1
-                    }
-                ],
-                "6": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
@@ -764,7 +922,21 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 3.1
+                    }
+                ],
+                "6": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.44
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 3.6
                     }
                 ],
@@ -773,12 +945,54 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.4
+                        "value": 1.68
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.92
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.16
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.4
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -788,9 +1002,10 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "CriticalChance",
                     "modifierType": "Additive",
-                    "value": 0.0075
+                    "value": 0.005
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -818,12 +1033,16 @@
             "id": 4,
             "type": "ReflexesSkillDefinition",
             "targetIndicatorAnticipationTime": 0.2,
-            "anticipationTime": 0.2,
             "durationTime": 5.0,
+            "activationBuff": {
+                "name": "Reflexes - Activation Bonus Damage",
+                "id": 166,
+                "type": "SkillBehaviorStatusDefinition"
+            },
             "knivesCount": 5,
             "knifeThrowDistanceBonus": 3.0,
             "knifeRegenTime": 3.0,
-            "throwKnifeInterval": 0.3,
+            "throwKnifeInterval": 0.2,
             "manaCost": 0.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
@@ -831,39 +1050,39 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Reflexe"
+                    "langTranslation": "Spektralmesser"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Reflexes"
+                    "langTranslation": "Spectral Knives"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Reflejos"
+                    "langTranslation": "Cuchillos Espectrales"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Réflexes"
+                    "langTranslation": "Couteaux Spectraux"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "即応撃"
+                    "langTranslation": "霊体のナイフ"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Refleksy"
+                    "langTranslation": "Widmowe Noże"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Reflexos"
+                    "langTranslation": "Adagas Espectrais"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Рефлексы"
+                    "langTranslation": "Призрачные Ножи"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "反应加速"
+                    "langTranslation": "幽冥飞刀"
                 }
             ],
             "descriptionKey": [
@@ -873,7 +1092,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Summons a ring of Spectral Knives around the player that are automatically thrown at nearby enemies."
+                    "langTranslation": "Summons a ring of Spectral Knives around you that are automatically thrown at nearby enemies.\n\nActivating the Skill instantly regenerates the Knives and makes them shoot faster and deal more damage for a few seconds.\n\nSpectral Knives' chance to Bleed is naturally doubled."
                 },
                 {
                     "langCode": "es",
@@ -905,20 +1124,21 @@
                 }
             ],
             "icon": "IconSkill_Reflexes",
-            "baseDamageMod": 0.75,
+            "baseDamageMod": 0.5,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.375
+                        "value": 0.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -927,12 +1147,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.75
+                        "value": 0.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -941,12 +1161,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.125
+                        "value": 0.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -955,12 +1175,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.875
+                        "value": 0.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.0
                     }
                 ],
@@ -969,12 +1189,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.25
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.3
                     }
                 ],
@@ -983,12 +1203,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.625
+                        "value": 1.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.65
                     }
                 ],
@@ -997,12 +1217,54 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.0
+                        "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.8
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -1015,6 +1277,14 @@
                     "value": 1.022
                 }
             ],
+            "skillDamageStatModifiers": {
+                "Reflexes Bleed Bonus": {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "ChanceToApplyBleed",
+                    "modifierType": "Multiplicative",
+                    "value": 2.0
+                }
+            },
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -1033,13 +1303,14 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 8.0,
+            "cooldown": 11.0,
             "minCooldown": 0.5,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 7.0,
             "skillTags": [
                 "Projectile",
+                "Spell",
                 "Physical Damage"
             ]
         },
@@ -1053,6 +1324,16 @@
                 "name": "Prayer of Health - Damage Reduction Status Definition",
                 "id": 99,
                 "type": "StatModifierStatusDefinition"
+            },
+            "fireAreaDefinition": {
+                "name": "Prayer of Health - Righteous Blade - FIre Area Definition",
+                "id": 83,
+                "type": "IntervalDamageAreaDefinition"
+            },
+            "lifeDrainStatusDefinition": {
+                "name": "Prayer of Health - Righteous Blade - Life Drain Status Definition",
+                "id": 118,
+                "type": "DrainResourceStatusDefinition"
             },
             "auraStatusDefinition": {
                 "name": "Prayer of Health - Aura Status Definition",
@@ -1141,9 +1422,36 @@
             ],
             "icon": "IconSkill_PrayerofHealth",
             "baseDamageMod": 0.0,
-            "eDamageType": "PHYSICAL",
+            "eDamageType": "FIRE",
+            "isAreaDamage": true,
             "modifiersPerLevel": {
                 "1": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.15
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.15
+                    }
+                ],
+                "2": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
@@ -1153,11 +1461,49 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 1.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
-                "2": [
+                "3": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.45
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.15
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.15
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.45
+                    }
+                ],
+                "4": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
@@ -1167,11 +1513,49 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.65
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.6
                     }
                 ],
-                "3": [
+                "5": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.75
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.75
+                    }
+                ],
+                "6": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
@@ -1181,50 +1565,20 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.15
-                    }
-                ],
-                "4": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.1
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.0
-                    }
-                ],
-                "5": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 2.4
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.3
-                    }
-                ],
-                "6": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 2.7
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
                         "value": 3.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.9
                     }
                 ],
                 "7": [
@@ -1232,13 +1586,103 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.0
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.15
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.4
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.8
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.45
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 5.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Life Drain Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.0
                     }
                 ]
             },
@@ -1250,6 +1694,7 @@
                     "value": 0.0075
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 14.5,
             "minCooldown": 0.0,
@@ -1325,7 +1770,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Gain {0} to Critical Hit Chance and Critical Damage passively.\n\nActivating the Prayer increases the intensity of this effect by {1} temporarily.\n\nThis Skill affects both you and your allies."
+                    "langTranslation": "Gain {0} Critical Hit Chance and {2} Critical Damage passively.\n\nActivating the Prayer increases the intensity of this effect by {1} temporarily.\n\nThis Skill affects both you and your allies."
                 },
                 {
                     "langCode": "es",
@@ -1345,7 +1790,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ganhe {0} de Chance de Acerto Crítico e Dano de Crítico passivamente.\n\nAtivar a Reza aumenta a intensidade deste efeito em {1} temporariamente.\n\nEsta Habilidade afeta tanto você quanto seus aliados."
+                    "langTranslation": "Ganhe {0} Chance de Acerto Crítico e {2} Dano de Crítico passivamente.\n\nAtivar a Reza aumenta a intensidade deste efeito em {1} temporariamente.\n\nEsta Habilidade afeta tanto você quanto seus aliados."
                 },
                 {
                     "langCode": "ru",
@@ -1359,6 +1804,7 @@
             "icon": "IconSkill_PrayerofVengeance",
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -1376,13 +1822,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -1402,13 +1848,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -1428,13 +1874,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -1454,13 +1900,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.0
                     }
                 ],
@@ -1480,13 +1926,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.3
                     }
                 ],
@@ -1506,13 +1952,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.65
                     }
                 ],
@@ -1532,13 +1978,91 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalChance Modifier",
                         "modifierType": "MultiplicativeAdditive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalDamage Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalChance Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalDamage Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalChance Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalDamage Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -1551,6 +2075,7 @@
                     "value": 0.0075
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 20.0,
             "minCooldown": 0.0,
@@ -1650,25 +2175,20 @@
                 }
             ],
             "icon": "IconSkill_OldBell",
-            "baseDamageMod": 2.5,
+            "baseDamageMod": 4.0,
             "eDamageType": "PLAGUE",
+            "isAreaDamage": true,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.75
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.1
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 1.1
                     }
@@ -1678,17 +2198,11 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.2
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 1.2
                     }
@@ -1698,17 +2212,11 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.25
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.3
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 1.3
                     }
@@ -1718,18 +2226,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.0
+                        "value": 4.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.4
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.4
                     }
                 ],
@@ -1738,18 +2240,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.75
+                        "value": 5.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.5
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.5
                     }
                 ],
@@ -1758,18 +2254,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.25
+                        "value": 6.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.6
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.6
                     }
                 ],
@@ -1778,18 +2268,54 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.75
+                        "value": 7.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.7
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 8.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 9.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 10.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 1.7
                     }
                 ]
@@ -1808,6 +2334,7 @@
                     "value": 1.015
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -1818,7 +2345,7 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 0.5,
+            "cooldown": 1.3,
             "minCooldown": 0.16,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
@@ -1837,7 +2364,7 @@
             "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
             "canPlaceMultiple": true,
             "parentToCaster": false,
-            "manaCost": 300.0,
+            "manaCost": 210.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
             "baseSkillSpeed": 1.0,
@@ -1882,44 +2409,45 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Alle Gegner im Zielbereich werden verurteilt, wodurch all ihre Resistenzen {0} Sek. lang um 40 % verringert werden."
+                    "langTranslation": "Alle Gegner im Zielbereich werden verurteilt, wodurch all ihre Resistenzen {0} Sek. lang um 20% verringert werden. Betroffene Gegner erleiden zudem 20% zusätzlichen Schaden durch Beeinträchtigungen."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "All enemies in the target area are judged, reducing all their resistances by 40% over {0}s."
+                    "langTranslation": "All enemies in the target area are judged, reducing all their resistances by 20% over {0}s. Affected enemies also take 20% more damage from Ailments."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Se juzga a todos los enemigos del área objetivo, lo que reduce todas las resistencias en un 40 % durante {0} s."
+                    "langTranslation": "Se juzga a todos los enemigos en el área objetivo, reduciendo todas sus resistencias en un 20% durante {0} s. Los enemigos afectados también reciben un 20% de daño adicional por Afecciones."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Tous les ennemis dans la zone ciblée sont jugés, ce qui réduit toutes leurs résistances de 40% pendant {0} secondes."
+                    "langTranslation": "Tous les ennemis dans la zone ciblée sont jugés, réduisant toutes leurs résistances de 20% pendant {0} secondes. Les ennemis affectés subissent également 20% de dégâts supplémentaires provenant des altérations."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "対象エリア内の敵はすべて審判状態になり、{0}秒間、あらゆる抵抗が40%低下する。"
+                    "langTranslation": "対象エリア内のすべての敵が審判を受け、{0}秒間あらゆる耐性が20%低下する。影響を受けた敵はさらに状態異常からのダメージが20%増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Wszyscy wrogowie w obszarze docelowym zostają osądzeni, co zmniejsza ich odporności o 40% w ciągu {0} s."
+                    "langTranslation": "Wszyscy wrogowie w obszarze docelowym zostają osądzeni, co zmniejsza ich odporności o 20% na {0} s. Dotknięci wrogowie otrzymują także 20% dodatkowych obrażeń od dolegliwości."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Todos os inimigos na área alvo são julgados, reduzindo todas suas resistências em 40% durante {0}s."
+                    "langTranslation": "Todos os inimigos na área alvo são julgados, reduzindo todas suas resistências em 20% durante {0}s. Inimigos afetados também recebem 20% de dano adicional de Condições."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Все враги в области действия навыка получают -40% к сопротивлению всем типам урона на {0} сек."
+                    "langTranslation": "Все враги в целевой области подвергаются суду, снижая все их сопротивления на 20% в течение {0} сек. Затронутые враги также получают на 20% больше урона от недугов."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "目标区域内的所有敌人被审判，全体抗性降低 40%，持续 {0} 秒。"
+                    "langTranslation": "目标区域内的所有敌人将被审判，在 {0} 秒内全抗性降低 20%。受影响的敌人还会受到 20% 额外的异常状态伤害。"
                 }
             ],
             "icon": "IconSkill_Judgement",
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -2018,6 +2546,48 @@
                         "modifierType": "MultiplicativeAdditive",
                         "value": 2.9
                     }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 4.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Status Duration Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 3.1
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 4.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Status Duration Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 3.3
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 4.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Status Duration Modifier",
+                        "modifierType": "MultiplicativeAdditive",
+                        "value": 3.5
+                    }
                 ]
             },
             "statModifiersPerRankUpgrade": [
@@ -2025,9 +2595,10 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "AilmentDuration",
                     "modifierType": "Additive",
-                    "value": 0.03
+                    "value": 0.04
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -2038,8 +2609,8 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 1.0,
-            "minCooldown": 0.2,
+            "cooldown": 9.0,
+            "minCooldown": 0.3,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 0.0,
@@ -2143,20 +2714,21 @@
                 }
             ],
             "icon": "IconSkill_DoubleKnives",
-            "baseDamageMod": 0.75,
+            "baseDamageMod": 0.55,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.225
+                        "value": 0.23
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -2170,7 +2742,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -2179,12 +2751,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.675
+                        "value": 0.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -2198,7 +2770,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     }
                 ],
@@ -2207,12 +2779,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.125
+                        "value": 1.15
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     }
                 ],
@@ -2221,13 +2793,13 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.35
+                        "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.6
+                        "modifierType": "Multiplicative",
+                        "value": 3.7
                     }
                 ],
                 "7": [
@@ -2235,13 +2807,55 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 1.65
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 4.0
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.8
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.95
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.1
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
                     }
                 ]
             },
@@ -2253,6 +2867,7 @@
                     "value": 0.0075
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -2369,6 +2984,7 @@
             "icon": "IconSkill_Passage",
             "baseDamageMod": 1.0,
             "eDamageType": "LIGHTNING",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -2380,7 +2996,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -2394,7 +3010,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -2408,7 +3024,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -2422,7 +3038,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.0
                     }
                 ],
@@ -2436,7 +3052,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.3
                     }
                 ],
@@ -2450,7 +3066,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.65
                     }
                 ],
@@ -2464,7 +3080,49 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 4.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 5.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -2477,6 +3135,7 @@
                     "value": 0.015
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -2487,7 +3146,7 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 3.5,
+            "cooldown": 4.8,
             "minCooldown": 0.4,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
@@ -2602,6 +3261,7 @@
             "icon": "IconSkill_Lasso",
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -2613,7 +3273,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     },
                     {
@@ -2633,7 +3293,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     },
                     {
@@ -2653,7 +3313,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     },
                     {
@@ -2673,7 +3333,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     },
                     {
@@ -2693,7 +3353,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     },
                     {
@@ -2713,7 +3373,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.7
                     },
                     {
@@ -2733,7 +3393,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     },
                     {
@@ -2741,6 +3401,66 @@
                         "skillValueModifierKey": "Bleed Intensity Modifier",
                         "modifierType": "Multiplicative",
                         "value": 3.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Bleed Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Bleed Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.6
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Bleed Intensity Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
                     }
                 ]
             },
@@ -2752,6 +3472,7 @@
                     "value": 1.015
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -2861,18 +3582,19 @@
             "icon": "IconSkill_FeitorsLash",
             "baseDamageMod": 1.65,
             "eDamageType": "FIRE",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.36
+                        "value": 0.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -2881,12 +3603,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.72
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -2895,12 +3617,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.08
+                        "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -2909,44 +3631,16 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.44
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     }
                 ],
                 "5": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.8
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.1
-                    }
-                ],
-                "6": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 2.16
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.7
-                    }
-                ],
-                "7": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
@@ -2956,7 +3650,77 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 3.1
+                    }
+                ],
+                "6": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.7
+                    }
+                ],
+                "7": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 4.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 5.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.2
                     }
                 ]
@@ -2969,6 +3733,7 @@
                     "value": 1.022
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 0.5,
             "minCooldown": 0.16,
@@ -3072,24 +3837,25 @@
             "icon": "IconSkill_SlowTime",
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Duration Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -3097,19 +3863,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Duration Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -3117,19 +3883,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Duration Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.9
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -3137,19 +3903,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Duration Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.0
                     }
                 ],
@@ -3157,19 +3923,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Duration Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.3
                     }
                 ],
@@ -3177,19 +3943,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Duration Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.65
                     }
                 ],
@@ -3197,20 +3963,80 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Duration Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 4.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.65
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.9
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
                     }
                 ]
             },
@@ -3222,6 +4048,7 @@
                     "value": 0.01
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -3329,8 +4156,10 @@
             "icon": "Icon_Potion_Base",
             "baseDamageMod": 1.0,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 0.15,
             "minCooldown": 0.05,
@@ -3345,13 +4174,13 @@
             "name": "ClosedBodySkillDefinition",
             "id": 157,
             "type": "ClosedBodySkillDefinition",
-            "retaliationAuraStatusDuration": 5.0,
+            "retaliationAuraStatusDuration": 10.0,
             "retaliationAuraStatusDefinition": {
                 "name": "ClosedBodyStatusDefinition",
                 "id": 74,
                 "type": "ClosedBodyAuraStatusDefinition"
             },
-            "baseConvictionPercentage": 1,
+            "baseConvictionPercentage": 0.4,
             "manaCost": 0.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
@@ -3433,27 +4262,34 @@
                 }
             ],
             "icon": "IconSkill_ClosedBody",
-            "baseDamageMod": 1.0,
+            "baseDamageMod": 2.5,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.3
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.3
+                        "modifierType": "Multiplicative",
+                        "value": 1.05
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Base Conviction Percentage Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.1
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.0
                     }
                 ],
                 "2": [
@@ -3461,19 +4297,25 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.6
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.65
+                        "modifierType": "Multiplicative",
+                        "value": 1.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Base Conviction Percentage Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.4
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.3
                     }
                 ],
                 "3": [
@@ -3481,19 +4323,25 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.9
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.15
+                        "modifierType": "Multiplicative",
+                        "value": 1.35
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Base Conviction Percentage Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.5
                     }
                 ],
                 "4": [
@@ -3501,19 +4349,25 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.2
+                        "value": 4.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.6
+                        "modifierType": "Multiplicative",
+                        "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Base Conviction Percentage Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.75
                     }
                 ],
                 "5": [
@@ -3521,19 +4375,25 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 5.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.1
+                        "modifierType": "Multiplicative",
+                        "value": 1.65
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Base Conviction Percentage Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.9
                     }
                 ],
                 "6": [
@@ -3541,19 +4401,25 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.8
+                        "value": 6.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.7
+                        "modifierType": "Multiplicative",
+                        "value": 1.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Base Conviction Percentage Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.1
                     }
                 ],
                 "7": [
@@ -3561,19 +4427,103 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.1
+                        "value": 7.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 4.0
+                        "modifierType": "Multiplicative",
+                        "value": 1.95
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Base Conviction Percentage Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.9
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.3
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 8.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.95
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Base Conviction Percentage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.44
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 9.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.95
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Base Conviction Percentage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.6
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 10.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.95
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Base Conviction Percentage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.8
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Retaliation Aura Duration Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.75
                     }
                 ]
             },
@@ -3585,6 +4535,7 @@
                     "value": 0.0075
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -3595,7 +4546,7 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 15.0,
+            "cooldown": 30.0,
             "minCooldown": 1.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
@@ -3705,20 +4656,21 @@
                 }
             ],
             "icon": "IconSkill_RainOfHeads",
-            "baseDamageMod": 1.0,
+            "baseDamageMod": 1.32,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.3
+                        "value": 0.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -3727,30 +4679,16 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.6
+                        "value": 0.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
                 "3": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.9
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.15
-                    }
-                ],
-                "4": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
@@ -3760,7 +4698,21 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 2.15
+                    }
+                ],
+                "4": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     }
                 ],
@@ -3769,12 +4721,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     }
                 ],
@@ -3783,12 +4735,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.8
+                        "value": 2.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.5
                     }
                 ],
@@ -3797,12 +4749,54 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.1
+                        "value": 2.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 3.9
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.9
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.9
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 3.9
                     }
                 ]
@@ -3815,6 +4809,7 @@
                     "value": 0.03
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -3953,8 +4948,9 @@
                 }
             ],
             "icon": "IconSkill_SummonTheGuard",
-            "baseDamageMod": 0.4,
+            "baseDamageMod": 0.45,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -3966,7 +4962,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.1
                     },
                     {
@@ -3986,7 +4982,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.2
                     },
                     {
@@ -4006,7 +5002,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     },
                     {
@@ -4026,13 +5022,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.0
                     }
                 ],
@@ -4046,13 +5042,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.3
                     }
                 ],
@@ -4066,13 +5062,13 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.65
                     }
                 ],
@@ -4086,13 +5082,73 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -4105,6 +5161,7 @@
                     "value": 0.015
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 15.0,
             "minCooldown": 0.0,
@@ -4216,20 +5273,21 @@
                 }
             ],
             "icon": "IconSkill_EnemyCannons",
-            "baseDamageMod": 2.4,
+            "baseDamageMod": 3.0,
             "eDamageType": "FIRE",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.36
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -4238,12 +5296,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.72
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -4252,12 +5310,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.08
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -4266,12 +5324,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.44
+                        "value": 4.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     }
                 ],
@@ -4280,12 +5338,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.8
+                        "value": 5.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     }
                 ],
@@ -4294,12 +5352,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.16
+                        "value": 6.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.7
                     }
                 ],
@@ -4308,12 +5366,54 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.5
+                        "value": 7.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 8.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 9.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 10.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.2
                     }
                 ]
@@ -4326,6 +5426,7 @@
                     "value": 0.03
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -4344,7 +5445,7 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 5.0,
+            "cooldown": 6.0,
             "minCooldown": 1.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
@@ -4367,16 +5468,16 @@
                 300.0,
                 300.0
             ],
-            "projectileLifeTime": 3.8,
+            "projectileLifeTime": 3.1,
             "disableOnCasterDeath": false,
             "projectileAmountRange": [
                 1,
                 1
             ],
             "intervalBetweenProjectiles": 0.1,
-            "projectilePierceAmount": -1,
+            "projectilePierceAmount": 3,
             "ignoreWalls": true,
-            "manaCost": 180.0,
+            "manaCost": 170.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
             "baseSkillSpeed": 1.0,
@@ -4457,20 +5558,21 @@
                 }
             ],
             "icon": "IconSkill_HolyRosary",
-            "baseDamageMod": 1.0,
+            "baseDamageMod": 1.2,
             "eDamageType": "LIGHTNING",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.36
+                        "value": 0.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -4479,12 +5581,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.72
+                        "value": 0.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -4493,12 +5595,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.08
+                        "value": 0.9
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -4507,16 +5609,30 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.44
+                        "value": 1.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     }
                 ],
                 "5": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.1
+                    }
+                ],
+                "6": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
@@ -4526,21 +5642,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 3.1
-                    }
-                ],
-                "6": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 2.16
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.7
                     }
                 ],
@@ -4549,12 +5651,54 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.5
+                        "value": 2.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.4
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.2
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.2
                     }
                 ]
@@ -4564,9 +5708,10 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "CriticalDamage",
                     "modifierType": "Additive",
-                    "value": 0.03
+                    "value": 0.015
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -4613,7 +5758,7 @@
             "intervalBetweenProjectiles": 0.0,
             "projectilePierceAmount": 0,
             "ignoreWalls": true,
-            "manaCost": 200.0,
+            "manaCost": 175.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
             "baseSkillSpeed": 1.0,
@@ -4694,8 +5839,9 @@
                 }
             ],
             "icon": "IconSkill_HomingProjectiles",
-            "baseDamageMod": 0.6,
+            "baseDamageMod": 0.7,
             "eDamageType": "PLAGUE",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -4707,7 +5853,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -4721,7 +5867,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.65
                     }
                 ],
@@ -4735,7 +5881,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.15
                     }
                 ],
@@ -4749,7 +5895,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 2.6
                     }
                 ],
@@ -4763,7 +5909,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.1
                     }
                 ],
@@ -4777,7 +5923,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.6
                     }
                 ],
@@ -4791,7 +5937,49 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.8
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -4801,15 +5989,16 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "WitherBuildupRate",
                     "modifierType": "Additive",
-                    "value": 0.015
+                    "value": 0.005
                 },
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "StunBuildupRate",
                     "modifierType": "Additive",
-                    "value": 0.015
+                    "value": 0.005
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [
                 {
                     "type": "SkillValueModifierConfig",
@@ -4959,6 +6148,7 @@
             "icon": "IconSkill_SummonBrute",
             "baseDamageMod": 1.0,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -4970,14 +6160,14 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Summon Life Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.2
+                        "value": 1.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4996,14 +6186,14 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Summon Life Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.4
+                        "value": 1.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -5022,14 +6212,14 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Summon Life Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.6
+                        "value": 1.9
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -5048,19 +6238,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Summon Life Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.8
+                        "modifierType": "Multiplicative",
+                        "value": 2.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.0
                     }
                 ],
@@ -5074,19 +6264,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Summon Life Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.0
+                        "modifierType": "Multiplicative",
+                        "value": 2.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.3
                     }
                 ],
@@ -5100,19 +6290,19 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Summon Life Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.2
+                        "modifierType": "Multiplicative",
+                        "value": 2.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 3.65
                     }
                 ],
@@ -5126,19 +6316,97 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Summon Life Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 2.4
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.4
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Summon Life Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Summon Life Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Summon Life Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.9
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     }
                 ]
@@ -5148,9 +6416,16 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "Life",
                     "modifierType": "MultiplicativeAdditive",
-                    "value": 1.022
+                    "value": 1.02
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Mana",
+                    "modifierType": "MultiplicativeAdditive",
+                    "value": 1.02
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 12.0,
             "minCooldown": 0.0,
@@ -5176,7 +6451,7 @@
                 "id": 3,
                 "type": "PlayerCompanionDefinition"
             },
-            "manaCost": 350.0,
+            "manaCost": 145.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
             "baseSkillSpeed": 1.0,
@@ -5257,20 +6532,21 @@
                 }
             ],
             "icon": "IconSkill_PhantomMarksmen",
-            "baseDamageMod": 0.8,
+            "baseDamageMod": 1.12,
             "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.25
+                        "value": 0.35
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.1
                     }
                 ],
@@ -5279,12 +6555,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.5
+                        "value": 0.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.2
                     }
                 ],
@@ -5293,12 +6569,12 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.75
+                        "value": 1.05
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.3
                     }
                 ],
@@ -5307,44 +6583,16 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.0
+                        "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
                         "value": 1.4
                     }
                 ],
                 "5": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.25
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.5
-                    }
-                ],
-                "6": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.5
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
-                        "value": 1.6
-                    }
-                ],
-                "7": [
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
@@ -5354,7 +6602,77 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "MultiplicativeAdditive",
+                        "modifierType": "Multiplicative",
+                        "value": 1.5
+                    }
+                ],
+                "6": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.1
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.6
+                    }
+                ],
+                "7": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.45
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 2.8
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.15
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 3.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
                         "value": 1.7
                     }
                 ]
@@ -5362,14 +6680,15 @@
             "statModifiersPerRankUpgrade": [
                 {
                     "type": "StatModifierDefinition",
-                    "eStatDefinition": "Mana",
+                    "eStatDefinition": "Damage",
                     "modifierType": "Multiplicative",
-                    "value": 1.015
+                    "value": 1.022
                 }
             ],
+            "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
-            "cooldown": 0.5,
-            "minCooldown": 0.16,
+            "cooldown": 1.5,
+            "minCooldown": 0.3,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 20.0,

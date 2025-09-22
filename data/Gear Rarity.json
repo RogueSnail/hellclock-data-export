@@ -403,8 +403,8 @@
         "name": "BlessedGearRarity",
         "type": "GearRarity",
         "multiplierRange": [
-            1.0,
-            1.33333337
+            0.666,
+            1.0
         ],
         "sellingValueMultiplier": 1.0,
         "color": "RGBA(1.000, 0.949, 0.459, 1.000)",

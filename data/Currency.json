@@ -1,0 +1,1080 @@
+{
+    "Currency": [
+        {
+            "name": "Tool of Tinkering",
+            "id": 0,
+            "type": "RedrawAffixCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Tool of Tinkering"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Tool of Tinkering"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Tool of Tinkering"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Tool of Tinkering"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Tool of Tinkering"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Tool of Tinkering"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta de Ajuste"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Tool of Tinkering"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Tool of Tinkering"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Substitui um afixo da Relíquia, escolhido aleatoriamente, por um diferente."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Replaces a Relic's affix, chosen at random, with a different one."
+                }
+            ],
+            "currencyIcon": "IconTool_Tinkering",
+            "currencyColor": "RGBA(0.510, 0.592, 0.604, 1.000)",
+            "hasFragments": false
+        },
+        {
+            "name": "Tool of Enhancement",
+            "id": 1,
+            "type": "UpgradeRarityCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Tool of Enhancement"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Tool of Enhancement"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Tool of Enhancement"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Tool of Enhancement"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Tool of Enhancement"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Tool of Enhancement"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta de Aprimoramento"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Tool of Enhancement"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Tool of Enhancement"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aprimora uma Relíquia Comum, transformando-a em uma Relíquia Mágica."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Upgrades a Common Relic, transforming it into a Magic Relic."
+                }
+            ],
+            "currencyIcon": "IconTool_Enhancement",
+            "currencyColor": "RGBA(0.333, 0.608, 0.871, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Enhancement"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Enhancement"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Enhancement"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Enhancement"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Enhancement"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Enhancement"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento de Aprimoramento"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Enhancement"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Enhancement"
+                }
+            ],
+            "fragmentIcon": "IconFragment_Enhancement",
+            "fragmentsToFill": 6
+        },
+        {
+            "name": "Greater Tool of Enhancement",
+            "id": 2,
+            "type": "UpgradeRarityCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Greater Tool of Enhancement"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Greater Tool of Enhancement"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Greater Tool of Enhancement"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Greater Tool of Enhancement"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Greater Tool of Enhancement"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Greater Tool of Enhancement"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta Maior de Aprimoramento"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Greater Tool of Enhancement"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Greater Tool of Enhancement"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aprimora uma Relíquia Mágica, transformando-a em uma Relíquia Rara"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Upgrades a Magic Relic, transforming it into a Rare Relic. \n\nDifferent Relic sizes can roll different Rare affixes."
+                }
+            ],
+            "currencyIcon": "IconTool_GreaterEnhancement",
+            "currencyColor": "RGBA(0.855, 0.616, 0.271, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento Maior de Aprimoramento"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Greater Enhancement"
+                }
+            ],
+            "fragmentIcon": "IconFragment_GreaterEnhancement",
+            "fragmentsToFill": 6
+        },
+        {
+            "name": "Tool of Locksmithing",
+            "id": 3,
+            "type": "LockAffixCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Tool of Locksmithing"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Tool of Locksmithing"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Tool of Locksmithing"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Tool of Locksmithing"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Tool of Locksmithing"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Tool of Locksmithing"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta de Chaveiro"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Tool of Locksmithing"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Tool of Locksmithing"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Tranca um afixo regular aleatório de uma Relíquia. Afixos trancados não podem ser removidos ou substituídos por nenhuma Ferramenta.\n\nSe a Relíquia já tiver um afixo trancado, ele será destrancado, e outro afixo escolhido aleatoriamente será trancado em seu lugar."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Locks a random regular affix on a Relic. Locked affixes cannot be removed or replaced by any Tool.\n\nIf the Relic already has a locked affix, it is unlocked, and another random affix is locked instead."
+                }
+            ],
+            "currencyIcon": "IconTool_Locksmithing",
+            "currencyColor": "RGBA(0.788, 0.475, 0.224, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Locksmithing"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Locksmithing"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Locksmithing"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Locksmithing"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Locksmithing"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Locksmithing"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento de Chaveiro"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Locksmithing"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Locksmithing"
+                }
+            ],
+            "fragmentIcon": "IconFragment_Locksmithing",
+            "fragmentsToFill": 6
+        },
+        {
+            "name": "Imbued Tool of Fury",
+            "id": 4,
+            "type": "ImbueAffixCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Imbued Tool of Fury"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Imbued Tool of Fury"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Imbued Tool of Fury"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Imbued Tool of Fury"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Imbued Tool of Fury"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Imbued Tool of Fury"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta Imbuída de Fúria"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Imbued Tool of Fury"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Imbued Tool of Fury"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Imbui uma Relíquia com um afixo implícito de Fúria. Se a Relíquia já possui um afixo Imbuído, ele será substituído.\n\nTamanhos diferentes de Relíquia podem rolar implícitos Imbuídos diferentes."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Imbues a Relic with an implicit Fury affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                }
+            ],
+            "currencyIcon": "IconTool_Fury",
+            "currencyColor": "RGBA(0.678, 0.165, 0.251, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Fury"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Fury"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Fury"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Fury"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Fury"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Fury"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento de Fúria"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Fury"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Fury"
+                }
+            ],
+            "fragmentIcon": "IconFragment_Fury",
+            "fragmentsToFill": 6
+        },
+        {
+            "name": "Imbued Tool of Faith",
+            "id": 5,
+            "type": "ImbueAffixCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Imbued Tool of Faith"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Imbued Tool of Faith"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Imbued Tool of Faith"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Imbued Tool of Faith"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Imbued Tool of Faith"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Imbued Tool of Faith"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta Imbuída de Fé"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Imbued Tool of Faith"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Imbued Tool of Faith"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Imbui uma Relíquia com um afixo implícito de Fé. Se a Relíquia já possui um afixo Imbuído, ele será substituído.\n\nTamanhos diferentes de Relíquia podem rolar implícitos Imbuídos diferentes."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Imbues a Relic with an implicit Faith affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                }
+            ],
+            "currencyIcon": "IconTool_Faith",
+            "currencyColor": "RGBA(0.208, 0.490, 0.616, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Faith"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Faith"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Faith"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Faith"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Faith"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Faith"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento de Fé"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Faith"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Faith"
+                }
+            ],
+            "fragmentIcon": "IconFragment_Faith",
+            "fragmentsToFill": 6
+        },
+        {
+            "name": "Imbued Tool of Discipline",
+            "id": 6,
+            "type": "ImbueAffixCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Imbued Tool of Discipline"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Imbued Tool of Discipline"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Imbued Tool of Discipline"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Imbued Tool of Discipline"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Imbued Tool of Discipline"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Imbued Tool of Discipline"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta Imbuída de Disciplina"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Imbued Tool of Discipline"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Imbued Tool of Discipline"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Imbui uma Relíquia com um afixo implícito de Disciplina. Se a Relíquia já possui um afixo Imbuído, ele será substituído.\n\nTamanhos diferentes de Relíquia podem rolar implícitos Imbuídos diferentes."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Imbues a Relic with an implicit Discipline affix. If the Relic already has an Imbued implicit, it replaces it.\n\nDifferent Relic sizes can roll different Imbued implicits."
+                }
+            ],
+            "currencyIcon": "IconTool_Discipline",
+            "currencyColor": "RGBA(0.020, 0.384, 0.110, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Discipline"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Discipline"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Discipline"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Discipline"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Discipline"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Discipline"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento de Disciplina"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Discipline"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Discipline"
+                }
+            ],
+            "fragmentIcon": "IconFragment_Discipline",
+            "fragmentsToFill": 6
+        },
+        {
+            "name": "Corrupted Tool",
+            "id": 7,
+            "type": "CorruptionCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Corrupted Tool"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Corrupted Tool"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Corrupted Tool"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Corrupted Tool"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Corrupted Tool"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Corrupted Tool"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta Corrompida"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Corrupted Tool"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Corrupted Tool"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Modifica uma Relíquia imprevisivelmente, tornando-a Corrompida depois.\n\nO poder da Corrupção é volúvel, concedendo triunfo e tragédia na mesma medida.\n\nRelíquias Corrompidas não podem ser modificadas por nenhuma Ferramenta."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Unpredictably modifies a Relic, making it Corrupted aftwards.\n\nThe power of Corruption is fickle, bestowing triumph and tragedy in equal measure.\n\nCorrupted Relics cannot be modified by any Tools."
+                }
+            ],
+            "currencyIcon": "IconTool_Corrupted",
+            "currencyColor": "RGBA(0.165, 0.071, 0.408, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Corruption"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Corruption"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Corruption"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Corruption"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Corruption"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Corruption"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento Corrompido"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Corruption"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Corruption"
+                }
+            ],
+            "fragmentIcon": "IconFragment_Corrupted",
+            "fragmentsToFill": 6
+        },
+        {
+            "name": "Divine Tool",
+            "id": 8,
+            "type": "ImproveAffixRollsCurrencyDefinition",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Divine Tool"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Divine Tool"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Divine Tool"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Divine Tool"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Divine Tool"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Divine Tool"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ferramenta Divina"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Divine Tool"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Divine Tool"
+                }
+            ],
+            "descriptionLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Abençoa uma Relíquia com divindade, aprimorando os valores de todos os seus afixos por uma margem aleatória.\n\nAfixos de Relíquias aprimorados com Ferramentas Divinas podem is além do que normalmente seriam seus valores máximos, até 20%."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Blesses a Relic with divinity, Improving the values of all its affixes by a random margin.\n\nRelic affixes upgraded with Divine Tools can go beyond what would normally be their maximum value, up to 20%"
+                }
+            ],
+            "currencyIcon": "IconTool_Divine",
+            "currencyColor": "RGBA(0.984, 0.482, 0.239, 1.000)",
+            "hasFragments": true,
+            "fragmentNameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Fragment of Divinity"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fragment of Divinity"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fragment of Divinity"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Fragment of Divinity"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Fragment of Divinity"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Fragment of Divinity"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fragmento Divino"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Fragment of Divinity"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Fragment of Divinity"
+                }
+            ],
+            "fragmentIcon": "IconFragment_Divine",
+            "fragmentsToFill": 6
+        }
+    ]
+}

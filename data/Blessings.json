@@ -141,7 +141,7 @@
                             "name": "Damage",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -390,8 +390,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Mana Cost Reduction",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -510,7 +510,7 @@
                             "name": "Damage",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -637,7 +637,7 @@
                             "name": "Range Multiplier",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -845,7 +845,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "CriticalChance",
                     "modifierType": "Additive",
-                    "value": 0.04
+                    "value": 0.03
                 }
             ],
             "basePrice": 600.0,
@@ -897,39 +897,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Krit.-Treffer-Chance <style=\"GreenText\">+4%</style>.\r\n"
+                    "langTranslation": "Krit.-Treffer-Chance <style=\"GreenText\">+3%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Critical Chance <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "Critical Chance <style=\"GreenText\">+3%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de golpe crítico <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "Probabilidad de golpe crítico <style=\"GreenText\">+3%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chances de critique <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "Chances de critique <style=\"GreenText\">+3%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "クリティカルヒット率 <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "クリティカルヒット率 <style=\"GreenText\">+3%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na trafienie krytyczne <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "Szansa na trafienie krytyczne <style=\"GreenText\">+3%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Chance Crítica <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "Chance Crítica <style=\"GreenText\">+3%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Шанс критического попадания: <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "Шанс критического попадания: <style=\"GreenText\">+3%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "暴击几率 <style=\"GreenText\">+4%</style>\r\n"
+                    "langTranslation": "暴击几率 <style=\"GreenText\">+3%</style>\r\n"
                 }
             ]
         },
@@ -2071,39 +2071,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Verringert Malus für Durchschlagschaden um <style=\"GreenText\">+20%[+]</style>."
+                    "langTranslation": "Erhöht den Bonus auf Durchschlagschaden um <style=\"GreenText\">+20%[+]</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Reduces Pierce Damage Penalty by <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Increases Pierce Damage bonus by <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Reduce la penalidad del daño por corte en <style=\"GreenText\">+20%[+]</style>."
+                    "langTranslation": "Aumenta la bonificación de daño por penetración en <style=\"GreenText\">+20%[+]</style>."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Réduit la pénalité des dégâts perforants de <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Augmente le bonus de dégâts perforants de <style=\"GreenText\">+20%[+]</style>."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "貫通ダメージペナルティが<style=\"GreenText\">+20%[+]</style>減少する。"
+                    "langTranslation": "貫通ダメージボーナスが<style=\"GreenText\">+20%[+]</style>増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zmniejsza karę do obrażeń przy przebiciu o <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Zwiększa premię do obrażeń przy przebiciu o <style=\"GreenText\">+20%[+]</style>."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Reduzir penalidade de dano por atravessar em <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Aumenta bônus de dano por Atravessar em <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Снижает штраф к урону за пронзание на <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Увеличивает бонус к урону за пронзание на <style=\"GreenText\">+20%[+]</style>."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "穿透造成的伤害惩罚降低 <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "穿透造成的伤害加成增加 <style=\"GreenText\">+20%[+]</style>"
                 }
             ]
         },
@@ -2413,8 +2413,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Cooldown Reduction",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -2663,7 +2663,7 @@
                             "type": "SkillEffectVariable",
                             "name": "Attack Speed",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableStackType": "MultiplierSum",
                             "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
@@ -2790,8 +2790,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Knives Regen Time",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -3063,7 +3063,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Enduring Reflexes"
+                    "langTranslation": "Enduring Knives"
                 },
                 {
                     "langCode": "es",
@@ -3083,7 +3083,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Reflexo Duradouro"
+                    "langTranslation": "Faces Duradouras"
                 },
                 {
                     "langCode": "ru",
@@ -4095,8 +4095,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Mana Cost",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -4588,7 +4588,7 @@
                             "name": "Damage",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -4714,8 +4714,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Mana Cost",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -4838,7 +4838,7 @@
                             "name": "Damage",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -5087,8 +5087,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Mana Cost",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -5467,39 +5467,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Umwandlung von Mana in Schaden: <style=\"GreenText\">+20%[+]</style>."
+                    "langTranslation": "Maximaler Bonus der Umwandlung von Mana in Schaden: <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Mana-to-Damage Conversion <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Mana-to-Damage Max Bonus <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Conversión de maná a daño <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Bono Máximo de Conversión de Maná a Daño <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Conversion de ferveur en dégâts <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Bonus maximal de conversion de ferveur en dégâts <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "マナからダメージへの変換率<style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "マナからダメージへの最大ボーナス<style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Konwersja many na obrażenia <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Maksymalny bonus konwersji many na obrażenia <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Conversão de Energia para dano <style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "Bônus Máximo de Conversão de Energia para Dano <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+20%[+]</style> к преобразованию маны в урон"
+                    "langTranslation": "Максимальный бонус к преобразованию маны в урон <style=\"GreenText\">+20%[+]</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "法力转化为伤害的比例：<style=\"GreenText\">+20%[+]</style>"
+                    "langTranslation": "法力转化为伤害的最大加成：<style=\"GreenText\">+20%[+]</style>"
                 }
             ]
         },
@@ -5528,8 +5528,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Cooldown Reduction",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Rounded"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -5877,8 +5877,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Cooldown Reduction",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -6013,16 +6013,16 @@
                 1.1
             ],
             "magicRollRange": [
+                1.2,
+                1.2
+            ],
+            "rareRollRange": [
                 1.3,
                 1.3
             ],
-            "rareRollRange": [
-                1.5,
-                1.5
-            ],
             "epicRollRange": [
-                1.8,
-                1.8
+                1.4,
+                1.4
             ],
             "titleLocalizationKey": [
                 {
@@ -6066,39 +6066,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Intensität des Debuffs auf physische Resistenz/Seuchenresistenz: <style=\"GreenText\">+80%[+]</style>."
+                    "langTranslation": "Intensität des Debuffs auf physische Resistenz/Seuchenresistenz: <style=\"GreenText\">+40%[+]</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Physical/Plague Resist Shred Intensity <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Physical/Plague Resist Shred Intensity <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Intensidad de resistencia al desgarro físico/de Plaga <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Intensidad de resistencia al desgarro físico/de Plaga <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Négation des résistances physique/peste <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Négation des résistances physique/peste <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "物理/疫病抵抗無視強度<style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "物理/疫病抵抗無視強度<style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Intensywność obniżenia odporności na obrażenia fizyczne/zarazę <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Intensywność obniżenia odporności na obrażenia fizyczne/zarazę <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Intensidade da quebra de Resistência Física/Tóxica <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Intensidade da quebra de Resistência Física/Tóxica <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+80%[+]</style> к снижению сопротивления физическому урону и урону от чумы"
+                    "langTranslation": "<style=\"GreenText\">+40%[+]</style> к снижению сопротивления физическому урону и урону от чумы"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "物理/瘟疫抗性削弱强度：<style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "物理/瘟疫抗性削弱强度：<style=\"GreenText\">+40%[+]</style>"
                 }
             ]
         },
@@ -6140,16 +6140,16 @@
                 1.1
             ],
             "magicRollRange": [
+                1.2,
+                1.2
+            ],
+            "rareRollRange": [
                 1.3,
                 1.3
             ],
-            "rareRollRange": [
-                1.5,
-                1.5
-            ],
             "epicRollRange": [
-                1.8,
-                1.8
+                1.4,
+                1.4
             ],
             "titleLocalizationKey": [
                 {
@@ -6193,39 +6193,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Intensität des Debuffs auf Feuer-/Blitzresistenz: <style=\"GreenText\">+80%[+]</style>."
+                    "langTranslation": "Intensität des Debuffs auf Feuer-/Blitzresistenz: <style=\"GreenText\">+40%[+]</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Fire/Lightning Resist Shred Intensity <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Fire/Lightning Resist Shred Intensity <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Intensidad de resistencia al desgarro de Fuego/Rayo <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Intensidad de resistencia al desgarro de Fuego/Rayo <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Négation des résistances feu/foudre <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Négation des résistances feu/foudre <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "火炎/電撃抵抗無視強度<style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "火炎/電撃抵抗無視強度<style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Intensywność obniżenia odporności na ogień/błyskawice <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Intensywność obniżenia odporności na ogień/błyskawice <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Intensidade da quebra de Resistência a dano Ígneo/Elétrico <style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "Intensidade da quebra de Resistência a dano Ígneo/Elétrico <style=\"GreenText\">+40%[+]</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+80%[+]</style> к снижению сопротивления урону от огня и молнии"
+                    "langTranslation": "<style=\"GreenText\">+40%[+]</style> к снижению сопротивления урону от огня и молнии"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "火焰/闪电抗性削弱强度：<style=\"GreenText\">+80%[+]</style>"
+                    "langTranslation": "火焰/闪电抗性削弱强度：<style=\"GreenText\">+40%[+]</style>"
                 }
             ]
         },
@@ -6714,7 +6714,7 @@
             ]
         },
         {
-            "name": "Lasso - General - Bleeding Intensity",
+            "name": "Lasso - General - Bleeding Damage",
             "id": 122,
             "type": "SkillBlessingDefinition",
             "behaviorAffixDefinition": {},
@@ -7238,8 +7238,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Cooldown Reduction",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Rounded"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -7495,11 +7495,7 @@
                 }
             },
             "basePrice": 300.0,
-            "supportedRarities": "Magic, Rare, Epic",
-            "magicRollRange": [
-                1.15,
-                1.15
-            ],
+            "supportedRarities": "Rare, Epic",
             "rareRollRange": [
                 1.25,
                 1.25
@@ -7734,8 +7730,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Modifier",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -8231,16 +8227,16 @@
             "basePrice": 0.0,
             "supportedRarities": "Magic, Rare, Epic",
             "magicRollRange": [
-                1.15,
-                1.15
+                1.075,
+                1.075
             ],
             "rareRollRange": [
-                1.2,
-                1.2
+                1.1,
+                1.1
             ],
             "epicRollRange": [
-                1.25,
-                1.25
+                1.13,
+                1.13
             ],
             "titleLocalizationKey": [
                 {
@@ -8284,39 +8280,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Angriffstempo der katholischen Garde: <style=\"GreenText\">+25%[+]</style>."
+                    "langTranslation": "Angriffstempo der katholischen Garde: <style=\"GreenText\">+13%[+]</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Catholic Guard Attack Speed <style=\"GreenText\">+25%[+]</style>"
+                    "langTranslation": "Catholic Guard Attack Speed <style=\"GreenText\">+13%[+]</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Velocidad de ataque de la Guardia Católica <style=\"GreenText\">+25%[+]</style>"
+                    "langTranslation": "Velocidad de ataque de la Guardia Católica <style=\"GreenText\">+13%[+]</style>"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Vitesse d'attaque de la Garde catholique <style=\"GreenText\">+25%[+]</style>"
+                    "langTranslation": "Vitesse d'attaque de la Garde catholique <style=\"GreenText\">+13%[+]</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "カトリック衛兵攻撃速度<style=\"GreenText\">+25%[+]</style>"
+                    "langTranslation": "カトリック衛兵攻撃速度<style=\"GreenText\">+13%[+]</style>"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Prędkość ataku Katolickiego Strażnika <style=\"GreenText\">+25%[+]</style>"
+                    "langTranslation": "Prędkość ataku Katolickiego Strażnika <style=\"GreenText\">+13%[+]</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Velocidade de ataque da Guarda Católica <style=\"GreenText\">+25%[+]</style>"
+                    "langTranslation": "Velocidade de ataque da Guarda Católica <style=\"GreenText\">+13%[+]</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+25%[+]</style> к скорости атаки католической стражи"
+                    "langTranslation": "<style=\"GreenText\">+13%[+]</style> к скорости атаки католической стражи"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "天主教卫队的攻击速度：<style=\"GreenText\">+25%[+]</style>"
+                    "langTranslation": "天主教卫队的攻击速度：<style=\"GreenText\">+13%[+]</style>"
                 }
             ]
         },
@@ -8473,7 +8469,7 @@
                             "name": "Modifier",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -8600,7 +8596,7 @@
                             "name": "Modifier",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -8723,7 +8719,7 @@
                             "name": "Modifier",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Multiply",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -8842,7 +8838,7 @@
                             "name": "Modifier",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Multiply",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -8965,7 +8961,7 @@
                             "name": "Modifier",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 }
@@ -10330,20 +10326,20 @@
             "basePrice": 300.0,
             "supportedRarities": "Everything",
             "commonRollRange": [
+                0.2,
+                0.2
+            ],
+            "magicRollRange": [
                 0.3,
                 0.3
             ],
-            "magicRollRange": [
+            "rareRollRange": [
                 0.4,
                 0.4
             ],
-            "rareRollRange": [
+            "epicRollRange": [
                 0.5,
                 0.5
-            ],
-            "epicRollRange": [
-                0.6,
-                0.6
             ],
             "titleLocalizationKey": [
                 {
@@ -10387,39 +10383,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">+60%</style>."
+                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">+50%</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">+60%</style>"
+                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">+50%</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">+60%</style>."
+                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">+50%</style>."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">+60%</style>"
+                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">+50%</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">+60%</style>増加する"
+                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">+50%</style>増加する"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">+60%</style>"
+                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">+50%</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">+60%</style>"
+                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">+50%</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">+60%</style>"
+                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">+50%</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">+60%</style>"
+                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">+50%</style>"
                 }
             ]
         },
@@ -10580,20 +10576,20 @@
             "basePrice": 300.0,
             "supportedRarities": "Everything",
             "commonRollRange": [
+                0.15,
+                0.15
+            ],
+            "magicRollRange": [
                 0.2,
                 0.2
             ],
-            "magicRollRange": [
+            "rareRollRange": [
                 0.3,
                 0.3
             ],
-            "rareRollRange": [
-                0.4,
-                0.4
-            ],
             "epicRollRange": [
-                0.5,
-                0.5
+                0.3,
+                0.4
             ],
             "titleLocalizationKey": [
                 {
@@ -10637,39 +10633,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">+50%</style>."
+                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">+40%</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">+50%</style>"
+                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">+40%</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">+50%</style>."
+                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">+40%</style>."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">+50%</style>"
+                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">+40%</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">+50%</style>増加する"
+                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">+40%</style>増加する"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">+50%</style>"
+                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">+40%</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">+50%</style>"
+                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">+40%</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">+50%</style>"
+                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">+40%</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">+50%</style>"
+                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">+40%</style>"
                 }
             ]
         },
@@ -10806,7 +10802,7 @@
             "type": "SkillBlessingDefinition",
             "behaviorAffixDefinition": {},
             "rollVariableName": "Modifier",
-            "eModifierType": "MultiplicativeAdditive",
+            "eModifierType": "Additive",
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
@@ -10825,7 +10821,7 @@
                             "type": "SkillEffectVariable",
                             "name": "Modifier",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
+                            "eSkillEffectVariableStackType": "Sum",
                             "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
@@ -10834,20 +10830,20 @@
             "basePrice": 300.0,
             "supportedRarities": "Everything",
             "commonRollRange": [
-                1.15,
-                1.15
+                0.1,
+                0.1
             ],
             "magicRollRange": [
-                1.2,
-                1.2
+                0.15,
+                0.15
             ],
             "rareRollRange": [
-                1.25,
-                1.25
+                0.2,
+                0.2
             ],
             "epicRollRange": [
-                1.3,
-                1.3
+                0.25,
+                0.25
             ],
             "titleLocalizationKey": [
                 {
@@ -10891,39 +10887,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhaltene Überzeugung bei Aktivierung: <style=\"GreenText\">+30%[+]</style>."
+                    "langTranslation": "Max. Überzeugung: <style=\"GreenText\">+25%</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Conviction Gain on Activation <style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "Max. Conviction <style=\"GreenText\">+25%</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Obtención de Convicción al activarse <style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "Convicción Máx. <style=\"GreenText\">+25%</style>"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Gain de conviction à l'activation <style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "Conviction max. <style=\"GreenText\">+25%</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "発動時の信念獲得<style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "信念最大値<style=\"GreenText\">+25%</style>"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zyskiwane Przekonanie przy aktywacji <style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "Maksymalne Przekonanie <style=\"GreenText\">+25%</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ganho de Convicção na Ativação <style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "Convicção Max. <style=\"GreenText\">+25%</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+30%[+]</style> к получению непоколебимости при активации"
+                    "langTranslation": "<style=\"GreenText\">+25%</style> Максимальная непоколебимость"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "激活时获得信念值：<style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "最大信念\t：<style=\"GreenText\">+25%</style>"
                 }
             ]
         },
@@ -13325,7 +13321,19 @@
             "statModifierDefinitions": [
                 {
                     "type": "StatModifierDefinition",
-                    "eStatDefinition": "MagicDamage",
+                    "eStatDefinition": "FireDamage",
+                    "modifierType": "Additive",
+                    "value": 0.15
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningDamage",
+                    "modifierType": "Additive",
+                    "value": 0.15
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueDamage",
                     "modifierType": "Additive",
                     "value": 0.15
                 }
@@ -13379,39 +13387,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Elementarschaden <style=\"GreenText\">+15%</style>.\r\n"
+                    "langTranslation": "Feuerschaden <style=\"GreenText\">+15%</style>.\r\nBlitzschaden <style=\"GreenText\">+15%</style>.\r\nSeuchenschaden <style=\"GreenText\">+15%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Elemental Damage <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Fire Damage <style=\"GreenText\">+15%</style>\r\nLightning Damage <style=\"GreenText\">+15%</style>\r\nPlague Damage <style=\"GreenText\">+15%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Daño elemental <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Daño de Fuego <style=\"GreenText\">+15%</style>\r\nDaño de Rayo <style=\"GreenText\">+15%</style>\r\nDaño de Plaga <style=\"GreenText\">+15%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Dégâts élémentaires <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Dégâts de feu <style=\"GreenText\">+15%</style>\r\nDégâts de foudre <style=\"GreenText\">+15%</style>\r\nDégâts de peste <style=\"GreenText\">+15%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "元素ダメージ <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "火炎ダメージ <style=\"GreenText\">+15%</style>\r\n電撃ダメージ <style=\"GreenText\">+15%</style>\r\n疫病ダメージ <style=\"GreenText\">+15%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Obrażenia żywiołów <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Obrażenia od ognia <style=\"GreenText\">+15%</style>\r\nObrażenia od błyskawic <style=\"GreenText\">+15%</style>\r\nObrażenia od zarazy <style=\"GreenText\">+15%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Elemental <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Dano Ígneo <style=\"GreenText\">+15%</style>\r\nDano Elétrico <style=\"GreenText\">+15%</style>\r\nDano Tóxico <style=\"GreenText\">+15%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Стихийный урон: <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Урон от огня: <style=\"GreenText\">+15%</style>\r\nУрон от молний: <style=\"GreenText\">+15%</style>\r\nУрон от чумы: <style=\"GreenText\">+15%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "元素伤害 <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "火焰伤害 <style=\"GreenText\">+15%</style>\r\n闪电伤害 <style=\"GreenText\">+15%</style>\r\n瘟疫伤害 <style=\"GreenText\">+15%</style>\r\n"
                 }
             ]
         },
@@ -13610,13 +13618,25 @@
             ]
         },
         {
-            "name": "Force 2 - Spell Damage - Stat Blessing",
+            "name": "Force 2 - Elemental Damage - Stat Blessing",
             "id": 184,
             "type": "StatModifierBlessingDefinition",
             "statModifierDefinitions": [
                 {
                     "type": "StatModifierDefinition",
-                    "eStatDefinition": "MagicDamage",
+                    "eStatDefinition": "FireDamage",
+                    "modifierType": "Additive",
+                    "value": 0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningDamage",
+                    "modifierType": "Additive",
+                    "value": 0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueDamage",
                     "modifierType": "Additive",
                     "value": 0.2
                 }
@@ -13670,39 +13690,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Elementarschaden <style=\"GreenText\">+20%</style>.\r\n"
+                    "langTranslation": "Feuerschaden <style=\"GreenText\">+20%</style>.\r\nBlitzschaden <style=\"GreenText\">+20%</style>.\r\nSeuchenschaden <style=\"GreenText\">+20%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Elemental Damage <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Fire Damage <style=\"GreenText\">+20%</style>\r\nLightning Damage <style=\"GreenText\">+20%</style>\r\nPlague Damage <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Daño elemental <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Daño de Fuego <style=\"GreenText\">+20%</style>\r\nDaño de Rayo <style=\"GreenText\">+20%</style>\r\nDaño de Plaga <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Dégâts élémentaires <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Dégâts de feu <style=\"GreenText\">+20%</style>\r\nDégâts de foudre <style=\"GreenText\">+20%</style>\r\nDégâts de peste <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "元素ダメージ <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "火炎ダメージ <style=\"GreenText\">+20%</style>\r\n電撃ダメージ <style=\"GreenText\">+20%</style>\r\n疫病ダメージ <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Obrażenia żywiołów <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Obrażenia od ognia <style=\"GreenText\">+20%</style>\r\nObrażenia od błyskawic <style=\"GreenText\">+20%</style>\r\nObrażenia od zarazy <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Elemental <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Dano Ígneo <style=\"GreenText\">+20%</style>\r\nDano Elétrico <style=\"GreenText\">+20%</style>\r\nDano Tóxico <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Стихийный урон: <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Урон от огня: <style=\"GreenText\">+20%</style>\r\nУрон от молний: <style=\"GreenText\">+20%</style>\r\nУрон от чумы: <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "元素伤害 <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "火焰伤害 <style=\"GreenText\">+20%</style>\r\n闪电伤害 <style=\"GreenText\">+20%</style>\r\n瘟疫伤害 <style=\"GreenText\">+20%</style>\r\n"
                 }
             ]
         },
@@ -13812,7 +13832,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "IgniteDamage",
                     "modifierType": "Additive",
-                    "value": 0.3
+                    "value": 0.5
                 }
             ],
             "basePrice": 600.0,
@@ -13864,39 +13884,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Schaden durch Entzünden <style=\"GreenText\">+30%</style>.\r\n"
+                    "langTranslation": "Schaden durch Entzünden <style=\"GreenText\">+50%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Ignite Damage <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Ignite Damage <style=\"GreenText\">+50%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Daño de Fuego <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Daño de Fuego <style=\"GreenText\">+50%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Dégâts d'embrasement <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Dégâts d'embrasement <style=\"GreenText\">+50%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "炎上ダメージ <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "炎上ダメージ <style=\"GreenText\">+50%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Obrażenia od podpalenia <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Obrażenia od podpalenia <style=\"GreenText\">+50%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano de Ignição <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Dano de Ignição <style=\"GreenText\">+50%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Урон от горения: <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Урон от горения: <style=\"GreenText\">+50%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "点燃伤害 <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "点燃伤害 <style=\"GreenText\">+50%</style>\r\n"
                 }
             ]
         },
@@ -14504,7 +14524,19 @@
             "statModifierDefinitions": [
                 {
                     "type": "StatModifierDefinition",
-                    "eStatDefinition": "MagicDamage",
+                    "eStatDefinition": "FireDamage",
+                    "modifierType": "Additive",
+                    "value": 0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningDamage",
+                    "modifierType": "Additive",
+                    "value": 0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueDamage",
                     "modifierType": "Additive",
                     "value": 0.2
                 }
@@ -14558,39 +14590,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Elementarschaden <style=\"GreenText\">+20%</style>.\r\n"
+                    "langTranslation": "Feuerschaden <style=\"GreenText\">+20%</style>.\r\nBlitzschaden <style=\"GreenText\">+20%</style>.\r\nSeuchenschaden <style=\"GreenText\">+20%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Elemental Damage <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Fire Damage <style=\"GreenText\">+20%</style>\r\nLightning Damage <style=\"GreenText\">+20%</style>\r\nPlague Damage <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Daño elemental <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Daño de Fuego <style=\"GreenText\">+20%</style>\r\nDaño de Rayo <style=\"GreenText\">+20%</style>\r\nDaño de Plaga <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Dégâts élémentaires <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Dégâts de feu <style=\"GreenText\">+20%</style>\r\nDégâts de foudre <style=\"GreenText\">+20%</style>\r\nDégâts de peste <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "元素ダメージ <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "火炎ダメージ <style=\"GreenText\">+20%</style>\r\n電撃ダメージ <style=\"GreenText\">+20%</style>\r\n疫病ダメージ <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Obrażenia żywiołów <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Obrażenia od ognia <style=\"GreenText\">+20%</style>\r\nObrażenia od błyskawic <style=\"GreenText\">+20%</style>\r\nObrażenia od zarazy <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Elemental <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Dano Ígneo <style=\"GreenText\">+20%</style>\r\nDano Elétrico <style=\"GreenText\">+20%</style>\r\nDano Tóxico <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Стихийный урон: <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Урон от огня: <style=\"GreenText\">+20%</style>\r\nУрон от молний: <style=\"GreenText\">+20%</style>\r\nУрон от чумы: <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "元素伤害 <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "火焰伤害 <style=\"GreenText\">+20%</style>\r\n闪电伤害 <style=\"GreenText\">+20%</style>\r\n瘟疫伤害 <style=\"GreenText\">+20%</style>\r\n"
                 }
             ]
         },
@@ -15882,8 +15914,8 @@
             "basePrice": 600.0,
             "supportedRarities": "Rare",
             "rareRollRange": [
-                0.015,
-                0.015
+                0.0075,
+                0.0075
             ],
             "titleLocalizationKey": [
                 {
@@ -15928,39 +15960,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Heilt bei Töten eines Gegners <style=\"GreenText\">1,5%</style> Leben."
+                    "langTranslation": "Heilt bei Töten eines Gegners <style=\"GreenText\">0,75%</style> Leben."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Heals <style=\"GreenText\">1.5%</style> Life on Kill."
+                    "langTranslation": "Heals <style=\"GreenText\">0.75%</style> Life on Kill."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Cura <style=\"GreenText\">1,5%</style> de vida al matar."
+                    "langTranslation": "Cura <style=\"GreenText\">0,75%</style> de vida al matar."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Restaure <style=\"GreenText\">1,5%</style> de votre santé lorsque vous tuez un ennemi"
+                    "langTranslation": "Restaure <style=\"GreenText\">0,75%</style> de votre santé lorsque vous tuez un ennemi"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "倒すことによりライフが<style=\"GreenText\">1.5%</style>回復する。"
+                    "langTranslation": "倒すことによりライフが<style=\"GreenText\">0.75%</style>回復する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Leczy <style=\"GreenText\">1,5%</style> życia przy zabójstwie"
+                    "langTranslation": "Leczy <style=\"GreenText\">0,75%</style> życia przy zabójstwie"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Cure <style=\"GreenText\">1,5%</style> de Vida ao matar."
+                    "langTranslation": "Cure <style=\"GreenText\">0,75%</style> de Vida ao matar."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Исцеляет <style=\"GreenText\">1,5%</style> ед. здоровья при убийстве"
+                    "langTranslation": "Исцеляет <style=\"GreenText\">0,75%</style> ед. здоровья при убийстве"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "击杀敌人时治疗 <style=\"GreenText\">1.5%</style> 生命值。"
+                    "langTranslation": "击杀敌人时治疗 <style=\"GreenText\">0.75%</style> 生命值。"
                 }
             ]
         },
@@ -16001,8 +16033,8 @@
             "basePrice": 600.0,
             "supportedRarities": "Epic",
             "epicRollRange": [
-                0.03,
-                0.03
+                0.015,
+                0.015
             ],
             "titleLocalizationKey": [
                 {
@@ -16047,39 +16079,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Heilt <style=\"GreenText\">3%</style> Leben, wenn du Elitegegner triffst (Abklingzeit: 1 Sek.)."
+                    "langTranslation": "Heilt <style=\"GreenText\">1,5%</style> Leben, wenn du Elitegegner triffst (Abklingzeit: 1 Sek.)."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Heals <style=\"GreenText\">3%</style> Life when you hit Elites (Cooldown: 1s.)"
+                    "langTranslation": "Heals <style=\"GreenText\">1.5%</style> Life when you hit Elites (Cooldown: 1s.)"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Cura <style=\"GreenText\">3%</style> de vida cuando golpeas a enemigos de élite (enfriamiento: 1 s)."
+                    "langTranslation": "Cura <style=\"GreenText\">1,5%</style> de vida cuando golpeas a enemigos de élite (enfriamiento: 1 s)."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Restaure <style=\"GreenText\">3%</style> de votre santé lorsque vous touchez un ennemi d'élite (temps de recharge : 1 s)"
+                    "langTranslation": "Restaure <style=\"GreenText\">1,5%</style> de votre santé lorsque vous touchez un ennemi d'élite (temps de recharge : 1 s)"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "エリートへのヒットによりライフが<style=\"GreenText\">3%</style>回復する（クールダウン：1秒）。"
+                    "langTranslation": "エリートへのヒットによりライフが<style=\"GreenText\">1.5%</style>回復する（クールダウン：1秒）。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Leczy <style=\"GreenText\">3%</style> życia po trafieniu Elity (czas odnawiania: 1 s)"
+                    "langTranslation": "Leczy <style=\"GreenText\">1,5%</style> życia po trafieniu Elity (czas odnawiania: 1 s)"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Cure <style=\"GreenText\">3%</style> de Vida ao acertar Elites (Tempo de Recarga: 1s)."
+                    "langTranslation": "Cure <style=\"GreenText\">1,5%</style> de Vida ao acertar Elites (Tempo de Recarga: 1s)."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Исцеляет <style=\"GreenText\">3%</style> ед. здоровья при попадании по элитному врагу. Перезарядка: 1 сек."
+                    "langTranslation": "Исцеляет <style=\"GreenText\">1,5%</style> ед. здоровья при попадании по элитному врагу. Перезарядка: 1 сек."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "命中精锐敌人时治疗 <style=\"GreenText\">3%</style> 生命值 (冷却时间：1 秒。)"
+                    "langTranslation": "命中精锐敌人时治疗 <style=\"GreenText\">1.5%</style> 生命值 (冷却时间：1 秒。)"
                 }
             ]
         },
@@ -16092,10 +16124,10 @@
             "eModifierType": "Additive",
             "behaviorData": {
                 "type": "SkillBehaviorData",
-                "affectMultipleSkills": false,
+                "affectMultipleSkills": true,
                 "useListOfSkills": false,
                 "listOfSkills": [],
-                "skillTagFilter": "0",
+                "skillTagFilter": "Everything",
                 "skillDefinition": {
                     "name": "Use Potion Skill Definition",
                     "id": 150,
@@ -16117,8 +16149,8 @@
             "basePrice": 600.0,
             "supportedRarities": "Epic",
             "epicRollRange": [
-                0.01,
-                0.01
+                0.05,
+                0.05
             ],
             "titleLocalizationKey": [
                 {
@@ -16158,43 +16190,44 @@
                     "langTranslation": "体质之恩泽 IV"
                 }
             ],
+            "icon": "",
             "effectTypeIcon": "Icon_Life_Base",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Gewährt <style=\"GreenText\">1%</style> globalen Lebensraub."
+                    "langTranslation": "Gewährt <style=\"GreenText\">5%</style> globalen Lebensraub."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Grants <style=\"GreenText\">1%</style> Life Leech."
+                    "langTranslation": "Grants <style=\"GreenText\">5%</style> Life Leech."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Otorga <style=\"GreenText\">1%</style> de Robavida global."
+                    "langTranslation": "Otorga <style=\"GreenText\">5%</style> de Robavida global."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Vous gagnez <style=\"GreenText\">1%</style> de drain de vie global"
+                    "langTranslation": "Vous gagnez <style=\"GreenText\">5%</style> de drain de vie global"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "グローバルライフ収を<style=\"GreenText\">1%</style>得る。"
+                    "langTranslation": "グローバルライフ収を<style=\"GreenText\">5%</style>得る。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zapewnia <style=\"GreenText\">1%</style> globalnej kradzieży zdrowia."
+                    "langTranslation": "Zapewnia <style=\"GreenText\">5%</style> globalnej kradzieży zdrowia."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ganhe <style=\"GreenText\">1%</style> de Roubo De Vida Global."
+                    "langTranslation": "Ganhe <style=\"GreenText\">5%</style> de Roubo De Vida Global."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Дает <style=\"GreenText\">1%</style> зар. общей кражи здоровья."
+                    "langTranslation": "Дает <style=\"GreenText\">5%</style> зар. общей кражи здоровья."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "获得 <style=\"GreenText\">1%</style> 全局吸血。"
+                    "langTranslation": "获得 <style=\"GreenText\">5%</style> 全局吸血。"
                 }
             ]
         },
@@ -16317,7 +16350,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Rounded"
                         }
                     ]
                 }
@@ -16325,8 +16358,8 @@
             "basePrice": 600.0,
             "supportedRarities": "Epic",
             "epicRollRange": [
-                0.025,
-                0.025
+                500.0,
+                500.0
             ],
             "titleLocalizationKey": [
                 {
@@ -16371,39 +16404,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhalte zusätzlichen Schaden durch Nahkampffertigkeiten in Höhe von <style=\"GreenText\">2,5%</style> deines aktuellen Lebens."
+                    "langTranslation": "Gewährt Nahkampffertigkeiten zusätzlichen Schaden in Höhe von <style=\"GreenText\">7%</style> deines aktuellen Lebens (maximaler Bonus 500)."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Grants additional damage to Melee Skills equal to <style=\"GreenText\">2.5%</style> of your current Life."
+                    "langTranslation": "Grants additional damage to Melee Skills equal to <style=\"GreenText\">7%</style> of your current Life (max bonus 500)"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Otorga daño adicional a las habilidades de combate cuerpo a cuerpo equivalente a <style=\"GreenText\">2,5%</style> de tu vida actual."
+                    "langTranslation": "Otorga daño adicional a las habilidades de combate cuerpo a cuerpo equivalente al <style=\"GreenText\">7%</style> de tu vida actual (bonificación máxima 500)."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Vos compétences de mêlée infligent des dégâts supplémentaires équivalant à <style=\"GreenText\">2,5%</style> de votre santé actuelle"
+                    "langTranslation": "Vos compétences de mêlée infligent des dégâts supplémentaires équivalant à <style=\"GreenText\">7%</style> de votre santé actuelle (bonus maximum 500)."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "近接スキルに、自身の現在のライフの<style=\"GreenText\">2.5%</style>に等しいダメージを追加する。"
+                    "langTranslation": "近接スキルに、自身の現在のライフの<style=\"GreenText\">7%</style>に等しい追加ダメージを与える（最大ボーナス 500）。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zyskujesz dodatkowe obrażenia dla umiejętności wręcz równe <style=\"GreenText\">2,5%</style> twojego aktualnego życia"
+                    "langTranslation": "Zyskujesz dodatkowe obrażenia dla umiejętności wręcz równe <style=\"GreenText\">7%</style> twojego aktualnego życia (maksymalny bonus 500)."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Adicione mais dano a Habilidades Corpo-a-corpo equivalente a <style=\"GreenText\">2,5%</style> de sua Vida atual."
+                    "langTranslation": "Concede dano adicional a Habilidades Corpo-a-corpo equivalente a <style=\"GreenText\">7%</style> de sua Vida atual (bônus máximo 500)."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Увеличивает урон навыков ближнего боя на <style=\"GreenText\">2,5%</style> от текущего запаса здоровья."
+                    "langTranslation": "Увеличивает урон навыков ближнего боя на <style=\"GreenText\">7%</style> от текущего запаса здоровья (максимальный бонус 500)."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "当前生命值的 <style=\"GreenText\">2.5%</style> 转化为近战技能造成的额外伤害。"
+                    "langTranslation": "近战技能造成的额外伤害等于当前生命值的<style=\"GreenText\">7%</style>（最大加成为 500）。"
                 }
             ]
         },
@@ -16603,7 +16636,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "Evasion",
                     "modifierType": "Additive",
-                    "value": 0.1
+                    "value": 0.06
                 }
             ],
             "basePrice": 600.0,
@@ -16655,39 +16688,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Ausweichen <style=\"GreenText\">+10%</style>.\r\n"
+                    "langTranslation": "Ausweichen <style=\"GreenText\">+6%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Evasion <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "Evasion <style=\"GreenText\">+6%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Evasión <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "Evasión <style=\"GreenText\">+6%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Esquive <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "Esquive <style=\"GreenText\">+6%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "回避 <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "回避 <style=\"GreenText\">+6%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Unik <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "Unik <style=\"GreenText\">+6%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Evasão <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "Evasão <style=\"GreenText\">+6%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Уклонение: <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "Уклонение: <style=\"GreenText\">+6%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "闪避 <style=\"GreenText\">+10%</style>\r\n"
+                    "langTranslation": "闪避 <style=\"GreenText\">+6%</style>\r\n"
                 }
             ]
         },
@@ -16700,7 +16733,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "Evasion",
                     "modifierType": "Additive",
-                    "value": 0.15
+                    "value": 0.09
                 }
             ],
             "basePrice": 600.0,
@@ -16752,39 +16785,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Ausweichen <style=\"GreenText\">+15%</style>.\r\n"
+                    "langTranslation": "Ausweichen <style=\"GreenText\">+9%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Evasion <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Evasion <style=\"GreenText\">+9%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Evasión <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Evasión <style=\"GreenText\">+9%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Esquive <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Esquive <style=\"GreenText\">+9%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "回避 <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "回避 <style=\"GreenText\">+9%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Unik <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Unik <style=\"GreenText\">+9%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Evasão <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Evasão <style=\"GreenText\">+9%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Уклонение: <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "Уклонение: <style=\"GreenText\">+9%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "闪避 <style=\"GreenText\">+15%</style>\r\n"
+                    "langTranslation": "闪避 <style=\"GreenText\">+9%</style>\r\n"
                 }
             ]
         },
@@ -17405,7 +17438,7 @@
             "statModifierDefinitions": [
                 {
                     "type": "StatModifierDefinition",
-                    "eStatDefinition": "BarrierGain",
+                    "eStatDefinition": "MaxBarrier",
                     "modifierType": "Additive",
                     "value": 0.2
                 }
@@ -17459,39 +17492,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Überzeugungsgewinn <style=\"GreenText\">+20%</style>.\r\n"
+                    "langTranslation": "Max. Überzeugung <style=\"GreenText\">+20%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Conviction Gain <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Max. Conviction <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Obtención de Convicción <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Convicción Máx. <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Gain de conviction <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Conviction max. <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "信念獲得量 <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "信念最大値 <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zyskiwane Przekonanie <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Maksymalne Przekonanie <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ganho de Convicção <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Convicção Máxima <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Получение непоколебимости: <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "Максимальная непоколебимость: <style=\"GreenText\">+20%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "信念获取 <style=\"GreenText\">+20%</style>\r\n"
+                    "langTranslation": "最大信念 <style=\"GreenText\">+20%</style>\r\n"
                 }
             ]
         },
@@ -17890,7 +17923,7 @@
             "statModifierDefinitions": [
                 {
                     "type": "StatModifierDefinition",
-                    "eStatDefinition": "BarrierGain",
+                    "eStatDefinition": "MaxBarrier",
                     "modifierType": "Additive",
                     "value": 0.3
                 }
@@ -17944,39 +17977,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Überzeugungsgewinn <style=\"GreenText\">+30%</style>.\r\n"
+                    "langTranslation": "Max. Überzeugung <style=\"GreenText\">+30%</style>.\r\n"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Conviction Gain <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Max. Conviction <style=\"GreenText\">+30%</style>\r\n"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Obtención de Convicción <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Convicción Máx. <style=\"GreenText\">+30%</style>\r\n"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Gain de conviction <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Conviction max. <style=\"GreenText\">+30%</style>\r\n"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "信念獲得量 <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "信念最大値 <style=\"GreenText\">+30%</style>\r\n"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zyskiwane Przekonanie <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Maksymalne Przekonanie <style=\"GreenText\">+30%</style>\r\n"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ganho de Convicção <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Convicção Máxima <style=\"GreenText\">+30%</style>\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Получение непоколебимости: <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "Максимальная непоколебимость: <style=\"GreenText\">+30%</style>\r\n"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "信念获取 <style=\"GreenText\">+30%</style>\r\n"
+                    "langTranslation": "最大信念 <style=\"GreenText\">+30%</style>\r\n"
                 }
             ]
         },
@@ -18308,7 +18341,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Rounded"
                         }
                     ]
                 }
@@ -18316,8 +18349,8 @@
             "basePrice": 600.0,
             "supportedRarities": "Epic",
             "epicRollRange": [
-                0.02,
-                0.02
+                500.0,
+                500.0
             ],
             "titleLocalizationKey": [
                 {
@@ -18362,138 +18395,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhöht den Schaden durch Zauber um <style=\"GreenText\">+2%</style> deines aktuellen Manas."
+                    "langTranslation": "Erhöht den Schaden durch Zauber um <style=\"GreenText\">7%</style> deines aktuellen Manas (maximaler Bonus +500)."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Adds more damage to Spells, equal to <style=\"GreenText\">+2%</style> of your current Mana."
+                    "langTranslation": "Adds more damage to Spells, equal to <style=\"GreenText\">7%</style> of your current Mana (max bonus is +500)."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Agrega daño a los hechizos, equivalente al <style=\"GreenText\">+2%</style> de tu maná actual."
+                    "langTranslation": "Agrega más daño a los hechizos, equivalente al <style=\"GreenText\">7%</style> de tu maná actual (la bonificación máxima es +500)."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Les sorts infligent des dégâts supplémentaires équivalant à <style=\"GreenText\">+2%</style> de votre ferveur actuelle"
+                    "langTranslation": "Vos sorts infligent des dégâts supplémentaires équivalant à <style=\"GreenText\">7%</style> de votre ferveur actuelle (bonus maximum +500)."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "呪文に、自身の現在のマナの<style=\"GreenText\">+2%</style>に等しいダメージを追加する。"
+                    "langTranslation": "呪文に、自身の現在のマナの<style=\"GreenText\">7%</style>に等しい追加ダメージを与える（最大ボーナス +500）。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Dodaje obrażenia do zaklęć równe <style=\"GreenText\">+2%</style> twojej aktualnej many"
+                    "langTranslation": "Dodaje obrażenia do zaklęć równe <style=\"GreenText\">7%</style> twojej aktualnej many (maksymalny bonus +500)."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Adicione mais dano a habilidades de Magia equivalente a <style=\"GreenText\">+2%</style> de sua Energia atual."
+                    "langTranslation": "Adiciona mais dano a Magias, equivalente a <style=\"GreenText\">7%</style> de sua Energia atual (bônus máximo é +500)."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Увеличивает урон от заклинаний на <style=\"GreenText\">+2%</style> от текущего запаса маны"
+                    "langTranslation": "Увеличивает урон заклинаний на <style=\"GreenText\">7%</style> от текущего запаса маны (максимальный бонус +500)."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "当前法力值的 <style=\"GreenText\">+2%</style> 转化为法术的额外伤害。"
-                }
-            ]
-        },
-        {
-            "name": "Veil of Quills - Feathered Dagger - Projectile Life Time",
-            "id": 231,
-            "type": "SkillBlessingDefinition",
-            "behaviorAffixDefinition": {
-                "name": "Veil of Quills - Feathered Dagger - Pierce Affix",
-                "id": 146,
-                "type": "SkillBehaviorAffixDefinition"
-            },
-            "rollVariableName": "Projectile Life Time",
-            "eModifierType": "MultiplicativeAdditive",
-            "basePrice": 300.0,
-            "supportedRarities": "Magic, Rare",
-            "magicRollRange": [
-                1.2,
-                1.2
-            ],
-            "rareRollRange": [
-                1.3,
-                1.3
-            ],
-            "titleLocalizationKey": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Ewige Echos"
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Enduring Echoes"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Ecos Duraderos"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Échos éternels"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "持続する残響"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Wytrzymałe Echo"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Ecos Duradouros"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Сохраняющиеся эхо"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "持久回响"
-                }
-            ],
-            "effectTypeIcon": "Icon_Duration",
-            "description": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Geschossdauer: <style=\"GreenText\">+30%[+]</style>."
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Projectile Duration <style=\"GreenText\">+30%[+]</style>"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Duración del proyectil <style=\"GreenText\">+30%[+]</style>"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Durée des projectiles <style=\"GreenText\">+30%[+]</style>"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "投射物持続時間<style=\"GreenText\">+30%[+]</style>"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Czas trwania pocisku <style=\"GreenText\">+30%[+]</style>"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Duração do Projétil <style=\"GreenText\">+30%[+]</style>"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+30%[+]</style> к длительности полета снарядов"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "投射物持续时间：<style=\"GreenText\">+30%[+]</style>"
+                    "langTranslation": "法术造成的额外伤害等于当前法力值的<style=\"GreenText\">7%</style>（最大加成为 +500）。"
                 }
             ]
         },
@@ -18769,7 +18703,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Multiply",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -19146,20 +19080,20 @@
             "basePrice": 0.0,
             "supportedRarities": "Everything",
             "commonRollRange": [
+                1.1,
+                1.1
+            ],
+            "magicRollRange": [
+                1.15,
+                1.15
+            ],
+            "rareRollRange": [
                 1.2,
                 1.2
             ],
-            "magicRollRange": [
-                1.3,
-                1.3
-            ],
-            "rareRollRange": [
-                1.4,
-                1.4
-            ],
             "epicRollRange": [
-                1.5,
-                1.5
+                1.25,
+                1.25
             ],
             "titleLocalizationKey": [
                 {
@@ -19203,39 +19137,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Krit.-Treffer-Chance <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Krit.-Treffer-Chance <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Critical Chance <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Critical Chance <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de golpe crítico <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Probabilidad de golpe crítico <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chances de critique <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Chances de critique <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "クリティカルヒット率<style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "クリティカルヒット率<style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na trafienie krytyczne <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Szansa na trafienie krytyczne <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Chance de Acerto Crítico <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Chance de Acerto Crítico <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+50%[+]</style> К шансу критического попадания"
+                    "langTranslation": "<style=\"GreenText\">+25%[+]</style> К шансу критического попадания"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "暴击几率：<style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "暴击几率：<style=\"GreenText\">+25%[+]</style>"
                 }
             ]
         },
@@ -19273,20 +19207,20 @@
             "basePrice": 0.0,
             "supportedRarities": "Everything",
             "commonRollRange": [
+                1.1,
+                1.1
+            ],
+            "magicRollRange": [
+                1.15,
+                1.15
+            ],
+            "rareRollRange": [
                 1.2,
                 1.2
             ],
-            "magicRollRange": [
-                1.3,
-                1.3
-            ],
-            "rareRollRange": [
-                1.4,
-                1.4
-            ],
             "epicRollRange": [
-                1.5,
-                1.5
+                1.25,
+                1.25
             ],
             "titleLocalizationKey": [
                 {
@@ -19330,39 +19264,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">+50%[+]</style>."
+                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">+25%[+]</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">+50%[+]</style>."
+                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">+25%[+]</style>."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">+50%[+]</style>増加する"
+                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">+25%[+]</style>増加する"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">+25%[+]</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">+50%[+]</style>"
+                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">+25%[+]</style>"
                 }
             ]
         },
@@ -19630,7 +19564,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Multiply",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -20248,8 +20182,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Roll",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -20368,7 +20302,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Multiply",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -20491,7 +20425,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Multiply",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -21970,8 +21904,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Roll",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
                 }
@@ -21979,12 +21913,12 @@
             "basePrice": 0.0,
             "supportedRarities": "Rare, Epic",
             "rareRollRange": [
-                0.4,
-                0.4
+                0.3,
+                0.3
             ],
             "epicRollRange": [
-                0.5,
-                0.5
+                0.4,
+                0.4
             ],
             "titleLocalizationKey": [
                 {
@@ -22028,39 +21962,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">50%[+]</style>."
+                    "langTranslation": "Erhöht <b>Krit.-Treffer-Schaden</b> um <style=\"GreenText\">40%</style>."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">50%[+]</style>"
+                    "langTranslation": "Increase <b>Critical Damage</b> by <style=\"GreenText\">40%</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">50%[+]</style>."
+                    "langTranslation": "Aumenta el <b>daño crítico</b> en <style=\"GreenText\">40%</style>."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">50%[+]</style>"
+                    "langTranslation": "Augmente les <b>dégâts critiques</b> de <style=\"GreenText\">40%</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">50%[+]</style>増加する"
+                    "langTranslation": "<b>クリティカルダメージ</b>が<style=\"GreenText\">40%</style>増加する"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">50%[+]</style>"
+                    "langTranslation": "Zwiększa <b>obrażenia krytyczne </b> o <style=\"GreenText\">40%</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">50%[+]</style>"
+                    "langTranslation": "Aumenta <b>Dano Crítico</b> em <style=\"GreenText\">40%</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">50%[+]</style>"
+                    "langTranslation": "Увеличивает <b>крит. урон</b> на <style=\"GreenText\">40%</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">50%[+]</style>"
+                    "langTranslation": "<b>暴击伤害</b>提高 <style=\"GreenText\">40%</style>"
                 }
             ]
         },
@@ -22090,7 +22024,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Multiply",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -22184,106 +22118,6 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": "法力消耗：<style=\"GreenText\">‑25%[x]</style>"
-                }
-            ]
-        },
-        {
-            "name": "Lasso - Northerner Belt - Activation Cooldown",
-            "id": 262,
-            "type": "SkillBlessingDefinition",
-            "behaviorAffixDefinition": {
-                "name": "Lasso - Northerner Belt - Cast on Crit Affix",
-                "id": 137,
-                "type": "SkillBehaviorAffixDefinition"
-            },
-            "rollVariableName": "Roll",
-            "eModifierType": "Multiplicative",
-            "basePrice": 300.0,
-            "supportedRarities": "Magic, Rare",
-            "magicRollRange": [
-                0.8,
-                0.8
-            ],
-            "rareRollRange": [
-                0.7,
-                0.7
-            ],
-            "titleLocalizationKey": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Nordländergürtel"
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Northerner Belt"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Cinturón Norteño"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Ceinture du Nord-Est"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "北部人のベルト"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Pas Północy"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Cinta Nordestina"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Пояс северянина"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "北方勇士腰带"
-                }
-            ],
-            "icon": "",
-            "effectTypeIcon": "IconStatus_Bleeding",
-            "description": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Aktivierung-Abklingtempo: <style=\"GreenText\">+30%[x]</style>."
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Activation Cooldown Speed <style=\"GreenText\">+30%[x]</style>"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Velocidad de enfriamiento de activación <style=\"GreenText\">+30%[x]</style>"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Vitesse de recharge d'activation <style=\"GreenText\">+30%[x]</style>"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "発動時のクールダウン速度<style=\"GreenText\">+30%[x]</style>"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Prędkość odnawiania po aktywacji <style=\"GreenText\">+30%[x]</style>"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Vel. do Tempo de Recarga da Ativação <style=\"GreenText\">+30%[x]</style>"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">+30%[x]</style> к скорости активации перезарядки"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "激活冷却速度：<style=\"GreenText\">+30%[x]</style>"
                 }
             ]
         },

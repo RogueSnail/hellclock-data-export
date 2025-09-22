@@ -124,6 +124,9 @@
             "id": 326,
             "type": "SummonMarksmenSkillDefinition"
         },
+        {},
+        {},
+        {},
         {}
     ],
     "usePotionSkillDefinition": {
@@ -240,7 +243,7 @@
             "FireResistance",
             "BarrierDecayResilience",
             "LightningResistance",
-            "BarrierGain",
+            "MaxBarrier",
             "PlagueResistance",
             "BarrierGeneration",
             "Evasion",
@@ -255,7 +258,7 @@
             "Mana",
             "ManaRegen",
             "MovementSpeed",
-            "PotionCapacity",
+            "DamageLifeRegen",
             "SkillManaCost",
             "PotionEfficiency"
         ],
@@ -273,7 +276,12 @@
             "TrinketDropChanceBonus",
             "StunBuildupRate",
             "ChanceToApplyShock",
-            "ChanceToApplyBlight"
+            "ChanceToApplyBlight",
+            "SkillProjectileAmount",
+            "SkillMeleeDamage",
+            "SkillSpellDamage",
+            "SkillMarksmanDamage",
+            "SummonDamagePercentage"
         ]
     },
     "statBaseOverrides": [

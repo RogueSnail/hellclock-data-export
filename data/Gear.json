@@ -423,7 +423,7 @@
             "slot": "ARMOR",
             "tier": 1,
             "visualTier": 1,
-            "power": 600.0,
+            "power": 800.0,
             "variants": [],
             "sellingValue": 10,
             "gearShopCost": 25,
@@ -631,7 +631,7 @@
             "slot": "RING_LEFT",
             "tier": 1,
             "visualTier": 1,
-            "power": 0.0375,
+            "power": 0.015,
             "variants": [],
             "sellingValue": 30,
             "gearShopCost": 75,
@@ -787,7 +787,7 @@
             "slot": "WEAPON",
             "tier": 1,
             "visualTier": 1,
-            "power": 300.0,
+            "power": 320.0,
             "variants": [],
             "sellingValue": 20,
             "gearShopCost": 50,
@@ -1671,7 +1671,7 @@
             "slot": "ARMOR",
             "tier": 2,
             "visualTier": 1,
-            "power": 850.0,
+            "power": 1130.0,
             "variants": [],
             "sellingValue": 50,
             "gearShopCost": 180,
@@ -1772,7 +1772,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1200.0
+                                "value": 1600.0
                             }
                         ]
                     }
@@ -1825,13 +1825,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 900.0
+                                "value": 1200.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.12
+                                "value": 0.125
                             }
                         ]
                     }
@@ -1884,13 +1884,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 900.0
+                                "value": 1400.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.15
+                                "value": 0.125
                             }
                         ]
                     }
@@ -1943,13 +1943,72 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 900.0
+                                "value": 1400.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.16
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Heilige Tunika"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Sacred Tunic"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Túnica sagrada"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Tunique sacrée"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "神聖のチュニック"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Święta Tunika"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Túnica Sagrada"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Священная рубаха"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "神圣祭袍"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeVisual2",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 1400.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "ManaShield",
+                                "modifierType": "Additive",
+                                "value": 0.125
                             }
                         ]
                     }
@@ -2179,7 +2238,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.1
+                                "value": 0.05
                             }
                         ]
                     }
@@ -2644,7 +2703,7 @@
             "slot": "RING_LEFT",
             "tier": 2,
             "visualTier": 1,
-            "power": 0.0525,
+            "power": 0.0275,
             "variants": [],
             "sellingValue": 75,
             "gearShopCost": 375,
@@ -2745,7 +2804,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.075
+                                "value": 0.0375
                             }
                         ]
                     }
@@ -2796,7 +2855,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.15
                             }
@@ -3020,9 +3079,15 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
-                                "modifierType": "MultiplicativeAdditive",
-                                "value": 1.2
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.2
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
+                                "modifierType": "Additive",
+                                "value": 0.2
                             }
                         ]
                     }
@@ -3311,7 +3376,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "Multiplicative",
-                                "value": 0.85
+                                "value": 0.9
                             }
                         ]
                     }
@@ -3328,7 +3393,7 @@
             "slot": "WEAPON",
             "tier": 2,
             "visualTier": 1,
-            "power": 430.0,
+            "power": 457.0,
             "variants": [],
             "sellingValue": 50,
             "gearShopCost": 250,
@@ -3429,7 +3494,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 600.0
+                                "value": 640.0
                             }
                         ]
                     }
@@ -3482,7 +3547,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 520.0
+                                "value": 550.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -3541,13 +3606,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 520.0
+                                "value": 550.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 0.5
+                                "value": 0.2
                             }
                         ]
                     }
@@ -3600,7 +3665,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 520.0
+                                "value": 550.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -3672,7 +3737,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1600.0
+                                "value": 2128.0
                             }
                         ]
                     }
@@ -3725,13 +3790,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1200.0
+                                "value": 1600.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.16
+                                "value": 0.15
                             }
                         ]
                     }
@@ -3784,13 +3849,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1200.0
+                                "value": 1850.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.2
+                                "value": 0.15
                             }
                         ]
                     }
@@ -3843,13 +3908,72 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1200.0
+                                "value": 1600.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.21
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Heilige Tunika"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Sacred Tunic"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Túnica sagrada"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Tunique sacrée"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "神聖のチュニック"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Święta Tunika"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Túnica Sagrada"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Священная рубаха"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "神圣祭袍"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeVisual2",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 1600.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "ManaShield",
+                                "modifierType": "Additive",
+                                "value": 0.15
                             }
                         ]
                     }
@@ -4027,7 +4151,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.15
+                                "value": 0.075
                             }
                         ]
                     }
@@ -4437,7 +4561,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.09
+                                "value": 0.045
                             }
                         ]
                     }
@@ -4488,7 +4612,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.185
                             }
@@ -4660,9 +4784,15 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
-                                "modifierType": "MultiplicativeAdditive",
-                                "value": 1.25
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.25
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
+                                "modifierType": "Additive",
+                                "value": 0.25
                             }
                         ]
                     }
@@ -4899,7 +5029,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "Multiplicative",
-                                "value": 0.815
+                                "value": 0.87
                             }
                         ]
                     }
@@ -4965,7 +5095,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 800.0
                             }
                         ]
                     }
@@ -5018,7 +5148,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 600.0
+                                "value": 640.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -5077,13 +5207,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 520.0
+                                "value": 600.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 0.7
+                                "value": 0.24
                             }
                         ]
                     }
@@ -5136,7 +5266,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 600.0
+                                "value": 640.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -5208,7 +5338,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1900.0
+                                "value": 2527.0
                             }
                         ]
                     }
@@ -5261,13 +5391,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1400.0
+                                "value": 1862.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.2
+                                "value": 0.175
                             }
                         ]
                     }
@@ -5320,13 +5450,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1400.0
+                                "value": 2128.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.25
+                                "value": 0.175
                             }
                         ]
                     }
@@ -5379,13 +5509,72 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1400.0
+                                "value": 1862.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.26
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Heilige Wolltunika"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Sacred Wool Tunic"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Túnica sagrada de lana"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Tunique sacrée en laine"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "神聖のウールチュニック"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Święta Wełniana Tunika"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Túnica Sagrada de Lã"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Шерстяная священная рубаха"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "神圣羊毛祭袍"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeVisual3",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 1862.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "ManaShield",
+                                "modifierType": "Additive",
+                                "value": 0.175
                             }
                         ]
                     }
@@ -5569,7 +5758,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.2
+                                "value": 0.1
                             }
                         ]
                     }
@@ -5979,7 +6168,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.1
+                                "value": 0.05
                             }
                         ]
                     }
@@ -6030,7 +6219,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.2
                             }
@@ -6202,9 +6391,15 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
-                                "modifierType": "MultiplicativeAdditive",
-                                "value": 1.35
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.35
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
+                                "modifierType": "Additive",
+                                "value": 0.35
                             }
                         ]
                     }
@@ -6441,7 +6636,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "Multiplicative",
-                                "value": 0.8
+                                "value": 0.84
                             }
                         ]
                     }
@@ -6507,7 +6702,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 900.0
+                                "value": 960.0
                             }
                         ]
                     }
@@ -6560,7 +6755,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 800.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -6619,13 +6814,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 680.0
+                                "value": 760.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 0.78
+                                "value": 0.3
                             }
                         ]
                     }
@@ -6678,7 +6873,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 800.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -6737,7 +6932,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 800.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -6796,7 +6991,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 800.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -6855,7 +7050,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 800.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -6914,7 +7109,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 800.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -6977,7 +7172,66 @@
                             },
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.6
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Gezackter Eisenrevolver"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Serrated Iron Revolver"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Revólver dentado de hierro"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Revolver denté en fer"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "刻みの黒鉄リボルバー"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Ząbkowany Żelazny Rewolwer"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Revólver Serrilhado de Ferro"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Нарезной револьвер из железа"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "锯刃铁制左轮手枪"
+                            }
+                        ],
+                        "sprite": "IconGear_WeaponVisual3",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "BaseDamage",
+                                "modifierType": "Additive",
+                                "value": 800.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
                                 "modifierType": "Additive",
                                 "value": 0.6
                             }
@@ -7045,7 +7299,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2200.0
+                                "value": 2926.0
                             }
                         ]
                     }
@@ -7098,13 +7352,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1750.0
+                                "value": 2327.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.24
+                                "value": 0.2
                             }
                         ]
                     }
@@ -7157,13 +7411,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1750.0
+                                "value": 2593.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.3
+                                "value": 0.2
                             }
                         ]
                     }
@@ -7216,13 +7470,72 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 1750.0
+                                "value": 2327.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.32
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Heilige Wolltunika"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Sacred Wool Tunic"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Túnica sagrada de lana"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Tunique sacrée en laine"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "神聖のウールチュニック"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Święta Wełniana Tunika"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Túnica Sagrada de Lã"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Шерстяная священная рубаха"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "神圣羊毛祭袍"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeVisual3",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 2327.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "ManaShield",
+                                "modifierType": "Additive",
+                                "value": 0.2
                             }
                         ]
                     }
@@ -7406,7 +7719,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.25
+                                "value": 0.125
                             }
                         ]
                     }
@@ -7816,7 +8129,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.13
+                                "value": 0.065
                             }
                         ]
                     }
@@ -7867,7 +8180,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.24
                             }
@@ -8039,9 +8352,15 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
-                                "modifierType": "MultiplicativeAdditive",
-                                "value": 1.5
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.5
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
+                                "modifierType": "Additive",
+                                "value": 0.5
                             }
                         ]
                     }
@@ -8278,7 +8597,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 0.75
+                                "value": 0.81
                             }
                         ]
                     }
@@ -8344,7 +8663,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1000.0
+                                "value": 1064.0
                             }
                         ]
                     }
@@ -8397,7 +8716,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 850.0
+                                "value": 904.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -8456,13 +8775,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 750.0
+                                "value": 875.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 0.83
+                                "value": 0.36
                             }
                         ]
                     }
@@ -8515,7 +8834,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 850.0
+                                "value": 904.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -8574,7 +8893,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 850.0
+                                "value": 904.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -8633,7 +8952,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 850.0
+                                "value": 904.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -8692,7 +9011,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 850.0
+                                "value": 904.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -8751,7 +9070,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 850.0
+                                "value": 904.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -8810,11 +9129,70 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 900.0
+                                "value": 960.0
                             },
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.8
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Gezackter Eisenrevolver"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Serrated Iron Revolver"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Revólver dentado de hierro"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Revolver denté en fer"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "刻みの黒鉄リボルバー"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Ząbkowany Żelazny Rewolwer"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Revólver Serrilhado de Ferro"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Нарезной револьвер из железа"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "锯刃铁制左轮手枪"
+                            }
+                        ],
+                        "sprite": "IconGear_WeaponVisual3",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "BaseDamage",
+                                "modifierType": "Additive",
+                                "value": 960.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
                                 "modifierType": "Additive",
                                 "value": 0.8
                             }
@@ -8882,7 +9260,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2640.0
+                                "value": 3500.0
                             }
                         ]
                     }
@@ -8935,13 +9313,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2100.0
+                                "value": 2800.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.26
+                                "value": 0.225
                             }
                         ]
                     }
@@ -8994,13 +9372,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2100.0
+                                "value": 2350.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.33
+                                "value": 0.225
                             }
                         ]
                     }
@@ -9053,13 +9431,72 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2100.0
+                                "value": 3125.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.38
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Heilige Kaschmirtunika"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Sacred Cashmere Tunic"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Túnica sagrada de cachemira"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Tunique sacrée en cachemire"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "神聖のカシミヤチュニック"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Święta Kaszmirowa Tunika"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Túnica Sagrada de Caxemira"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Шерстяная кашемировая рубаха"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "神圣羊绒祭袍"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeVisual3",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 2800.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "AntiMagic",
+                                "modifierType": "Additive",
+                                "value": 0.225
                             }
                         ]
                     }
@@ -11081,7 +11518,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.075
+                                "value": 0.07
                             }
                         ]
                     }
@@ -11324,7 +11761,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.1
+                                "value": 0.08
                             }
                         ]
                     }
@@ -11449,7 +11886,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.1
+                                "value": 0.06
                             }
                         ]
                     }
@@ -11672,9 +12109,9 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "modifierType": "Additive",
-                                "value": 0.25
+                                "value": 0.2
                             }
                         ]
                     }
@@ -11727,7 +12164,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.2
+                                "value": 1.1
                             }
                         ]
                     }
@@ -11780,7 +12217,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Mana",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.15
+                                "value": 1.08
                             }
                         ]
                     }
@@ -11846,7 +12283,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.135
+                                "value": 0.07
                             }
                         ]
                     }
@@ -12071,7 +12508,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.15
+                                "value": 0.08
                             }
                         ]
                     }
@@ -12296,7 +12733,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.18
+                                "value": 0.09
                             }
                         ]
                     }
@@ -12519,9 +12956,9 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "modifierType": "Additive",
-                                "value": 0.35
+                                "value": 0.25
                             }
                         ]
                     }
@@ -12574,7 +13011,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.3
+                                "value": 1.15
                             }
                         ]
                     }
@@ -12627,7 +13064,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Mana",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.225
+                                "value": 1.12
                             }
                         ]
                     }
@@ -12691,9 +13128,9 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "modifierType": "Additive",
-                                "value": 0.45
+                                "value": 0.3
                             }
                         ]
                     }
@@ -12746,7 +13183,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.4
+                                "value": 1.2
                             }
                         ]
                     }
@@ -12799,7 +13236,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Mana",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.32
+                                "value": 1.16
                             }
                         ]
                     }
@@ -12863,9 +13300,9 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "modifierType": "Additive",
-                                "value": 0.5
+                                "value": 0.35
                             }
                         ]
                     }
@@ -12918,7 +13355,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.5
+                                "value": 1.25
                             }
                         ]
                     }
@@ -12971,7 +13408,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Mana",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.4
+                                "value": 1.2
                             }
                         ]
                     }
@@ -13037,7 +13474,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 600.0
+                                "value": 800.0
                             }
                         ]
                     }
@@ -13090,7 +13527,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 380.0
+                                "value": 600.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -13149,11 +13586,70 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 380.0
+                                "value": 660.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
+                                "modifierType": "Additive",
+                                "value": 0.075
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Abgenutzte Jacke"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Worn Jacket"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Chamarra gastada"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Veste usée"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "擦り切れたジャケット"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Znoszona kurtka"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Casaco desgastado"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Поношенная куртка"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "破旧夹克"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeT1",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 660.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.1
                             }
@@ -13208,13 +13704,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 380.0
+                                "value": 660.0
                             },
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "Endurance",
+                                "eStatDefinition": "ManaShield",
                                 "modifierType": "Additive",
-                                "value": 0.1
+                                "value": 0.075
                             }
                         ]
                     }
@@ -13386,7 +13882,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.05
+                                "value": 0.025
                             }
                         ]
                     }
@@ -14039,7 +14535,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.0375
+                                "value": 0.015
                             }
                         ]
                     }
@@ -14090,7 +14586,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.075
                             }
@@ -14262,7 +14758,13 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.12
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
                                 "modifierType": "Additive",
                                 "value": 0.12
                             }
@@ -14501,7 +15003,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "Multiplicative",
-                                "value": 0.925
+                                "value": 0.95
                             }
                         ]
                     }
@@ -14567,7 +15069,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 300.0
+                                "value": 320.0
                             }
                         ]
                     }
@@ -14620,7 +15122,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 260.0
+                                "value": 276.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -14679,13 +15181,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 200.0
+                                "value": 266.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 0.25
+                                "value": 0.1
                             }
                         ]
                     }
@@ -14738,7 +15240,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 260.0
+                                "value": 282.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -14810,7 +15312,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 850.0
+                                "value": 1130.0
                             }
                         ]
                     }
@@ -14863,13 +15365,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 450.0
+                                "value": 600.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.075
+                                "value": 0.1
                             }
                         ]
                     }
@@ -14922,7 +15424,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 450.0
+                                "value": 700.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -14981,13 +15483,72 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 450.0
+                                "value": 700.0
                             },
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "Evasion",
+                                "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.12
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Abgenutzte Jacke"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Worn Jacket"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Chamarra gastada"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Veste usée"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "擦り切れたジャケット"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Znoszona kurtka"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Casaco desgastado"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Поношенная куртка"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "破旧夹克"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeT1",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 700.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "ManaShield",
+                                "modifierType": "Additive",
+                                "value": 0.1
                             }
                         ]
                     }
@@ -15159,7 +15720,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.075
+                                "value": 0.035
                             }
                         ]
                     }
@@ -15515,7 +16076,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.045
+                                "value": 0.04
                             }
                         ]
                     }
@@ -15812,7 +16373,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.0525
+                                "value": 0.0275
                             }
                         ]
                     }
@@ -15863,7 +16424,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.1
                             }
@@ -16035,7 +16596,13 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.18
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
                                 "modifierType": "Additive",
                                 "value": 0.18
                             }
@@ -16274,7 +16841,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "Multiplicative",
-                                "value": 0.89
+                                "value": 0.93
                             }
                         ]
                     }
@@ -16340,7 +16907,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 430.0
+                                "value": 447.0
                             }
                         ]
                     }
@@ -16393,7 +16960,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 380.0
+                                "value": 400.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -16452,13 +17019,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 380.0
+                                "value": 372.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 0.37
+                                "value": 0.1
                             }
                         ]
                     }
@@ -16511,7 +17078,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 260.0
+                                "value": 400.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -16583,7 +17150,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.05
+                                "value": 0.04
                             }
                         ]
                     }
@@ -16755,7 +17322,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.075
+                                "value": 0.05
                             }
                         ]
                     }
@@ -16925,9 +17492,9 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "modifierType": "Additive",
-                                "value": 0.55
+                                "value": 0.4
                             }
                         ]
                     }
@@ -16980,7 +17547,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.6
+                                "value": 1.3
                             }
                         ]
                     }
@@ -17033,7 +17600,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Mana",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.48
+                                "value": 1.24
                             }
                         ]
                     }
@@ -17099,7 +17666,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.2
+                                "value": 0.1
                             }
                         ]
                     }
@@ -17324,7 +17891,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1200.0
+                                "value": 1280.0
                             }
                         ]
                     }
@@ -17377,7 +17944,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1020.0
+                                "value": 1085.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -17436,13 +18003,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1020.0
+                                "value": 999.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 0.9
+                                "value": 0.44
                             }
                         ]
                     }
@@ -17495,7 +18062,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1100.0
+                                "value": 1085.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -17554,7 +18121,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1020.0
+                                "value": 1042.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -17613,7 +18180,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1020.0
+                                "value": 1042.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -17672,7 +18239,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1020.0
+                                "value": 1042.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -17731,7 +18298,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1020.0
+                                "value": 1042.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -17790,11 +18357,70 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1020.0
+                                "value": 1042.0
                             },
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.9
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Gezackter Eisenrevolver"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Serrated Iron Revolver"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Revólver dentado de hierro"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Revolver denté en fer"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "刻みの黒鉄リボルバー"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Ząbkowany Żelazny Rewolwer"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Revólver Serrilhado de Ferro"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Нарезной револьвер из железа"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "锯刃铁制左轮手枪"
+                            }
+                        ],
+                        "sprite": "IconGear_WeaponVisual3",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "BaseDamage",
+                                "modifierType": "Additive",
+                                "value": 1042.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
                                 "modifierType": "Additive",
                                 "value": 0.9
                             }
@@ -17980,7 +18606,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.28
+                                "value": 0.14
                             }
                         ]
                     }
@@ -18336,7 +18962,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.12
+                                "value": 0.09
                             }
                         ]
                     }
@@ -18512,9 +19138,15 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
-                                "modifierType": "MultiplicativeAdditive",
-                                "value": 1.6
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.6
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
+                                "modifierType": "Additive",
+                                "value": 0.6
                             }
                         ]
                     }
@@ -18633,7 +19265,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.145
+                                "value": 0.0725
                             }
                         ]
                     }
@@ -18684,7 +19316,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.29
                             }
@@ -18923,7 +19555,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 0.72
+                                "value": 0.78
                             }
                         ]
                     }
@@ -19159,9 +19791,9 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "modifierType": "Additive",
-                                "value": 0.66
+                                "value": 0.45
                             }
                         ]
                     }
@@ -19214,7 +19846,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.72
+                                "value": 1.35
                             }
                         ]
                     }
@@ -19267,7 +19899,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Mana",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 1.58
+                                "value": 1.28
                             }
                         ]
                     }
@@ -19333,7 +19965,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 3168.0
+                                "value": 4000.0
                             }
                         ]
                     }
@@ -19386,13 +20018,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2520.0
+                                "value": 3200.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.3
+                                "value": 0.25
                             }
                         ]
                     }
@@ -19445,13 +20077,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2520.0
+                                "value": 3600.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.35
+                                "value": 0.25
                             }
                         ]
                     }
@@ -19504,13 +20136,72 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Life",
                                 "modifierType": "Additive",
-                                "value": 2520.0
+                                "value": 3850.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Endurance",
                                 "modifierType": "Additive",
                                 "value": 0.42
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Heilige Kaschmirtunika"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Sacred Cashmere Tunic"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Túnica sagrada de cachemira"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Tunique sacrée en cachemire"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "神聖のカシミヤチュニック"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Święta Kaszmirowa Tunika"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Túnica Sagrada de Caxemira"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Шерстяная кашемировая рубаха"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "神圣羊绒祭袍"
+                            }
+                        ],
+                        "sprite": "IconGear_CapeVisual4",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "Life",
+                                "modifierType": "Additive",
+                                "value": 3200.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "ManaShield",
+                                "modifierType": "Additive",
+                                "value": 0.25
                             }
                         ]
                     }
@@ -19694,7 +20385,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "MagicResistance",
                                 "modifierType": "Additive",
-                                "value": 0.3
+                                "value": 0.15
                             }
                         ]
                     }
@@ -20050,7 +20741,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.15
+                                "value": 0.1
                             }
                         ]
                     }
@@ -20347,7 +21038,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "CriticalChance",
                                 "modifierType": "Additive",
-                                "value": 0.155
+                                "value": 0.08
                             }
                         ]
                     }
@@ -20398,7 +21089,7 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentApplication",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "modifierType": "Additive",
                                 "value": 0.35
                             }
@@ -20570,9 +21261,15 @@
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
-                                "modifierType": "MultiplicativeAdditive",
-                                "value": 1.9
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 0.9
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
+                                "modifierType": "Additive",
+                                "value": 0.9
                             }
                         ]
                     }
@@ -20691,7 +21388,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "Evasion",
                                 "modifierType": "Additive",
-                                "value": 0.22
+                                "value": 0.11
                             }
                         ]
                     }
@@ -21034,7 +21731,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillManaCost",
                                 "modifierType": "MultiplicativeAdditive",
-                                "value": 0.86
+                                "value": 0.76
                             }
                         ]
                     }
@@ -21100,7 +21797,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1532.0
                             }
                         ]
                     }
@@ -21153,7 +21850,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1223.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -21212,13 +21909,13 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 900.0
                             },
                             {
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "SkillProjectileAmount",
                                 "modifierType": "Additive",
-                                "value": 1.0
+                                "value": 0.5
                             }
                         ]
                     }
@@ -21271,7 +21968,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1197.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -21330,7 +22027,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1197.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -21389,7 +22086,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1197.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -21448,7 +22145,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1197.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -21507,7 +22204,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1197.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -21566,11 +22263,70 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 1440.0
+                                "value": 1263.0
                             },
                             {
                                 "type": "StatModifierDefinition",
-                                "eStatDefinition": "AilmentDamage",
+                                "eStatDefinition": "BleedDamage",
+                                "modifierType": "Additive",
+                                "value": 1.1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "GearDefinitionVariantData",
+                        "variantLocalizedName": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Gezackter Eisenrevolver"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Serrated Iron Revolver"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Revólver dentado de hierro"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Revolver denté en fer"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "刻みの黒鉄リボルバー"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Ząbkowany Żelazny Rewolwer"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Revólver Serrilhado de Ferro"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Нарезной револьвер из железа"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "锯刃铁制左轮手枪"
+                            }
+                        ],
+                        "sprite": "IconGear_WeaponVisual4",
+                        "statModifiersDefinitions": [
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "BaseDamage",
+                                "modifierType": "Additive",
+                                "value": 1263.0
+                            },
+                            {
+                                "type": "StatModifierDefinition",
+                                "eStatDefinition": "IgniteDamage",
                                 "modifierType": "Additive",
                                 "value": 1.1
                             }

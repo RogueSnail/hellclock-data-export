@@ -962,45 +962,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "Evasion",
                                 "statModifierType": "Additive",
-                                "value": 0.2,
+                                "value": 0.12,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Gewährt einen Basiswert von +20% Ausweichen. Dadurch erhältst du die Chance, bei erlittenen Treffern den gesamten Angriffsschaden zu vermeiden."
+                                        "langTranslation": "Gewährt einen Basiswert von +12% Ausweichen. Dadurch erhältst du die Chance, bei erlittenen Treffern den gesamten Angriffsschaden zu vermeiden."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Grants a base value of +20% Evasion, which gives you a chance to completely avoid damage from attacks when hit"
+                                        "langTranslation": "Grants a base value of +12% Evasion, which gives you a chance to completely avoid damage from attacks when hit"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Recibes un valor básico de Evasión de +20%, que otorga probabilidad de evitar todo el daño de los ataques cuando te golpean."
+                                        "langTranslation": "Recibes un valor básico de Evasión de +12%, que otorga probabilidad de evitar todo el daño de los ataques cuando te golpean."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Vous obtenez une valeur d'esquive de base de +20%, ce qui peut vous permettre d'éviter complètement une attaque"
+                                        "langTranslation": "Vous obtenez une valeur d'esquive de base de +12%, ce qui peut vous permettre d'éviter complètement une attaque"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "基礎値として回避+20%を得る。これにより攻撃のヒットからダメージを完全に避ける可能性が得られるようになった。"
+                                        "langTranslation": "基礎値として回避+12%を得る。これにより攻撃のヒットからダメージを完全に避ける可能性が得られるようになった。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zapewnia bazową wartość +20% uniku, który daje szansę na całkowite uniknięcie obrażeń przy trafieniu"
+                                        "langTranslation": "Zapewnia bazową wartość +12% uniku, który daje szansę na całkowite uniknięcie obrażeń przy trafieniu"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganhe um valor base de +20% Evasão, o que lhe dá uma chance de evitar completamente o dano de ataques quando atingido"
+                                        "langTranslation": "Ganhe um valor base de +12% Evasão, o que lhe dá uma chance de evitar completamente o dano de ataques quando atingido"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Устанавливает основное значение уклонения на +20%, что дает шанс полностью избежать урона от атак."
+                                        "langTranslation": "Устанавливает основное значение уклонения на +12%, что дает шанс полностью избежать урона от атак."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "获得 +20% 基础闪避值，可使你在被攻击命中时有机会完全躲避伤害。"
+                                        "langTranslation": "获得 +12% 基础闪避值，可使你在被攻击命中时有机会完全躲避伤害。"
                                     }
                                 ]
                             }
@@ -1071,45 +1071,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "Evasion",
                                 "statModifierType": "MultiplicativeAdditive",
-                                "value": 1.2,
+                                "value": 1.15,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Ausweichen +20%[+]"
+                                        "langTranslation": "Ausweichen +15%[+]"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Evasion +20%[+]"
+                                        "langTranslation": "Evasion +15%[+]"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Evasión +20%[+]"
+                                        "langTranslation": "Evasión +15%[+]"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+20%[+] Esquive"
+                                        "langTranslation": "+15%[+] Esquive"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "回避+20%[+]"
+                                        "langTranslation": "回避+15%[+]"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Unik +20%[+]"
+                                        "langTranslation": "Unik +15%[+]"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Evasão +20%[+]"
+                                        "langTranslation": "Evasão +15%[+]"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Уклонение +20%[+]"
+                                        "langTranslation": "Уклонение +15%[+]"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "闪避 +20%[+]"
+                                        "langTranslation": "闪避 +15%[+]"
                                     }
                                 ]
                             }
@@ -1268,7 +1268,7 @@
                                             {
                                                 "type": "SkillEffectVariable",
                                                 "name": "Mana Regen",
-                                                "baseValue": 0.01,
+                                                "baseValue": 0.005,
                                                 "eSkillEffectVariableStackType": "UseHighest",
                                                 "eSkillEffectVariableFormat": "Percentage"
                                             },
@@ -1287,39 +1287,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Der Verbrauch von 820 Mana gewährt dir eine Kraftkugel (max. 3). Deine Manaregeneration ist pro aktiver Kugel um 1% erhöht. Du verlierst alle 7 Sek., in denen du nicht mindestens 820 Mana verbrauchst, eine Kugel. Die Kugeln kreisen um dich herum und fügen Gegnern, die sie berühren, 85% Blitzschaden zu."
+                                        "langTranslation": "Der Verbrauch von 820 Mana gewährt dir eine Kraftkugel (max. 3). Deine Manaregeneration ist pro aktiver Kugel um 0,5% erhöht. Du verlierst alle 7 Sek., in denen du nicht mindestens 820 Mana verbrauchst, eine Kugel. Die Kugeln kreisen um dich herum und fügen Gegnern, die sie berühren, 85% Blitzschaden zu."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Spending 820 Mana grants you a Power Orb (max 3). Increase your Mana Regen by 1% for each active Orb. Lose an orb every 7s that you don't spend at least 820 Mana. Orbs will orbit around you and deal 85% Lightning damage to enemies who touch them"
+                                        "langTranslation": "Spending 820 Mana grants you a Power Orb (max 3). Increase your Mana Regen by 0.5% for each active Orb. Lose an orb every 7s that you don't spend at least 820 Mana. Orbs will orbit around you and deal 85% Lightning damage to enemies who touch them"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Gastar 820 de maná te otorga un Orbe de Poder (máx. 3). Aumenta la regeneración de maná en 1% por cada Orbe activo. Pierdes un Orbe cada 7 s cuando no gastas un mínimo de 820 de maná. Los Orbes orbitan a tu alrededor e infligen 85% de daño de Rayo a los enemigos que los tocan."
+                                        "langTranslation": "Gastar 820 de maná te otorga un Orbe de Poder (máx. 3). Aumenta la regeneración de maná en 0,5% por cada Orbe activo. Pierdes un Orbe cada 7 s cuando no gastas un mínimo de 820 de maná. Los Orbes orbitan a tu alrededor e infligen 85% de daño de Rayo a los enemigos que los tocan."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque vous dépensez 820 de ferveur, vous gagnez un orbe de puissance (max : 3). Votre régénération de ferveur augmente de 1% par orbe actif. Vous perdez un orbe si vous ne dépensez pas au moins 820 de ferveur pendant 7 s. Les orbes tournent autour de vous et infligent 85% de dégâts de foudre aux ennemis touchés."
+                                        "langTranslation": "Lorsque vous dépensez 820 de ferveur, vous gagnez un orbe de puissance (max : 3). Votre régénération de ferveur augmente de 0,5% par orbe actif. Vous perdez un orbe si vous ne dépensez pas au moins 820 de ferveur pendant 7 s. Les orbes tournent autour de vous et infligent 85% de dégâts de foudre aux ennemis touchés."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "マナを820消費するたび力のオーブを1個得る（最大3個）。発動中のオーブ1個につきマナ再生量は1%増加する。マナを820以上消費せずに7秒が経過するたび、オーブは1個失われる。オーブは周囲を周り、これに触れた敵に85%電撃ダメージを与える。"
+                                        "langTranslation": "マナを820消費するたび力のオーブを1個得る（最大3個）。発動中のオーブ1個につきマナ再生量は0.5%増加する。マナを820以上消費せずに7秒が経過するたび、オーブは1個失われる。オーブは周囲を周り、これに触れた敵に85%電撃ダメージを与える。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Wydanie 820 many zapewnia ci kulę mocy (maks. 3). Regeneracja many wzrasta o 1% za każdą aktywną kulę. Tracisz jedną kulę co 7 s, jeśli nie wydasz przynajmniej 820 many. Kule krążą wokół ciebie i zadają 85% obrażeń od błyskawic wrogom, którzy ich dotkną."
+                                        "langTranslation": "Wydanie 820 many zapewnia ci kulę mocy (maks. 3). Regeneracja many wzrasta o 0,5% za każdą aktywną kulę. Tracisz jedną kulę co 7 s, jeśli nie wydasz przynajmniej 820 many. Kule krążą wokół ciebie i zadają 85% obrażeń od błyskawic wrogom, którzy ich dotkną."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Gastar 820 de Energia concede uma Orbe do Poder (máx. 3). Aumente sua Regeneração de Energia em 1% para cada Orbe ativo. Perca um orb a cada 7s que você não gastar ao menos 820 de Energia. Orbes irão orbitar à sua volta causando 85% de dano Elétrico a inimigos que tocarem"
+                                        "langTranslation": "Gastar 820 de Energia concede uma Orbe do Poder (máx. 3). Aumente sua Regeneração de Energia em 0,5% para cada Orbe ativo. Perca um orb a cada 7s que você não gastar ao menos 820 de Energia. Orbes irão orbitar à sua volta causando 85% de dano Elétrico a inimigos que tocarem"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Потратив 820 ед. маны, вы получите сферы мощи (не более 3), которые ускоряют ваше восстановление маны на 1% за каждую активную сферу. Вы будете терять по сфере каждые 7 сек., когда не тратите хотя бы 820 ед. маны. Сферы будут кружить вокруг вас и наносить 85% ед. урона от молний врагам при прикосновении."
+                                        "langTranslation": "Потратив 820 ед. маны, вы получите сферы мощи (не более 3), которые ускоряют ваше восстановление маны на 0,5% за каждую активную сферу. Вы будете терять по сфере каждые 7 сек., когда не тратите хотя бы 820 ед. маны. Сферы будут кружить вокруг вас и наносить 85% ед. урона от молний врагам при прикосновении."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "每消耗 820 法力值可获得 1 枚战力之球 (最多 3 枚)。每枚激活的战力之球可使你的法力再生速度提高 1%。若你在 7 秒内未消耗至少 820 法力值，你会失去 1 枚战力之球。战力之球会环绕在你周围，对触碰它们的敌人造成 85% 闪电伤害。"
+                                        "langTranslation": "每消耗 820 法力值可获得 1 枚战力之球 (最多 3 枚)。每枚激活的战力之球可使你的法力再生速度提高 0.5%。若你在 7 秒内未消耗至少 820 法力值，你会失去 1 枚战力之球。战力之球会环绕在你周围，对触碰它们的敌人造成 85% 闪电伤害。"
                                     }
                                 ]
                             },
@@ -2376,7 +2376,7 @@
                                 "name": "fefd65e1-edc6-4df1-ba91-554dabc95288",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 2.0,
+                                "valuePerLevel": 4.0,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -2402,39 +2402,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Das Erschöpfen deines Manas verbraucht all deine Stapel Lebenskraft und gewährt dir einen Buff, der +30 % Angriff-/Wirkungstempo verleiht und alle Manakosten auf null setzt. Dieser Buff dauert für jeden verbrauchten Stapel Lebenskraft 2 Sek. lang an."
+                                        "langTranslation": "Das Erschöpfen deines Manas verbraucht all deine Stapel Lebenskraft und gewährt dir einen Buff, der +30 % Angriff-/Wirkungstempo verleiht und alle Manakosten auf null setzt. Dieser Buff dauert für jeden verbrauchten Stapel Lebenskraft 4 Sek. lang an."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Depleting your Mana spends all of your Vigor stacks and grants you a buff that provides +30% attack/cast speed and reduces all Mana costs to zero. This buff lasts 2s for each Vigor stack spent"
+                                        "langTranslation": "Depleting your Mana spends all of your Vigor stacks and grants you a buff that provides +30% attack/cast speed and reduces all Mana costs to zero. This buff lasts 4s for each Vigor stack spent"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Agotar el maná gasta todas las acumulaciones de Vigor y te otorga un potenciamiento que brinda +30 % de velocidad de ataque/invocación y reduce a cero todos los costos de maná. El potenciamiento dura 2 s por cada acumulación de Vigor gastada."
+                                        "langTranslation": "Agotar el maná gasta todas las acumulaciones de Vigor y te otorga un potenciamiento que brinda +30 % de velocidad de ataque/invocación y reduce a cero todos los costos de maná. El potenciamiento dura 4 s por cada acumulación de Vigor gastada."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque votre ferveur est vide, tous vos cumuls de Vigueur sont utilisés et convertis en un bonus qui vous accorde +30% de vitesse d'attaque et de lancement, et réduit les coûts de ferveur à zéro. Durée : 2 s par cumul utilisé."
+                                        "langTranslation": "Lorsque votre ferveur est vide, tous vos cumuls de Vigueur sont utilisés et convertis en un bonus qui vous accorde +30% de vitesse d'attaque et de lancement, et réduit les coûts de ferveur à zéro. Durée : 4 s par cumul utilisé."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "マナを使い果たすと、活力効果をすべて消費して、自身に攻撃速度/詠唱速度+30%とあらゆるマナコスト0のボーナスを得る。このボーナスは消費された活力効果の累積1個につき2秒間続く。"
+                                        "langTranslation": "マナを使い果たすと、活力効果をすべて消費して、自身に攻撃速度/詠唱速度+30%とあらゆるマナコスト0のボーナスを得る。このボーナスは消費された活力効果の累積1個につき4秒間続く。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zużycie całej many pochłania wszystkie ładunki Wigoru i zapewnia wzmocnienie: +30% szybkości ataku/rzucania zaklęć oraz zerowy koszt many. Efekt trwa 2 s za każdy wydany ładunek Wigoru."
+                                        "langTranslation": "Zużycie całej many pochłania wszystkie ładunki Wigoru i zapewnia wzmocnienie: +30% szybkości ataku/rzucania zaklęć oraz zerowy koszt many. Efekt trwa 4 s za każdy wydany ładunek Wigoru."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Esgotar sua Energia gasta todas as suas reservas de Vigor e concede um bônus que fornece +30% de velocidade de ataque/conjuração e reduz todos os custos de Energia a zero. Este bônus dura 2s para cada reserva de Vigor gasta."
+                                        "langTranslation": "Esgotar sua Energia gasta todas as suas reservas de Vigor e concede um bônus que fornece +30% de velocidade de ataque/conjuração e reduz todos os custos de Energia a zero. Este bônus dura 4s para cada reserva de Vigor gasta."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Когда у вас заканчивается мана, вы расходуете все заряды рвения и получаете усиление, которое на 30% увеличивает скорость атаки и колдовства, а также снижает весь расход маны до 0. Усиление действует 2 сек. за каждый потраченный заряд рвения."
+                                        "langTranslation": "Когда у вас заканчивается мана, вы расходуете все заряды рвения и получаете усиление, которое на 30% увеличивает скорость атаки и колдовства, а также снижает весь расход маны до 0. Усиление действует 4 сек. за каждый потраченный заряд рвения."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "法力值耗尽时会消耗全部魄力层数，并获得增益，使攻击与技能施展速度 +30%，且所有技能不再消耗法力。每消耗 1 层魄力，此增益持续 2 秒"
+                                        "langTranslation": "法力值耗尽时会消耗全部魄力层数，并获得增益，使攻击与技能施展速度 +30%，且所有技能不再消耗法力。每消耗 1 层魄力，此增益持续 4 秒"
                                     }
                                 ]
                             }
@@ -3248,8 +3248,8 @@
                             {
                                 "name": "370ed997-428f-4ee0-b4bc-c5dee906313e",
                                 "type": "SkillBehaviorNodeAffixDefinition",
-                                "eModifierType": "Multiplicative",
-                                "valuePerLevel": 1.15,
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 0.04,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -3264,8 +3264,8 @@
                                                 "type": "SkillEffectVariable",
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
-                                                "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "Multiplicative"
+                                                "eSkillEffectVariableStackType": "Sum",
+                                                "eSkillEffectVariableFormat": "Percentage"
                                             }
                                         ]
                                     }
@@ -3275,39 +3275,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "+15%[x] Krit.-Treffer-Chance für Scharfschützenfertigkeiten."
+                                        "langTranslation": "+4% Krit.-Treffer-Chance für Scharfschützenfertigkeiten."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "+15%[x] Critical Chance for Marksman Skills"
+                                        "langTranslation": "+4% Critical Chance for Marksman Skills"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "+15%[x] de probabilidad de golpe crítico para las habilidades de Tirador."
+                                        "langTranslation": "+4% de probabilidad de golpe crítico para las habilidades de Tirador."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+15%[x] de chances de critique pour les compétences de tir"
+                                        "langTranslation": "+4% de chances de critique pour les compétences de tir"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "射撃スキルのクリティカル率+15%[x]"
+                                        "langTranslation": "射撃スキルのクリティカル率+4%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "+15%[x] szans na trafienie krytyczne dla umiejętności strzeleckich"
+                                        "langTranslation": "+4% szans na trafienie krytyczne dla umiejętności strzeleckich"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "+15%[x] de Chance de Acerto Crítico para Habilidades de Atirador"
+                                        "langTranslation": "+4% de Chance de Acerto Crítico para Habilidades de Atirador"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "+15%[x] к шансу критического попадания навыков стрелка"
+                                        "langTranslation": "+4% к шансу критического попадания навыков стрелка"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "神射手技能暴击几率 +15%[x]"
+                                        "langTranslation": "神射手技能暴击几率 +4%"
                                     }
                                 ]
                             }
@@ -3377,7 +3377,7 @@
                                 "name": "9d6de740-c157-43c2-b72f-7cebfbc08d63",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 0.2,
+                                "valuePerLevel": 0.12,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -3403,39 +3403,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "+20% Krit.-Treffer-Schaden für Scharfschützenfertigkeiten."
+                                        "langTranslation": "+12% Krit.-Treffer-Schaden für Scharfschützenfertigkeiten."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "+20% Critical Damage for Marksman Skills"
+                                        "langTranslation": "+12% Critical Damage for Marksman Skills"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "+20% de daño crítico para las habilidades de Tirador."
+                                        "langTranslation": "+12% de daño crítico para las habilidades de Tirador."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+20% de dégâts critiques pour les compétences de tir"
+                                        "langTranslation": "+12% de dégâts critiques pour les compétences de tir"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "射撃スキルのクリティカルダメージ+20%。"
+                                        "langTranslation": "射撃スキルのクリティカルダメージ+12%。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "+20% obrażeń krytycznych dla umiejętności strzeleckich"
+                                        "langTranslation": "+12% obrażeń krytycznych dla umiejętności strzeleckich"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "+20% de Dano Crítico para Habilidades de Atirador"
+                                        "langTranslation": "+12% de Dano Crítico para Habilidades de Atirador"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "+20% к критическому урону от навыков стрелка"
+                                        "langTranslation": "+12% к критическому урону от навыков стрелка"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "神射手技能暴击伤害 +20%。"
+                                        "langTranslation": "神射手技能暴击伤害 +12%。"
                                     }
                                 ]
                             }
@@ -3504,8 +3504,8 @@
                             {
                                 "name": "960386ca-2fd0-4cea-b169-9b71894c091f",
                                 "type": "SkillBehaviorNodeAffixDefinition",
-                                "eModifierType": "MultiplicativeAdditive",
-                                "valuePerLevel": 1.1,
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 0.05,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -3521,7 +3521,7 @@
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                                                "eSkillEffectVariableFormat": "Percentage"
                                             }
                                         ]
                                     }
@@ -3531,39 +3531,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "+10%[+] Fertigkeitstempo für Scharfschützenfertigkeiten."
+                                        "langTranslation": "+5% Fertigkeitstempo für Scharfschützenfertigkeiten."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "+10%[+] Skill Speed for Marksman Skills"
+                                        "langTranslation": "+5% Skill Speed for Marksman Skills"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "+10%[+] de velocidad de habilidades para las habilidades de Tirador."
+                                        "langTranslation": "+5% de velocidad de habilidades para las habilidades de Tirador."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+10%[+] de vitesse de compétence pour les compétences de tir"
+                                        "langTranslation": "+5% de vitesse de compétence pour les compétences de tir"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "射撃スキルのスキル速度+10%[+]。"
+                                        "langTranslation": "射撃スキルのスキル速度+5%。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "+10%[+] szybkości umiejętności dla umiejętności strzeleckich"
+                                        "langTranslation": "+5% szybkości umiejętności dla umiejętności strzeleckich"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "+10%[+] de Velocidade de Habilidade para Habilidades de Atirador"
+                                        "langTranslation": "+5% de Velocidade de Habilidade para Habilidades de Atirador"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "+10%[+] к скорости применения навыков стрелка"
+                                        "langTranslation": "+5% к скорости применения навыков стрелка"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "神射手技能施展速度 +10%[+]。"
+                                        "langTranslation": "神射手技能施展速度 +5%。"
                                     }
                                 ]
                             }
@@ -3632,8 +3632,8 @@
                             {
                                 "name": "a59397ef-3825-4289-b65f-55f6b80585f3",
                                 "type": "SkillBehaviorNodeAffixDefinition",
-                                "eModifierType": "MultiplicativeAdditive",
-                                "valuePerLevel": 1.1,
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 0.05,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -3649,7 +3649,7 @@
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                                                "eSkillEffectVariableFormat": "Percentage"
                                             }
                                         ]
                                     }
@@ -3659,39 +3659,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "+10%[+] Fertigkeitstempo für Scharfschützenfertigkeiten."
+                                        "langTranslation": "+5% Fertigkeitstempo für Scharfschützenfertigkeiten."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "+10%[+] Skill Speed for Marksman Skills"
+                                        "langTranslation": "+5% Skill Speed for Marksman Skills"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "+10%[+] de velocidad de habilidades para las habilidades de Tirador."
+                                        "langTranslation": "+5% de velocidad de habilidades para las habilidades de Tirador."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+10%[+] de vitesse de compétence pour les compétences de tir"
+                                        "langTranslation": "+5% de vitesse de compétence pour les compétences de tir"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "射撃スキルのスキル速度+10%[+]。"
+                                        "langTranslation": "射撃スキルのスキル速度+5%。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "+10%[+] szybkości umiejętności dla umiejętności strzeleckich"
+                                        "langTranslation": "+5% szybkości umiejętności dla umiejętności strzeleckich"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "+10%[+] de Velocidade de Habilidade para Habilidades de Atirador"
+                                        "langTranslation": "+5% de Velocidade de Habilidade para Habilidades de Atirador"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "+10%[+] к скорости применения навыков стрелка"
+                                        "langTranslation": "+5% к скорости применения навыков стрелка"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "神射手技能施展速度 +10%[+]。"
+                                        "langTranslation": "神射手技能施展速度 +5%。"
                                     }
                                 ]
                             }
@@ -4149,150 +4149,10 @@
                         "isRoot": false,
                         "affixes": [
                             {
-                                "name": "e5708c37-8810-4124-8589-fb567828160d",
-                                "type": "SkillBehaviorNodeAffixDefinition",
-                                "eModifierType": "Additive",
-                                "valuePerLevel": 1.0,
-                                "behaviorData": {
-                                    "type": "SkillBehaviorData",
-                                    "affectMultipleSkills": false,
-                                    "useListOfSkills": false,
-                                    "listOfSkills": [],
-                                    "skillTagFilter": "0",
-                                    "skillDefinition": {
-                                        "name": "SplitshotDefinition",
-                                        "id": 1,
-                                        "type": "SplitshotSkillDefinition"
-                                    },
-                                    "variables": {
-                                        "type": "SkillEffectVariables",
-                                        "variables": [
-                                            {
-                                                "type": "SkillEffectVariable",
-                                                "name": "Roll",
-                                                "baseValue": 0.0,
-                                                "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "Rounded"
-                                            }
-                                        ]
-                                    }
-                                },
-                                "hideDescription": false,
-                                "hideFromAggregatedDescriptions": false,
-                                "description": [
-                                    {
-                                        "langCode": "de",
-                                        "langTranslation": "Spaltschuss feuert für jede Geschickkugel 1 zusätzliche Geschosse ab."
-                                    },
-                                    {
-                                        "langCode": "en",
-                                        "langTranslation": "Split Shot fires 1 additional projectile for each Agility Orb"
-                                    },
-                                    {
-                                        "langCode": "es",
-                                        "langTranslation": "Disparo Dividido lanza 1 proyectil adicional por cada Orbe de Agilidad."
-                                    },
-                                    {
-                                        "langCode": "fr",
-                                        "langTranslation": "Le nombre de projectiles de Tir dispersé augmente de 1 par orbe d'agilité"
-                                    },
-                                    {
-                                        "langCode": "ja",
-                                        "langTranslation": "敏捷のオーブ1個につき、スプリットショットは投射物が1増加する。"
-                                    },
-                                    {
-                                        "langCode": "pl",
-                                        "langTranslation": "Wielostrzał wystrzeliwuje 1 dodatkowy pocisk za każdą kulę zwinności"
-                                    },
-                                    {
-                                        "langCode": "pt-br",
-                                        "langTranslation": "Tiro Disperso dispara 1 projéteis adicionais para cada Orbe de Agilidade"
-                                    },
-                                    {
-                                        "langCode": "ru",
-                                        "langTranslation": "Выстрел дробью выпускает доп. снаряды (1) за каждую сферу ловкости."
-                                    },
-                                    {
-                                        "langCode": "zh-cn",
-                                        "langTranslation": "每拥有 1 枚敏捷之球，分裂射击将额外发射 1 枚投射物"
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "7e7ad589-57be-40fe-941e-c6834c19287d",
-                                "type": "SkillBehaviorNodeAffixDefinition",
-                                "eModifierType": "Additive",
-                                "valuePerLevel": 0.5,
-                                "behaviorData": {
-                                    "type": "SkillBehaviorData",
-                                    "affectMultipleSkills": false,
-                                    "useListOfSkills": false,
-                                    "listOfSkills": [],
-                                    "skillTagFilter": "0",
-                                    "skillDefinition": {
-                                        "name": "RepeaterDefinition",
-                                        "id": 3,
-                                        "type": "RepeaterSkillDefinition"
-                                    },
-                                    "variables": {
-                                        "type": "SkillEffectVariables",
-                                        "variables": [
-                                            {
-                                                "type": "SkillEffectVariable",
-                                                "name": "Roll",
-                                                "baseValue": 0.0,
-                                                "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "Rounded"
-                                            }
-                                        ]
-                                    }
-                                },
-                                "hideDescription": false,
-                                "hideFromAggregatedDescriptions": false,
-                                "description": [
-                                    {
-                                        "langCode": "de",
-                                        "langTranslation": "Repetierer feuert für jeweils 2 Geschickkugeln 1 zusätzliches Geschoss ab."
-                                    },
-                                    {
-                                        "langCode": "en",
-                                        "langTranslation": "Repeater fires 1 additional projectile for each 2 Agility Orb"
-                                    },
-                                    {
-                                        "langCode": "es",
-                                        "langTranslation": "Repetidor lanza 1 proyectil adicional por cada 2 Orbes de Agilidad."
-                                    },
-                                    {
-                                        "langCode": "fr",
-                                        "langTranslation": "Le nombre de projectiles de Tir à répétition augmente de 1 tous les 2 orbes d'agilité"
-                                    },
-                                    {
-                                        "langCode": "ja",
-                                        "langTranslation": "敏捷のオーブ2個につき、リピーターは投射物が1増加する。"
-                                    },
-                                    {
-                                        "langCode": "pl",
-                                        "langTranslation": "Powtarzacz wystrzeliwuje 1 dodatkowy pocisk na każde 2 kule zwinności"
-                                    },
-                                    {
-                                        "langCode": "pt-br",
-                                        "langTranslation": "Disparo Repetitivo dispara 1 projétil adicional para cada 2 Orbes de Agilidade"
-                                    },
-                                    {
-                                        "langCode": "ru",
-                                        "langTranslation": "Магазинное ружье выпускает по 1 дополнительному снаряду за каждые 2 сферы ловкости."
-                                    },
-                                    {
-                                        "langCode": "zh-cn",
-                                        "langTranslation": "每拥有 2 枚敏捷之球，连发射击将额外发射 1 枚投射物"
-                                    }
-                                ]
-                            },
-                            {
                                 "name": "e9b0b353-c1ca-4c87-a661-605cba034a53",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Multiplicative",
-                                "valuePerLevel": 0.76,
+                                "valuePerLevel": 1.3,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -4308,6 +4168,13 @@
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                                            },
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Damage",
+                                                "baseValue": 0.76,
+                                                "eSkillEffectVariableStackType": "UseHighest",
                                                 "eSkillEffectVariableFormat": "Multiplicative"
                                             }
                                         ]
@@ -4318,39 +4185,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Scharfschützenfertigkeiten verursachen -24%[x] Schaden."
+                                        "langTranslation": "Scharfschützenfertigkeiten verursachen +30%[+] Schaden."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Marksman Skills deals -24%[x] damage"
+                                        "langTranslation": "Marksman Skills gain +30%[+] Projectile Amount per Agility Orb.\nMarksman Skills deals ‑24%[x] damage."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Las habilidades de Tirador infligen -24%[x] de daño."
+                                        "langTranslation": "Las habilidades de Tirador infligen +30%[+] de daño."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Les compétences de tir infligent -24%[x] de dégâts"
+                                        "langTranslation": "Les compétences de tir infligent +30%[+] de dégâts"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "射撃スキルは-24%[x]ダメージを与える。"
+                                        "langTranslation": "射撃スキルは+30%[+]ダメージを与える。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Umiejętności strzeleckie zadają -24%[x] obrażeń"
+                                        "langTranslation": "Umiejętności strzeleckie zadają +30%[+] obrażeń"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Habilidades de Atirador causam -24%[x] de dano"
+                                        "langTranslation": "Habilidades de Atirador causam +30%[+] de dano"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Навыки стрелка наносят -24%[x] ед. урона."
+                                        "langTranslation": "Навыки стрелка наносят +30%[+] ед. урона."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "神射手技能造成 -24%[x] 伤害"
+                                        "langTranslation": "神射手技能造成 +30%[+] 伤害"
                                     }
                                 ]
                             }
@@ -7263,46 +7130,46 @@
                                 "name": "113bc511-800b-4214-a4e1-cf4a701fbe24",
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "GoldGain",
-                                "statModifierType": "Multiplicative",
-                                "value": 1.15,
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Goldgewinn +15%[x]"
+                                        "langTranslation": "Goldgewinn +10%[+]"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Gold Gain +15%[x]"
+                                        "langTranslation": "Gold Gain +10%[+]"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Obtención de oro +15%[x]"
+                                        "langTranslation": "Obtención de oro +10%[+]"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+15%[x] Gain de réis"
+                                        "langTranslation": "+10%[+] Gain de réis"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "ゴールド獲得量+15%[x]"
+                                        "langTranslation": "ゴールド獲得量+10%[+]"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zyskiwane złoto +15%[x]"
+                                        "langTranslation": "Zyskiwane złoto +10%[+]"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganho de Ouro +15%[x]"
+                                        "langTranslation": "Ganho de Ouro +10%[+]"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Получение золота +15%[x]"
+                                        "langTranslation": "Получение золота +10%[+]"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "金币获取 +15%[x]"
+                                        "langTranslation": "金币获取 +10%[+]"
                                     }
                                 ]
                             }
@@ -7669,45 +7536,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "CriticalDamage",
                                 "statModifierType": "Additive",
-                                "value": 0.15,
+                                "value": 0.075,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Krit.-Treffer-Schaden +15%"
+                                        "langTranslation": "Krit.-Treffer-Schaden +7,5%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Critical Damage +15%"
+                                        "langTranslation": "Critical Damage +7.5%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Daño crítico +15%"
+                                        "langTranslation": "Daño crítico +7,5%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+15% Dégâts critiques"
+                                        "langTranslation": "+7,5% Dégâts critiques"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "クリティカルヒットダメージ+15%"
+                                        "langTranslation": "クリティカルヒットダメージ+7.5%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Obrażenia krytyczne +15%"
+                                        "langTranslation": "Obrażenia krytyczne +7,5%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Dano Crítico +15%"
+                                        "langTranslation": "Dano Crítico +7,5%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Критический урон +15%"
+                                        "langTranslation": "Критический урон +7,5%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "暴击伤害 +15%"
+                                        "langTranslation": "暴击伤害 +7.5%"
                                     }
                                 ]
                             }
@@ -7777,7 +7644,7 @@
                                 "name": "ec1f8927-9ae9-4073-80bf-343146a42599",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 0.15,
+                                "valuePerLevel": 0.075,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -7803,39 +7670,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Gewährt +15% Krit.-Treffer-Schaden pro Geschickkugel."
+                                        "langTranslation": "Gewährt +7,5% Krit.-Treffer-Schaden pro Geschickkugel."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Grants +15% Critical Damage per Agility Orb"
+                                        "langTranslation": "Grants +7.5% Critical Damage per Agility Orb"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Otorga +15% de daño crítico por Orbe de Agilidad."
+                                        "langTranslation": "Otorga +7,5% de daño crítico por Orbe de Agilidad."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+15% de dégâts critiques supplémentaires par orbe d'agilité"
+                                        "langTranslation": "+7,5% de dégâts critiques supplémentaires par orbe d'agilité"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "敏捷のオーブ1個につき、クリティカルダメージ+15%を得る。"
+                                        "langTranslation": "敏捷のオーブ1個につき、クリティカルダメージ+7.5%を得る。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zapewnia +15% obrażeń krytycznych za każdą kulę zwinności"
+                                        "langTranslation": "Zapewnia +7,5% obrażeń krytycznych za każdą kulę zwinności"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganhe +15% de Dano Crítico por Orbe de Agilidade"
+                                        "langTranslation": "Ganhe +7,5% de Dano Crítico por Orbe de Agilidade"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Получите +15% к крит. урону за сферу ловкости."
+                                        "langTranslation": "Получите +7,5% к крит. урону за сферу ловкости."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "每获得 1 枚敏捷之球，暴击伤害提升 +15%。"
+                                        "langTranslation": "每获得 1 枚敏捷之球，暴击伤害提升 +7.5%。"
                                     }
                                 ]
                             }
@@ -8034,45 +7901,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "CriticalDamage",
                                 "statModifierType": "Additive",
-                                "value": 0.15,
+                                "value": 0.075,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Krit.-Treffer-Schaden +15%"
+                                        "langTranslation": "Krit.-Treffer-Schaden +7,5%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Critical Damage +15%"
+                                        "langTranslation": "Critical Damage +7.5%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Daño crítico +15%"
+                                        "langTranslation": "Daño crítico +7,5%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+15% Dégâts critiques"
+                                        "langTranslation": "+7,5% Dégâts critiques"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "クリティカルヒットダメージ+15%"
+                                        "langTranslation": "クリティカルヒットダメージ+7.5%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Obrażenia krytyczne +15%"
+                                        "langTranslation": "Obrażenia krytyczne +7,5%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Dano Crítico +15%"
+                                        "langTranslation": "Dano Crítico +7,5%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Критический урон +15%"
+                                        "langTranslation": "Критический урон +7,5%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "暴击伤害 +15%"
+                                        "langTranslation": "暴击伤害 +7.5%"
                                     }
                                 ]
                             }
@@ -8559,7 +8426,7 @@
                                 "name": "9cac1293-ef1d-4db7-b52f-e6d3712073e1",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 1.0,
+                                "valuePerLevel": 0.1,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -8575,6 +8442,13 @@
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Percentage"
+                                            },
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Minimum",
+                                                "baseValue": 1.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
                                                 "eSkillEffectVariableFormat": "Rounded"
                                             }
                                         ]
@@ -8585,39 +8459,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Erhältst du eine Kraft- oder eine Geschickkugel, werden all deine aktiven Abklingzeiten um 1 Sek. verringert."
+                                        "langTranslation": "Alle aktiven Abklingzeiten werden um 10% oder 1 Sek. (je nachdem, welcher Wert niedriger ist) verringert, wenn du eine Geschick- oder Kraftkugel erhältst."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Reduces all active cooldowns by 1s when you gain an Agility Orb or a Power Orb"
+                                        "langTranslation": "Reduces all active cooldowns by 10% or 1s (whichever is lower) when you gain an Agility Orb or a Power Orb"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Reduce todos los enfriamientos activos en 1 s cuando obtienes un Orbe de Agilidad o un Orbe de Poder."
+                                        "langTranslation": "Reduce todos los enfriamientos activos en 10% o 1 s (el que sea menor) cuando obtienes un Orbe de Agilidad o un Orbe de Poder."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Tous les temps de recharge en cours sont réduits de 1 s lorsque vous obtenez un orbe d'agilité ou de puissance"
+                                        "langTranslation": "Tous les temps de recharge actifs sont réduits de 10% ou 1 s (selon le moindre) lorsque vous obtenez un orbe d'agilité ou de puissance."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "敏捷のオーブもしくは力のオーブを手に入れると、発動中のすべてのクールダウンが1秒減少する。"
+                                        "langTranslation": "敏捷のオーブもしくは力のオーブを手に入れると、発動中のすべてのクールダウンが10%秒または1秒（小さい方）減少する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Skraca wszystkie aktywne czasy odnawiania o 1 s, gdy zyskujesz kulę zwinności lub kulę mocy"
+                                        "langTranslation": "Skraca wszystkie aktywne czasy odnawiania o 10% lub 1 s (w zależności od mniejszej wartości) po zdobyciu Kuli Zwinności lub Kuli Mocy."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Reduza todos os tempos de recarga ativos em 1s ao ganhar um Orbe de Agilidade ou um Orbe de Poder"
+                                        "langTranslation": "Reduza todos os tempos de recarga ativos em 10% ou 1s (o que for menor) ao ganhar um Orbe de Agilidade ou um Orbe de Poder"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Сокращает все текущие перезарядки на 1 сек., когда вы получаете сферу ловкости или мощи."
+                                        "langTranslation": "Все текущие перезарядки сокращаются на 10% или 1 сек. (выбирается меньшее) при получении Сферы Ловкости или Сферы Силы."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "获得敏捷之球或战力之球时，所有技能的冷却时间减少 1 秒。"
+                                        "langTranslation": "获得敏捷之球或战力之球时，所有技能的冷却时间减少 10% 或 1 秒（取较小值）。"
                                     }
                                 ]
                             }
@@ -9145,7 +9019,7 @@
         {
             "type": "ConstellationDetails",
             "definition": {
-                "name": "WIP_Ossain - Constellation Definition",
+                "name": "Ossain - Constellation Definition",
                 "id": 54,
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": "HellClock.Condition.ConditionConfigList",
@@ -9192,8 +9066,8 @@
                         "langTranslation": "奥萨因"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Ossain_linha",
+                "illustrationBlurredLine": "Ossain_blur",
                 "nodes": [
                     {
                         "name": "240b0abe-4362-4613-9552-c8b4311cfc84",
@@ -9291,8 +9165,8 @@
                             }
                         ],
                         "Position": [
-                            494.0,
-                            339.0
+                            447.0,
+                            226.0
                         ]
                     },
                     {
@@ -9408,8 +9282,8 @@
                             }
                         ],
                         "Position": [
-                            660.0,
-                            200.0
+                            625.0,
+                            185.0
                         ]
                     },
                     {
@@ -9617,8 +9491,8 @@
                             }
                         ],
                         "Position": [
-                            580.0,
-                            0.0
+                            613.0,
+                            -5.0
                         ]
                     },
                     {
@@ -9726,8 +9600,8 @@
                             }
                         ],
                         "Position": [
-                            800.0,
-                            60.0
+                            750.0,
+                            118.0
                         ]
                     },
                     {
@@ -9787,11 +9661,101 @@
                         "isRoot": false,
                         "affixes": [
                             {
-                                "name": "8d058a20-64ae-41a9-be51-b673a974286c",
+                                "name": "6b31be29-3a4a-45dd-87c6-27fd93cab6a5",
+                                "type": "StatProxyModifierNodeAffixDefinition",
+                                "sourceStat": "PhysicalDamage",
+                                "targetStat": "PlagueDamage",
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "cac13421-f690-4195-8b19-4f32b10e13d3",
+                                "type": "StatProxyModifierNodeAffixDefinition",
+                                "sourceStat": "AdditionalPhysicalDamage",
+                                "targetStat": "AdditionalPlagueDamage",
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "a3b141c3-bfc2-4d48-843b-42d2cee5ed97",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
+                                "eStatDefinition": "PhysicalDamageConvertedAsPlague",
                                 "statModifierType": "Additive",
-                                "value": 0.0,
+                                "value": 1.0,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -9835,8 +9799,8 @@
                             }
                         ],
                         "Position": [
-                            400.0,
-                            -160.0
+                            557.0,
+                            -191.0
                         ]
                     }
                 ]
@@ -15308,7 +15272,7 @@
                             {
                                 "name": "c080d28c-1fbb-477d-9f49-10f0fc672812",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "statModifierType": "Additive",
                                 "value": 0.15,
                                 "hideDescription": false,
@@ -15316,39 +15280,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Überzeugungsgewinn +15%"
+                                        "langTranslation": "Max. Überzeugung +15%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Conviction Gain +15%"
+                                        "langTranslation": "Max. Conviction +15%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Obtención de Convicción +15%"
+                                        "langTranslation": "Convicción Máx. +15%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+15% Gain de conviction"
+                                        "langTranslation": "+15% Conviction max."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "信念獲得量+15%"
+                                        "langTranslation": "信念最大値+15%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zyskiwane Przekonanie +15%"
+                                        "langTranslation": "Maksymalne Przekonanie +15%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganho de Convicção +15%"
+                                        "langTranslation": "Convicção Máxima +15%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Получение непоколебимости +15%"
+                                        "langTranslation": "Максимальная непоколебимость +15%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "信念获取 +15%"
+                                        "langTranslation": "最大信念 +15%"
                                     }
                                 ]
                             }
@@ -15526,7 +15490,7 @@
                             {
                                 "name": "d748fc43-ff64-4fca-a344-5fe2e5820c9d",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "statModifierType": "Multiplicative",
                                 "value": 1.3,
                                 "hideDescription": false,
@@ -15534,39 +15498,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Überzeugungsgewinn +30%[x]"
+                                        "langTranslation": "Max. Überzeugung +30%[x]"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Conviction Gain +30%[x]"
+                                        "langTranslation": "Max. Conviction +30%[x]"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Obtención de Convicción +30%[x]"
+                                        "langTranslation": "Convicción Máx. +30%[x]"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+30%[x] Gain de conviction"
+                                        "langTranslation": "+30%[x] Conviction max."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "信念獲得量+30%[x]"
+                                        "langTranslation": "信念最大値+30%[x]"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zyskiwane Przekonanie +30%[x]"
+                                        "langTranslation": "Maksymalne Przekonanie +30%[x]"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganho de Convicção +30%[x]"
+                                        "langTranslation": "Convicção Máxima +30%[x]"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Получение непоколебимости +30%[x]"
+                                        "langTranslation": "Максимальная непоколебимость +30%[x]"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "信念获取 +30%[x]"
+                                        "langTranslation": "最大信念 +30%[x]"
                                     }
                                 ]
                             }
@@ -15745,7 +15709,7 @@
                                 "name": "17c071d1-6591-45c1-97ed-c4be2e25fa79",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 1000.0,
+                                "valuePerLevel": 1.0,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -15761,7 +15725,7 @@
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "NoFormat"
+                                                "eSkillEffectVariableFormat": "Percentage"
                                             },
                                             {
                                                 "type": "SkillEffectVariable",
@@ -15778,39 +15742,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Wenn Überzeugung auf null verringert wird, erhältst du 1000 Überzeugung. Dieser Effekt kann alle 15 Sek. eintreten."
+                                        "langTranslation": "Wenn Überzeugung auf null verringert wird, erhältst du 100% Überzeugung. Dieser Effekt kann alle 15 Sek. eintreten."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "When Conviction is reduced to zero, instantly gain 1000 Conviction. This effect can happen every 15 seconds"
+                                        "langTranslation": "When Conviction is reduced to zero, instantly gain 100% Conviction. This effect can happen every 15 seconds"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Cuando Convicción se reduce a cero, obtienes 1000 de Convicción al instante. Este efecto puede ocurrir cada 15 s."
+                                        "langTranslation": "Cuando Convicción se reduce a cero, obtienes 100% de Convicción al instante. Este efecto puede ocurrir cada 15 s."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque votre conviction est épuisée, vous regagnez immédiatement 1000 de conviction. Cet effet peut se produire toutes les 15 secondes."
+                                        "langTranslation": "Lorsque votre conviction est épuisée, vous regagnez immédiatement 100% de conviction. Cet effet peut se produire toutes les 15 secondes."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "信念が0まで減少したとき、ただちに信念を1000得る。この効果は15秒ごとに発動可能になる。"
+                                        "langTranslation": "信念が0まで減少したとき、ただちに信念を100%得る。この効果は15秒ごとに発動可能になる。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Gdy przekonanie zostanie zredukowane do zera, natychmiast zyskujesz 1000 Przekonanie. Efekt ten może wystąpić co 15 sekund"
+                                        "langTranslation": "Gdy przekonanie zostanie zredukowane do zera, natychmiast zyskujesz 100% Przekonanie. Efekt ten może wystąpić co 15 sekund"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Quando sua Convicção for reduzida a zero, ganhe instantaneamente 1000 de Convicção. Este efeito pode ocorrer a cada 15 segundos."
+                                        "langTranslation": "Quando sua Convicção for reduzida a zero, ganhe instantaneamente 100% de Convicção. Este efeito pode ocorrer a cada 15 segundos."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Когда непоколебимость заканчивается, вы мгновенно получаете 1000 ед. непоколебимости. Эффект может активироваться каждые 15 сек."
+                                        "langTranslation": "Когда непоколебимость заканчивается, вы мгновенно получаете 100% ед. непоколебимости. Эффект может активироваться каждые 15 сек."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "信念值归零时，立即获得 1000 信念值。该效果每 15 秒触发一次。"
+                                        "langTranslation": "信念值归零时，立即获得 100% 信念值。该效果每 15 秒触发一次。"
                                     }
                                 ]
                             }
@@ -15832,7 +15796,7 @@
         {
             "type": "ConstellationDetails",
             "definition": {
-                "name": "WIP_Boitata - Constellation Definition",
+                "name": "Boitata - Constellation Definition",
                 "id": 48,
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": "HellClock.Condition.ConditionConfigList",
@@ -16255,11 +16219,8 @@
                         "isRoot": false,
                         "affixes": [
                             {
-                                "name": "2b0c5ccc-534f-4394-940a-f1c638726046",
-                                "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
-                                "statModifierType": "Additive",
-                                "value": 0.0,
+                                "name": "96b2126d-22a0-436a-9266-0e03113a825b",
+                                "type": "CharacterToggleNodeAffixDefinition",
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -16319,7 +16280,7 @@
         {
             "type": "ConstellationDetails",
             "definition": {
-                "name": "WIP_Caipora - Constellation Definition",
+                "name": "Caipora - Constellation Definition",
                 "id": 50,
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": "HellClock.Condition.ConditionConfigList",
@@ -16754,46 +16715,46 @@
                                 "name": "a1c50ed9-2f7b-4fb6-be1c-9ed19ab37c8b",
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "BleedDamage",
-                                "statModifierType": "Multiplicative",
+                                "statModifierType": "MultiplicativeAdditive",
                                 "value": 1.2,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Blutungsschaden +20%[x]"
+                                        "langTranslation": "Blutungsschaden +20%[+]"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Bleed Damage +20%[x]"
+                                        "langTranslation": "Bleed Damage +20%[+]"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Daño de sangrado +20%[x]"
+                                        "langTranslation": "Daño de sangrado +20%[+]"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+20%[x] Dégâts de saignement"
+                                        "langTranslation": "+20%[+] Dégâts de saignement"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "出血ダメージ+20%[x]"
+                                        "langTranslation": "出血ダメージ+20%[+]"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Obrażenia od krwawienia +20%[x]"
+                                        "langTranslation": "Obrażenia od krwawienia +20%[+]"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Dano de Sangramento +20%[x]"
+                                        "langTranslation": "Dano de Sangramento +20%[+]"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Урон от кровотечения +20%[x]"
+                                        "langTranslation": "Урон от кровотечения +20%[+]"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "流血伤害 +20%[x]"
+                                        "langTranslation": "流血伤害 +20%[+]"
                                     }
                                 ]
                             }
@@ -16853,54 +16814,165 @@
                             {
                                 "name": "5ddf0964-0505-4478-a1f9-59a90258df11",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
+                                "eStatDefinition": "ChanceToApplyBleed",
                                 "statModifierType": "Multiplicative",
-                                "value": 1.2,
+                                "value": 2.0,
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Chance auf Bluten (Physisch) +100%[x]"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Bleed Chance (Physical) +100%[x]"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Probabilidad de Sangrado (físico) +100%[x]"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "+100%[x] Chances de saign. (physique)"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "出血率（物理）+100%[x]"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Szansa na krwawienie (obrażenia fizyczne) +100%[x]"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Chance de Sangramento (Físico) +100%[x]"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Шанс кровотечения (физ.) +100%[x]"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "流血几率 (物理) +100%[x]"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "09b0dbef-e304-40ad-8986-8fd4540148fd",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "BleedDamage",
+                                "statModifierType": "Multiplicative",
+                                "value": 0.5,
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Blutungsschaden ‑50%[x]"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Bleed Damage ‑50%[x]"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Daño de sangrado ‑50%[x]"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "‑50%[x] Dégâts de saignement"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "出血ダメージ‑50%[x]"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Obrażenia od krwawienia ‑50%[x]"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Dano de Sangramento ‑50%[x]"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Урон от кровотечения ‑50%[x]"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "流血伤害 ‑50%[x]"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "39b7be27-35b5-4553-8fa8-7a7400249692",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "eModifierType": "Multiplicative",
+                                "valuePerLevel": 1.1,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": true,
+                                    "useListOfSkills": false,
+                                    "listOfSkills": [],
+                                    "skillTagFilter": "Everything",
+                                    "skillDefinition": {},
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Multiplicative"
+                                            }
+                                        ]
+                                    }
+                                },
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Chance auf Bluten verdoppelt sich.\u2028\nBlutungsschaden halbiert sich.\u2028\nGegner erleiden pro Stapel Bluten, der aktuell auf sie wirkt, +20%[x] Blutungsschaden."
+                                        "langTranslation": "Chance auf Bluten verdoppelt sich.\u2028\nBlutungsschaden halbiert sich.\u2028\nGegner erleiden pro Stapel Bluten, der aktuell auf sie wirkt, +10%[x] Blutungsschaden."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Bleed Chance is doubled.\r\nBleed Damage is halved.\r\nEnemies take +20%[x] Bleed Damage for each stack of Bleed currently afflicting them."
+                                        "langTranslation": "Bleed Chance is doubled.\r\nBleed Damage is halved.\r\nEnemies take +10%[x] Bleed Damage for each stack of Bleed currently afflicting them."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Se duplica la probabilidad de Sangrado.\nEl daño de Sangrado se reduce a la mitad.\nLos enemigos reciben +20%[x] de daño de Sangrado por cada acumulación actual de Sangrado que los aflige."
+                                        "langTranslation": "Se duplica la probabilidad de Sangrado.\nEl daño de Sangrado se reduce a la mitad.\nLos enemigos reciben +10%[x] de daño de Sangrado por cada acumulación actual de Sangrado que los aflige."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Les chances d'infliger saignement sont doublées.\u2028\nLes dégâts de saignement sont divisés par deux.\u2028\nLes ennemis subissent +20%[x] de dégâts de saignement par cumul de saignement."
+                                        "langTranslation": "Les chances d'infliger saignement sont doublées.\u2028\nLes dégâts de saignement sont divisés par deux.\u2028\nLes ennemis subissent +10%[x] de dégâts de saignement par cumul de saignement."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "出血確率が2倍になる。\n出血ダメージは半分になる。\n敵は自身に累積している出血1回につき、出血ダメージを+20%[x]受ける。"
+                                        "langTranslation": "出血確率が2倍になる。\n出血ダメージは半分になる。\n敵は自身に累積している出血1回につき、出血ダメージを+10%[x]受ける。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Szansa na krwawienie zostaje podwojona.\nObrażenia od krwawienia zostają zmniejszone o połowę.\nWrogowie otrzymują +20%[x] obrażenia od krwawienia za każdy poziom aktywnego krwawienia."
+                                        "langTranslation": "Szansa na krwawienie zostaje podwojona.\nObrażenia od krwawienia zostają zmniejszone o połowę.\nWrogowie otrzymują +10%[x] obrażenia od krwawienia za każdy poziom aktywnego krwawienia."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "A Chance de Sangramento é dobrada.\nO Dano de Sangramento é reduzido pela metade.\nOs inimigos sofrem +20%[x] de Dano de Sangramento para cada acúmulo de Sangramento que os afeta."
+                                        "langTranslation": "A Chance de Sangramento é dobrada.\nO Dano de Sangramento é reduzido pela metade.\nOs inimigos sofrem +10%[x] de Dano de Sangramento para cada acúmulo de Sangramento que os afeta."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Вероятность кровотечения удвоена.\u2028\nУрон от кровотечения уменьшен вполовину.\u2028\nВраги получают +20%[x] ед. урона от кровотечения за каждый действующий на них заряд кровотечения."
+                                        "langTranslation": "Вероятность кровотечения удвоена.\u2028\nУрон от кровотечения уменьшен вполовину.\u2028\nВраги получают +10%[x] ед. урона от кровотечения за каждый действующий на них заряд кровотечения."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "流血几率翻倍。\n流血伤害减半。\n敌人每承受一层流血，将受到 +20%[x] 流血伤害。"
+                                        "langTranslation": "流血几率翻倍。\n流血伤害减半。\n敌人每承受一层流血，将受到 +10%[x] 流血伤害。"
                                     }
                                 ]
                             }
                         ],
                         "Position": [
-                            469.0,
-                            112.0
+                            480.0,
+                            120.0
                         ]
                     }
                 ]
@@ -21076,45 +21148,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "ManaRegen",
                                 "statModifierType": "Additive",
-                                "value": 0.01,
+                                "value": 0.005,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Manaregeneration +1%"
+                                        "langTranslation": "Manaregeneration +0,5%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Mana Regeneration +1%"
+                                        "langTranslation": "Mana Regeneration +0.5%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Regeneración de maná +1%"
+                                        "langTranslation": "Regeneración de maná +0,5%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+1% Régénération de ferveur"
+                                        "langTranslation": "+0,5% Régénération de ferveur"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "マナ再生+1%"
+                                        "langTranslation": "マナ再生+0.5%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Regeneracja many +1%"
+                                        "langTranslation": "Regeneracja many +0,5%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Regeneração de Energia +1%"
+                                        "langTranslation": "Regeneração de Energia +0,5%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Восстановление маны +1%"
+                                        "langTranslation": "Восстановление маны +0,5%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "法力再生 +1%"
+                                        "langTranslation": "法力再生 +0.5%"
                                     }
                                 ]
                             }
@@ -21320,45 +21392,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "ManaShield",
                                 "statModifierType": "Additive",
-                                "value": 0.05,
+                                "value": 0.03,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Manaschild +5%"
+                                        "langTranslation": "Manaschild +3%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Mana Shield +5%"
+                                        "langTranslation": "Mana Shield +3%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Escudo de maná +5%"
+                                        "langTranslation": "Escudo de maná +3%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+5% Bouclier de ferveur"
+                                        "langTranslation": "+3% Bouclier de ferveur"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "マナシールド+5%"
+                                        "langTranslation": "マナシールド+3%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Tarcza many +5%"
+                                        "langTranslation": "Tarcza many +3%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Escudo de Energia +5%"
+                                        "langTranslation": "Escudo de Energia +3%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Щит маны +5%"
+                                        "langTranslation": "Щит маны +3%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "法力护盾 +5%"
+                                        "langTranslation": "法力护盾 +3%"
                                     }
                                 ]
                             }
@@ -21420,45 +21492,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "ManaShield",
                                 "statModifierType": "Additive",
-                                "value": 0.05,
+                                "value": 0.03,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Manaschild +5%"
+                                        "langTranslation": "Manaschild +3%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Mana Shield +5%"
+                                        "langTranslation": "Mana Shield +3%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Escudo de maná +5%"
+                                        "langTranslation": "Escudo de maná +3%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+5% Bouclier de ferveur"
+                                        "langTranslation": "+3% Bouclier de ferveur"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "マナシールド+5%"
+                                        "langTranslation": "マナシールド+3%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Tarcza many +5%"
+                                        "langTranslation": "Tarcza many +3%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Escudo de Energia +5%"
+                                        "langTranslation": "Escudo de Energia +3%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Щит маны +5%"
+                                        "langTranslation": "Щит маны +3%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "法力护盾 +5%"
+                                        "langTranslation": "法力护盾 +3%"
                                     }
                                 ]
                             }
@@ -21528,7 +21600,7 @@
                                 "name": "288e1a40-4bce-4d78-b155-c3ef0e0f7da0",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 0.075,
+                                "valuePerLevel": 0.02,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": false,
@@ -21561,39 +21633,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Erhalte +7,5% Manaschild pro aktiver Kraftkugel.\nDer Erhalt einer Kraftkugel erfordert +60%[x] Mana."
+                                        "langTranslation": "Erhalte +2% Manaschild pro aktiver Kraftkugel.\nDer Erhalt einer Kraftkugel erfordert +60%[x] Mana."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Gain +7.5% Mana Shield for each active Power Orb\nGaining a Power Orb requires +60%[x] Mana"
+                                        "langTranslation": "Gain +2% Mana Shield for each active Power Orb\nGaining a Power Orb requires +60%[x] Mana"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Obtienes +7,5% de escudo de maná por cada Orbe de Poder activo.\nPara ganar un Orbe de Poder, se requiere +60%[x] de maná."
+                                        "langTranslation": "Obtienes +2% de escudo de maná por cada Orbe de Poder activo.\nPara ganar un Orbe de Poder, se requiere +60%[x] de maná."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Accorde +7,5% de bouclier de ferveur par orbe de puissance active.\nChaque orbe de puissance nécessite +60%[x] de ferveur."
+                                        "langTranslation": "Accorde +2% de bouclier de ferveur par orbe de puissance active.\nChaque orbe de puissance nécessite +60%[x] de ferveur."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "アクティヴな力のオーブ1個につき、マナシールドを+7.5%得る。\n力のオーブを得るにはマナが+60%[x]必要。"
+                                        "langTranslation": "アクティヴな力のオーブ1個につき、マナシールドを+2%得る。\n力のオーブを得るにはマナが+60%[x]必要。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zdobądź +7,5% tarczy many za każdą aktywną kulę mocy\nZdobycie kuli mocy wymaga +60%[x] pkt. many"
+                                        "langTranslation": "Zdobądź +2% tarczy many za każdą aktywną kulę mocy\nZdobycie kuli mocy wymaga +60%[x] pkt. many"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganhe +7,5% de Escudo de Energia para cada Orbe de Poder ativo\nGanhar um Orbe de Poder requer +60%[x] de Energia"
+                                        "langTranslation": "Ganhe +2% de Escudo de Energia para cada Orbe de Poder ativo\nGanhar um Orbe de Poder requer +60%[x] de Energia"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Дает щит маны в размере +7,5% за каждую активную сферу мощи.\nДля получения сферы мощи нужно +60%[x] ед. маны."
+                                        "langTranslation": "Дает щит маны в размере +2% за каждую активную сферу мощи.\nДля получения сферы мощи нужно +60%[x] ед. маны."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "每拥有 1 枚激活的战力之球，获得 +7.5% 法力护盾。\n获得战力之球需消耗 +60%[x] 法力值。"
+                                        "langTranslation": "每拥有 1 枚激活的战力之球，获得 +2% 法力护盾。\n获得战力之球需消耗 +60%[x] 法力值。"
                                     }
                                 ]
                             },
@@ -22217,7 +22289,7 @@
         {
             "type": "ConstellationDetails",
             "definition": {
-                "name": "WIP_Iroko - Constellation Definition",
+                "name": "Iroko - Constellation Definition",
                 "id": 67,
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": "HellClock.Condition.ConditionConfigList",
@@ -22263,8 +22335,8 @@
                         "langTranslation": "伊洛科"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Iroko_linha",
+                "illustrationBlurredLine": "Iroko_blur",
                 "nodes": [
                     {
                         "name": "f1572c30-1685-429b-9b08-46d336a10ef3",
@@ -22363,7 +22435,7 @@
                         ],
                         "Position": [
                             480.0,
-                            480.0
+                            446.0
                         ]
                     },
                     {
@@ -22471,8 +22543,8 @@
                             }
                         ],
                         "Position": [
-                            580.0,
-                            280.0
+                            569.0,
+                            237.0
                         ]
                     },
                     {
@@ -22580,8 +22652,8 @@
                             }
                         ],
                         "Position": [
-                            800.0,
-                            80.0
+                            753.0,
+                            7.0
                         ]
                     },
                     {
@@ -22690,7 +22762,7 @@
                         ],
                         "Position": [
                             240.0,
-                            200.0
+                            108.0
                         ]
                     },
                     {
@@ -22806,8 +22878,8 @@
                             }
                         ],
                         "Position": [
-                            400.0,
-                            80.0
+                            357.9,
+                            78.0
                         ]
                     },
                     {
@@ -22915,7 +22987,7 @@
                             }
                         ],
                         "Position": [
-                            580.0,
+                            480.000122,
                             40.0
                         ]
                     },
@@ -22969,9 +23041,9 @@
                             {
                                 "name": "3b22fa37-01bb-4de8-8faa-3038a30e7f71",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
+                                "eStatDefinition": "LightningDamageConvertedAsPlague",
                                 "statModifierType": "Additive",
-                                "value": 0.0,
+                                "value": 1.0,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -23012,11 +23084,101 @@
                                         "langTranslation": "将所有闪电伤害及其伤害加成转化为瘟疫伤害。"
                                     }
                                 ]
+                            },
+                            {
+                                "name": "4b6a93d9-de6e-40cc-8903-8b1cb4332c78",
+                                "type": "StatProxyModifierNodeAffixDefinition",
+                                "sourceStat": "LightningDamage",
+                                "targetStat": "PlagueDamage",
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "9afdd927-d6de-4c8a-87b5-3270447f98dc",
+                                "type": "StatProxyModifierNodeAffixDefinition",
+                                "sourceStat": "AdditionalLightningDamage",
+                                "targetStat": "AdditionalPlagueDamage",
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": ""
+                                    }
+                                ]
                             }
                         ],
                         "Position": [
-                            320.0,
-                            -100.0
+                            264.0,
+                            -132.0
                         ]
                     }
                 ]
@@ -23648,7 +23810,7 @@
         {
             "type": "ConstellationDetails",
             "definition": {
-                "name": "WIP_Nana - Constellation Definition",
+                "name": "Nana - Constellation Definition",
                 "id": 70,
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": "HellClock.Condition.ConditionConfigList",
@@ -23965,47 +24127,141 @@
                             {
                                 "name": "852be24c-ba0d-4f71-b4d1-f9f7cdbc78dc",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
+                                "eStatDefinition": "MaxFireResistance",
                                 "statModifierType": "Additive",
-                                "value": 0.0,
+                                "value": 0.05,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "Maximum Fire Resistance +5%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "Maximum Fire Resistance +5%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "Maximum Fire Resistance +5%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "+5% Maximum Fire Resistance"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "Maximum Fire Resistance+5%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "Maximum Fire Resistance +5%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Resistência Ígnea Máxima"
+                                        "langTranslation": "Resistência Ígnea Máxima +5%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "Maximum Fire Resistance +5%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "Maximum Fire Resistance"
+                                        "langTranslation": "Maximum Fire Resistance +5%"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "ba5b30bf-cd87-4942-857b-5295afb6b875",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "MaxLightningResistance",
+                                "statModifierType": "Additive",
+                                "value": 0.05,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Maximum Lightning Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Maximum Lightning Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Maximum Lightning Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "+5% Maximum Lightning Resistance"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "Maximum Lightning Resistance+5%"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Maximum Lightning Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Resistência Elétrica Máxima +5%"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Maximum Lightning Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "Maximum Lightning Resistance +5%"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "3ff7253a-02e4-47a2-94d4-976c0c0aecd7",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "MaxPlagueResistance",
+                                "statModifierType": "Additive",
+                                "value": 0.05,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Maximum Plague Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Maximum Plague Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Maximum Plague Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "+5% Maximum Plague Resistance"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "Maximum Plague Resistance+5%"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Maximum Plague Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Resistência Tóxica Máxima +5%"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Maximum Plague Resistance +5%"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "Maximum Plague Resistance +5%"
                                     }
                                 ]
                             }
@@ -24072,37 +24328,56 @@
                         "isRoot": false,
                         "affixes": [
                             {
-                                "name": "fcd901b4-2358-4116-9e07-f3245f7e8602",
-                                "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
-                                "statModifierType": "Multiplicative",
-                                "value": 1.2,
+                                "name": "2deb7f1c-47e2-4777-8807-bfc47a23b865",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 0.2,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": true,
+                                    "useListOfSkills": false,
+                                    "listOfSkills": [],
+                                    "skillTagFilter": "Everything",
+                                    "skillDefinition": {},
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Percentage"
+                                            }
+                                        ]
+                                    }
+                                },
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Erleidest du Schaden eines Elementtyps, erhöht sich deine physische Resistenz für den nächsten erlittenen Treffer um +20%[x]."
+                                        "langTranslation": "Erleidest du Schaden eines Elementtyps, erhöht sich deine physische Resistenz für den nächsten erlittenen Treffer um 20%."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Taking damage of any Elemental type increases Physical Resistance by +20%[x] for your next hit taken."
+                                        "langTranslation": "Taking damage of any Elemental type increases Physical Resistance by 20% for your next hit taken."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Recibir daño de cualquier tipo elemental aumenta la resistencia física en un +20%[x] para el próximo golpe que recibas."
+                                        "langTranslation": "Recibir daño de cualquier tipo elemental aumenta la resistencia física en un 20% para el próximo golpe que recibas."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque vous subissez des dégâts élémentaires, votre résistance aux dégâts physiques est augmentée de +20%[x] sur le prochain coup subi"
+                                        "langTranslation": "Lorsque vous subissez des dégâts élémentaires, votre résistance aux dégâts physiques est augmentée de 20% sur le prochain coup subi"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "元素ダメージを受けると、次にヒットを受けるまで物理抵抗が+20%[x]上昇する。"
+                                        "langTranslation": "元素ダメージを受けると、次にヒットを受けるまで物理抵抗が20%上昇する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Otrzymanie obrażeń dowolnego typu żywiołów zwiększa odporność fizyczną o +20%[x] przy następnym otrzymanym trafieniu."
+                                        "langTranslation": "Otrzymanie obrażeń dowolnego typu żywiołów zwiększa odporność fizyczną o 20% przy następnym otrzymanym trafieniu."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -24110,11 +24385,11 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Получение стихийного урона любого типа увеличивает сопротивление физ. урону на +20%[x] для следующего полученного удара."
+                                        "langTranslation": "Получение стихийного урона любого типа увеличивает сопротивление физ. урону на 20% для следующего полученного удара."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "受到任意类型的元素伤害后，你在下次受到攻击时可获得 +20%[x] 物理抗性。"
+                                        "langTranslation": "受到任意类型的元素伤害后，你在下次受到攻击时可获得 20% 物理抗性。"
                                     }
                                 ]
                             }
@@ -24616,7 +24891,7 @@
                             {
                                 "name": "41338c97-5bf6-4042-bc16-8d7f58225f50",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BarrierGain",
+                                "eStatDefinition": "MaxBarrier",
                                 "statModifierType": "Additive",
                                 "value": 0.1,
                                 "hideDescription": false,
@@ -24624,39 +24899,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Überzeugungsgewinn +10%"
+                                        "langTranslation": "Max. Überzeugung +10%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Conviction Gain +10%"
+                                        "langTranslation": "Max. Conviction +10%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Obtención de Convicción +10%"
+                                        "langTranslation": "Convicción Máx. +10%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+10% Gain de conviction"
+                                        "langTranslation": "+10% Conviction max."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "信念獲得量+10%"
+                                        "langTranslation": "信念最大値+10%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zyskiwane Przekonanie +10%"
+                                        "langTranslation": "Maksymalne Przekonanie +10%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganho de Convicção +10%"
+                                        "langTranslation": "Convicção Máxima +10%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Получение непоколебимости +10%"
+                                        "langTranslation": "Максимальная непоколебимость +10%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "信念获取 +10%"
+                                        "langTranslation": "最大信念 +10%"
                                     }
                                 ]
                             }
@@ -26160,7 +26435,7 @@
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Applying Wither gives you +4% Wither Build-Up for Wither for 8 seconds (can stack up to 5 times).\nApplying Stun gives you +4% Stun Build-Up for 8 seconds (can stack up to 5 times)."
+                                        "langTranslation": "Applying Wither gives you +4% Wither Build-Up for 8 seconds (can stack up to 5 times).\nApplying Stun gives you +4% Stun Build-Up for 8 seconds (can stack up to 5 times)."
                                     },
                                     {
                                         "langCode": "es",
@@ -33329,7 +33604,7 @@
         {
             "type": "ConstellationDetails",
             "definition": {
-                "name": "WIP_Xango - Constellation Definition",
+                "name": "Xango - Constellation Definition",
                 "id": 47,
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": "HellClock.Condition.ConditionConfigList",
@@ -33375,8 +33650,8 @@
                         "langTranslation": "尚戈"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Xango_linha",
+                "illustrationBlurredLine": "Xango_blur",
                 "nodes": [
                     {
                         "name": "c76e7fd2-ff6b-4cc4-8fdb-4213c64506f3",
@@ -33474,8 +33749,8 @@
                             }
                         ],
                         "Position": [
-                            520.0,
-                            460.0
+                            572.6,
+                            258.3
                         ]
                     },
                     {
@@ -33583,8 +33858,8 @@
                             }
                         ],
                         "Position": [
-                            300.0,
-                            320.0
+                            344.0,
+                            175.0
                         ]
                     },
                     {
@@ -33692,8 +33967,8 @@
                             }
                         ],
                         "Position": [
-                            760.0,
-                            320.0
+                            756.0,
+                            167.0
                         ]
                     },
                     {
@@ -33801,8 +34076,8 @@
                             }
                         ],
                         "Position": [
-                            460.0,
-                            240.0
+                            450.6,
+                            22.0
                         ]
                     },
                     {
@@ -33910,8 +34185,8 @@
                             }
                         ],
                         "Position": [
-                            600.0,
-                            240.0
+                            632.0,
+                            12.0
                         ]
                     },
                     {
@@ -34019,8 +34294,8 @@
                             }
                         ],
                         "Position": [
-                            740.0,
-                            140.0
+                            678.0,
+                            -92.0
                         ]
                     },
                     {
@@ -34082,9 +34357,9 @@
                             {
                                 "name": "ac8a6c33-479b-47bb-a7a2-2b58b78484a4",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
+                                "eStatDefinition": "LightningDamageConvertedAsFire",
                                 "statModifierType": "Additive",
-                                "value": 0.0,
+                                "value": 1.0,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -34125,11 +34400,101 @@
                                         "langTranslation": "将所有闪电伤害及其伤害加成转化为火焰伤害。"
                                     }
                                 ]
+                            },
+                            {
+                                "name": "aa1330c6-84bd-4be3-9682-368abc77048a",
+                                "type": "StatProxyModifierNodeAffixDefinition",
+                                "sourceStat": "LightningDamage",
+                                "targetStat": "FireDamage",
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "4ec9932c-9a06-4fe6-9859-96ac321dad7b",
+                                "type": "StatProxyModifierNodeAffixDefinition",
+                                "sourceStat": "AdditionalLightningDamage",
+                                "targetStat": "AdditionalFireDamage",
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": ""
+                                    }
+                                ]
                             }
                         ],
                         "Position": [
-                            320.0,
-                            120.0
+                            394.6,
+                            -78.0
                         ]
                     }
                 ]
@@ -34144,7 +34509,7 @@
         {
             "type": "ConstellationDetails",
             "definition": {
-                "name": "WIP_Yaci Yatere - Constellation Definition",
+                "name": "Yaci Yatere - Constellation Definition",
                 "id": 62,
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": "HellClock.Condition.ConditionConfigList",
@@ -34569,14 +34934,14 @@
                             {
                                 "name": "9f6f270a-495d-4f08-b2e0-6b192c79b5bf",
                                 "type": "SkillBehaviorNodeAffixDefinition",
-                                "eModifierType": "Additive",
-                                "valuePerLevel": 0.07,
+                                "eModifierType": "MultiplicativeAdditive",
+                                "valuePerLevel": 1.07,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
-                                    "affectMultipleSkills": false,
+                                    "affectMultipleSkills": true,
                                     "useListOfSkills": false,
                                     "listOfSkills": [],
-                                    "skillTagFilter": "0",
+                                    "skillTagFilter": "Everything",
                                     "skillDefinition": {},
                                     "variables": {
                                         "type": "SkillEffectVariables",
@@ -34585,8 +34950,22 @@
                                                 "type": "SkillEffectVariable",
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "MultiplierSum",
+                                                "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                                            },
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Duration",
+                                                "baseValue": 7.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "Percentage"
+                                                "eSkillEffectVariableFormat": "Rounded"
+                                            },
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Max Stacks",
+                                                "baseValue": 10.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Rounded"
                                             }
                                         ]
                                     }
@@ -34596,39 +34975,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "All deine Fertigkeiten wirken beim Töten eines Gegners 0 Sek. lang in einem Bereich mit einer Größe von +7% (bis zu 10-mal stapelbar)."
+                                        "langTranslation": "All deine Fertigkeiten wirken beim Töten eines Gegners 7 Sek. lang in einem Bereich mit einer Größe von +7%[+] (bis zu 10-mal stapelbar)."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Gain +7% Area Size to all Skills on kill for 0 seconds (stacks up to 10 times) "
+                                        "langTranslation": "Gain +7%[+] Area Size to all Skills on kill for 7 seconds (stacks up to 10 times) "
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Obtienes +7% de tamaño de área al matar para todas las habilidades durante 0 s (se acumula hasta 10 veces)."
+                                        "langTranslation": "Obtienes +7%[+] de tamaño de área al matar para todas las habilidades durante 7 s (se acumula hasta 10 veces)."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque vous tuez un ennemi, toutes vos compétences gagnent une zone d'effet de +7% pendant 0 secondes (cumulable 10 fois)"
+                                        "langTranslation": "Lorsque vous tuez un ennemi, toutes vos compétences gagnent une zone d'effet de +7%[+] pendant 7 secondes (cumulable 10 fois)"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "敵を倒すと、0秒間、あらゆるスキルの効果範囲サイズが+7%上昇する（10回まで蓄積する）。"
+                                        "langTranslation": "敵を倒すと、7秒間、あらゆるスキルの効果範囲サイズが+7%[+]上昇する（10回まで蓄積する）。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Po zabiciu przeciwnika rozmiar obszaru działania wszystkich umiejętności zwiększa się o +7% na 0 s (kumuluje się do 10 razy)"
+                                        "langTranslation": "Po zabiciu przeciwnika rozmiar obszaru działania wszystkich umiejętności zwiększa się o +7%[+] na 7 s (kumuluje się do 10 razy)"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ganhe +7% de tamanho de área em todas as habilidades ao matar por 0 segundos (acumula até 10 vezes)"
+                                        "langTranslation": "Ganhe +7%[+] de tamanho de área em todas as habilidades ao matar por 7 segundos (acumula até 10 vezes)"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "При убийстве увеличивает область действия всех навыков на +7% на 0 сек. (складывается до 10 раз)."
+                                        "langTranslation": "При убийстве увеличивает область действия всех навыков на +7%[+] на 7 сек. (складывается до 10 раз)."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "击杀时所有技能的效果范围扩大 +7%，持续 0 秒 (最多叠加 10 层)。"
+                                        "langTranslation": "击杀时所有技能的效果范围扩大 +7%[+]，持续 7 秒 (最多叠加 10 层)。"
                                     }
                                 ]
                             }

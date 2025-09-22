@@ -339,39 +339,39 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Verflucht"
+                        "langTranslation": "Verlangsamt"
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": "Cursed"
+                        "langTranslation": "Slowed"
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Maldito"
+                        "langTranslation": "Ralentizado"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Maudit"
+                        "langTranslation": "Ralenti"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "呪われた"
+                        "langTranslation": "鈍足"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Przeklęty"
+                        "langTranslation": "Spowolniony"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "Amaldiçoado"
+                        "langTranslation": "Desacelerado"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Проклятие"
+                        "langTranslation": "Замедление"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "诅咒"
+                        "langTranslation": "减速"
                     }
                 ],
                 "descriptionKey": [
@@ -412,7 +412,7 @@
                         "langTranslation": ""
                     }
                 ],
-                "icon": "IconStatus_CursedWraith"
+                "icon": "IconStatus_Slowed"
             },
             "hideFromHud": false,
             "isBuff": false,
@@ -468,9 +468,11 @@
             "name": "MinistroEnragedDoTStatusDefinition",
             "id": 7,
             "type": "DamageOverTimeStatusDefinition",
+            "damageBypassBarrier": false,
             "useFixedBaseDamage": false,
             "damageMod": 0.5,
             "eDamageType": "LIGHTNING",
+            "hasSpecificResistance": false,
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
@@ -697,7 +699,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "MovementSpeed",
                     "modifierType": "Additive",
-                    "value": 0.06
+                    "value": 0.03
                 }
             ],
             "statusDisplayInfo": {
@@ -995,9 +997,11 @@
             "name": "ReflexesBleedStatusDefinition",
             "id": 14,
             "type": "DamageOverTimeStatusDefinition",
+            "damageBypassBarrier": false,
             "useFixedBaseDamage": false,
             "damageMod": 0.5,
             "eDamageType": "PHYSICAL",
+            "hasSpecificResistance": false,
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
                 "nameKey": [
@@ -1591,9 +1595,11 @@
             "name": "PoisonousStatusDefinition",
             "id": 23,
             "type": "DamageOverTimeStatusDefinition",
+            "damageBypassBarrier": false,
             "useFixedBaseDamage": false,
             "damageMod": 0.5,
             "eDamageType": "PLAGUE",
+            "hasSpecificResistance": false,
             "hideFromHud": true,
             "isBuff": true,
             "eStatusStackBehavior": "Refresh",
@@ -1745,13 +1751,19 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "FireResistance",
                     "modifierType": "Additive",
-                    "value": -0.4
+                    "value": -0.2
                 },
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "LightningResistance",
                     "modifierType": "Additive",
-                    "value": -0.4
+                    "value": -0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "IgniteResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
                 }
             ],
             "hideFromHud": true,
@@ -2171,9 +2183,12 @@
             "name": "IgnitedStatusDefinition",
             "id": 37,
             "type": "DamageOverTimeStatusDefinition",
+            "damageBypassBarrier": true,
             "useFixedBaseDamage": false,
-            "damageMod": 0.6,
+            "damageMod": 0.85,
             "eDamageType": "FIRE",
+            "hasSpecificResistance": true,
+            "specificResistanceStat": "IgniteResistance",
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
                 "nameKey": [
@@ -2348,9 +2363,12 @@
                 ],
                 "icon": "IconStatus_Bleeding"
             },
+            "damageBypassBarrier": true,
             "useFixedBaseDamage": false,
             "damageMod": 0.4,
             "eDamageType": "PHYSICAL",
+            "hasSpecificResistance": true,
+            "specificResistanceStat": "BleedResistance",
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
@@ -2482,7 +2500,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "AttackSpeed",
                     "modifierType": "Multiplicative",
-                    "value": 0.8
+                    "value": 0.92
                 }
             ],
             "statusDisplayInfo": {
@@ -2878,19 +2896,19 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "PhysicalResistance",
                     "modifierType": "Additive",
-                    "value": -0.2
+                    "value": -0.3
                 },
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "FireResistance",
                     "modifierType": "Additive",
-                    "value": -0.2
+                    "value": -0.3
                 },
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "LightningResistance",
                     "modifierType": "Additive",
-                    "value": -0.2
+                    "value": -0.3
                 },
                 {
                     "type": "StatModifierDefinition",
@@ -4262,7 +4280,7 @@
                         {
                             "type": "SkillEffectVariable",
                             "name": "Attack Speed",
-                            "baseValue": 0.06,
+                            "baseValue": 0.03,
                             "eSkillEffectVariableStackType": "Sum",
                             "eSkillEffectVariableFormat": "Percentage"
                         }
@@ -4463,13 +4481,19 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "PhysicalResistance",
                     "modifierType": "Additive",
-                    "value": -0.4
+                    "value": -0.2
                 },
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "PlagueResistance",
                     "modifierType": "Additive",
-                    "value": -0.4
+                    "value": -0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "BleedResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
                 }
             ],
             "statusDisplayInfo": {
@@ -4833,77 +4857,77 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "TNF:(WitherStatusName)"
+                        "langTranslation": "Wither"
                     }
                 ],
                 "descriptionKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "Bewegung sowie Nutzung von Fertigkeiten nicht möglich."
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "Can't Move or Use Skills"
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "Incapaz de moverse o usar habilidades."
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "Impossible d'utiliser des compétences ou de bouger"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "移動とスキル使用不可"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "Nie może się poruszać ani używać umiejętności"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "Não pode se mover ou usar Habilidades"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "Не может двигаться или применять навыки"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "TNF:(WitherStatusDescription)"
+                        "langTranslation": "无法移动或施展技能"
                     }
                 ],
                 "icon": "IconStatus_Wither"
@@ -6474,7 +6498,7 @@
             "name": "Prayer of Health - Heal Status Definition",
             "id": 101,
             "type": "HealStatusDefinition",
-            "healAmount": 0.04,
+            "healAmount": 0.03,
             "isPercentage": true,
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -6599,13 +6623,13 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "CriticalChance",
                     "modifierType": "MultiplicativeAdditive",
-                    "value": 1.2
+                    "value": 1.18
                 },
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "CriticalDamage",
                     "modifierType": "Additive",
-                    "value": 0.2
+                    "value": 0.18
                 }
             ],
             "statusDisplayInfo": {
@@ -7522,39 +7546,39 @@
                 "descriptionKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Erleidest du tödlichen Schaden, stirbst du nicht und regenerierst eine geringe Menge deines Lebens."
+                        "langTranslation": "Nach Erleiden tödlichen Schadens hast du eine Chance, nicht zu sterben und einen Prozentsatz deines Lebens wiederherzustellen."
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": "After taking lethal damage, you don't die and recover a percentage of your life."
+                        "langTranslation": "After taking lethal damage, you have a chance to not die and recover a percentage of your life."
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Después de recibir daño letal, no mueres y recuperas un porcentaje de vida."
+                        "langTranslation": "Tras recibir daño letal, tienes una probabilidad de no morir y recuperar un porcentaje de tu vida."
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Lorsque vous subissez des dégâts mortels, vous échappez à la mort et récupérez un certain pourcentage de votre santé."
+                        "langTranslation": "Après avoir subi des dégâts mortels, vous avez une chance de ne pas mourir et de récupérer un pourcentage de votre vie."
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "致命傷を受けた場合、プレイヤーが死ぬことはなく、体力を1%回復する。"
+                        "langTranslation": "致命的なダメージを受けた後、死亡せずに一定のライフを回復するチャンスがある。"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Kiedy otrzymasz śmiertelne obrażenia, nie umierasz i odzyskujesz część zdrowia."
+                        "langTranslation": "Po otrzymaniu śmiertelnych obrażeń masz szansę nie umrzeć i odzyskać procent swojego życia."
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "Ao tomar um dano fatal, você não morre e recupera um percentual da sua vida."
+                        "langTranslation": "Ao tomar um dano fatal, você tem uma chance de não morrer e recuperar um percentual da sua vida."
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "После получения смертельного урона вы не погибаете, а восстанавливаете некоторое количество здоровья."
+                        "langTranslation": "После получения смертельного урона у вас есть шанс выжить и восстановить процент своего здоровья."
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "受到致命伤害时不会立即死亡，并立即恢复一定比例的生命值。"
+                        "langTranslation": "受到致命伤害后，你有一定几率幸存，并恢复一定比例的生命值。"
                     }
                 ],
                 "icon": "IconSkill_SecondWind"
@@ -7888,16 +7912,16 @@
                         {
                             "type": "SkillEffectVariable",
                             "name": "Roll",
-                            "baseValue": 2.0,
+                            "baseValue": 1.0,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                            "eSkillEffectVariableFormat": "Rounded"
                         },
                         {
                             "type": "SkillEffectVariable",
                             "name": "Damage",
                             "baseValue": 1.0,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 }
@@ -9235,7 +9259,7 @@
             "effectInterval": 60.0,
             "shouldEchoClone": false,
             "purgeOnDeath": false,
-            "purgeOnSourceDeath": false
+            "purgeOnSourceDeath": true
         },
         {
             "name": "Ninas Monster Short Hopeless on Hit  Debuff Status Definition",
@@ -10956,6 +10980,857 @@
             "effectInterval": 0.0,
             "shouldEchoClone": false,
             "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Reflexes - Activation Bonus Damage",
+            "id": 166,
+            "type": "SkillBehaviorStatusDefinition",
+            "intensityAffectedVariables": [
+                "Damage",
+                "Regen"
+            ],
+            "skillBehaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": false,
+                "useListOfSkills": false,
+                "listOfSkills": [],
+                "skillTagFilter": "0",
+                "skillDefinition": {
+                    "name": "ReflexesDefinition",
+                    "id": 4,
+                    "type": "ReflexesSkillDefinition"
+                },
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Damage",
+                            "baseValue": 1.2,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Regen",
+                            "baseValue": 0.8,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Multiplicative"
+                        }
+                    ]
+                }
+            },
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Reflexe"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Reflexes"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Reflejos"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Réflexes"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "即応撃"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Refleksy"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Reflexos"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Рефлексы"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "反应加速"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Messer-Schaden und -Geschwindigkeit vorübergehend erhöht"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Knives damage and speed temporarily increased"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Daño y velocidad de Cuchillos aumentados temporalmente"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Dégâts et vitesse des Couteaux augmentés temporairement"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ナイフのダメージと速度が一時的に上昇"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Obrażenia i szybkość Noży tymczasowo zwiększone"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Dano e velocidade das facas temporariamente aumentados"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Урон и скорость Кинжалов временно увеличены"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "匕首伤害和速度暂时提升"
+                    }
+                ],
+                "icon": "IconSkill_Reflexes_grayscale"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Slow Time - Mother of Perpetual Help - Barrier Buff Status",
+            "id": 167,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "BarrierGeneration",
+                    "modifierType": "Additive",
+                    "value": 0.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "BarrierDecayResilience",
+                    "modifierType": "Additive",
+                    "value": 0.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Mutter ewiger Hilfe"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Mother of Perpetual Help"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Madre del Perpetuo Socorro"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Mère du Perpétuel Secours"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "絶えざる御助けの聖母"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Matka Boża Nieustającej Pomocy"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Mãe do Perpétuo Socorro"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Мать постоянной помощи"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "永恒护佑之母"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconSkill_SlowTime_grayscale"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Boss Generic Cursed  on Hit  Debuff Status Definition",
+            "id": 168,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": -0.02
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MagicResistance",
+                    "modifierType": "Additive",
+                    "value": -0.02
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Verflucht"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Cursed"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Maldito"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Maudit"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "呪われた"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Przeklęty"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Amaldiçoado"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Проклятие"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "诅咒"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_Cursed"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 666,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 60.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": true
+        },
+        {
+            "name": "Split Shot - Labaredas - Projectile Amount Buff",
+            "id": 169,
+            "type": "SkillBehaviorStatusDefinition",
+            "intensityAffectedVariables": [
+                "Roll"
+            ],
+            "skillBehaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": false,
+                "useListOfSkills": false,
+                "listOfSkills": [],
+                "skillTagFilter": "0",
+                "skillDefinition": {
+                    "name": "SplitshotDefinition",
+                    "id": 1,
+                    "type": "SplitshotSkillDefinition"
+                },
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 1.0,
+                            "eSkillEffectVariableStackType": "MultiplierSum",
+                            "eSkillEffectVariableFormat": "Multiplicative"
+                        }
+                    ]
+                }
+            },
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Labaredas"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "Labaredas"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                    }
+                ],
+                "icon": "Icon_ProjectileSkills"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 4,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Yaci - Resting Breath - Status Definition",
+            "id": 170,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "SkillAreaOfEffect",
+                    "modifierType": "MultiplicativeAdditive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Ruhender Atem"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Resting Breath"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Aliento en reposo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Souffle reposant"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "安らぎの吐息"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Oddech ws spoczynku"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Cachimbo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Дыхание отдыха"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "休息之息"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_AreaofEffect"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 10,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Nana - Between Life and Death - Status Definition",
+            "id": 171,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Zwischen Leben und Tod"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Between Life and Death"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Entre la vida y la muerte"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Entre la vie et la mort"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "生と死のはざま"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Między życiem a śmiercią"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Entre a Vida e a Morte"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Между жизнью и смертью"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "生死一线"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Physical_Resistance_Base"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "WitherBuildupStatusDefinition",
+            "id": 172,
+            "type": "BuildupStatusDefinition",
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Wither"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "Wither"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Bewegung sowie Nutzung von Fertigkeiten nicht möglich."
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Can't Move or Use Skills"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Incapaz de moverse o usar habilidades."
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Impossible d'utiliser des compétences ou de bouger"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "移動とスキル使用不可"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Nie może się poruszać ani używać umiejętności"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Não pode se mover ou usar Habilidades"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Не может двигаться или применять навыки"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "无法移动或施展技能"
+                    }
+                ],
+                "icon": "IconStatus_Wither_white"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "StunBuildupStatusDefinition",
+            "id": 173,
+            "type": "BuildupStatusDefinition",
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Betäubt"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Stunned"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Aturdido"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Étourdi"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "スタン"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Oszołomiony"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Atordoado"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Оглушение"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "眩晕"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Bewegung sowie Nutzung von Fertigkeiten nicht möglich."
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Can't Move or Use Skills"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Incapaz de moverse o usar habilidades."
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Impossible d'utiliser des compétences ou de bouger"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "移動とスキル使用不可"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Nie może się poruszać ani używać umiejętności"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Não pode se mover ou usar Habilidades"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Не может двигаться или применять навыки"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "无法移动或施展技能"
+                    }
+                ],
+                "icon": "IconStatus_Stunned_white"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
             "purgeOnSourceDeath": false
         }
     ]

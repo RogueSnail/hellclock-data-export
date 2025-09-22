@@ -2658,7 +2658,7 @@
                 {
                     "name": "26ecabab-7143-4cec-a960-fc6359705590",
                     "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BarrierGain",
+                    "eStatDefinition": "MaxBarrier",
                     "statModifierType": "MultiplicativeAdditive",
                     "value": 1.075,
                     "hideDescription": false,
@@ -2666,39 +2666,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsgewinn +7,5%[+]"
+                            "langTranslation": "Max. Überzeugung +7,5%[+]"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conviction Gain +7.5%[+]"
+                            "langTranslation": "Max. Conviction +7.5%[+]"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de Convicción +7,5%[+]"
+                            "langTranslation": "Convicción Máx. +7,5%[+]"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+7,5%[+] Gain de conviction"
+                            "langTranslation": "+7,5%[+] Conviction max."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念獲得量+7.5%[+]"
+                            "langTranslation": "信念最大値+7.5%[+]"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane Przekonanie +7,5%[+]"
+                            "langTranslation": "Maksymalne Przekonanie +7,5%[+]"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Convicção +7,5%[+]"
+                            "langTranslation": "Convicção Máxima +7,5%[+]"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение непоколебимости +7,5%[+]"
+                            "langTranslation": "Максимальная непоколебимость +7,5%[+]"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念获取 +7.5%[+]"
+                            "langTranslation": "最大信念 +7.5%[+]"
                         }
                     ]
                 }
@@ -3756,7 +3756,7 @@
                 {
                     "name": "5a194a90-36d8-4ad4-a6e1-7d271a9d1dd4",
                     "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BarrierGain",
+                    "eStatDefinition": "MaxBarrier",
                     "statModifierType": "MultiplicativeAdditive",
                     "value": 1.05,
                     "hideDescription": false,
@@ -3764,39 +3764,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsgewinn +5%[+]"
+                            "langTranslation": "Max. Überzeugung +5%[+]"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conviction Gain +5%[+]"
+                            "langTranslation": "Max. Conviction +5%[+]"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de Convicción +5%[+]"
+                            "langTranslation": "Convicción Máx. +5%[+]"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Gain de conviction"
+                            "langTranslation": "+5%[+] Conviction max."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念獲得量+5%[+]"
+                            "langTranslation": "信念最大値+5%[+]"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane Przekonanie +5%[+]"
+                            "langTranslation": "Maksymalne Przekonanie +5%[+]"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Convicção +5%[+]"
+                            "langTranslation": "Convicção Máxima +5%[+]"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение непоколебимости +5%[+]"
+                            "langTranslation": "Максимальная непоколебимость +5%[+]"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念获取 +5%[+]"
+                            "langTranslation": "最大信念 +5%[+]"
                         }
                     ]
                 }
@@ -4592,6 +4592,71 @@
                         {
                             "langCode": "zh-cn",
                             "langTranslation": "解锁绝处逢生，这是一项能在你濒死时触发的被动技能，可保你不死。(冷却时间：300 秒)"
+                        }
+                    ]
+                },
+                {
+                    "name": "9bcd35a5-a144-45b7-be6b-6401a7d4f7f4",
+                    "type": "SkillBehaviorNodeAffixDefinition",
+                    "eModifierType": "Additive",
+                    "valuePerLevel": 1.0,
+                    "behaviorData": {
+                        "type": "SkillBehaviorData",
+                        "affectMultipleSkills": false,
+                        "useListOfSkills": false,
+                        "listOfSkills": [],
+                        "skillTagFilter": "0",
+                        "skillDefinition": {},
+                        "variables": {
+                            "type": "SkillEffectVariables",
+                            "variables": [
+                                {
+                                    "type": "SkillEffectVariable",
+                                    "name": "Roll",
+                                    "baseValue": 0.0,
+                                    "eSkillEffectVariableStackType": "UseHighest",
+                                    "eSkillEffectVariableFormat": "Percentage"
+                                }
+                            ]
+                        }
+                    },
+                    "hideDescription": true,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": ""
                         }
                     ]
                 }
@@ -6003,7 +6068,7 @@
                 {
                     "name": "3f3969b5-d0fb-43c9-adf6-56ae847d6bca",
                     "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BarrierGain",
+                    "eStatDefinition": "MaxBarrier",
                     "statModifierType": "Multiplicative",
                     "value": 1.05,
                     "hideDescription": false,
@@ -6011,39 +6076,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsgewinn +5%[x]"
+                            "langTranslation": "Max. Überzeugung +5%[x]"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conviction Gain +5%[x]"
+                            "langTranslation": "Max. Conviction +5%[x]"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de Convicción +5%[x]"
+                            "langTranslation": "Convicción Máx. +5%[x]"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[x] Gain de conviction"
+                            "langTranslation": "+5%[x] Conviction max."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念獲得量+5%[x]"
+                            "langTranslation": "信念最大値+5%[x]"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane Przekonanie +5%[x]"
+                            "langTranslation": "Maksymalne Przekonanie +5%[x]"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Convicção +5%[x]"
+                            "langTranslation": "Convicção Máxima +5%[x]"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение непоколебимости +5%[x]"
+                            "langTranslation": "Максимальная непоколебимость +5%[x]"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念获取 +5%[x]"
+                            "langTranslation": "最大信念 +5%[x]"
                         }
                     ]
                 }
@@ -7678,7 +7743,7 @@
                 {
                     "name": "eb671979-0420-4a0b-adce-00c999f71a35",
                     "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BarrierGain",
+                    "eStatDefinition": "MaxBarrier",
                     "statModifierType": "MultiplicativeAdditive",
                     "value": 1.05,
                     "hideDescription": false,
@@ -7686,39 +7751,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsgewinn +5%[+]"
+                            "langTranslation": "Max. Überzeugung +5%[+]"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conviction Gain +5%[+]"
+                            "langTranslation": "Max. Conviction +5%[+]"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de Convicción +5%[+]"
+                            "langTranslation": "Convicción Máx. +5%[+]"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Gain de conviction"
+                            "langTranslation": "+5%[+] Conviction max."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念獲得量+5%[+]"
+                            "langTranslation": "信念最大値+5%[+]"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane Przekonanie +5%[+]"
+                            "langTranslation": "Maksymalne Przekonanie +5%[+]"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Convicção +5%[+]"
+                            "langTranslation": "Convicção Máxima +5%[+]"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение непоколебимости +5%[+]"
+                            "langTranslation": "Максимальная непоколебимость +5%[+]"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念获取 +5%[+]"
+                            "langTranslation": "最大信念 +5%[+]"
                         }
                     ]
                 }

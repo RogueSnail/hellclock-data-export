@@ -1,0 +1,1818 @@
+{
+    "name": "RelicInventoryConfig",
+    "type": "RelicInventoryConfig",
+    "relicSizeConfigs": {
+        "Small": {
+            "name": "Small Relic Size Config",
+            "type": "RelicSizeConfig",
+            "backgroundSprite": "IconRelic_bg_Small",
+            "implicitAffixPool": {
+                "FuryImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life %",
+                            "id": 197,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Endurance",
+                            "id": 198,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life Regen",
+                            "id": 199,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    }
+                ],
+                "DisciplineImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Hybrid Life Mana %",
+                            "id": 208,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Evasion",
+                            "id": 209,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Move Speed",
+                            "id": 210,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    }
+                ],
+                "FaithImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Mana %",
+                            "id": 212,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Anti-Magic",
+                            "id": 220,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Mana Shield",
+                            "id": 221,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    }
+                ],
+                "Corrupted": [
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Gold Gain",
+                            "id": 286,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Soulstone Gain",
+                            "id": 287,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - All Resist (Minor)",
+                            "id": 288,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life Leech",
+                            "id": 289,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 50.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life Mana Hybrid",
+                            "id": 290,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Bombardment  Plus 1 Affix",
+                            "id": 246,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ClosedBody  Plus 1 Affix",
+                            "id": 245,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Double Knives Plus 1 Affix",
+                            "id": 244,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - FeitorsLash  Plus 1 Affix",
+                            "id": 247,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - HolyRosary Plus 1 Affix",
+                            "id": 248,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Judgment  Plus 1 Affix",
+                            "id": 249,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Lasso Plus 1 Affix",
+                            "id": 250,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Matadeira  Plus 1 Affix",
+                            "id": 251,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Passage  Plus 1 Affix",
+                            "id": 252,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerHealth  Plus 1 Affix",
+                            "id": 253,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerVengeance  Plus 1 Affix",
+                            "id": 254,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Reflexes  Plus 1 Affix",
+                            "id": 255,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Repeater  Plus 1 Affix",
+                            "id": 256,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ShadowDash  Plus 1 Affix",
+                            "id": 257,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SlowTime  Plus 1 Affix",
+                            "id": 258,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SplitShot  Plus 1 Affix",
+                            "id": 243,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonBrute  Plus 1 Affix",
+                            "id": 259,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonGuard  Plus 1 Affix",
+                            "id": 261,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonMarksmen  Plus 1 Affix",
+                            "id": 260,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - TheOldBell  Plus 1 Affix",
+                            "id": 262,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - VeilofQuills  Plus 1 Affix",
+                            "id": 263,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    }
+                ]
+            }
+        },
+        "Large": {
+            "name": "Large Relic Size Config",
+            "type": "RelicSizeConfig",
+            "backgroundSprite": "IconRelic_bg_Large",
+            "implicitAffixPool": {
+                "FuryImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Melee Damage",
+                            "id": 200,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Fire Damage",
+                            "id": 201,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Phys Damage",
+                            "id": 202,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Life on Kill - Implicit",
+                            "id": 203,
+                            "type": "RegenOnKillAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life Gain",
+                            "id": 204,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    }
+                ],
+                "DisciplineImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Marksman Damage",
+                            "id": 222,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Phys Damage",
+                            "id": 202,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Plague Damage",
+                            "id": 224,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Mana on Kill - Implicit",
+                            "id": 211,
+                            "type": "RegenOnKillAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Attack Speed",
+                            "id": 230,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    }
+                ],
+                "FaithImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Spell Damage",
+                            "id": 225,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Lightning Damage",
+                            "id": 229,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Minor Phys Damage",
+                            "id": 202,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Mana on Kill - Implicit",
+                            "id": 211,
+                            "type": "RegenOnKillAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Max Conviction",
+                            "id": 213,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    }
+                ],
+                "Corrupted": [
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Attack Speed",
+                            "id": 291,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Cooldown Speed",
+                            "id": 292,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Healing Received",
+                            "id": 293,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - All Resist (Major)",
+                            "id": 294,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Max Conviction",
+                            "id": 295,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Evasion Endurance Antimagic",
+                            "id": 296,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Bombardment  Plus 1 Affix",
+                            "id": 246,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ClosedBody  Plus 1 Affix",
+                            "id": 245,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Double Knives Plus 1 Affix",
+                            "id": 244,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - FeitorsLash  Plus 1 Affix",
+                            "id": 247,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - HolyRosary Plus 1 Affix",
+                            "id": 248,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Judgment  Plus 1 Affix",
+                            "id": 249,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Lasso Plus 1 Affix",
+                            "id": 250,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Matadeira  Plus 1 Affix",
+                            "id": 251,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Passage  Plus 1 Affix",
+                            "id": 252,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerHealth  Plus 1 Affix",
+                            "id": 253,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerVengeance  Plus 1 Affix",
+                            "id": 254,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Reflexes  Plus 1 Affix",
+                            "id": 255,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Repeater  Plus 1 Affix",
+                            "id": 256,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ShadowDash  Plus 1 Affix",
+                            "id": 257,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SlowTime  Plus 1 Affix",
+                            "id": 258,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SplitShot  Plus 1 Affix",
+                            "id": 243,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonBrute  Plus 1 Affix",
+                            "id": 259,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonGuard  Plus 1 Affix",
+                            "id": 261,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonMarksmen  Plus 1 Affix",
+                            "id": 260,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - TheOldBell  Plus 1 Affix",
+                            "id": 262,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - VeilofQuills  Plus 1 Affix",
+                            "id": 263,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    }
+                ]
+            }
+        },
+        "Exalted": {
+            "name": "Exalted Relic Size Config",
+            "type": "RelicSizeConfig",
+            "backgroundSprite": "IconRelic_Bg_Exalted",
+            "implicitAffixPool": {
+                "FuryImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Melee Damage",
+                            "id": 205,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Fire Damage",
+                            "id": 206,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Phys Damage",
+                            "id": 207,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life Leech",
+                            "id": 231,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Stun Buildup",
+                            "id": 232,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Attack Speed",
+                            "id": 233,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 0.3,
+                        "value": {
+                            "name": "Stat - Implicit - Max Vigor Stack",
+                            "id": 234,
+                            "type": "StatusMaxStacksAffixDefinition"
+                        }
+                    }
+                ],
+                "DisciplineImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Marksman Damage",
+                            "id": 223,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Plague Damage",
+                            "id": 227,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Phys Damage",
+                            "id": 207,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Hybrid Movespeed Evasion",
+                            "id": 237,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Wither Buildup",
+                            "id": 238,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Projectile Amount",
+                            "id": 215,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 0.3,
+                        "value": {
+                            "name": "Stat - Implicit - Max Agility Orbs",
+                            "id": 236,
+                            "type": "StatusMaxStacksAffixDefinition"
+                        }
+                    }
+                ],
+                "FaithImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Spell Damage",
+                            "id": 226,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Lightning Damage",
+                            "id": 228,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Phys Damage",
+                            "id": 207,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Summon Damage",
+                            "id": 239,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Skills Mana Cost",
+                            "id": 214,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Conviction Decay Resistance",
+                            "id": 240,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 0.3,
+                        "value": {
+                            "name": "Stat - Implicit - Max Power Orbs",
+                            "id": 235,
+                            "type": "StatusMaxStacksAffixDefinition"
+                        }
+                    }
+                ],
+                "Corrupted": [
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - All Resist (Greater)",
+                            "id": 298,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Conviction Decay Resistance",
+                            "id": 300,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life and Life Regen",
+                            "id": 301,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Mana and Mana Regen",
+                            "id": 302,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 80.0,
+                        "value": {
+                            "name": "Stat - Implicit - Max Resistances",
+                            "id": 299,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 50.0,
+                        "value": {
+                            "name": "Stat - Implicit - Projectile Amount",
+                            "id": 297,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Bombardment  Plus 2 Affix",
+                            "id": 264,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ClosedBody  Plus 2 Affix",
+                            "id": 265,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Double Knives Plus 2 Affix",
+                            "id": 266,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - FeitorsLash  Plus 2 Affix",
+                            "id": 267,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - HolyRosary Plus 2 Affix",
+                            "id": 268,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Judgment  Plus 2 Affix",
+                            "id": 269,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Lasso Plus 2 Affix",
+                            "id": 270,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Matadeira  Plus 2 Affix",
+                            "id": 271,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Passage  Plus 2 Affix",
+                            "id": 272,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerHealth  Plus 2 Affix",
+                            "id": 273,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerVengeance  Plus 2 Affix",
+                            "id": 274,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Reflexes  Plus 2 Affix",
+                            "id": 275,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Repeater  Plus 2 Affix",
+                            "id": 276,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ShadowDash  Plus 2 Affix",
+                            "id": 277,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SlowTime  Plus 2 Affix",
+                            "id": 278,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SplitShot  Plus 2 Affix",
+                            "id": 279,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonBrute  Plus 2 Affix",
+                            "id": 280,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonGuard  Plus 2 Affix",
+                            "id": 281,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonMarksmen  Plus 2 Affix",
+                            "id": 282,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - TheOldBell  Plus 2 Affix",
+                            "id": 283,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - VeilofQuills  Plus 2 Affix",
+                            "id": 285,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    }
+                ]
+            }
+        },
+        "Grand": {
+            "name": "Grand Relic Size Config",
+            "type": "RelicSizeConfig",
+            "backgroundSprite": "IconRelic_bg_Grand",
+            "implicitAffixPool": {
+                "FuryImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Melee Damage",
+                            "id": 205,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Fire Damage",
+                            "id": 206,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Phys Damage",
+                            "id": 207,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life Leech",
+                            "id": 231,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Stun Buildup",
+                            "id": 232,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Attack Speed",
+                            "id": 233,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 0.3,
+                        "value": {
+                            "name": "Stat - Implicit - Max Vigor Stack",
+                            "id": 234,
+                            "type": "StatusMaxStacksAffixDefinition"
+                        }
+                    }
+                ],
+                "DisciplineImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Marksman Damage",
+                            "id": 223,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Plague Damage",
+                            "id": 227,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Phys Damage",
+                            "id": 207,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Hybrid Movespeed Evasion",
+                            "id": 237,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Wither Buildup",
+                            "id": 238,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Projectile Amount",
+                            "id": 215,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 0.3,
+                        "value": {
+                            "name": "Stat - Implicit - Max Agility Orbs",
+                            "id": 236,
+                            "type": "StatusMaxStacksAffixDefinition"
+                        }
+                    }
+                ],
+                "FaithImbued": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Major Spell Damage",
+                            "id": 226,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Lightning Damage",
+                            "id": 228,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Added Phys Damage",
+                            "id": 207,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Summon Damage",
+                            "id": 239,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Skills Mana Cost",
+                            "id": 214,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Stat - Implicit - Conviction Decay Resistance",
+                            "id": 240,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 0.3,
+                        "value": {
+                            "name": "Stat - Implicit - Max Power Orbs",
+                            "id": 235,
+                            "type": "StatusMaxStacksAffixDefinition"
+                        }
+                    }
+                ],
+                "Corrupted": [
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - All Resist (Greater)",
+                            "id": 298,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Conviction Decay Resistance",
+                            "id": 300,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Life and Life Regen",
+                            "id": 301,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 100.0,
+                        "value": {
+                            "name": "Stat - Implicit - Mana and Mana Regen",
+                            "id": 302,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 80.0,
+                        "value": {
+                            "name": "Stat - Implicit - Max Resistances",
+                            "id": 299,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 50.0,
+                        "value": {
+                            "name": "Stat - Implicit - Projectile Amount",
+                            "id": 297,
+                            "type": "StatModifierAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Bombardment  Plus 2 Affix",
+                            "id": 264,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ClosedBody  Plus 2 Affix",
+                            "id": 265,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Double Knives Plus 2 Affix",
+                            "id": 266,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - FeitorsLash  Plus 2 Affix",
+                            "id": 267,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - HolyRosary Plus 2 Affix",
+                            "id": 268,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Judgment  Plus 2 Affix",
+                            "id": 269,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Lasso Plus 2 Affix",
+                            "id": 270,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Matadeira  Plus 2 Affix",
+                            "id": 271,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Passage  Plus 2 Affix",
+                            "id": 272,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerHealth  Plus 2 Affix",
+                            "id": 273,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - PrayerVengeance  Plus 2 Affix",
+                            "id": 274,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Reflexes  Plus 2 Affix",
+                            "id": 275,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - Repeater  Plus 2 Affix",
+                            "id": 276,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - ShadowDash  Plus 2 Affix",
+                            "id": 277,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SlowTime  Plus 2 Affix",
+                            "id": 278,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SplitShot  Plus 2 Affix",
+                            "id": 279,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonBrute  Plus 2 Affix",
+                            "id": 280,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonGuard  Plus 2 Affix",
+                            "id": 281,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - SummonMarksmen  Plus 2 Affix",
+                            "id": 282,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - TheOldBell  Plus 2 Affix",
+                            "id": 283,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level - Implicit - VeilofQuills  Plus 2 Affix",
+                            "id": 285,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "maxUpgradeLevel": 5,
+    "maxRoll": 1.2,
+    "relicUpgradeDisassembleRefundMultiplier": 0.5,
+    "relicUpgradeCost": [
+        0,
+        250,
+        1000,
+        2500,
+        4000,
+        6000
+    ],
+    "defaultRelicUpgradeModifier": {
+        "name": "Default Relic Upgrade Modifier Config",
+        "type": "RelicUpgradeModifierConfig",
+        "modifierType": "Multiplicative",
+        "upgradeModifier": {
+            "0": 1.0,
+            "1": 1.2,
+            "2": 1.4,
+            "3": 1.6,
+            "4": 1.8,
+            "5": 2.0,
+            "6": 2.2,
+            "7": 2.4,
+            "8": 2.6,
+            "9": 2.8,
+            "10": 3.0
+        }
+    },
+    "relicRarityConfigs": [
+        {
+            "type": "RelicRarityConfig",
+            "eRelicRarity": "Common",
+            "additionalPrimaryAffixAmount": {},
+            "additionalSecondaryAffixAmount": {},
+            "rarityNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Gewöhnlich"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Common"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Común"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Commune"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "コモン"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Powszechny"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Comum"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Обычное"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "普通"
+                }
+            ],
+            "color": "RGBA(0.226, 0.206, 0.206, 1.000)",
+            "secondaryColor": "RGBA(0.651, 0.588, 0.588, 1.000)"
+        },
+        {
+            "type": "RelicRarityConfig",
+            "eRelicRarity": "Magic",
+            "additionalPrimaryAffixAmount": {
+                "Small": [
+                    0,
+                    0
+                ],
+                "Large": [
+                    0,
+                    0
+                ],
+                "Exalted": [
+                    1,
+                    1
+                ],
+                "Grand": [
+                    1,
+                    1
+                ]
+            },
+            "additionalSecondaryAffixAmount": {
+                "Small": [
+                    1,
+                    1
+                ],
+                "Large": [
+                    1,
+                    1
+                ],
+                "Exalted": [
+                    0,
+                    1
+                ],
+                "Grand": [
+                    0,
+                    1
+                ]
+            },
+            "rarityNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Magisch"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Magic"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Mágica"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Magique"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "マジック"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Magiczny"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Mágica"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Необычное"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "魔法"
+                }
+            ],
+            "color": "RGBA(0.220, 0.337, 0.647, 1.000)",
+            "secondaryColor": "RGBA(0.220, 0.337, 0.647, 1.000)"
+        },
+        {
+            "type": "RelicRarityConfig",
+            "eRelicRarity": "Rare",
+            "additionalPrimaryAffixAmount": {
+                "Small": [
+                    0,
+                    0
+                ],
+                "Large": [
+                    0,
+                    0
+                ],
+                "Exalted": [
+                    1,
+                    1
+                ],
+                "Grand": [
+                    1,
+                    1
+                ]
+            },
+            "additionalSecondaryAffixAmount": {
+                "Small": [
+                    1,
+                    1
+                ],
+                "Large": [
+                    1,
+                    1
+                ],
+                "Exalted": [
+                    0,
+                    1
+                ],
+                "Grand": [
+                    0,
+                    1
+                ]
+            },
+            "rarityNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Selten"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Rare"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Rara"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Rare"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "レア"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Rzadki"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Rara"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Редкое"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "稀有"
+                }
+            ],
+            "color": "RGBA(0.976, 0.659, 0.196, 1.000)",
+            "secondaryColor": "RGBA(0.976, 0.659, 0.196, 1.000)"
+        },
+        {
+            "type": "RelicRarityConfig",
+            "eRelicRarity": "Unique",
+            "additionalPrimaryAffixAmount": {},
+            "additionalSecondaryAffixAmount": {},
+            "rarityNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Einzigartig"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Unique"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Singular"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Unique"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ユニーク"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Unikalny"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Única"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Уникальное"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "特异"
+                }
+            ],
+            "color": "RGBA(1.000, 0.310, 0.180, 1.000)",
+            "secondaryColor": "RGBA(1.000, 0.310, 0.180, 1.000)"
+        }
+    ],
+    "relicTierConfigs": [
+        {
+            "type": "RelicTierConfig",
+            "tier": 0,
+            "backgroundColor": "RGBA(0.755, 0.612, 0.495, 0.000)",
+            "background": "Square",
+            "spritePerSize": {
+                "Small": "IconRelic_Small1",
+                "Large": "IconRelic_Large1",
+                "Exalted": "IconRelic_exalted1",
+                "Grand": "IconRelic_Grand1"
+            }
+        },
+        {
+            "type": "RelicTierConfig",
+            "tier": 1,
+            "backgroundColor": "RGBA(0.264, 0.206, 0.206, 0.765)",
+            "background": "IconRelic_BgTier1_Grand",
+            "spritePerSize": {
+                "Small": "IconRelic_Small1",
+                "Large": "IconRelic_Large1",
+                "Exalted": "IconRelic_exalted1",
+                "Grand": "IconRelic_Grand1"
+            }
+        },
+        {
+            "type": "RelicTierConfig",
+            "tier": 2,
+            "backgroundColor": "RGBA(0.851, 0.224, 0.000, 1.000)",
+            "background": "IconRelic_BgTier2_Grand",
+            "spritePerSize": {
+                "Small": "IconRelic_Small2",
+                "Large": "IconRelic_Large2",
+                "Exalted": "IconRelic_exalted2",
+                "Grand": "IconRelic_Grand2"
+            }
+        },
+        {
+            "type": "RelicTierConfig",
+            "tier": 3,
+            "backgroundColor": "RGBA(0.851, 0.224, 0.000, 1.000)",
+            "background": "IconRelic_BgTier3_Grand",
+            "spritePerSize": {
+                "Small": "IconRelic_small3",
+                "Large": "IconRelic_large3",
+                "Exalted": "IconRelic_exalted3",
+                "Grand": "IconRelic_Grand3"
+            }
+        },
+        {
+            "type": "RelicTierConfig",
+            "tier": 4,
+            "backgroundColor": "RGBA(1.000, 1.000, 1.000, 1.000)",
+            "background": "IconRelic_BgTier4_Grand",
+            "spritePerSize": {
+                "Small": "IconRelic_small4",
+                "Large": "IconRelic_large4",
+                "Exalted": "IconRelic_exalted4",
+                "Grand": "IconRelic_Grand4"
+            }
+        }
+    ],
+    "relicAffixIcons": {
+        "type": "RelicAffixIcons",
+        "defaultIcon": "UI_AffixBullet",
+        "lockedIcon": "UI_AffixBullet-Locked",
+        "implicitIcon": "UI_AffixBullet3"
+    },
+    "startPages": 3,
+    "pagePrice": 200,
+    "relicDisassembleValueMultiplierPerTier": [
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+    ],
+    "relicShopCostMultiplierPerTier": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+    ],
+    "nonUniqueRelicDisassembleValuePerAffix": 20
+}
