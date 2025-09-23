@@ -11013,45 +11013,45 @@
                     "type": "StatModifierNodeAffixDefinition",
                     "eStatDefinition": "SummonDamagePercentage",
                     "statModifierType": "Additive",
-                    "value": 0.1,
+                    "value": 0.14,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Schaden durch Beschwörungen +10%"
+                            "langTranslation": "Schaden durch Beschwörungen +14%"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Summon Damage +10%"
+                            "langTranslation": "Summon Damage +14%"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Daño de Invocación +10%"
+                            "langTranslation": "Daño de Invocación +14%"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10% Dégâts des invocations"
+                            "langTranslation": "+14% Dégâts des invocations"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "召喚ダメージ+10%"
+                            "langTranslation": "召喚ダメージ+14%"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Obrażenia od przywołania +10%"
+                            "langTranslation": "Obrażenia od przywołania +14%"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Dano de Invocações +10%"
+                            "langTranslation": "Dano de Invocações +14%"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Урон призванных существ +10%"
+                            "langTranslation": "Урон призванных существ +14%"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "召唤物伤害值 +10%"
+                            "langTranslation": "召唤物伤害值 +14%"
                         }
                     ]
                 }
@@ -11160,45 +11160,45 @@
                     "type": "StatModifierNodeAffixDefinition",
                     "eStatDefinition": "SummonDamagePercentage",
                     "statModifierType": "Additive",
-                    "value": 0.08,
+                    "value": 0.12,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Schaden durch Beschwörungen +8%"
+                            "langTranslation": "Schaden durch Beschwörungen +12%"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Summon Damage +8%"
+                            "langTranslation": "Summon Damage +12%"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Daño de Invocación +8%"
+                            "langTranslation": "Daño de Invocación +12%"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+8% Dégâts des invocations"
+                            "langTranslation": "+12% Dégâts des invocations"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "召喚ダメージ+8%"
+                            "langTranslation": "召喚ダメージ+12%"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Obrażenia od przywołania +8%"
+                            "langTranslation": "Obrażenia od przywołania +12%"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Dano de Invocações +8%"
+                            "langTranslation": "Dano de Invocações +12%"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Урон призванных существ +8%"
+                            "langTranslation": "Урон призванных существ +12%"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "召唤物伤害值 +8%"
+                            "langTranslation": "召唤物伤害值 +12%"
                         }
                     ]
                 }

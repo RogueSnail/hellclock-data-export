@@ -5541,39 +5541,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Lasso verbraucht alle Stapel Morgengrauen. Jeder Gegner erleidet 50% deines Basisschadens, multipliziert mit der Anzahl von Stapeln Morgengrauen, als Feuerschaden."
+                                        "langTranslation": "Lasso verbraucht alle Stapel Morgengrauen. Jeder Gegner erleidet 50% deines Basisschadens, multipliziert mit der Anzahl von Stapeln Morgengrauen, als Feuerschaden. Dieser Schaden skaliert mit dem Fertigkeitslevel von Lasso."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Casting Lasso spends all Dawnlight stacks. Each enemy takes 50% of your Base Damage, multiplied by the Dawnlight stacks, as Fire Damage."
+                                        "langTranslation": "Casting Lasso spends all Dawnlight stacks. Each enemy takes 50% of your Base Damage, multiplied by the Dawnlight stacks, as Fire Damage. This damage scales with the Skill Level of Lasso."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Invocar Lazo gasta todas las acumulaciones de Luz del Alba. Cada enemigo recibe 50% de daño básico, multiplicado por las acumulaciones de Luz del Alba, como daño de Fuego."
+                                        "langTranslation": "Invocar Lazo gasta todas las acumulaciones de Luz del Alba. Cada enemigo recibe 50% de daño básico, multiplicado por las acumulaciones de Luz del Alba, como daño de Fuego. Este daño escala con el nivel de habilidad de Lazo."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque vous lancez Lasso, vous utilisez tous vos cumuls de Lumière de l'aube et infligez des dégâts de feu équivalant à 50% de vos dégâts de base, multipliés par le nombre de cumuls."
+                                        "langTranslation": "Lorsque vous lancez Lasso, vous utilisez tous vos cumuls de Lumière de l'aube et infligez des dégâts de feu équivalant à 50% de vos dégâts de base, multipliés par le nombre de cumuls. Ces dégâts évoluent avec le niveau de compétence de Lasso."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "投げ縄の詠唱はあらゆる暁の光スタックを消費する。各敵は、基礎ダメージの50%を暁の光スタック個数倍した火炎ダメージを受ける。"
+                                        "langTranslation": "投げ縄の詠唱はあらゆる暁の光スタックを消費する。各敵は、基礎ダメージの50%を暁の光スタック個数倍した火炎ダメージを受ける。このダメージは投げ縄のスキルレベルによってスケールする。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Rzucenie Lassa zużywa wszystkie ładunki Światła poranka. Każdy wróg otrzymuje 50% twoich obrażeń bazowych, pomnożonych przez liczbę ładunków, jako obrażenia od ognia."
+                                        "langTranslation": "Rzucenie Lassa zużywa wszystkie ładunki Światła poranka. Każdy wróg otrzymuje 50% twoich obrażeń bazowych, pomnożonych przez liczbę ładunków, jako obrażenia od ognia. Te obrażenia skalują się z Poziomem Umiejętności Lassa."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Conjurar Laço gasta todos os acúmulos de Luz do Amanhecer. Cada inimigo recebe 50% do seu Dano Base, multiplicado pelos acúmulos de Luz do Amanhecer, como dano Ígneo."
+                                        "langTranslation": "Conjurar Laço gasta todos os acúmulos de Luz do Amanhecer. Cada inimigo recebe 50% do seu Dano Base, multiplicado pelos acúmulos de Luz do Amanhecer, como dano Ígneo. Esse dano escala com o Nível de Habilidade de Laço."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Бросок лассо расходует все заряды света зари. Каждый враг получает урон от огня в размере 50% от вашего основного урона, помноженного на количество зарядов света зари."
+                                        "langTranslation": "Бросок лассо расходует все заряды света зари. Каждый враг получает урон от огня в размере 50% от вашего основного урона, помноженного на количество зарядов света зари. Этот урон масштабируется с уровнем навыка Лассо."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "施放套索会消耗所有曙光层。每名敌人将受到火焰伤害，相当于 50% 基础伤害再乘以曙光层数。"
+                                        "langTranslation": "施放套索会消耗所有曙光层。每名敌人将受到火焰伤害，相当于 50% 基础伤害再乘以曙光层数。该伤害随套索的技能等级而提升。"
                                     }
                                 ]
                             }
@@ -8170,7 +8170,7 @@
                                 "name": "e07bac62-9b0e-4499-963f-c043aea509aa",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "MultiplicativeAdditive",
-                                "valuePerLevel": 1.1,
+                                "valuePerLevel": 1.075,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -8196,39 +8196,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "+10%[+] Geschossschaden für jede Kraftkugel."
+                                        "langTranslation": "+7,5%[+] Geschossschaden für jede Kraftkugel."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "+10%[+] Projectile Damage for each Power Orb"
+                                        "langTranslation": "+7.5%[+] Projectile Damage for each Power Orb"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "+10%[+] de daño de proyectil por cada Orbe de Poder."
+                                        "langTranslation": "+7,5%[+] de daño de proyectil por cada Orbe de Poder."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+10%[+] de dégâts de projectile par orbe de puissance."
+                                        "langTranslation": "+7,5%[+] de dégâts de projectile par orbe de puissance."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "力のオーブ1個につき投射物ダメージ+10%[+]。"
+                                        "langTranslation": "力のオーブ1個につき投射物ダメージ+7.5%[+]。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "+10%[+] obrażeń od pocisków za każdą kulę mocy"
+                                        "langTranslation": "+7,5%[+] obrażeń od pocisków za każdą kulę mocy"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "+10%[+] de Dano de Projétil para cada Orbe de Poder"
+                                        "langTranslation": "+7,5%[+] de Dano de Projétil para cada Orbe de Poder"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "+10%[+] к урону от снарядов за каждую сферу мощи"
+                                        "langTranslation": "+7,5%[+] к урону от снарядов за каждую сферу мощи"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "每获得 1 枚战力之球，投射物伤害提升 +10%[+]。"
+                                        "langTranslation": "每获得 1 枚战力之球，投射物伤害提升 +7.5%[+]。"
                                     }
                                 ]
                             }
@@ -8298,7 +8298,7 @@
                                 "name": "a3f7cbc4-ec6c-4ee0-bf55-443ac8b9bbd9",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Multiplicative",
-                                "valuePerLevel": 1.1,
+                                "valuePerLevel": 1.075,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -8314,7 +8314,7 @@
                                                 "name": "Roll",
                                                 "baseValue": 0.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
-                                                "eSkillEffectVariableFormat": "Multiplicative"
+                                                "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                                             }
                                         ]
                                     }
@@ -8324,39 +8324,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "+10%[x] Zauberschaden für jede Kraftkugel."
+                                        "langTranslation": "+7,5%[+] Zauberschaden pro Geschickkugel."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "+10%[x] Spell Damage for each Power Orb"
+                                        "langTranslation": "+7.5%[+] Spell Damage for each Agility Orb"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "+10%[x] de daño de hechizo por cada Orbe de Poder."
+                                        "langTranslation": "+7,5%[+] de daño de hechizo por Orbe de Agilidad."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+10%[x] de dégâts de sort par orbe de puissance."
+                                        "langTranslation": "+7,5%[+] de dégâts de sort par orbe d’agilité."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "力のオーブ1個につき呪文ダメージ+10%[x]。"
+                                        "langTranslation": "敏捷のオーブ1個につき、呪文ダメージ+7.5%[+]。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "+10%[x] obrażeń od zaklęć za każdą kulę mocy"
+                                        "langTranslation": "+7,5%[+] obrażeń od zaklęć za każdą kulę zwinności."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "+10%[x] de Dano Mágico para cada Orbe de Poder"
+                                        "langTranslation": "+7,5%[+] de Dano Mágico para cada Orbe de Agilidade"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "+10%[x] к урону от заклинаний за каждую сферу мощи"
+                                        "langTranslation": "+7,5%[+] к урону от заклинаний за каждую сферу ловкости."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "每获得 1 枚战力之球，法术伤害提升 +10%[x]。"
+                                        "langTranslation": "每获得 1 枚敏捷之球，法术伤害提升 +7.5%[+]。"
                                     }
                                 ]
                             }
@@ -8426,7 +8426,7 @@
                                 "name": "9cac1293-ef1d-4db7-b52f-e6d3712073e1",
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 0.1,
+                                "valuePerLevel": 0.18,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -8459,39 +8459,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Alle aktiven Abklingzeiten werden um 10% oder 1 Sek. (je nachdem, welcher Wert niedriger ist) verringert, wenn du eine Geschick- oder Kraftkugel erhältst."
+                                        "langTranslation": "Alle aktiven Abklingzeiten werden um 18% oder 1 Sek. (je nachdem, welcher Wert niedriger ist) verringert, wenn du eine Geschick- oder Kraftkugel erhältst."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Reduces all active cooldowns by 10% or 1s (whichever is lower) when you gain an Agility Orb or a Power Orb"
+                                        "langTranslation": "Reduces all active cooldowns by 18% or 1s (whichever is lower) when you gain an Agility Orb or a Power Orb"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Reduce todos los enfriamientos activos en 10% o 1 s (el que sea menor) cuando obtienes un Orbe de Agilidad o un Orbe de Poder."
+                                        "langTranslation": "Reduce todos los enfriamientos activos en 18% o 1 s (el que sea menor) cuando obtienes un Orbe de Agilidad o un Orbe de Poder."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Tous les temps de recharge actifs sont réduits de 10% ou 1 s (selon le moindre) lorsque vous obtenez un orbe d'agilité ou de puissance."
+                                        "langTranslation": "Tous les temps de recharge actifs sont réduits de 18% ou 1 s (selon le moindre) lorsque vous obtenez un orbe d'agilité ou de puissance."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "敏捷のオーブもしくは力のオーブを手に入れると、発動中のすべてのクールダウンが10%秒または1秒（小さい方）減少する。"
+                                        "langTranslation": "敏捷のオーブもしくは力のオーブを手に入れると、発動中のすべてのクールダウンが18%秒または1秒（小さい方）減少する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Skraca wszystkie aktywne czasy odnawiania o 10% lub 1 s (w zależności od mniejszej wartości) po zdobyciu Kuli Zwinności lub Kuli Mocy."
+                                        "langTranslation": "Skraca wszystkie aktywne czasy odnawiania o 18% lub 1 s (w zależności od mniejszej wartości) po zdobyciu Kuli Zwinności lub Kuli Mocy."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Reduza todos os tempos de recarga ativos em 10% ou 1s (o que for menor) ao ganhar um Orbe de Agilidade ou um Orbe de Poder"
+                                        "langTranslation": "Reduza todos os tempos de recarga ativos em 18% ou 1s (o que for menor) ao ganhar um Orbe de Agilidade ou um Orbe de Poder"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Все текущие перезарядки сокращаются на 10% или 1 сек. (выбирается меньшее) при получении Сферы Ловкости или Сферы Силы."
+                                        "langTranslation": "Все текущие перезарядки сокращаются на 18% или 1 сек. (выбирается меньшее) при получении Сферы Ловкости или Сферы Силы."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "获得敏捷之球或战力之球时，所有技能的冷却时间减少 10% 或 1 秒（取较小值）。"
+                                        "langTranslation": "获得敏捷之球或战力之球时，所有技能的冷却时间减少 18% 或 1 秒（取较小值）。"
                                     }
                                 ]
                             }
@@ -9447,45 +9447,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "PhysicalResistance",
                                 "statModifierType": "Additive",
-                                "value": 0.02,
+                                "value": 0.04,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Physikalische Resistenz +2%"
+                                        "langTranslation": "Physikalische Resistenz +4%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Physical Resistance +2%"
+                                        "langTranslation": "Physical Resistance +4%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Resistencia física +2%"
+                                        "langTranslation": "Resistencia física +4%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+2% Résistance physique"
+                                        "langTranslation": "+4% Résistance physique"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "物理抵抗+2%"
+                                        "langTranslation": "物理抵抗+4%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Odporność na obrażenia fizyczne +2%"
+                                        "langTranslation": "Odporność na obrażenia fizyczne +4%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Resistência Física +2%"
+                                        "langTranslation": "Resistência Física +4%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Сопротивление физ. урону +2%"
+                                        "langTranslation": "Сопротивление физ. урону +4%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "物理抗性 +2%"
+                                        "langTranslation": "物理抗性 +4%"
                                     }
                                 ]
                             }
@@ -9556,45 +9556,45 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "PhysicalResistance",
                                 "statModifierType": "Additive",
-                                "value": 0.02,
+                                "value": 0.04,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Physikalische Resistenz +2%"
+                                        "langTranslation": "Physikalische Resistenz +4%"
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Physical Resistance +2%"
+                                        "langTranslation": "Physical Resistance +4%"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Resistencia física +2%"
+                                        "langTranslation": "Resistencia física +4%"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "+2% Résistance physique"
+                                        "langTranslation": "+4% Résistance physique"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "物理抵抗+2%"
+                                        "langTranslation": "物理抵抗+4%"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Odporność na obrażenia fizyczne +2%"
+                                        "langTranslation": "Odporność na obrażenia fizyczne +4%"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Resistência Física +2%"
+                                        "langTranslation": "Resistência Física +4%"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Сопротивление физ. урону +2%"
+                                        "langTranslation": "Сопротивление физ. урону +4%"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "物理抗性 +2%"
+                                        "langTranslation": "物理抗性 +4%"
                                     }
                                 ]
                             }

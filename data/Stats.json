@@ -171,6 +171,7 @@
             "baseValue": 0.04,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -432,6 +433,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": true,
             "maximumValueStat": "MaxPhysicalResistance"
@@ -521,6 +523,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.75
@@ -609,7 +612,11 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false
+            "willClamp": true,
+            "useStatForMinimumValue": true,
+            "minimumValueStat": "MinimumMovementSpeed",
+            "useStatForMaximumValue": false,
+            "maximumValue": 100000.0
         },
         {
             "name": "AttackSpeed",
@@ -695,7 +702,11 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false
+            "willClamp": true,
+            "useStatForMinimumValue": true,
+            "minimumValueStat": "MinimumAttackSpeed",
+            "useStatForMaximumValue": false,
+            "maximumValue": 10000000.0
         },
         {
             "name": "CooldownSpeed",
@@ -2244,6 +2255,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": true,
             "maximumValueStat": "MaxFireResistance"
@@ -2333,6 +2345,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": true,
             "maximumValueStat": "MaxLightningResistance"
@@ -2422,6 +2435,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": true,
             "maximumValueStat": "MaxPlagueResistance"
@@ -3113,6 +3127,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -3202,6 +3217,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -3291,6 +3307,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -5014,6 +5031,7 @@
             "baseValue": 3.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -5103,6 +5121,7 @@
             "baseValue": 6.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -5192,6 +5211,7 @@
             "baseValue": 2.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -5281,6 +5301,7 @@
             "baseValue": 4.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -5370,6 +5391,7 @@
             "baseValue": 5.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -5459,6 +5481,7 @@
             "baseValue": 1.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -5892,6 +5915,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 100.0
@@ -5981,6 +6005,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 100.0
@@ -6242,6 +6267,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -6331,6 +6357,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.75
@@ -6506,6 +6533,7 @@
             "baseValue": 0.0,
             "isPlayerStat": true,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -6595,6 +6623,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.75
@@ -6684,6 +6713,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.95
@@ -6773,6 +6803,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.95
@@ -6862,6 +6893,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.75
@@ -7553,6 +7585,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -7642,6 +7675,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -7731,6 +7765,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -7820,6 +7855,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1.0
@@ -8253,6 +8289,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8342,6 +8379,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8431,6 +8469,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8520,6 +8559,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8609,6 +8649,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8698,6 +8739,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8787,6 +8829,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8876,6 +8919,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -8965,6 +9009,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -9054,6 +9099,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -9143,6 +9189,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -9232,6 +9279,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -9579,6 +9627,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.75
@@ -9668,6 +9717,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.75
@@ -9757,6 +9807,7 @@
             "baseValue": 0.75,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.9
@@ -9846,6 +9897,7 @@
             "baseValue": 0.75,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.9
@@ -9935,6 +9987,7 @@
             "baseValue": 0.75,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.9
@@ -10024,6 +10077,7 @@
             "baseValue": 0.75,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 0.9
@@ -10113,6 +10167,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10202,6 +10257,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10291,6 +10347,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10380,6 +10437,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10469,6 +10527,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10558,6 +10617,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10647,6 +10707,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10736,6 +10797,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10825,6 +10887,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -10914,6 +10977,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -11003,6 +11067,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -11092,6 +11157,7 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
             "maximumValue": 1000.0
@@ -11180,6 +11246,178 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": true,
+            "willClamp": false
+        },
+        {
+            "name": "MinimumAttackSpeed",
+            "id": 130,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": -10000.0,
+            "isPlayerStat": false,
+            "willClamp": false
+        },
+        {
+            "name": "MinimumMovementSpeed",
+            "id": 131,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": -10000.0,
+            "isPlayerStat": false,
             "willClamp": false
         }
     ]
