@@ -88,6 +88,7 @@
             "name": "Tool of Enhancement",
             "id": 1,
             "type": "UpgradeRarityCurrencyDefinition",
+            "rarityToUpgrade": "Magic",
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
@@ -212,6 +213,7 @@
             "name": "Greater Tool of Enhancement",
             "id": 2,
             "type": "UpgradeRarityCurrencyDefinition",
+            "rarityToUpgrade": "Rare",
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
@@ -460,6 +462,12 @@
             "name": "Imbued Tool of Fury",
             "id": 4,
             "type": "ImbueAffixCurrencyDefinition",
+            "implicitAffixCategory": "FuryImbued",
+            "sharedAffixSlot": [
+                "FuryImbued",
+                "FaithImbued",
+                "DisciplineImbued"
+            ],
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
@@ -584,6 +592,12 @@
             "name": "Imbued Tool of Faith",
             "id": 5,
             "type": "ImbueAffixCurrencyDefinition",
+            "implicitAffixCategory": "FaithImbued",
+            "sharedAffixSlot": [
+                "FuryImbued",
+                "FaithImbued",
+                "DisciplineImbued"
+            ],
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
@@ -708,6 +722,12 @@
             "name": "Imbued Tool of Discipline",
             "id": 6,
             "type": "ImbueAffixCurrencyDefinition",
+            "implicitAffixCategory": "DisciplineImbued",
+            "sharedAffixSlot": [
+                "FuryImbued",
+                "FaithImbued",
+                "DisciplineImbued"
+            ],
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
@@ -832,6 +852,64 @@
             "name": "Corrupted Tool",
             "id": 7,
             "type": "CorruptionCurrencyDefinition",
+            "outcomeChances": [
+                {
+                    "weight": 1.0,
+                    "value": "Nothing"
+                },
+                {
+                    "weight": 1.0,
+                    "value": "RedrawAffixes"
+                },
+                {
+                    "weight": 1.0,
+                    "value": "CorruptionImplicit"
+                },
+                {
+                    "weight": 1.0,
+                    "value": "IncreaseAffixRolls"
+                }
+            ],
+            "redrawAmountChances": [
+                {
+                    "weight": 10.0,
+                    "value": 1
+                },
+                {
+                    "weight": 5.0,
+                    "value": 2
+                },
+                {
+                    "weight": 1.0,
+                    "value": 3
+                },
+                {
+                    "weight": 0.1,
+                    "value": 4
+                }
+            ],
+            "improveAmountChances": [
+                {
+                    "weight": 10.0,
+                    "value": 1
+                },
+                {
+                    "weight": 5.0,
+                    "value": 2
+                },
+                {
+                    "weight": 1.0,
+                    "value": 3
+                },
+                {
+                    "weight": 0.1,
+                    "value": 4
+                }
+            ],
+            "rollIncrementRange": [
+                0.15,
+                0.3
+            ],
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
@@ -956,6 +1034,10 @@
             "name": "Divine Tool",
             "id": 8,
             "type": "ImproveAffixRollsCurrencyDefinition",
+            "rollIncrementRange": [
+                0.15,
+                0.3
+            ],
             "nameLocalizationKey": [
                 {
                     "langCode": "de",

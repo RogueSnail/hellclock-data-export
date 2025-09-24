@@ -8045,7 +8045,7 @@
             ],
             "intrinsicAffixes": [
                 {
-                    "name": "All Bullet Skills - Silver Bullet - Conviction Damage Bonus Affix",
+                    "name": "All Bullet Skills - Silver Bullets - Conviction Damage Bonus Affix",
                     "id": 98,
                     "type": "SkillBehaviorAffixDefinition"
                 }

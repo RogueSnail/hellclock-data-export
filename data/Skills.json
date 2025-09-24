@@ -3557,7 +3557,9 @@
             "name": "FeitorsLashSkillDefinition",
             "id": 72,
             "type": "SlashSkillDefinition",
-            "slashAreaAngle": 120.0,
+            "slashAreaAngle": 130.0,
+            "slashAreaAngleVisualOffset": -20.0,
+            "slashAreaRangeVisualOffset": -2.0,
             "slashDuration": 0.2,
             "manaCost": 90.0,
             "useNegativeMana": false,
@@ -6556,39 +6558,39 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beschwöre ein stationäres Phantomgewehr, das auf die Gegner feuert, die am nächsten sind.\n\nEs können max. 2 Gewehre auf einmal aktiv sein."
+                    "langTranslation": "Beschwöre ein stationäres Phantomgewehr, das auf die nächstgelegenen Gegner feuert.\n\nEs können maximal 2 Gewehre gleichzeitig aktiv sein.\n\nDer Schaden der Schüsse wird mit allen Boni auf Projektilanzahl multipliziert."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Summon a stationary phantom rifle that shoots at the nearest enemies.\n\nA maximum of 2 rifles can be active at once."
+                    "langTranslation": "Summon a stationary phantom rifle that shoots at the nearest enemies.\n\nA maximum of 2 rifles can be active at once.\n\nShot damage is multiplied by any bonuses to Projectile Amount."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Invoca un rifle fantasma fijo que dispara a los enemigos cercanos.\n\nComo máximo, puedes activar 2 rifles en simultáneo."
+                    "langTranslation": "Invoca un rifle fantasma fijo que dispara a los enemigos cercanos.\n\nComo máximo, puedes activar 2 rifles en simultáneo.\n\nEl daño de los disparos se multiplica por cualquier bonificación a la Cantidad de Proyectiles."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Invoque un tireur fantôme statique qui tire sur les ennemis les plus proches.\n\nVous pouvez avoir un maximum de 2 tireurs actifs à la fois."
+                    "langTranslation": "Invoque un fusil fantôme statique qui tire sur les ennemis les plus proches.\n\nVous pouvez avoir un maximum de 2 fusils actifs à la fois.\n\nLes dégâts des tirs sont multipliés par tous les bonus au Nombre de projectiles."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "その場に留まり、最も近い敵に射撃する幻影のライフルを召喚する。\n\n同時に最大2個までのライフルを起動できる。"
+                    "langTranslation": "その場に留まり、最も近い敵に射撃する幻影のライフルを召喚する。\n\n同時に最大2個までのライフルを起動できる。\n\n射撃ダメージは「投射物数」へのボーナスによって倍率がかかる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przywołuje stacjonarny karabin-widmo, który strzela do najbliższych wrogów.\n\nAktywne mogą być jednocześnie maksymalnie 2 karabiny."
+                    "langTranslation": "Przywołuje stacjonarny karabin-widmo, który strzela do najbliższych wrogów.\n\nAktywne mogą być jednocześnie maksymalnie 2 karabiny.\n\nObrażenia z wystrzałów są mnożone przez wszystkie premie do Liczby Pocisków."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Invoca um rifle fantasma estacionário que atira nos inimigos mais próximos.\n\nNo máximo 2 rifles podem estar ativos ao mesmo tempo."
+                    "langTranslation": "Invoca um rifle fantasma estacionário que atira nos inimigos mais próximos.\n\nNo máximo 2 rifles podem estar ativos ao mesmo tempo.\n\nO dano dos disparos é multiplicado por quaisquer bônus de Quantidade de Projéteis."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вам на помощь приходит стрелок, который стоит на месте и ведет огонь по ближайшим врагам.\n\nОдновременно можно призвать не более 2 стрелков."
+                    "langTranslation": "Призывает стационарное фантомное ружьё, которое стреляет по ближайшим врагам.\n\nОдновременно может быть активно не более 2 ружей.\n\nУрон выстрелов умножается на все бонусы к количеству снарядов."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "召唤一把定点幻影步枪，自动射击最近的敌人。\n\n最多可同时激活 2 把步枪。"
+                    "langTranslation": "召唤一把定点幻影步枪，自动射击最近的敌人。\n\n最多可同时激活 2 把步枪。\n\n射击伤害会根据所有【投射物数量】加成进行倍增。"
                 }
             ],
             "icon": "IconSkill_PhantomMarksmen",
@@ -6746,7 +6748,16 @@
                 }
             ],
             "skillDamageStatModifiers": {},
-            "skillValueModifierConfigs": [],
+            "skillValueModifierConfigs": [
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Damage Modifier",
+                    "multiplicativeStats": [
+                        "SkillProjectileAmount"
+                    ],
+                    "additiveStats": []
+                }
+            ],
             "cooldown": 1.5,
             "minCooldown": 0.3,
             "useAttackSpeed": false,

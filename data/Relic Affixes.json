@@ -4894,7 +4894,7 @@
             "name": "The Old Bell - The Sacrificed - Life Cost to Damage Affix",
             "id": 88,
             "type": "SkillBehaviorAffixDefinition",
-            "rollVariableName": "Damage Conversion",
+            "rollVariableName": "Roll",
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
@@ -4919,6 +4919,13 @@
                         {
                             "type": "SkillEffectVariable",
                             "name": "Damage Conversion",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Rounded"
@@ -5218,7 +5225,7 @@
             "name": "The Old Bell - Unshakable Faith - Mana to Damage Affix",
             "id": 90,
             "type": "SkillBehaviorAffixDefinition",
-            "rollVariableName": "Conversion Rate",
+            "rollVariableName": "Roll",
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
@@ -5235,10 +5242,17 @@
                     "variables": [
                         {
                             "type": "SkillEffectVariable",
-                            "name": "Conversion Rate",
+                            "name": "Roll",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Rounded"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Conversion Rate",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
                 }
@@ -6310,10 +6324,10 @@
             ]
         },
         {
-            "name": "All Bullet Skills - Silver Bullet - Conviction Damage Bonus Affix",
+            "name": "All Bullet Skills - Silver Bullets - Conviction Damage Bonus Affix",
             "id": 98,
             "type": "SkillBehaviorAffixDefinition",
-            "rollVariableName": "Damage Conversion",
+            "rollVariableName": "Roll",
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": true,
@@ -6333,9 +6347,9 @@
                         },
                         {
                             "type": "SkillEffectVariable",
-                            "name": "Damage Conversion",
+                            "name": "Roll",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Rounded"
                         },
                         {
@@ -9462,7 +9476,11 @@
                 }
             ],
             "eAffixRarity": "Special",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": [
+                "Small",
+                "Exalted",
+                "Grand"
+            ],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -11308,39 +11326,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Die Alte Glocke beschwört für 8 Sek. 1 Geister der katholischen Garde von Canudos. Die Grundabklingzeit wird um 3 Sekunden erhöht."
+                    "langTranslation": "Die Alte Glocke beschwört für 8 Sek. 1 Geister der katholischen Garde von Canudos (max. 4). Die Grundabklingzeit wird um 1 Sekunde erhöht."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "The Old Bell spawns 1 Spirits of the Canudos Catholic Guard for 8s. Base Cooldown is increased by 3 seconds."
+                    "langTranslation": "The Old Bell spawns 1 Spirits of the Canudos Catholic Guard for 8s (max 4). Base Cooldown is increased by 1 seconds."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "La Campana Antigua invoca 1 espíritus de la Guardia Católica de Canudos durante 8 s. El enfriamiento base se incrementa en 3 segundos."
+                    "langTranslation": "La Campana Antigua invoca 1 espíritus de la Guardia Católica de Canudos durante 8 s (máx. 4). El enfriamiento base se incrementa en 1 segundo."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "La Vieille Cloche invoque 1 esprits de la Garde catholique de Canudos pendant 8 s. Le temps de recharge de base est augmenté de 3 secondes."
+                    "langTranslation": "La Vieille Cloche invoque 1 esprits de la Garde catholique de Canudos pendant 8 s (max. 4). Le temps de recharge de base est augmenté de 1 seconde."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "古き鐘は1体のカヌードスカトリック衛兵の霊体を8秒間、出現させる。基本クールダウンが3秒増加する。"
+                    "langTranslation": "古き鐘は1体のカヌードスカトリック衛兵の霊体を8秒間出現させる（最大4体）。基本クールダウンが1秒増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przez 8 s Stary Dzwon przywołuje duchy Guarda Católica z Canudos (1). Bazowy czas odnowienia zostaje wydłużony o 3 sekundy."
+                    "langTranslation": "Przez 8 s Stary Dzwon przywołuje duchy Guarda Católica z Canudos (1, maks. 4). Bazowy czas odnowienia zostaje wydłużony o 1 sekundę."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "O Velho Sino invoca 1 Espíritos da Guarda Católica de Canudos por 8s. Tempo de Recarga Base é aumentado em 3 segundos."
+                    "langTranslation": "O Velho Sino invoca 1 Espíritos da Guarda Católica de Canudos por 8s (máx. 4). Tempo de Recarga Base é aumentado em 1 segundo."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Старый колокол призывает духов католической стражи Канудуса (1 шт.) на 8 сек. Базовое время перезарядки увеличено на 3 секунды."
+                    "langTranslation": "Старый колокол призывает духов католической стражи Канудуса (1 шт.) на 8 сек. (макс. 4). Базовое время перезарядки увеличено на 1 секунду."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "古钟生成 1 名卡努杜斯天主教卫队英灵，持续 8 秒。基础冷却时间增加了3秒。"
+                    "langTranslation": "古钟生成 1 名卡努杜斯天主教卫队英灵，持续 8 秒（最多 4 个）。基础冷却时间增加 1 秒。"
                 }
             ]
         },
@@ -12140,6 +12158,13 @@
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Rounded"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Conversion",
+                            "baseValue": 0.06,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
                 }
@@ -35171,6 +35196,149 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": "分裂射击的法力消耗减少 25%[x]"
+                }
+            ]
+        },
+        {
+            "name": "Stat - Rare - Anti-Magic and Life Reduction Affix",
+            "id": 304,
+            "type": "StatModifierAffixDefinition",
+            "eStatDefinition": "AntiMagic",
+            "statModifierType": "Additive",
+            "applyRollToAdditionalStatModifiers": false,
+            "additionalStatModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Life",
+                    "modifierType": "Multiplicative",
+                    "value": 0.82
+                }
+            ],
+            "customIcon": "",
+            "tierRollRanges": [
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 1,
+                    "rollRange": [
+                        0.14,
+                        0.16
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 2,
+                    "rollRange": [
+                        0.16,
+                        0.18
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 3,
+                    "rollRange": [
+                        0.18,
+                        0.2
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 4,
+                    "rollRange": [
+                        0.2,
+                        0.22
+                    ]
+                }
+            ],
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Abwehr"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Warding"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Protección"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Protection"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "守護"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Ochrona"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fechada"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Защита"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "守卫"
+                }
+            ],
+            "eAffixRarity": "Special",
+            "blockCraftOnRelicSizes": [
+                "Small",
+                "Exalted",
+                "Grand"
+            ],
+            "incompatibleBlessings": [],
+            "modifierType": "Additive",
+            "upgradeModifierOverride": {
+                "0": 0.0,
+                "1": 0.015,
+                "2": 0.03,
+                "3": 0.045,
+                "4": 0.06,
+                "5": 0.075
+            },
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style> Antimagie\r\n<style=\"TooltipValue\">‑18%[x]</style> Leben.\r."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style> Anti-Magic\r\n<style=\"TooltipValue\">‑18%[x]</style> Life\r"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style> Antimagia\r\n<style=\"TooltipValue\">‑18%[x]</style> Vida\r"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style> Anti-magie\r\n<style=\"TooltipValue\">‑18%[x]</style> Vie\r"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style>反魔法\r\n<style=\"TooltipValue\">‑18%[x]</style> 生命\r"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style> Antymagia\r\n<style=\"TooltipValue\">‑18%[x]</style> Życie\r"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style> Anti-Magia\r\n<style=\"TooltipValue\">‑18%[x]</style> Vida\r"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Защита от магии\r\nЗдоровье <style=\"TooltipValue\">‑18%[x]</style>\r <style=\"TooltipValue\">+22%</style>"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "<style=\"TooltipValue\">+22%</style> 反魔法\r\n<style=\"TooltipValue\">‑18%[x]</style> 生命\r"
                 }
             ]
         }

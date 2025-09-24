@@ -16190,7 +16190,7 @@
                     "langTranslation": "体质之恩泽 IV"
                 }
             ],
-            "icon": "",
+            "icon": "Icon_Life_Base",
             "effectTypeIcon": "Icon_Life_Base",
             "description": [
                 {
@@ -16349,8 +16349,15 @@
                             "type": "SkillEffectVariable",
                             "name": "Roll",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Rounded"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Conversion",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
                 }
@@ -18340,8 +18347,15 @@
                             "type": "SkillEffectVariable",
                             "name": "Roll",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Rounded"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Conversion",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
                 }

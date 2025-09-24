@@ -1,0 +1,222 @@
+{
+    "name": "AilmentConfig",
+    "type": "AilmentConfig",
+    "ailmentData": [
+        {
+            "type": "AilmentData",
+            "ailmentName": "Bleed",
+            "supportedDamageTypes": [
+                "PHYSICAL"
+            ],
+            "eAilmentApplicationLogic": "DamageSeverity",
+            "ailmentApplicationStat": "ChanceToApplyBleed",
+            "ailmentChanceFactor": 30.0,
+            "minimumAilmentChanceFromStat": 0.1,
+            "ailmentStatusDefinition": {
+                "name": "BleedingStatusDefinition",
+                "id": 38,
+                "type": "BleedingDamageOverTimeStatusDefinition"
+            },
+            "ailmentBuildupStatusDefinition": {},
+            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatusDuration": 0.0,
+            "ailmentStatusDurationStat": "BleedDuration",
+            "noAilmentDurationModifierStat": true,
+            "ailmentStatusDurationModifierStat": "BaseDamage",
+            "noAilmentBaseStat": false,
+            "ailmentBaseStat": "BleedDamage",
+            "eAilmentDamageSource": "Default",
+            "toggleToBypassNonCritical": "None",
+            "useDamageSourceForStatusBase": false,
+            "hasSpecificAilmentResistanceStat": false,
+            "specificAilmentResistanceStat": "BaseDamage",
+            "ailmentStatusReactions": []
+        },
+        {
+            "type": "AilmentData",
+            "ailmentName": "Ignite",
+            "supportedDamageTypes": [
+                "FIRE"
+            ],
+            "eAilmentApplicationLogic": "ChanceBased",
+            "ailmentApplicationStat": "ChanceToApplyIgnite",
+            "ailmentChanceFactor": 0.0,
+            "minimumAilmentChanceFromStat": 0.0,
+            "ailmentStatusDefinition": {
+                "name": "IgnitedStatusDefinition",
+                "id": 37,
+                "type": "DamageOverTimeStatusDefinition"
+            },
+            "ailmentBuildupStatusDefinition": {},
+            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatusDuration": 0.0,
+            "ailmentStatusDurationStat": "IgniteDuration",
+            "noAilmentDurationModifierStat": false,
+            "ailmentStatusDurationModifierStat": "ElementalAilmentDuration",
+            "noAilmentBaseStat": false,
+            "ailmentBaseStat": "IgniteDamage",
+            "eAilmentDamageSource": "NonCritical",
+            "toggleToBypassNonCritical": "UseCriticalDamageOnIgnite",
+            "useDamageSourceForStatusBase": true,
+            "hasSpecificAilmentResistanceStat": false,
+            "specificAilmentResistanceStat": "BaseDamage",
+            "ailmentStatusReactions": [
+                {
+                    "type": "AilmentStatusReaction",
+                    "baseStatusDefinition": {
+                        "name": "OiledStatusDefinition",
+                        "id": 47,
+                        "type": "StatModifierStatusDefinition"
+                    },
+                    "ailmentIntensityMultiplier": 1.0,
+                    "ailmentDurationMultiplier": 1.0
+                }
+            ]
+        },
+        {
+            "type": "AilmentData",
+            "ailmentName": "Shock",
+            "supportedDamageTypes": [
+                "LIGHTNING"
+            ],
+            "eAilmentApplicationLogic": "AlwaysApply",
+            "ailmentApplicationStat": "ChanceToApplyIgnite",
+            "ailmentChanceFactor": 0.0,
+            "minimumAilmentChanceFromStat": 0.0,
+            "ailmentStatusDefinition": {
+                "name": "ShockedStatusDefinition",
+                "id": 39,
+                "type": "StatModifierStatusDefinition"
+            },
+            "ailmentBuildupStatusDefinition": {},
+            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatusDuration": 0.0,
+            "ailmentStatusDurationStat": "ShockDuration",
+            "noAilmentDurationModifierStat": false,
+            "ailmentStatusDurationModifierStat": "ElementalAilmentDuration",
+            "noAilmentBaseStat": false,
+            "ailmentBaseStat": "ShockIntensity",
+            "eAilmentDamageSource": "Default",
+            "toggleToBypassNonCritical": "None",
+            "useDamageSourceForStatusBase": false,
+            "hasSpecificAilmentResistanceStat": false,
+            "specificAilmentResistanceStat": "BaseDamage",
+            "ailmentStatusReactions": []
+        },
+        {
+            "type": "AilmentData",
+            "ailmentName": "Blight",
+            "supportedDamageTypes": [
+                "PLAGUE"
+            ],
+            "eAilmentApplicationLogic": "AlwaysApply",
+            "ailmentApplicationStat": "ChanceToApplyIgnite",
+            "ailmentChanceFactor": 0.0,
+            "minimumAilmentChanceFromStat": 0.0,
+            "ailmentStatusDefinition": {
+                "name": "BlightedStatusDefinition",
+                "id": 40,
+                "type": "StatModifierStatusDefinition"
+            },
+            "ailmentBuildupStatusDefinition": {},
+            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatusDuration": 0.0,
+            "ailmentStatusDurationStat": "BlightDuration",
+            "noAilmentDurationModifierStat": false,
+            "ailmentStatusDurationModifierStat": "ElementalAilmentDuration",
+            "noAilmentBaseStat": false,
+            "ailmentBaseStat": "BlightIntensity",
+            "eAilmentDamageSource": "Default",
+            "toggleToBypassNonCritical": "None",
+            "useDamageSourceForStatusBase": false,
+            "hasSpecificAilmentResistanceStat": false,
+            "specificAilmentResistanceStat": "BaseDamage",
+            "ailmentStatusReactions": []
+        },
+        {
+            "type": "AilmentData",
+            "ailmentName": "Wither",
+            "supportedDamageTypes": [
+                "PLAGUE"
+            ],
+            "eAilmentApplicationLogic": "Buildup",
+            "ailmentApplicationStat": "WitherBuildupRate",
+            "ailmentChanceFactor": 2.5,
+            "minimumAilmentChanceFromStat": 0.0,
+            "ailmentStatusDefinition": {
+                "name": "WitherStatusDefinition",
+                "id": 83,
+                "type": "FreezeStatusDefinition"
+            },
+            "ailmentBuildupStatusDefinition": {
+                "name": "WitherBuildupStatusDefinition",
+                "id": 172,
+                "type": "BuildupStatusDefinition"
+            },
+            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatusDuration": 0.0,
+            "ailmentStatusDurationStat": "WitherDuration",
+            "noAilmentDurationModifierStat": false,
+            "ailmentStatusDurationModifierStat": "ElementalAilmentDuration",
+            "noAilmentBaseStat": true,
+            "ailmentBaseStat": "WitherDuration",
+            "eAilmentDamageSource": "Default",
+            "toggleToBypassNonCritical": "None",
+            "useDamageSourceForStatusBase": false,
+            "hasSpecificAilmentResistanceStat": true,
+            "specificAilmentResistanceStat": "WitherResistance",
+            "ailmentStatusReactions": []
+        },
+        {
+            "type": "AilmentData",
+            "ailmentName": "Stun",
+            "supportedDamageTypes": [
+                "PHYSICAL",
+                "FIRE",
+                "PLAGUE",
+                "LIGHTNING"
+            ],
+            "eAilmentApplicationLogic": "Buildup",
+            "ailmentApplicationStat": "StunBuildupRate",
+            "ailmentChanceFactor": 2.5,
+            "minimumAilmentChanceFromStat": 0.0,
+            "ailmentStatusDefinition": {
+                "name": "StunStatusDefinition",
+                "id": 41,
+                "type": "StunStatusDefinition"
+            },
+            "ailmentBuildupStatusDefinition": {
+                "name": "StunBuildupStatusDefinition",
+                "id": 173,
+                "type": "BuildupStatusDefinition"
+            },
+            "ailmentResistanceStatusDefinition": {
+                "name": "Stun Resistance - Status Definition",
+                "id": 109,
+                "type": "StatModifierStatusDefinition"
+            },
+            "ailmentResistanceStatusDuration": 5.0,
+            "ailmentStatusDurationStat": "StunDuration",
+            "noAilmentDurationModifierStat": true,
+            "ailmentStatusDurationModifierStat": "BaseDamage",
+            "noAilmentBaseStat": true,
+            "ailmentBaseStat": "StunDuration",
+            "eAilmentDamageSource": "Default",
+            "toggleToBypassNonCritical": "None",
+            "useDamageSourceForStatusBase": false,
+            "hasSpecificAilmentResistanceStat": true,
+            "specificAilmentResistanceStat": "StunResistance",
+            "ailmentStatusReactions": []
+        }
+    ],
+    "enemyAilmentApplicationChanceMultiplier": {
+        "Regular": 1.2,
+        "Rare": 5.25,
+        "Champion": 3.0,
+        "Boss": 7.5,
+        "Breakable": 0.0,
+        "Minion": 1.2,
+        "Unique": 3.5
+    },
+    "playerAilmentApplicationChanceMultiplier": 1.0
+}

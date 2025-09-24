@@ -2915,39 +2915,39 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Chance, den Seuchen-Zustand zu verursachen, wenn Seuchenschaden zugefügt wird.\nVon Seuche befallene Monster haben um 20 % verringerte Bewegungs- und Angriffsgeschwindigkeit."
+                    "langTranslation": "Chance, den Seuchen-Zustand zu verursachen, wenn Seuchenschaden zugefügt wird."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Chance to cause the Blighted ailment when dealing Plague damage.\nBlighted monsters have their movement and attack speeds reduced by 20%."
+                    "langTranslation": "Chance to cause the Blighted ailment when dealing Plague damage.\nBlighted monsters have their movement speed reduced by 20% and attack speed reduced by 8%."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de causar el estado de Plaga al infligir daño de Peste.\nLos monstruos plagados tienen su velocidad de movimiento y de ataque reducida en un 20%."
+                    "langTranslation": "Probabilidad de causar el estado de Plaga al infligir daño de Peste."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chance d’infliger l’altération « Fléau » lors de dégâts de Peste.\nLes monstres affectés par le Fléau voient leur vitesse de déplacement et d’attaque réduite de 20 %."
+                    "langTranslation": "Chance d’infliger l’altération « Fléau » lors de dégâts de Peste."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "疫病ダメージを与えた際、荒廃状態を付与する可能性がある。\n荒廃状態のモンスターは移動速度と攻撃速度が20%低下する。"
+                    "langTranslation": "疫病ダメージを与えた際、荒廃状態を付与する可能性がある。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na wywołanie efektu Zgnilizny przy zadawaniu obrażeń od Zarazy.\nPotwory dotknięte Zgnilizną mają prędkość ruchu i ataku zmniejszoną o 20%."
+                    "langTranslation": "Szansa na wywołanie efektu Zgnilizny przy zadawaniu obrażeń od Zarazy."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Chance de causar a Condição de Contaminação ao causar Dano Tóxico.\nMonstros Contaminados têm sua velocidade de ataque e movimento reduzidas em 20%."
+                    "langTranslation": "Chance de causar a Condição de Contaminação ao causar Dano Tóxico."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Шанс наложить состояние Гниль при нанесении урона Чумой.\nПоражённые Гнилью монстры имеют скорость передвижения и атаки снижены на 20%."
+                    "langTranslation": "Шанс наложить состояние Гниль при нанесении урона Чумой."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "造成瘟疫伤害时有几率使敌人感染枯疫。\n感染枯疫的怪物移动速度和攻击速度降低20%。"
+                    "langTranslation": "造成瘟疫伤害时有几率使敌人感染枯疫。"
                 }
             ],
             "icon": "",
@@ -3873,7 +3873,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
+                    "langTranslation": "Von Seuche befallene Monster haben um 20 % verringerte Bewegungsgeschwindigkeit und um 8 % verringerte Angriffsgeschwindigkeit."
                 },
                 {
                     "langCode": "en",
@@ -3881,31 +3881,31 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
+                    "langTranslation": "Los monstruos plagados tienen su velocidad de movimiento reducida en un 20% y su velocidad de ataque reducida en un 8%."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
+                    "langTranslation": "Les monstres affectés par le Fléau voient leur vitesse de déplacement réduite de 20 % et leur vitesse d’attaque réduite de 8 %."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
+                    "langTranslation": "荒廃状態のモンスターは移動速度が20%低下し、攻撃速度が8%低下する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
+                    "langTranslation": "Potwory dotknięte Zgnilizną mają prędkość ruchu zmniejszoną o 20% oraz prędkość ataku zmniejszoną o 8%."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Aumenta o valor máximo de Convicção que você pode ter ao mesmo tempo.\nO valor base de Convicção Máx. é igual a 100% de sua Energia Máxima."
+                    "langTranslation": "Monstros Contaminados têm sua velocidade de movimento reduzida em 20% e a velocidade de ataque reduzida em 8%."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
+                    "langTranslation": "Поражённые Гнилью монстры имеют скорость передвижения снижена на 20%, а скорость атаки снижена на 8%."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
+                    "langTranslation": "感染枯疫的怪物移动速度降低20%，攻击速度降低8%。"
                 }
             ],
             "icon": "",
@@ -6176,7 +6176,7 @@
                     "langTranslation": "对所有流血造成的伤害应用的乘算加成。\n基础流血伤害按基础伤害的固定比例计算，不受施加伤害的技能本身影响。\n流血可以无限叠加。"
                 }
             ],
-            "icon": "",
+            "icon": "IconStatus_Bleeding_white",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,

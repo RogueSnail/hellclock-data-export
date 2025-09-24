@@ -2402,39 +2402,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Das Erschöpfen deines Manas verbraucht all deine Stapel Lebenskraft und gewährt dir einen Buff, der +30 % Angriff-/Wirkungstempo verleiht und alle Manakosten auf null setzt. Dieser Buff dauert für jeden verbrauchten Stapel Lebenskraft 4 Sek. lang an."
+                                        "langTranslation": "Das Erschöpfen deines Manas verbraucht all deine Stapel Lebenskraft und gewährt dir einen Buff, der +30 %[x] Angriff-/Wirkungstempo verleiht und alle Manakosten auf null setzt. Dieser Buff dauert für jeden verbrauchten Stapel Lebenskraft 4 Sek. lang an."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Depleting your Mana spends all of your Vigor stacks and grants you a buff that provides +30% attack/cast speed and reduces all Mana costs to zero. This buff lasts 4s for each Vigor stack spent"
+                                        "langTranslation": "Depleting your Mana spends all of your Vigor stacks and grants you a buff that provides +30%[x] attack/cast speed and reduces all Mana costs to zero. This buff lasts 4s for each Vigor stack spent"
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Agotar el maná gasta todas las acumulaciones de Vigor y te otorga un potenciamiento que brinda +30 % de velocidad de ataque/invocación y reduce a cero todos los costos de maná. El potenciamiento dura 4 s por cada acumulación de Vigor gastada."
+                                        "langTranslation": "Agotar el maná gasta todas las acumulaciones de Vigor y te otorga un potenciamiento que brinda +30 %[x] de velocidad de ataque/invocación y reduce a cero todos los costos de maná. El potenciamiento dura 4 s por cada acumulación de Vigor gastada."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque votre ferveur est vide, tous vos cumuls de Vigueur sont utilisés et convertis en un bonus qui vous accorde +30% de vitesse d'attaque et de lancement, et réduit les coûts de ferveur à zéro. Durée : 4 s par cumul utilisé."
+                                        "langTranslation": "Lorsque votre ferveur est vide, tous vos cumuls de Vigueur sont utilisés et convertis en un bonus qui vous accorde +30%[x] de vitesse d'attaque et de lancement, et réduit les coûts de ferveur à zéro. Durée : 4 s par cumul utilisé."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "マナを使い果たすと、活力効果をすべて消費して、自身に攻撃速度/詠唱速度+30%とあらゆるマナコスト0のボーナスを得る。このボーナスは消費された活力効果の累積1個につき4秒間続く。"
+                                        "langTranslation": "マナを使い果たすと、活力効果をすべて消費して、自身に攻撃速度/詠唱速度+30%[x]とあらゆるマナコスト0のボーナスを得る。このボーナスは消費された活力効果の累積1個につき4秒間続く。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zużycie całej many pochłania wszystkie ładunki Wigoru i zapewnia wzmocnienie: +30% szybkości ataku/rzucania zaklęć oraz zerowy koszt many. Efekt trwa 4 s za każdy wydany ładunek Wigoru."
+                                        "langTranslation": "Zużycie całej many pochłania wszystkie ładunki Wigoru i zapewnia wzmocnienie: +30%[x] szybkości ataku/rzucania zaklęć oraz zerowy koszt many. Efekt trwa 4 s za każdy wydany ładunek Wigoru."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Esgotar sua Energia gasta todas as suas reservas de Vigor e concede um bônus que fornece +30% de velocidade de ataque/conjuração e reduz todos os custos de Energia a zero. Este bônus dura 4s para cada reserva de Vigor gasta."
+                                        "langTranslation": "Esgotar sua Energia gasta todas as suas reservas de Vigor e concede um bônus que fornece +30%[x] de velocidade de ataque/conjuração e reduz todos os custos de Energia a zero. Este bônus dura 4s para cada reserva de Vigor gasta."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Когда у вас заканчивается мана, вы расходуете все заряды рвения и получаете усиление, которое на 30% увеличивает скорость атаки и колдовства, а также снижает весь расход маны до 0. Усиление действует 4 сек. за каждый потраченный заряд рвения."
+                                        "langTranslation": "Когда у вас заканчивается мана, вы расходуете все заряды рвения и получаете усиление, которое на 30%[x] увеличивает скорость атаки и колдовства, а также снижает весь расход маны до 0. Усиление действует 4 сек. за каждый потраченный заряд рвения."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "法力值耗尽时会消耗全部魄力层数，并获得增益，使攻击与技能施展速度 +30%，且所有技能不再消耗法力。每消耗 1 层魄力，此增益持续 4 秒"
+                                        "langTranslation": "法力值耗尽时会消耗全部魄力层数，并获得增益，使攻击与技能施展速度 +30%[x]，且所有技能不再消耗法力。每消耗 1 层魄力，此增益持续 4 秒"
                                     }
                                 ]
                             }
