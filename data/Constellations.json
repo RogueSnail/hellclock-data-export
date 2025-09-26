@@ -8,7 +8,7 @@
                 "name": "Tres Marias - Constellation Definition",
                 "id": 1,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [],
                 "masteredDevotionGranted": {},
                 "nameKey": [
                     {
@@ -514,7 +514,15 @@
                 "name": "Santo Expedito - Constellation Definition",
                 "id": 2,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "1",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 1
@@ -1369,7 +1377,15 @@
                 "name": "Tupa - Constellation Definition",
                 "id": 3,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "1",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 3,
                     "Green": 1
@@ -2364,7 +2380,15 @@
                 "name": "Ogum - Constellation Definition",
                 "id": 4,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "1",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Blue": 1
@@ -3418,7 +3442,15 @@
                 "name": "Yorixiamori - Constellation Definition",
                 "id": 19,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "5",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2
                 },
@@ -4013,7 +4045,15 @@
                 "name": "Oxossi - Constellation Definition",
                 "id": 20,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Blue": 3,
@@ -5581,7 +5621,15 @@
                 "name": "Jurupari - Constellation Definition",
                 "id": 21,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Green": 1
@@ -6378,7 +6426,15 @@
                 "name": "Guaraci - Constellation Definition",
                 "id": 23,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 4,
                     "Blue": 3,
@@ -7577,7 +7633,15 @@
                 "name": "Anhanga - Constellation Definition",
                 "id": 27,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Red": 2,
@@ -8528,7 +8592,22 @@
                 "name": "Oxum - Constellation Definition",
                 "id": 24,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Green": 2
@@ -9237,7 +9316,15 @@
                 "name": "Caupe - Constellation Definition",
                 "id": 25,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 1
@@ -9885,7 +9972,22 @@
                 "name": "Oxumare - Constellation Definition",
                 "id": 26,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Green": 2
@@ -10657,7 +10759,15 @@
                 "name": "WIP_Sao Joao - Constellation Definition",
                 "id": 37,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 2
                 },
@@ -11204,7 +11314,15 @@
                 "name": "Ossain - Constellation Definition",
                 "id": 54,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "6",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2,
@@ -12010,7 +12128,15 @@
                 "name": "WIP_Onile - Constellation Definition",
                 "id": 59,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Green": 1,
@@ -12791,7 +12917,15 @@
                 "name": "WIP_Logun Ede - Constellation Definition",
                 "id": 64,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Blue": 1,
@@ -13508,7 +13642,15 @@
                 "name": "WIP_Sao Pedro - Constellation Definition",
                 "id": 38,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 2
                 },
@@ -14113,7 +14255,15 @@
                 "name": "Sao Jorge - Constellation Definition",
                 "id": 36,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Blue": 1
@@ -14798,7 +14948,15 @@
                 "name": "WIP_Curupira - Constellation Definition",
                 "id": 52,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Red": 2,
@@ -15623,7 +15781,15 @@
                 "name": "WIP_Exu Caveira - Constellation Definition",
                 "id": 44,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 3,
                     "Green": 1,
@@ -16340,7 +16506,15 @@
                 "name": "WIP_Nossa Sra de Aparecida - Constellation Definition",
                 "id": 58,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Green": 2,
@@ -17056,7 +17230,15 @@
                 "name": "WIP_Orunmila",
                 "id": 45,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 3
                 },
@@ -17552,7 +17734,22 @@
                 "name": "Akuanduba - Constellation Definition",
                 "id": 30,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Red": 2
@@ -18252,7 +18449,22 @@
                 "name": "Boitata - Constellation Definition",
                 "id": 48,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Blue": 1
@@ -18746,7 +18958,22 @@
                 "name": "Caipora - Constellation Definition",
                 "id": 50,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2
@@ -19514,7 +19741,22 @@
                 "name": "WIP_Ceuci Star Mother - Constellation Definition",
                 "id": 66,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 4,
                     "Green": 3,
@@ -20609,7 +20851,15 @@
                 "name": "WIP_Exu - Constellation Definition",
                 "id": 49,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Green": 2,
@@ -21434,7 +21684,15 @@
                 "name": "WIP_Iansa - Constellation Definition",
                 "id": 41,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 2
@@ -22385,7 +22643,15 @@
                 "name": "Jaci - Constellation Definition",
                 "id": 34,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 4,
                     "Red": 3,
@@ -23543,7 +23809,15 @@
                 "name": "Iemanja - Constellation Definition",
                 "id": 31,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 4,
                     "Green": 3,
@@ -24791,7 +25065,15 @@
                 "name": "Santa Edwiges - Constellation Definition",
                 "id": 35,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 2
                 },
@@ -25442,7 +25724,22 @@
                 "name": "Iroko - Constellation Definition",
                 "id": 67,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "8",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "8",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Blue": 3
@@ -26356,7 +26653,15 @@
                 "name": "WIP_Jurupari Demon - Constellation Definition",
                 "id": 68,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Green": 2,
@@ -27014,7 +27319,22 @@
                 "name": "Nana - Constellation Definition",
                 "id": 70,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Blue": 2
@@ -27693,7 +28013,29 @@
                 "name": "WIP_Nossa Sra de Fatima - Constellation Definition",
                 "id": 63,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 1,
                     "Green": 1,
@@ -28083,7 +28425,15 @@
                 "name": "WIP_Nossa Sra Do Carmo - Constellation Definition",
                 "id": 42,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 3,
                     "Green": 2,
@@ -28691,7 +29041,15 @@
                 "name": "WIP_Oba - Constellation Definition",
                 "id": 40,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2
@@ -29235,7 +29593,22 @@
                 "name": "Omolu - Constellation Definition",
                 "id": 55,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 1,
                     "Green": 1,
@@ -30111,7 +30484,15 @@
                 "name": "WIP_Santa Ana - Constellation Definition",
                 "id": 69,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 1
                 },
@@ -30499,7 +30880,22 @@
                 "name": "Santa Rita - Constellation Definition",
                 "id": 51,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "6",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "6",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 2
@@ -31427,7 +31823,29 @@
                 "name": "Sao Longuinho - Constellation Definition",
                 "id": 33,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2,
@@ -32206,7 +32624,29 @@
                 "name": "Oxala - Constellation Definition",
                 "id": 32,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "2",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2,
@@ -33078,7 +33518,22 @@
                 "name": "Santo Antonio - Constellation Definition",
                 "id": 53,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Red": 1
@@ -33649,7 +34104,22 @@
                 "name": "Sao Cosme Damiao - Constellation Definition",
                 "id": 65,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "6",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "6",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {},
                 "nameKey": [
                     {
@@ -34483,7 +34953,15 @@
                 "name": "WIP_Sao Jose - Constellation Definition",
                 "id": 39,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Red": 4,
@@ -35418,7 +35896,15 @@
                 "name": "WIP_Sao Judas Tadeu - Constellation Definition",
                 "id": 57,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Green": 2,
@@ -36075,7 +36561,29 @@
                 "name": "WIP_Sao Paulo - Constellation Definition",
                 "id": 61,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 1,
                     "Green": 1,
@@ -36465,7 +36973,22 @@
                 "name": "WIP_Sao Sebastiao - Constellation Definition",
                 "id": 43,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Blue": 1
@@ -36962,7 +37485,15 @@
                 "name": "WIP_Sume - Constellation Definition",
                 "id": 60,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 4,
                     "Green": 2,
@@ -37888,7 +38419,22 @@
                 "name": "Xango - Constellation Definition",
                 "id": 47,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "8",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "8",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Red": 4,
                     "Blue": 3
@@ -38803,7 +39349,22 @@
                 "name": "Yaci Yatere - Constellation Definition",
                 "id": 62,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "3",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 3
@@ -39423,7 +39984,22 @@
                 "name": "WIP_Yeba Belo - Constellation Definition",
                 "id": 46,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": "HellClock.Condition.ConditionConfigList",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "99",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Blue": 2
@@ -40025,6 +40601,365 @@
             ]
         }
     ],
+    "devotionConfigs": [
+        {
+            "type": "DevotionConfig",
+            "eDevotionCategory": "Red",
+            "illustrationBaseColor": "RGBA(0.679, 0.170, 0.247, 1.000)",
+            "illustrationMasteredColor": "RGBA(0.745, 0.221, 0.302, 1.000)",
+            "nodeColor": "RGBA(0.898, 0.333, 0.369, 1.000)",
+            "investedConnectionColor": "RGBA(0.898, 0.333, 0.369, 0.502)",
+            "appliedConnectionColor": "RGBA(0.898, 0.333, 0.369, 1.000)",
+            "masteredConnectionColor": "RGBA(1.000, 0.580, 0.608, 1.000)",
+            "hideFromUI": false,
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Zorn"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Fury"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Furia"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Zèle"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "激情"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Furia"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fúria"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Ярость"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "怒火"
+                }
+            ],
+            "icon": "UI_Constellation_IconFury",
+            "iconColor": "RGBA(0.898, 0.333, 0.369, 1.000)"
+        },
+        {
+            "type": "DevotionConfig",
+            "eDevotionCategory": "Green",
+            "illustrationBaseColor": "RGBA(0.227, 0.679, 0.341, 1.000)",
+            "illustrationMasteredColor": "RGBA(0.285, 0.745, 0.401, 1.000)",
+            "nodeColor": "RGBA(0.517, 0.906, 0.684, 1.000)",
+            "investedConnectionColor": "RGBA(0.518, 0.906, 0.682, 0.502)",
+            "appliedConnectionColor": "RGBA(0.518, 0.906, 0.682, 1.000)",
+            "masteredConnectionColor": "RGBA(0.703, 1.000, 0.684, 1.000)",
+            "hideFromUI": false,
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Disziplin"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Discipline"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Disciplina"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Discipline"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "規律"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Dyscyplina"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Disciplina"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Дисциплина"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "律制"
+                }
+            ],
+            "icon": "UI_Constellation_IconDiscipline",
+            "iconColor": "RGBA(0.239, 0.522, 0.357, 1.000)"
+        },
+        {
+            "type": "DevotionConfig",
+            "eDevotionCategory": "Blue",
+            "illustrationBaseColor": "RGBA(0.208, 0.650, 0.802, 1.000)",
+            "illustrationMasteredColor": "RGBA(0.216, 0.706, 0.875, 1.000)",
+            "nodeColor": "RGBA(0.376, 0.718, 0.915, 1.000)",
+            "investedConnectionColor": "RGBA(0.376, 0.718, 0.914, 0.502)",
+            "appliedConnectionColor": "RGBA(0.376, 0.718, 0.914, 1.000)",
+            "masteredConnectionColor": "RGBA(0.652, 0.846, 0.953, 1.000)",
+            "hideFromUI": false,
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Glauben"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Faith"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fe"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Foi"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "信仰"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Wiara"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fé"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Вера"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "信仰"
+                }
+            ],
+            "icon": "UI_Constellation_IconFaith",
+            "iconColor": "RGBA(0.278, 0.631, 0.792, 1.000)"
+        },
+        {
+            "type": "DevotionConfig",
+            "eDevotionCategory": "Neutral",
+            "illustrationBaseColor": "RGBA(0.849, 0.708, 0.613, 1.000)",
+            "illustrationMasteredColor": "RGBA(0.915, 0.806, 0.729, 1.000)",
+            "nodeColor": "RGBA(0.896, 0.692, 0.554, 1.000)",
+            "investedConnectionColor": "RGBA(0.898, 0.694, 0.553, 0.502)",
+            "appliedConnectionColor": "RGBA(0.898, 0.694, 0.553, 1.000)",
+            "masteredConnectionColor": "RGBA(1.000, 0.569, 0.263, 1.000)",
+            "hideFromUI": true,
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "",
+            "iconColor": "RGBA(0.000, 0.000, 0.000, 0.000)"
+        },
+        {
+            "type": "DevotionConfig",
+            "eDevotionCategory": "RedBlue",
+            "illustrationBaseColor": "RGBA(0.448, 0.271, 0.604, 1.000)",
+            "illustrationMasteredColor": "RGBA(0.573, 0.294, 0.871, 1.000)",
+            "nodeColor": "RGBA(0.447, 0.271, 0.604, 1.000)",
+            "investedConnectionColor": "RGBA(0.663, 0.376, 0.914, 0.502)",
+            "appliedConnectionColor": "RGBA(0.663, 0.376, 0.914, 1.000)",
+            "masteredConnectionColor": "RGBA(0.789, 0.595, 0.962, 1.000)",
+            "hideFromUI": false,
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "UI_Constellation_IconFaith",
+            "iconColor": "RGBA(0.527, 0.278, 0.792, 1.000)"
+        },
+        {
+            "type": "DevotionConfig",
+            "eDevotionCategory": "GreenBlue",
+            "illustrationBaseColor": "RGBA(0.239, 0.984, 0.776, 1.000)",
+            "illustrationMasteredColor": "RGBA(0.239, 0.984, 0.776, 1.000)",
+            "nodeColor": "RGBA(0.108, 0.585, 0.452, 1.000)",
+            "investedConnectionColor": "RGBA(0.376, 0.914, 0.753, 0.502)",
+            "appliedConnectionColor": "RGBA(0.376, 0.914, 0.753, 1.000)",
+            "masteredConnectionColor": "RGBA(0.599, 1.000, 0.888, 1.000)",
+            "hideFromUI": false,
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "UI_Constellation_IconFaith",
+            "iconColor": "RGBA(0.278, 0.792, 0.612, 1.000)"
+        },
+        {
+            "type": "DevotionConfig",
+            "eDevotionCategory": "GreenRed",
+            "illustrationBaseColor": "RGBA(0.745, 0.587, 0.144, 1.000)",
+            "illustrationMasteredColor": "RGBA(0.824, 0.663, 0.212, 1.000)",
+            "nodeColor": "RGBA(0.737, 0.697, 0.435, 1.000)",
+            "investedConnectionColor": "RGBA(0.737, 0.697, 0.435, 0.502)",
+            "appliedConnectionColor": "RGBA(0.737, 0.697, 0.435, 1.000)",
+            "masteredConnectionColor": "RGBA(0.915, 0.767, 0.350, 1.000)",
+            "hideFromUI": false,
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "UI_Constellation_IconFaith",
+            "iconColor": "RGBA(0.682, 0.645, 0.404, 1.000)"
+        }
+    ],
     "devotionDropModifierConfig": {
         "Green": {
             "type": "DevotionDropModifierConfig",
@@ -40053,5 +40988,7 @@
     },
     "startingConstellationPoints": 6,
     "campaignCompletionConstellationPoints": 4,
+    "unlockedLineColor": "RGBA(1.000, 1.000, 1.000, 0.024)",
+    "unlockedBlurColor": "RGBA(1.000, 1.000, 1.000, 0.024)",
     "respecCostPerPoint": 10
 }
