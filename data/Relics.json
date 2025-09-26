@@ -22663,6 +22663,256 @@
             "devotionAffinity": [
                 "Red"
             ]
+        },
+        {
+            "name": "All Spell Skills - Headless Doll - Unique Large Relic",
+            "id": 115,
+            "type": "UniqueRelicBaseDefinition",
+            "sprite": "IconUniqueRelic_Headless_Doll",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Kopflose Puppe"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Headless Doll"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Muñeca Sin Cabeza"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Poupée sans tête"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "首なし人形"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Bezłowa Lalka"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Boneca Sem Cabeça"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Кукла без головы"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "无头玩偶"
+                }
+            ],
+            "loreLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "„Als die Granaten in den kleinen Räumen explodierten, zersprengten sie Männer, Frauen und Kinder, die unter der schweren Lehmdecke begraben wurden (…) wie unter einem Grabstein.“ – Euclides da Cunha"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "\"Grenades exploded in the tiny rooms, shattering men, women, and children upon whom sometimes fell the heavy clay ceiling, (...) like the slab of a tomb.\" - Euclides da Cunha"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "\"Explotaban granadas en las pequeñas habitaciones, que destrozaron a hombres, mujeres y niños, sobre los que a veces caía el pesado techo de arcilla, (…) como una lápida\". Euclides da Cunha"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "« Les grenades explosaient dans leurs quartiers exigus, déchiquetant les hommes, les femmes et les enfants, faisant parfois tomber sur eux le lourd plafond d'argile (...) comme la dalle d'un tombeau. » - Euclides da Cunha"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "「手榴弾が狭い部屋で爆発し、男たち、女たち、子どもたちを粉砕した。重い粘土の天井が彼らを押しつぶし、それはまるで墓石のようであった」——エウクリデス・ダ・クーニャ"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "„Granaty eksplodowały w małych pokojach, rozrywając mężczyzn, kobiety i dzieci, na których spadał czasami ciężki gliniany sufit [...] przypominający płytę grobowca.” – Euclides da Cunha"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "\"As granadas explodiam nos quartos minúsculos despedaçando homens, mulheres e crianças sobre os quais descia, às vezes, o pesado teto de argila, (...) como a laje de um túmulo\". - Euclides da Cunha"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "«Гранаты взрывались в крохотных комнатах, разрывая на части мужчин, женщин и детей, на которых иногда падал тяжелый глиняный потолок (...) словно могильный камень», — Эуклидис да Кунья"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "“手榴弹在狭小的房间内爆炸，将男人、女人与孩童炸得粉碎，有时还有沉重的土砖天花板一并压下 (...) 就像一块坟墓的石板。” - 欧克利迪斯·达·库尼亚"
+                }
+            ],
+            "intrinsicAffixes": [
+                {
+                    "name": "All Spell Skills - Headless Doll - Additional Summon Damage Per Summon Affix",
+                    "id": 305,
+                    "type": "SkillBehaviorAffixDefinition"
+                }
+            ],
+            "disassembleSoulStonesReward": 120,
+            "eRelicSize": "Large",
+            "primaryAffixAmount": [
+                1,
+                1
+            ],
+            "primaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalChanceMultiplierAffix",
+                        "id": 108,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalDamageMultiplierAffix",
+                        "id": 109,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "PhysicalDamageBonusAffix",
+                        "id": 112,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "FireDamageBonusAffix",
+                        "id": 110,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "LightningDamageBonusAffix",
+                        "id": 111,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "PlagueDamageBonusAffix",
+                        "id": 113,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CooldownSpeedAffix",
+                        "id": 26,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Mana Cost MultiplierAffix",
+                        "id": 122,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MovementSpeedAffix",
+                        "id": 37,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "secondaryAffixAmount": [
+                1,
+                1
+            ],
+            "secondaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ExperienceGainAffix",
+                        "id": 30,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.5,
+                    "value": {
+                        "name": "PhysicalResistanceAffix",
+                        "id": 38,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "FireResistanceAffix",
+                        "id": 31,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "LightningResistanceAffix",
+                        "id": 34,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "PlagueResistanceAffix",
+                        "id": 39,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ConvictionGainAffix",
+                        "id": 114,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "LifeRegenOnKillAffix",
+                        "id": 0,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "ManaRegenOnKillAffix",
+                        "id": 1,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ManaRegenAffix",
+                        "id": 115,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "devotionAffinity": [
+                "Blue"
+            ]
         }
     ]
 }

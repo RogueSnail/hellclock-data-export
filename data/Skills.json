@@ -1695,7 +1695,16 @@
                 }
             ],
             "skillDamageStatModifiers": {},
-            "skillValueModifierConfigs": [],
+            "skillValueModifierConfigs": [
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Radius Modifier",
+                    "multiplicativeStats": [
+                        "SkillAreaOfEffect"
+                    ],
+                    "additiveStats": []
+                }
+            ],
             "cooldown": 14.5,
             "minCooldown": 0.0,
             "useAttackSpeed": false,

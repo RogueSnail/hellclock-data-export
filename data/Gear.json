@@ -740,7 +740,7 @@
             "sellingValue": 15,
             "gearShopCost": 35,
             "blessingPrice": 350,
-            "sprite": "IconGear_AmuletT1",
+            "sprite": "IconGear_TrinketT1",
             "nameKey": [
                 {
                     "langCode": "de",
@@ -14879,7 +14879,7 @@
                                 "langTranslation": "木质念珠"
                             }
                         ],
-                        "sprite": "IconGear_AmuletT1",
+                        "sprite": "IconGear_TrinketT1",
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
@@ -14932,7 +14932,7 @@
                                 "langTranslation": "木质念珠"
                             }
                         ],
-                        "sprite": "IconGear_AmuletT1",
+                        "sprite": "IconGear_TrinketT1",
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
@@ -14991,7 +14991,7 @@
                                 "langTranslation": "木质念珠"
                             }
                         ],
-                        "sprite": "IconGear_AmuletT1",
+                        "sprite": "IconGear_TrinketT1",
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
@@ -16717,7 +16717,7 @@
                                 "langTranslation": "木质念珠"
                             }
                         ],
-                        "sprite": "IconGear_AmuletT1",
+                        "sprite": "IconGear_TrinketT1",
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
@@ -16770,7 +16770,7 @@
                                 "langTranslation": "木质念珠"
                             }
                         ],
-                        "sprite": "IconGear_AmuletT1",
+                        "sprite": "IconGear_TrinketT1",
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",
@@ -16829,7 +16829,7 @@
                                 "langTranslation": "木质念珠"
                             }
                         ],
-                        "sprite": "IconGear_AmuletT1",
+                        "sprite": "IconGear_TrinketT1",
                         "statModifiersDefinitions": [
                             {
                                 "type": "StatModifierDefinition",

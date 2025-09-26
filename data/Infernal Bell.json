@@ -3065,6 +3065,7 @@
                 {
                     "name": "0e85a479-22ca-4de2-95f6-b602ac980cfe",
                     "type": "SkillBehaviorNodeAffixDefinition",
+                    "additionalLocalizationVariables": [],
                     "eModifierType": "Additive",
                     "valuePerLevel": 0.25,
                     "behaviorData": {
@@ -3085,7 +3086,52 @@
                                     "eSkillEffectVariableFormat": "Percentage"
                                 }
                             ]
-                        }
+                        },
+                        "effects": [
+                            {
+                                "name": "Add Skill Value Modifier Skill Effect Data",
+                                "type": "AddSkillValueModifierSkillEffectData",
+                                "modifiers": [
+                                    {
+                                        "type": "SkillEffectSkillModifierDefinition",
+                                        "skillValueModifierKey": "Chance to Activate Modifier",
+                                        "modifierType": "Additive",
+                                        "value": {
+                                            "type": "SkillEffectVariableReference",
+                                            "valueOrName": "Roll",
+                                            "eSkillEffectVariableModifier": "0",
+                                            "statusToStack": {},
+                                            "supportVariableValueOrName": "",
+                                            "supportESkillEffectVariableModifier": "0",
+                                            "supportStatusToStack": {}
+                                        },
+                                        "useStatConversion": false,
+                                        "conversionStatDefinition": "BaseDamage",
+                                        "listenToVariableModifiersUpdate": false
+                                    }
+                                ],
+                                "useCharacterEffectTrigger": false,
+                                "effectTrigger": "Always",
+                                "characterEffectTrigger": "Kill",
+                                "ruleSet": {
+                                    "type": "SkillEffectRuleSet",
+                                    "rules": []
+                                },
+                                "revertOnRuleFail": false,
+                                "triggerTargetValue": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "triggerTargetEnumValue": 0,
+                                "triggerTargetStringValue": "",
+                                "subEffects": []
+                            }
+                        ]
                     },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
@@ -7394,7 +7440,7 @@
                     "langTranslation": "技能等级上限"
                 }
             ],
-            "maxLevel": 2,
+            "maxLevel": 1,
             "importantNode": true,
             "isRoot": false,
             "affixes": [
@@ -12381,6 +12427,7 @@
                 {
                     "name": "226fadde-5a3b-4231-874d-4a2225b23306",
                     "type": "SkillBehaviorNodeAffixDefinition",
+                    "additionalLocalizationVariables": [],
                     "eModifierType": "Multiplicative",
                     "valuePerLevel": 0.9,
                     "behaviorData": {
@@ -12401,7 +12448,52 @@
                                     "eSkillEffectVariableFormat": "Multiplicative"
                                 }
                             ]
-                        }
+                        },
+                        "effects": [
+                            {
+                                "name": "Add Skill Value Modifier Skill Effect Data",
+                                "type": "AddSkillValueModifierSkillEffectData",
+                                "modifiers": [
+                                    {
+                                        "type": "SkillEffectSkillModifierDefinition",
+                                        "skillValueModifierKey": "Cooldown Modifier",
+                                        "modifierType": "Multiplicative",
+                                        "value": {
+                                            "type": "SkillEffectVariableReference",
+                                            "valueOrName": "Roll",
+                                            "eSkillEffectVariableModifier": "0",
+                                            "statusToStack": {},
+                                            "supportVariableValueOrName": "",
+                                            "supportESkillEffectVariableModifier": "0",
+                                            "supportStatusToStack": {}
+                                        },
+                                        "useStatConversion": false,
+                                        "conversionStatDefinition": "BaseDamage",
+                                        "listenToVariableModifiersUpdate": false
+                                    }
+                                ],
+                                "useCharacterEffectTrigger": false,
+                                "effectTrigger": "Always",
+                                "characterEffectTrigger": "Kill",
+                                "ruleSet": {
+                                    "type": "SkillEffectRuleSet",
+                                    "rules": []
+                                },
+                                "revertOnRuleFail": false,
+                                "triggerTargetValue": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "triggerTargetEnumValue": 0,
+                                "triggerTargetStringValue": "",
+                                "subEffects": []
+                            }
+                        ]
                     },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,

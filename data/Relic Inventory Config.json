@@ -2088,7 +2088,9 @@
         "type": "RelicAffixIcons",
         "defaultIcon": "UI_AffixBullet",
         "lockedIcon": "UI_AffixBullet-Locked",
-        "implicitIcon": "UI_AffixBullet3"
+        "implicitIcon": "UI_AffixBullet3",
+        "corruptedIcon": "UI_CorruptedBullet",
+        "corruptedColor": "RGBA(0.384, 0.259, 0.867, 1.000)"
     },
     "startPages": 3,
     "pagePrice": 200,
