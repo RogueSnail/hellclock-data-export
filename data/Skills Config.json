@@ -1,0 +1,7 @@
+{
+    "name": "SkillsConfig",
+    "type": "SkillsConfig",
+    "maxSkillRank": 20,
+    "maxSkillUpgradeLevelBonus": 3,
+    "startingMaxSkillLevel": 1
+}

@@ -82,11 +82,9 @@
             ],
             "icon": "",
             "eStatFormat": "DEFAULT",
-            "baseValue": 100.0,
+            "baseValue": 180.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "CriticalChance",
@@ -170,10 +168,12 @@
             ],
             "icon": "",
             "eStatFormat": "PERCENTAGE",
-            "baseValue": 0.05,
+            "baseValue": 0.04,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -260,9 +260,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.5,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "Life",
@@ -348,9 +346,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 100.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "PhysicalResistance",
@@ -437,8 +433,10 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
-            "maximumValue": 0.75
+            "useStatForMaximumValue": true,
+            "maximumValueStat": "MaxPhysicalResistance"
         },
         {
             "name": "MagicResistance",
@@ -525,7 +523,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 0.75
         },
         {
@@ -612,9 +612,11 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 3.0
+            "willClamp": true,
+            "useStatForMinimumValue": true,
+            "minimumValueStat": "MinimumMovementSpeed",
+            "useStatForMaximumValue": false,
+            "maximumValue": 100000.0
         },
         {
             "name": "AttackSpeed",
@@ -700,9 +702,11 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 6.0
+            "willClamp": true,
+            "useStatForMinimumValue": true,
+            "minimumValueStat": "MinimumAttackSpeed",
+            "useStatForMaximumValue": false,
+            "maximumValue": 10000000.0
         },
         {
             "name": "CooldownSpeed",
@@ -788,9 +792,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 6.0
+            "willClamp": false
         },
         {
             "name": "ExperienceGain",
@@ -876,9 +878,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "Mana",
@@ -964,9 +964,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 100.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ItemFind",
@@ -1052,9 +1050,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "Damage",
@@ -1140,9 +1136,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "MagicDamage",
@@ -1228,9 +1222,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "AdditionalPhysicalDamage",
@@ -1243,7 +1235,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Added Physical Damage"
+                    "langTranslation": "Bonus to Physical Damage"
                 },
                 {
                     "langCode": "es",
@@ -1263,7 +1255,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Físico Adicional"
+                    "langTranslation": "Dano Físico Bônus"
                 },
                 {
                     "langCode": "ru",
@@ -1281,7 +1273,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Additional flat amount of Physical damage when hitting enemies."
+                    "langTranslation": "Additional flat amount of Physical damage when hitting enemies with Physical damage."
                 },
                 {
                     "langCode": "es",
@@ -1301,7 +1293,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Físico adicionado ao atingir inimigos."
+                    "langTranslation": "Dano Físico adicionado ao atingir inimigos com dano Físico."
                 },
                 {
                     "langCode": "ru",
@@ -1316,9 +1308,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "PhysicalDamage",
@@ -1404,9 +1394,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "AdditionalFireDamage",
@@ -1419,7 +1407,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Added Fire Damage"
+                    "langTranslation": "Bonus to Fire Damage"
                 },
                 {
                     "langCode": "es",
@@ -1439,7 +1427,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Ígneo Adicional"
+                    "langTranslation": "Dano Ígneo Bônus"
                 },
                 {
                     "langCode": "ru",
@@ -1457,7 +1445,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Additional flat amount of Fire damage when hitting enemies."
+                    "langTranslation": "Additional flat amount of Fire damage when hitting enemies with Fire damage."
                 },
                 {
                     "langCode": "es",
@@ -1477,7 +1465,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Ígneo adicionado ao atingir inimigos."
+                    "langTranslation": "Dano Ígneo adicionado ao atingir inimigos com dano Ígneo."
                 },
                 {
                     "langCode": "ru",
@@ -1492,9 +1480,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "FireDamage",
@@ -1580,9 +1566,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "AdditionalPlagueDamage",
@@ -1595,7 +1579,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Added Plague Damage"
+                    "langTranslation": "Bonus to Plague Damage"
                 },
                 {
                     "langCode": "es",
@@ -1615,7 +1599,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Tóxico Adicional"
+                    "langTranslation": "Dano Tóxico Bônus"
                 },
                 {
                     "langCode": "ru",
@@ -1633,7 +1617,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Additional flat amount of Plague damage when hitting enemies."
+                    "langTranslation": "Additional flat amount of Plague damage when hitting enemies with Plague damage."
                 },
                 {
                     "langCode": "es",
@@ -1653,7 +1637,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Tóxico adicionado ao atingir inimigos."
+                    "langTranslation": "Dano Tóxico adicionado ao atingir inimigos com dano Tóxico."
                 },
                 {
                     "langCode": "ru",
@@ -1668,9 +1652,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "PlagueDamage",
@@ -1756,9 +1738,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "AdditionalLightningDamage",
@@ -1771,7 +1751,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Added Lightning Damage"
+                    "langTranslation": "Bonus to Lightning Damage"
                 },
                 {
                     "langCode": "es",
@@ -1791,7 +1771,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Elétrico Adicional"
+                    "langTranslation": "Dano Elétrico Bônus"
                 },
                 {
                     "langCode": "ru",
@@ -1809,7 +1789,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Additional flat amount of Lightning damage when hitting enemies."
+                    "langTranslation": "Additional flat amount of Lightning damage when hitting enemies with Lightning damage."
                 },
                 {
                     "langCode": "es",
@@ -1829,7 +1809,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano Elétrico adicionado ao atingir inimigos."
+                    "langTranslation": "Dano Elétrico adicionado ao atingir inimigos com dano Elétrico."
                 },
                 {
                     "langCode": "ru",
@@ -1844,9 +1824,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "LightningDamage",
@@ -1932,9 +1910,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "SoulStoneGain",
@@ -2020,9 +1996,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "BlessedGearDropChanceBonus",
@@ -2108,9 +2082,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "BonusRelicDropsFromBoss",
@@ -2196,9 +2168,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 0.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "FireResistance",
@@ -2285,8 +2255,10 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
-            "maximumValue": 0.75
+            "useStatForMaximumValue": true,
+            "maximumValueStat": "MaxFireResistance"
         },
         {
             "name": "LightningResistance",
@@ -2373,8 +2345,10 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
-            "maximumValue": 0.75
+            "useStatForMaximumValue": true,
+            "maximumValueStat": "MaxLightningResistance"
         },
         {
             "name": "PlagueResistance",
@@ -2461,8 +2435,10 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
-            "maximumValue": 0.75
+            "useStatForMaximumValue": true,
+            "maximumValueStat": "MaxPlagueResistance"
         },
         {
             "name": "LifeRegen",
@@ -2548,9 +2524,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 1000.0
+            "willClamp": false
         },
         {
             "name": "ManaRegen",
@@ -2636,9 +2610,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 1000.0
+            "willClamp": false
         },
         {
             "name": "ChanceToApplyBleed",
@@ -2724,9 +2696,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ChanceToApplyIgnite",
@@ -2812,9 +2782,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ChanceToApplyShock",
@@ -2900,9 +2868,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ChanceToApplyBlight",
@@ -2949,48 +2915,46 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Chance, den Seuchen-Zustand zu verursachen, wenn Seuchenschaden zugefügt wird.\nVon Seuche befallene Monster haben um 20 % verringerte Bewegungs- und Angriffsgeschwindigkeit."
+                    "langTranslation": "Chance, den Seuchen-Zustand zu verursachen, wenn Seuchenschaden zugefügt wird."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Chance to cause the Blighted ailment when dealing Plague damage.\nBlighted monsters have their movement and attack speeds reduced by 20%."
+                    "langTranslation": "Chance to cause the Blighted ailment when dealing Plague damage.\nBlighted monsters have their movement speed reduced by 20% and attack speed reduced by 8%."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de causar el estado de Plaga al infligir daño de Peste.\nLos monstruos plagados tienen su velocidad de movimiento y de ataque reducida en un 20%."
+                    "langTranslation": "Probabilidad de causar el estado de Plaga al infligir daño de Peste."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chance d’infliger l’altération « Fléau » lors de dégâts de Peste.\nLes monstres affectés par le Fléau voient leur vitesse de déplacement et d’attaque réduite de 20 %."
+                    "langTranslation": "Chance d’infliger l’altération « Fléau » lors de dégâts de Peste."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "疫病ダメージを与えた際、荒廃状態を付与する可能性がある。\n荒廃状態のモンスターは移動速度と攻撃速度が20%低下する。"
+                    "langTranslation": "疫病ダメージを与えた際、荒廃状態を付与する可能性がある。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na wywołanie efektu Zgnilizny przy zadawaniu obrażeń od Zarazy.\nPotwory dotknięte Zgnilizną mają prędkość ruchu i ataku zmniejszoną o 20%."
+                    "langTranslation": "Szansa na wywołanie efektu Zgnilizny przy zadawaniu obrażeń od Zarazy."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Chance de causar a Condição de Contaminação ao causar Dano Tóxico.\nMonstros Contaminados têm sua velocidade de ataque e movimento reduzidas em 20%."
+                    "langTranslation": "Chance de causar a Condição de Contaminação ao causar Dano Tóxico."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Шанс наложить состояние Гниль при нанесении урона Чумой.\nПоражённые Гнилью монстры имеют скорость передвижения и атаки снижены на 20%."
+                    "langTranslation": "Шанс наложить состояние Гниль при нанесении урона Чумой."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "造成瘟疫伤害时有几率使敌人感染枯疫。\n感染枯疫的怪物移动速度和攻击速度降低20%。"
+                    "langTranslation": "造成瘟疫伤害时有几率使敌人感染枯疫。"
                 }
             ],
             "icon": "",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "AdditionalChanceToReceiveCritical",
@@ -3076,9 +3040,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "DamageOverTimeResistance",
@@ -3165,7 +3127,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -3253,7 +3217,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -3341,7 +3307,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -3389,48 +3357,46 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "Percentual de sua Vida Máxima curada por segundo caso você tenha causado qualquer dano a um monstro no último segundo."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
                 }
             ],
             "icon": "",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 1000.0
+            "willClamp": false
         },
         {
             "name": "DamageManaRegen",
@@ -3516,9 +3482,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 1000.0
+            "willClamp": false
         },
         {
             "name": "GoldGain",
@@ -3604,9 +3568,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "ManaSpentBarrierRegen",
@@ -3692,9 +3654,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "BarrierGeneration",
@@ -3780,9 +3740,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "BarrierDecayThreshold",
@@ -3868,97 +3826,93 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 0.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
-            "name": "BarrierGain",
+            "name": "MaxBarrier",
             "id": 44,
             "type": "StatDefinition",
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Überzeugungsgewinn"
+                    "langTranslation": "Max. Überzeugung"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Conviction Gain"
+                    "langTranslation": "Max. Conviction"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Obtención de Convicción"
+                    "langTranslation": "Convicción Máx."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Gain de conviction"
+                    "langTranslation": "Conviction max."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "信念獲得量"
+                    "langTranslation": "信念最大値"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zyskiwane Przekonanie"
+                    "langTranslation": "Maksymalne Przekonanie"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ganho de Convicção"
+                    "langTranslation": "Convicção Máxima"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Получение непоколебимости"
+                    "langTranslation": "Максимальная непоколебимость"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "信念获取"
+                    "langTranslation": "最大信念"
                 }
             ],
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Ein Bonus, der auf aus sämtlichen Quellen erhaltene Überzeugung angewendet wird."
+                    "langTranslation": "Von Seuche befallene Monster haben um 20 % verringerte Bewegungsgeschwindigkeit und um 8 % verringerte Angriffsgeschwindigkeit."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Bonus applied to Conviction gained from all sources"
+                    "langTranslation": "Increases the maximum Conviction you can have at once.\nThe base value of Max. Conviction is equal to 100% of your Maximum Mana."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Se aplica una bonificación a la Convicción que obtienes de todas las fuentes."
+                    "langTranslation": "Los monstruos plagados tienen su velocidad de movimiento reducida en un 20% y su velocidad de ataque reducida en un 8%."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Bonus appliqué aux gains de conviction."
+                    "langTranslation": "Les monstres affectés par le Fléau voient leur vitesse de déplacement réduite de 20 % et leur vitesse d’attaque réduite de 8 %."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "あらゆる信念獲得に適用されるボーナス。"
+                    "langTranslation": "荒廃状態のモンスターは移動速度が20%低下し、攻撃速度が8%低下する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Premia do Przekonania uzyskanego ze wszystkich źródeł"
+                    "langTranslation": "Potwory dotknięte Zgnilizną mają prędkość ruchu zmniejszoną o 20% oraz prędkość ataku zmniejszoną o 8%."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Bônus aplicado à Convicção gerada por qualquer Habilidade ou Efeito"
+                    "langTranslation": "Monstros Contaminados têm sua velocidade de movimento reduzida em 20% e a velocidade de ataque reduzida em 8%."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Бонус к получению непоколебимости из всех источников."
+                    "langTranslation": "Поражённые Гнилью монстры имеют скорость передвижения снижена на 20%, а скорость атаки снижена на 8%."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对所有来源的信念获取应用的加成。"
+                    "langTranslation": "感染枯疫的怪物移动速度降低20%，攻击速度降低8%。"
                 }
             ],
             "icon": "",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
-            "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "isPlayerStat": true,
+            "willClamp": false
         },
         {
             "name": "BarrierDecayResilience",
@@ -4044,9 +3998,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ChanceToFindPotion",
@@ -4132,9 +4084,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 1000.0
+            "willClamp": false
         },
         {
             "name": "PotionCapacity",
@@ -4220,9 +4170,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 3.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "PotionLifePercentageRegen",
@@ -4308,9 +4256,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.15,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "PotionLifeFlatRegen",
@@ -4396,9 +4342,7 @@
             "eStatFormat": "DEFAULT",
             "baseValue": 100.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "PotionEfficiency",
@@ -4484,9 +4428,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "TrinketDropChanceBonus",
@@ -4572,9 +4514,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "RelicDropChanceBonus",
@@ -4660,9 +4600,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "SummonLifePercentage",
@@ -4748,9 +4686,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "SummonDamagePercentage",
@@ -4797,48 +4733,46 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "Modificador multiplicativo aplicado ao total de dano de Habilidade de Invocação ao atingir inimigos."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
                 }
             ],
             "icon": "IconSkill_SummonTheGuard_grayscale",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 10000.0
+            "willClamp": false
         },
         {
             "name": "SkillManaCost",
@@ -4924,9 +4858,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": true,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "AilmentDuration",
@@ -5012,9 +4944,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "BleedDuration",
@@ -5101,7 +5031,9 @@
             "baseValue": 3.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -5186,10 +5118,12 @@
             ],
             "icon": "",
             "eStatFormat": "DEFAULT",
-            "baseValue": 5.0,
+            "baseValue": 6.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -5277,7 +5211,9 @@
             "baseValue": 2.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -5365,7 +5301,9 @@
             "baseValue": 4.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -5453,7 +5391,9 @@
             "baseValue": 5.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -5541,7 +5481,9 @@
             "baseValue": 1.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -5628,9 +5570,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "IgniteDamage",
@@ -5716,9 +5656,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ShockIntensity",
@@ -5804,9 +5742,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "BlightIntensity",
@@ -5892,9 +5828,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "WitherBuildupRate",
@@ -5981,7 +5915,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 100.0
         },
         {
@@ -6069,7 +6005,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 100.0
         },
         {
@@ -6156,9 +6094,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "BleedDamage",
@@ -6240,13 +6176,11 @@
                     "langTranslation": "对所有流血造成的伤害应用的乘算加成。\n基础流血伤害按基础伤害的固定比例计算，不受施加伤害的技能本身影响。\n流血可以无限叠加。"
                 }
             ],
-            "icon": "",
+            "icon": "IconStatus_Bleeding_white",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "WitherResistance",
@@ -6333,7 +6267,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -6421,7 +6357,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 0.75
         },
         {
@@ -6508,9 +6446,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ManaShield",
@@ -6597,7 +6533,9 @@
             "baseValue": 0.0,
             "isPlayerStat": true,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -6685,7 +6623,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": -10000.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 0.75
         },
         {
@@ -6773,7 +6713,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 0.95
         },
         {
@@ -6861,7 +6803,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 0.95
         },
         {
@@ -6949,7 +6893,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 0.75
         },
         {
@@ -7036,9 +6982,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "SkillProjectileAmount",
@@ -7085,48 +7029,46 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "Aumenta o número de Projéteis lançados por habilidades relevantes ao serem ativadas. Qualquer bônus excedente será convertido em uma chance de obter um Projétil adicional."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
                 }
             ],
             "icon": "Icon_ProjectileSkills",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "SkillMeleeDamage",
@@ -7173,48 +7115,46 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "Modificador multiplicativo aplicado ao total de dano de Habilidade Corpo-A-Corpo ao atingir inimigos."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
                 }
             ],
             "icon": "Icon_Damage_Base",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ElementalAilmentDuration",
@@ -7300,9 +7240,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "SkillSpellDamage",
@@ -7388,9 +7326,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "LifeGain",
@@ -7476,9 +7412,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ManaGain",
@@ -7564,9 +7498,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "ImmuneToPhysicalDamage",
@@ -7653,7 +7585,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -7741,7 +7675,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -7829,7 +7765,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -7917,7 +7855,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1.0
         },
         {
@@ -8004,9 +7944,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "StartingBarrierLifePercentage",
@@ -8092,9 +8030,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "SkillMarksmanDamage",
@@ -8141,48 +8077,46 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "Modificador multiplicativo aplicado ao total de dano de Habilidade de Atirador ao atingir inimigos."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
                 }
             ],
             "icon": "",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "SkillMeleeLifeSteal",
@@ -8268,9 +8202,7 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false,
-            "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "willClamp": false
         },
         {
             "name": "PlagueDamageTakenAsPhysical",
@@ -8357,7 +8289,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -8445,7 +8379,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -8533,7 +8469,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -8621,7 +8559,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -8709,7 +8649,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -8797,7 +8739,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -8885,7 +8829,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -8973,7 +8919,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -9061,7 +9009,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -9149,7 +9099,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -9237,7 +9189,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -9325,7 +9279,9 @@
             "baseValue": 0.0,
             "isPlayerStat": false,
             "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
             "maximumValue": 1000.0
         },
         {
@@ -9410,11 +9366,2059 @@
             ],
             "icon": "",
             "eStatFormat": "DEFAULT",
-            "baseValue": 5.0,
+            "baseValue": 6.0,
             "isPlayerStat": true,
-            "willClamp": false,
+            "willClamp": false
+        },
+        {
+            "name": "BarrierGain",
+            "id": 109,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Überzeugungsgewinn"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Conviction Gain"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Obtención de Convicción"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Gain de conviction"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "信念獲得量"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zyskiwane Przekonanie"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ganho de Convicção"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Получение непоколебимости"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "信念获取"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Ein Bonus, der auf aus sämtlichen Quellen erhaltene Überzeugung angewendet wird."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Bonus applied to Conviction gained from all sources"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Se aplica una bonificación a la Convicción que obtienes de todas las fuentes."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bonus appliqué aux gains de conviction."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "あらゆる信念獲得に適用されるボーナス。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Premia do Przekonania uzyskanego ze wszystkich źródeł"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bônus aplicado à Convicção gerada por qualquer Habilidade ou Efeito"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Бонус к получению непоколебимости из всех источников."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "对所有来源的信念获取应用的加成。"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 1.0,
+            "isPlayerStat": false,
+            "willClamp": false
+        },
+        {
+            "name": "CurrencyDropChanceBonus",
+            "id": 110,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Bonus Currency Drop Chance"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Multiplicative modifier applied to the chance of obtaining Currency when killing monsters."
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": true,
+            "willClamp": false
+        },
+        {
+            "name": "IgniteResistance",
+            "id": 111,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Ignite Resistance"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Ignite Resistance"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": -10000.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 0.75
+        },
+        {
+            "name": "BleedResistance",
+            "id": 112,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Bleed Resistance"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Bleed Resistance"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": -10000.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 0.75
+        },
+        {
+            "name": "MaxFireResistance",
+            "id": 113,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Maximale Feuerbeständigkeit"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Maximum Fire Resistance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Máxima resistencia al fuego"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Résistance maximale au feu"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "最大の耐火性"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Maksymalna odporność ogniowa"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Resistência Ígnea Máxima"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Максимальная огнестойкость"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "最大耐火性"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MaximumFireResStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.75,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
             "minimumValue": 0.0,
-            "maximumValue": 0.0
+            "useStatForMaximumValue": false,
+            "maximumValue": 0.9
+        },
+        {
+            "name": "MaxLightningResistance",
+            "id": 114,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Maximale Blitzresistenz"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Maximum Lightning Resistance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Máxima resistencia a los rayos"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Résistance maximale à la foudre"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "最大耐雷性能"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Maksymalna odporność na pioruny"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Resistência Elétrica Máxima"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Максимальная устойчивость к молниям"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "最大抗雷击能力"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MaximumLightningResStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.75,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 0.9
+        },
+        {
+            "name": "MaxPlagueResistance",
+            "id": 115,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Maximale Seuchenresistenz"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Maximum Plague Resistance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Máxima resistencia a las plagas"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Résistance maximale à la peste"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "最大の疫病耐性"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Maksymalna odporność na zarazę"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Resistência Tóxica Máxima"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Максимальная устойчивость к чуме"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "最大瘟疫抵抗力"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MaximumPlagueResStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.75,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 0.9
+        },
+        {
+            "name": "MaxPhysicalResistance",
+            "id": 116,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Maximale physische Widerstandsfähigkeit"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Maximum Physical Resistance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Máxima resistencia física"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Résistance physique maximale"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "最大物理耐性"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Maksymalna odporność fizyczna"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Resistência Física Máxima"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Максимальная физическая устойчивость"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "最大物理抵抗力"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MaximumPhysicalResStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.75,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 0.9
+        },
+        {
+            "name": "FireDamageConvertedAsLightning",
+            "id": 117,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(FireDamageConvertedAsLightningStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "FireDamageConvertedAsPhysical",
+            "id": 118,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPhysicalStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "FireDamageConvertedAsPlague",
+            "id": 119,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(FireDamageConvertedAsPlagueStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "LightningDamageConvertedAsFire",
+            "id": 120,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsFireStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "LightningDamageConvertedAsPhysical",
+            "id": 121,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPhysicalStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "LightningDamageConvertedAsPlague",
+            "id": 122,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(LightningDamageConvertedAsPlagueStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "PhysicalDamageConvertedAsFire",
+            "id": 123,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsFireStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "PhysicalDamageConvertedAsLightning",
+            "id": 124,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsLightningStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "PhysicalDamageConvertedAsPlague",
+            "id": 125,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PhysicalDamageConvertedAsPlagueStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "PlagueDamageConvertedAsFire",
+            "id": 126,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsFireStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "PlagueDamageConvertedAsLightning",
+            "id": 127,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsLightningStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "PlagueDamageConvertedAsPhysical",
+            "id": 128,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(PlagueDamageConvertedAsPhysicalStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 0.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1000.0
+        },
+        {
+            "name": "HellClockTimeDropChanceBonus",
+            "id": 129,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Bonus-Fallchance für die Höllenuhrzeit"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bono de probabilidad de obtener tiempo del reloj del infierno"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bonus de chance de chute de temps de l'horloge de l'enfer"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ボーナスヘルクロックタイムドロップチャンス"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Bonusowa szansa na upuszczenie Czasu Piekielnego Zegara"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Chance Bônus de Encontrar Tempo"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Бонусный шанс выпадения Hell Clock Time"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "地狱时钟时间掉落概率加成"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": true,
+            "willClamp": false
+        },
+        {
+            "name": "MinimumAttackSpeed",
+            "id": 130,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumAttackSpeedStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": -10000.0,
+            "isPlayerStat": false,
+            "willClamp": false
+        },
+        {
+            "name": "MinimumMovementSpeed",
+            "id": 131,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStat)"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(MinimumMovementSpeedStatDesc)"
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": -10000.0,
+            "isPlayerStat": false,
+            "willClamp": false
         }
     ]
 }
