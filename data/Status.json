@@ -4902,7 +4902,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Verdorren"
                     },
                     {
                         "langCode": "en",
@@ -4910,31 +4910,31 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Marchitar"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Flétrir"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Wither"
+                        "langTranslation": "ウィザー"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Uschnąć"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Decrepitar"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Увядать"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Wither"
+                        "langTranslation": "枯萎"
                     }
                 ],
                 "descriptionKey": [
@@ -11652,7 +11652,7 @@
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Labaredas"
+                        "langTranslation": "ラバレダス"
                     },
                     {
                         "langCode": "pl",
@@ -11664,17 +11664,17 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Labaredas"
+                        "langTranslation": "Лабаредас"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Labaredas"
+                        "langTranslation": "拉巴雷达斯"
                     }
                 ],
                 "descriptionKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "Split Shot +{0} Projektilmenge pro Stapel"
                     },
                     {
                         "langCode": "en",
@@ -11682,31 +11682,31 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "Disparo dividido +{0} Cantidad de proyectiles por acumulación"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "Tir divisé + {0} Quantité de projectiles par cumul"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "スプリットショット +{0} スタックあたりの発射物量"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "Podzielony strzał + {0} Ilość pocisków na stos"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "Tiro Disperso +{0} Quantidade de Projéteis por acúmulo"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "Раздельный выстрел + {0} Количество снарядов за стек"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Split Shot +{0} Projectile Amount per stack"
+                        "langTranslation": "分裂射击 +{0} 投射物数量/堆叠"
                     }
                 ],
                 "icon": "Icon_ProjectileSkills"
@@ -11932,7 +11932,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Verdorren"
                     },
                     {
                         "langCode": "en",
@@ -11940,31 +11940,31 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Marchitar"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Flétrir"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Wither"
+                        "langTranslation": "ウィザー"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Uschnąć"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Decrepitar"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Wither"
+                        "langTranslation": "Увядать"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Wither"
+                        "langTranslation": "枯萎"
                     }
                 ],
                 "descriptionKey": [

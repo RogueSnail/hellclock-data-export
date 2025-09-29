@@ -76,39 +76,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Feuerresistenz ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Fire Resistance ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Fuego ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑10% Résistance au feu"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "火炎抵抗‑10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na ogień ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Ígnea ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление огню ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "火焰抗性 ‑10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -187,39 +187,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Physikalische Resistenz ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Physical Resistance ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia física ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑10% Résistance physique"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "物理抵抗‑10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na obrażenia fizyczne ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Física ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление физ. урону ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "物理抗性 ‑10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -298,39 +298,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Blitzresistenz ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Lightning Resistance ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Rayo ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑10% Résistance à la foudre"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "電撃抵抗‑10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na błyskawice ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Elétrica ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление молниям ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "闪电抗性 ‑10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -409,39 +409,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Seuchenresistenz ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Plague Resistance ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia a la Plaga ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑10% Résistance à la peste"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "疫病抵抗‑10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na zarazę ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Tóxica ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление чуме ‑10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "瘟疫抗性 ‑10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -512,6 +512,20 @@
                 {
                     "name": "4e0f5b67-8dc1-434a-8919-2ccfbb8dea54",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 1.2,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "MultiplicativeAdditive",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Area of Effect - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "SkillAreaOfEffect": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -620,6 +634,20 @@
                 {
                     "name": "aecad1c0-3305-4cbb-b03c-dbfabbb2d427",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 1.2,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "MultiplicativeAdditive",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Area of Effect - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "SkillAreaOfEffect": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -728,6 +756,20 @@
                 {
                     "name": "7c4b4d14-99d3-49ae-8e81-56e09d92df8f",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 1.35,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "MultiplicativeAdditive",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Area of Effect - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "SkillAreaOfEffect": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -883,6 +925,8 @@
                 {
                     "name": "28f2583e-0c44-44aa-9ea0-42d1c7d5cf18",
                     "type": "CharacterToggleNodeAffixDefinition",
+                    "eCharacterToggle": "AddTimeToDropPool",
+                    "value": true,
                     "hideDescription": true,
                     "description": [
                         {
@@ -948,7 +992,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Harte Flut"
                 },
                 {
                     "langCode": "en",
@@ -956,15 +1000,15 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Marea fuerte"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Marée forte"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "厳しい潮流"
                 },
                 {
                     "langCode": "pl",
@@ -976,11 +1020,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Суровый прилив"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "狂潮"
                 }
             ],
             "maxLevel": 1,
@@ -1059,7 +1103,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Harte Flut"
                 },
                 {
                     "langCode": "en",
@@ -1067,15 +1111,15 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Marea fuerte"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Marée forte"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "厳しい潮流"
                 },
                 {
                     "langCode": "pl",
@@ -1087,11 +1131,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Суровый прилив"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "狂潮"
                 }
             ],
             "maxLevel": 1,
@@ -1220,44 +1264,59 @@
                 {
                     "name": "edfa0524-31d5-4fd7-99ba-b009acc7fe4f",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 1.3,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "MultiplicativeAdditive",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Attack and Move Speed - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "AttackSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig",
+                            "MovementSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bewegungs- und Angriffstempo der Gegner sind um +30%[+] erhöht."
+                            "langTranslation": "Bewegungs- und Angriffstempo der Gegner sind um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Enemies move and attack +30%[+] faster."
+                            "langTranslation": "Enemies move and attack {0} faster."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Los enemigos se mueven y atacan +30%[+] más rápido."
+                            "langTranslation": "Los enemigos se mueven y atacan {0} más rápido."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les ennemis se déplacent et attaquent +30%[+] plus vite"
+                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "敵の移動速度と攻撃速度が+30%[+]速くなる。"
+                            "langTranslation": "敵の移動速度と攻撃速度が{0}速くなる。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wrogowie poruszają się i atakują +30%[+] szybciej"
+                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Inimigos se movem e atacam +30%[+] mais rápido."
+                            "langTranslation": "Inimigos se movem e atacam {0} mais rápido."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Враги движутся и атакуют на +30%[+] быстрее"
+                            "langTranslation": "Враги движутся и атакуют на {0} быстрее"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "敌人的移动与攻击速度提高 +30%[+]。"
+                            "langTranslation": "敌人的移动与攻击速度提高 {0}。"
                         }
                     ]
                 }
@@ -1328,44 +1387,59 @@
                 {
                     "name": "7982a944-9a2e-4808-b2b9-ea9fd8248bcd",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 1.4,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "MultiplicativeAdditive",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Attack and Move Speed - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "AttackSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig",
+                            "MovementSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bewegungs- und Angriffstempo der Gegner sind um +40%[+] erhöht."
+                            "langTranslation": "Bewegungs- und Angriffstempo der Gegner sind um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Enemies move and attack +40%[+] faster."
+                            "langTranslation": "Enemies move and attack {0} faster."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Los enemigos se mueven y atacan +40%[+] más rápido."
+                            "langTranslation": "Los enemigos se mueven y atacan {0} más rápido."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les ennemis se déplacent et attaquent +40%[+] plus vite"
+                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "敵の移動速度と攻撃速度が+40%[+]速くなる。"
+                            "langTranslation": "敵の移動速度と攻撃速度が{0}速くなる。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wrogowie poruszają się i atakują +40%[+] szybciej"
+                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Inimigos se movem e atacam +40%[+] mais rápido."
+                            "langTranslation": "Inimigos se movem e atacam {0} mais rápido."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Враги движутся и атакуют на +40%[+] быстрее"
+                            "langTranslation": "Враги движутся и атакуют на {0} быстрее"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "敌人的移动与攻击速度提高 +40%[+]。"
+                            "langTranslation": "敌人的移动与攻击速度提高 {0}。"
                         }
                     ]
                 }
@@ -1436,6 +1510,7 @@
                 {
                     "name": "da23b9fb-1138-41d8-be7f-75e75fe6dfab",
                     "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "Act1BossUseAlternativeConfig",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -1480,6 +1555,7 @@
                 {
                     "name": "4eb5cb45-5a83-481c-bec5-977e4e98ff12",
                     "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "Act2BossUseAlternativeConfig",
                     "hideDescription": true,
                     "description": [
                         {
@@ -1523,6 +1599,7 @@
                 {
                     "name": "ab8a4898-2b5b-4486-9cf8-5bc18bccaaed",
                     "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "Act3BossUseAlternativeConfig",
                     "hideDescription": true,
                     "description": [
                         {
@@ -1646,39 +1723,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Goldgewinn ‑25%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Gold Gain ‑25%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de oro ‑25%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑25%[x] Gain de réis"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ゴールド獲得量‑25%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane złoto ‑25%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Ouro ‑25%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение золота ‑25%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "金币获取 ‑25%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -1757,39 +1834,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Goldgewinn ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Gold Gain ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de oro ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑30%[x] Gain de réis"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ゴールド獲得量‑30%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane złoto ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Ouro ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение золота ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "金币获取 ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -1868,39 +1945,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Kosten für Neuwürfeln von Segen +100%[+]."
+                            "langTranslation": "Kosten für Neuwürfeln von Segen {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Blessing reroll cost +100%[+]."
+                            "langTranslation": "Blessing reroll cost {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Costo de cambio de bendición +100%[+]"
+                            "langTranslation": "Costo de cambio de bendición {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le retirage des bénédictions coûte +100%[+]"
+                            "langTranslation": "Le retirage des bénédictions coûte {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "祝福リロールコスト+100%[+]"
+                            "langTranslation": "祝福リロールコスト{0}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Koszt ponownego rzutu na błogosławieństwo: +100%[+]"
+                            "langTranslation": "Koszt ponownego rzutu na błogosławieństwo: {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Custo de ressorteio de Bênçãos +100%[+]."
+                            "langTranslation": "Custo de ressorteio de Bênçãos {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "+100%[+] к стоимости сброса благословений"
+                            "langTranslation": "{0} к стоимости сброса благословений"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "恩泽重掷消耗 +100%[+]"
+                            "langTranslation": "恩泽重掷消耗 {0}"
                         }
                     ]
                 }
@@ -2082,44 +2159,79 @@
                 {
                     "name": "67c3c8ac-5f55-46b1-bc66-dbfc693f395b",
                     "type": "EnemyAdditionalAffixesNodeAffixDefinition",
+                    "valuePerLevel": 1,
+                    "additionalAffixes": [
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {}
+                        }
+                    ],
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Elitegegner haben 1 zusätzliche gefährliche Affixe."
+                            "langTranslation": "Elitegegner haben {0} zusätzliche gefährliche Affixe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Elite enemies have 1 additional Dangerous affixes"
+                            "langTranslation": "Elite enemies have {0} additional Dangerous affixes"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Los enemigos de élite tienen 1 agregados peligrosos adicionales."
+                            "langTranslation": "Los enemigos de élite tienen {0} agregados peligrosos adicionales."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les ennemis d'élite ont 1 suffixes dangereux en plus"
+                            "langTranslation": "Les ennemis d'élite ont {0} suffixes dangereux en plus"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "エリート敵が追加の危険な特性を1持つ。"
+                            "langTranslation": "エリート敵が追加の危険な特性を{0}持つ。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Elitarni wrogowie mają 1 dodatkowe niebezpieczne atrybuty"
+                            "langTranslation": "Elitarni wrogowie mają {0} dodatkowe niebezpieczne atrybuty"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Inimigos de Elite têm 1 afixos Perigosos adicionais."
+                            "langTranslation": "Inimigos de Elite têm {0} afixos Perigosos adicionais."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Элитные враги получают дополнительные эффекты опасности: 1 шт."
+                            "langTranslation": "Элитные враги получают дополнительные эффекты опасности: {0} шт."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "精锐敌人将额外拥有 1 个危险词缀。"
+                            "langTranslation": "精锐敌人将额外拥有 {0} 个危险词缀。"
                         }
                     ]
                 }
@@ -2190,6 +2302,8 @@
                 {
                     "name": "ba505483-0c58-49e5-b4dd-ca56cb9eb815",
                     "type": "EnemyAdditionalAffixesNodeAffixDefinition",
+                    "valuePerLevel": 1,
+                    "additionalAffixes": [],
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -2306,39 +2420,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Feuerresistenz ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Fire Resistance ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Fuego ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑15% Résistance au feu"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "火炎抵抗‑15%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na ogień ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Ígnea ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление огню ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "火焰抗性 ‑15%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2417,39 +2531,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Blitzresistenz ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Lightning Resistance ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Rayo ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑15% Résistance à la foudre"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "電撃抵抗‑15%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na błyskawice ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Elétrica ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление молниям ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "闪电抗性 ‑15%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2528,39 +2642,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Seuchenresistenz ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Plague Resistance ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia a la Plaga ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑15% Résistance à la peste"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "疫病抵抗‑15%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na zarazę ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Tóxica ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление чуме ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "瘟疫抗性 ‑15%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2639,39 +2753,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Physikalische Resistenz ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Physical Resistance ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia física ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑15% Résistance physique"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "物理抵抗‑15%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na obrażenia fizyczne ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Física ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление физ. урону ‑15%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "物理抗性 ‑15%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2750,39 +2864,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Alle Manawiederherstellungs- und Manaregenerationseffekte sind um ‑30%[x] verringert."
+                            "langTranslation": "Alle Manawiederherstellungs- und Manaregenerationseffekte sind um {0} verringert."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Mana recovery and Mana Regen effects are reduced by ‑30%[x]."
+                            "langTranslation": "All Mana recovery and Mana Regen effects are reduced by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Todos los efectos de recuperación y regeneración de maná se reducen en ‑30%[x]."
+                            "langTranslation": "Todos los efectos de recuperación y regeneración de maná se reducen en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de ‑30%[x]"
+                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆるマナ回復量とマナ再生量が‑30%[x]減少する。"
+                            "langTranslation": "あらゆるマナ回復量とマナ再生量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o ‑30%[x]"
+                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Todos os efeitos de Recuperação de Energia e Regeneração de Energia são reduzidos em ‑30%[x]."
+                            "langTranslation": "Todos os efeitos de Recuperação de Energia e Regeneração de Energia são reduzidos em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все пополнение и восстановление маны уменьшено на ‑30%[x]"
+                            "langTranslation": "Все пополнение и восстановление маны уменьшено на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "所有法力恢复与法力再生效果降低 ‑30%[x]。"
+                            "langTranslation": "所有法力恢复与法力再生效果降低 {0}。"
                         }
                     ]
                 }
@@ -2861,39 +2975,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Alle Manawiederherstellungs- und Manaregenerationseffekte sind um ‑45%[x] verringert."
+                            "langTranslation": "Alle Manawiederherstellungs- und Manaregenerationseffekte sind um {0} verringert."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Mana recovery and Mana Regen effects are reduced by ‑45%[x]."
+                            "langTranslation": "All Mana recovery and Mana Regen effects are reduced by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Todos los efectos de recuperación y regeneración de maná se reducen en ‑45%[x]."
+                            "langTranslation": "Todos los efectos de recuperación y regeneración de maná se reducen en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de ‑45%[x]"
+                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆるマナ回復量とマナ再生量が‑45%[x]減少する。"
+                            "langTranslation": "あらゆるマナ回復量とマナ再生量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o ‑45%[x]"
+                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Todos os efeitos de Recuperação de Energia e Regeneração de Energia são reduzidos em ‑45%[x]."
+                            "langTranslation": "Todos os efeitos de Recuperação de Energia e Regeneração de Energia são reduzidos em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все пополнение и восстановление маны уменьшено на ‑45%[x]"
+                            "langTranslation": "Все пополнение и восстановление маны уменьшено на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "所有法力恢复与法力再生效果降低 ‑45%[x]。"
+                            "langTranslation": "所有法力恢复与法力再生效果降低 {0}。"
                         }
                     ]
                 }
@@ -2972,39 +3086,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Alle Effekte von Heilung, Lebensraub und Lebensregeneration sind um ‑30%[x] verringert."
+                            "langTranslation": "Alle Effekte von Heilung, Lebensraub und Lebensregeneration sind um {0} verringert."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Healing, Life Leech and Life Regen effects are reduced by ‑30%[x]."
+                            "langTranslation": "All Healing, Life Leech and Life Regen effects are reduced by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Todos los efectos de curación, Robavida y regeneración de vida se reducen en ‑30%[x]."
+                            "langTranslation": "Todos los efectos de curación, Robavida y regeneración de vida se reducen en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de gain, drain et régénération de vie sont réduits de ‑30%[x]"
+                            "langTranslation": "Tous les effets de gain, drain et régénération de vie sont réduits de {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆる回復量、ライフ吸収量、ライフ再生量が‑30%[x]減少する。"
+                            "langTranslation": "あらゆる回復量、ライフ吸収量、ライフ再生量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty leczenia, kradzieży życia i regeneracji życia są zmniejszone o ‑30%[x]"
+                            "langTranslation": "Wszystkie efekty leczenia, kradzieży życia i regeneracji życia są zmniejszone o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Todos os efeitos de Cura, Roubo de Vida e Regeneração de Vida são reduzidos em ‑30%[x]."
+                            "langTranslation": "Todos os efeitos de Cura, Roubo de Vida e Regeneração de Vida são reduzidos em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все лечение, кража здоровья и восстановление здоровья уменьшены на ‑30%[x]"
+                            "langTranslation": "Все лечение, кража здоровья и восстановление здоровья уменьшены на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "所有治疗、吸血与生命再生效果降低 ‑30%[x]"
+                            "langTranslation": "所有治疗、吸血与生命再生效果降低 {0}"
                         }
                     ]
                 }
@@ -3083,39 +3197,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Alle Effekte von Heilung, Lebensraub und Lebensregeneration sind um ‑45%[x] verringert."
+                            "langTranslation": "Alle Effekte von Heilung, Lebensraub und Lebensregeneration sind um {0} verringert."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Healing, Life Leech and Life Regen effects are reduced by ‑45%[x]."
+                            "langTranslation": "All Healing, Life Leech and Life Regen effects are reduced by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Todos los efectos de curación, Robavida y regeneración de vida se reducen en ‑45%[x]."
+                            "langTranslation": "Todos los efectos de curación, Robavida y regeneración de vida se reducen en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de gain, drain et régénération de vie sont réduits de ‑45%[x]"
+                            "langTranslation": "Tous les effets de gain, drain et régénération de vie sont réduits de {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆる回復量、ライフ吸収量、ライフ再生量が‑45%[x]減少する。"
+                            "langTranslation": "あらゆる回復量、ライフ吸収量、ライフ再生量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty leczenia, kradzieży życia i regeneracji życia są zmniejszone o ‑45%[x]"
+                            "langTranslation": "Wszystkie efekty leczenia, kradzieży życia i regeneracji życia są zmniejszone o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Todos os efeitos de Cura, Roubo de Vida e Regeneração de Vida são reduzidos em ‑45%[x]."
+                            "langTranslation": "Todos os efeitos de Cura, Roubo de Vida e Regeneração de Vida são reduzidos em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все лечение, кража здоровья и восстановление здоровья уменьшены на ‑45%[x]"
+                            "langTranslation": "Все лечение, кража здоровья и восстановление здоровья уменьшены на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "所有治疗、吸血与生命再生效果降低 ‑45%[x]"
+                            "langTranslation": "所有治疗、吸血与生命再生效果降低 {0}"
                         }
                     ]
                 }
@@ -3194,44 +3308,58 @@
                 {
                     "name": "139d214f-2c6f-4c81-8923-0526d7aa3039",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 2.0,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "MultiplicativeAdditive",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Additional Projectile - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "SkillProjectileAmount": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Gegner schießen +100%[+] zusätzliche Geschosse."
+                            "langTranslation": "Gegner schießen {0} zusätzliche Geschosse."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Enemies Shoot +100%[+] Additional Projectiles."
+                            "langTranslation": "Enemies Shoot {0} Additional Projectiles."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Los enemigos disparan +100%[+] proyectiles adicionales"
+                            "langTranslation": "Los enemigos disparan {0} proyectiles adicionales"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les ennemis tirent +100%[+] projectiles supplémentaires"
+                            "langTranslation": "Les ennemis tirent {0} projectiles supplémentaires"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "敵の射撃が追加の投射物を+100%[+]持つ"
+                            "langTranslation": "敵の射撃が追加の投射物を{0}持つ"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Przeciwnicy wystrzeliwują +100%[+] dodatkowych pocisków"
+                            "langTranslation": "Przeciwnicy wystrzeliwują {0} dodatkowych pocisków"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Inimigos atiram +100%[+] projéteis adicionais."
+                            "langTranslation": "Inimigos atiram {0} projéteis adicionais."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Враги выпускают больше снарядов (на +100%[+])"
+                            "langTranslation": "Враги выпускают больше снарядов (на {0})"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "敌人额外发射 +100%[+] 个投射物。"
+                            "langTranslation": "敌人额外发射 {0} 个投射物。"
                         }
                     ]
                 }
@@ -3326,6 +3454,7 @@
                 {
                     "name": "bdd68e1d-68d7-4332-9261-a0b3c74def96",
                     "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "EnableEnrage",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -3434,6 +3563,7 @@
                 {
                     "name": "bef44f4c-f332-4230-8d4a-0ccfe6c7b274",
                     "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "None",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -3542,6 +3672,7 @@
                 {
                     "name": "b55d9ef0-43d8-4602-b283-18dc19417aa2",
                     "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "None",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -3650,6 +3781,7 @@
                 {
                     "name": "25787eec-5031-4e53-8a18-d44d1dcedb9f",
                     "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "AdditionalBoss",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -3766,39 +3898,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bestimmt die Dauer der vorteilhaften Effekte, die auf dich wirken. ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Determines the duration of beneficial effects active on you ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Determina la duración de los efectos beneficiosos que tienes activos. ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑30%[x] Détermine la durée des effets bénéfiques actifs sur vous."
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "自分にかかっている有益な効果の持続時間を決定する。‑30%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Określa czas trwania korzystnych efektów działających na użytkownika ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Determina a duração dos efeitos de benéficos ativos em você ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Определяет длительность положительных эффектов на персонаже. ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "决定了你身上正面效果的持续时间。 ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3877,39 +4009,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bestimmt die Dauer der vorteilhaften Effekte, die auf dich wirken. ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Determines the duration of beneficial effects active on you ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Determina la duración de los efectos beneficiosos que tienes activos. ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑30%[x] Détermine la durée des effets bénéfiques actifs sur vous."
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "自分にかかっている有益な効果の持続時間を決定する。‑30%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Określa czas trwania korzystnych efektów działających na użytkownika ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Determina a duração dos efeitos de benéficos ativos em você ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Определяет длительность положительных эффектов на персонаже. ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "决定了你身上正面效果的持续时间。 ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3988,39 +4120,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erfahrungsgewinn ‑20%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Experience Gain ‑20%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de experiencia ‑20%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑20%[x] Gain d'expérience"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "経験値獲得量‑20%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane PD ‑20%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Experiencia ‑20%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение опыта ‑20%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "经验值获取 ‑20%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4099,39 +4231,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erfahrungsgewinn ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Experience Gain ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de experiencia ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑30%[x] Gain d'expérience"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "経験値獲得量‑30%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane PD ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Experiencia ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение опыта ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "经验值获取 ‑30%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4202,6 +4334,20 @@
                 {
                     "name": "9f862d10-a4ea-45dc-83b2-5c48ec3d2af6",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 10.0,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "Multiplicative",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Immune to Stun - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "StunResistance": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -4310,6 +4456,20 @@
                 {
                     "name": "eb3753c4-0dcd-444d-91d5-651679b76c39",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 10.0,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "Multiplicative",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Immune to Wither - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "baseStatModifiers": {
+                            "WitherResistance": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -4426,39 +4586,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Feuerresistenz ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Fire Resistance ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Fuego ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑25% Résistance au feu"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "火炎抵抗‑25%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na ogień ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Ígnea ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление огню ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "火焰抗性 ‑25%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4537,39 +4697,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Physikalische Resistenz ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Physical Resistance ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia física ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑25% Résistance physique"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "物理抵抗‑25%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na obrażenia fizyczne ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Física ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление физ. урону ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "物理抗性 ‑25%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4648,39 +4808,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Blitzresistenz ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Lightning Resistance ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Rayo ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑25% Résistance à la foudre"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "電撃抵抗‑25%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na błyskawice ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Elétrica ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление молниям ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "闪电抗性 ‑25%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4759,39 +4919,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Seuchenresistenz ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Plague Resistance ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia a la Plaga ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "‑25% Résistance à la peste"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "疫病抵抗‑25%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na zarazę ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Tóxica ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление чуме ‑25%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "瘟疫抗性 ‑25%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4861,39 +5021,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Die Anzahl deiner Durchläufe ist auf 7 begrenzt.\nNach erstmaligem Abschließen eines Akts erhältst du +7 Durchläufe."
+                            "langTranslation": "Die Anzahl deiner Durchläufe ist auf {0} begrenzt.\nNach erstmaligem Abschließen eines Akts erhältst du +{0} Durchläufe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "You are limited to 7 runs.\nYou get +7 runs after completing each Act for the first time."
+                            "langTranslation": "You are limited to {0} runs.\nYou get +{0} runs after completing each Act for the first time."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Se te limita a 7 intentos.\nObtienes +7 intentos después de completar cada Acto por primera vez."
+                            "langTranslation": "Se te limita a {0} intentos.\nObtienes +{0} intentos después de completar cada Acto por primera vez."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Vous n'avez droit qu'à 7 parties.\nVous gagnez 7 parties après avoir terminé chaque acte pour la première fois."
+                            "langTranslation": "Vous n'avez droit qu'à {0} parties.\nVous gagnez {0} parties après avoir terminé chaque acte pour la première fois."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ランが7回までしか行えない。\nActを初めて完了する旅、残りラン回数が7回増加する。"
+                            "langTranslation": "ランが{0}回までしか行えない。\nActを初めて完了する旅、残りラン回数が{0}回増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Możesz podjąć jedynie 7 prób.\nPo pierwszym ukończeniu każdego z Aktów otrzymujesz +7 do liczby prób"
+                            "langTranslation": "Możesz podjąć jedynie {0} prób.\nPo pierwszym ukończeniu każdego z Aktów otrzymujesz +{0} do liczby prób"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Você está limitado a 7 tentativas.\nVocê ganha +7 tentativas depois de completar cada Ato pela primeira vez."
+                            "langTranslation": "Você está limitado a {0} tentativas.\nVocê ganha +{0} tentativas depois de completar cada Ato pela primeira vez."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Количество попыток ограничено: 7.\nКоличество попыток увеличится на 7 за первое прохождение каждого акта."
+                            "langTranslation": "Количество попыток ограничено: {0}.\nКоличество попыток увеличится на {0} за первое прохождение каждого акта."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "你当前最多可进行 7 次挑战。\n首次完成每一幕时可额外获得 +7 次挑战机会。"
+                            "langTranslation": "你当前最多可进行 {0} 次挑战。\n首次完成每一幕时可额外获得 +{0} 次挑战机会。"
                         }
                     ]
                 }
@@ -4922,7 +5082,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Dragged To The Dark"
+                    "langTranslation": "In die Dunkelheit gezogen"
                 },
                 {
                     "langCode": "en",
@@ -4930,19 +5090,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Dragged To The Dark"
+                    "langTranslation": "Arrastrado a la oscuridad"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Dragged To The Dark"
+                    "langTranslation": "Traîné dans l'obscurité"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Dragged To The Dark"
+                    "langTranslation": "暗闇に引きずり込まれる"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Dragged To The Dark"
+                    "langTranslation": "Wciągnięty w ciemność"
                 },
                 {
                     "langCode": "pt-br",
@@ -4950,11 +5110,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Dragged To The Dark"
+                    "langTranslation": "Затянутые во тьму"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Dragged To The Dark"
+                    "langTranslation": "被拖入黑暗"
                 }
             ],
             "maxLevel": 1,
@@ -5033,7 +5193,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Pierced From The Dark"
+                    "langTranslation": "Durchbohrt aus der Dunkelheit"
                 },
                 {
                     "langCode": "en",
@@ -5041,19 +5201,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Pierced From The Dark"
+                    "langTranslation": "Perforado desde la oscuridad"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Pierced From The Dark"
+                    "langTranslation": "Percé de l'obscurité"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Pierced From The Dark"
+                    "langTranslation": "暗闇から突き抜けて"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Pierced From The Dark"
+                    "langTranslation": "Przebity z ciemności"
                 },
                 {
                     "langCode": "pt-br",
@@ -5061,11 +5221,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Pierced From The Dark"
+                    "langTranslation": "Пронзенный из тьмы"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Pierced From The Dark"
+                    "langTranslation": "黑暗刺穿"
                 }
             ],
             "maxLevel": 1,
@@ -5279,7 +5439,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Thirst"
+                    "langTranslation": "Durst"
                 },
                 {
                     "langCode": "en",
@@ -5287,19 +5447,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Thirst"
+                    "langTranslation": "Sed"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Thirst"
+                    "langTranslation": "Soif"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Thirst"
+                    "langTranslation": "渇き"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Thirst"
+                    "langTranslation": "Pragnienie"
                 },
                 {
                     "langCode": "pt-br",
@@ -5307,11 +5467,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Thirst"
+                    "langTranslation": "Жажда"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Thirst"
+                    "langTranslation": "口渴"
                 }
             ],
             "maxLevel": 1,
@@ -5390,7 +5550,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Barons of the Draught"
+                    "langTranslation": "Barone des Tranks"
                 },
                 {
                     "langCode": "en",
@@ -5398,19 +5558,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Barons of the Draught"
+                    "langTranslation": "Barones de la corriente de aire"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Barons of the Draught"
+                    "langTranslation": "Les barons de la traite"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Barons of the Draught"
+                    "langTranslation": "ドラフトの男爵"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Barons of the Draught"
+                    "langTranslation": "Baronowie Draught"
                 },
                 {
                     "langCode": "pt-br",
@@ -5418,11 +5578,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Barons of the Draught"
+                    "langTranslation": "Бароны шашлыка"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Barons of the Draught"
+                    "langTranslation": "饮水男爵"
                 }
             ],
             "maxLevel": 1,
@@ -5501,7 +5661,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Endless Horror"
+                    "langTranslation": "Endloser Horror"
                 },
                 {
                     "langCode": "en",
@@ -5509,19 +5669,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Endless Horror"
+                    "langTranslation": "Horror sin fin"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Endless Horror"
+                    "langTranslation": "Horreur sans fin"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Endless Horror"
+                    "langTranslation": "終わりのない恐怖"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Endless Horror"
+                    "langTranslation": "Niekończący się horror"
                 },
                 {
                     "langCode": "pt-br",
@@ -5529,11 +5689,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Endless Horror"
+                    "langTranslation": "Бесконечный ужас"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Endless Horror"
+                    "langTranslation": "无尽的恐怖"
                 }
             ],
             "maxLevel": 1,
@@ -5723,7 +5883,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Abgrund"
                 },
                 {
                     "langCode": "en",
@@ -5731,19 +5891,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Abismo"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Abîme"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "深淵"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Przepaść"
                 },
                 {
                     "langCode": "pt-br",
@@ -5751,11 +5911,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Бездна"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "深渊"
                 }
             ],
             "maxLevel": 1,
@@ -5834,7 +5994,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Abgrund"
                 },
                 {
                     "langCode": "en",
@@ -5842,19 +6002,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Abismo"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Abîme"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "深淵"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Przepaść"
                 },
                 {
                     "langCode": "pt-br",
@@ -5862,11 +6022,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "Бездна"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Abyss"
+                    "langTranslation": "深渊"
                 }
             ],
             "maxLevel": 1,
@@ -5995,39 +6155,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Der Erhalt von Seelensteinen ist um ‑25% verringert."
+                            "langTranslation": "Der Erhalt von Seelensteinen ist um {0} verringert."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Soul Stone Gain is reduced by ‑25%."
+                            "langTranslation": "All Soul Stone Gain is reduced by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Toda la obtención de piedras de alma se reduce en ‑25%."
+                            "langTranslation": "Toda la obtención de piedras de alma se reduce en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le gain de pierres d'âmes est réduit de ‑25%"
+                            "langTranslation": "Le gain de pierres d'âmes est réduit de {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆるソウルストーン獲得量が‑25%減少する。"
+                            "langTranslation": "あらゆるソウルストーン獲得量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o ‑25%"
+                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Todo o Ganho de Fragmentos de Alma é reduzido em ‑25%."
+                            "langTranslation": "Todo o Ganho de Fragmentos de Alma é reduzido em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вы получаете на ‑25% меньше камней душ"
+                            "langTranslation": "Вы получаете на {0} меньше камней душ"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "魂石获取减少 ‑25%。"
+                            "langTranslation": "魂石获取减少 {0}。"
                         }
                     ]
                 }
@@ -6097,39 +6257,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Der Erhalt von Seelensteinen ist um ‑25% verringert."
+                            "langTranslation": "Der Erhalt von Seelensteinen ist um {0} verringert."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "All Soul Stone Gain is reduced by ‑25%."
+                            "langTranslation": "All Soul Stone Gain is reduced by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Toda la obtención de piedras de alma se reduce en ‑25%."
+                            "langTranslation": "Toda la obtención de piedras de alma se reduce en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le gain de pierres d'âmes est réduit de ‑25%"
+                            "langTranslation": "Le gain de pierres d'âmes est réduit de {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆるソウルストーン獲得量が‑25%減少する。"
+                            "langTranslation": "あらゆるソウルストーン獲得量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o ‑25%"
+                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Todo o Ganho de Fragmentos de Alma é reduzido em ‑25%."
+                            "langTranslation": "Todo o Ganho de Fragmentos de Alma é reduzido em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вы получаете на ‑25% меньше камней душ"
+                            "langTranslation": "Вы получаете на {0} меньше камней душ"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "魂石获取减少 ‑25%。"
+                            "langTranslation": "魂石获取减少 {0}。"
                         }
                     ]
                 }

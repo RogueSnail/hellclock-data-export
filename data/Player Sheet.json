@@ -239,7 +239,8 @@
         "PlagueDamageConvertedAsLightning": "Override",
         "PlagueDamageConvertedAsPhysical": "Override",
         "MinimumAttackSpeed": "Override",
-        "MinimumMovementSpeed": "Override"
+        "MinimumMovementSpeed": "Override",
+        "LifeRegen": "Override"
     },
     "displayedStats": {
         "DamageLabel": [

@@ -61,39 +61,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Basisschaden +75"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Base Damage +75"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Daño básico +75"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+75 Dégâts de base"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "基本ダメージ+75"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Podstawowe obrażenia +75"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Dano Base +75"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Основной урон +75"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "基础伤害值 +75"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -170,39 +170,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Mana +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Mana +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Maná +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+100 Ferveur"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "マナ+100"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Mana +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Energia +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Мана +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "法力值 +100"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -279,39 +279,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Leben +200"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Life +200"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Vida +200"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+200 Vie"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "生命+200"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Życie +200"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vida +200"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Здоровье +200"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "生命 +200"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -442,39 +442,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erfahrungsgewinn +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Experience Gain +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de experiencia +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Gain d'expérience"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "経験値獲得量+5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane PD +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Experiencia +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение опыта +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "经验值获取 +5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -551,39 +551,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Goldgewinn +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Gold Gain +7.5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de oro +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+7,5%[+] Gain de réis"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ゴールド獲得量+7.5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane złoto +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Ouro +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение золота +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "金币获取 +7.5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -785,39 +785,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht das Höllenuhr-Timerlimit um 120 Sek."
+                            "langTranslation": "Erhöht das Höllenuhr-Timerlimit um {0} Sek."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases the Hell Clock timer limit by 120 seconds"
+                            "langTranslation": "Increases the Hell Clock timer limit by {0} seconds"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el límite del Reloj Infernal en 120 segundos"
+                            "langTranslation": "Aumenta el límite del Reloj Infernal en {0} segundos"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente la limite de l'Horloge infernale de 120 secondes"
+                            "langTranslation": "Augmente la limite de l'Horloge infernale de {0} secondes"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ヘルクロックの時間制限が120秒増加する。"
+                            "langTranslation": "ヘルクロックの時間制限が{0}秒増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększ limit licznika czasu piekielnego zegara o 120 s"
+                            "langTranslation": "Zwiększ limit licznika czasu piekielnego zegara o {0} s"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o tempo limite do Hell Clock em 120 segundos."
+                            "langTranslation": "Aumenta o tempo limite do Hell Clock em {0} segundos."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает запас хода Адских часов на 120 сек."
+                            "langTranslation": "Повышает запас хода Адских часов на {0} сек."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "地狱时钟的计时上限提高 120 秒"
+                            "langTranslation": "地狱时钟的计时上限提高 {0} 秒"
                         }
                     ]
                 }
@@ -894,39 +894,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Leben +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Life +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Vida +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+100 Vie"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "生命+100"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Życie +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vida +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Здоровье +100"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "生命 +100"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -1003,39 +1003,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Lebensregeneration durch Trank (%) +12%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Potion Life Percentage Regen +12%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Regen. porcentual de vida con poción +12%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+12% Pourcentage de vie régénéré par potion"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ポーションのライフ割合再生+12%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Procentowa regeneracja życia z mikstury +12%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Regeneração de Percentual de Vida por Poção +12%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Восстановление здоровья зельями, % +12%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "药水生命再生 (%) +12%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -1243,39 +1243,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht das Höllenuhr-Timerlimit um 30 Sek."
+                            "langTranslation": "Erhöht das Höllenuhr-Timerlimit um {0} Sek."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases the Hell Clock timer limit by 30 seconds"
+                            "langTranslation": "Increases the Hell Clock timer limit by {0} seconds"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el límite del Reloj Infernal en 30 segundos"
+                            "langTranslation": "Aumenta el límite del Reloj Infernal en {0} segundos"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente la limite de l'Horloge infernale de 30 secondes"
+                            "langTranslation": "Augmente la limite de l'Horloge infernale de {0} secondes"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ヘルクロックの時間制限が30秒増加する。"
+                            "langTranslation": "ヘルクロックの時間制限が{0}秒増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększ limit licznika czasu piekielnego zegara o 30 s"
+                            "langTranslation": "Zwiększ limit licznika czasu piekielnego zegara o {0} s"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o tempo limite do Hell Clock em 30 segundos."
+                            "langTranslation": "Aumenta o tempo limite do Hell Clock em {0} segundos."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает запас хода Адских часов на 30 сек."
+                            "langTranslation": "Повышает запас хода Адских часов на {0} сек."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "地狱时钟的计时上限提高 30 秒"
+                            "langTranslation": "地狱时钟的计时上限提高 {0} 秒"
                         }
                     ]
                 }
@@ -1352,39 +1352,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhalt Seelensteine +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Soul Stone Gain +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de piedras de alma +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[x] Gain de pierres d'âme"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ソウルストーン獲得量+5%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane Kamienie Dusz +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Frag. de Alma +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение камней душ +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "魂石获取 +5%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -1461,39 +1461,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die Chance für das Erscheinen des Roten Portals um 10%."
+                            "langTranslation": "Erhöht die Chance für das Erscheinen des Roten Portals um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases chance of spawning the Red Portal by 10%"
+                            "langTranslation": "Increases chance of spawning the Red Portal by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta la probabilidad de que aparezca el Portal Rojo en 10%"
+                            "langTranslation": "Aumenta la probabilidad de que aparezca el Portal Rojo en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de 10% les chances qu'un Portail Rouge apparaisse"
+                            "langTranslation": "Augmente de {0} les chances qu'un Portail Rouge apparaisse"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "レッドポータルの出現率が10%上昇する。"
+                            "langTranslation": "レッドポータルの出現率が{0}上昇する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa szansę na pojawienie się Czerwonego Portalu o 10%"
+                            "langTranslation": "Zwiększa szansę na pojawienie się Czerwonego Portalu o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta a chance de encontrar um Portal Vermelho em 10%"
+                            "langTranslation": "Aumenta a chance de encontrar um Portal Vermelho em {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает вероятность появления красного портала на 10%"
+                            "langTranslation": "Повышает вероятность появления красного портала на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "红色传送门的生成几率提高 10%"
+                            "langTranslation": "红色传送门的生成几率提高 {0}"
                         }
                     ]
                 }
@@ -1570,39 +1570,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die Anzahl der mit dem Roten Portal übersprungenen Ebenen um 1."
+                            "langTranslation": "Erhöht die Anzahl der mit dem Roten Portal übersprungenen Ebenen um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases number of skipped floors using the Red Portal by 1"
+                            "langTranslation": "Increases number of skipped floors using the Red Portal by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta la cantidad de pisos omitidos con el Portal Rojo en 1"
+                            "langTranslation": "Aumenta la cantidad de pisos omitidos con el Portal Rojo en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de 1 le nombre d'étages que le Portail Rouge permet de passer"
+                            "langTranslation": "Augmente de {0} le nombre d'étages que le Portail Rouge permet de passer"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "レッドポータルでスキップする階層数が1増加する。"
+                            "langTranslation": "レッドポータルでスキップする階層数が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa liczbę pięter pomijanych przy użyciu Czerwonego Portalu o 1"
+                            "langTranslation": "Zwiększa liczbę pięter pomijanych przy użyciu Czerwonego Portalu o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o número de pisos pulados pelo Portal Vermelho em 1"
+                            "langTranslation": "Aumenta o número de pisos pulados pelo Portal Vermelho em {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает количество этажей, которые можно пропустить при помощи красного портала, на 1"
+                            "langTranslation": "Повышает количество этажей, которые можно пропустить при помощи красного портала, на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "红色传送门可跳过的层级数增加 1"
+                            "langTranslation": "红色传送门可跳过的层级数增加 {0}"
                         }
                     ]
                 }
@@ -1679,39 +1679,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Physikalische Resistenz +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Physical Resistance +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia física +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2% Résistance physique"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "物理抵抗+2%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na obrażenia fizyczne +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Física +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление физ. урону +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "物理抗性 +2%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -1788,39 +1788,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Feuerresistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Fire Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Fuego +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résistance au feu"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "火炎抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na ogień +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Ígnea +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление огню +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "火焰抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -1897,39 +1897,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Feuerresistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Fire Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Fuego +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résistance au feu"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "火炎抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na ogień +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Ígnea +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление огню +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "火焰抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2006,39 +2006,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Blitzresistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Lightning Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Rayo +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résistance à la foudre"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "電撃抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na błyskawice +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Elétrica +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление молниям +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "闪电抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2115,39 +2115,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Blitzresistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Lightning Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Rayo +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résistance à la foudre"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "電撃抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na błyskawice +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Elétrica +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление молниям +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "闪电抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2224,39 +2224,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Seuchenresistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Plague Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia a la Plaga +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résistance à la peste"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "疫病抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na zarazę +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Tóxica +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление чуме +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "瘟疫抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2333,39 +2333,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Seuchenresistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Plague Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia a la Plaga +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résistance à la peste"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "疫病抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na zarazę +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Tóxica +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление чуме +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "瘟疫抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2557,39 +2557,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Beginne den Dungeon mit 500 Gold."
+                            "langTranslation": "Beginne den Dungeon mit {0} Gold."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Starts the dungeon with 500 Gold"
+                            "langTranslation": "Starts the dungeon with {0} Gold"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Comienza la mazmorra con 500 de oro"
+                            "langTranslation": "Comienza la mazmorra con {0} de oro"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Accorde 500 réis au début du donjon"
+                            "langTranslation": "Accorde {0} réis au début du donjon"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ダンジョン開始時の初期所持ゴールド500"
+                            "langTranslation": "ダンジョン開始時の初期所持ゴールド{0}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zaczynasz podziemia z 500 szt. złota"
+                            "langTranslation": "Zaczynasz podziemia z {0} szt. złota"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Inicia a partida com 500 de Ouro"
+                            "langTranslation": "Inicia a partida com {0} de Ouro"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вы начинаете подземелье с 500 ед. золота"
+                            "langTranslation": "Вы начинаете подземелье с {0} ед. золота"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "地牢初始金币为 500"
+                            "langTranslation": "地牢初始金币为 {0}"
                         }
                     ]
                 }
@@ -2666,39 +2666,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Max. Überzeugung +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Max. Conviction +7.5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Convicción Máx. +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+7,5%[+] Conviction max."
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念最大値+7.5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Maksymalne Przekonanie +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Convicção Máxima +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Максимальная непоколебимость +7,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "最大信念 +7.5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2775,39 +2775,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Gewährt pro verbrauchtem Mana +5% Überzeugung.\n<i>Überzeugung ist ein temporärer Schild, der dich vor Schaden bewahrt, aber im Laufe der Zeit verfällt.</i>"
+                            "langTranslation": "Gewährt pro verbrauchtem Mana {0} Überzeugung.\n<i>Überzeugung ist ein temporärer Schild, der dich vor Schaden bewahrt, aber im Laufe der Zeit verfällt.</i>"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Grants +5% Conviction per Mana Spent\n<i>Conviction is a temporary Shield that protects you from damage, but decays over time.</i>"
+                            "langTranslation": "Grants {0} Conviction per Mana Spent\n<i>Conviction is a temporary Shield that protects you from damage, but decays over time.</i>"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Otorga +5% de Convicción por maná usado\n<i>Convicción es un escudo temporal que te protege del daño, pero se desgasta con el tiempo.</i>"
+                            "langTranslation": "Otorga {0} de Convicción por maná usado\n<i>Convicción es un escudo temporal que te protege del daño, pero se desgasta con el tiempo.</i>"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Accorde +5% de conviction par ferveur dépensée.\n<i>La conviction agit comme un bouclier temporaire qui protège des dégâts, mais s'estompe avec le temps.</i>"
+                            "langTranslation": "Accorde {0} de conviction par ferveur dépensée.\n<i>La conviction agit comme un bouclier temporaire qui protège des dégâts, mais s'estompe avec le temps.</i>"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "使用済みマナごとに信念を+5%獲得する\n<i>信念は一時的なシールドとしてお前をダメージから守るが、時間によって減衰する。</i>"
+                            "langTranslation": "使用済みマナごとに信念を{0}獲得する\n<i>信念は一時的なシールドとしてお前をダメージから守るが、時間によって減衰する。</i>"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zapewnia +5% pkt. Przekonania na wydaną manę\n<i>Przekonanie to chwilowa tarcza, która chroni cię przed obrażeniami, ale zanika z upływem czasu</i>"
+                            "langTranslation": "Zapewnia {0} pkt. Przekonania na wydaną manę\n<i>Przekonanie to chwilowa tarcza, która chroni cię przed obrażeniami, ale zanika z upływem czasu</i>"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganha +5% de Convicção por Energia Gasta\n<i>A Convicção é um escudo temporário que te protege de danos, mas decai com o tempo.</i>"
+                            "langTranslation": "Ganha {0} de Convicção por Energia Gasta\n<i>A Convicção é um escudo temporário que te protege de danos, mas decai com o tempo.</i>"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Дает +5% ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
+                            "langTranslation": "Дает {0} ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "每消耗 1 点法力，获得 +5% 信念值\n<i>信念是一种临时护盾，可抵挡伤害，但会随时间流逝而减弱</i>。"
+                            "langTranslation": "每消耗 1 点法力，获得 {0} 信念值\n<i>信念是一种临时护盾，可抵挡伤害，但会随时间流逝而减弱</i>。"
                         }
                     ]
                 }
@@ -2884,39 +2884,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsverfall-Resistenz +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conv. Decay Resistance +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al desgaste de conv. +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10% Résist. perte de conviction"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念減衰抵抗+10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na rozpad Przekonania +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resist. ao Decaimento +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопр. снижению непоколебимости +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念减弱抗性 +10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -2993,39 +2993,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhalt Seelensteine +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Soul Stone Gain +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de piedras de alma +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Gain de pierres d'âme"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ソウルストーン獲得量+5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane Kamienie Dusz +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Frag. de Alma +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение камней душ +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "魂石获取 +5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3102,39 +3102,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Goldgewinn +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Gold Gain +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de oro +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10%[+] Gain de réis"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ゴールド獲得量+10%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane złoto +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Ouro +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение золота +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "金币获取 +10%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3211,39 +3211,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Verringert die Kosten gesegneter Ausrüstung in João Abades Laden um 5%."
+                            "langTranslation": "Verringert die Kosten gesegneter Ausrüstung in João Abades Laden um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Reduces cost of Blessed Gear at João Abade's shop in 5%"
+                            "langTranslation": "Reduces cost of Blessed Gear at João Abade's shop in {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Reduce el costo del equipo bendecido de la tienda de João Abade en 5%"
+                            "langTranslation": "Reduce el costo del equipo bendecido de la tienda de João Abade en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Réduit de 5% le coût de l'équipement béni à l'échoppe de João Abade"
+                            "langTranslation": "Réduit de {0} le coût de l'équipement béni à l'échoppe de João Abade"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ジョアン・アバージの店における祝福装備のコストが5%減少する。"
+                            "langTranslation": "ジョアン・アバージの店における祝福装備のコストが{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zmniejsza koszt błogosławionego sprzętu w sklepie João Abadego o 5%."
+                            "langTranslation": "Zmniejsza koszt błogosławionego sprzętu w sklepie João Abadego o {0}."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Reduz o custo de Equipamentos Abençoados na loja do João Abade em 5%"
+                            "langTranslation": "Reduz o custo de Equipamentos Abençoados na loja do João Abade em {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Понижает стоимость освященного снаряжения в лавке Жуана Аббата на 5%"
+                            "langTranslation": "Понижает стоимость освященного снаряжения в лавке Жуана Аббата на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "在若昂·阿巴德的商店中购买圣铸装备时，所需消耗减少 5%"
+                            "langTranslation": "在若昂·阿巴德的商店中购买圣铸装备时，所需消耗减少 {0}"
                         }
                     ]
                 }
@@ -3320,39 +3320,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Verringert die Aufwertungskosten deiner Relikte um 5%."
+                            "langTranslation": "Verringert die Aufwertungskosten deiner Relikte um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Reduces the upgrade cost of your Relics by 5%"
+                            "langTranslation": "Reduces the upgrade cost of your Relics by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Reduce el costo de mejora de las reliquias en 5%"
+                            "langTranslation": "Reduce el costo de mejora de las reliquias en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Réduit de 5% le coût d'amélioration de vos reliques"
+                            "langTranslation": "Réduit de {0} le coût d'amélioration de vos reliques"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "聖遺物のアップグレードコストが5%減少する。"
+                            "langTranslation": "聖遺物のアップグレードコストが{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zmniejsz koszt ulepszenia artefaktu o 5%"
+                            "langTranslation": "Zmniejsz koszt ulepszenia artefaktu o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Reduz o custo de aprimoramento das suas Relíquias em 5%"
+                            "langTranslation": "Reduz o custo de aprimoramento das suas Relíquias em {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Понижает стоимость улучшения реликвий на 5%"
+                            "langTranslation": "Понижает стоимость улучшения реликвий на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "遗物升级所需消耗减少 5%"
+                            "langTranslation": "遗物升级所需消耗减少 {0}"
                         }
                     ]
                 }
@@ -3429,39 +3429,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bonuschance auf Talismane +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Bonus Trinket Drop Chance +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Probabilidad adicional de encontrar de amuletos +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10% Obtention d'amulettes bonus"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "護符ドロップ率ボーナス+10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Szansa na upuszczenie świecidełka +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Bônus em achar Vestígios\n +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Бонус к шансу выпадения амулетов +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "护符掉落几率加成 +10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3546,39 +3546,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bonuschance auf Relikte +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Bonus Relic Drop Chance +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Probabilidad adicional de encontrar de reliquias +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10% Obtention de reliques bonus"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "聖遺物ドロップ率ボーナス+10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Szansa na upuszczenie artefaktu +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Bônus em achar Relíquias +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Бонус к шансу выпадения реликвий +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "遗物掉落几率加成 +10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3655,39 +3655,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die durch Relikt-Wiederverwertung erhaltene Menge an Seelensteinen um 12%."
+                            "langTranslation": "Erhöht die durch Relikt-Wiederverwertung erhaltene Menge an Seelensteinen um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Soul Stones gained via Relic Recycle by 12%"
+                            "langTranslation": "Increases Soul Stones gained via Relic Recycle by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta las piedras de alma obtenidas mediante el reciclaje de reliquias en 12%"
+                            "langTranslation": "Aumenta las piedras de alma obtenidas mediante el reciclaje de reliquias en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de 12% la quantité de pierres d'âme obtenues par la fonte de reliques"
+                            "langTranslation": "Augmente de {0} la quantité de pierres d'âme obtenues par la fonte de reliques"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "聖遺物分解によるソウルストーン獲得量が12%増加する。"
+                            "langTranslation": "聖遺物分解によるソウルストーン獲得量が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa liczbę Kamieni Dusz zdobywanych przez recykling artefaktu o 12%"
+                            "langTranslation": "Zwiększa liczbę Kamieni Dusz zdobywanych przez recykling artefaktu o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o reembolso de Fragmentos de Alma ao Reciclar Relíquias em 12%"
+                            "langTranslation": "Aumenta o reembolso de Fragmentos de Alma ao Reciclar Relíquias em {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает количество камней душ, получаемых за преобразование реликвий, на 12%"
+                            "langTranslation": "Повышает количество камней душ, получаемых за преобразование реликвий, на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "遗物回收获得的魂石数量提高 12%"
+                            "langTranslation": "遗物回收获得的魂石数量提高 {0}"
                         }
                     ]
                 }
@@ -3764,39 +3764,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Max. Überzeugung +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Max. Conviction +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Convicción Máx. +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Conviction max."
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念最大値+5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Maksymalne Przekonanie +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Convicção Máxima +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Максимальная непоколебимость +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "最大信念 +5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3873,39 +3873,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsverfall-Resistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conv. Decay Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al desgaste de conv. +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résist. perte de conviction"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念減衰抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na rozpad Przekonania +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resist. ao Decaimento +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопр. снижению непоколебимости +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念减弱抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -3990,39 +3990,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Trankkapazität +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Potion Capacity +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Capacidad de poción +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+1 Réserve de potions"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ポーション最大所持数+1"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Pojemność mikstur +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Limite de Poções +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Запас зелий +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "药水容量 +1"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4107,39 +4107,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bonuschance auf Ausrüstung +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Bonus Gear Drop Chance +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Probabilidad adicional de encontrar de equipo +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10% Obtention d'équipement bonus"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "装備ドロップ率ボーナス+10%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Szansa na upuszczenie sprzętu +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Bônus em achar Equips. +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Бонус к шансу выпадения снаряжения +10%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "装备掉落几率加成 +10%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4216,39 +4216,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Verringert die Kosten für das Neuwürfeln von Segen um 10%[x]."
+                            "langTranslation": "Verringert die Kosten für das Neuwürfeln von Segen um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Reduces Cost for Blessing Redraw by 10%[x]"
+                            "langTranslation": "Reduces Cost for Blessing Redraw by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Reduce el costo de Segunda Bendición en 10%[x]"
+                            "langTranslation": "Reduce el costo de Segunda Bendición en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Réduit de 10%[x] le coût d'un retirage de bénédictions"
+                            "langTranslation": "Réduit de {0} le coût d'un retirage de bénédictions"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "祝福の引き直しコストが10%[x]減少する。"
+                            "langTranslation": "祝福の引き直しコストが{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zmniejsza koszt Zmiany Błogosławieństwa o 10%[x]"
+                            "langTranslation": "Zmniejsza koszt Zmiany Błogosławieństwa o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Reduz o custo do Ressorteio de Bençãos em 10%[x]"
+                            "langTranslation": "Reduz o custo do Ressorteio de Bençãos em {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Понижает стоимость сброса благословений на 10%[x]"
+                            "langTranslation": "Понижает стоимость сброса благословений на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "恩泽重抽所需消耗减少 10%[x]"
+                            "langTranslation": "恩泽重抽所需消耗减少 {0}"
                         }
                     ]
                 }
@@ -4325,39 +4325,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Leben +80"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Life +80"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Vida +80"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+80 Vie"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "生命+80"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Życie +80"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vida +80"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Здоровье +80"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "生命 +80"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4499,39 +4499,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Abklingzeit: <style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "Abklingzeit: <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Cooldown <style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "Cooldown <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Enfriamiento <style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "Enfriamiento <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Temps de recharge <style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "Temps de recharge <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "クールダウン<style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "クールダウン<style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Czas odnawiania <style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "Czas odnawiania <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Tempo de Recarga <style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "Tempo de Recarga <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "<style=\"GreenText\">-10%[x]</style> к перезарядке"
+                            "langTranslation": "<style=\"GreenText\">{0}</style> к перезарядке"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "冷却时间：<style=\"GreenText\">-10%[x]</style>"
+                            "langTranslation": "冷却时间：<style=\"GreenText\">{0}</style>"
                         }
                     ]
                 }
@@ -4600,44 +4600,45 @@
                 {
                     "name": "47275bf2-22cb-41f3-88bd-3f1c3f579038",
                     "type": "SkillEquipNodeAffixDefinition",
+                    "skillDefinition": {},
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Schaltet Neuer Atem frei, eine passive Fertigkeit, die dich im Falle deines Todes beschützt (Abklingzeit: 300 Sek.)."
+                            "langTranslation": "Schaltet {0} frei, eine passive Fertigkeit, die dich im Falle deines Todes beschützt (Abklingzeit: 300 Sek.)."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Unlocks Second Wind, a passive skill that protects you upon death (Cooldown: 300s)"
+                            "langTranslation": "Unlocks {0}, a passive skill that protects you upon death (Cooldown: 300s)"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Desbloquea Segundo Aliento, una habilidad pasiva que te protege cuando mueres (300 s de enfriamiento)."
+                            "langTranslation": "Desbloquea {0}, una habilidad pasiva que te protege cuando mueres (300 s de enfriamiento)."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Débloque Second souffle, une compétence passive qui vous protège de la mort (temps de recharge : 300 secondes)"
+                            "langTranslation": "Débloque {0}, une compétence passive qui vous protège de la mort (temps de recharge : 300 secondes)"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "復活の息吹をアンロックする。このパッシヴスキルはお前を死から守る（クールダウン：300秒）"
+                            "langTranslation": "{0}をアンロックする。このパッシヴスキルはお前を死から守る（クールダウン：300秒）"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odblokowuje Nowa Energia – pasywną umiejętność, która chroni cię przed śmiercią. Czas odnawiania: 300 s"
+                            "langTranslation": "Odblokowuje {0} – pasywną umiejętność, która chroni cię przed śmiercią. Czas odnawiania: 300 s"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Desbloqueia a \"Segunda Chance\", uma habilidade passiva que te protege na morte. (Tempo de Recarga: 300s)"
+                            "langTranslation": "Desbloqueia a \"{0}\", uma habilidade passiva que te protege na morte. (Tempo de Recarga: 300s)"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Открывает пассивный навык «Второе дыхание», который защищает вас от смерти (перезарядка: 300 сек.)"
+                            "langTranslation": "Открывает пассивный навык «{0}», который защищает вас от смерти (перезарядка: 300 сек.)"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "解锁绝处逢生，这是一项能在你濒死时触发的被动技能，可保你不死。(冷却时间：300 秒)"
+                            "langTranslation": "解锁{0}，这是一项能在你濒死时触发的被动技能，可保你不死。(冷却时间：300 秒)"
                         }
                     ]
                 },
@@ -4824,39 +4825,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Angriffstempo +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Attack Speed +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de ataque +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10%[+] Vitesse d'attaque"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "攻撃速度+10%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość ataku +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vel. de Ataque +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Скорость атаки +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "攻击速度 +10%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -4933,39 +4934,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Abklingtempo +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Cooldown Speed +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de enfriamiento +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10%[+] Vitesse de recharge"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "クールダウン速度+10%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość odnowienia +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vel. de Tempo de Recarga +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Время восстановления навыков +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "冷却速度 +10%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -5151,39 +5152,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bewegungstempo +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Move Speed +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de movimiento +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Vitesse de déplacement"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "移動速度+5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość ruchu +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Movimento +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Скорость передвижения +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "移动速度 +5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -5298,39 +5299,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Gewährt zu Beginn eines neuen Durchlaufs +1 Fertigkeitssegen."
+                            "langTranslation": "Gewährt zu Beginn eines neuen Durchlaufs +{0} Fertigkeitssegen."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Grants +1 Skill Blessing at Start of a new Run."
+                            "langTranslation": "Grants +{0} Skill Blessing at Start of a new Run."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Otorga +1 de bendición de habilidad al comienzo de un nuevo intento"
+                            "langTranslation": "Otorga +{0} de bendición de habilidad al comienzo de un nuevo intento"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Accorde +1 bénédiction de compétence au début d'une partie"
+                            "langTranslation": "Accorde +{0} bénédiction de compétence au début d'une partie"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ラン開始時のスキル祝福を1増やす。"
+                            "langTranslation": "ラン開始時のスキル祝福を{0}増やす。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zapewnia +1 do Błogosławieństwa umiejętności na początku nowej próby."
+                            "langTranslation": "Zapewnia +{0} do Błogosławieństwa umiejętności na początku nowej próby."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Concede +1 Bênção de Habilidade no Começo uma nova partida."
+                            "langTranslation": "Concede +{0} Bênção de Habilidade no Começo uma nova partida."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Дает +1 к благословению навыков в начале каждого забега."
+                            "langTranslation": "Дает +{0} к благословению навыков в начале каждого забега."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "每次开始新一轮挑战时，额外获得 +1 个技能恩泽。"
+                            "langTranslation": "每次开始新一轮挑战时，额外获得 +{0} 个技能恩泽。"
                         }
                     ]
                 }
@@ -5398,39 +5399,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Gewährt zu Beginn eines neuen Durchlaufs +1 Fertigkeitssegen."
+                            "langTranslation": "Gewährt zu Beginn eines neuen Durchlaufs +{0} Fertigkeitssegen."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Grants +1 Skill Blessing at Start of a new Run."
+                            "langTranslation": "Grants +{0} Skill Blessing at Start of a new Run."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Otorga +1 de bendición de habilidad al comienzo de un nuevo intento"
+                            "langTranslation": "Otorga +{0} de bendición de habilidad al comienzo de un nuevo intento"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Accorde +1 bénédiction de compétence au début d'une partie"
+                            "langTranslation": "Accorde +{0} bénédiction de compétence au début d'une partie"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ラン開始時のスキル祝福を1増やす。"
+                            "langTranslation": "ラン開始時のスキル祝福を{0}増やす。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zapewnia +1 do Błogosławieństwa umiejętności na początku nowej próby."
+                            "langTranslation": "Zapewnia +{0} do Błogosławieństwa umiejętności na początku nowej próby."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Concede +1 Bênção de Habilidade no Começo uma nova partida."
+                            "langTranslation": "Concede +{0} Bênção de Habilidade no Começo uma nova partida."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Дает +1 к благословению навыков в начале каждого забега."
+                            "langTranslation": "Дает +{0} к благословению навыков в начале каждого забега."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "每次开始新一轮挑战时，额外获得 +1 个技能恩泽。"
+                            "langTranslation": "每次开始新一轮挑战时，额外获得 +{0} 个技能恩泽。"
                         }
                     ]
                 }
@@ -5507,39 +5508,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um 1."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by 1"
+                            "langTranslation": "Increases Maximum Skill Level by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en 1"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de 1 le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが1上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o 1"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em 1."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на 1"
+                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 1"
+                            "langTranslation": "技能等级上限提高 {0}"
                         }
                     ]
                 }
@@ -5616,39 +5617,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Leben +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Life +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Vida +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+120 Vie"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "生命+120"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Życie +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vida +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Здоровье +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "生命 +120"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -5840,39 +5841,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bewegungstempo +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Move Speed +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de movimiento +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Vitesse de déplacement"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "移動速度+5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość ruchu +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Movimento +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Скорость передвижения +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "移动速度 +5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -5949,39 +5950,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Gewährt pro verbrauchtem Mana +3% Überzeugung.\n<i>Überzeugung ist ein temporärer Schild, der dich vor Schaden bewahrt, aber im Laufe der Zeit verfällt.</i>"
+                            "langTranslation": "Gewährt pro verbrauchtem Mana {0} Überzeugung.\n<i>Überzeugung ist ein temporärer Schild, der dich vor Schaden bewahrt, aber im Laufe der Zeit verfällt.</i>"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Grants +3% Conviction per Mana Spent\n<i>Conviction is a temporary Shield that protects you from damage, but decays over time.</i>"
+                            "langTranslation": "Grants {0} Conviction per Mana Spent\n<i>Conviction is a temporary Shield that protects you from damage, but decays over time.</i>"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Otorga +3% de Convicción por maná usado\n<i>Convicción es un escudo temporal que te protege del daño, pero se desgasta con el tiempo.</i>"
+                            "langTranslation": "Otorga {0} de Convicción por maná usado\n<i>Convicción es un escudo temporal que te protege del daño, pero se desgasta con el tiempo.</i>"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Accorde +3% de conviction par ferveur dépensée.\n<i>La conviction agit comme un bouclier temporaire qui protège des dégâts, mais s'estompe avec le temps.</i>"
+                            "langTranslation": "Accorde {0} de conviction par ferveur dépensée.\n<i>La conviction agit comme un bouclier temporaire qui protège des dégâts, mais s'estompe avec le temps.</i>"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "使用済みマナごとに信念を+3%獲得する\n<i>信念は一時的なシールドとしてお前をダメージから守るが、時間によって減衰する。</i>"
+                            "langTranslation": "使用済みマナごとに信念を{0}獲得する\n<i>信念は一時的なシールドとしてお前をダメージから守るが、時間によって減衰する。</i>"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zapewnia +3% pkt. Przekonania na wydaną manę\n<i>Przekonanie to chwilowa tarcza, która chroni cię przed obrażeniami, ale zanika z upływem czasu</i>"
+                            "langTranslation": "Zapewnia {0} pkt. Przekonania na wydaną manę\n<i>Przekonanie to chwilowa tarcza, która chroni cię przed obrażeniami, ale zanika z upływem czasu</i>"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganha +3% de Convicção por Energia Gasta\n<i>A Convicção é um escudo temporário que te protege de danos, mas decai com o tempo.</i>"
+                            "langTranslation": "Ganha {0} de Convicção por Energia Gasta\n<i>A Convicção é um escudo temporário que te protege de danos, mas decai com o tempo.</i>"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Дает +3% ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
+                            "langTranslation": "Дает {0} ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "每消耗 1 点法力，获得 +3% 信念值\n<i>信念是一种临时护盾，可抵挡伤害，但会随时间流逝而减弱</i>。"
+                            "langTranslation": "每消耗 1 点法力，获得 {0} 信念值\n<i>信念是一种临时护盾，可抵挡伤害，但会随时间流逝而减弱</i>。"
                         }
                     ]
                 }
@@ -6058,39 +6059,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsverfall-Resistenz +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conv. Decay Resistance +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al desgaste de conv. +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5% Résist. perte de conviction"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念減衰抵抗+5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na rozpad Przekonania +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resist. ao Decaimento +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопр. снижению непоколебимости +5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念减弱抗性 +5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -6167,39 +6168,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Max. Überzeugung +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Max. Conviction +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Convicción Máx. +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[x] Conviction max."
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念最大値+5%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Maksymalne Przekonanie +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Convicção Máxima +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Максимальная непоколебимость +5%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "最大信念 +5%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -6276,39 +6277,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Seuchenresistenz +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Plague Resistance +2.5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia a la Plaga +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2,5% Résistance à la peste"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "疫病抵抗+2.5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na zarazę +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Tóxica +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление чуме +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "瘟疫抗性 +2.5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -6385,39 +6386,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Abklingtempo +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Cooldown Speed +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de enfriamiento +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10%[+] Vitesse de recharge"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "クールダウン速度+10%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość odnowienia +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vel. de Tempo de Recarga +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Время восстановления навыков +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "冷却速度 +10%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -6627,39 +6628,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Angriffstempo +10%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Attack Speed +10%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de ataque +10%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10%[x] Vitesse d'attaque"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "攻撃速度+10%[x]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość ataku +10%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vel. de Ataque +10%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Скорость атаки +10%[x]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "攻击速度 +10%[x]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -6736,39 +6737,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Blitzresistenz +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Lightning Resistance +2.5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Rayo +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2,5% Résistance à la foudre"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "電撃抵抗+2.5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na błyskawice +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Elétrica +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление молниям +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "闪电抗性 +2.5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -6845,39 +6846,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Feuerresistenz +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Fire Resistance +2.5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Fuego +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2,5% Résistance au feu"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "火炎抵抗+2.5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na ogień +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Ígnea +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление огню +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "火焰抗性 +2.5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -6962,39 +6963,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Physikalische Resistenz +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Physical Resistance +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia física +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2% Résistance physique"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "物理抵抗+2%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na obrażenia fizyczne +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Física +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление физ. урону +2%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "物理抗性 +2%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -7180,39 +7181,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Leben +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Life +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Vida +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+120 Vie"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "生命+120"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Życie +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vida +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Здоровье +120"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "生命 +120"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -7289,39 +7290,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Basisschaden +60"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Base Damage +60"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Daño básico +60"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+60 Dégâts de base"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "基本ダメージ+60"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Podstawowe obrażenia +60"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Dano Base +60"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Основной урон +60"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "基础伤害值 +60"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -7406,39 +7407,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bonuschance auf Relikte (Boss) +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Bonus Relic Drops from Boss +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Probabilidad adicional de que los jefes suelten reliquias +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+1 Reliques sur les boss"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ボス聖遺物ドロップ率ボーナス+1"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Szansa na upuszczenie artefaktu przez bossa +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Chance Bônus de encontrar Relíquias em bosses +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Бонус к шансу выпадения реликвий с босса +1"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "首领遗物掉落加成 +1"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -7515,39 +7516,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Bewegungstempo +2,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Move Speed +2.5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de movimiento +2,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2,5%[+] Vitesse de déplacement"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "移動速度+2.5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość ruchu +2,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Movimento +2,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Скорость передвижения +2,5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "移动速度 +2.5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -7624,39 +7625,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Gewährt pro verbrauchtem Mana +3,5% Überzeugung.\n<i>Überzeugung ist ein temporärer Schild, der dich vor Schaden bewahrt, aber im Laufe der Zeit verfällt.</i>"
+                            "langTranslation": "Gewährt pro verbrauchtem Mana {0} Überzeugung.\n<i>Überzeugung ist ein temporärer Schild, der dich vor Schaden bewahrt, aber im Laufe der Zeit verfällt.</i>"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Grants +3.5% Conviction per Mana Spent\n<i>Conviction is a temporary Shield that protects you from damage, but decays over time.</i>"
+                            "langTranslation": "Grants {0} Conviction per Mana Spent\n<i>Conviction is a temporary Shield that protects you from damage, but decays over time.</i>"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Otorga +3,5% de Convicción por maná usado\n<i>Convicción es un escudo temporal que te protege del daño, pero se desgasta con el tiempo.</i>"
+                            "langTranslation": "Otorga {0} de Convicción por maná usado\n<i>Convicción es un escudo temporal que te protege del daño, pero se desgasta con el tiempo.</i>"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Accorde +3,5% de conviction par ferveur dépensée.\n<i>La conviction agit comme un bouclier temporaire qui protège des dégâts, mais s'estompe avec le temps.</i>"
+                            "langTranslation": "Accorde {0} de conviction par ferveur dépensée.\n<i>La conviction agit comme un bouclier temporaire qui protège des dégâts, mais s'estompe avec le temps.</i>"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "使用済みマナごとに信念を+3.5%獲得する\n<i>信念は一時的なシールドとしてお前をダメージから守るが、時間によって減衰する。</i>"
+                            "langTranslation": "使用済みマナごとに信念を{0}獲得する\n<i>信念は一時的なシールドとしてお前をダメージから守るが、時間によって減衰する。</i>"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zapewnia +3,5% pkt. Przekonania na wydaną manę\n<i>Przekonanie to chwilowa tarcza, która chroni cię przed obrażeniami, ale zanika z upływem czasu</i>"
+                            "langTranslation": "Zapewnia {0} pkt. Przekonania na wydaną manę\n<i>Przekonanie to chwilowa tarcza, która chroni cię przed obrażeniami, ale zanika z upływem czasu</i>"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganha +3,5% de Convicção por Energia Gasta\n<i>A Convicção é um escudo temporário que te protege de danos, mas decai com o tempo.</i>"
+                            "langTranslation": "Ganha {0} de Convicção por Energia Gasta\n<i>A Convicção é um escudo temporário que te protege de danos, mas decai com o tempo.</i>"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Дает +3,5% ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
+                            "langTranslation": "Дает {0} ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "每消耗 1 点法力，获得 +3.5% 信念值\n<i>信念是一种临时护盾，可抵挡伤害，但会随时间流逝而减弱</i>。"
+                            "langTranslation": "每消耗 1 点法力，获得 {0} 信念值\n<i>信念是一种临时护盾，可抵挡伤害，但会随时间流逝而减弱</i>。"
                         }
                     ]
                 }
@@ -7733,39 +7734,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Überzeugungsverfall-Resistenz +3%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Conv. Decay Resistance +3%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al desgaste de conv. +3%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+3% Résist. perte de conviction"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念減衰抵抗+3%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na rozpad Przekonania +3%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resist. ao Decaimento +3%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопр. снижению непоколебимости +3%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "信念减弱抗性 +3%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -7842,39 +7843,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Max. Überzeugung +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Max. Conviction +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Convicción Máx. +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Conviction max."
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "信念最大値+5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Maksymalne Przekonanie +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Convicção Máxima +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Максимальная непоколебимость +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "最大信念 +5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -7951,39 +7952,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um 1."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by 1"
+                            "langTranslation": "Increases Maximum Skill Level by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en 1"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de 1 le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが1上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o 1"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em 1."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на 1"
+                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 1"
+                            "langTranslation": "技能等级上限提高 {0}"
                         }
                     ]
                 }
@@ -8060,39 +8061,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Abklingtempo +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Cooldown Speed +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de enfriamiento +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10%[+] Vitesse de recharge"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "クールダウン速度+10%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość odnowienia +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vel. de Tempo de Recarga +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Время восстановления навыков +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "冷却速度 +10%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -8169,39 +8170,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Angriffstempo +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Attack Speed +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Velocidad de ataque +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+10%[+] Vitesse d'attaque"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "攻撃速度+10%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Prędkość ataku +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Vel. de Ataque +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Скорость атаки +10%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "攻击速度 +10%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -8393,39 +8394,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Blitzresistenz +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Lightning Resistance +2.5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Rayo +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2,5% Résistance à la foudre"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "電撃抵抗+2.5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na błyskawice +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Elétrica +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление молниям +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "闪电抗性 +2.5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -8502,39 +8503,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Feuerresistenz +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Fire Resistance +2.5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia al Fuego +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2,5% Résistance au feu"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "火炎抵抗+2.5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na ogień +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Ígnea +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление огню +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "火焰抗性 +2.5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -8619,39 +8620,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Seuchenresistenz +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Plague Resistance +2.5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Resistencia a la Plaga +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+2,5% Résistance à la peste"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "疫病抵抗+2.5%"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odporność na zarazę +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Resistência Tóxica +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Сопротивление чуме +2,5%"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "瘟疫抗性 +2.5%"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -8728,39 +8729,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhalt Seelensteine +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Soul Stone Gain +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Obtención de piedras de alma +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "+5%[+] Gain de pierres d'âme"
+                            "langTranslation": "{1} {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ソウルストーン獲得量+5%[+]"
+                            "langTranslation": "{0}{1}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zyskiwane Kamienie Dusz +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Ganho de Frag. de Alma +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Получение камней душ +5%[+]"
+                            "langTranslation": "{0} {1}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "魂石获取 +5%[+]"
+                            "langTranslation": "{0} {1}"
                         }
                     ]
                 }
@@ -8837,39 +8838,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um 1."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by 1"
+                            "langTranslation": "Increases Maximum Skill Level by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en 1"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de 1 le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが1上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o 1"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em 1."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на 1"
+                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 1"
+                            "langTranslation": "技能等级上限提高 {0}"
                         }
                     ]
                 }
@@ -8946,39 +8947,39 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um 1."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by 1"
+                            "langTranslation": "Increases Maximum Skill Level by {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en 1"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de 1 le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが1上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o 1"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em 1."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на 1"
+                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 1"
+                            "langTranslation": "技能等级上限提高 {0}"
                         }
                     ]
                 }

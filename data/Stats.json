@@ -9729,7 +9729,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Maximum Fire Resistance"
+                    "langTranslation": "Maximale Feuerbeständigkeit"
                 },
                 {
                     "langCode": "en",
@@ -9737,19 +9737,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Maximum Fire Resistance"
+                    "langTranslation": "Máxima resistencia al fuego"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Maximum Fire Resistance"
+                    "langTranslation": "Résistance maximale au feu"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Maximum Fire Resistance"
+                    "langTranslation": "最大の耐火性"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Maximum Fire Resistance"
+                    "langTranslation": "Maksymalna odporność ogniowa"
                 },
                 {
                     "langCode": "pt-br",
@@ -9757,11 +9757,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Maximum Fire Resistance"
+                    "langTranslation": "Максимальная огнестойкость"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Maximum Fire Resistance"
+                    "langTranslation": "最大耐火性"
                 }
             ],
             "localizedDescription": [
@@ -9819,7 +9819,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Maximum Lightning Resistance"
+                    "langTranslation": "Maximale Blitzresistenz"
                 },
                 {
                     "langCode": "en",
@@ -9827,19 +9827,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Maximum Lightning Resistance"
+                    "langTranslation": "Máxima resistencia a los rayos"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Maximum Lightning Resistance"
+                    "langTranslation": "Résistance maximale à la foudre"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Maximum Lightning Resistance"
+                    "langTranslation": "最大耐雷性能"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Maximum Lightning Resistance"
+                    "langTranslation": "Maksymalna odporność na pioruny"
                 },
                 {
                     "langCode": "pt-br",
@@ -9847,11 +9847,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Maximum Lightning Resistance"
+                    "langTranslation": "Максимальная устойчивость к молниям"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Maximum Lightning Resistance"
+                    "langTranslation": "最大抗雷击能力"
                 }
             ],
             "localizedDescription": [
@@ -9909,7 +9909,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Maximum Plague Resistance"
+                    "langTranslation": "Maximale Seuchenresistenz"
                 },
                 {
                     "langCode": "en",
@@ -9917,19 +9917,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Maximum Plague Resistance"
+                    "langTranslation": "Máxima resistencia a las plagas"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Maximum Plague Resistance"
+                    "langTranslation": "Résistance maximale à la peste"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Maximum Plague Resistance"
+                    "langTranslation": "最大の疫病耐性"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Maximum Plague Resistance"
+                    "langTranslation": "Maksymalna odporność na zarazę"
                 },
                 {
                     "langCode": "pt-br",
@@ -9937,11 +9937,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Maximum Plague Resistance"
+                    "langTranslation": "Максимальная устойчивость к чуме"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Maximum Plague Resistance"
+                    "langTranslation": "最大瘟疫抵抗力"
                 }
             ],
             "localizedDescription": [
@@ -9999,7 +9999,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Maximum Physical Resistance"
+                    "langTranslation": "Maximale physische Widerstandsfähigkeit"
                 },
                 {
                     "langCode": "en",
@@ -10007,19 +10007,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Maximum Physical Resistance"
+                    "langTranslation": "Máxima resistencia física"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Maximum Physical Resistance"
+                    "langTranslation": "Résistance physique maximale"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Maximum Physical Resistance"
+                    "langTranslation": "最大物理耐性"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Maximum Physical Resistance"
+                    "langTranslation": "Maksymalna odporność fizyczna"
                 },
                 {
                     "langCode": "pt-br",
@@ -10027,11 +10027,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Maximum Physical Resistance"
+                    "langTranslation": "Максимальная физическая устойчивость"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Maximum Physical Resistance"
+                    "langTranslation": "最大物理抵抗力"
                 }
             ],
             "localizedDescription": [
@@ -11207,7 +11207,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "Bonus-Fallchance für die Höllenuhrzeit"
                 },
                 {
                     "langCode": "en",
@@ -11215,31 +11215,31 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "Bono de probabilidad de obtener tiempo del reloj del infierno"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "Bonus de chance de chute de temps de l'horloge de l'enfer"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "ボーナスヘルクロックタイムドロップチャンス"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "Bonusowa szansa na upuszczenie Czasu Piekielnego Zegara"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "Chance Bônus de Encontrar Tempo"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "Бонусный шанс выпадения Hell Clock Time"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Bonus Hell Clock Time Drop Chance"
+                    "langTranslation": "地狱时钟时间掉落概率加成"
                 }
             ],
             "icon": "",
