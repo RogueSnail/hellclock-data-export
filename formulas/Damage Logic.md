@@ -86,9 +86,8 @@ That would become
 
 ```
 
-Damage conversion follow a specific order to avoid distribution *ping pong*
-The system will always try to convert in this order (the design will always rotate)
-Physical -> Lightning -> Plague -> Fire
+Damage conversion follow a specific order to avoid distribution *ping pong*.
+The system will always try to convert in the following order (the design will always try respect this order): Physical -> Lightning -> Plague -> Fire
 
 
 ## 2. Trigger *On Before Take Damage* Events for Target
