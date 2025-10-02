@@ -155,39 +155,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Krit.-Treffer-Chance\n\nDie Hingabe der Disziplin ist der Pfad der Seuche, der Scharfschützenkunst, der Beweglichkeit und der List."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Critical Chance \n\nDiscipline Devotion is the path of Plague, Marksmanship, agility and trickery."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Probabilidad de golpe crítico\n\nLa Devoción a la Disciplina es el camino de la Peste, la puntería, la agilidad y el engaño."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "{1} {0}"
+                                        "langTranslation": "{0} Chances de critique\n\nLa Dévotion de Discipline est la voie de la Peste, du Tir, de l’agilité et de la ruse."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "{0}{1}"
+                                        "langTranslation": "{0} クリティカルヒット率\n\n規律の献身は、疫病、射撃、敏捷性、策略の道である。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Szansa na trafienie krytyczne\n\nPoświęcenie Dyscypliny to ścieżka Zarazy, Strzelectwa, zwinności i podstępu."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Chance Crítica\n\nDevoção de Disciplina é o caminho da Praga, da Pontaria, da agilidade e da astúcia."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Шанс критического попадания\n\nСлужение дисциплины — это путь Чумы, Меткой стрельбы, ловкости и хитрости."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} 暴击几率\n\n律制奉献是瘟疫、射术、敏捷与诡计之路。"
                                     }
                                 ]
                             }
@@ -301,39 +301,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Leben\n\nDie Hingabe des Zorns ist der Pfad des Feuers, des Nahkampfs, der Zähigkeit und des direkten Schadens."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Life\n\nFury Devotion is the path of Fire, Melee combat, toughness and direct damage."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Vida\n\nLa Devoción a la Furia es el camino del Fuego, el combate cuerpo a cuerpo, la dureza y el daño directo."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "{1} {0}"
+                                        "langTranslation": "{0} Vie\n\nLa Dévotion de Zèle est la voie du Feu, du combat rapproché, de la robustesse et des dégâts directs."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "{0}{1}"
+                                        "langTranslation": "{0} 生命\n\n激情の献身は、火炎、近接戦闘、耐久力、直接ダメージの道である。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Życie\n\nPoświęcenie Furii to ścieżka Ognia, Walki wręcz, wytrzymałości i bezpośrednich obrażeń."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Vida\n\nDevoção de Fúria é o caminho do Fogo, do combate Corpo-a-corpo, da resistência e do dano direto."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Здоровье\n\nСлужение ярости — это путь Огня, Ближнего боя, стойкости и прямого урона."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} 生命\n\n怒火奉献是火焰、近战战斗、坚韧和直接伤害之路。"
                                     }
                                 ]
                             }
@@ -447,39 +447,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Mana\n\nDie Hingabe des Glaubens ist der Pfad des Blitzes, der Zauberei, der Überzeugung und der arkanen Macht."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Mana\n\nFaith Devotion is the path of Lightning, Spellcasting, Conviction and arcane power."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Maná\n\nLa Devoción a la Fe es el camino del Rayo, la Hechicería, la Convicción y el poder arcano."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "{1} {0}"
+                                        "langTranslation": "{0} Ferveur\n\nLa Dévotion de Foi est la voie de la Foudre, de l’Incantation, de la Conviction et du pouvoir arcanique."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "{0}{1}"
+                                        "langTranslation": "{0} マナ\n\n信仰の献身は、雷、呪文詠唱、信念、秘術の力の道である。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Energia\n\nPoświęcenie Wiary to ścieżka Błyskawicy, Rzucania zaklęć, Przekonania i mocy arkanów."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Energia\n\nDevoção de Fé é o caminho do Raio, da Magia, da Convicção e do poder arcano."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} Мана\n\nСлужение веры — это путь Молнии, Заклинаний, непоколебимости и арканной силы."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "{0} {1}"
+                                        "langTranslation": "{0} 法力值\n\n信仰奉献是闪电、施法、信念与奥术力量之路。"
                                     }
                                 ]
                             }
@@ -7139,7 +7139,7 @@
                                             "damageValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "Roll",
-                                                "eSkillEffectVariableModifier": "MultiplyBySkillDamage, MultiplyByStatusStacks, MultiplyByTargetStatusStacks",
+                                                "eSkillEffectVariableModifier": "MultiplyBySkillDamage, MultiplyByStatusStacks",
                                                 "statusToStack": {
                                                     "name": "Guaraci - Dawnlight - Status Definition",
                                                     "id": 111,
@@ -19750,14 +19750,14 @@
                 "conditions": [
                     {
                         "type": "ConditionConfig",
-                        "targetValue": "99",
+                        "targetValue": "8",
                         "negate": false,
                         "condition": "Has Blue Devotion Condition",
                         "required_devotion": "Blue"
                     },
                     {
                         "type": "ConditionConfig",
-                        "targetValue": "99",
+                        "targetValue": "6",
                         "negate": false,
                         "condition": "Has Green Devotion Condition",
                         "required_devotion": "Green"
@@ -19861,7 +19861,7 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "MagicDamage",
                                 "statModifierType": "MultiplicativeAdditive",
-                                "value": 1.1,
+                                "value": 1.08,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -19986,7 +19986,7 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "MagicDamage",
                                 "statModifierType": "MultiplicativeAdditive",
-                                "value": 1.1,
+                                "value": 1.08,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -20746,24 +20746,9 @@
                             {
                                 "name": "769cad47-095a-496f-8430-1f7786a151f2",
                                 "type": "SkillBehaviorNodeAffixDefinition",
-                                "additionalLocalizationVariables": [
-                                    {
-                                        "type": "SkillBehaviorLocalizationVariable",
-                                        "skillEffectVariableReference": {
-                                            "type": "SkillEffectVariableReference",
-                                            "valueOrName": "40",
-                                            "eSkillEffectVariableModifier": "0",
-                                            "statusToStack": {},
-                                            "supportVariableValueOrName": "",
-                                            "supportESkillEffectVariableModifier": "0",
-                                            "supportStatusToStack": {}
-                                        },
-                                        "overrideFormat": true,
-                                        "valueFormatOverride": "Percentage"
-                                    }
-                                ],
+                                "additionalLocalizationVariables": [],
                                 "eModifierType": "Multiplicative",
-                                "valuePerLevel": 0.4,
+                                "valuePerLevel": 1.4,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": false,
@@ -20790,39 +20775,133 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Du verursachst {0} Elementarschaden.\nVerringert dein max. Mana um {1}."
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "You deal {0} Elemental damage.\nReduce your Max Mana by {1}."
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Infliges {0} de daño elemental.\nReduce tu maná máximo en {1}."
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Vous infligez {0} de dégâts élémentaires.\nVotre ferveur maximale est réduite de {1}."
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "自分が与える元素ダメージ\n。{0}自分の最大マナは{1}減少する。"
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zadajesz {0} obrażeń od żywiołów.\nZmniejsza twoją maksymalną manę o {1}."
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Você causa {0} de dano Elemental.\nReduz sua Energia Máxima em {1}."
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Вы наносите {0} ед. стихийного урона.\nМакс. запас маны уменьшается на {1}."
+                                        "langTranslation": ""
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "造成 {0} 元素伤害。\n最大法力值减少 {1}。"
+                                        "langTranslation": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "c46da9d9-5440-49bd-8502-d56bdb6f5eb2",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "MagicDamage",
+                                "statModifierType": "Multiplicative",
+                                "value": 1.2,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "72974c35-c61d-4cc2-bf21-7d8dde155b8c",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "Mana",
+                                "statModifierType": "Multiplicative",
+                                "value": 0.5,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
                                     }
                                 ]
                             }

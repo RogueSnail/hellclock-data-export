@@ -10137,39 +10137,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Krit.-Treffer-Chance-Multiplikator"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Critical Chance Multiplier"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> de multiplicador de probabilidad de golpe crítico"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Au multiplicateur de chances de critique"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>クリティカルヒット率倍率"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
+                    "langTranslation": "Mnożnik szansy na trafienie krytyczne: <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Multiplicador de Chance de Acerto Crítico"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> К множителю шанса крит. попадания"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
+                    "langTranslation": "暴击率倍率：<style=\"TooltipValue\">{1}</style>"
                 }
             ]
         },
@@ -13532,7 +13532,7 @@
                 "id": 39,
                 "type": "StatModifierStatusDefinition"
             },
-            "customIcon": "",
+            "customIcon": "IconStatus_Shocked_white",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -26213,39 +26213,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -26264,7 +26264,7 @@
                     "value": 1.6
                 }
             ],
-            "customIcon": "",
+            "customIcon": "IconStatus_VigorOrb_white",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -26356,39 +26356,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },
@@ -26500,39 +26500,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -26644,39 +26644,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -26788,39 +26788,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -28154,39 +28154,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -28298,39 +28298,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -28442,39 +28442,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -28575,39 +28575,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> alle Resistenzen."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> All Resistances"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> para todas las resistencias"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> à toutes les résistances"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
+                    "langTranslation": "あらゆる抵抗<style=\"TooltipValue\">{1}</style>。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Wszystkie odporności"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> todas as resistências"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> ко всем сопротивлениям"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "所有抗性 <style=\"TooltipValue\">{1}</style>"
                 }
             ]
         },
@@ -28707,39 +28707,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -28848,39 +28848,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -28989,39 +28989,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -29130,39 +29130,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -29271,39 +29271,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -29412,39 +29412,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -29683,39 +29683,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -29824,39 +29824,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -29965,39 +29965,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -30106,39 +30106,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -30245,39 +30245,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },
@@ -30386,39 +30386,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -30527,39 +30527,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -30798,39 +30798,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -30930,39 +30930,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -31203,39 +31203,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -31908,39 +31908,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -32049,39 +32049,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -32190,39 +32190,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -32331,39 +32331,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -32472,39 +32472,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -32613,39 +32613,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -32754,39 +32754,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -32895,39 +32895,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -33036,39 +33036,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -33177,39 +33177,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -33318,39 +33318,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -33459,39 +33459,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -33600,39 +33600,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -33741,39 +33741,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -34291,39 +34291,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },
@@ -34432,39 +34432,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -34573,39 +34573,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -34714,39 +34714,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -41167,39 +41167,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -41308,39 +41308,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -41459,39 +41459,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> alle Resistenzen."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> All Resistances"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> para todas las resistencias"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> à toutes les résistances"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
+                    "langTranslation": "あらゆる抵抗<style=\"TooltipValue\">{1}</style>。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Wszystkie odporności"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> todas as resistências"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> ко всем сопротивлениям"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "所有抗性 <style=\"TooltipValue\">{1}</style>"
                 }
             ]
         },
@@ -41600,39 +41600,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -41739,39 +41739,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },
@@ -41880,39 +41880,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -42021,39 +42021,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -42162,39 +42162,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -42313,39 +42313,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> alle Resistenzen."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> All Resistances"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> para todas las resistencias"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> à toutes les résistances"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
+                    "langTranslation": "あらゆる抵抗<style=\"TooltipValue\">{1}</style>。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Wszystkie odporności"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> todas as resistências"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> ко всем сопротивлениям"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "所有抗性 <style=\"TooltipValue\">{1}</style>"
                 }
             ]
         },
@@ -42454,39 +42454,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -42599,39 +42599,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },
@@ -42740,39 +42740,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -42891,39 +42891,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> alle Resistenzen."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> All Resistances"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> para todas las resistencias"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> à toutes les résistances"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
+                    "langTranslation": "あらゆる抵抗<style=\"TooltipValue\">{1}</style>。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> Wszystkie odporności"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> todas as resistências"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> ко всем сопротивлениям"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "所有抗性 <style=\"TooltipValue\">{1}</style>"
                 }
             ]
         },
@@ -43042,39 +43042,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
+                    "langTranslation": "{1} zu allen maximalen Widerständen"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "{1} All Maximum Resistances"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "{1} a todas las Resistencias Máximas"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "{1} à toutes les résistances maximales"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
+                    "langTranslation": "{1} 全耐性の最大値"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "{1} do wszystkich maksymalnych odporności"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "{1} Máximo de todas as Resistências"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
+                    "langTranslation": "{1} ко всем максимальным сопротивлениям"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
+                    "langTranslation": "{1} 全部抗性上限"
                 }
             ]
         },
@@ -43183,39 +43183,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}"
                 }
             ]
         },
@@ -43331,39 +43331,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },
@@ -43479,39 +43479,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },
@@ -43734,7 +43734,7 @@
                     "value": 0.82
                 }
             ],
-            "customIcon": "",
+            "customIcon": "IconStatus_PowerOrb_white",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -43826,39 +43826,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style>{0}{2}"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "{0}{2} <style=\"TooltipValue\">{1}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "<style=\"TooltipValue\">{1}</style> {0}{2}"
                 }
             ]
         },

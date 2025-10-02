@@ -18003,7 +18003,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 999.0
+                                "value": 900.0
                             },
                             {
                                 "type": "StatModifierDefinition",
@@ -21909,7 +21909,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "BaseDamage",
                                 "modifierType": "Additive",
-                                "value": 900.0
+                                "value": 999.0
                             },
                             {
                                 "type": "StatModifierDefinition",

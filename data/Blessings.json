@@ -14153,39 +14153,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Max. Überzeugung: <style=\"GreenText\">{0}</style>."
+                    "langTranslation": "Erhaltene Überzeugung <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Max. Conviction <style=\"GreenText\">{0}</style>"
+                    "langTranslation": "Conviction Gained <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Convicción Máx. <style=\"GreenText\">{0}</style>"
+                    "langTranslation": "Convicción Obtenida <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Conviction max. <style=\"GreenText\">{0}</style>"
+                    "langTranslation": "Conviction obtenue <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "信念最大値<style=\"GreenText\">{0}</style>"
+                    "langTranslation": "獲得した信念 <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Maksymalne Przekonanie <style=\"GreenText\">{0}</style>"
+                    "langTranslation": "Zdobyte Przekonanie <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Convicção Max. <style=\"GreenText\">{0}</style>"
+                    "langTranslation": "Convicção Recebida <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">{0}</style> Максимальная непоколебимость"
+                    "langTranslation": "Получено непоколебимости <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "最大信念\t：<style=\"GreenText\">{0}</style>"
+                    "langTranslation": "获得信念 <style=\"GreenText\">{0}</style>"
                 }
             ]
         },

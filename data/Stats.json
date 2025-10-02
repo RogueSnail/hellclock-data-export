@@ -5026,7 +5026,7 @@
                     "langTranslation": ""
                 }
             ],
-            "icon": "",
+            "icon": "IconStatus_Bleeding_white",
             "eStatFormat": "DEFAULT",
             "baseValue": 3.0,
             "isPlayerStat": false,
