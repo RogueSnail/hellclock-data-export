@@ -300,7 +300,24 @@
                         "useSkillRadius": false,
                         "useSkillAsSource": true,
                         "useSkillDamage": false,
-                        "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                        "effectAreaConfig": {
+                            "type": "EffectAreaConfig`1",
+                            "effectAreaDefinition": {
+                                "name": "Prayer of Vengeance - Plague AoE - AoE Definition",
+                                "id": 25,
+                                "type": "SingleInstanceDamageAreaDefinition",
+                                "damageMod": 1.0,
+                                "useSourceSkillDamageModifierWhenAvailable": false,
+                                "eDamageType": "PLAGUE",
+                                "damageStatModifiers": [],
+                                "radius": 4.0,
+                                "effectInterval": 0.5
+                            },
+                            "effectAreaDuration": 0.5,
+                            "hasAnticipation": true,
+                            "anticipationDuration": 0.0,
+                            "anticipationDelay": 0.0
+                        },
                         "effectAreaValueOverrides": [
                             {
                                 "type": "SkillEffectAreaValueOverride",
@@ -3327,7 +3344,24 @@
                         "useSkillRadius": false,
                         "useSkillAsSource": false,
                         "useSkillDamage": false,
-                        "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                        "effectAreaConfig": {
+                            "type": "EffectAreaConfig`1",
+                            "effectAreaDefinition": {
+                                "name": "Shadow Dash - Skull of the Vulture - Bleed Explosion Area",
+                                "id": 110,
+                                "type": "SingleInstanceDamageAreaDefinition",
+                                "damageMod": 1.0,
+                                "useSourceSkillDamageModifierWhenAvailable": false,
+                                "eDamageType": "PHYSICAL",
+                                "damageStatModifiers": [],
+                                "radius": 0.0,
+                                "effectInterval": 0.5
+                            },
+                            "effectAreaDuration": 1.0,
+                            "hasAnticipation": false,
+                            "anticipationDuration": 0.0,
+                            "anticipationDelay": 0.0
+                        },
                         "effectAreaValueOverrides": [
                             {
                                 "type": "SkillEffectAreaValueOverride",
@@ -5022,7 +5056,31 @@
                         "useSkillRadius": false,
                         "useSkillAsSource": true,
                         "useSkillDamage": false,
-                        "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                        "effectAreaConfig": {
+                            "type": "EffectAreaConfig`1",
+                            "effectAreaDefinition": {
+                                "name": "Molten Relic - Grenade On Hit - AoE Definition",
+                                "id": 35,
+                                "type": "SingleInstanceDamageAreaDefinition",
+                                "damageMod": 0.25,
+                                "useSourceSkillDamageModifierWhenAvailable": false,
+                                "eDamageType": "FIRE",
+                                "damageStatModifiers": [
+                                    {
+                                        "type": "StatModifierDefinition",
+                                        "eStatDefinition": "ChanceToApplyIgnite",
+                                        "modifierType": "Additive",
+                                        "value": 1.0
+                                    }
+                                ],
+                                "radius": 3.0,
+                                "effectInterval": -1.0
+                            },
+                            "effectAreaDuration": 0.5,
+                            "hasAnticipation": true,
+                            "anticipationDuration": 1.0,
+                            "anticipationDelay": 0.0
+                        },
                         "effectAreaValueOverrides": [
                             {
                                 "type": "SkillEffectAreaValueOverride",
@@ -5845,7 +5903,20 @@
                         "effectAreaDefinition": {
                             "name": "Poem Never Recited - Oiled Aoe - Aoe Definition",
                             "id": 27,
-                            "type": "StatusAreaDefinition"
+                            "type": "StatusAreaDefinition",
+                            "statusDefinitions": [
+                                {
+                                    "name": "OiledStatusDefinition",
+                                    "id": 47,
+                                    "type": "StatModifierStatusDefinition"
+                                }
+                            ],
+                            "refreshOnAreaEnter": true,
+                            "removeOnAreaExit": true,
+                            "applyOnInterval": true,
+                            "statusDuration": 0.0,
+                            "radius": 4.0,
+                            "effectInterval": 0.2
                         },
                         "overrideLayerMask": false,
                         "effectAreaValueOverrides": [],
@@ -6311,7 +6382,24 @@
                         "useSkillRadius": false,
                         "useSkillAsSource": false,
                         "useSkillDamage": false,
-                        "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                        "effectAreaConfig": {
+                            "type": "EffectAreaConfig`1",
+                            "effectAreaDefinition": {
+                                "name": "Powder Bag - Phys AoE - AoE Definition",
+                                "id": 42,
+                                "type": "SingleInstanceDamageAreaDefinition",
+                                "damageMod": 1.0,
+                                "useSourceSkillDamageModifierWhenAvailable": false,
+                                "eDamageType": "FIRE",
+                                "damageStatModifiers": [],
+                                "radius": 6.0,
+                                "effectInterval": 0.5
+                            },
+                            "effectAreaDuration": 0.5,
+                            "hasAnticipation": false,
+                            "anticipationDuration": 0.0,
+                            "anticipationDelay": 0.0
+                        },
                         "effectAreaValueOverrides": [
                             {
                                 "type": "SkillEffectAreaValueOverride",
@@ -6791,7 +6879,20 @@
                         "effectAreaDefinition": {
                             "name": "Death Notary - Exposed Aoe - Aoe Definition",
                             "id": 44,
-                            "type": "StatusAreaDefinition"
+                            "type": "StatusAreaDefinition",
+                            "statusDefinitions": [
+                                {
+                                    "name": "ExposedStatusDefinition",
+                                    "id": 44,
+                                    "type": "StatModifierStatusDefinition"
+                                }
+                            ],
+                            "refreshOnAreaEnter": true,
+                            "removeOnAreaExit": true,
+                            "applyOnInterval": false,
+                            "statusDuration": 0.0,
+                            "radius": 4.0,
+                            "effectInterval": 0.5
                         },
                         "overrideLayerMask": false,
                         "effectAreaValueOverrides": [],
@@ -8062,7 +8163,20 @@
                         "effectAreaDefinition": {
                             "name": "Slow Time - Mother of Perpetual Help - Barrier Buff Area",
                             "id": 47,
-                            "type": "StatusAreaDefinition"
+                            "type": "StatusAreaDefinition",
+                            "statusDefinitions": [
+                                {
+                                    "name": "Slow Time - Mother of Perpetual Help - Barrier Buff Status",
+                                    "id": 167,
+                                    "type": "StatModifierStatusDefinition"
+                                }
+                            ],
+                            "refreshOnAreaEnter": true,
+                            "removeOnAreaExit": true,
+                            "applyOnInterval": false,
+                            "statusDuration": 0.0,
+                            "radius": 0.0,
+                            "effectInterval": 0.5
                         },
                         "overrideLayerMask": true,
                         "layerMask": "UnityEngine.LayerMask",
@@ -8809,7 +8923,24 @@
                         "useSkillRadius": false,
                         "useSkillAsSource": false,
                         "useSkillDamage": false,
-                        "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                        "effectAreaConfig": {
+                            "type": "EffectAreaConfig`1",
+                            "effectAreaDefinition": {
+                                "name": "Tempest_SingleInstanceDamageAreaDefinition",
+                                "id": 49,
+                                "type": "SingleInstanceDamageAreaDefinition",
+                                "damageMod": 1.0,
+                                "useSourceSkillDamageModifierWhenAvailable": false,
+                                "eDamageType": "LIGHTNING",
+                                "damageStatModifiers": [],
+                                "radius": 2.5,
+                                "effectInterval": 0.2
+                            },
+                            "effectAreaDuration": 0.5,
+                            "hasAnticipation": false,
+                            "anticipationDuration": 0.0,
+                            "anticipationDelay": 0.0
+                        },
                         "effectAreaValueOverrides": [
                             {
                                 "type": "SkillEffectAreaValueOverride",
@@ -15280,7 +15411,24 @@
                                 "useSkillRadius": false,
                                 "useSkillAsSource": false,
                                 "useSkillDamage": false,
-                                "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                                "effectAreaConfig": {
+                                    "type": "EffectAreaConfig`1",
+                                    "effectAreaDefinition": {
+                                        "name": "Veil of Quills - Mark of the Vulture -  Mark of the Vulture Explosion Effect Area",
+                                        "id": 71,
+                                        "type": "SingleInstanceDamageAreaDefinition",
+                                        "damageMod": 1.0,
+                                        "useSourceSkillDamageModifierWhenAvailable": false,
+                                        "eDamageType": "PLAGUE",
+                                        "damageStatModifiers": [],
+                                        "radius": 4.0,
+                                        "effectInterval": 0.5
+                                    },
+                                    "effectAreaDuration": 0.5,
+                                    "hasAnticipation": false,
+                                    "anticipationDuration": 0.0,
+                                    "anticipationDelay": 0.0
+                                },
                                 "effectAreaValueOverrides": [
                                     {
                                         "type": "SkillEffectAreaValueOverride",
@@ -15395,32 +15543,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        1.7,
-                        2.0
+                        2.4,
+                        2.6
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        2.0,
-                        2.6
+                        2.6,
+                        3.2
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        2.6,
-                        3.38
+                        3.2,
+                        4.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        3.38,
-                        3.7
+                        4.0,
+                        4.8
                     ]
                 }
             ],
@@ -21415,7 +21563,25 @@
                         "useSkillRadius": true,
                         "useSkillAsSource": true,
                         "useSkillDamage": true,
-                        "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                        "effectAreaConfig": {
+                            "type": "EffectAreaConfig`1",
+                            "effectAreaDefinition": {
+                                "name": "Passage - Energy Box - Damage Area Definition",
+                                "id": 84,
+                                "type": "IntervalDamageAreaDefinition",
+                                "hasSpecialDamageOnStart": false,
+                                "damageMod": 1.0,
+                                "useSourceSkillDamageModifierWhenAvailable": true,
+                                "eDamageType": "PLAGUE",
+                                "damageStatModifiers": [],
+                                "radius": 4.0,
+                                "effectInterval": 0.5
+                            },
+                            "effectAreaDuration": 4.0,
+                            "hasAnticipation": false,
+                            "anticipationDuration": 0.0,
+                            "anticipationDelay": 0.0
+                        },
                         "effectAreaValueOverrides": [],
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "OnFinishUse",
@@ -22905,7 +23071,24 @@
                         "useSkillRadius": false,
                         "useSkillAsSource": true,
                         "useSkillDamage": false,
-                        "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+                        "effectAreaConfig": {
+                            "type": "EffectAreaConfig`1",
+                            "effectAreaDefinition": {
+                                "name": "Prayer of Vengeance - Final Reckoning - Explosion AoE Definition",
+                                "id": 87,
+                                "type": "SingleInstanceDamageAreaDefinition",
+                                "damageMod": 1.0,
+                                "useSourceSkillDamageModifierWhenAvailable": false,
+                                "eDamageType": "PLAGUE",
+                                "damageStatModifiers": [],
+                                "radius": 6.0,
+                                "effectInterval": 0.5
+                            },
+                            "effectAreaDuration": 0.5,
+                            "hasAnticipation": true,
+                            "anticipationDuration": 0.25,
+                            "anticipationDelay": 0.0
+                        },
                         "effectAreaValueOverrides": [
                             {
                                 "type": "SkillEffectAreaValueOverride",
@@ -33875,7 +34058,7 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "{0} Max Vigor Stacks"
+                    "langTranslation": "{0} Max Vigor-Stapel"
                 },
                 {
                     "langCode": "en",
@@ -33883,19 +34066,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "{0} Max Vigor Stacks"
+                    "langTranslation": "{0} Acumulaciones de máximo vigor"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "{0} Max Vigor Stacks"
+                    "langTranslation": "{0} Piles de vigueur maximale"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "{0} Max Vigor Stacks"
+                    "langTranslation": "{0} 最大活力スタック"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "{0} Max Vigor Stacks"
+                    "langTranslation": "{0} Maksymalne stosy wigoru"
                 },
                 {
                     "langCode": "pt-br",
@@ -33903,11 +34086,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0} Max Vigor Stacks"
+                    "langTranslation": "{0} Максимальные стеки энергии"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "{0} Max Vigor Stacks"
+                    "langTranslation": "{0} 最大活力层数"
                 }
             ]
         },
@@ -35002,7 +35185,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Labaredas"
+                    "langTranslation": "ラバレダス"
                 },
                 {
                     "langCode": "pl",
@@ -35014,11 +35197,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Labaredas"
+                    "langTranslation": "Лабаредас"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Labaredas"
+                    "langTranslation": "烈焰"
                 }
             ],
             "eAffixRarity": "Unique",
@@ -35036,7 +35219,7 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Whenever you Ignite an enemy, gain a stack of Labaredas for {1} seconds (max {2}). For each stack of Labaredas, Split Shot gains {3} Projectile Amount. Split Shot {0} Damage"
+                    "langTranslation": "Wenn du einen Gegner entzündest, erhältst du für {1} Sekunden (max. {2}) einen Stapel Labaredas. Für jeden Stapel Labaredas erhält Split Shot {3} Projektilmenge. Split Shot {0} Schaden"
                 },
                 {
                     "langCode": "en",
@@ -35044,19 +35227,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Whenever you Ignite an enemy, gain a stack of Labaredas for {1} seconds (max {2}). For each stack of Labaredas, Split Shot gains {3} Projectile Amount. Split Shot {0} Damage"
+                    "langTranslation": "Cada vez que enciendes a un enemigo, obtienes una acumulación de Labaredas durante {1} segundos (máximo {2}). Por cada acumulación de Labaredas, Disparo Dividido obtiene {3} de Cantidad de Proyectiles. Disparo Dividido: {0} de Daño."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Whenever you Ignite an enemy, gain a stack of Labaredas for {1} seconds (max {2}). For each stack of Labaredas, Split Shot gains {3} Projectile Amount. Split Shot {0} Damage"
+                    "langTranslation": "Chaque fois que vous enflammez un ennemi, vous gagnez un cumul de Labaredas pendant {1} secondes (max. {2}). Pour chaque cumul de Labaredas, Tir Divisé gagne {3} de dégâts. Dégâts de Tir Divisé : {0}"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Whenever you Ignite an enemy, gain a stack of Labaredas for {1} seconds (max {2}). For each stack of Labaredas, Split Shot gains {3} Projectile Amount. Split Shot {0} Damage"
+                    "langTranslation": "敵に点火するたびに、ラバレダのスタックを{1}秒間獲得します（最大{2}）。ラバレダのスタックごとに、スプリットショットの弾丸量が{3}増加します。スプリットショットのダメージは{0}です。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Whenever you Ignite an enemy, gain a stack of Labaredas for {1} seconds (max {2}). For each stack of Labaredas, Split Shot gains {3} Projectile Amount. Split Shot {0} Damage"
+                    "langTranslation": "Za każdym razem, gdy podpalasz wroga, zyskujesz ładunek Labaredas na {1} sekund (maks. {2}). Za każdy ładunek Labaredas, Split Shot zyskuje {3} punktów pocisku. Split Shot zadaje {0} obrażeń."
                 },
                 {
                     "langCode": "pt-br",
@@ -35064,11 +35247,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Whenever you Ignite an enemy, gain a stack of Labaredas for {1} seconds (max {2}). For each stack of Labaredas, Split Shot gains {3} Projectile Amount. Split Shot {0} Damage"
+                    "langTranslation": "Каждый раз, когда вы поджигаете врага, вы получаете заряд Лабаред на {1} секунд (максимум {2}). За каждый заряд Лабаред «Раздельный выстрел» увеличивает количество снарядов на {3}. Урон «Раздельного выстрела» составляет {0}."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Whenever you Ignite an enemy, gain a stack of Labaredas for {1} seconds (max {2}). For each stack of Labaredas, Split Shot gains {3} Projectile Amount. Split Shot {0} Damage"
+                    "langTranslation": "每当点燃敌人时，获得一层烈焰效果，持续 {1} 秒（最多 {2} 层）。每层烈焰效果使分裂射击获得 {3} 投射物数量加成。分裂射击造成 {0} 伤害"
                 }
             ]
         },
@@ -35222,7 +35405,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Tiriri's Law"
+                    "langTranslation": "Tiriris Gesetz"
                 },
                 {
                     "langCode": "en",
@@ -35230,19 +35413,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Tiriri's Law"
+                    "langTranslation": "Ley de Tiriri"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Tiriri's Law"
+                    "langTranslation": "Loi de Tiriri"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Tiriri's Law"
+                    "langTranslation": "ティリリの法則"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tiriri's Law"
+                    "langTranslation": "Prawo Tiririego"
                 },
                 {
                     "langCode": "pt-br",
@@ -35250,11 +35433,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Tiriri's Law"
+                    "langTranslation": "Закон Тирири"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Tiriri's Law"
+                    "langTranslation": "提里里的法则"
                 }
             ],
             "eAffixRarity": "Unique",
@@ -35272,7 +35455,7 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "{0} Ignite damage. Killing Ignited monsters will make their loot always attract to you, with no range limitations"
+                    "langTranslation": "{0} Entzündungsschaden. Das Töten entzündeter Monster zieht ihre Beute immer zu dir, ohne Reichweitenbeschränkung"
                 },
                 {
                     "langCode": "en",
@@ -35280,19 +35463,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "{0} Ignite damage. Killing Ignited monsters will make their loot always attract to you, with no range limitations"
+                    "langTranslation": "{0} Daño por Ignición. Matar monstruos Ignición hará que su botín siempre te atraiga, sin límite de alcance."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "{0} Ignite damage. Killing Ignited monsters will make their loot always attract to you, with no range limitations"
+                    "langTranslation": "{0} Dégâts d'Enflamme. Tuer des monstres Enflammés attirera toujours leur butin vers vous, sans limitation de portée."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "{0} Ignite damage. Killing Ignited monsters will make their loot always attract to you, with no range limitations"
+                    "langTranslation": "{0}点火ダメージ。点火したモンスターを倒すと、その戦利品は常にあなたのところに引き寄せられるようになり、範囲制限はありません。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "{0} Ignite damage. Killing Ignited monsters will make their loot always attract to you, with no range limitations"
+                    "langTranslation": "{0} Obrażenia od podpalenia. Zabijanie podpalonych potworów sprawi, że ich łupy będą zawsze przyciągać Cię, bez ograniczeń zasięgu."
                 },
                 {
                     "langCode": "pt-br",
@@ -35300,11 +35483,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "{0} Ignite damage. Killing Ignited monsters will make their loot always attract to you, with no range limitations"
+                    "langTranslation": "{0} Урон от поджога. Убийство подожжённых монстров заставит их добычу всегда притягиваться к вам, без ограничений по дальности."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "{0} Ignite damage. Killing Ignited monsters will make their loot always attract to you, with no range limitations"
+                    "langTranslation": "{0} 点燃伤害。击杀被点燃的怪物时，其战利品将始终吸引到你身边，无射程限制"
                 }
             ]
         },
@@ -43874,7 +44057,7 @@
                 "affectMultipleSkills": true,
                 "useListOfSkills": false,
                 "listOfSkills": [],
-                "skillTagFilter": "Spell",
+                "skillTagFilter": "Summon",
                 "skillDefinition": {},
                 "variables": {
                     "type": "SkillEffectVariables",
@@ -43912,9 +44095,9 @@
                                 "listenToVariableModifiersUpdate": true
                             }
                         ],
-                        "useCharacterEffectTrigger": false,
+                        "useCharacterEffectTrigger": true,
                         "effectTrigger": "Always",
-                        "characterEffectTrigger": "Kill",
+                        "characterEffectTrigger": "Always",
                         "ruleSet": {
                             "type": "SkillEffectRuleSet",
                             "rules": []
@@ -43935,38 +44118,38 @@
                     }
                 ]
             },
-            "customIcon": "Icon_Multiskill_Spell",
+            "customIcon": "Icon_Multiskill_Summon",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.075,
-                        0.085
+                        0.15,
+                        0.17
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.085,
-                        0.095
+                        0.17,
+                        0.19
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.095,
-                        0.105
+                        0.19,
+                        0.21
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.105,
-                        0.115
+                        0.21,
+                        0.23
                     ]
                 }
             ],
@@ -44014,11 +44197,11 @@
             "modifierType": "Additive",
             "upgradeModifierOverride": {
                 "0": 0.0,
-                "1": 0.005,
-                "2": 0.01,
-                "3": 0.015,
-                "4": 0.02,
-                "5": 0.025
+                "1": 0.01,
+                "2": 0.02,
+                "3": 0.03,
+                "4": 0.04,
+                "5": 0.05
             },
             "description": [
                 {

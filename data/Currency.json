@@ -7,7 +7,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Werkzeug des Bastelns"
+                    "langTranslation": "Werkzeug zum Basteln"
                 },
                 {
                     "langCode": "en",
@@ -395,7 +395,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "遺物にランダムな通常アフィックスをロックします。ロックされたアフィックスは、いかなるツールを使っても削除または置換できません。\n\n遺物に既にロックされたアフィックスがある場合は、そのアフィックスはロック解除され、代わりにランダムなアフィックスがロックされます。"
+                    "langTranslation": "遺物にランダムな通常アフィックスをロックします。ロックされたアフィックスは、いかなるツールを使っても解除または置換できません。\n\n遺物に既にロックされたアフィックスがある場合は、そのアフィックスはロック解除され、代わりにランダムなアフィックスがロックされます。"
                 },
                 {
                     "langCode": "pl",
@@ -629,7 +629,7 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Пропитанный инструмент веры"
+                    "langTranslation": "Вдохновленный инструмент веры"
                 },
                 {
                     "langCode": "zh-cn",

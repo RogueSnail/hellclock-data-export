@@ -3357,7 +3357,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
+                    "langTranslation": "Prozentsatz Ihres pro Sekunde geheilten maximalen Lebens, wenn Sie einem Monster in der letzten Sekunde Schaden zugefügt haben."
                 },
                 {
                     "langCode": "en",
@@ -3365,19 +3365,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
+                    "langTranslation": "Porcentaje de tu Vida Máxima curada por segundo si has infligido daño a un monstruo en el último segundo."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
+                    "langTranslation": "Pourcentage de votre vie maximale soignée par seconde si vous avez infligé des dégâts à un monstre au cours de la dernière seconde."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
+                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージです。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
+                    "langTranslation": "Procent Twojego maksymalnego zdrowia przywracanego na sekundę, jeśli w ostatniej sekundzie zadałeś jakiekolwiek obrażenia potworowi."
                 },
                 {
                     "langCode": "pt-br",
@@ -3385,11 +3385,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
+                    "langTranslation": "Процент от вашей максимальной жизни, восстанавливаемый за секунду, если вы нанесли урон монстру в последнюю секунду."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Percentage of your Max Life healed per second if you've dealt any damage to a monster in the last second."
+                    "langTranslation": "如果在过去一秒内对怪物造成过伤害，则每秒回复你最大生命值的一定百分比。"
                 }
             ],
             "icon": "",
@@ -4733,7 +4733,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
+                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Schaden der Beschwörungsfertigkeit angewendet wird, wenn Feinde getroffen werden."
                 },
                 {
                     "langCode": "en",
@@ -4741,19 +4741,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad de invocación al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences d'invocation lorsque vous frappez des ennemis."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
+                    "langTranslation": "敵に命中した際に、すべての召喚スキルのダメージに乗算の修正が適用されます。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
+                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń zadawanych przez umiejętność przywoływania przy uderzaniu wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -4761,11 +4761,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
+                    "langTranslation": "Мультипликативный модификатор применяется ко всему урону от навыков призыва при попадании по врагам."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Multiplicative modifier applied to all Summon Skill damage when hitting enemies."
+                    "langTranslation": "对敌人造成伤害时，应用于所有召唤技能伤害的乘算修正。"
                 }
             ],
             "icon": "IconSkill_SummonTheGuard_grayscale",
@@ -7029,7 +7029,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
+                    "langTranslation": "Erhöht die Anzahl der Projektile, die von relevanten Fertigkeiten bei Aktivierung abgefeuert werden. Jeder übrige Bonus wird als Chance auf ein zusätzliches Projektil verwendet."
                 },
                 {
                     "langCode": "en",
@@ -7037,19 +7037,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
+                    "langTranslation": "Aumenta la cantidad de proyectiles lanzados por las habilidades relevantes al activarse. Cualquier bonificación sobrante se contabilizará como una oportunidad para obtener un proyectil adicional."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
+                    "langTranslation": "Augmente le nombre de projectiles lancés par les compétences concernées à l'activation. Tout bonus excédentaire sera considéré comme une chance d'obtenir un projectile supplémentaire."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
+                    "langTranslation": "発動時に関連スキルによる発射物の数を増加させます。余剰ボーナスは、追加の発射物を獲得するチャンスとしてロールされます。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
+                    "langTranslation": "Zwiększa liczbę pocisków rzucanych przez odpowiednie umiejętności po aktywacji. Wszelkie dodatkowe bonusy zostaną wykorzystane jako szansa na zdobycie dodatkowego pocisku."
                 },
                 {
                     "langCode": "pt-br",
@@ -7057,11 +7057,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
+                    "langTranslation": "Увеличивает количество снарядов, создаваемых соответствующими навыками при активации. Любой оставшийся бонус будет использован как шанс получить дополнительный снаряд."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Increases the number of Projectiles cast by relevant Skills on activation. Any excess bonus left over will be rolled as a chance to get an additional projectile."
+                    "langTranslation": "激活时使相关技能发射的投射物数量增加。多余的加成将转化为额外投射物的几率。"
                 }
             ],
             "icon": "Icon_ProjectileSkills",
@@ -7115,7 +7115,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
+                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Nahkampfschaden angewendet wird, wenn Feinde getroffen werden."
                 },
                 {
                     "langCode": "en",
@@ -7123,19 +7123,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad cuerpo a cuerpo al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences de mêlée lorsque vous frappez des ennemis."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
+                    "langTranslation": "敵に命中した際に、すべての近接スキルダメージに乗算修正が適用されます。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
+                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń zadawanych przez umiejętność walki wręcz podczas uderzania wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -7143,11 +7143,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
+                    "langTranslation": "Мультипликативный модификатор применяется ко всему урону от навыков ближнего боя при попадании по врагам."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Multiplicative modifier applied to all Melee Skill damage when hitting enemies."
+                    "langTranslation": "对敌人造成伤害时，应用于所有近战技能伤害的乘算修正。"
                 }
             ],
             "icon": "Icon_Damage_Base",
@@ -7287,39 +7287,39 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Zauberfertigkeitsschaden angewendet wird, wenn Feinde getroffen werden."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": ""
+                    "langTranslation": "Multiplicative modifier applied to all Spell Skill damage when hitting enemies."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": ""
+                    "langTranslation": "Modificador multiplicativo que se aplica a todo el daño de la habilidad de hechizo al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": ""
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences de sorts lorsque vous frappez des ennemis."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": ""
+                    "langTranslation": "敵に命中した際に、すべての呪文スキルのダメージに乗算の修正が適用されます。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": ""
+                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń zadawanych przez Umiejętności Magiczne podczas uderzania wrogów."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": ""
+                    "langTranslation": "Modificador multiplicativo aplicado ao total de dano de Habilidade de Magia ao atingir inimigos."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": ""
+                    "langTranslation": "Мультипликативный модификатор применяется ко всему урону от заклинаний при попадании по врагам."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": ""
+                    "langTranslation": "对敌人造成伤害时，应用于所有法术技能伤害的乘算修正。"
                 }
             ],
             "icon": "",
@@ -8077,7 +8077,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
+                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Schaden der Scharfschützenfertigkeit angewendet wird, wenn Gegner getroffen werden."
                 },
                 {
                     "langCode": "en",
@@ -8085,19 +8085,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad Tirador al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts de la compétence Tireur d'élite lorsque vous frappez des ennemis."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
+                    "langTranslation": "敵に命中した際に、すべてのマークスマン スキル ダメージに乗算修飾子が適用されます。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
+                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń umiejętności Strzelca przy trafianiu wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -8105,11 +8105,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
+                    "langTranslation": "Мультипликативный модификатор применяется ко всему урону от навыков стрелка при попадании по врагам."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Multiplicative modifier applied to all Marksman Skill damage when hitting enemies."
+                    "langTranslation": "对敌人造成伤害时，应用于所有射手技能伤害的乘算修正。"
                 }
             ],
             "icon": "",
@@ -9549,7 +9549,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "Widerstand entfachen"
                 },
                 {
                     "langCode": "en",
@@ -9557,31 +9557,31 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "Encender la resistencia"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "Résistance à l'allumage"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "抵抗を燃やす"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "Zapal opór"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "Resistência à ignição"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "Сопротивление возгоранию"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Ignite Resistance"
+                    "langTranslation": "点燃阻力"
                 }
             ],
             "localizedDescription": [
@@ -9639,7 +9639,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "Blutungsbeständigkeit"
                 },
                 {
                     "langCode": "en",
@@ -9647,31 +9647,31 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "Resistencia al sangrado"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "Résistance au saignement"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "出血耐性"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "Odporność na krwawienie"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "Resistência ao Sangramento"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "Сопротивление кровотечению"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Bleed Resistance"
+                    "langTranslation": "抗出血"
                 }
             ],
             "localizedDescription": [
@@ -11207,7 +11207,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bonus-Fallchance für die Höllenuhrzeit"
+                    "langTranslation": "Bonus-Fallchance für die Zeit der Höllenuhr"
                 },
                 {
                     "langCode": "en",
@@ -11227,7 +11227,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Bonusowa szansa na upuszczenie Czasu Piekielnego Zegara"
+                    "langTranslation": "Bonusowa szansa na upuszczenie czasu w Piekielnym Zegarze"
                 },
                 {
                     "langCode": "pt-br",
@@ -11239,7 +11239,7 @@
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "地狱时钟时间掉落概率加成"
+                    "langTranslation": "地狱时钟掉落概率加成"
                 }
             ],
             "icon": "",

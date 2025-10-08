@@ -7,7 +7,14 @@
             "effectAreaDefinition": {
                 "name": "TempestAreaDefinition_OLD",
                 "id": 0,
-                "type": "IntervalDamageAreaDefinition"
+                "type": "IntervalDamageAreaDefinition",
+                "hasSpecialDamageOnStart": false,
+                "damageMod": 0.35,
+                "useSourceSkillDamageModifierWhenAvailable": false,
+                "eDamageType": "LIGHTNING",
+                "damageStatModifiers": [],
+                "radius": 6.0,
+                "effectInterval": 0.2
             },
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -432,7 +439,14 @@
             "effectAreaDefinition": {
                 "name": "WhirlwindAreaDefinition",
                 "id": 1,
-                "type": "IntervalDamageAreaDefinition"
+                "type": "IntervalDamageAreaDefinition",
+                "hasSpecialDamageOnStart": false,
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": false,
+                "eDamageType": "LIGHTNING",
+                "damageStatModifiers": [],
+                "radius": 6.0,
+                "effectInterval": 0.5
             },
             "hideFromHud": true,
             "isBuff": false,
@@ -1307,7 +1321,20 @@
             "effectAreaDefinition": {
                 "name": "ExplodeOnDeathAuraAreaDefinition",
                 "id": 16,
-                "type": "StatusAreaDefinition"
+                "type": "StatusAreaDefinition",
+                "statusDefinitions": [
+                    {
+                        "name": "ExplodeOnDeathStatusDefinition",
+                        "id": 73,
+                        "type": "EffectAreaOnDeathStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": false,
+                "removeOnAreaExit": false,
+                "applyOnInterval": false,
+                "statusDuration": 0.1,
+                "radius": 4.0,
+                "effectInterval": 0.0
             },
             "hideFromHud": true,
             "isBuff": false,
@@ -1543,7 +1570,20 @@
             "effectAreaDefinition": {
                 "name": "DefensiveShieldAreaDefinition",
                 "id": 17,
-                "type": "StatusAreaDefinition"
+                "type": "StatusAreaDefinition",
+                "statusDefinitions": [
+                    {
+                        "name": "Elite - Defensive Shield -Status Definition",
+                        "id": 22,
+                        "type": "StatModifierStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": false,
+                "removeOnAreaExit": false,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
+                "radius": 8.0,
+                "effectInterval": 0.0
             },
             "hideFromHud": true,
             "isBuff": true,
@@ -1615,7 +1655,14 @@
             "effectAreaDefinition": {
                 "name": "ElectricDamageAreaDefinition",
                 "id": 19,
-                "type": "IntervalDamageAreaDefinition"
+                "type": "IntervalDamageAreaDefinition",
+                "hasSpecialDamageOnStart": false,
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": false,
+                "eDamageType": "LIGHTNING",
+                "damageStatModifiers": [],
+                "radius": 5.0,
+                "effectInterval": 0.5
             },
             "hideFromHud": true,
             "isBuff": true,
@@ -1632,7 +1679,10 @@
             "effectAreaDefinition": {
                 "name": "EG_Team Heal Over Time Aura - Area Definition",
                 "id": 18,
-                "type": "IntervalHealAreaDefinition"
+                "type": "IntervalHealAreaDefinition",
+                "healPercent": 0.005,
+                "radius": 13.0,
+                "effectInterval": 1.0
             },
             "hideFromHud": true,
             "isBuff": true,
@@ -1782,7 +1832,14 @@
             "effectAreaDefinition": {
                 "name": "DoubleKnivesAreaDefinition",
                 "id": 22,
-                "type": "IntervalDamageStatusAreaDefinition"
+                "type": "IntervalDamageStatusAreaDefinition",
+                "statusDefinitions": [],
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": true,
+                "eDamageType": "PHYSICAL",
+                "damageStatModifiers": [],
+                "radius": 3.0,
+                "effectInterval": 0.2
             },
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -2088,7 +2145,22 @@
             "effectAreaDefinition": {
                 "name": "SlowTimeAreaDefinition",
                 "id": 24,
-                "type": "ProjectileStatusAreaDefinition"
+                "type": "ProjectileStatusAreaDefinition",
+                "speedModifierType": "Multiplicative",
+                "speedModifierValue": 0.5,
+                "statusDefinitions": [
+                    {
+                        "name": "SlowTimeMoveSpeedStatusDefinition",
+                        "id": 34,
+                        "type": "StatModifierStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": true,
+                "removeOnAreaExit": true,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
+                "radius": 5.0,
+                "effectInterval": 0.0
             },
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -3632,7 +3704,31 @@
             "name": "PlagueExplosionOnDeathStatusDefinition",
             "id": 67,
             "type": "EffectAreaOnDeathStatusDefinition",
-            "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+            "effectAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "PlagueExplosionStatusAreaDefinition",
+                    "id": 41,
+                    "type": "IntervalDamageStatusAreaDefinition",
+                    "statusDefinitions": [
+                        {
+                            "name": "MaimedStatusDefinition",
+                            "id": 42,
+                            "type": "StatModifierStatusDefinition"
+                        }
+                    ],
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": false,
+                    "eDamageType": "PLAGUE",
+                    "damageStatModifiers": [],
+                    "radius": 6.0,
+                    "effectInterval": 0.5
+                },
+                "effectAreaDuration": 4.0,
+                "hasAnticipation": true,
+                "anticipationDuration": 2.0,
+                "anticipationDelay": 0.0
+            },
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": true,
@@ -4048,7 +4144,24 @@
             "name": "ExplodeOnDeathStatusDefinition",
             "id": 73,
             "type": "EffectAreaOnDeathStatusDefinition",
-            "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+            "effectAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "CorpseExplosionAreaDefinition",
+                    "id": 15,
+                    "type": "SingleInstanceDamageAreaDefinition",
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": false,
+                    "eDamageType": "FIRE",
+                    "damageStatModifiers": [],
+                    "radius": 3.5,
+                    "effectInterval": 0.0
+                },
+                "effectAreaDuration": 0.5,
+                "hasAnticipation": true,
+                "anticipationDuration": 2.0,
+                "anticipationDelay": 0.0
+            },
             "hideFromHud": true,
             "isBuff": true,
             "eStatusStackBehavior": "Refresh",
@@ -7059,7 +7172,20 @@
             "effectAreaDefinition": {
                 "name": "Summon Brute - Taunt Effect Area Definition",
                 "id": 79,
-                "type": "StatusAreaDefinition"
+                "type": "StatusAreaDefinition",
+                "statusDefinitions": [
+                    {
+                        "name": "Summon Brute - Taunted Status Definition",
+                        "id": 107,
+                        "type": "TauntedStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": true,
+                "removeOnAreaExit": false,
+                "applyOnInterval": true,
+                "statusDuration": 2.0,
+                "radius": 10.0,
+                "effectInterval": 0.5
             },
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -7830,7 +7956,14 @@
             "effectAreaDefinition": {
                 "name": "Prayer of Health - Righteous Blade - FIre Area Definition",
                 "id": 83,
-                "type": "IntervalDamageAreaDefinition"
+                "type": "IntervalDamageAreaDefinition",
+                "hasSpecialDamageOnStart": false,
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": false,
+                "eDamageType": "FIRE",
+                "damageStatModifiers": [],
+                "radius": 7.0,
+                "effectInterval": 0.5
             },
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -10058,7 +10191,20 @@
             "effectAreaDefinition": {
                 "name": "Tamarindo - Aura - Imortal Minions - Status Area Definition",
                 "id": 98,
-                "type": "StatusAreaDefinition"
+                "type": "StatusAreaDefinition",
+                "statusDefinitions": [
+                    {
+                        "name": "Tamarindo - Aura - Imortal Minions - Status Definition",
+                        "id": 143,
+                        "type": "StatModifierStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": false,
+                "removeOnAreaExit": false,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
+                "radius": 40.0,
+                "effectInterval": 0.0
             },
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -10316,7 +10462,20 @@
             "effectAreaDefinition": {
                 "name": "EG- Elite - Area - Heal Minions - AreaDefinition",
                 "id": 105,
-                "type": "StatusAreaDefinition"
+                "type": "StatusAreaDefinition",
+                "statusDefinitions": [
+                    {
+                        "name": "EG - Elite - Regen Aura - Heal Status Definition",
+                        "id": 151,
+                        "type": "HealStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": true,
+                "removeOnAreaExit": true,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
+                "radius": 10.0,
+                "effectInterval": 0.0
             },
             "statusDisplayInfo": {
                 "type": "StatusDisplayInfo",
@@ -11019,7 +11178,24 @@
             "name": "EG - Turret - ExplodeOnDeathStatusDefinition",
             "id": 164,
             "type": "EffectAreaOnDeathStatusDefinition",
-            "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+            "effectAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "EG - Turret-ExplosionAreaDefinition",
+                    "id": 109,
+                    "type": "SingleInstanceDamageAreaDefinition",
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": false,
+                    "eDamageType": "LIGHTNING",
+                    "damageStatModifiers": [],
+                    "radius": 4.5,
+                    "effectInterval": 0.0
+                },
+                "effectAreaDuration": 0.2,
+                "hasAnticipation": true,
+                "anticipationDuration": 1.0,
+                "anticipationDelay": 0.0
+            },
             "hideFromHud": true,
             "isBuff": true,
             "eStatusStackBehavior": "Refresh",
@@ -11694,7 +11870,7 @@
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Podzielony strzał + {0} Ilość pocisków na stos"
+                        "langTranslation": "Podzielony strzał + {0} Ilość pocisku na stos"
                     },
                     {
                         "langCode": "pt-br",
@@ -11706,7 +11882,7 @@
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "分裂射击 +{0} 投射物数量/堆叠"
+                        "langTranslation": "分裂射击 +{0} 投射物数量（每层）"
                     }
                 ],
                 "icon": "Icon_ProjectileSkills"

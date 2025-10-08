@@ -17671,39 +17671,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Wenn du Schaden eines Elementtyps verursachst, verringert sich die Resistenz des Ziels gegen die anderen beiden Elementtypen bis zu deinem nächsten Treffer um 20 %."
+                                        "langTranslation": "Wenn du Schaden eines Elementtyps verursachst, verringert sich die Resistenz des Ziels gegen die anderen beiden Elementtypen um 20 % für {0} Sekunden."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Dealing damage of any Elemental type decreases the target's resistance against the other two Elemental types by 20% until your next hit."
+                                        "langTranslation": "Dealing damage of any Elemental type decreases the target's resistance against the other two Elemental types by 20% for {0} seconds."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Infligir daño de cualquier tipo elemental reduce la resistencia del objetivo a los otros dos tipos en un 20 % hasta el próximo golpe."
+                                        "langTranslation": "Infligir daño de cualquier tipo elemental reduce la resistencia del objetivo a los otros dos tipos en un 20 % durante {0} segundos."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque vous infligez des dégâts élémentaires, la résistance de la cible aux deux autres éléments est réduite de 20% jusqu'à votre prochain coup"
+                                        "langTranslation": "Lorsque vous infligez des dégâts élémentaires, la résistance de la cible aux deux autres éléments est réduite de 20 % pendant {0} secondes."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "なんらかの元素ダメージを与えると、対象は他の2種類の元素に対する抵抗が次のヒットまで20%減少する。"
+                                        "langTranslation": "なんらかの元素ダメージを与えると、対象は他の2種類の元素に対する抵抗が{0}秒間20%減少する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zadawanie obrażeń żywiołów dowolnego typu zmniejsza odporność celu na pozostałe dwa typy żywiołów o 20% do następnego trafienia."
+                                        "langTranslation": "Zadawanie obrażeń żywiołów dowolnego typu zmniejsza odporność celu na pozostałe dwa typy żywiołów o 20% na {0} sekund."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Causar dano de qualquer tipo Elemental diminui a resistência do alvo contra os outros dois tipos Elementais em 20% até seu próximo acerto."
+                                        "langTranslation": "Causar dano de qualquer tipo Elemental reduz a resistência do alvo contra os outros dois tipos Elementais em 20% por {0} segundos."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Нанесение любого стихийного урона уменьшает сопротивление цели к двум другим стихиям на 20% до следующего попадания."
+                                        "langTranslation": "Нанесение любого стихийного урона уменьшает сопротивление цели к двум другим стихиям на 20% на {0} сек."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "造成任意类型的元素伤害时，会使目标对其余两种元素类型的抗性降低 20%，直至下次命中为止。"
+                                        "langTranslation": "造成任意类型的元素伤害时，会使目标对其余两种元素类型的抗性降低20%，持续{0}秒。"
                                     }
                                 ]
                             }
@@ -21702,39 +21702,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Jeglicher Effekt, der dir Leben entzieht, gewährt dir einen Stapel Bote (max. 10). Erhalte pro Stapel {0} Feuerschaden."
+                                        "langTranslation": "Jeder Effekt, der dir Leben entzieht, gewährt dir einen Stapel Bote (max. 10) für {1} Sekunden.\nErhalte {0} Feuerschaden pro Stapel."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Any effect that drains your Life will give you a stack of Messenger (max 10). Gain {0} Fire Damage per stack."
+                                        "langTranslation": "Any effect that drains your Life will give you a stack of Messenger (max 10) for {1} seconds. Gain {0} Fire Damage per stack."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Cualquier efecto que te absorbe vida te da una acumulación de Mensajero (máx. 10). Obtienes {0} de daño de Fuego por acumulación."
+                                        "langTranslation": "Cualquier efecto que te drene Vida te da una acumulación de Mensajero (máx. 10) durante {1} segundos.\nObtienes {0} de daño de Fuego por acumulación."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Tous les effets qui drainent votre santé vous accordent un cumul de Messager (cumulable 10 fois). Chaque cumul vous accorde {0} de dégâts de feu."
+                                        "langTranslation": "Tout effet qui draine votre santé vous accorde un cumul de Messager (max. 10) pendant {1} secondes.\nChaque cumul vous confère {0} dégâts de feu."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "体力を消費する効果はすべて、使者効果を累積する（最大10回まで）。累積1回につき、火炎ダメージ{0}。"
+                                        "langTranslation": "体力を消費する効果はすべて、使者効果を1回累積する（最大10回まで）。\n効果は{1}秒持続し、累積1回につき火炎ダメージ{0}を獲得する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Każdy efekt, który pozbawia cię zdrowia, zapewni ci stos Posłańca (maksymalnie 10). Zyskujesz {0} pkt. obrażeń od ognia za każdy poziom kumulacji."
+                                        "langTranslation": "Każdy efekt, który pozbawia cię zdrowia, zapewnia ci ładunek Posłańca (maks. 10) na {1} sekund.\nZyskujesz {0} pkt. obrażeń od ognia za każdy ładunek."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Qualquer efeito que drene sua Vida concede um acúmulo de Mensageiro (acumula até 10 vezes). Ganhe {0} de Dano Ígneo por cada acúmulo."
+                                        "langTranslation": "Qualquer efeito que drene sua Vida concede um acúmulo de Mensageiro (máx. 10) por {1} segundos.\nGanhe {0} de Dano Ígneo por acúmulo."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Любой эффект, который снижает ваше здоровье, дает вам заряд «Посланника» (до 10). Дает {0} ед. урона от огня за заряд."
+                                        "langTranslation": "Любой эффект, который снижает ваше здоровье, даёт вам заряд «Посланника» (до 10) на {1} сек.\nВы получаете {0} ед. урона от огня за каждый заряд."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "任意消耗生命值的效果可使你获得 1 层信使 (最多叠加 10 层)。每层信使可获得 {0} 火焰伤害。"
+                                        "langTranslation": "任何消耗你生命值的效果会使你获得 1 层信使（最多叠加 10 层），持续 {1} 秒。\n每层信使可获得 {0} 点火焰伤害。"
                                     }
                                 ]
                             }
@@ -30789,39 +30789,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Werden Gegner von Kraftkugeln getroffen, verringern sich ihre Elementarresistenzen um {0}."
+                                        "langTranslation": "Werden Gegner von Kraftkugeln getroffen, verringern sich ihre Elementarresistenzen um {0} für {1} Sekunden."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Enemies hit by Power Orbs have their Elemental Resistances reduced by {0}."
+                                        "langTranslation": "Enemies hit by Power Orbs have their Elemental Resistances reduced by {0} for {1} seconds."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Reduce las resistencias elementales de los enemigos golpeados con Orbes de Poder en {0}."
+                                        "langTranslation": "Los enemigos golpeados con Orbes de Poder tienen sus resistencias elementales reducidas en {0} durante {1} segundos."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Les ennemis touchés par les orbes de puissance voient leurs résistances élémentaires réduites de {0}"
+                                        "langTranslation": "Les ennemis touchés par les orbes de puissance voient leurs résistances élémentaires réduites de {0} pendant {1} secondes."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "力のオーブがヒットした敵は元素抵抗が{0}減少する。"
+                                        "langTranslation": "力のオーブがヒットした敵は、元素抵抗が{1}秒間{0}減少する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Wrogowie trafieni kulami mocy mają odporność na żywioły zmniejszoną o {0}."
+                                        "langTranslation": "Wrogowie trafieni kulami mocy mają odporność na żywioły zmniejszoną o {0} na {1} sekund."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Inimigos atingidos por Orbes de Poder têm suas Resistências Elementais reduzidas em {0}."
+                                        "langTranslation": "Inimigos atingidos por Orbes de Poder têm suas Resistências Elementais reduzidas em {0} por {1} segundos."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Попадание сферой мощи снижает сопротивление стихиям врагов на {0}."
+                                        "langTranslation": "Попадание сферой мощи снижает сопротивление стихиям врагов на {0} на {1} сек."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "被战力之球击中的敌人元素抗性降低 {0}。"
+                                        "langTranslation": "被战力之球击中的敌人元素抗性降低{0}，持续{1}秒。"
                                     }
                                 ]
                             }
@@ -34205,7 +34205,10 @@
                         "required_devotion": "Green"
                     }
                 ],
-                "masteredDevotionGranted": {},
+                "masteredDevotionGranted": {
+                    "Blue": 3,
+                    "Green": 3
+                },
                 "nameKey": [
                     {
                         "langCode": "de",

@@ -1133,7 +1133,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.2
+                        "value": 0.25
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1147,7 +1147,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.4
+                        "value": 0.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1161,7 +1161,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.6
+                        "value": 0.75
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1175,7 +1175,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.8
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1189,7 +1189,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.0
+                        "value": 1.25
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1203,7 +1203,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.2
+                        "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1217,7 +1217,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.4
+                        "value": 1.75
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1231,7 +1231,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.6
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1245,7 +1245,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.8
+                        "value": 2.25
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1259,7 +1259,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.0
+                        "value": 2.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1328,7 +1328,14 @@
             "fireAreaDefinition": {
                 "name": "Prayer of Health - Righteous Blade - FIre Area Definition",
                 "id": 83,
-                "type": "IntervalDamageAreaDefinition"
+                "type": "IntervalDamageAreaDefinition",
+                "hasSpecialDamageOnStart": false,
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": false,
+                "eDamageType": "FIRE",
+                "damageStatModifiers": [],
+                "radius": 7.0,
+                "effectInterval": 0.5
             },
             "lifeDrainStatusDefinition": {
                 "name": "Prayer of Health - Righteous Blade - Life Drain Status Definition",
@@ -2370,7 +2377,36 @@
             "name": "JudgementDefinition",
             "id": 67,
             "type": "PlaceEffectAreaSkillDefinition",
-            "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+            "effectAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "JudgementStatusAreaDefinition",
+                    "id": 21,
+                    "type": "StatusAreaDefinition",
+                    "statusDefinitions": [
+                        {
+                            "name": "Judgement - Fire Lightning Res Debuff",
+                            "id": 28,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        {
+                            "name": "Judgement - Physical Plague Res Debuff",
+                            "id": 78,
+                            "type": "StatModifierStatusDefinition"
+                        }
+                    ],
+                    "refreshOnAreaEnter": false,
+                    "removeOnAreaExit": false,
+                    "applyOnInterval": true,
+                    "statusDuration": 4.0,
+                    "radius": 5.0,
+                    "effectInterval": 0.0
+                },
+                "effectAreaDuration": 1.5,
+                "hasAnticipation": false,
+                "anticipationDuration": 0.0,
+                "anticipationDelay": 0.0
+            },
             "canPlaceMultiple": true,
             "parentToCaster": false,
             "manaCost": 210.0,
@@ -2635,7 +2671,14 @@
             "areaDefinition": {
                 "name": "DoubleKnivesAreaDefinition",
                 "id": 22,
-                "type": "IntervalDamageStatusAreaDefinition"
+                "type": "IntervalDamageStatusAreaDefinition",
+                "statusDefinitions": [],
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": true,
+                "eDamageType": "PHYSICAL",
+                "damageStatModifiers": [],
+                "radius": 3.0,
+                "effectInterval": 0.2
             },
             "baseSpinSpeed": 1.0,
             "moveSpeedSlow": 0.5,
@@ -2902,7 +2945,25 @@
             "name": "PassageSkillDefinition",
             "id": 70,
             "type": "PassageSkillDefinition",
-            "startAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.DamageAreaDefinition]",
+            "startAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "Passage - Start Damage Area Definition",
+                    "id": 80,
+                    "type": "IntervalDamageAreaDefinition",
+                    "hasSpecialDamageOnStart": false,
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": true,
+                    "eDamageType": "LIGHTNING",
+                    "damageStatModifiers": [],
+                    "radius": 4.0,
+                    "effectInterval": 0.5
+                },
+                "effectAreaDuration": 4.0,
+                "hasAnticipation": false,
+                "anticipationDuration": 0.0,
+                "anticipationDelay": 0.0
+            },
             "distance": 11.0,
             "teleportToTargetPosition": true,
             "teleportConfig": {
@@ -3822,7 +3883,33 @@
             "name": "SlowTimeSkillDefinition",
             "id": 74,
             "type": "PlaceEffectAreaSkillDefinition",
-            "effectAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.EffectAreaDefinition]",
+            "effectAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "SlowTimeAreaDefinition",
+                    "id": 24,
+                    "type": "ProjectileStatusAreaDefinition",
+                    "speedModifierType": "Multiplicative",
+                    "speedModifierValue": 0.5,
+                    "statusDefinitions": [
+                        {
+                            "name": "SlowTimeMoveSpeedStatusDefinition",
+                            "id": 34,
+                            "type": "StatModifierStatusDefinition"
+                        }
+                    ],
+                    "refreshOnAreaEnter": true,
+                    "removeOnAreaExit": true,
+                    "applyOnInterval": false,
+                    "statusDuration": 0.0,
+                    "radius": 5.0,
+                    "effectInterval": 0.0
+                },
+                "effectAreaDuration": 9.0,
+                "hasAnticipation": false,
+                "anticipationDuration": 0.0,
+                "anticipationDelay": 0.0
+            },
             "canPlaceMultiple": true,
             "parentToCaster": false,
             "manaCost": 0.0,
@@ -4643,7 +4730,24 @@
                     "type": "FallingProjectileConfig",
                     "fallHeight": 22.0,
                     "fallAngle": 15.0,
-                    "damageAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.DamageAreaDefinition]"
+                    "damageAreaConfig": {
+                        "type": "EffectAreaConfig`1",
+                        "effectAreaDefinition": {
+                            "name": "BombardmentProjectileAreaDefinition",
+                            "id": 58,
+                            "type": "SingleInstanceDamageAreaDefinition",
+                            "damageMod": 1.0,
+                            "useSourceSkillDamageModifierWhenAvailable": true,
+                            "eDamageType": "PHYSICAL",
+                            "damageStatModifiers": [],
+                            "radius": 2.0,
+                            "effectInterval": 2.0
+                        },
+                        "effectAreaDuration": 0.5,
+                        "hasAnticipation": true,
+                        "anticipationDuration": 0.6,
+                        "anticipationDelay": 0.0
+                    }
                 }
             },
             "manaCost": 0.0,
@@ -4727,7 +4831,7 @@
                 }
             ],
             "icon": "IconSkill_RainOfHeads",
-            "baseDamageMod": 1.4,
+            "baseDamageMod": 1.5,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
             "modifiersPerLevel": {
@@ -4735,8 +4839,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.4
+                        "modifierType": "Multiplicative",
+                        "value": 1.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4749,8 +4853,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.8
+                        "modifierType": "Multiplicative",
+                        "value": 1.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4763,8 +4867,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.2
+                        "modifierType": "Multiplicative",
+                        "value": 1.9
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4777,8 +4881,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.6
+                        "modifierType": "Multiplicative",
+                        "value": 2.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4791,8 +4895,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 2.0
+                        "modifierType": "Multiplicative",
+                        "value": 2.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4805,8 +4909,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 2.4
+                        "modifierType": "Multiplicative",
+                        "value": 2.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4819,8 +4923,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 2.8
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4833,8 +4937,8 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 3.2
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -4847,7 +4951,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
+                        "modifierType": "Multiplicative",
                         "value": 3.6
                     },
                     {
@@ -4861,7 +4965,7 @@
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
+                        "modifierType": "Multiplicative",
                         "value": 4.0
                     },
                     {
@@ -5260,7 +5364,26 @@
                     "type": "FallingProjectileConfig",
                     "fallHeight": 100.0,
                     "fallAngle": 15.0,
-                    "damageAreaConfig": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.DamageAreaDefinition]"
+                    "damageAreaConfig": {
+                        "type": "EffectAreaConfig`1",
+                        "effectAreaDefinition": {
+                            "name": "Enemy Cannons Damage Area",
+                            "id": 59,
+                            "type": "IntervalDamageAreaDefinition",
+                            "hasSpecialDamageOnStart": true,
+                            "specialStartDamageMod": 5.0,
+                            "damageMod": 1.0,
+                            "useSourceSkillDamageModifierWhenAvailable": false,
+                            "eDamageType": "FIRE",
+                            "damageStatModifiers": [],
+                            "radius": 5.0,
+                            "effectInterval": 0.5
+                        },
+                        "effectAreaDuration": 4.0,
+                        "hasAnticipation": true,
+                        "anticipationDuration": 1.5,
+                        "anticipationDelay": 0.0
+                    }
                 }
             },
             "manaCost": 0.0,
@@ -6116,7 +6239,31 @@
             "instantRespawnLifeCost": 0.0,
             "explodeOnDeathEnabled": false,
             "explodeOnDeathLifeToDamage": 0.0,
-            "explodeOnDeathArea": "HellClock.Skill.Area.EffectAreaConfig`1[HellClock.Skill.Area.DamageAreaDefinition]",
+            "explodeOnDeathArea": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "Summon Brute - Disorientation - Plague AoE Definition",
+                    "id": 88,
+                    "type": "SingleInstanceDamageAreaDefinition",
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": false,
+                    "eDamageType": "PLAGUE",
+                    "damageStatModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "WitherBuildupRate",
+                            "modifierType": "MultiplicativeAdditive",
+                            "value": 2.0
+                        }
+                    ],
+                    "radius": 1.0,
+                    "effectInterval": 0.5
+                },
+                "effectAreaDuration": 0.1,
+                "hasAnticipation": false,
+                "anticipationDuration": 0.0,
+                "anticipationDelay": 0.0
+            },
             "dieOnTauntEndEnabled": false,
             "dieOnTauntEndStatusDefinition": {
                 "name": "Summon Brute - Disorientation - Death on Taunt End Status Definition",
