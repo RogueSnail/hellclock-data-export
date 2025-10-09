@@ -4479,6 +4479,7 @@
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
                                 "triggerTargetValue": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "",
@@ -4697,6 +4698,7 @@
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
                                 "triggerTargetValue": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "",

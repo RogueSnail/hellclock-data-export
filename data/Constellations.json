@@ -10,6 +10,7 @@
                 "type": "ConstellationSkillTreeDefinition",
                 "conditions": [],
                 "masteredDevotionGranted": {},
+                "eDevotionCategory": "Neutral",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -527,6 +528,7 @@
                     "Green": 3,
                     "Red": 1
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -933,6 +935,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -1032,6 +1035,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -1072,6 +1076,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -1390,6 +1395,7 @@
                     "Blue": 3,
                     "Green": 1
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -1622,6 +1628,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "Roll",
@@ -1665,6 +1672,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -2244,6 +2252,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -2395,6 +2404,7 @@
                     "Red": 3,
                     "Blue": 1
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -2585,6 +2595,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -2676,6 +2687,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -2734,6 +2746,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -3149,6 +3162,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -3179,6 +3193,7 @@
                                                         "rules": []
                                                     },
                                                     "revertOnRuleFail": false,
+                                                    "revertOnRemoval": false,
                                                     "triggerTargetValue": {
                                                         "type": "SkillEffectVariableReference",
                                                         "valueOrName": "",
@@ -3203,6 +3218,7 @@
                                                         "rules": []
                                                     },
                                                     "revertOnRuleFail": false,
+                                                    "revertOnRemoval": false,
                                                     "triggerTargetValue": {
                                                         "type": "SkillEffectVariableReference",
                                                         "valueOrName": "",
@@ -3248,6 +3264,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -3456,6 +3473,7 @@
                 "masteredDevotionGranted": {
                     "Green": 2
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -4061,6 +4079,7 @@
                     "Blue": 3,
                     "Red": 2
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -4205,6 +4224,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -4379,6 +4399,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -4553,6 +4574,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -4727,6 +4749,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -4944,6 +4967,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -5118,6 +5142,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -5319,6 +5344,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -5536,6 +5562,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -5636,6 +5663,7 @@
                     "Red": 3,
                     "Green": 1
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -6343,6 +6371,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -6444,6 +6473,7 @@
                     "Blue": 3,
                     "Green": 2
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -6801,7 +6831,7 @@
                                         {
                                             "name": "Add Status To Target Skill Effect Data",
                                             "type": "AddStatusToTargetSkillEffectData",
-                                            "removeOnEffectReversion": false,
+                                            "removeOnEffectReversion": true,
                                             "effectTarget": "Self",
                                             "statusDefinition": {
                                                 "name": "Guaraci - Dawnlight - Status Definition",
@@ -6843,6 +6873,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": true,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -7118,6 +7149,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -7172,6 +7204,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -7215,6 +7248,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -7651,6 +7685,7 @@
                     "Red": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -8400,6 +8435,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -8616,6 +8652,7 @@
                     "Red": 2,
                     "Green": 2
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -9233,6 +9270,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -9333,6 +9371,7 @@
                     "Green": 2,
                     "Red": 1
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -9591,6 +9630,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -9780,6 +9820,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "Roll",
@@ -9996,6 +10037,7 @@
                     "Blue": 2,
                     "Green": 2
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -10253,6 +10295,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -10431,6 +10474,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -10630,6 +10674,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -10676,6 +10721,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -10775,6 +10821,7 @@
                 "masteredDevotionGranted": {
                     "Red": 2
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -11332,6 +11379,7 @@
                     "Red": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -12146,6 +12194,7 @@
                     "Green": 1,
                     "Blue": 1
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -12935,6 +12984,7 @@
                     "Blue": 1,
                     "Red": 1
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -13658,6 +13708,7 @@
                 "masteredDevotionGranted": {
                     "Blue": 2
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -14272,6 +14323,7 @@
                     "Red": 3,
                     "Blue": 1
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -14765,6 +14817,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -14966,6 +15019,7 @@
                     "Red": 2,
                     "Blue": 1
                 },
+                "eDevotionCategory": "Green",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -15799,6 +15853,7 @@
                     "Green": 1,
                     "Red": 1
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -16524,6 +16579,7 @@
                     "Green": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -17246,6 +17302,7 @@
                 "masteredDevotionGranted": {
                     "Blue": 3
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -17758,6 +17815,7 @@
                     "Blue": 2,
                     "Red": 2
                 },
+                "eDevotionCategory": "RedBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -18366,6 +18424,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -18473,6 +18532,7 @@
                     "Red": 2,
                     "Blue": 1
                 },
+                "eDevotionCategory": "RedBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -18984,6 +19044,7 @@
                     "Green": 2,
                     "Red": 2
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -19660,6 +19721,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -19768,6 +19830,7 @@
                     "Green": 3,
                     "Red": 2
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -20814,7 +20877,7 @@
                             {
                                 "name": "c46da9d9-5440-49bd-8502-d56bdb6f5eb2",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "MagicDamage",
+                                "eStatDefinition": "FireDamage",
                                 "statModifierType": "Multiplicative",
                                 "value": 1.2,
                                 "hideDescription": false,
@@ -20860,6 +20923,100 @@
                             },
                             {
                                 "name": "72974c35-c61d-4cc2-bf21-7d8dde155b8c",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "statModifierType": "Multiplicative",
+                                "value": 1.2,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "85463066-8a14-4378-88de-37540b58cb9c",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "PlagueDamage",
+                                "statModifierType": "Multiplicative",
+                                "value": 1.2,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "f140dd34-58a5-47e6-8808-0b670f3263a7",
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "Mana",
                                 "statModifierType": "Multiplicative",
@@ -20950,6 +21107,7 @@
                     "Green": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "RedBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -21782,6 +21940,7 @@
                     "Green": 3,
                     "Red": 2
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -22742,6 +22901,7 @@
                     "Red": 3,
                     "Green": 2
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -23257,6 +23417,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -23698,6 +23859,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -23908,6 +24070,7 @@
                     "Green": 3,
                     "Red": 1
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -24542,6 +24705,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": true,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -24608,6 +24772,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": true,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -25018,6 +25183,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -25162,6 +25328,7 @@
                 "masteredDevotionGranted": {
                     "Blue": 2
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -25677,6 +25844,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": true,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -25829,6 +25997,7 @@
                     "Green": 4,
                     "Blue": 3
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -26752,6 +26921,7 @@
                     "Green": 2,
                     "Red": 1
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -27424,6 +27594,7 @@
                     "Red": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "RedBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -28011,6 +28182,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": true,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -28126,6 +28298,7 @@
                     "Green": 1,
                     "Blue": 1
                 },
+                "eDevotionCategory": "Neutral",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -28524,6 +28697,7 @@
                     "Green": 2,
                     "Red": 1
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -29139,6 +29313,7 @@
                     "Green": 2,
                     "Red": 2
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -29699,6 +29874,7 @@
                     "Green": 1,
                     "Blue": 1
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -30268,6 +30444,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -30326,6 +30503,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -30581,6 +30759,7 @@
                 "masteredDevotionGranted": {
                     "Blue": 1
                 },
+                "eDevotionCategory": "Blue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -30985,6 +31164,7 @@
                     "Green": 3,
                     "Red": 2
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -31364,6 +31544,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -31546,6 +31727,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -31790,6 +31972,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "Roll",
@@ -31821,6 +32004,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -31936,6 +32120,7 @@
                     "Red": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "Neutral",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -32457,6 +32642,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -32622,6 +32808,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -32737,6 +32924,7 @@
                     "Red": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "Neutral",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -33516,6 +33704,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -33623,6 +33812,7 @@
                     "Blue": 2,
                     "Red": 1
                 },
+                "eDevotionCategory": "RedBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -34087,7 +34277,7 @@
                                                 }
                                             ],
                                             "useCharacterEffectTrigger": false,
-                                            "effectTrigger": "TargetHit",
+                                            "effectTrigger": "BuildDamage",
                                             "characterEffectTrigger": "Kill",
                                             "ruleSet": {
                                                 "type": "SkillEffectRuleSet",
@@ -34102,6 +34292,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -34209,6 +34400,7 @@
                     "Blue": 3,
                     "Green": 3
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -34954,6 +35146,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -35055,6 +35248,7 @@
                     "Red": 4,
                     "Blue": 1
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -35998,6 +36192,7 @@
                     "Green": 2,
                     "Blue": 1
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -36677,6 +36872,7 @@
                     "Green": 1,
                     "Blue": 1
                 },
+                "eDevotionCategory": "Neutral",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -37081,6 +37277,7 @@
                     "Red": 2,
                     "Blue": 1
                 },
+                "eDevotionCategory": "RedBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -37587,6 +37784,7 @@
                     "Green": 2,
                     "Blue": 1
                 },
+                "eDevotionCategory": "Red",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -38527,6 +38725,7 @@
                     "Red": 4,
                     "Blue": 3
                 },
+                "eDevotionCategory": "RedBlue",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -38618,7 +38817,101 @@
                             {
                                 "name": "2d9537af-1676-4074-90ff-4bd9527ba159",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "MagicDamage",
+                                "eStatDefinition": "FireDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.15,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "c9ea9080-ffef-48df-bf27-524d9580b9ca",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.15,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "e018955e-ad63-4cf2-a7c9-82bef2e81d0a",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "PlagueDamage",
                                 "statModifierType": "MultiplicativeAdditive",
                                 "value": 1.15,
                                 "hideDescription": false,
@@ -39457,6 +39750,7 @@
                     "Green": 3,
                     "Red": 3
                 },
+                "eDevotionCategory": "GreenRed",
                 "nameKey": [
                     {
                         "langCode": "de",
@@ -39985,6 +40279,7 @@
                                                 "rules": []
                                             },
                                             "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -40092,6 +40387,7 @@
                     "Green": 2,
                     "Blue": 2
                 },
+                "eDevotionCategory": "GreenBlue",
                 "nameKey": [
                     {
                         "langCode": "de",

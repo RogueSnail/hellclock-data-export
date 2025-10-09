@@ -341,6 +341,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -567,6 +568,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -804,6 +806,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -3150,6 +3153,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -3415,6 +3419,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -3445,6 +3450,7 @@
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
                                 "triggerTargetValue": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "",
@@ -3631,6 +3637,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -3839,6 +3846,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -4032,6 +4040,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -4092,6 +4101,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -4314,6 +4324,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -4531,6 +4542,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -4796,6 +4808,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -4840,6 +4853,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -5132,6 +5146,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -5175,6 +5190,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -5367,6 +5383,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -5735,6 +5752,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -5928,6 +5946,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -6159,6 +6178,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -6202,6 +6222,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -6455,6 +6476,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -6485,6 +6507,7 @@
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
                                 "triggerTargetValue": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "",
@@ -6694,6 +6717,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -6904,6 +6928,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -6947,6 +6972,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -7162,6 +7188,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -7220,6 +7247,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -7435,6 +7463,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -7616,6 +7645,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -7650,6 +7680,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -7898,6 +7929,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -7956,6 +7988,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -8216,6 +8249,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -8455,6 +8489,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -8506,6 +8541,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -8540,6 +8576,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -8604,6 +8641,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -8859,6 +8897,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -8902,6 +8941,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -9004,6 +9044,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -9028,6 +9069,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -11633,6 +11675,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -11863,6 +11906,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -12084,6 +12128,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -12297,6 +12342,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -12650,6 +12696,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -12882,6 +12929,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -13108,6 +13156,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -13302,6 +13351,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -13511,6 +13561,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -13844,6 +13895,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -14042,6 +14094,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -14085,6 +14138,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -14109,6 +14163,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -14369,6 +14424,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -14620,6 +14676,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -14663,6 +14720,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -14930,6 +14988,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -15147,6 +15206,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -15391,6 +15451,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -15488,6 +15549,7 @@
                                     ]
                                 },
                                 "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
                                 "triggerTargetValue": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "",
@@ -15518,6 +15580,7 @@
                                             "rules": []
                                         },
                                         "revertOnRuleFail": false,
+                                        "revertOnRemoval": false,
                                         "triggerTargetValue": {
                                             "type": "SkillEffectVariableReference",
                                             "valueOrName": "",
@@ -15728,6 +15791,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -15939,6 +16003,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -16142,6 +16207,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -16364,6 +16430,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -16557,6 +16624,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "Roll",
@@ -16808,6 +16876,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -17051,6 +17120,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -17284,6 +17354,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -17484,6 +17555,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -17528,6 +17600,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -17770,6 +17843,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -17996,6 +18070,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -18213,6 +18288,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -18442,6 +18518,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -18634,6 +18711,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -18677,6 +18755,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -18701,6 +18780,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -18910,6 +18990,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -19092,6 +19173,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -19135,6 +19217,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -19383,6 +19466,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -19643,6 +19727,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -19873,6 +19958,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -19916,6 +20002,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -20145,6 +20232,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -20244,6 +20332,7 @@
                                     ]
                                 },
                                 "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
                                 "triggerTargetValue": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "",
@@ -20283,6 +20372,7 @@
                                             "rules": []
                                         },
                                         "revertOnRuleFail": false,
+                                        "revertOnRemoval": false,
                                         "triggerTargetValue": {
                                             "type": "SkillEffectVariableReference",
                                             "valueOrName": "",
@@ -20345,6 +20435,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -20603,6 +20694,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -20897,6 +20989,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -20922,6 +21015,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -21139,6 +21233,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -21350,6 +21445,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -21542,6 +21638,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -21591,6 +21688,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -21785,6 +21883,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -21995,6 +22094,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -22195,6 +22295,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -22432,6 +22533,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -22669,6 +22771,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -22898,6 +23001,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -23138,6 +23242,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -23403,6 +23508,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -23594,6 +23700,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -23844,6 +23951,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -24117,6 +24225,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -24334,6 +24443,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -24552,6 +24662,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -24607,6 +24718,7 @@
                                     ]
                                 },
                                 "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
                                 "triggerTargetValue": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "",
@@ -24831,6 +24943,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -25105,6 +25218,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -25324,6 +25438,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -25564,6 +25679,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -25607,6 +25723,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -25857,6 +25974,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -25900,6 +26018,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -26145,6 +26264,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -27129,6 +27249,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -27375,6 +27496,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -27599,6 +27721,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -27638,6 +27761,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -27834,6 +27958,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -28077,6 +28202,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -35073,6 +35199,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -35116,6 +35243,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -35313,6 +35441,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -35352,6 +35481,7 @@
                             ]
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -43759,6 +43889,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
@@ -44103,6 +44234,7 @@
                             "rules": []
                         },
                         "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
                         "triggerTargetValue": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "",
