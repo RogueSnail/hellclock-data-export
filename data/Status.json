@@ -99,6 +99,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -206,6 +207,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 0,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -315,6 +317,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 3,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -424,6 +427,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 10,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -451,6 +455,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -472,6 +477,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -490,6 +496,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -591,6 +598,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -698,6 +706,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -901,6 +910,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -1099,6 +1109,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.35,
             "shouldEchoClone": false,
@@ -1206,6 +1217,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 0,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -1339,6 +1351,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -1819,6 +1832,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -1832,12 +1846,17 @@
             "effectAreaDefinition": {
                 "name": "DoubleKnivesAreaDefinition",
                 "id": 22,
-                "type": "IntervalDamageStatusAreaDefinition",
-                "statusDefinitions": [],
+                "type": "DamageStatusAreaDefinition",
                 "damageMod": 1.0,
                 "useSourceSkillDamageModifierWhenAvailable": true,
+                "singleInstanceDamage": false,
                 "eDamageType": "PHYSICAL",
                 "damageStatModifiers": [],
+                "statusDefinitions": [],
+                "refreshOnAreaEnter": true,
+                "removeOnAreaExit": true,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
                 "radius": 3.0,
                 "effectInterval": 0.2
             },
@@ -1924,6 +1943,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -2025,6 +2045,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2132,6 +2153,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2245,6 +2267,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 5.0,
             "shouldEchoClone": false,
@@ -2344,6 +2367,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "MultipleInstancesBestOnly",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -2444,6 +2468,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "MultipleInstances",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -2551,6 +2576,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2658,6 +2684,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2751,6 +2778,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2852,6 +2880,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2953,6 +2982,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -3072,6 +3102,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -3291,6 +3322,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -3488,6 +3520,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -3709,7 +3742,12 @@
                 "effectAreaDefinition": {
                     "name": "PlagueExplosionStatusAreaDefinition",
                     "id": 41,
-                    "type": "IntervalDamageStatusAreaDefinition",
+                    "type": "DamageStatusAreaDefinition",
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": false,
+                    "singleInstanceDamage": false,
+                    "eDamageType": "PLAGUE",
+                    "damageStatModifiers": [],
                     "statusDefinitions": [
                         {
                             "name": "MaimedStatusDefinition",
@@ -3717,10 +3755,10 @@
                             "type": "StatModifierStatusDefinition"
                         }
                     ],
-                    "damageMod": 1.0,
-                    "useSourceSkillDamageModifierWhenAvailable": false,
-                    "eDamageType": "PLAGUE",
-                    "damageStatModifiers": [],
+                    "refreshOnAreaEnter": true,
+                    "removeOnAreaExit": true,
+                    "applyOnInterval": false,
+                    "statusDuration": 0.0,
                     "radius": 6.0,
                     "effectInterval": 0.5
                 },
@@ -3732,6 +3770,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -4403,6 +4442,7 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -4417,11 +4457,12 @@
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
                                 },
-                                "useStatConversion": false,
+                                "useStatConversion": "NoConversion",
                                 "conversionStatDefinition": "BaseDamage",
                                 "listenToVariableModifiersUpdate": false
                             }
                         ],
+                        "startDisabled": false,
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "Always",
                         "characterEffectTrigger": "Kill",
@@ -4625,6 +4666,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -4738,6 +4780,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5001,6 +5044,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5094,6 +5138,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5297,6 +5342,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5398,6 +5444,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5499,6 +5546,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5600,6 +5648,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5900,6 +5949,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 0,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -6097,6 +6147,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -7067,6 +7118,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -7160,6 +7212,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -7850,6 +7903,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -8065,6 +8119,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -8108,6 +8163,7 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -8122,7 +8178,7 @@
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
                                 },
-                                "useStatConversion": false,
+                                "useStatConversion": "NoConversion",
                                 "conversionStatDefinition": "BaseDamage",
                                 "listenToVariableModifiersUpdate": false
                             },
@@ -8139,11 +8195,12 @@
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
                                 },
-                                "useStatConversion": false,
+                                "useStatConversion": "NoConversion",
                                 "conversionStatDefinition": "BaseDamage",
                                 "listenToVariableModifiersUpdate": false
                             }
                         ],
+                        "startDisabled": false,
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "Always",
                         "characterEffectTrigger": "Kill",
@@ -8351,6 +8408,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -8452,6 +8510,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -8545,6 +8604,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -9085,6 +9145,7 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -9099,11 +9160,12 @@
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
                                 },
-                                "useStatConversion": false,
+                                "useStatConversion": "NoConversion",
                                 "conversionStatDefinition": "BaseDamage",
                                 "listenToVariableModifiersUpdate": false
                             }
                         ],
+                        "startDisabled": false,
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "Always",
                         "characterEffectTrigger": "Kill",
@@ -9541,6 +9603,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 666,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -9668,6 +9731,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackOnly",
             "maxStacks": 50,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -10007,6 +10071,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 0,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -10125,6 +10190,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 10,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -10149,6 +10215,7 @@
             "hideFromHud": true,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -10392,6 +10459,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 5.0,
             "shouldEchoClone": false,
@@ -10807,6 +10875,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 1,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -11355,6 +11424,7 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -11369,7 +11439,7 @@
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
                                 },
-                                "useStatConversion": false,
+                                "useStatConversion": "NoConversion",
                                 "conversionStatDefinition": "BaseDamage",
                                 "listenToVariableModifiersUpdate": false
                             },
@@ -11386,7 +11456,7 @@
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
                                 },
-                                "useStatConversion": false,
+                                "useStatConversion": "NoConversion",
                                 "conversionStatDefinition": "BaseDamage",
                                 "listenToVariableModifiersUpdate": false
                             },
@@ -11403,11 +11473,12 @@
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
                                 },
-                                "useStatConversion": false,
+                                "useStatConversion": "NoConversion",
                                 "conversionStatDefinition": "BaseDamage",
                                 "listenToVariableModifiersUpdate": false
                             }
                         ],
+                        "startDisabled": false,
                         "useCharacterEffectTrigger": true,
                         "effectTrigger": "TargetHit",
                         "characterEffectTrigger": "Always",
@@ -11727,6 +11798,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "StackAndRefresh",
             "maxStacks": 666,
             "removeStackAndRefreshOnDurationEnd": false,
@@ -11769,25 +11841,7 @@
                     {
                         "name": "Add Skill Stat Modifier Skill Effect Data",
                         "type": "AddSkillStatModifierSkillEffectData",
-                        "statModifiers": [
-                            {
-                                "type": "SkillEffectStatModifierDefinition",
-                                "eStatDefinition": "SkillProjectileAmount",
-                                "modifierType": "Additive",
-                                "value": {
-                                    "type": "SkillEffectVariableReference",
-                                    "valueOrName": "Roll",
-                                    "eSkillEffectVariableModifier": "0",
-                                    "statusToStack": {},
-                                    "supportVariableValueOrName": "",
-                                    "supportESkillEffectVariableModifier": "0",
-                                    "supportStatusToStack": {}
-                                },
-                                "useStatConversion": false,
-                                "conversionStatDefinition": "BaseDamage",
-                                "listenToVariableModifiersUpdate": false
-                            }
-                        ],
+                        "startDisabled": false,
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "Always",
                         "characterEffectTrigger": "Kill",
@@ -11808,7 +11862,26 @@
                         },
                         "triggerTargetEnumValue": 0,
                         "triggerTargetStringValue": "",
-                        "subEffects": []
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "SkillProjectileAmount",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ]
                     }
                 ]
             },
@@ -11855,7 +11928,7 @@
                 "descriptionKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Split Shot +{0} Projektilmenge pro Stapel"
+                        "langTranslation": "Split Shot +{0} Projektilanzahl pro Stapel"
                     },
                     {
                         "langCode": "en",
@@ -11863,11 +11936,11 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Disparo dividido +{0} Cantidad de proyectiles por acumulación"
+                        "langTranslation": "Disparo dividido +{0} Cantidad de proyectiles por pila"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Tir divisé + {0} Quantité de projectiles par cumul"
+                        "langTranslation": "Tir multiple +{0} Quantité de projectiles par pile"
                     },
                     {
                         "langCode": "ja",
@@ -11875,7 +11948,7 @@
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Podzielony strzał + {0} Ilość pocisku na stos"
+                        "langTranslation": "Podzielony strzał + {0} Ilość pocisków na stos"
                     },
                     {
                         "langCode": "pt-br",
@@ -11887,7 +11960,7 @@
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "分裂射击 +{0} 投射物数量（每层）"
+                        "langTranslation": "分裂射击 +{0} 每层投射物数量"
                     }
                 ],
                 "icon": "Icon_ProjectileSkills"
@@ -12191,6 +12264,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -12284,8 +12358,1691 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
+            "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Plague Carrier ExplosionOnDeathStatusDefinition",
+            "id": 174,
+            "type": "EffectAreaOnDeathStatusDefinition",
+            "effectAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "Plague Carrier ExplosionStatusAreaDefinition",
+                    "id": 122,
+                    "type": "DamageStatusAreaDefinition",
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": false,
+                    "singleInstanceDamage": false,
+                    "eDamageType": "PLAGUE",
+                    "damageStatModifiers": [],
+                    "statusDefinitions": [],
+                    "refreshOnAreaEnter": true,
+                    "removeOnAreaExit": true,
+                    "applyOnInterval": false,
+                    "statusDuration": 0.0,
+                    "radius": 4.5,
+                    "effectInterval": 0.5
+                },
+                "effectAreaDuration": 2.5,
+                "hasAnticipation": true,
+                "anticipationDuration": 0.5,
+                "anticipationDelay": 0.0
+            },
+            "hideFromHud": true,
+            "isBuff": false,
+            "isCrowdControl": true,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Rooted Status Definition",
+            "id": 175,
+            "type": "RootedStatusDefinition",
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Verstümmelt"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Maimed"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Mutilado"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Mutilé"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "負傷"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Okaleczony"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Mutilado"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Увечье"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "致残"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "TNF:(MaimedStatusDescription)"
+                    }
+                ],
+                "icon": "IconStatus_Slowed_white"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": true,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Exu - Messenger - Status Definition",
+            "id": 176,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireDamage",
+                    "modifierType": "Multiplicative",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Der Bote"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "The Messenger"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "El Mensajero"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Le messager"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "使者"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Posłaniec"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "O Mensageiro"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Посланник"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "信使"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_FireDamage_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 10,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Sao Joao - Baptism - Status Definition",
+            "id": 177,
+            "type": "IntensityModifierStatusDefinition",
+            "statusDefinitions": [
+                {
+                    "name": "Vigor Status Definition",
+                    "id": 95,
+                    "type": "StatModifierStatusDefinition"
+                }
+            ],
+            "intensityModifierType": "Multiplicative",
+            "intensityModifierValue": 1.6,
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Taufe"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Baptism"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Bautismo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Baptême"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "洗礼"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Chrzest"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Batismo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Крещение"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "洗礼"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Verursachst du Nahkampfschaden, verbessert sich die Schadensverringerung von Lebenskraft-Stapeln um {0}"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Increase effectiveness of Vigor stacks damage reduction by {0} after dealing Melee damage"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Aumenta la eficacia de la reducción de daño de las acumulaciones de Vigor en {0} después de infligir daño de combate cuerpo a cuerpo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "L'efficacité de Vigueur est augmentée de {0} après avoir infligé des dégâts de mêlée"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "近接ダメージを与えたあと、活力効果の累積によるダメージ減衰が{0}上昇する"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Increase effectiveness of Vigor stacks damage reduction by {0} after dealing Melee damage"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Aumenta a eficácia da redução de dano dos Acúmulos de Vigor em {0} após causar dano Corpo-a-Corpo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Заряды рвения снижают на {0} больше урона после нанесения урона в ближнем бою"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "每次近战攻击后，魄力层的伤害减免效果提升 {0}"
+                    }
+                ],
+                "icon": "IconStatus_VigorOrb_white"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Sume - Bloodless - Status Definition",
+            "id": 178,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LifeGain",
+                    "modifierType": "Multiplicative",
+                    "value": 1.3
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Blutlos"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Bloodless"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Sangre fría"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Indemne"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "無血"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Bez krwi"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Sem Sangue"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Бескровный"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "断血"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_FireDamage_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Orunmila - Prophecy of Fire - Status Definition",
+            "id": 179,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Prophezeiung der Weisheit"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Prophecy of Wisdom"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Profecía de Sabiduría"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Prophétie de sagesse"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "智慧の預言"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Proroctwo Mądrości"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Profecia da Sabedoria"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Пророчество мудрости"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "智者的预言"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_FireResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Orunmila - Prophecy of Plague - Status Definition",
+            "id": 180,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Prophezeiung der Weisheit"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Prophecy of Wisdom"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Profecía de Sabiduría"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Prophétie de sagesse"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "智慧の預言"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Proroctwo Mądrości"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Profecia da Sabedoria"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Пророчество мудрости"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "智者的预言"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_PlagueResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Orunmila - Prophecy of Lightning - Status Definition",
+            "id": 181,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Prophezeiung der Weisheit"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Prophecy of Wisdom"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Profecía de Sabiduría"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Prophétie de sagesse"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "智慧の預言"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Proroctwo Mądrości"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Profecia da Sabedoria"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Пророчество мудрости"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "智者的预言"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_LightningResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Santa Ana - Prepared and Strengthened - Status Definition",
+            "id": 182,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": -0.1
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": -0.1
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": -0.1
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Gefasst und gestärkt"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Prepared and Strengthened"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Preparada y fortalecida"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Préparé et renforcé"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "準備と強化"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Przygotowany i wzmocniony"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Preparado e Fortalecido"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Готовый и укрепленный"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "严阵以待"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_AllResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Iansa - Wind Made Manifest - Status Definition",
+            "id": 183,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "AttackSpeed",
+                    "modifierType": "MultiplicativeAdditive",
+                    "value": 0.035
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Evasion",
+                    "modifierType": "Additive",
+                    "value": 0.015
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Manifest des Windes"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Wind Made Manifest"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Viento manifiesto"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Avatar du vent"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "風の化身"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Manifest Wiatru"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Manifestação do Vento"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Воплощение ветра"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "风之显现"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_AttackSpeed_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 10,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Iansa - Sword of Winds and Storms - Status Definition",
+            "id": 184,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "SkillMeleeDamage",
+                    "modifierType": "Multiplicative",
+                    "value": 1.3
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Evasion",
+                    "modifierType": "MultiplicativeAdditive",
+                    "value": 1.25
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Schwert der Winde und Stürme"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Sword of Winds and Storms"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Espada de los vientos y tormentas"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Épée des vents et des orages"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "風と嵐の剣"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Miecz Wiatrów i Burz"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Espada dos Ventos e Tempestades"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Меч ветра и бурь"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "风暴之剑"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Multiskill_Melee"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Skull of the Forgotten - EnduranceBonusStatusDefinition",
+            "id": 185,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Endurance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Schädel des Vergessenen"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Skull Of The Forgotten"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Cráneo del Olvidado"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Crâne de l'Oublié"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "忘れられた頭蓋骨"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Czaszka Zapomnianych"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Crânio dos Esquecidos"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Череп Забытых"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "遗忘之骷髅"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_Evasion_white"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Skull of the Forgotten - MoveSpeedBonusStatusDefinition",
+            "id": 186,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Schädel des Vergessenen"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Skull Of The Forgotten"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Cráneo del Olvidado"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Crâne de l'Oublié"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "忘れられた頭蓋骨"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Czaszka Zapomnianych"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Crânio dos Esquecidos"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Череп Забытых"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "遗忘之骷髅"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_MoveSpeed_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Summon Marksmen - Summoning of Death - Phys Res Shred Status Definition",
+            "id": 187,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": -0.2
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Beschwörung des Todes"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Summoning of Death"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Invocación de la muerte"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Invocation de la mort"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "死の召喚"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Przywołanie śmierci"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Invocação da Morte"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Вызов смерти"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "死亡召唤"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_LightningResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Judgement - Damage Multiplier Buff",
+            "id": 188,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Damage",
+                    "modifierType": "Multiplicative",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Buch des Gerichts"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Book of Judgment"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Libro del Juicio"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Livre du Jugement"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "審判の書"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Księga Sądu"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Livro do Julgamento"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Книга Суда"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "审判之书"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Damage_Base"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Logun Ede - Destiny - Status Definition",
+            "id": 189,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "AttackSpeed",
+                    "modifierType": "MultiplicativeAdditive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Jäger des Schicksals"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Hunter of Destiny"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Cazador de destino"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Chasseur du destin"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "運命の狩人"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Łowca Przeznaczenia"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Caçador do Destino"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Охотник судьбы"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "命运猎手"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_AttackSpeed_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 5,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "BloodBoilStatusDefinition",
+            "id": 190,
+            "type": "DamageOverTimeStatusDefinition",
+            "damageBypassBarrier": false,
+            "useFixedBaseDamage": false,
+            "damageMod": 1.0,
+            "eDamageType": "PHYSICAL",
+            "hasSpecificResistance": false,
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Blutes"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Blood Boil"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Forúnculo de sangre"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Furoncle sanguin"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "血の沸騰"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Wrzenie krwi"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Ferve-Sangue"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Кипение крови"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "血沸"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Blutes"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Blood Boil"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Forúnculo de sangre"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Furoncle sanguin"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "血の沸騰"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Wrzenie krwi"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Ferve-Sangue"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Кипение крови"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "血沸"
+                    }
+                ],
+                "icon": "IconStatus_Bleeding_white"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.5,
             "shouldEchoClone": false,
             "purgeOnDeath": true,
             "purgeOnSourceDeath": false

@@ -127,7 +127,18 @@
         {},
         {},
         {},
-        {}
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "name": "The Carpenter Homing Projectile Skill Definition",
+            "id": 608,
+            "type": "HomingProjectileAttackSkillDefinition"
+        }
     ],
     "usePotionSkillDefinition": {
         "name": "Use Potion Skill Definition",
