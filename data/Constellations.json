@@ -38485,11 +38485,7 @@
                                         {
                                             "name": "Add Skill Value Modifier Skill Effect Data (1)",
                                             "type": "AddSkillValueModifierSkillEffectData",
-                                            "specificSkillDefinition": {
-                                                "name": "The Carpenter Homing Projectile Skill Definition",
-                                                "id": 608,
-                                                "type": "HomingProjectileAttackSkillDefinition"
-                                            },
+                                            "specificSkillDefinition": {},
                                             "modifiers": [
                                                 {
                                                     "type": "SkillEffectSkillModifierDefinition",
@@ -38568,11 +38564,7 @@
                                                 {
                                                     "name": "Execute Skill Raw Skill Effect Data",
                                                     "type": "ExecuteSkillRawSkillEffectData",
-                                                    "skillDefinition": {
-                                                        "name": "The Carpenter Homing Projectile Skill Definition",
-                                                        "id": 608,
-                                                        "type": "HomingProjectileAttackSkillDefinition"
-                                                    },
+                                                    "skillDefinition": {},
                                                     "effectTarget": "Self",
                                                     "executeMultiple": false,
                                                     "startDisabled": false,
