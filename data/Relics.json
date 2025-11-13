@@ -33262,6 +33262,858 @@
             "devotionAffinity": [
                 "Blue"
             ]
+        },
+        {
+            "name": "All Skills - Monddocs Air Orb - Unique Exalted Relic",
+            "id": 155,
+            "type": "UniqueRelicBaseDefinition",
+            "sprite": "IconRelic_air",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Monddocs Luftkugel"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Monddoc's Air Orb"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Orbe de Aire de Monddoc"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Orbe d’Air de Monddoc"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "モンドックの風のオーブ"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Kula Powietrza Monddoca"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Orbe de Ar de Monddoc"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сфера Воздуха Монддока"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "蒙多克的空气之球"
+                }
+            ],
+            "loreLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Dieses Einzigartige Relikt wurde vom Community-Mitglied Monddoc für seine herausragenden Beiträge zur Hell Clock-Community erstellt."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "This Unique Relic was created by community member Monddoc for his exceptional contributions to Hell Clock's community."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Esta Reliquia Única fue creada por el miembro de la comunidad Monddoc por sus contribuciones excepcionales a la comunidad de Hell Clock."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Cette Relique Unique a été créée par le membre de la communauté Monddoc pour ses contributions exceptionnelles à la communauté de Hell Clock."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "このユニーク・レリックは、コミュニティメンバーの Monddoc が『Hell Clock』コミュニティへの素晴らしい貢献に対して作成したものです。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Ten Unikalny Relikt został stworzony przez członka społeczności Monddoc w uznaniu jego wyjątkowego wkładu w społeczność Hell Clock."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Esta Relíquia Única foi criada pelo membro da comunidade Monddoc em reconhecimento às suas contribuições excepcionais para a comunidade de Hell Clock."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Этот уникальный артефакт был создан участником сообщества Monddoc за его выдающийся вклад в сообщество Hell Clock."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "这件独特遗物由社区成员 Monddoc 创作，以表彰他对《Hell Clock》社区的卓越贡献"
+                }
+            ],
+            "intrinsicAffixes": [
+                {
+                    "name": "All Skills - Monddocs Air Orb - Multiple Bonuses LIGHTNING Affix",
+                    "id": 334,
+                    "type": "SkillBehaviorAffixDefinition"
+                }
+            ],
+            "disassembleSoulStonesReward": 120,
+            "eRelicSize": "Exalted",
+            "primaryAffixAmount": [
+                1,
+                1
+            ],
+            "primaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalChanceMultiplierAffix",
+                        "id": 108,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalDamageMultiplierAffix",
+                        "id": 109,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorPhysicalDamageBonusAffix",
+                        "id": 219,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorFireDamageBonusAffix",
+                        "id": 217,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorLightningDamageBonusAffix",
+                        "id": 216,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorPlagueDamageBonusAffix",
+                        "id": 218,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CooldownSpeedAffix",
+                        "id": 26,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MovementSpeedAffix",
+                        "id": 37,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Life Multiplier Affix",
+                        "id": 116,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Mana Multiplier Affix",
+                        "id": 117,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Mana Cost MultiplierAffix",
+                        "id": 122,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "secondaryAffixAmount": [
+                2,
+                2
+            ],
+            "secondaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "BaseLifeAffix",
+                        "id": 33,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "BaseManaAffix",
+                        "id": 36,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ConvictionGainAffix",
+                        "id": 114,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ExperienceGainAffix",
+                        "id": 30,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.5,
+                    "value": {
+                        "name": "PhysicalResistanceAffix",
+                        "id": 38,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "FireResistanceAffix",
+                        "id": 31,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "LightningResistanceAffix",
+                        "id": 34,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "PlagueResistanceAffix",
+                        "id": 39,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "LifeRegenOnKillAffix",
+                        "id": 0,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "ManaRegenOnKillAffix",
+                        "id": 1,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ManaRegenAffix",
+                        "id": 115,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "devotionAffinity": [
+                "Green",
+                "Red",
+                "Blue"
+            ]
+        },
+        {
+            "name": "All Skills - Monddocs Fire Orb - Unique Exalted Relic",
+            "id": 156,
+            "type": "UniqueRelicBaseDefinition",
+            "sprite": "IconRelic_fire",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Monddocs Feuerkugel"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Monddoc's Fire Orb"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Orbe de Fuego de Monddoc"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Orbe de Feu de Monddoc"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "モンドックの炎のオーブ"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Kula Ognia Monddoca"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Orbe de Fogo de Monddoc"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сфера Огня Монддока"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "蒙多克的火焰之球"
+                }
+            ],
+            "loreLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Dieses Einzigartige Relikt wurde vom Community-Mitglied Monddoc für seine herausragenden Beiträge zur Hell Clock-Community erstellt."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "This Unique Relic was created by community member Monddoc for his exceptional contributions to Hell Clock's community."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Esta Reliquia Única fue creada por el miembro de la comunidad Monddoc por sus contribuciones excepcionales a la comunidad de Hell Clock."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Cette Relique Unique a été créée par le membre de la communauté Monddoc pour ses contributions exceptionnelles à la communauté de Hell Clock."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "このユニーク・レリックは、コミュニティメンバーの Monddoc が『Hell Clock』コミュニティへの素晴らしい貢献に対して作成したものです。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Ten Unikalny Relikt został stworzony przez członka społeczności Monddoc w uznaniu jego wyjątkowego wkładu w społeczność Hell Clock."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Esta Relíquia Única foi criada pelo membro da comunidade Monddoc em reconhecimento às suas contribuições excepcionais para a comunidade de Hell Clock."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Этот уникальный артефакт был создан участником сообщества Monddoc за его выдающийся вклад в сообщество Hell Clock."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "这件独特遗物由社区成员 Monddoc 创作，以表彰他对《Hell Clock》社区的卓越贡献"
+                }
+            ],
+            "intrinsicAffixes": [
+                {
+                    "name": "All Skills - Monddocs Fire Orb - Multiple Bonuses FIRE Affix",
+                    "id": 335,
+                    "type": "SkillBehaviorAffixDefinition"
+                }
+            ],
+            "disassembleSoulStonesReward": 120,
+            "eRelicSize": "Exalted",
+            "primaryAffixAmount": [
+                1,
+                1
+            ],
+            "primaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalChanceMultiplierAffix",
+                        "id": 108,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalDamageMultiplierAffix",
+                        "id": 109,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorPhysicalDamageBonusAffix",
+                        "id": 219,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorFireDamageBonusAffix",
+                        "id": 217,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorLightningDamageBonusAffix",
+                        "id": 216,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorPlagueDamageBonusAffix",
+                        "id": 218,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CooldownSpeedAffix",
+                        "id": 26,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MovementSpeedAffix",
+                        "id": 37,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Life Multiplier Affix",
+                        "id": 116,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Mana Multiplier Affix",
+                        "id": 117,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Mana Cost MultiplierAffix",
+                        "id": 122,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "secondaryAffixAmount": [
+                2,
+                2
+            ],
+            "secondaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "BaseLifeAffix",
+                        "id": 33,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "BaseManaAffix",
+                        "id": 36,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ConvictionGainAffix",
+                        "id": 114,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ExperienceGainAffix",
+                        "id": 30,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.5,
+                    "value": {
+                        "name": "PhysicalResistanceAffix",
+                        "id": 38,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "FireResistanceAffix",
+                        "id": 31,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "LightningResistanceAffix",
+                        "id": 34,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "PlagueResistanceAffix",
+                        "id": 39,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "LifeRegenOnKillAffix",
+                        "id": 0,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "ManaRegenOnKillAffix",
+                        "id": 1,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ManaRegenAffix",
+                        "id": 115,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "devotionAffinity": [
+                "Green",
+                "Red",
+                "Blue"
+            ]
+        },
+        {
+            "name": "All Skills - Monddocs Water Orb - Unique Exalted Relic",
+            "id": 157,
+            "type": "UniqueRelicBaseDefinition",
+            "sprite": "IconRelic_water",
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Monddocs Wasserkugel"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Monddoc's Water Orb"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Orbe de Agua de Monddoc"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Orbe d’Eau de Monddoc"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "モンドックの水のオーブ"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Kula Wody Monddoca"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Orbe de Água de Monddoc"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сфера Воды Монддока"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "蒙多克的水之球"
+                }
+            ],
+            "loreLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Dieses Einzigartige Relikt wurde vom Community-Mitglied Monddoc für seine herausragenden Beiträge zur Hell Clock-Community erstellt."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "This Unique Relic was created by community member Monddoc for his exceptional contributions to Hell Clock's community."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Esta Reliquia Única fue creada por el miembro de la comunidad Monddoc por sus contribuciones excepcionales a la comunidad de Hell Clock."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Cette Relique Unique a été créée par le membre de la communauté Monddoc pour ses contributions exceptionnelles à la communauté de Hell Clock."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "このユニーク・レリックは、コミュニティメンバーの Monddoc が『Hell Clock』コミュニティへの素晴らしい貢献に対して作成したものです。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Ten Unikalny Relikt został stworzony przez członka społeczności Monddoc w uznaniu jego wyjątkowego wkładu w społeczność Hell Clock."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Esta Relíquia Única foi criada pelo membro da comunidade Monddoc em reconhecimento às suas contribuições excepcionais para a comunidade de Hell Clock."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Этот уникальный артефакт был создан участником сообщества Monddoc за его выдающийся вклад в сообщество Hell Clock."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "这件独特遗物由社区成员 Monddoc 创作，以表彰他对《Hell Clock》社区的卓越贡献"
+                }
+            ],
+            "intrinsicAffixes": [
+                {
+                    "name": "All Skills - Monddocs Water Orb - Multiple Bonuses PLAGUE Affix",
+                    "id": 336,
+                    "type": "SkillBehaviorAffixDefinition"
+                }
+            ],
+            "disassembleSoulStonesReward": 120,
+            "eRelicSize": "Exalted",
+            "primaryAffixAmount": [
+                1,
+                1
+            ],
+            "primaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalChanceMultiplierAffix",
+                        "id": 108,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CriticalDamageMultiplierAffix",
+                        "id": 109,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorPhysicalDamageBonusAffix",
+                        "id": 219,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorFireDamageBonusAffix",
+                        "id": 217,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorLightningDamageBonusAffix",
+                        "id": 216,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MajorPlagueDamageBonusAffix",
+                        "id": 218,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "CooldownSpeedAffix",
+                        "id": 26,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "MovementSpeedAffix",
+                        "id": 37,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Life Multiplier Affix",
+                        "id": 116,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Mana Multiplier Affix",
+                        "id": 117,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Mana Cost MultiplierAffix",
+                        "id": 122,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "secondaryAffixAmount": [
+                2,
+                2
+            ],
+            "secondaryAffixPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "BaseLifeAffix",
+                        "id": 33,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "BaseManaAffix",
+                        "id": 36,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ConvictionGainAffix",
+                        "id": 114,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ExperienceGainAffix",
+                        "id": 30,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.5,
+                    "value": {
+                        "name": "PhysicalResistanceAffix",
+                        "id": 38,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "FireResistanceAffix",
+                        "id": 31,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "LightningResistanceAffix",
+                        "id": 34,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "PlagueResistanceAffix",
+                        "id": 39,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "LifeRegenOnKillAffix",
+                        "id": 0,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 0.33,
+                    "value": {
+                        "name": "ManaRegenOnKillAffix",
+                        "id": 1,
+                        "type": "RegenOnKillAffixDefinition"
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "ManaRegenAffix",
+                        "id": 115,
+                        "type": "StatModifierAffixDefinition"
+                    }
+                }
+            ],
+            "devotionAffinity": [
+                "Green",
+                "Red",
+                "Blue"
+            ]
         }
     ]
 }

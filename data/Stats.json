@@ -260,7 +260,11 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.5,
             "isPlayerStat": false,
-            "willClamp": false
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 1.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 10000.0
         },
         {
             "name": "Life",

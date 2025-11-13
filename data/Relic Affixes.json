@@ -80,7 +80,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -202,7 +202,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1042,7 +1042,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1183,7 +1183,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1324,7 +1324,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1465,7 +1465,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1606,7 +1606,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -1738,7 +1738,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1879,7 +1879,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2020,7 +2020,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2161,7 +2161,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2302,7 +2302,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2443,7 +2443,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2584,7 +2584,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2725,7 +2725,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2866,7 +2866,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -3007,7 +3007,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -3947,7 +3947,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -4429,7 +4429,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -4649,7 +4649,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -5629,7 +5629,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -5867,7 +5867,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -6062,7 +6062,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -7374,7 +7374,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -7591,7 +7591,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -7810,7 +7810,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -8286,7 +8286,7 @@
                         ],
                         "startDisabled": false,
                         "useCharacterEffectTrigger": false,
-                        "effectTrigger": "Using",
+                        "effectTrigger": "Always",
                         "characterEffectTrigger": "Kill",
                         "ruleSet": {
                             "type": "SkillEffectRuleSet",
@@ -9354,7 +9354,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9495,7 +9495,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9636,7 +9636,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9777,7 +9777,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9918,7 +9918,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10059,7 +10059,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10341,7 +10341,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -10482,7 +10482,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -11451,7 +11451,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -11592,7 +11592,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -12630,7 +12630,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -12850,7 +12850,7 @@
                 }
             ],
             "eAffixRarity": "Special",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -14055,7 +14055,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [
                 {
                     "name": "Double Knives - General - Move Speed Blessing",
@@ -14327,7 +14327,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -14590,7 +14590,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -15159,7 +15159,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -15378,7 +15378,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -16180,7 +16180,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -16609,7 +16609,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -17058,7 +17058,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -18033,7 +18033,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -18482,7 +18482,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -18713,7 +18713,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -19421,7 +19421,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -19672,7 +19672,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -19935,7 +19935,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [
                 {
                     "name": "Matadeira - General - DotDuration",
@@ -21668,7 +21668,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -22110,7 +22110,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -22525,7 +22525,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -22764,7 +22764,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -23003,7 +23003,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -23234,7 +23234,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -23744,7 +23744,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -23937,7 +23937,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -24190,7 +24190,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": "",
+            "blockCraftOnRelicSizes": [],
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -49698,23 +49698,23 @@
                         {
                             "type": "SkillEffectVariable",
                             "name": "CritDmg",
-                            "baseValue": 0.9,
+                            "baseValue": -0.05,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "Multiplicative"
+                            "eSkillEffectVariableFormat": "Percentage"
                         },
                         {
                             "type": "SkillEffectVariable",
                             "name": "DmgBonus",
                             "baseValue": 1.1,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         },
                         {
                             "type": "SkillEffectVariable",
                             "name": "CritChance",
-                            "baseValue": 0.9,
+                            "baseValue": -0.01,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "Multiplicative"
+                            "eSkillEffectVariableFormat": "Percentage"
                         },
                         {
                             "type": "SkillEffectVariable",
@@ -49722,12 +49722,221 @@
                             "baseValue": 0.07,
                             "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 1.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
                         }
                     ]
                 },
-                "effects": []
+                "effects": [
+                    {
+                        "name": "Add Character Stat Modifier Skill Effect Data",
+                        "type": "AddCharacterStatModifierSkillEffectData",
+                        "effectTarget": "Self",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "Always",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalDamage",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritDmg",
+                                    "eSkillEffectVariableModifier": "MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "PhysicalDamage",
+                                "modifierType": "Multiplicative",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "DmgBonus",
+                                    "eSkillEffectVariableModifier": "UseMultipliedModifier, MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalChance",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritChance",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "AttackSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CooldownSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Monddoc Earth Orb - Phys Shred - Status Definition",
+                            "id": 193,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "MultiplyByRedDevotionAmount",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "DamageIsCritical",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "0",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
             },
-            "customIcon": "IconStatus_Bleeding",
+            "customIcon": "Icon_PhysicalDamage_Base",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -50576,6 +50785,1356 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": "每个力量法球造成 {0} 点点燃伤害。减速或眩晕的敌人受到的点燃伤害加倍"
+                }
+            ]
+        },
+        {
+            "name": "All Skills - Monddocs Air Orb - Multiple Bonuses LIGHTNING Affix",
+            "id": 334,
+            "type": "SkillBehaviorAffixDefinition",
+            "rollVariableName": "Roll",
+            "descriptionValuePrefix": "",
+            "additionalLocalizationVariables": [
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "CritDmg",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "DmgBonus",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "CritChance",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "Speed",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                }
+            ],
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": false,
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {
+                    "name": "FeitorsLashSkillDefinition",
+                    "id": 72,
+                    "type": "SlashSkillDefinition"
+                },
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "CritDmg",
+                            "baseValue": -0.05,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "DmgBonus",
+                            "baseValue": 1.1,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Multiplicative"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "CritChance",
+                            "baseValue": -0.01,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Speed",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 1.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Character Stat Modifier Skill Effect Data",
+                        "type": "AddCharacterStatModifierSkillEffectData",
+                        "effectTarget": "Self",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "Always",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalDamage",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritDmg",
+                                    "eSkillEffectVariableModifier": "MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "modifierType": "Multiplicative",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "DmgBonus",
+                                    "eSkillEffectVariableModifier": "UseMultipliedModifier, MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalChance",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritChance",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "AttackSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CooldownSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Monddoc Air Orb - Lightning Shred - Status Definition",
+                            "id": 192,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "MultiplyByRedDevotionAmount",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "DamageIsCritical",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "0",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "customIcon": "Icon_LightningDamage_Base",
+            "tierRollRanges": [
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 1,
+                    "rollRange": [
+                        -0.01,
+                        -0.012
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 2,
+                    "rollRange": [
+                        -0.012,
+                        -0.014
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 3,
+                    "rollRange": [
+                        -0.014,
+                        -0.016
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 4,
+                    "rollRange": [
+                        -0.016,
+                        -0.018
+                    ]
+                }
+            ],
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Monddocs Luftkugel"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Monddoc's Air Orb"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Orbe de Aire de Monddoc"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Orbe d’Air de Monddoc"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "モンドックの風のオーブ"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Kula Powietrza Monddoca"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Orbe de Ar de Monddoc"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сфера Воздуха Монддока"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "蒙多克的空气之球"
+                }
+            ],
+            "eAffixRarity": "Unique",
+            "blockCraftOnRelicSizes": [],
+            "incompatibleBlessings": [],
+            "modifierType": "Additive",
+            "upgradeModifierOverride": {
+                "0": 0.0,
+                "1": -0.01,
+                "2": -0.02,
+                "3": -0.03,
+                "4": -0.04,
+                "5": -0.05
+            },
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Für jeden Punkt Hingabe des Zorns verringern deine nicht-kritischen Treffer den Widerstand des Ziels gegen Blitz um {0} für 1 Sekunde.\nFür jeden Punkt Hingabe der Disziplin verlierst du {1} Kritischen Schaden und erhältst {2} Blitzschaden.\nFür jeden Punkt Hingabe des Glaubens verlierst du {3} Kritische Trefferchance und erhältst {4} Angriffsgeschwindigkeit und Abklingzeitverringerung."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "For each Fury Devotion point, your non-Critical hits reduce the target's Lightning resistance by {0} for 1 second.\nFor each Discipline Devotion point, lose {1} Critical Damage and gain {2} Lightning damage .\nFor each Faith Devotion point, lose {3} Critical Chance and gain {4} Attack and Cooldown Speed."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Por cada punto de Devoción a la Furia, tus golpes no críticos reducen la resistencia a Rayo del objetivo en {0} por 1 segundo.\nPor cada punto de Devoción a la Disciplina, pierdes {1} de Daño Crítico y ganas {2} de daño de Rayo.\nPor cada punto de Devoción a la Fe, pierdes {3} de Probabilidad Crítica y ganas {4} de Velocidad de Ataque y de Recarga."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Pour chaque point de Dévotion à la Fureur, vos attaques non critiques réduisent la résistance à la Foudre de la cible de {0} pendant 1 seconde.\nPour chaque point de Dévotion à la Discipline, perdez {1} de Dégâts Critiques et gagnez {2} de dégâts de Foudre.\nPour chaque point de Dévotion à la Foi, perdez {3} de Chance Critique et gagnez {4} de Vitesse d'Attaque et de Recharge."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "怒火の献身1ポイントごとに、非クリティカル攻撃は対象の雷耐性を{0}、1秒間低下させる。\n規律の献身1ポイントごとに、クリティカルダメージが{1}減少し、雷ダメージが{2}増加する。\n信仰の献身1ポイントごとに、クリティカル率が{3}減少し、攻撃速度とクールダウン速度が{4}増加する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Za każdy punkt Poświęcenia Furii twoje niekrytyczne trafienia zmniejszają odporność celu na Błyskawice o {0} przez 1 sekundę.\nZa każdy punkt Poświęcenia Dyscypliny tracisz {1} obrażeń krytycznych i zyskujesz {2} obrażeń od Błyskawic.\nZa każdy punkt Poświęcenia Wiary tracisz {3} szansy na trafienie krytyczne i zyskujesz {4} szybkości ataku i odnowienia."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Para cada ponto de Devoção de Fúria, seus ataques não críticos reduzem a resistência à Eletricidade do alvo em {0} por 1 segundo.\nPara cada ponto de Devoção de Disciplina, perca {1} de Dano Crítico e ganhe {2} de dano Elétrico.\nPara cada ponto de Devoção de Fé, perca {3} de Chance Crítica e ganhe {4} de Velocidade de Ataque e de Recarga."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "За каждый пункт служения Ярости ваши некритические удары снижают сопротивление цели молнии на {0} на 1 секунду.\nЗа каждый пункт служения Дисциплине теряете {1} к критическому урону и получаете {2} урона от молнии.\nЗа каждый пункт служения Вере теряете {3} к шансу критического удара и получаете {4} к скорости атаки и перезарядки."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "每一点怒火奉献，你的非暴击攻击使目标的闪电抗性降低 {0}，持续1秒。\n每一点律制奉献，失去 {1} 暴击伤害并获得 {2} 闪电伤害。\n每一点信仰奉献，失去 {3} 暴击几率并获得 {4} 攻击速度与技能冷却速度。"
+                }
+            ]
+        },
+        {
+            "name": "All Skills - Monddocs Fire Orb - Multiple Bonuses FIRE Affix",
+            "id": 335,
+            "type": "SkillBehaviorAffixDefinition",
+            "rollVariableName": "Roll",
+            "descriptionValuePrefix": "",
+            "additionalLocalizationVariables": [
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "CritDmg",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "DmgBonus",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "CritChance",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "Speed",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                }
+            ],
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": false,
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {
+                    "name": "FeitorsLashSkillDefinition",
+                    "id": 72,
+                    "type": "SlashSkillDefinition"
+                },
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "CritDmg",
+                            "baseValue": -0.05,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "DmgBonus",
+                            "baseValue": 1.1,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Multiplicative"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "CritChance",
+                            "baseValue": -0.01,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Speed",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 1.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Character Stat Modifier Skill Effect Data",
+                        "type": "AddCharacterStatModifierSkillEffectData",
+                        "effectTarget": "Self",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "Always",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalDamage",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritDmg",
+                                    "eSkillEffectVariableModifier": "MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "FireDamage",
+                                "modifierType": "Multiplicative",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "DmgBonus",
+                                    "eSkillEffectVariableModifier": "UseMultipliedModifier, MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalChance",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritChance",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "AttackSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CooldownSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Monddoc Fire Orb - Fire Shred - Status Definition",
+                            "id": 194,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "MultiplyByRedDevotionAmount",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "DamageIsCritical",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "0",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "customIcon": "Icon_FireDamage_Base",
+            "tierRollRanges": [
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 1,
+                    "rollRange": [
+                        -0.01,
+                        -0.012
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 2,
+                    "rollRange": [
+                        -0.012,
+                        -0.014
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 3,
+                    "rollRange": [
+                        -0.014,
+                        -0.016
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 4,
+                    "rollRange": [
+                        -0.016,
+                        -0.018
+                    ]
+                }
+            ],
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Monddocs Feuerkugel"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Monddoc's Fire Orb"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Orbe de Fuego de Monddoc"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Orbe de Feu de Monddoc"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "モンドックの炎のオーブ"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Kula Ognia Monddoca"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Orbe de Fogo de Monddoc"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сфера Огня Монддока"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "蒙多克的火焰之球"
+                }
+            ],
+            "eAffixRarity": "Unique",
+            "blockCraftOnRelicSizes": [],
+            "incompatibleBlessings": [],
+            "modifierType": "Additive",
+            "upgradeModifierOverride": {
+                "0": 0.0,
+                "1": -0.01,
+                "2": -0.02,
+                "3": -0.03,
+                "4": -0.04,
+                "5": -0.05
+            },
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Für jeden Punkt der Zorn-Hingabe verringern deine nicht-kritischen Treffer den physischen Widerstand des Ziels 1 Sekunde lang um {0}.\nFür jeden Punkt der Disziplin-Hingabe verlierst du {1} kritischen Schaden und erhältst {2} physischen Schaden.\nFür jeden Punkt der Glaubens-Hingabe verlierst du {3} kritische Trefferchance und erhältst {4} Angriffs- und Abklinggeschwindigkeit."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "For each Fury Devotion point, your non-Critical hits reduce the target's Fire resistance by {0} for 1 second.\nFor each Discipline Devotion point, lose {1} Critical Damage and gain {2} Fire damage .\nFor each Faith Devotion point, lose {3} Critical Chance and gain {4} Attack and Cooldown Speed."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Por cada punto de Devoción de Furia, tus golpes no críticos reducen la resistencia física del objetivo en {0} durante 1 segundo.\nPor cada punto de Devoción de Disciplina, pierdes {1} de Daño Crítico y ganas {2} de Daño Físico.\nPor cada punto de Devoción de Fe, pierdes {3} de Probabilidad de Crítico y ganas {4} de Velocidad de Ataque y de Recarga."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Pour chaque point de Dévotion de la Fureur, vos coups non critiques réduisent la résistance physique de la cible de {0} pendant 1 seconde.\nPour chaque point de Dévotion de la Discipline, vous perdez {1} de Dégâts critiques et gagnez {2} de Dégâts physiques.\nPour chaque point de Dévotion de la Foi, vous perdez {3} de Chance de coup critique et gagnez {4} de Vitesse d’attaque et de récupération."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "怒りの献身ポイントごとに、クリティカル以外の攻撃が対象の物理耐性を{0}低下させ、1秒間持続します。\n規律の献身ポイントごとに、クリティカルダメージが{1}減少し、物理ダメージが{2}増加します。\n信仰の献身ポイントごとに、クリティカル率が{3}減少し、攻撃速度とクールダウン速度が{4}増加します。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Za każdy punkt Poświęcenia Furii twoje niekrytyczne trafienia zmniejszają odporność fizyczną celu o {0} na 1 sekundę.\nZa każdy punkt Poświęcenia Dyscypliny tracisz {1} obrażeń krytycznych i zyskujesz {2} obrażeń fizycznych.\nZa każdy punkt Poświęcenia Wiary tracisz {3} szansy na trafienie krytyczne i zyskujesz {4} szybkości ataku i odnowienia."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Para cada ponto de Devoção de Fúria, seus acertos não Críticos reduzem a Resistência Física do alvo em {0} por 1 segundo.\nPara cada ponto de Devoção de Disciplina, perca {1} de Dano Crítico e ganhe {2} de Dano Físico.\nPara cada ponto de Devoção de Fé, perca {3} de Chance de Crítico e ganhe {4} de Velocidade de Ataque e de Recarga."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "За каждый пункт служения ярости ваши некритические удары уменьшают физическое сопротивление цели на {0} на 1 секунду.\nЗа каждый пункт служения дисциплины вы теряете {1} критического урона и получаете {2} физического урона.\nЗа каждый пункт служения веры вы теряете {3} шанса критического удара и получаете {4} скорости атаки и перезарядки."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "每拥有一点狂怒奉献，你的非暴击攻击会使目标的物理抗性降低 {0}，持续 1 秒。\n每拥有一点纪律奉献，失去 {1} 暴击伤害，获得 {2} 物理伤害。\n每拥有一点信仰奉献，失去 {3} 暴击几率，获得 {4} 攻击速度和冷却速度。"
+                }
+            ]
+        },
+        {
+            "name": "All Skills - Monddocs Water Orb - Multiple Bonuses PLAGUE Affix",
+            "id": 336,
+            "type": "SkillBehaviorAffixDefinition",
+            "rollVariableName": "Roll",
+            "descriptionValuePrefix": "",
+            "additionalLocalizationVariables": [
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "CritDmg",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "DmgBonus",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "CritChance",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                },
+                {
+                    "type": "SkillBehaviorLocalizationVariable",
+                    "skillEffectVariableReference": {
+                        "type": "SkillEffectVariableReference",
+                        "valueOrName": "Speed",
+                        "eSkillEffectVariableModifier": "0",
+                        "statusToStack": {},
+                        "supportVariableValueOrName": "",
+                        "supportESkillEffectVariableModifier": "0",
+                        "supportStatusToStack": {}
+                    },
+                    "overrideFormat": false,
+                    "valueFormatOverride": "Multiplicative"
+                }
+            ],
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": false,
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {
+                    "name": "FeitorsLashSkillDefinition",
+                    "id": 72,
+                    "type": "SlashSkillDefinition"
+                },
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "CritDmg",
+                            "baseValue": -0.05,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "DmgBonus",
+                            "baseValue": 1.1,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Multiplicative"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "CritChance",
+                            "baseValue": -0.01,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Speed",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 1.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Character Stat Modifier Skill Effect Data",
+                        "type": "AddCharacterStatModifierSkillEffectData",
+                        "effectTarget": "Self",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "Always",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalDamage",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritDmg",
+                                    "eSkillEffectVariableModifier": "MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "PlagueDamage",
+                                "modifierType": "Multiplicative",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "DmgBonus",
+                                    "eSkillEffectVariableModifier": "UseMultipliedModifier, MultiplyByGreenDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CriticalChance",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "CritChance",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "AttackSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            },
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "CooldownSpeed",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Speed",
+                                    "eSkillEffectVariableModifier": "MultiplyByBlueDevotionAmount",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Monddoc Water Orb - Plague Shred - Status Definition",
+                            "id": 195,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "MultiplyByRedDevotionAmount",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "DamageIsCritical",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "0",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "customIcon": "Icon_PlagueDamage_Base",
+            "tierRollRanges": [
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 1,
+                    "rollRange": [
+                        -0.01,
+                        -0.012
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 2,
+                    "rollRange": [
+                        -0.012,
+                        -0.014
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 3,
+                    "rollRange": [
+                        -0.014,
+                        -0.016
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 4,
+                    "rollRange": [
+                        -0.016,
+                        -0.018
+                    ]
+                }
+            ],
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Monddocs Wasserkugel"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Monddoc's Water Orb"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Orbe de Agua de Monddoc"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Orbe d’Eau de Monddoc"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "モンドックの水のオーブ"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Kula Wody Monddoca"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Orbe de Água de Monddoc"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сфера Воды Монддока"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "蒙多克的水之球"
+                }
+            ],
+            "eAffixRarity": "Unique",
+            "blockCraftOnRelicSizes": [],
+            "incompatibleBlessings": [],
+            "modifierType": "Additive",
+            "upgradeModifierOverride": {
+                "0": 0.0,
+                "1": -0.01,
+                "2": -0.02,
+                "3": -0.03,
+                "4": -0.04,
+                "5": -0.05
+            },
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Für jeden Punkt Hingabe des Zorns verringern deine nicht-kritischen Treffer den Widerstand des Ziels gegen Seuche um {0} für 1 Sekunde.\nFür jeden Punkt Hingabe der Disziplin verlierst du {1} Kritischen Schaden und erhältst {2} Seuchenschaden.\nFür jeden Punkt Hingabe des Glaubens verlierst du {3} Kritische Trefferchance und erhältst {4} Angriffsgeschwindigkeit und Abklingzeitverringerung."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "For each Fury Devotion point, your non-Critical hits reduce the target's Plague resistance by {0} for 1 second.\nFor each Discipline Devotion point, lose {1} Critical Damage and gain {2} Plague damage .\nFor each Faith Devotion point, lose {3} Critical Chance and gain {4} Attack and Cooldown Speed."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Por cada punto de Devoción a la Furia, tus golpes no críticos reducen la resistencia a Plaga del objetivo en {0} por 1 segundo.\nPor cada punto de Devoción a la Disciplina, pierdes {1} de Daño Crítico y ganas {2} de daño de Plaga.\nPor cada punto de Devoción a la Fe, pierdes {3} de Probabilidad Crítica y ganas {4} de Velocidad de Ataque y de Recarga."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Pour chaque point de Dévotion à la Fureur, vos attaques non critiques réduisent la résistance à la Peste de la cible de {0} pendant 1 seconde.\nPour chaque point de Dévotion à la Discipline, perdez {1} de Dégâts Critiques et gagnez {2} de dégâts de Peste.\nPour chaque point de Dévotion à la Foi, perdez {3} de Chance Critique et gagnez {4} de Vitesse d'Attaque et de Recharge."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "怒火の献身1ポイントごとに、非クリティカル攻撃は対象のペスト耐性を{0}、1秒間低下させる。\n規律の献身1ポイントごとに、クリティカルダメージが{1}減少し、ペストダメージが{2}増加する。\n信仰の献身1ポイントごとに、クリティカル率が{3}減少し、攻撃速度とクールダウン速度が{4}増加する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Za każdy punkt Poświęcenia Furii twoje niekrytyczne trafienia zmniejszają odporność celu na Zarazę o {0} przez 1 sekundę.\nZa każdy punkt Poświęcenia Dyscypliny tracisz {1} obrażeń krytycznych i zyskujesz {2} obrażeń od Zarazy.\nZa każdy punkt Poświęcenia Wiary tracisz {3} szansy na trafienie krytyczne i zyskujesz {4} szybkości ataku i odnowienia."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Para cada ponto de Devoção à Fúria, seus ataques não críticos reduzem a resistência à Peste do alvo em {0} por 1 segundo.\nPara cada ponto de Devoção à Disciplina, perca {1} de Dano Crítico e ganhe {2} de dano de Peste.\nPara cada ponto de Devoção à Fé, perca {3} de Chance Crítica e ganhe {4} de Velocidade de Ataque e de Recarga."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "За каждый пункт служения Ярости ваши некритические удары снижают сопротивление цели Чуме на {0} на 1 секунду.\nЗа каждый пункт служения Дисциплине теряете {1} к критическому урону и получаете {2} урона от Чумы.\nЗа каждый пункт служения Вере теряете {3} к шансу критического удара и получаете {4} к скорости атаки и перезарядки."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "每一点怒火奉献，你的非暴击攻击使目标的瘟疫抗性降低 {0}，持续1秒。\n每一点律制奉献，失去 {1} 暴击伤害并获得 {2} 瘟疫伤害。\n每一点信仰奉献，失去 {3} 暴击几率并获得 {4} 攻击速度与技能冷却速度。"
                 }
             ]
         }

@@ -2367,7 +2367,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
-            "isAilment": false,
+            "isAilment": true,
             "eStatusStackBehavior": "MultipleInstancesBestOnly",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -2468,7 +2468,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
-            "isAilment": false,
+            "isAilment": true,
             "eStatusStackBehavior": "MultipleInstances",
             "effectInterval": 0.5,
             "shouldEchoClone": false,
@@ -2576,7 +2576,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": false,
-            "isAilment": false,
+            "isAilment": true,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2684,7 +2684,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
-            "isAilment": false,
+            "isAilment": true,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -2778,7 +2778,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
-            "isAilment": false,
+            "isAilment": true,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -5138,7 +5138,7 @@
             "hideFromHud": false,
             "isBuff": false,
             "isCrowdControl": true,
-            "isAilment": false,
+            "isAilment": true,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
@@ -13854,7 +13854,7 @@
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "AttackSpeed",
-                    "modifierType": "MultiplicativeAdditive",
+                    "modifierType": "Additive",
                     "value": 1.0
                 }
             ],
@@ -14043,6 +14043,516 @@
             "isAilment": false,
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.5,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Sao Jose - Splinter - Status Definition",
+            "id": 191,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalDamage",
+                    "modifierType": "MultiplicativeAdditive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Splinter"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Splinter"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Splinter"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Splinter"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "Splinter"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Nie może się poruszać ani używać umiejętności"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Splinter"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Splinter"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "Splinter"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_PhysicalDamage_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 10,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Monddoc Air Orb - Lightning Shred - Status Definition",
+            "id": 192,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Monddocs Luftkugel"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Monddoc's Air Orb"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Orbe de Aire de Monddoc"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Orbe d’Air de Monddoc"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "モンドックの風のオーブ"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Kula Powietrza Monddoca"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Orbe de Ar de Monddoc"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Сфера Воздуха Монддока"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "蒙多克的空气之球"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_LightningResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Monddoc Earth Orb - Phys Shred - Status Definition",
+            "id": 193,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Monddocs Erdkugel"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Monddoc's Earth Orb"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Orbe de Tierra de Monddoc"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Orbe de Terre de Monddoc"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "モンドックの大地のオーブ"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Kula Ziemi Monddoca"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Orbe de Terra de Monddoc"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Сфера Земли Монддока"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "蒙多克的大地之球"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_PhysicalResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Monddoc Fire Orb - Fire Shred - Status Definition",
+            "id": 194,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Monddocs Feuerkugel"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Monddoc's Fire Orb"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Orbe de Fuego de Monddoc"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Orbe de Feu de Monddoc"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "モンドックの炎のオーブ"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Kula Ognia Monddoca"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Orbe de Fogo de Monddoc"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Сфера Огня Монддока"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "蒙多克的火焰之球"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_FireResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Monddoc Water Orb - Plague Shred - Status Definition",
+            "id": 195,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Monddocs Wasserkugel"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Monddoc's Water Orb"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Orbe de Agua de Monddoc"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Orbe d’Eau de Monddoc"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "モンドックの水のオーブ"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Kula Wody Monddoca"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Orbe de Água de Monddoc"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Сфера Воды Монддока"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "蒙多克的水之球"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_PlagueResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
             "shouldEchoClone": false,
             "purgeOnDeath": true,
             "purgeOnSourceDeath": false

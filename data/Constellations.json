@@ -38140,7 +38140,7 @@
                                             "effectTarget": "Self",
                                             "statusDefinition": {
                                                 "name": "Sao Jose - Splinter - Status Definition",
-                                                "id": 170,
+                                                "id": 191,
                                                 "type": "StatModifierStatusDefinition"
                                             },
                                             "statusDuration": {
@@ -38514,7 +38514,7 @@
                                                         "eSkillEffectVariableModifier": "MultiplyByStatusStacks",
                                                         "statusToStack": {
                                                             "name": "Sao Jose - Splinter - Status Definition",
-                                                            "id": 170,
+                                                            "id": 191,
                                                             "type": "StatModifierStatusDefinition"
                                                         },
                                                         "supportVariableValueOrName": "",
@@ -38539,7 +38539,7 @@
                                                         "effectTarget": "Self",
                                                         "statusDefinition": {
                                                             "name": "Sao Jose - Splinter - Status Definition",
-                                                            "id": 170,
+                                                            "id": 191,
                                                             "type": "StatModifierStatusDefinition"
                                                         },
                                                         "checkForStacks": false,
@@ -38595,7 +38595,7 @@
                                                             "effectTarget": "Self",
                                                             "statusDefinition": {
                                                                 "name": "Sao Jose - Splinter - Status Definition",
-                                                                "id": 170,
+                                                                "id": 191,
                                                                 "type": "StatModifierStatusDefinition"
                                                             },
                                                             "removeStacks": false,
