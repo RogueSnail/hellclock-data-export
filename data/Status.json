@@ -4422,7 +4422,7 @@
             "skillBehaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": true,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Melee",
                 "skillDefinition": {},
@@ -8136,7 +8136,7 @@
             "skillBehaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": true,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Marksman",
                 "skillDefinition": {},
@@ -9125,7 +9125,7 @@
             "skillBehaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": true,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Marksman",
                 "skillDefinition": {},
@@ -11393,7 +11393,7 @@
             "skillBehaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11817,7 +11817,7 @@
             "skillBehaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11948,7 +11948,7 @@
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Podzielony strzał + {0} Ilość pocisków na stos"
+                        "langTranslation": "Podzielony strzał + {0} Ilość pocisku na stos"
                     },
                     {
                         "langCode": "pt-br",
@@ -13239,7 +13239,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "AttackSpeed",
                     "modifierType": "MultiplicativeAdditive",
-                    "value": 0.035
+                    "value": 1.035
                 },
                 {
                     "type": "StatModifierDefinition",
@@ -13854,7 +13854,7 @@
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "AttackSpeed",
-                    "modifierType": "Additive",
+                    "modifierType": "MultiplicativeAdditive",
                     "value": 1.0
                 }
             ],

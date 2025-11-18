@@ -2852,7 +2852,6 @@
             "name": "TheOldBellSkillDefinition",
             "id": 50,
             "type": "TheOldBellSkillDefinition",
-            "anticipationTime": 0.15,
             "duration": 6.0,
             "radius": 4.0,
             "manaCost": 400.0,

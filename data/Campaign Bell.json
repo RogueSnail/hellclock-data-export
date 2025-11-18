@@ -4432,7 +4432,7 @@
                     "behaviorData": {
                         "type": "SkillBehaviorData",
                         "affectMultipleSkills": false,
-                        "useListOfSkills": false,
+                        "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
                         "skillDefinition": {},
@@ -4653,7 +4653,7 @@
                     "behaviorData": {
                         "type": "SkillBehaviorData",
                         "affectMultipleSkills": false,
-                        "useListOfSkills": false,
+                        "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
                         "skillDefinition": {},

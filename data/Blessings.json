@@ -10,7 +10,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -173,7 +173,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -348,7 +348,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -518,7 +518,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -685,7 +685,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -859,7 +859,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -2105,7 +2105,7 @@
             ]
         },
         {
-            "name": "Prayer Of Vengeance - Explode on Kill - AoE Blessing",
+            "name": "Last Prayer - Explode on Kill - AoE Blessing",
             "id": 37,
             "type": "SkillBlessingDefinition",
             "behaviorAffixDefinition": {
@@ -2204,101 +2204,6 @@
             ]
         },
         {
-            "name": "Prayer Of Vengeance - Explode on Kill - Damage Blessing",
-            "id": 38,
-            "type": "SkillBlessingDefinition",
-            "behaviorAffixDefinition": {
-                "name": "Repeater - Last Prayer - Explode on Kill Affix",
-                "id": 12,
-                "type": "SkillBehaviorAffixDefinition"
-            },
-            "rollVariableName": "-",
-            "eModifierType": "MultiplicativeAdditive",
-            "basePrice": 300.0,
-            "supportedRarities": "Rare",
-            "rareRollRange": [
-                1.25,
-                1.25
-            ],
-            "titleLocalizationKey": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Pestilenz-Kataklysmus"
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Pestilence Cataclysm"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Cataclismo Pestilente"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Peste cataclysmique"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "悪疫大厄災"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Kataklizm Zarazy"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Cataclismo de Praga"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Моровый катаклизм"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "疫病浩劫"
-                }
-            ],
-            "effectTypeIcon": "Icon_Damage_Base",
-            "description": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Schaden gegnerischer Explosion: <style=\"GreenText\">{0}</style>."
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Enemy Explosion Damage <style=\"GreenText\">{0}</style>"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Daño por explosión de enemigo <style=\"GreenText\">{0}</style>"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Dégâts d'explosion des ennemis <style=\"GreenText\">{0}</style>"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "敵の爆発ダメージ<style=\"GreenText\">{0}</style>"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Obrażenia od eksplozji wrogów <style=\"GreenText\">{0}</style>"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Dano de Explosão de Inimigo <style=\"GreenText\">{0}</style>"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "<style=\"GreenText\">{0}</style> к урону от взрыва врага"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "敌人爆炸时造成的伤害：<style=\"GreenText\">{0}</style>"
-                }
-            ]
-        },
-        {
             "name": "Spearhead - Pierce - Damage Blessing",
             "id": 42,
             "type": "SkillBlessingDefinition",
@@ -2381,7 +2286,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Aumenta bônus de dano por Atravessar em <style=\"GreenText\">{0}</style>"
+                    "langTranslation": "Aumenta bônus de dano por Perfuração em <style=\"GreenText\">{0}</style>"
                 },
                 {
                     "langCode": "ru",
@@ -2684,7 +2589,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -2855,7 +2760,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -3047,7 +2952,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -3222,7 +3127,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -3414,7 +3319,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -3581,7 +3486,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -3946,7 +3851,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -4109,7 +4014,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -4280,7 +4185,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -4455,7 +4360,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -4630,7 +4535,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -4805,7 +4710,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -4976,7 +4881,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -5147,7 +5052,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -5322,7 +5227,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -5489,7 +5394,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -5660,7 +5565,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -5835,7 +5740,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -6006,7 +5911,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -6198,7 +6103,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -6369,7 +6274,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -6540,7 +6445,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -6806,7 +6711,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -6977,7 +6882,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -7251,7 +7156,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -7422,7 +7327,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -7597,7 +7502,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -7772,7 +7677,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -7943,7 +7848,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -8114,7 +8019,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -8281,7 +8186,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -8448,7 +8353,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -8618,7 +8523,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -8793,7 +8698,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -8968,7 +8873,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -9139,7 +9044,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -9310,7 +9215,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -9485,7 +9390,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -9652,7 +9557,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -9840,7 +9745,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -10015,7 +9920,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -10186,7 +10091,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -10357,7 +10262,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -10520,7 +10425,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -10691,7 +10596,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -10866,7 +10771,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11041,7 +10946,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11212,7 +11117,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11379,7 +11284,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11550,7 +11455,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11725,7 +11630,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -11900,7 +11805,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -12063,7 +11968,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -12234,7 +12139,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -12405,7 +12310,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -12576,7 +12481,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -12751,7 +12656,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -12922,7 +12827,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -13089,7 +12994,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -13260,7 +13165,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -13435,7 +13340,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -13610,7 +13515,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -13781,7 +13686,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -13956,7 +13861,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -14131,7 +14036,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -14306,7 +14211,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -14477,7 +14382,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -14648,7 +14553,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -20100,7 +20005,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -20267,7 +20172,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -20442,7 +20347,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -20613,7 +20518,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -20784,7 +20689,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -20955,7 +20860,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -21130,7 +21035,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -21305,7 +21210,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -21472,7 +21377,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -21639,7 +21544,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -21810,7 +21715,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -21985,7 +21890,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -22160,7 +22065,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -22327,7 +22232,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -22498,7 +22403,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -22665,7 +22570,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -22836,7 +22741,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -23007,7 +22912,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -23174,7 +23079,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -23349,7 +23254,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -23524,7 +23429,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -23687,7 +23592,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -23862,7 +23767,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -24037,7 +23942,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -24208,7 +24113,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -24379,7 +24284,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -24554,7 +24459,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -24738,7 +24643,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -24909,7 +24814,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {
@@ -25075,7 +24980,7 @@
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
-                "useListOfSkills": false,
+                "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
                 "skillDefinition": {

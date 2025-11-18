@@ -3377,7 +3377,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージ。"
+                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージです。"
                 },
                 {
                     "langCode": "pl",
@@ -8081,7 +8081,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit angewendet, wenn Gegner getroffen werden."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit beim Treffen von Feinden angewendet."
                 },
                 {
                     "langCode": "en",
@@ -11231,7 +11231,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Bonusowa szansa na upuszczenie Piekielnego Zegara"
+                    "langTranslation": "Bonusowa szansa na upuszczenie Czasu Piekielnego Zegara"
                 },
                 {
                     "langCode": "pt-br",
