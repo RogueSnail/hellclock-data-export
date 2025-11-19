@@ -6587,31 +6587,31 @@
                     "tier": 1,
                     "rollRange": [
                         1.6,
-                        1.95
+                        1.8
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        1.95,
-                        2.05
+                        1.8,
+                        1.9
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        2.05,
-                        2.1
+                        1.9,
+                        1.95
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        2.1,
-                        2.15
+                        1.95,
+                        2.0
                     ]
                 }
             ],
@@ -17262,32 +17262,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.075,
-                        0.09
+                        0.07,
+                        0.08
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.095,
-                        0.11
+                        0.08,
+                        0.09
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.12,
-                        0.14
+                        0.09,
+                        0.1
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.12,
-                        0.14
+                        0.1,
+                        0.11
                     ]
                 }
             ],
@@ -19379,32 +19379,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        1.55,
-                        1.7
+                        1.8,
+                        2.05
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        1.75,
-                        1.9
+                        2.05,
+                        2.3
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        1.95,
-                        2.2
+                        2.3,
+                        2.55
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        2.2,
-                        2.4
+                        2.55,
+                        2.8
                     ]
                 }
             ],
@@ -23384,7 +23384,7 @@
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Roll",
-                                    "eSkillEffectVariableModifier": "0",
+                                    "eSkillEffectVariableModifier": "MultiplyByMissingLife",
                                     "statusToStack": {},
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
@@ -23436,32 +23436,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        50.0,
-                        70.0
+                        5.0,
+                        7.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        70.0,
-                        100.0
+                        7.0,
+                        10.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        100.0,
-                        125.0
+                        10.0,
+                        12.5
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        125.0,
-                        150.0
+                        12.5,
+                        15.0
                     ]
                 }
             ],
@@ -23527,39 +23527,39 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Wird Neuer Atem ausgelöst, während Gebet der Vergeltung aktiv ist, erleiden alle Gegner in deiner Umgebung {0} Seuchenschaden."
+                    "langTranslation": "Wenn Gebet der Vergeltung aktiv ist, fügt das Auslösen von Neuer Atem allen Gegnern um dich herum {0} Seuchenschaden zu, multipliziert mit deinem maximalen Leben."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "When under the effect of Prayer of Vengeance, triggering Second Wind will deal {0} Plague damage to all enemies around you."
+                    "langTranslation": "When under the effect of Prayer of Vengeance, triggering Second Wind will deal {0} Plague damage to all enemies around you, multiplied by your Max Life."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Mientras está activo el efecto Plegaria de Venganza, activar Segundo Aliento inflige {0} de daño de Plaga a todos los enemigos que te rodean."
+                    "langTranslation": "Mientras esté activo el efecto Plegaria de Venganza, activar Segundo Aliento infligirá {0} de daño de Plaga a todos los enemigos que te rodean, multiplicado por tu vida máxima."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Lorsque Prière de vengeance est active, le déclenchement de Second souffle inflige {0} de dégâts de peste à tous les ennemis à proximité"
+                    "langTranslation": "Lorsque Prière de vengeance est active, le déclenchement de Second souffle inflige {0} dégâts de peste à tous les ennemis à proximité, multipliés par votre santé maximale."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "復讐の祈りが効果を発揮しているとき、復活の息吹が発動した場合に周囲のあらゆる敵に{0}疫病ダメージを与える。"
+                    "langTranslation": "復讐の祈りの効果中に復活の息吹が発動すると、周囲のすべての敵に{0}の疫病ダメージを与え、その値はあなたの最大ライフに応じて倍加される。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Podczas działania Modlitwy o Zemstę, aktywacja Nowej Energii zadaje {0} obrażeń od Zarazy wszystkim pobliskim wrogom."
+                    "langTranslation": "Podczas działania Modlitwy o Zemstę, aktywacja Nowej Energii zada {0} obrażeń od Zarazy wszystkim pobliskim wrogom, pomnożonych przez twoje maksymalne zdrowie."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "A ativação de Segunda Chance enquanto estiver sob o efeito da Reza da Vingança, causa {0} de dano Tóxico a todos os inimigos ao seu redor."
+                    "langTranslation": "Quando estiver sob o efeito de Reza da Vingança, ativar Segunda Chance causará {0} de dano Tóxico a todos os inimigos ao seu redor, multiplicado pela sua Vida Máxima."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Во время действия молитвы о воздаянии при активации второе дыхание наносит {0} ед. урона чумой всем врагам вокруг вас."
+                    "langTranslation": "Во время действия «Молитвы о воздаянии» активация «Второго дыхания» наносит всем врагам вокруг вас {0} ед. урона Чумой, умноженные на ваш максимальный запас здоровья."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "复仇之祷激活期间，触发绝处逢生时将对周围所有敌人造成 {0} 瘟疫伤害。"
+                    "langTranslation": "在处于复仇之祷效果下时，触发绝处逢生会对周围所有敌人造成 {0} 瘟疫伤害，该伤害会按你的最大生命值进行倍乘。"
                 }
             ]
         },
@@ -24150,32 +24150,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        2.8,
-                        3.1
+                        4.0,
+                        4.7
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        3.1,
-                        3.4
+                        4.7,
+                        5.5
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        3.4,
-                        3.7
+                        5.5,
+                        6.2
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        3.7,
-                        4.0
+                        6.2,
+                        8.0
                     ]
                 }
             ],
@@ -35565,7 +35565,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "敵に点火するたびに、ラバレダのスタックを{1}秒間獲得します（最大{2}）。ラバレダのスタックごとに、スプリットショットの弾丸量が{3}増加します。スプリットショットのダメージは{0}です。"
+                    "langTranslation": "敵に点火するたびに、ラバレダのスタックを{1}秒間獲得します（最大{2}）。ラバレダのスタックごとに、スプリットショットの弾数が{3}増加します。スプリットショットのダメージは{0}です。"
                 },
                 {
                     "langCode": "pl",
@@ -44463,32 +44463,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.15,
-                        0.17
+                        0.075,
+                        0.085
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.17,
-                        0.19
+                        0.085,
+                        0.095
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.19,
-                        0.21
+                        0.095,
+                        0.105
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.21,
-                        0.23
+                        0.105,
+                        0.115
                     ]
                 }
             ],
@@ -47325,7 +47325,7 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fils du Buvage"
+                    "langTranslation": "Fils de la Pâte"
                 },
                 {
                     "langCode": "ja",
@@ -48277,7 +48277,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Jeśli Twoja obecna mana jest powyżej {0}, zyskaj {1} obrażeń od magii"
+                    "langTranslation": "Jeśli Twoja aktualna mana jest powyżej {0}, zyskaj {1} obrażeń od magii"
                 },
                 {
                     "langCode": "pt-br",
@@ -52297,6 +52297,209 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": "每一点怒火奉献，你的非暴击攻击使目标的瘟疫抗性降低 {0}，持续1秒。\n每一点律制奉献，失去 {1} 暴击伤害并获得 {2} 瘟疫伤害。\n每一点信仰奉献，失去 {3} 暴击几率并获得 {4} 攻击速度与技能冷却速度。"
+                }
+            ]
+        },
+        {
+            "name": "SkillBehavior - Implicit - Max Summons",
+            "id": 337,
+            "type": "SkillBehaviorAffixDefinition",
+            "rollVariableName": "Roll",
+            "descriptionValuePrefix": "",
+            "additionalLocalizationVariables": [],
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Summon",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Skill Value Modifier Skill Effect Data",
+                        "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
+                        "modifiers": [
+                            {
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Summon Amount Modifier",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ],
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "Always",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "customIcon": "",
+            "tierRollRanges": [
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 1,
+                    "rollRange": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 2,
+                    "rollRange": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 3,
+                    "rollRange": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 4,
+                    "rollRange": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "eAffixRarity": "Common",
+            "blockCraftOnRelicSizes": [],
+            "incompatibleBlessings": [],
+            "relicUpgradeModifierConfig": {
+                "name": "Skiller Relic Upgrade Modifier Config",
+                "type": "RelicUpgradeModifierConfig",
+                "modifierType": "Additive",
+                "upgradeModifier": {
+                    "0": 0.0,
+                    "1": 0.0,
+                    "2": 0.0,
+                    "3": 0.0,
+                    "4": 0.0,
+                    "5": 0.0
+                }
+            },
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "{0} max. aktive Beschwörungen für alle Beschwörungsfertigkeiten."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "{0} max active Summons for all Summon skills"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Máx. de {0} de invocaciones activas para todas las habilidades de invocación"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "{0} invocations actives au maximum"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "あらゆる召喚スキルの最大アクティヴ召喚数{0}。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Maksymalna liczba aktywnych przywołań dla wszystkich umiejętności przywoływania {0}"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "{0} máximo de invocações ativas para todas as habilidades de invocação"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "{0} макс. активных призванных существ для всех навыков призыва."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "所有召唤技能的最大召唤物数量 +{0}。"
                 }
             ]
         }

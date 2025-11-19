@@ -3377,7 +3377,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージです。"
+                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージ。"
                 },
                 {
                     "langCode": "pl",
@@ -4757,7 +4757,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń zadawanych przez umiejętność przywoływania podczas uderzania wrogów."
+                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń zadawanych przez umiejętność przywoływania przy uderzaniu wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -6145,39 +6145,39 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikator, der auf sämtlichen durch Bluten verursachten Schaden angewendet wird.\nBeim Basis-Blutungsschaden handelt es sich um eine feste Menge an Schaden, die nicht auf dem Schaden der Fertigkeit basiert, die ihn verursacht."
+                    "langTranslation": "Multiplikativer Modifikator, der auf allen Schaden angewendet wird, der durch den Blutungszustand verursacht wird.\nDer Basisblutungsschaden ist ein fester Anteil deines Basisschadens und hängt nicht vom Schaden der Fertigkeit ab, die die Blutung verursacht hat.\nBlutung kann unendlich oft gestapelt werden.\nBlutungsstapel verursachen doppelten Schaden, wenn sich der betroffene Charakter bewegt."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Multiplicative modifier applied to all damage caused by the Bleed ailment. \nBase Bleed damage is a fixed proportion of your Base Damage, and does not rely on the damage of the Skill that caused it.\nBleed can stack infinitely."
+                    "langTranslation": "Multiplicative modifier applied to all damage caused by the Bleed ailment. \nBase Bleed damage is a fixed proportion of your Base Damage, and does not rely on the damage of the Skill that caused it.\nBleed can stack infinitely.\nBleed stacks deal double damage when the afflicted character is moving."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño infligido por Sangrado.\nEl daño básico de Sangrado es una proporción fija del daño básico y no depende del daño de la habilidad que lo infligió.\nLa hemorragia se puede acumular infinitamente."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño causado por el estado de Sangrado.\nEl daño básico de Sangrado es una proporción fija de tu daño básico y no depende del daño de la habilidad que lo infligió.\nLa hemorragia puede acumularse infinitamente.\nLas acumulaciones de Sangrado infligen el doble de daño cuando el personaje afectado se está moviendo."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Multiplicateur appliqué à tous les dégâts infligés par le saignement.\nLes dégâts de saignement de base sont une proportion fixe de vos dégâts de base, et ne sont pas liés aux dégâts de la compétence qui a infligé le saignement."
+                    "langTranslation": "Multiplicateur appliqué à tous les dégâts causés par l'altération de saignement.\nLes dégâts de saignement de base sont une proportion fixe de vos dégâts de base et ne dépendent pas des dégâts de la compétence qui a infligé le saignement.\nLe saignement peut se cumuler à l’infini.\nLes cumuls de saignement infligent le double de dégâts lorsque le personnage affecté est en mouvement."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "あらゆる出血ダメージに適用される倍率。\n基礎出血ダメージは基礎ダメージに対する倍率で決まり、出血をもたらしたスキルのダメージには依存しない。\n出血効果は無限にスタックする。"
+                    "langTranslation": "出血状態が与えるあらゆるダメージに適用される乗算補正。\n基礎出血ダメージはあなたの基礎ダメージの固定割合で決まり、出血を与えたスキル自体のダメージには依存しない。\n出血は無限にスタックする。\n対象が移動している場合、そのキャラクターにかかっている出血スタックは2倍のダメージを与える。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Mnożnik stosowany do wszystkich obrażeń zadawanych przez Krwawienie.\nBazowe obrażenia od krwawienia są stałą częścią twoich bazowych obrażeń i nie zależą od obrażeń umiejętności, która je zadała."
+                    "langTranslation": "Mnożnik stosowany do wszystkich obrażeń zadawanych przez efekt Krwawienia.\nBazowe obrażenia od krwawienia są stałą częścią twoich bazowych obrażeń i nie zależą od obrażeń umiejętności, która je zadała.\nKrwawienie może kumulować się w nieskończoność.\nGdy postać dotknięta krwawieniem jest w ruchu, ładunki krwawienia zadają podwójne obrażenia."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo dano causado pela Condição de Sangramento.\nO dano base de Sangramento é uma proporção fixa de seu Dano Base, e não depende do dano da Habilidade que o causou.\nSangramento pode acumular infinitamente."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo dano causado pela Condição de Sangramento.\nO dano base de Sangramento é uma proporção fixa de seu Dano Base, e não depende do dano da Habilidade que o causou.\nSangramento pode acumular infinitamente.\nDano de Sangramento é dobrado contra alvos em movimento."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Множитель всего урона от кровотечения.\nОсновной урон от кровотечения равен определенному проценту от вашего основного урона и не зависит от урона вызвавшего его навыка."
+                    "langTranslation": "Множитель, применяемый ко всему урону, наносимому эффектом Кровотечения.\nБазовый урон от кровотечения — это фиксированная доля вашего базового урона и не зависит от урона умения, которое его наложило.\nКровотечение может накапливаться бесконечно.\nКогда поражённый персонаж находится в движении, заряды кровотечения наносят двойной урон."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对所有流血造成的伤害应用的乘算加成。\n基础流血伤害按基础伤害的固定比例计算，不受施加伤害的技能本身影响。\n流血可以无限叠加。"
+                    "langTranslation": "对所有由流血异常状态造成的伤害应用的乘算修正。\n基础流血伤害是你基础伤害的固定比例，与造成流血的技能伤害无关。\n流血可以无限叠加。\n当受影响角色移动时，流血层数造成的伤害翻倍。"
                 }
             ],
             "icon": "IconStatus_Bleeding_white",
@@ -7049,7 +7049,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "発動時に関連スキルの投射物数を増加させます。余剰ボーナスは、追加の投射物を獲得するチャンスとしてロールされます。"
+                    "langTranslation": "発動時に関連スキルによる発射物の数を増加させます。余剰ボーナスは、追加の発射物を獲得するチャンスとしてロールされます。"
                 },
                 {
                     "langCode": "pl",
@@ -8081,7 +8081,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit beim Treffen von Feinden angewendet."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit angewendet, wenn Gegner getroffen werden."
                 },
                 {
                     "langCode": "en",
@@ -11231,7 +11231,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Bonusowa szansa na upuszczenie Czasu Piekielnego Zegara"
+                    "langTranslation": "Bonusowa szansa na upuszczenie czasu w Piekielnym Zegarze"
                 },
                 {
                     "langCode": "pt-br",

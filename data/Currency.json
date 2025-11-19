@@ -395,7 +395,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "遺物にランダムな通常アフィックスをロックします。ロックされたアフィックスは、いかなるツールを使っても削除または置換できません。\n\n遺物に既にロックされたアフィックスがある場合は、そのアフィックスはロック解除され、代わりにランダムなアフィックスがロックされます。"
+                    "langTranslation": "遺物にランダムな通常アフィックスをロックします。ロックされたアフィックスは、いかなるツールを使っても解除または置換できません。\n\n遺物に既にロックされたアフィックスがある場合は、そのアフィックスはロック解除され、代わりにランダムなアフィックスがロックされます。"
                 },
                 {
                     "langCode": "pl",
@@ -747,7 +747,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "規律の染み込んだ道具"
+                    "langTranslation": "規律を刻み込んだ道具"
                 },
                 {
                     "langCode": "pl",
@@ -959,7 +959,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modifica una reliquia de forma impredecible, corrompiéndola posteriormente.\n\nEl poder de la Corrupción es voluble, trayendo consigo triunfos y tragedias por igual.\n\nLas reliquias corrompidas no pueden ser modificadas con ninguna herramienta."
+                    "langTranslation": "Modifica una reliquia de forma impredecible, corrompiéndola posteriormente.\n\nEl poder de la Corrupción es voluble, otorgando triunfo y tragedia a partes iguales.\n\nLas reliquias corrompidas no pueden ser modificadas con ninguna herramienta."
                 },
                 {
                     "langCode": "fr",
@@ -1079,7 +1079,7 @@
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segnet eine Reliquie mit Göttlichkeit und erhöht die Werte all ihrer Affixe um einen zufälligen Wert.\n\nMit Göttlichen Werkzeugen verbesserte Reliquien-Affixe können ihren normalen Maximalwert um bis zu 20 % überschreiten."
+                    "langTranslation": "Segnet eine Reliquie mit Göttlichkeit und erhöht die Werte all ihrer Affixe um einen zufälligen Wert.\n\nMit Göttlichen Werkzeugen verbesserte Reliquien-Affixe können ihren normalen Maximalwert um bis zu 20 % übersteigen."
                 },
                 {
                     "langCode": "en",

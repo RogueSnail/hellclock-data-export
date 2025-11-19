@@ -3775,8 +3775,8 @@
                             }
                         ],
                         "Position": [
-                            -44.4,
-                            -104.7
+                            -28.0,
+                            -127.4
                         ]
                     },
                     {
@@ -3929,8 +3929,8 @@
                             }
                         ],
                         "Position": [
-                            9.0,
-                            42.1
+                            3.81469727E-06,
+                            28.0
                         ]
                     },
                     {
@@ -4042,8 +4042,8 @@
                             }
                         ],
                         "Position": [
-                            -94.6,
-                            -67.8
+                            -71.9,
+                            -41.1
                         ]
                     },
                     {
@@ -4196,17 +4196,17 @@
                             }
                         ],
                         "Position": [
-                            85.7,
-                            -123.8
+                            71.6,
+                            -122.3
                         ]
                     }
                 ]
             },
-            "width": 500.0,
-            "height": 500.0,
+            "width": 375.0,
+            "height": 375.0,
             "position": [
-                -321.0,
-                1350.0
+                -280.0,
+                1319.0
             ]
         },
         {
@@ -9630,8 +9630,8 @@
                             }
                         ],
                         "Position": [
-                            -160.0,
-                            -60.0
+                            -121.8,
+                            -35.7
                         ]
                     },
                     {
@@ -9811,8 +9811,8 @@
                             }
                         ],
                         "Position": [
-                            80.0,
-                            40.0
+                            61.8,
+                            78.0
                         ]
                     },
                     {
@@ -10002,8 +10002,8 @@
                             }
                         ],
                         "Position": [
-                            178.3,
-                            -109.0
+                            112.3,
+                            -105.5
                         ]
                     },
                     {
@@ -10111,17 +10111,17 @@
                             }
                         ],
                         "Position": [
-                            -107.7,
-                            140.5
+                            -73.8,
+                            84.0
                         ]
                     }
                 ]
             },
-            "width": 500.0,
-            "height": 500.0,
+            "width": 350.0,
+            "height": 350.0,
             "position": [
-                17.0,
-                977.0
+                19.0,
+                1024.0
             ]
         },
         {
@@ -12426,8 +12426,8 @@
                         "langTranslation": "奥尼莱"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Onile_linha",
+                "illustrationBlurredLine": "Onile_blur",
                 "nodes": [
                     {
                         "name": "eb03b9a0-c1b3-40b2-af9c-dc4b0de62147",
@@ -13210,8 +13210,8 @@
                         "langTranslation": "洛贡·埃德"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "logun_linha",
+                "illustrationBlurredLine": "logun_blur",
                 "nodes": [
                     {
                         "name": "17f4d394-340c-4bcf-a4c7-3b2d991b5a3d",
@@ -14333,8 +14333,8 @@
                         "langTranslation": "圣彼得"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Sao Pedro_linha",
+                "illustrationBlurredLine": "Sao Pedro_blur",
                 "nodes": [
                     {
                         "name": "87fd47d1-8236-44d4-a14d-d40ef122877b",
@@ -14441,8 +14441,8 @@
                             }
                         ],
                         "Position": [
-                            480.0,
-                            540.0
+                            106.2708,
+                            111.174
                         ]
                     },
                     {
@@ -14558,8 +14558,8 @@
                             }
                         ],
                         "Position": [
-                            395.0,
-                            362.0
+                            46.2793,
+                            -12.21735
                         ]
                     },
                     {
@@ -14662,8 +14662,8 @@
                             }
                         ],
                         "Position": [
-                            340.0,
-                            220.0
+                            3.331055,
+                            -110.385
                         ]
                     },
                     {
@@ -14762,8 +14762,8 @@
                             }
                         ],
                         "Position": [
-                            189.0,
-                            300.0
+                            -94.15479,
+                            -54.48401
                         ]
                     },
                     {
@@ -14871,8 +14871,8 @@
                             }
                         ],
                         "Position": [
-                            220.0,
-                            420.0
+                            -69.81734,
+                            30.39014
                         ]
                     }
                 ]
@@ -16586,8 +16586,8 @@
                         "langTranslation": "骷髅埃修"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "ExuCaveira_linha",
+                "illustrationBlurredLine": "ExuCaveira_blur",
                 "nodes": [
                     {
                         "name": "a659318c-4b4f-41cf-bcc9-dac1312e6fe6",
@@ -17370,8 +17370,8 @@
                         "langTranslation": "阿帕雷西达圣母"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "nossa sra de aparecida_linha",
+                "illustrationBlurredLine": "nossa sra de aparecida_blur",
                 "nodes": [
                     {
                         "name": "ab397450-e95e-4b8d-ae96-38d807d6c052",
@@ -18246,8 +18246,8 @@
                         "langTranslation": "奥伦米拉"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "orunmila_linha",
+                "illustrationBlurredLine": "orunmila_blur",
                 "nodes": [
                     {
                         "name": "df44024a-400f-4055-b30f-4ed5e3ab1fe9",
@@ -20966,8 +20966,8 @@
                         "langTranslation": "星母瑟乌西"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "ceuci_linha",
+                "illustrationBlurredLine": "ceuci_BLUR",
                 "nodes": [
                     {
                         "name": "fe59f469-2888-442c-bcd7-bb2c0bf5ef34",
@@ -21019,7 +21019,101 @@
                             {
                                 "name": "8b77edbd-d654-4f75-9eb6-0053fa8ed123",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "MagicDamage",
+                                "eStatDefinition": "FireDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.08,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "1ef538e6-4e92-4f40-aa13-1ac3689e3d39",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.08,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "a0095300-0406-4769-b0a6-486845877e42",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "PlagueDamage",
                                 "statModifierType": "MultiplicativeAdditive",
                                 "value": 1.08,
                                 "hideDescription": false,
@@ -21144,7 +21238,101 @@
                             {
                                 "name": "ef7e0ba3-e817-4c4b-b2a1-3f1801d73612",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "MagicDamage",
+                                "eStatDefinition": "FireDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.08,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "c0cd2609-dadf-4e7f-ad13-9990de6917b7",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.08,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "869023e0-6a85-4553-b37b-efcac0495ba3",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "PlagueDamage",
                                 "statModifierType": "MultiplicativeAdditive",
                                 "value": 1.08,
                                 "hideDescription": false,
@@ -23241,8 +23429,8 @@
                         "langTranslation": "扬萨"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Iansa_linha",
+                "illustrationBlurredLine": "Iansa_blur",
                 "nodes": [
                     {
                         "name": "53357635-c44a-4137-94ad-cc39811c1522",
@@ -27502,7 +27690,101 @@
                             {
                                 "name": "8acd5cf3-f88d-4489-951e-ce6ec17cc93b",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "MagicDamage",
+                                "eStatDefinition": "FireDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.15,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "09f608b9-2b14-4fab-a20d-a1e284e085fd",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.15,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "5b2407b6-7c89-485c-8c00-3f7bfe344c39",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "PlagueDamage",
                                 "statModifierType": "MultiplicativeAdditive",
                                 "value": 1.15,
                                 "hideDescription": false,
@@ -28370,8 +28652,8 @@
                         "langTranslation": "恶魔朱鲁帕里"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "JuruparitheDemon_linha",
+                "illustrationBlurredLine": "JuruparitheDemon_blur",
                 "nodes": [
                     {
                         "name": "a8942142-9d2c-455a-83ed-65a0dca32a02",
@@ -28424,8 +28706,8 @@
                                 "name": "a694ac54-6c63-4c84-af05-771b6fb14399",
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "SkillSpellDamage",
-                                "statModifierType": "Additive",
-                                "value": 0.18,
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.15,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -28532,9 +28814,103 @@
                             {
                                 "name": "2b2f4cd1-3403-40ff-9233-7856527e4667",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "MagicDamage",
+                                "eStatDefinition": "FireDamage",
                                 "statModifierType": "MultiplicativeAdditive",
-                                "value": 1.15,
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "1a8f4c02-7193-4a2d-aaa0-192bcc32409e",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "fea8b93e-e94d-4d79-be97-b3d79f8d141a",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "PlagueDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -28641,9 +29017,103 @@
                             {
                                 "name": "7d420e87-f58d-455f-aabb-cd1245cdf241",
                                 "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "MagicDamage",
+                                "eStatDefinition": "FireDamage",
                                 "statModifierType": "MultiplicativeAdditive",
-                                "value": 1.15,
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "ce06ec28-6d29-4601-99b9-73f44eb26e6d",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "LightningDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "1cee813d-d377-4aaf-b2a4-d3a97b3f45e6",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "PlagueDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -30326,8 +30796,8 @@
                         "langTranslation": "迦密山圣母"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "nossa sra do carmo_LINHA",
+                "illustrationBlurredLine": "nossa sra do carmo_BLUR",
                 "nodes": [
                     {
                         "name": "8efe39e9-c912-4f14-acce-aedc45242681",
@@ -31024,8 +31494,8 @@
                         "langTranslation": "奥巴"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Oba_linha",
+                "illustrationBlurredLine": "Oba_blur",
                 "nodes": [
                     {
                         "name": "97a9cc56-3cfd-402c-a9cc-d05a4243cbbc",
@@ -32534,8 +33004,8 @@
                         "langTranslation": "圣安妮"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "santaana_linha",
+                "illustrationBlurredLine": "santaana_blur",
                 "nodes": [
                     {
                         "name": "b0e0119d-d215-4910-bd81-06ab28f42aa1",
@@ -37084,8 +37554,8 @@
                         "langTranslation": "圣若瑟"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "sao jose_linha",
+                "illustrationBlurredLine": "sao jose_blur",
                 "nodes": [
                     {
                         "name": "de58d0ec-2ac6-4c60-9a08-24325b1a7121",
@@ -38322,8 +38792,8 @@
                         "langTranslation": "圣裘德"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "Sao Judas_linha",
+                "illustrationBlurredLine": "São Judas_blur",
                 "nodes": [
                     {
                         "name": "45affb95-7b2e-4fd7-9cd7-3b7abae1b055",
@@ -39779,8 +40249,8 @@
                         "langTranslation": "圣塞巴斯蒂安"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "saosebastiao_linha",
+                "illustrationBlurredLine": "saosebastiao_blur",
                 "nodes": [
                     {
                         "name": "1fb1c5b8-04da-40cf-a5ba-3a00c84694ca",
@@ -40324,8 +40794,8 @@
                         "langTranslation": "苏梅"
                     }
                 ],
-                "illustrationLine": "ogum_line",
-                "illustrationBlurredLine": "ogum_blur",
+                "illustrationLine": "sume_linha",
+                "illustrationBlurredLine": "sume_blur",
                 "nodes": [
                     {
                         "name": "7212ec02-f4de-44d2-b0e9-039e3160df80",
@@ -43162,8 +43632,8 @@
                             }
                         ],
                         "Position": [
-                            589.0,
-                            423.0
+                            18.41748,
+                            166.0383
                         ]
                     },
                     {
@@ -43262,8 +43732,8 @@
                             }
                         ],
                         "Position": [
-                            474.0,
-                            288.0
+                            -69.13428,
+                            63.26013
                         ]
                     },
                     {
@@ -43439,8 +43909,8 @@
                             }
                         ],
                         "Position": [
-                            627.0,
-                            204.0
+                            47.34766,
+                            -0.6906738
                         ]
                     },
                     {
@@ -43616,8 +44086,8 @@
                             }
                         ],
                         "Position": [
-                            460.0,
-                            56.0
+                            -79.79285,
+                            -113.3661
                         ]
                     },
                     {
@@ -43793,8 +44263,8 @@
                             }
                         ],
                         "Position": [
-                            760.0,
-                            0.0
+                            146.3193,
+                            -159.0453
                         ]
                     }
                 ]
@@ -43804,6 +44274,857 @@
             "position": [
                 1041.0,
                 1140.0
+            ]
+        },
+        {
+            "type": "ConstellationDetails",
+            "definition": {
+                "name": "Sao Francisco - Constellation Definition",
+                "id": 71,
+                "type": "ConstellationSkillTreeDefinition",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "6",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "6",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    }
+                ],
+                "masteredDevotionGranted": {
+                    "Blue": 2,
+                    "Red": 1
+                },
+                "eDevotionCategory": "RedBlue",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Franz von Assisi"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Francis of Assisi"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Francisco de Asís"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Saint François d'Assise"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "アッシジのフランシスコ"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Franciszek z Asyżu"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "São Francisco de Assis"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Франциск Ассизский"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "圣方济各"
+                    }
+                ],
+                "illustrationLine": "saofrancisco_linha",
+                "illustrationBlurredLine": "saofrancisco_blur",
+                "nodes": [
+                    {
+                        "name": "648cca40-6f94-48af-92af-2bc3acd0cc5f",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "dee24d2a-8f55-40a8-b6f7-ff5fa14bbc9a",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Life_Increase",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Leben"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Life"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Vida"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Vie"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "生命"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Życie"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Vida"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Здоровье"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "生命"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": true,
+                        "affixes": [
+                            {
+                                "name": "c66930ec-a03d-493d-9d10-3dd924b94b55",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "Life",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "4b87ba9e-e9c9-4ce2-8f99-7ccf7570aae9",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "Mana",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            -34.6,
+                            127.4
+                        ]
+                    },
+                    {
+                        "name": "ba77847a-442a-48cf-8869-2c17052566a9",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "dee24d2a-8f55-40a8-b6f7-ff5fa14bbc9a",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Mana_Base",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Demut"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Humility"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Humildad"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Humilité"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "謙虚"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Skromność"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Humildade"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Скромность"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "谦卑"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": true,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "6df89617-0794-46d7-aed6-fc1a482c681b",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "additionalLocalizationVariables": [
+                                    {
+                                        "type": "SkillBehaviorLocalizationVariable",
+                                        "skillEffectVariableReference": {
+                                            "type": "SkillEffectVariableReference",
+                                            "valueOrName": "Life",
+                                            "eSkillEffectVariableModifier": "0",
+                                            "statusToStack": {},
+                                            "supportVariableValueOrName": "",
+                                            "supportESkillEffectVariableModifier": "0",
+                                            "supportStatusToStack": {}
+                                        },
+                                        "overrideFormat": false,
+                                        "valueFormatOverride": "Rounded"
+                                    }
+                                ],
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 75.0,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": true,
+                                    "useListOfSkills": "UseSkillTag",
+                                    "listOfSkills": [],
+                                    "skillTagFilter": "Everything",
+                                    "skillDefinition": {},
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Rounded"
+                                            },
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Life",
+                                                "baseValue": 100.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Rounded"
+                                            }
+                                        ]
+                                    },
+                                    "effects": [
+                                        {
+                                            "name": "Add Character Stat Modifier Skill Effect Data",
+                                            "type": "AddCharacterStatModifierSkillEffectData",
+                                            "effectTarget": "Self",
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": true,
+                                            "effectTrigger": "TargetHit",
+                                            "characterEffectTrigger": "OnStatus",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {}
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": [],
+                                            "statModifiers": [
+                                                {
+                                                    "type": "SkillEffectStatModifierDefinition",
+                                                    "eStatDefinition": "Mana",
+                                                    "modifierType": "Additive",
+                                                    "value": {
+                                                        "type": "SkillEffectVariableReference",
+                                                        "valueOrName": "Roll",
+                                                        "eSkillEffectVariableModifier": "MultiplyByStatusStacks",
+                                                        "statusToStack": {
+                                                            "name": "Vigor Status Definition",
+                                                            "id": 95,
+                                                            "type": "StatModifierStatusDefinition"
+                                                        },
+                                                        "supportVariableValueOrName": "",
+                                                        "supportESkillEffectVariableModifier": "0",
+                                                        "supportStatusToStack": {}
+                                                    },
+                                                    "useStatConversion": "NoConversion",
+                                                    "conversionStatDefinition": "BaseDamage",
+                                                    "listenToVariableModifiersUpdate": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Add Character Stat Modifier Skill Effect Data (1)",
+                                            "type": "AddCharacterStatModifierSkillEffectData",
+                                            "effectTarget": "Self",
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": true,
+                                            "effectTrigger": "TargetHit",
+                                            "characterEffectTrigger": "OnStatus",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {}
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": [],
+                                            "statModifiers": [
+                                                {
+                                                    "type": "SkillEffectStatModifierDefinition",
+                                                    "eStatDefinition": "Life",
+                                                    "modifierType": "Additive",
+                                                    "value": {
+                                                        "type": "SkillEffectVariableReference",
+                                                        "valueOrName": "Life",
+                                                        "eSkillEffectVariableModifier": "MultiplyByTargetStatusStacks",
+                                                        "statusToStack": {
+                                                            "name": "Power Orb Status Definition",
+                                                            "id": 98,
+                                                            "type": "StatModifierStatusDefinition"
+                                                        },
+                                                        "supportVariableValueOrName": "",
+                                                        "supportESkillEffectVariableModifier": "0",
+                                                        "supportStatusToStack": {}
+                                                    },
+                                                    "useStatConversion": "NoConversion",
+                                                    "conversionStatDefinition": "BaseDamage",
+                                                    "listenToVariableModifiersUpdate": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Erhalte {0} maximales Mana für jeden Vigor-Stapel.\nErhalte {1} maximales Leben für jede Machtkugel."
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Gain {0} Maximum Mana for each Vigor Stack. \nGain {1} Maximum Life for each Power Orb."
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Obtienes {0} de Maná máximo por cada acumulación de Vigor.\nObtienes {1} de Vida máxima por cada Orbe de Poder."
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "Gagnez {0} de Ferveur maximale pour chaque cumul de Vigueur.\nGagnez {1} de Vie maximale pour chaque Orbe de Puissance."
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "活力スタックごとに最大マナが{0}増加する。\n力のオーブごとに最大体力が{1}増加する。"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Zyskaj {0} Maksymalnej Energii za każdy ładunek Wigoru.\nZyskaj {1} Maksymalnego Życia za każdą Kulę Mocy."
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Receba {0} de Energia Máxima para cada Acúmulo de Vigor.\nReceba {1} de Vida Máxima para cada Orbe de Poder."
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Получаете {0} к максимальному запасу маны за каждый эффект Бодрости.\nПолучаете {1} к максимальному здоровью за каждую Сферу Силы."
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "每层活力获得 {0} 点最大法力值。\n每个能量球获得 {1} 点最大生命值。"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            -18.6999512,
+                            -178.300049
+                        ]
+                    },
+                    {
+                        "name": "dee24d2a-8f55-40a8-b6f7-ff5fa14bbc9a",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [],
+                        "sprite": "Icon_Life_Increase",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Leben"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Life"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Vida"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Vie"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "生命"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Życie"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Vida"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Здоровье"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "生命"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "b6110ed3-ef72-465b-a8fb-52796995b8a1",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "Life",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.2,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "97eb04b6-2a47-4661-9f9f-c628d16d7311",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "Mana",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.2,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            -28.0,
+                            1.69995117
+                        ]
+                    },
+                    {
+                        "name": "fb1bcbb4-5bbf-4fff-8499-51c280870d54",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "dee24d2a-8f55-40a8-b6f7-ff5fa14bbc9a",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Mana_Base",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Mana"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Mana"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Maná"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Ferveur"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "マナ"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Mana"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Energia"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Мана"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "法力值"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "a98739cb-2d2e-4a8c-aed8-95404289b7f7",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "Mana",
+                                "statModifierType": "Additive",
+                                "value": 150.0,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            183.2,
+                            -115.2
+                        ]
+                    },
+                    {
+                        "name": "9fea2ca7-0ac2-4531-b2d3-5cf9a0dc9dc7",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "dee24d2a-8f55-40a8-b6f7-ff5fa14bbc9a",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Life_Increase",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Leben"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Life"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Vida"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Vie"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "生命"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Życie"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Vida"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Здоровье"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "生命"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "df972412-975b-4fc3-a3ac-84b532c2cb70",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "Life",
+                                "statModifierType": "Additive",
+                                "value": 200.0,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            -194.2,
+                            -115.2
+                        ]
+                    }
+                ]
+            },
+            "width": 500.0,
+            "height": 500.0,
+            "position": [
+                884.0,
+                -1772.0
             ]
         }
     ],

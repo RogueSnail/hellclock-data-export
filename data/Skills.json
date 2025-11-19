@@ -3106,7 +3106,7 @@
                 }
             ],
             "cooldown": 1.3,
-            "minCooldown": 0.16,
+            "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 15.0,
@@ -3734,7 +3734,7 @@
                 }
             ],
             "icon": "IconSkill_DoubleKnives",
-            "baseDamageMod": 0.55,
+            "baseDamageMod": 0.64,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
             "modifiersPerLevel": {
@@ -4984,7 +4984,7 @@
                 }
             ],
             "icon": "IconSkill_FeitorsLash",
-            "baseDamageMod": 1.65,
+            "baseDamageMod": 1.9,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
             "modifiersPerLevel": {
