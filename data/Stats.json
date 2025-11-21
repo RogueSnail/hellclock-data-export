@@ -260,7 +260,11 @@
             "eStatFormat": "PERCENTAGE",
             "baseValue": 1.5,
             "isPlayerStat": false,
-            "willClamp": false
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": 1.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 10000.0
         },
         {
             "name": "Life",
@@ -3357,7 +3361,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Prozentsatz Ihres pro Sekunde geheilten maximalen Lebens, wenn Sie einem Monster in der letzten Sekunde Schaden zugefügt haben."
+                    "langTranslation": "Prozentsatz deiner maximalen Lebenspunkte, der pro Sekunde geheilt wird, wenn du in der letzten Sekunde einem Monster Schaden zugefügt hast."
                 },
                 {
                     "langCode": "en",
@@ -3365,15 +3369,15 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Porcentaje de tu Vida Máxima curada por segundo si has infligido daño a un monstruo en el último segundo."
+                    "langTranslation": "Porcentaje de tu vida máxima recuperada por segundo si has infligido daño a un monstruo en el último segundo."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Pourcentage de votre vie maximale soignée par seconde si vous avez infligé des dégâts à un monstre au cours de la dernière seconde."
+                    "langTranslation": "Pourcentage de vos points de vie maximum récupérés par seconde si vous avez infligé des dégâts à un monstre au cours de la dernière seconde."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージです。"
+                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージ。"
                 },
                 {
                     "langCode": "pl",
@@ -4733,7 +4737,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Schaden der Beschwörungsfertigkeit angewendet wird, wenn Feinde getroffen werden."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden von Beschwörungsfertigkeiten angewendet, wenn diese Gegner treffen."
                 },
                 {
                     "langCode": "en",
@@ -4741,11 +4745,11 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad de invocación al golpear enemigos."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la Habilidad de Invocación al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences d'invocation lorsque vous frappez des ennemis."
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts de la compétence d'invocation lors de la frappe d'ennemis."
                 },
                 {
                     "langCode": "ja",
@@ -6141,39 +6145,39 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikator, der auf sämtlichen durch Bluten verursachten Schaden angewendet wird.\nBeim Basis-Blutungsschaden handelt es sich um eine feste Menge an Schaden, die nicht auf dem Schaden der Fertigkeit basiert, die ihn verursacht."
+                    "langTranslation": "Multiplikativer Modifikator, der auf allen Schaden angewendet wird, der durch den Blutungszustand verursacht wird.\nDer Basisblutungsschaden ist ein fester Anteil deines Basisschadens und hängt nicht vom Schaden der Fertigkeit ab, die die Blutung verursacht hat.\nBlutung kann unendlich oft gestapelt werden.\nBlutungsstapel verursachen doppelten Schaden, wenn sich der betroffene Charakter bewegt."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Multiplicative modifier applied to all damage caused by the Bleed ailment. \nBase Bleed damage is a fixed proportion of your Base Damage, and does not rely on the damage of the Skill that caused it.\nBleed can stack infinitely."
+                    "langTranslation": "Multiplicative modifier applied to all damage caused by the Bleed ailment. \nBase Bleed damage is a fixed proportion of your Base Damage, and does not rely on the damage of the Skill that caused it.\nBleed can stack infinitely.\nBleed stacks deal double damage when the afflicted character is moving."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño infligido por Sangrado.\nEl daño básico de Sangrado es una proporción fija del daño básico y no depende del daño de la habilidad que lo infligió.\nLa hemorragia se puede acumular infinitamente."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño causado por el estado de Sangrado.\nEl daño básico de Sangrado es una proporción fija de tu daño básico y no depende del daño de la habilidad que lo infligió.\nLa hemorragia puede acumularse infinitamente.\nLas acumulaciones de Sangrado infligen el doble de daño cuando el personaje afectado se está moviendo."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Multiplicateur appliqué à tous les dégâts infligés par le saignement.\nLes dégâts de saignement de base sont une proportion fixe de vos dégâts de base, et ne sont pas liés aux dégâts de la compétence qui a infligé le saignement."
+                    "langTranslation": "Multiplicateur appliqué à tous les dégâts causés par l'altération de saignement.\nLes dégâts de saignement de base sont une proportion fixe de vos dégâts de base et ne dépendent pas des dégâts de la compétence qui a infligé le saignement.\nLe saignement peut se cumuler à l’infini.\nLes cumuls de saignement infligent le double de dégâts lorsque le personnage affecté est en mouvement."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "あらゆる出血ダメージに適用される倍率。\n基礎出血ダメージは基礎ダメージに対する倍率で決まり、出血をもたらしたスキルのダメージには依存しない。\n出血効果は無限にスタックする。"
+                    "langTranslation": "出血状態が与えるあらゆるダメージに適用される乗算補正。\n基礎出血ダメージはあなたの基礎ダメージの固定割合で決まり、出血を与えたスキル自体のダメージには依存しない。\n出血は無限にスタックする。\n対象が移動している場合、そのキャラクターにかかっている出血スタックは2倍のダメージを与える。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Mnożnik stosowany do wszystkich obrażeń zadawanych przez Krwawienie.\nBazowe obrażenia od krwawienia są stałą częścią twoich bazowych obrażeń i nie zależą od obrażeń umiejętności, która je zadała."
+                    "langTranslation": "Mnożnik stosowany do wszystkich obrażeń zadawanych przez efekt Krwawienia.\nBazowe obrażenia od krwawienia są stałą częścią twoich bazowych obrażeń i nie zależą od obrażeń umiejętności, która je zadała.\nKrwawienie może kumulować się w nieskończoność.\nGdy postać dotknięta krwawieniem jest w ruchu, ładunki krwawienia zadają podwójne obrażenia."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo dano causado pela Condição de Sangramento.\nO dano base de Sangramento é uma proporção fixa de seu Dano Base, e não depende do dano da Habilidade que o causou.\nSangramento pode acumular infinitamente."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo dano causado pela Condição de Sangramento.\nO dano base de Sangramento é uma proporção fixa de seu Dano Base, e não depende do dano da Habilidade que o causou.\nSangramento pode acumular infinitamente.\nDano de Sangramento é dobrado contra alvos em movimento."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Множитель всего урона от кровотечения.\nОсновной урон от кровотечения равен определенному проценту от вашего основного урона и не зависит от урона вызвавшего его навыка."
+                    "langTranslation": "Множитель, применяемый ко всему урону, наносимому эффектом Кровотечения.\nБазовый урон от кровотечения — это фиксированная доля вашего базового урона и не зависит от урона умения, которое его наложило.\nКровотечение может накапливаться бесконечно.\nКогда поражённый персонаж находится в движении, заряды кровотечения наносят двойной урон."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对所有流血造成的伤害应用的乘算加成。\n基础流血伤害按基础伤害的固定比例计算，不受施加伤害的技能本身影响。\n流血可以无限叠加。"
+                    "langTranslation": "对所有由流血异常状态造成的伤害应用的乘算修正。\n基础流血伤害是你基础伤害的固定比例，与造成流血的技能伤害无关。\n流血可以无限叠加。\n当受影响角色移动时，流血层数造成的伤害翻倍。"
                 }
             ],
             "icon": "IconStatus_Bleeding_white",
@@ -7029,7 +7033,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhöht die Anzahl der Projektile, die von relevanten Fertigkeiten bei Aktivierung abgefeuert werden. Jeder übrige Bonus wird als Chance auf ein zusätzliches Projektil verwendet."
+                    "langTranslation": "Erhöht die Anzahl der Projektile, die von entsprechenden Fertigkeiten bei Aktivierung abgefeuert werden. Ein etwaiger Überschussbonus wird als Chance auf ein zusätzliches Projektil ausgewürfelt."
                 },
                 {
                     "langCode": "en",
@@ -7037,11 +7041,11 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Aumenta la cantidad de proyectiles lanzados por las habilidades relevantes al activarse. Cualquier bonificación sobrante se contabilizará como una oportunidad para obtener un proyectil adicional."
+                    "langTranslation": "Aumenta la cantidad de proyectiles lanzados por las habilidades relevantes al activarse. El bono sobrante se utilizará para lanzar un proyectil adicional."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Augmente le nombre de projectiles lancés par les compétences concernées à l'activation. Tout bonus excédentaire sera considéré comme une chance d'obtenir un projectile supplémentaire."
+                    "langTranslation": "Augmente le nombre de projectiles lancés par les compétences concernées lors de leur activation. Tout bonus excédentaire sera utilisé pour tenter d'obtenir un projectile supplémentaire."
                 },
                 {
                     "langCode": "ja",
@@ -7115,7 +7119,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Nahkampfschaden angewendet wird, wenn Feinde getroffen werden."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Nahkampfschaden angewendet, wenn Gegner getroffen werden."
                 },
                 {
                     "langCode": "en",
@@ -7123,11 +7127,11 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad cuerpo a cuerpo al golpear enemigos."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de las habilidades cuerpo a cuerpo al golpear a los enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences de mêlée lorsque vous frappez des ennemis."
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences de mêlée lors de la frappe d'ennemis."
                 },
                 {
                     "langCode": "ja",
@@ -7287,7 +7291,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Zauberfertigkeitsschaden angewendet wird, wenn Feinde getroffen werden."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden von Zauberfertigkeiten angewendet, wenn diese Gegner treffen."
                 },
                 {
                     "langCode": "en",
@@ -7295,11 +7299,11 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo que se aplica a todo el daño de la habilidad de hechizo al golpear enemigos."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de las Habilidades de Hechizo al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences de sorts lorsque vous frappez des ennemis."
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts des compétences de sort lors de l'impact sur les ennemis."
                 },
                 {
                     "langCode": "ja",
@@ -8077,7 +8081,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator, der auf den gesamten Schaden der Scharfschützenfertigkeit angewendet wird, wenn Gegner getroffen werden."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit angewendet, wenn Gegner getroffen werden."
                 },
                 {
                     "langCode": "en",
@@ -8085,11 +8089,11 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad Tirador al golpear enemigos."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad de Tirador al golpear a los enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts de la compétence Tireur d'élite lorsque vous frappez des ennemis."
+                    "langTranslation": "Modificateur multiplicatif appliqué à tous les dégâts de compétence de tireur d'élite lors de la frappe d'ennemis."
                 },
                 {
                     "langCode": "ja",
@@ -9549,7 +9553,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Widerstand entfachen"
+                    "langTranslation": "Zündbeständigkeit"
                 },
                 {
                     "langCode": "en",
@@ -9557,11 +9561,11 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Encender la resistencia"
+                    "langTranslation": "Resistencia a la ignición"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Résistance à l'allumage"
+                    "langTranslation": "Résistance à l'inflammation"
                 },
                 {
                     "langCode": "ja",
@@ -9573,7 +9577,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Resistência à ignição"
+                    "langTranslation": "Acenda a resistência"
                 },
                 {
                     "langCode": "ru",
@@ -9639,7 +9643,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Blutungsbeständigkeit"
+                    "langTranslation": "Blutungsresistenz"
                 },
                 {
                     "langCode": "en",
@@ -9663,7 +9667,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Resistência ao Sangramento"
+                    "langTranslation": "Resistência ao sangramento"
                 },
                 {
                     "langCode": "ru",
@@ -9671,7 +9675,7 @@
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "抗出血"
+                    "langTranslation": "抗出血性"
                 }
             ],
             "localizedDescription": [
@@ -9761,7 +9765,7 @@
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "最大耐火性"
+                    "langTranslation": "最大耐火性能"
                 }
             ],
             "localizedDescription": [
@@ -9819,7 +9823,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Maximale Blitzresistenz"
+                    "langTranslation": "Maximale Blitzbeständigkeit"
                 },
                 {
                     "langCode": "en",
@@ -9827,7 +9831,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Máxima resistencia a los rayos"
+                    "langTranslation": "Resistencia máxima a los rayos"
                 },
                 {
                     "langCode": "fr",
@@ -9851,7 +9855,7 @@
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "最大抗雷击能力"
+                    "langTranslation": "最大防雷性能"
                 }
             ],
             "localizedDescription": [
@@ -9917,7 +9921,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Máxima resistencia a las plagas"
+                    "langTranslation": "Máxima resistencia a la plaga"
                 },
                 {
                     "langCode": "fr",
@@ -9999,7 +10003,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Maximale physische Widerstandsfähigkeit"
+                    "langTranslation": "Maximaler physikalischer Widerstand"
                 },
                 {
                     "langCode": "en",
@@ -10007,7 +10011,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Máxima resistencia física"
+                    "langTranslation": "Resistencia física máxima"
                 },
                 {
                     "langCode": "fr",
@@ -10031,7 +10035,7 @@
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "最大物理抵抗力"
+                    "langTranslation": "最大物理阻力"
                 }
             ],
             "localizedDescription": [
@@ -11207,7 +11211,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bonus-Fallchance für die Zeit der Höllenuhr"
+                    "langTranslation": "Bonus-Chance auf Höllenuhrzeit-Drop"
                 },
                 {
                     "langCode": "en",
@@ -11215,11 +11219,11 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bono de probabilidad de obtener tiempo del reloj del infierno"
+                    "langTranslation": "Bonificación por tiempo de reloj infernal"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Bonus de chance de chute de temps de l'horloge de l'enfer"
+                    "langTranslation": "Bonus de chance de butin de l'horloge infernale"
                 },
                 {
                     "langCode": "ja",
@@ -11239,7 +11243,7 @@
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "地狱时钟掉落概率加成"
+                    "langTranslation": "额外地狱时钟时间掉落几率"
                 }
             ],
             "icon": "",
@@ -11417,6 +11421,92 @@
             "icon": "",
             "eStatFormat": "PERCENTAGE",
             "baseValue": -10000.0,
+            "isPlayerStat": false,
+            "willClamp": false
+        },
+        {
+            "name": "SkillProjectileDamage",
+            "id": 132,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Projectile Skill Damage"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Projectile Skill Damage"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Projectile Skill Damage"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Projectile Skill Damage"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Projectile Skill Damage"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Projectile Skill Damage"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Dano de Habilidade de Projéteis"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Projectile Skill Damage"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Projectile Skill Damage"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Modificador multiplicativo aplicado ao total de dano de Habilidade de Projéteis ao atingir inimigos."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "Multiplicative modifier applied to all Projectile Skill damage when hitting enemies."
+                }
+            ],
+            "icon": "Icon_Damage_Base",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 1.0,
             "isPlayerStat": false,
             "willClamp": false
         }

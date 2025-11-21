@@ -3,5 +3,6 @@
     "type": "SkillsConfig",
     "maxSkillRank": 20,
     "maxSkillUpgradeLevelBonus": 3,
-    "startingMaxSkillLevel": 1
+    "startingMaxSkillLevel": 1,
+    "activeSkillInputBuffer": 0.2
 }

@@ -19,7 +19,7 @@
             "manaCost": 0.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
+            "baseSkillSpeed": 2.22,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -194,8 +194,8 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 0.4,
-            "minCooldown": 0.1,
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
             "useAttackSpeed": true,
             "ignoreCooldownSpeed": false,
             "range": 15.0,
@@ -205,6 +205,96 @@
                 "Projectile",
                 "Physical Damage",
                 "Attack"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Pierce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Pierce Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Bullet Count Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Bounce Amount Modifier",
+                    "valueType": "Increment"
+                }
             ]
         },
         {
@@ -235,7 +325,7 @@
             "manaCost": 120.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
+            "baseSkillSpeed": 2.22,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -477,8 +567,8 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 0.3,
-            "minCooldown": 0.1,
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
             "useAttackSpeed": true,
             "ignoreCooldownSpeed": false,
             "range": 15.0,
@@ -488,6 +578,112 @@
                 "Fire Damage",
                 "Elemental Damage",
                 "Attack"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Pierce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Pierce Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Bullet Count Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Bounce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Same Target Shot Bonus Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Width Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charged Shot Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Charged Shot Damage Per Bullet Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -750,6 +946,92 @@
             "skillTags": [
                 "Mobility",
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Distance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Dash Speed Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -768,13 +1050,12 @@
             "bulletCount": 1,
             "bounceAmount": 0,
             "canPierce": false,
-            "recoveryTime": 0.01,
             "loopInterval": 0.125,
             "useCooldownSpeedForLoop": true,
             "manaCost": 42.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
+            "baseSkillSpeed": 2.0,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -1016,8 +1297,8 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 0.5,
-            "minCooldown": 0.1,
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
             "useAttackSpeed": true,
             "ignoreCooldownSpeed": false,
             "range": 15.0,
@@ -1026,6 +1307,100 @@
                 "Projectile",
                 "Physical Damage",
                 "Attack"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Width Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Bullet Count Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Can Pierce Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Pierce Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Bounce Amount Modifier",
+                    "valueType": "Increment"
+                }
             ]
         },
         {
@@ -1312,6 +1687,128 @@
                 "Projectile",
                 "Spell",
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Same Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Damage Multiplier Per Target Debuff Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Chance To Pierce Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Pierce Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Knives Regen Time Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Knives Throw Interval Time Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Knives Count Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Increase Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Regen Knife on Kill Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Bounce To Another Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Bounce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(166) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -1713,13 +2210,155 @@
                 }
             ],
             "cooldown": 14.5,
-            "minCooldown": 0.0,
+            "minCooldown": 0.5,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 0.0,
             "skillTags": [
                 "Enchantment",
                 "Prayer"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(100) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(101) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(101) - Status Heal Amount Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Life Restored Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Buff Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Buff Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Enable Fire Area Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Enable Life Drain Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Life Drain Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "DamageMod Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "BaseDamageOverride Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "EDamageType Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Special Start Damage Mod Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(118) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -2094,20 +2733,125 @@
             "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 20.0,
-            "minCooldown": 0.0,
+            "minCooldown": 0.5,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 0.0,
             "skillTags": [
                 "Enchantment",
                 "Prayer"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(102) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(103) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(103) - CriticalChance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(103) - CriticalDamage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(112) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Buff Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(105) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(105) - Status Intensity Modifier Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
             "name": "TheOldBellSkillDefinition",
             "id": 50,
             "type": "TheOldBellSkillDefinition",
-            "anticipationTime": 0.15,
             "duration": 6.0,
             "radius": 4.0,
             "manaCost": 400.0,
@@ -2362,7 +3106,7 @@
                 }
             ],
             "cooldown": 1.3,
-            "minCooldown": 0.16,
+            "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 15.0,
@@ -2371,6 +3115,84 @@
                 "Spell",
                 "Plague Damage",
                 "Elemental Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -2662,6 +3484,148 @@
             "skillTags": [
                 "Area of Effect",
                 "Enchantment"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Delay Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Status !StatusDefinitionCollection(28) Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Status !StatusDefinitionCollection(78) Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Status Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(28) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(28) - FireResistance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(28) - LightningResistance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(28) - IgniteResistance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(78) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(78) - PhysicalResistance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(78) - PlagueResistance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(78) - BleedResistance Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -2671,18 +3635,22 @@
             "areaDefinition": {
                 "name": "DoubleKnivesAreaDefinition",
                 "id": 22,
-                "type": "IntervalDamageStatusAreaDefinition",
-                "statusDefinitions": [],
+                "type": "DamageStatusAreaDefinition",
                 "damageMod": 1.0,
                 "useSourceSkillDamageModifierWhenAvailable": true,
+                "singleInstanceDamage": false,
                 "eDamageType": "PHYSICAL",
                 "damageStatModifiers": [],
+                "statusDefinitions": [],
+                "refreshOnAreaEnter": true,
+                "removeOnAreaExit": true,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
                 "radius": 3.0,
                 "effectInterval": 0.2
             },
             "baseSpinSpeed": 1.0,
             "moveSpeedSlow": 0.5,
-            "recoveryTime": 0.01,
             "loopInterval": 0.2,
             "useCooldownSpeedForLoop": false,
             "manaCost": 55.0,
@@ -2766,7 +3734,7 @@
                 }
             ],
             "icon": "IconSkill_DoubleKnives",
-            "baseDamageMod": 0.55,
+            "baseDamageMod": 0.64,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
             "modifiersPerLevel": {
@@ -2930,8 +3898,8 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 0.5,
-            "minCooldown": 0.16,
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
             "useAttackSpeed": true,
             "ignoreCooldownSpeed": false,
             "range": 4.0,
@@ -2939,6 +3907,96 @@
                 "Melee",
                 "Physical Damage",
                 "Attack"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spin Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Move Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "No Move Speed Penalty Modifier",
+                    "valueType": "Toggle"
+                }
             ]
         },
         {
@@ -3227,6 +4285,124 @@
                 "Spell",
                 "Lightning Damage",
                 "Elemental Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Teport Distance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Delay Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "DamageMod Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "BaseDamageOverride Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "EDamageType Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Special Start Damage Mod Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -3621,6 +4797,100 @@
             "skillTags": [
                 "Area of Effect",
                 "Melee"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Stun Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Chance To Bleed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Bleed Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Bleed Intensity Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -3631,10 +4901,12 @@
             "slashAreaAngleVisualOffset": -20.0,
             "slashAreaRangeVisualOffset": -2.0,
             "slashDuration": 0.2,
+            "alternateSlashTrigger": "feitors_lash_alternate_attack",
+            "alternateSlashInterval": 1.0,
             "manaCost": 90.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
+            "baseSkillSpeed": 2.0,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -3712,7 +4984,7 @@
                 }
             ],
             "icon": "IconSkill_FeitorsLash",
-            "baseDamageMod": 1.65,
+            "baseDamageMod": 1.9,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
             "modifiersPerLevel": {
@@ -3866,9 +5138,26 @@
                 }
             ],
             "skillDamageStatModifiers": {},
-            "skillValueModifierConfigs": [],
-            "cooldown": 0.5,
-            "minCooldown": 0.16,
+            "skillValueModifierConfigs": [
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Range Modifier",
+                    "multiplicativeStats": [
+                        "SkillAreaOfEffect"
+                    ],
+                    "additiveStats": []
+                },
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Slash Area Angle Modifier",
+                    "multiplicativeStats": [
+                        "SkillAreaOfEffect"
+                    ],
+                    "additiveStats": []
+                }
+            ],
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
             "useAttackSpeed": true,
             "ignoreCooldownSpeed": false,
             "range": 8.0,
@@ -3877,6 +5166,84 @@
                 "Fire Damage",
                 "Elemental Damage",
                 "Attack"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Slash Area Angle Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -3994,7 +5361,7 @@
             ],
             "icon": "IconSkill_SlowTime",
             "baseDamageMod": 0.0,
-            "eDamageType": "PHYSICAL",
+            "eDamageType": "LIGHTNING",
             "isAreaDamage": false,
             "modifiersPerLevel": {
                 "1": [
@@ -4015,6 +5382,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 1.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.0
                     }
                 ],
                 "2": [
@@ -4035,6 +5408,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 1.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.0
                     }
                 ],
                 "3": [
@@ -4055,6 +5434,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 2.15
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
                     }
                 ],
                 "4": [
@@ -4075,6 +5460,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
                     }
                 ],
                 "5": [
@@ -4095,6 +5486,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 3.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 5.0
                     }
                 ],
                 "6": [
@@ -4115,6 +5512,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 3.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 6.0
                     }
                 ],
                 "7": [
@@ -4135,6 +5538,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 4.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 7.0
                     }
                 ],
                 "8": [
@@ -4155,6 +5564,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 3.65
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 8.0
                     }
                 ],
                 "9": [
@@ -4175,6 +5590,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 3.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 9.0
                     }
                 ],
                 "10": [
@@ -4195,6 +5616,12 @@
                         "skillValueModifierKey": "Cooldown Modifier",
                         "modifierType": "Multiplicative",
                         "value": 3.0
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 10.0
                     }
                 ]
             },
@@ -4225,6 +5652,124 @@
             "skillTags": [
                 "Area of Effect",
                 "Spell"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Delay Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Status !StatusDefinitionCollection(34) Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Status Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(34) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(34) - AttackSpeed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(34) - MovementSpeed Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -4326,6 +5871,96 @@
             "range": 0.0,
             "skillTags": [
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Regen Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Barrier Regen Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Regen Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use With Full Life Modifier",
+                    "valueType": "Toggle"
+                }
             ]
         },
         {
@@ -4713,6 +6348,128 @@
                 "Area of Effect",
                 "Enchantment",
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Base Conviction Percentage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Retaliation Aura Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Retaliation Aura Decay Resistance Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Delay Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "DamageMod Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "BaseDamageOverride Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "EDamageType Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -5012,6 +6769,140 @@
                 "Area of Effect",
                 "Spell",
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Use Caster As Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Target Forward Offset Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Area Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Parent Area Radius Fx To Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Delay Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "DamageMod Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "BaseDamageOverride Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "EDamageType Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -5339,7 +7230,7 @@
             "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 15.0,
-            "minCooldown": 0.0,
+            "minCooldown": 0.3,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 10.0,
@@ -5347,6 +7238,112 @@
                 "Summon",
                 "Projectile",
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Summon Attack Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Buff Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Amount Multiplier Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Amount Buff Base Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Enable Companion Buff Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Enable Amount Buff Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Enable Alternative Skills Modifier",
+                    "valueType": "Toggle"
+                }
             ]
         },
         {
@@ -5649,6 +7646,144 @@
                 "Marksman",
                 "Fire Damage",
                 "Elemental Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Use Caster As Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Target Forward Offset Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Area Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Spawner Parent Area Radius Fx To Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Delay Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "DamageMod Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "BaseDamageOverride Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "EDamageType Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Special Start Damage Mod Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -5670,11 +7805,11 @@
             ],
             "intervalBetweenProjectiles": 0.1,
             "projectilePierceAmount": 3,
-            "ignoreWalls": true,
+            "eProjectileWallBehavior": "IgnoreWalls",
             "manaCost": 170.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
+            "baseSkillSpeed": 1.66,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -5916,17 +8051,126 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 0.4,
-            "minCooldown": 0.13,
-            "useAttackSpeed": true,
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
+            "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 0.0,
             "skillTags": [
                 "Projectile",
                 "Spell",
                 "Lightning Damage",
-                "Elemental Damage",
-                "Attack"
+                "Elemental Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Life Time Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Pierce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Projectile Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Pierce Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Orbit Around Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Use Summon As Target Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Expansion Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Base Orbit Radius Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -5951,11 +8195,11 @@
             ],
             "intervalBetweenProjectiles": 0.0,
             "projectilePierceAmount": 0,
-            "ignoreWalls": true,
+            "eProjectileWallBehavior": "IgnoreWalls",
             "manaCost": 175.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
+            "baseSkillSpeed": 1.33,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -6203,8 +8447,8 @@
                     "additiveStats": []
                 }
             ],
-            "cooldown": 0.5,
-            "minCooldown": 0.16,
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 20.0,
@@ -6213,6 +8457,100 @@
                 "Spell",
                 "Plague Damage",
                 "Elemental Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Life Time Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Pierce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Projectile Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Pierce Damage Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -6646,7 +8984,7 @@
             "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 12.0,
-            "minCooldown": 0.0,
+            "minCooldown": 0.3,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 10.0,
@@ -6654,6 +8992,172 @@
                 "Melee",
                 "Summon",
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Summon Life Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Respawn Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Buff Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Life Restored Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Instant Respawn Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Instant Respawn Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Instant Respawn Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Explode On Death Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Explode On Death Life To Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Die On Taunt End Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Activation Owner Buff Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(124) - Status Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "!StatusDefinitionCollection(124) - SummonDamagePercentage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Effect Area Anticipation Delay Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Intensity Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Interval Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "DamageMod Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "BaseDamageOverride Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "EDamageType Modifier",
+                    "valueType": "Multiplier"
+                }
             ]
         },
         {
@@ -6924,6 +9428,96 @@
                 "Summon",
                 "Projectile",
                 "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Summon Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Attack Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Marksmen Shot Bounce Amount Modifier",
+                    "valueType": "Increment"
+                }
             ]
         }
     ]

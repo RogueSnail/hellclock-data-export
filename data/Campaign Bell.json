@@ -4432,7 +4432,7 @@
                     "behaviorData": {
                         "type": "SkillBehaviorData",
                         "affectMultipleSkills": false,
-                        "useListOfSkills": false,
+                        "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
                         "skillDefinition": {},
@@ -4452,6 +4452,7 @@
                             {
                                 "name": "beb33592-31b0-4d07-826a-c1d05d5f446d",
                                 "type": "AddSkillValueModifierSkillEffectData",
+                                "specificSkillDefinition": {},
                                 "modifiers": [
                                     {
                                         "type": "SkillEffectSkillModifierDefinition",
@@ -4466,11 +4467,12 @@
                                             "supportESkillEffectVariableModifier": "0",
                                             "supportStatusToStack": {}
                                         },
-                                        "useStatConversion": false,
+                                        "useStatConversion": "NoConversion",
                                         "conversionStatDefinition": "BaseDamage",
                                         "listenToVariableModifiersUpdate": false
                                     }
                                 ],
+                                "startDisabled": false,
                                 "useCharacterEffectTrigger": false,
                                 "effectTrigger": "Always",
                                 "characterEffectTrigger": "Kill",
@@ -4651,7 +4653,7 @@
                     "behaviorData": {
                         "type": "SkillBehaviorData",
                         "affectMultipleSkills": false,
-                        "useListOfSkills": false,
+                        "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
                         "skillDefinition": {},
@@ -4671,6 +4673,7 @@
                             {
                                 "name": "Add Skill Value Modifier Skill Effect Data",
                                 "type": "AddSkillValueModifierSkillEffectData",
+                                "specificSkillDefinition": {},
                                 "modifiers": [
                                     {
                                         "type": "SkillEffectSkillModifierDefinition",
@@ -4685,11 +4688,12 @@
                                             "supportESkillEffectVariableModifier": "0",
                                             "supportStatusToStack": {}
                                         },
-                                        "useStatConversion": false,
+                                        "useStatConversion": "NoConversion",
                                         "conversionStatDefinition": "BaseDamage",
                                         "listenToVariableModifiersUpdate": false
                                     }
                                 ],
+                                "startDisabled": false,
                                 "useCharacterEffectTrigger": false,
                                 "effectTrigger": "Always",
                                 "characterEffectTrigger": "Kill",

@@ -1320,6 +1320,14 @@
                             "id": 285,
                             "type": "SkillLevelAffixDefinition"
                         }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "SkillBehavior - Implicit - Max Summons",
+                            "id": 337,
+                            "type": "SkillBehaviorAffixDefinition"
+                        }
                     }
                 ]
             }
@@ -1729,6 +1737,14 @@
                             "name": "Skill Level - Implicit - VeilofQuills  Plus 2 Affix",
                             "id": 285,
                             "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "SkillBehavior - Implicit - Max Summons",
+                            "id": 337,
+                            "type": "SkillBehaviorAffixDefinition"
                         }
                     }
                 ]
