@@ -29218,8 +29218,7 @@
             ],
             "devotionAffinity": [
                 "Green",
-                "Red",
-                "Blue"
+                "Red"
             ]
         },
         {
@@ -33542,8 +33541,6 @@
                 }
             ],
             "devotionAffinity": [
-                "Green",
-                "Red",
                 "Blue"
             ]
         },
@@ -33826,9 +33823,7 @@
                 }
             ],
             "devotionAffinity": [
-                "Green",
-                "Red",
-                "Blue"
+                "Red"
             ]
         },
         {
@@ -34110,9 +34105,7 @@
                 }
             ],
             "devotionAffinity": [
-                "Green",
-                "Red",
-                "Blue"
+                "Green"
             ]
         }
     ]

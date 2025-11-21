@@ -10730,7 +10730,7 @@
                                     }
                                 ],
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 0.18,
+                                "valuePerLevel": 0.2,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -10751,7 +10751,7 @@
                                             {
                                                 "type": "SkillEffectVariable",
                                                 "name": "Minimum",
-                                                "baseValue": 1.0,
+                                                "baseValue": 2.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
                                                 "eSkillEffectVariableFormat": "Rounded"
                                             }

@@ -80,7 +80,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -202,7 +202,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1063,7 +1063,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1204,7 +1204,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1345,7 +1345,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1486,7 +1486,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1627,7 +1627,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -1759,7 +1759,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1900,7 +1900,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2041,7 +2041,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2182,7 +2182,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2323,7 +2323,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2464,7 +2464,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2605,7 +2605,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2746,7 +2746,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2887,7 +2887,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -3028,7 +3028,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -3969,7 +3969,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -4451,7 +4451,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -4671,7 +4671,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -5652,7 +5652,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -5890,7 +5890,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -6085,7 +6085,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -7398,7 +7398,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -7615,7 +7615,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -7834,7 +7834,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -9379,7 +9379,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9520,7 +9520,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9661,7 +9661,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9802,7 +9802,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -9943,7 +9943,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10084,7 +10084,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10366,7 +10366,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -10507,7 +10507,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -11476,7 +11476,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -11617,7 +11617,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -12655,7 +12655,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -12875,7 +12875,7 @@
                 }
             ],
             "eAffixRarity": "Special",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -14080,7 +14080,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [
                 {
                     "name": "Double Knives - General - Move Speed Blessing",
@@ -14352,7 +14352,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -14615,7 +14615,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -15184,7 +15184,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -15403,7 +15403,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -16206,7 +16206,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -16635,7 +16635,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -17084,7 +17084,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -18059,7 +18059,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -18508,7 +18508,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -18739,7 +18739,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -19698,7 +19698,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -19961,7 +19961,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [
                 {
                     "name": "Matadeira - General - DotDuration",
@@ -21694,7 +21694,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -22137,7 +22137,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -22552,7 +22552,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -22791,7 +22791,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -23030,7 +23030,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -23261,7 +23261,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -23772,7 +23772,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -23965,7 +23965,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -49506,15 +49506,11 @@
             ],
             "behaviorData": {
                 "type": "SkillBehaviorData",
-                "affectMultipleSkills": true,
+                "affectMultipleSkills": false,
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Everything",
-                "skillDefinition": {
-                    "name": "FeitorsLashSkillDefinition",
-                    "id": 72,
-                    "type": "SlashSkillDefinition"
-                },
+                "skillDefinition": {},
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -49543,40 +49539,41 @@
                 },
                 "effects": [
                     {
-                        "name": "Place Effect Area Skill Effect Data",
-                        "type": "PlaceEffectAreaSkillEffectData",
-                        "effectTarget": "Self",
-                        "parentToTarget": true,
-                        "useSkillRadius": false,
-                        "useSkillAsSource": false,
-                        "useSkillDamage": false,
-                        "removeOnRevert": true,
-                        "effectAreaConfig": {
-                            "type": "EffectAreaConfig`1",
-                            "effectAreaDefinition": {
-                                "name": "Murks Blood Veil - Drain Interval Damage Area",
-                                "id": 134,
-                                "type": "DrainIntervalDamageAreaDefinition",
-                                "lifeDrainPercentage": 1.0,
-                                "barrierDrainPercentage": 1.0,
-                                "lifeBarrierDamagePercentage": 1.0,
-                                "hasSpecialDamageOnStart": false,
-                                "damageMod": 1.0,
-                                "useSourceSkillDamageModifierWhenAvailable": false,
-                                "eDamageType": "PHYSICAL",
-                                "damageStatModifiers": [],
-                                "radius": 4.0,
-                                "effectInterval": 0.5
-                            },
-                            "effectAreaDuration": -1.0,
-                            "hasAnticipation": false,
-                            "anticipationDuration": 0.0,
-                            "anticipationDelay": 0.0
+                        "name": "Equip Skill Effect Data",
+                        "type": "EquipSkillEffectData",
+                        "specificSkillDefinition": {},
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "Always",
+                        "characterEffectTrigger": "Always",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
                         },
-                        "effectAreaValueOverrides": [
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    },
+                    {
+                        "name": "Add Skill Value Modifier Skill Effect Data",
+                        "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
+                        "modifiers": [
                             {
-                                "type": "SkillEffectAreaValueOverride",
-                                "valueKey": "Life Drain Percentage",
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Life Drain Percentage Modifier",
+                                "modifierType": "Override",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Life",
@@ -49585,11 +49582,15 @@
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
-                                }
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
                             },
                             {
-                                "type": "SkillEffectAreaValueOverride",
-                                "valueKey": "Barrier Drain Percentage",
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Barrier Drain Percentage Modifier",
+                                "modifierType": "Override",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Conviction",
@@ -49598,11 +49599,15 @@
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
-                                }
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
                             },
                             {
-                                "type": "SkillEffectAreaValueOverride",
-                                "valueKey": "Life Barrier Damage Percentage",
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Life Barrier Damage Percentage Modifier",
+                                "modifierType": "Override",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Roll",
@@ -49611,12 +49616,15 @@
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
                                     "supportStatusToStack": {}
-                                }
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
                             }
                         ],
                         "startDisabled": false,
                         "useCharacterEffectTrigger": true,
-                        "effectTrigger": "TargetHit",
+                        "effectTrigger": "Always",
                         "characterEffectTrigger": "Always",
                         "ruleSet": {
                             "type": "SkillEffectRuleSet",
