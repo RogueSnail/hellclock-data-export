@@ -4536,7 +4536,8 @@
                             "langCode": "zh-cn",
                             "langTranslation": "冷却时间：<style=\"GreenText\">{0}</style>"
                         }
-                    ]
+                    ],
+                    "behaviorAffixDefinition": ""
                 }
             ],
             "Position": [
@@ -4756,7 +4757,8 @@
                             "langCode": "zh-cn",
                             "langTranslation": ""
                         }
-                    ]
+                    ],
+                    "behaviorAffixDefinition": ""
                 }
             ],
             "Position": [

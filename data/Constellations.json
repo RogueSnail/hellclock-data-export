@@ -1249,7 +1249,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "击杀一名敌人有 40% 几率获得一枚敏捷之球。对精锐敌人造成伤害有 8% 的几率获得一枚敏捷之球。\n你最多可同时拥有 3 枚敏捷之球。每枚敏捷之球可使你的移动速度与攻击速度提高 {0}。\n受到伤害时会失去一枚敏捷之球。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -1898,7 +1899,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每消耗 {0} 法力值可获得 1 枚战力之球 (最多 3 枚)。每枚激活的战力之球可使你的法力再生速度提高 {3}。若你在 {1} 秒内未消耗至少 {0} 法力值，你会失去 1 枚战力之球。战力之球会环绕在你周围，对触碰它们的敌人造成 {2} 闪电伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             },
                             {
                                 "name": "7735041e-b909-4b0c-b4ee-5f39419ce5f8",
@@ -2479,7 +2481,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "战力之球会造成额外闪电伤害，相当于当前法力值的 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             },
                             {
                                 "name": "9807ff6f-cfb8-4b0f-8461-6ed2c1fbcec3",
@@ -2966,7 +2969,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "受到伤害可获得 1 层魄力 (最多叠加 5 层)。每层魄力可使受到的伤害降低 3%。若 {1} 秒内未再受到伤害，则失去 1 层魄力。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -3489,7 +3493,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "法力值耗尽时会消耗全部魄力层数，并获得增益，使攻击与技能施展速度 +30%[x]，且所有技能不再消耗法力。每消耗 1 层魄力，此增益持续 {0} 秒"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -3880,7 +3885,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得敏捷之球的几率 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "599873d3-029a-4001-aab5-9099a19b67f8"
                             },
                             {
                                 "name": "002718ca-d40e-4427-8955-03fcc3e5b9a1",
@@ -3925,7 +3931,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": ""
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "599873d3-029a-4001-aab5-9099a19b67f8"
                             }
                         ],
                         "Position": [
@@ -4147,7 +4154,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得敏捷之球的几率 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "599873d3-029a-4001-aab5-9099a19b67f8"
                             },
                             {
                                 "name": "7914f8a6-17e2-42e7-b929-3ee432026331",
@@ -4192,7 +4200,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": ""
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "599873d3-029a-4001-aab5-9099a19b67f8"
                             }
                         ],
                         "Position": [
@@ -4430,7 +4439,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "神射手技能暴击几率 {0}"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -4606,7 +4616,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "神射手技能暴击伤害 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -4783,7 +4794,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "神射手技能施展速度 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -4960,7 +4972,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "神射手技能施展速度 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -5180,7 +5193,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每枚敏捷之球可造成 {0} 伤害，且神射手技能的法力消耗 +{1}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -5356,7 +5370,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "神射手技能的基础伤害 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -5559,7 +5574,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "神射手技能对远距离敌人造成 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -5779,7 +5795,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "神射手技能造成 {0} 伤害"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -6580,7 +6597,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "靠近的每个敌人都会使你获得 {0} 伤害减免，最多 {1}"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -7073,7 +7091,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "击败点燃的敌人将获得 1 层曙光 (最多叠加 {1} 层)。\n\n每层曙光将使你获得 {0} 火焰伤害"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -7452,7 +7471,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "施放套索会消耗所有曙光层。每名敌人将受到火焰伤害，相当于 {0} 基础伤害再乘以曙光层数。该伤害随套索的技能等级而提升。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -8630,7 +8650,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "枯疫敌人的物理攻击有 {0} 未命中几率。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -9456,7 +9477,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "拾取金币后，造成 {0} 伤害，持续 {1} 秒。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -9807,7 +9829,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每获得 1 枚敏捷之球，暴击伤害提升 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -9998,7 +10021,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "移动 {0} 米后，你的下次攻击必定暴击。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -10465,7 +10489,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每获得 1 枚战力之球，投射物伤害提升 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -10646,7 +10671,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每获得 1 枚敏捷之球，法术伤害提升 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -10895,7 +10921,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得敏捷之球或战力之球时，所有技能的冷却时间减少 {0} 或 {1} 秒（取较小值）。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -11064,7 +11091,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "魄力层伤害减免提升 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "VigorStacksGiver"
                             }
                         ],
                         "Position": [
@@ -11173,7 +11201,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "魄力层持续时间延长 {0} 秒。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "VigorStacksGiver"
                             }
                         ],
                         "Position": [
@@ -11282,7 +11311,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "魄力层伤害减免提升 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "VigorStacksGiver"
                             }
                         ],
                         "Position": [
@@ -11545,7 +11575,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "魄力层数上限 +1。\n每次近战攻击后，魄力层的伤害减免效果提升 {0}，持续 {1} 秒。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -13134,7 +13165,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每点未封顶的物理抗性获得 {0} 生命值。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -13498,7 +13530,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "静止时造成 {0} 投射物伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -13791,7 +13824,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "静止时承受 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -13985,7 +14019,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "附近没有敌人时，造成 {0} 投射物伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -14259,7 +14294,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "静止 1 秒消耗 1 个敏捷之球，获得 1 层命运 (最多叠加 5 层)。\n每层命运可提升 {0} 攻击速度。\n移动时失去所有层数，每失去一层返还 1 个敏捷之球。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -14437,7 +14473,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "战力之球持续时间延长 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Power Orb Node Affix"
                             }
                         ],
                         "Position": [
@@ -14554,7 +14591,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得和维持战力之球所需的法力值减少 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Power Orb Node Affix"
                             }
                         ],
                         "Position": [
@@ -14758,7 +14796,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每个战力之球每秒额外再生 {0} 法力值。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Power Orb Node Affix"
                             }
                         ],
                         "Position": [
@@ -14867,7 +14906,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得和维持战力之球所需的法力值减少 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Power Orb Node Affix"
                             }
                         ],
                         "Position": [
@@ -15453,7 +15493,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "点燃敌人造成的伤害降低 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -16277,7 +16318,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "自然清算的爆炸半径增加 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Curupira Reckoning Node Affix"
                             }
                         ],
                         "Position": [
@@ -16510,7 +16552,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "衰竭敌人死亡时会爆炸，对周围造成相当于其最大生命值 {0} 的瘟疫伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -17085,7 +17128,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "所有召唤技能的最大召唤物数量 +{0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -18127,7 +18171,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             },
                             {
                                 "name": "fd34668b-d31d-4dc3-ba46-636c9f58d936",
@@ -18897,7 +18942,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "造成任意类型的元素伤害时，会使目标对其余两种元素类型的抗性降低20%，持续{0}秒。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -19605,7 +19651,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "信念值归零时，立即获得 {0} 信念值。该效果每 {1} 秒触发一次。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -20883,7 +20930,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "流血几率翻倍。\n流血伤害减半。\n敌人每承受一层流血，将受到 {0} 流血伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -22157,7 +22205,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": ""
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             },
                             {
                                 "name": "c46da9d9-5440-49bd-8502-d56bdb6f5eb2",
@@ -23143,7 +23192,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "由近战伤害施加的眩晕，其持续时间延长 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -23347,7 +23397,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "任何消耗你生命值的效果会使你获得 1 层信使（最多叠加 10 层），持续 {1} 秒。\n每层信使可获得 {0} 点火焰伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -24237,7 +24288,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "造成近战伤害时，有 {0} 几率获得 1 层风，持续 {1} 秒。\n每层风使近战攻击速度提升 {2}，闪避提升 {3} (最多叠加 10 层)。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -24489,7 +24541,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "过去 {2} 秒内成功闪避攻击，可造成 {0} 近战伤害并获得 {1} 闪避。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -25098,7 +25151,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "使用闪电伤害命中敌人会使其闪电抗性降低 {0}，持续 {1} 秒 (最多叠加 10 层)。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -25541,7 +25595,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "被套索命中的敌人可额外获得 {0} 层点亮黑暗，持续 {1} 秒。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -26446,7 +26501,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "当前法力值高于 {0} 时，战力之球数量上限 +1。\n当前法力值高于 {1} 时，战力之球数量上限再 +1。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -26858,7 +26914,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每拥有 1 枚激活的战力之球，获得 {0} 法力护盾。\n获得战力之球需消耗 {1} 法力值。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             },
                             {
                                 "name": "09c46185-05e3-4154-bf41-f431d62fbd36",
@@ -26903,7 +26960,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": ""
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Power Orb Node Affix"
                             }
                         ],
                         "Position": [
@@ -27510,7 +27568,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "若你当前拥有不少于 {0} 个召唤物，则战力之球数量上限 +1。\n获得战力之球所需法力增加 {1}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             },
                             {
                                 "name": "1efbfd5a-2706-44c9-8eb9-541b7ba1dbc0",
@@ -27555,7 +27614,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": ""
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Power Orb Node Affix"
                             }
                         ],
                         "Position": [
@@ -29624,7 +29684,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "施展时间凝滞会消耗所有战力之球。\n每消耗 1 个战力之球，时间凝滞将根据技能等级，每秒造成相当于基础伤害 {0} 的闪电法术伤害。\n若敌人正承受异常状态，则每种不同的异常状态将使其受到 {1} 额外时间凝滞伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -30311,7 +30372,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "受到任意类型的元素伤害后，你在下次受到攻击时可获得 {0} 物理抗性。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -31412,7 +31474,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "如果你激活了至少 1 个战力之球：当本应失去敏捷之球时，改为失去 1 个战力之球，并获得相当于你最大信念值的 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -31862,7 +31925,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "魄力层伤害减免提升 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "VigorStacksGiver"
                             }
                         ],
                         "Position": [
@@ -32044,7 +32108,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得敏捷之球时也会获得一层魄力。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -32774,7 +32839,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "施加衰竭时获得 {0} 衰竭积累，持续 {1} 秒 (最多叠加 5 层)。\n施加眩晕时获得 {0} 眩晕积累，持续 {1} 秒 (最多叠加 5 层)。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -33312,7 +33378,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "被战力之球击中的敌人元素抗性降低{0}，持续{1}秒。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -33900,7 +33967,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "移动时承受 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -34084,7 +34152,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "移动时承受 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -34363,7 +34432,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "移动 {0} 米后，获得 {1} 闪避、{2} 耐力、{3} 反魔法属性与 {4} 全抗性。\n该增益在你受到攻击前持续有效。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -34992,7 +35062,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "击败稀有怪物后，在 {0} 秒内吸取地面所有战利品，无距离限制。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -35160,7 +35231,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "效果范围技能造成 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -36047,7 +36119,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得相当于你法力缺失比例 {0} 的额外法力再生。\n获得相当于你生命缺失比例 {1} 的额外生命再生。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -36626,7 +36699,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "当生命值过低时，造成 {0} 法术伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -37471,7 +37545,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每激活 1 个敏捷之球获得 {0} 反魔法属性。\n每激活 1 个战力之球，获得 {1} 法力护盾。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -38303,7 +38378,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "物理攻击造成暴击时获得 1 层裂片。每层裂片使物理伤害提升 {0} (最多叠加 10 层)。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -38709,7 +38785,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "施展暗影冲刺时会消耗所有裂片层数。\n每消耗 1 层裂片，会向周围发射一枚追踪投射物，造成相当于暗影冲刺 {0} 的物理伤害，并具有 {1} 流血几率。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -38987,7 +39064,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "首次命中敌人时，将移除其当前生命值的一部分，数值介于其最大生命值的 {0} 到 {1} 之间。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -39293,7 +39371,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "对满血敌人造成 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -39504,7 +39583,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "对精锐敌人和首领敌人造成 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -39679,7 +39759,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "对满血敌人造成 {0} 伤害。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -40167,7 +40248,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "技能不再有冷却时间。\n每移除 1 秒冷却时间，该技能的法力消耗将增加 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -40618,7 +40700,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "受到伤害会按照 {0} 的效果视为消耗法力，用于维持战力之球。\n来自伤害的积累独立于法力消耗。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -41002,7 +41085,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "造成近战伤害后，接受的治疗量提高 {0}，持续 {1} 秒。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -41254,7 +41338,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -43442,7 +43527,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "击杀时所有技能的效果范围扩大 {0}，持续 {1} 秒 (最多叠加 10 层)。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -43905,7 +43991,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -44082,7 +44169,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -44259,7 +44347,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "All projectiles gain {0} Pierce"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -44745,7 +44834,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "每层活力获得 {0} 点最大法力值。\n每个能量球获得 {1} 点最大生命值。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [

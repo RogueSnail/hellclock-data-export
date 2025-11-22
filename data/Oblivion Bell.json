@@ -3087,7 +3087,8 @@
                             "langCode": "zh-cn",
                             "langTranslation": "解锁绝处逢生，被动技能，在你死亡时有 {0} 的几率保护你（冷却时间：300秒）"
                         }
-                    ]
+                    ],
+                    "behaviorAffixDefinition": ""
                 }
             ],
             "Position": [
@@ -11435,7 +11436,8 @@
                             "langCode": "zh-cn",
                             "langTranslation": "冷却时间：<style=\"GreenText\">{0}</style>"
                         }
-                    ]
+                    ],
+                    "behaviorAffixDefinition": ""
                 }
             ],
             "Position": [
