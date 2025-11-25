@@ -136,7 +136,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "LargeRelic_Tier1_Feather",
@@ -299,7 +300,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "GrandRelic_Tier1_Necklace",
@@ -494,7 +496,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "ExaltedRelic_Tier1_Book",
@@ -689,7 +692,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "Double Knives - Tempest - Unique Grand Relic",
@@ -972,7 +976,8 @@
             "devotionAffinity": [
                 "Red",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Shadow Dash - Wheel of Death - Unique Exalted Relic",
@@ -1254,7 +1259,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "ExaltedRelic_Tier2",
@@ -1449,7 +1455,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "GrandRelic_Tier2",
@@ -1644,7 +1651,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "LargeRelic_Tier2",
@@ -1807,7 +1815,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "SmallRelic_Tier2",
@@ -1945,7 +1954,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "ExaltedRelic_Tier3",
@@ -2140,7 +2150,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "GrandRelic_Tier3",
@@ -2335,7 +2346,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "LargeRelic_Tier3",
@@ -2498,7 +2510,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "SmallRelic_Tier3",
@@ -2636,7 +2649,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "Split Shot - Blunderbuss - Unique Grand Relic",
@@ -2918,7 +2932,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Repeater - Molten Relic - Unique Grand Relic",
@@ -3200,7 +3215,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Reflexes - Battered Sheath - Unique Large Relic",
@@ -3451,7 +3467,8 @@
             "devotionAffinity": [
                 "Green",
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Shadow Dash - Skull of the Beast - Unique Exalted Relic",
@@ -3733,7 +3750,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Repeater - Last Prayer - Unique Grand Relic",
@@ -4015,7 +4033,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Split Shot - Spearhead - Unique Exalted Relic",
@@ -4297,7 +4316,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Reflexes - Delicate Rosary - Unique Large Relic",
@@ -4549,7 +4569,8 @@
                 "Red",
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Double Knives - Bloody Thorn - Unique Small Relic",
@@ -4774,7 +4795,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "The Old Bell - The Sacrificed - Unique Grand Relic",
@@ -5056,7 +5078,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Double Knives - Banner of Faith - Unique Grand Relic",
@@ -5338,7 +5361,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Bullet Skills - Powder Bag - Unique Small Relic",
@@ -5563,7 +5587,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Repeater - Arapuca - Unique Small Relic",
@@ -5788,7 +5813,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "The Old Bell - Unshakable Faith - Unique Exalted Relic",
@@ -6070,7 +6096,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Slow Time - Poem Never Recited - Unique Exalted Relic",
@@ -6353,7 +6380,8 @@
             "devotionAffinity": [
                 "Red",
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Slow Time - Death Notary - Unique Exalted Relic",
@@ -6637,7 +6665,8 @@
                 "Green",
                 "Red",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Shadow Dash - OG_Skull of the Vulture - Unique Small Relic_OG",
@@ -6862,7 +6891,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Reflexes - Blue Calcite - Unique Grand Relic",
@@ -7145,7 +7175,8 @@
             "devotionAffinity": [
                 "Blue",
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Reflexes - Caatinga Hunter - Unique Large Relic",
@@ -7396,7 +7427,8 @@
             "devotionAffinity": [
                 "Red",
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Shadow Dash - Skull of Wisdom - Unique Exalted Relic",
@@ -7678,7 +7710,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Closed Body - Martyr - Unique Exalted Relic",
@@ -7960,7 +7993,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Projectile Skills - Silver Bullets - Unique Exalted Relic",
@@ -8243,7 +8277,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Potion - Holy Water - Unique Large Relic",
@@ -8493,7 +8528,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Slow Time - Mother of Perpetual Help - Unique Grand Relic",
@@ -8775,7 +8811,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "SmallRelic_Tier1_Cross",
@@ -8913,7 +8950,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "LargeRelic_Tier1_Bull",
@@ -9076,7 +9114,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "GrandRelic_Tier1_WoodenImage",
@@ -9271,7 +9310,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "ExaltedRelic_Tier1_Poster",
@@ -9466,7 +9506,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "Double Knives - Scouts Medal - Unique Small Relic",
@@ -9691,7 +9732,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Holy Rosary - Crown of Thorns - Unique Exalted Relic",
@@ -9974,7 +10016,8 @@
             "devotionAffinity": [
                 "Blue",
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Reflexes - Mandacaru - Unique Exalted Relic",
@@ -10256,7 +10299,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Judgement - Memorial Candle - Unique Large Relic",
@@ -10506,7 +10550,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Bombardment - Colonels Insignia - Unique Small Relic",
@@ -10731,7 +10776,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "The Old Bell - Toll of the Dead - Unique Grand Relic",
@@ -11013,7 +11059,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon The Guard - Call of the Guard - Unique Large Relic",
@@ -11263,7 +11310,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Lasso - Northerner Belt - Unique Exalted Relic",
@@ -11545,7 +11593,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Veil of Quills - Mark of the Vulture - Unique Exalted Relic",
@@ -11828,7 +11877,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Spell Skills - Bloodied Doll - Unique Large Relic",
@@ -12078,7 +12128,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Judgement - Book of Sin - Unique Exalted Relic",
@@ -12360,7 +12411,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Spell Skills - Written Promise - Unique Exalted Relic",
@@ -12626,7 +12678,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Holy Rosary - Bead Necklace - Unique Large Relic",
@@ -12877,7 +12930,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Holy Rosary - Golden Chaplet - Unique Exalted Relic",
@@ -13159,7 +13213,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Holy Rosary - Workers Tools - Unique Grand Relic",
@@ -13441,7 +13496,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Veil of Quills - Feathered Dagger - Unique Grand Relic",
@@ -13724,7 +13780,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Lasso - Barbed Wire - Unique Grand Relic",
@@ -14006,7 +14063,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Spells - Looking Glass - Unique Exalted Relic",
@@ -14288,7 +14346,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon the Guard - Stolen Weapons - Unique Grand Relic",
@@ -14571,7 +14630,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Lasso - Bundle of Rope - Unique Large Relic",
@@ -14821,7 +14881,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Bombardment - Ashes of Mourning - Unique Exalted Relic",
@@ -15104,7 +15165,8 @@
             "devotionAffinity": [
                 "Blue",
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Skills - Spiked Chains - Unique Large Relic",
@@ -15354,7 +15416,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Shadow Dash - Death Worship - Unique Grand Relic",
@@ -15636,7 +15699,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Matadeira - Cafezinho - Unique Large Relic",
@@ -15886,7 +15950,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Matadeira - Cannonball - Unique Exalted Relic",
@@ -16168,7 +16233,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Feitors Lash - Ancestral Memory - Unique Grand Relic",
@@ -16450,7 +16516,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Feitors Lash - Settle the Score - Unique Grand Relic",
@@ -16732,7 +16799,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Feitors Lash - Burning Shackles - Unique Large Relic",
@@ -16982,7 +17050,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Prayer of Health - Righteous Blade - Unique Grand Relic",
@@ -17264,7 +17333,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Prayer of Health - Saviours Shield - Unique Small Relic",
@@ -17489,7 +17559,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Prayer of Health - Heads or Tails - Unique Small Relic",
@@ -17714,7 +17785,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Passage - Energy Box - Unique Large Relic",
@@ -17964,7 +18036,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Passage - Ticket - Unique Small Relic",
@@ -18205,7 +18278,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Passage - Peace and Quiet - Unique Exalted Relic",
@@ -18487,7 +18561,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon Marksmen - Future Weapon - Unique Grand Relic",
@@ -18770,7 +18845,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Prayer of Vengeance - Garrison Supplies - Unique Exalted Relic",
@@ -19052,7 +19128,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon Marksmen - Summoning of Earth - Unique Grand Relic",
@@ -19335,7 +19412,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon Marksmen - Summoning of Air - Unique Grand Relic",
@@ -19617,7 +19695,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Prayer of Vengeance - Final Reckoning - Unique Small Relic",
@@ -19840,7 +19919,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": true
         },
         {
             "name": "Summon Brute - Blood Money - Unique Large Relic",
@@ -20091,7 +20171,8 @@
             "devotionAffinity": [
                 "Red",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon Brute - Breath Mask - Unique Large Relic",
@@ -20341,7 +20422,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon Brute - Disorientation - Unique Exalted Relic",
@@ -20624,7 +20706,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Skills - Bundle of Syringes - Unique Large Relic",
@@ -20874,7 +20957,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon Brute - Voice of War - Unique Exalted Relic",
@@ -21156,7 +21240,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "ExaltedRelic_Tier4",
@@ -21351,7 +21436,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": false
         },
         {
             "name": "GrandRelic_Tier4",
@@ -21546,7 +21632,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": false
         },
         {
             "name": "LargeRelic_Tier4",
@@ -21709,7 +21796,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": false
         },
         {
             "name": "SmallRelic_Tier4",
@@ -21847,7 +21935,8 @@
                     }
                 }
             ],
-            "devotionAffinity": []
+            "devotionAffinity": [],
+            "canDrop": false
         },
         {
             "name": "Split Shot - Labaredas - Unique Grand Relic",
@@ -22130,7 +22219,8 @@
             "devotionAffinity": [
                 "Green",
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Skills - Tiriris Law - Unique Exalted  Relic",
@@ -22412,7 +22502,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Shadow Dash - Skull of the Vulture - Unique Large Relic_NEW",
@@ -22662,7 +22753,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Spell Skills - Headless Doll - Unique Large Relic",
@@ -22912,7 +23004,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Shadow Dash - Skull of the Forgotten - Unique Large Relic",
@@ -23162,7 +23255,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Summon Marksmen - Summoning of Death - Unique Grand Relic",
@@ -23444,7 +23538,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Bloodied Chains - Unique Large Relic",
@@ -23694,7 +23789,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Projectile Skills - Blessed  Bullets - Unique Exalted Relic",
@@ -23976,7 +24072,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Judgement - Book of Judgment - Unique Exalted Relic",
@@ -24259,7 +24356,8 @@
             "devotionAffinity": [
                 "Red",
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Dry Leaf - Unique Large Relic",
@@ -24510,7 +24608,8 @@
             "devotionAffinity": [
                 "Red",
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Veil of Quills - Energized Figurine - Unique Grand Relic",
@@ -24792,7 +24891,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Belt of the Cowboy - Unique Exalted Relic",
@@ -25075,7 +25175,8 @@
             "devotionAffinity": [
                 "Blue",
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Courage of Ogum - Unique Grand Relic",
@@ -25357,7 +25458,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Strength of Ogum - Unique Grand Relic",
@@ -25639,7 +25741,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Primal Dagger - Unique Grand Relic",
@@ -25922,7 +26025,8 @@
             "devotionAffinity": [
                 "Red",
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Closed Body - Son of the Draught - Unique Exalted Relic",
@@ -26204,7 +26308,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Light of Tupa - Unique Grand Relic",
@@ -26486,7 +26591,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Sound of Tupa - Unique Grand Relic",
@@ -26768,7 +26874,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Passage - Bloodied Tools - Unique Grand Relic",
@@ -27050,7 +27157,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Mother's Blessing - Unique Grand Relic",
@@ -27332,7 +27440,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Justice of Expedito - Unique Grand Relic",
@@ -27614,7 +27723,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Urgency of Expedito - Unique Grand Relic",
@@ -27896,7 +28006,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Careful Hunter - Unique Small Relic",
@@ -28121,7 +28232,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Reflexes - Blood Stone - Unique Large Relic",
@@ -28371,7 +28483,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Matadeira - Tenkieis Skyhammer - Unique Grand Relic",
@@ -28653,7 +28766,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Skills - Murks Blood Veil - Unique Exalted Relic",
@@ -28936,7 +29050,8 @@
             "devotionAffinity": [
                 "Red",
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Skills - Monddocs Earth Orb - Unique Exalted Relic",
@@ -29219,7 +29334,8 @@
             "devotionAffinity": [
                 "Green",
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "Summon Brute - Breath of Death - Unique Large Relic",
@@ -29469,7 +29585,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Double Knives - Red Candle - Unique Large Relic",
@@ -29719,7 +29836,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - In Flames - Unique Grand Relic",
@@ -30001,7 +30119,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Veil of Quills - Green Leaf - Unique Large Relic",
@@ -30252,7 +30371,8 @@
             "devotionAffinity": [
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Repeater - Unwieldy Weapon - Unique Grand Relic",
@@ -30534,7 +30654,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Reflexes - Grim Rosary - Unique Large Relic",
@@ -30786,7 +30907,8 @@
                 "Red",
                 "Green",
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Crimson Necklace - Unique Large Relic",
@@ -31036,7 +31158,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Reflexes - Wall of Thorns - Unique Exalted Relic",
@@ -31318,7 +31441,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Reflexes - Blood Boil - Unique Exalted Relic",
@@ -31600,7 +31724,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Moldy Skull - Unique Exalted Relic",
@@ -31882,7 +32007,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Repeater - Broken Mirror - Unique Exalted Relic",
@@ -32164,7 +32290,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Old Bell - Death Bell - Unique Exalted Relic",
@@ -32446,7 +32573,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Calcite Necklace - Unique Large Relic",
@@ -32696,7 +32824,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Wall of Fire - Unique Exalted Relic",
@@ -32978,7 +33107,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "Bombardment - Kaleidoscope - Unique Exalted Relic",
@@ -33260,7 +33390,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": false
         },
         {
             "name": "All Skills - Monddocs Air Orb - Unique Exalted Relic",
@@ -33542,7 +33673,8 @@
             ],
             "devotionAffinity": [
                 "Blue"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Skills - Monddocs Fire Orb - Unique Exalted Relic",
@@ -33824,7 +33956,8 @@
             ],
             "devotionAffinity": [
                 "Red"
-            ]
+            ],
+            "canDrop": true
         },
         {
             "name": "All Skills - Monddocs Water Orb - Unique Exalted Relic",
@@ -34106,7 +34239,8 @@
             ],
             "devotionAffinity": [
                 "Green"
-            ]
+            ],
+            "canDrop": true
         }
     ]
 }

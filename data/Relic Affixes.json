@@ -4042,7 +4042,7 @@
                         {
                             "type": "SkillEffectVariable",
                             "name": "Cooldown Multiplier",
-                            "baseValue": 0.1,
+                            "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "UseLowest",
                             "eSkillEffectVariableFormat": "Percentage"
                         }
@@ -23384,7 +23384,7 @@
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Roll",
-                                    "eSkillEffectVariableModifier": "MultiplyByMissingLife",
+                                    "eSkillEffectVariableModifier": "MultiplyByMaximumLife",
                                     "statusToStack": {},
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
@@ -23436,32 +23436,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        5.0,
-                        7.0
+                        0.5,
+                        0.7
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        7.0,
-                        10.0
+                        0.7,
+                        1.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        10.0,
-                        12.5
+                        1.0,
+                        1.25
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        12.5,
-                        15.0
+                        1.25,
+                        1.5
                     ]
                 }
             ],
@@ -49539,33 +49539,6 @@
                 },
                 "effects": [
                     {
-                        "name": "Equip Skill Effect Data",
-                        "type": "EquipSkillEffectData",
-                        "specificSkillDefinition": {},
-                        "startDisabled": false,
-                        "useCharacterEffectTrigger": true,
-                        "effectTrigger": "Always",
-                        "characterEffectTrigger": "Always",
-                        "ruleSet": {
-                            "type": "SkillEffectRuleSet",
-                            "rules": []
-                        },
-                        "revertOnRuleFail": false,
-                        "revertOnRemoval": false,
-                        "triggerTargetValue": {
-                            "type": "SkillEffectVariableReference",
-                            "valueOrName": "",
-                            "eSkillEffectVariableModifier": "0",
-                            "statusToStack": {},
-                            "supportVariableValueOrName": "",
-                            "supportESkillEffectVariableModifier": "0",
-                            "supportStatusToStack": {}
-                        },
-                        "triggerTargetEnumValue": 0,
-                        "triggerTargetStringValue": "",
-                        "subEffects": []
-                    },
-                    {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
                         "specificSkillDefinition": {},
@@ -49643,7 +49616,35 @@
                         },
                         "triggerTargetEnumValue": 0,
                         "triggerTargetStringValue": "",
-                        "subEffects": []
+                        "subEffects": [
+                            {
+                                "name": "Equip Skill Effect Data",
+                                "type": "EquipSkillEffectData",
+                                "specificSkillDefinition": {},
+                                "startDisabled": false,
+                                "useCharacterEffectTrigger": false,
+                                "effectTrigger": "TargetHit",
+                                "characterEffectTrigger": "Kill",
+                                "ruleSet": {
+                                    "type": "SkillEffectRuleSet",
+                                    "rules": []
+                                },
+                                "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
+                                "triggerTargetValue": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "triggerTargetEnumValue": 0,
+                                "triggerTargetStringValue": "",
+                                "subEffects": []
+                            }
+                        ]
                     }
                 ]
             },

@@ -6603,6 +6603,106 @@
             ]
         },
         {
+            "name": "Blunderbuss Powder Bag - Explode Ignite - Damage Blessing",
+            "id": 109,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {
+                "name": "All Bullet Skills - Powder Bag - Physical Explode Ignited Affix",
+                "id": 89,
+                "type": "SkillBehaviorAffixDefinition"
+            },
+            "rollVariableName": "Modifier",
+            "eModifierType": "MultiplicativeAdditive",
+            "basePrice": 300.0,
+            "supportedRarities": "Magic, Rare",
+            "magicRollRange": [
+                1.1,
+                1.1
+            ],
+            "rareRollRange": [
+                1.2,
+                1.2
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Mächtige Detonation"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Powerful Detonation"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Detonación Poderosa"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Détonation puissante"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "強力爆破"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Potężna detonacja"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Detonação Potente"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Мощный взрыв"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "强力引爆"
+                }
+            ],
+            "icon": "Icon_ProjectileSkills",
+            "effectTypeIcon": "Icon_Damage_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Explosionsschaden entzündeter Gegner: <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Ignited Enemy Explosion Damage <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Daño por explosión de enemigo ardiente <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Augmente les dégâts d'explosion des ennemis embrasés de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "炎上状態の敵の爆発率<style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Obrażenia od eksplozji podpalonych wrogów <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Dano de explosão em inimigo em Ignição <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "<style=\"GreenText\">{0}</style> к урону от взрыва горящего врага"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "点燃状态下的敌人爆炸时造成的伤害：<style=\"GreenText\">{0}</style>"
+                }
+            ]
+        },
+        {
             "name": "Unshakable Faith - Mana to Damage - Damage Blessing",
             "id": 110,
             "type": "SkillBlessingDefinition",
@@ -15105,6 +15205,166 @@
             ]
         },
         {
+            "name": "Precision 3 - Projectile Skill Damage - Skill Blessing",
+            "id": 165,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "MultiplicativeAdditive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Projectile",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Skill Value Modifier Skill Effect Data",
+                        "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
+                        "modifiers": [
+                            {
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Damage Modifier",
+                                "modifierType": "MultiplicativeAdditive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ],
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "Always",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Rare",
+            "rareRollRange": [
+                1.5,
+                1.5
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Präzision III"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Precision III"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Precisión III"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de précision III"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "正確性の祝福III"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Precyzji III"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Precisão III"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение точности III"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "精准之恩泽 III"
+                }
+            ],
+            "icon": "Icon_CriticalDamage",
+            "effectTypeIcon": "Icon_CriticalDamage",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Erhöht den Schaden aller Geschossfertigkeiten um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Increases all Projectile skill damage by <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Aumenta el daño de todas las habilidades de proyectil en <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Augmente tous les dégâts des compétences à projectile de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "あらゆる投射物スキルのダメージが<style=\"GreenText\">{0}</style>増加する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zwiększa obrażenia wszystkich umiejętności pociskowych o <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aumenta todo dano de habilidade de Projétil em <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Увеличивает урон всех навыков со снарядами на <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "所有投射物技能伤害提高 <style=\"GreenText\">{0}</style>"
+                }
+            ]
+        },
+        {
             "name": "Precision 4 - Critical Damage - Stat Blessing",
             "id": 166,
             "type": "StatModifierBlessingDefinition",
@@ -15198,6 +15458,214 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": ""
+                }
+            ]
+        },
+        {
+            "name": "Precision 4 - Critical Hits Increase Crit Chance - Skill Blessing",
+            "id": 167,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "MultiplicativeAdditive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 3.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "Self",
+                        "statusDefinition": {
+                            "name": "Precision Blessing - Increase Crit Chance - Status Definition",
+                            "id": 84,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "DamageIsCritical",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                1.045,
+                1.045
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Präzision IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Precision IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Precisión IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de précision IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "正確性の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Precyzji IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Precisão IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение точности IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "精准之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_CriticalDamage",
+            "effectTypeIcon": "Icon_CriticalDamage",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Kritische Treffer erhöhen die Krit.-Treffer-Chance 3 Sek. lang um <style=\"GreenText\">{0}</style>. Bis zu 10-mal stapelbar."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Critical Hits increase Critical Hit Chance by <style=\"GreenText\">{0}</style> for 3s. Stacks up to 10 times."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Los golpes críticos aumentan la probabilidad de golpe crítico en <style=\"GreenText\">{0}</style> durante 3 s. Se acumula hasta 10 veces."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Les coups critiques augmentent les chances de critique de <style=\"GreenText\">{0}</style> pendant 3 s. Cumulable 10 fois."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "クリティカルヒットが発生すると、3秒間、クリティカルヒット率が<style=\"GreenText\">{0}</style>上昇する。効果は10回分まで累積する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Trafienia krytyczne zwiększają szansę na kolejne trafienia krytyczne o <style=\"GreenText\">{0}</style> na 3 s (maks. 10 ładunków)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Acertos Críticos aumentam a Chance de Acerto Crítico em <style=\"GreenText\">{0}</style> por 3s. Acumula até 10 vezes."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Крит. попадания увеличивают шанс крит. попадания на <style=\"GreenText\">{0}</style> на 3 сек. Складывается до 10 раз."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "暴击可使暴击几率提高 <style=\"GreenText\">{0}</style>，持续 3 秒，最多可叠加 10 层。"
                 }
             ]
         },
@@ -15887,6 +16355,166 @@
             ]
         },
         {
+            "name": "Lethality 3 - Melee AoE - Skill Blessing",
+            "id": 175,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "MultiplicativeAdditive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Melee",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Skill Value Modifier Skill Effect Data",
+                        "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
+                        "modifiers": [
+                            {
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Radius Modifier",
+                                "modifierType": "MultiplicativeAdditive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ],
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "Always",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Rare",
+            "rareRollRange": [
+                1.3,
+                1.3
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Tödlichkeit III"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Lethality III"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Letalidad III"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de violence III"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "殺傷力の祝福III"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Śmiertelności III"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Letalidade III"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение смертоносности III"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "杀伤力之恩泽 III"
+                }
+            ],
+            "icon": "Icon_PhysicalDamage_Base",
+            "effectTypeIcon": "Icon_PhysicalDamage_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Erhöht den Wirkungsbereich aller Nahkampffertigkeiten um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Increases all Melee Skills AoE by <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Aumenta el área de efecto de todas las habilidades de combate cuerpo a cuerpo en <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Augmente la zone d'effet de toutes les compétences de mêlée de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "あらゆる近接スキルの効果範囲が<style=\"GreenText\">{0}</style>増加する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zwiększa zasięg działania wszystkich umiejętności wręcz o <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aumenta a área de todas as Habilidades Corpo-a-corpo em <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Увеличивает область действия всех навыков ближнего боя на <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "所有近战技能的效果范围扩大 <style=\"GreenText\">{0}</style>。"
+                }
+            ]
+        },
+        {
             "name": "Lethality 4 - Melee Damage - Stat Blessing",
             "id": 176,
             "type": "StatModifierBlessingDefinition",
@@ -16077,6 +16705,214 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": ""
+                }
+            ]
+        },
+        {
+            "name": "Lethality 4 - Hits Reduce Phys Res - Skill Blessing",
+            "id": 178,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Multiply",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 3.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Lethality Blessing - Phys Res Reduction - Status Definition",
+                            "id": 85,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.2,
+                0.2
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Tödlichkeit IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Lethality IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Letalidad IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de violence IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "殺傷力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Śmiertelności IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Letalidade IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение смертоносности IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "杀伤力之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_PhysicalDamage_Base",
+            "effectTypeIcon": "Icon_PhysicalDamage_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Treffer verringern die physische Resistenz um {0}."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Hits reduce Physical Resistance by {0}."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Los golpes reducen la resistencia física en {0}."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Les coups réduisent la résistance physique de {0}"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ヒットにより物理抵抗が{0}減少する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Trafienia zmniejszają odporność fizyczną o {0}."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Acertos reduzem a Resistência Física em <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Попадания уменьшают сопротивление физ. урону на {0}."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "命中时降低敌人 {0} 物理抗性。"
                 }
             ]
         },
@@ -17366,6 +18202,166 @@
             ]
         },
         {
+            "name": "Force 2 - AoE Skills Damage - Skill Blessing",
+            "id": 192,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "MultiplicativeAdditive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "AreaOfEffect",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Skill Value Modifier Skill Effect Data",
+                        "type": "AddSkillValueModifierSkillEffectData",
+                        "specificSkillDefinition": {},
+                        "modifiers": [
+                            {
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Damage Modifier",
+                                "modifierType": "MultiplicativeAdditive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ],
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "Always",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Magic",
+            "magicRollRange": [
+                1.25,
+                1.25
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Stärke II"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Force II"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Fuerza II"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'essence II"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "剛力の祝福II"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Mocy II"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Força II"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение силы II"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "力量之恩泽 II"
+                }
+            ],
+            "icon": "Icon_BlessedGear_Base",
+            "effectTypeIcon": "Icon_BlessedGear_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Erhöht den Schaden von Fertigkeiten mit Wirkungsbereich um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Increases damage of Area of Effect skills by <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Aumenta el daño de las habilidades de área de efecto en <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Augmente les dégâts des compétences à zone d'effet de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "範囲攻撃スキルのダメージが<style=\"GreenText\">{0}</style>増加する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zwiększa obrażenia umiejętności obszarowych o <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aumenta o dano de habilidades de Área de Efeito em <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Увеличивает урон навыков, действующих по области, на <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "效果范围技能造成的伤害提高 <style=\"GreenText\">{0}</style>。"
+                }
+            ]
+        },
+        {
             "name": "Force 3 - Elemental Damage - Stat Blessing",
             "id": 193,
             "type": "StatModifierBlessingDefinition",
@@ -17768,6 +18764,1048 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": ""
+                }
+            ]
+        },
+        {
+            "name": "Force 4 - Hits Reduce Fire Res - Skill Blessing",
+            "id": 197,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 3.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Force Blessing - Fire Res Reduction - Status Definition",
+                            "id": 86,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.2,
+                0.2
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Stärke IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Force IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Fuerza IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'essence IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "剛力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Mocy IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Força IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение силы IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "力量之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_BlessedGear_Base",
+            "effectTypeIcon": "Icon_BlessedGear_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Treffer verringern Feuerresistenz um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Hits reduce Fire Resistance by <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Los golpes reducen la resistencia al Fuego en <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Les coups réduisent la résistance au feu de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ヒットにより火炎抵抗が<style=\"GreenText\">{0}</style>減少する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Trafienia zmniejszają odporność na ogień o <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Acertos reduzem a Resistência Ígnea em <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Попадания уменьшают сопротивление огню на <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "命中时降低敌人 <style=\"GreenText\">{0}</style> 火焰抗性。"
+                }
+            ]
+        },
+        {
+            "name": "Force 4 - Hits Reduce Lightning Res - Skill Blessing",
+            "id": 198,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 3.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Force Blessing - Lightning Res Reduction - Status Definition",
+                            "id": 87,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.2,
+                0.2
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Stärke IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Force IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Fuerza IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'essence IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "剛力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Mocy IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Força IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение силы IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "力量之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_BlessedGear_Base",
+            "effectTypeIcon": "Icon_BlessedGear_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Treffer verringern Blitzresistenz um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Hits reduce Lightning Resistance by <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Los golpes reducen la resistencia a Rayo en <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Les coups réduisent la résistance à la foudre de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ヒットにより電撃抵抗が<style=\"GreenText\">{0}</style>減少する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Trafienia zmniejszają odporność na błyskawice o <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Acertos reduzem a Resistência Elétrica em <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Попадания уменьшают сопротивление молниям на <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "命中时降低敌人 <style=\"GreenText\">{0}</style> 闪电抗性。"
+                }
+            ]
+        },
+        {
+            "name": "Force 4 - Hits Reduce Plague Res - Skill Blessing",
+            "id": 199,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 3.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Force Blessing - Plague Res Reduction - Status Definition",
+                            "id": 88,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.2,
+                0.2
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Stärke IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Force IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Fuerza IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'essence IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "剛力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Mocy IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Força IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение силы IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "力量之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_BlessedGear_Base",
+            "effectTypeIcon": "Icon_BlessedGear_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Treffer verringern Seuchenresistenz um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Hits reduce Plague Resistance by <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Los golpes reducen la resistencia a la Plaga en <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Les coups réduisent la résistance à la peste de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "ヒットにより疫病抵抗が<style=\"GreenText\">{0}</style>減少する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Trafienia zmniejszają odporność na zarazę o <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Acertos reduzem a Resistência Tóxica em <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Попадания уменьшают сопротивление чуме на <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "命中时降低敌人 <style=\"GreenText\">{0}</style> 瘟疫抗性"
+                }
+            ]
+        },
+        {
+            "name": "Force 4 - Hits Reduce Other Elemental Res - Skill Blessing",
+            "id": 200,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 3.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Force Blessing - Fire Res Reduction - Status Definition",
+                            "id": 86,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "DealDamage",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                },
+                                {
+                                    "name": "Damage Type Skill Effect Rule",
+                                    "type": "DamageTypeSkillEffectRule",
+                                    "eDamageTypeDefinition": "FIRE",
+                                    "negate": true
+                                },
+                                {
+                                    "name": "Damage Type Skill Effect Rule (1)",
+                                    "type": "DamageTypeSkillEffectRule",
+                                    "eDamageTypeDefinition": "PHYSICAL",
+                                    "negate": true
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    },
+                    {
+                        "name": "Add Status To Target Skill Effect Data (1)",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Force Blessing - Lightning Res Reduction - Status Definition",
+                            "id": 87,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "DealDamage",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                },
+                                {
+                                    "name": "Damage Type Skill Effect Rule",
+                                    "type": "DamageTypeSkillEffectRule",
+                                    "eDamageTypeDefinition": "LIGHTNING",
+                                    "negate": true
+                                },
+                                {
+                                    "name": "Damage Type Skill Effect Rule (1)",
+                                    "type": "DamageTypeSkillEffectRule",
+                                    "eDamageTypeDefinition": "PHYSICAL",
+                                    "negate": true
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    },
+                    {
+                        "name": "Add Status To Target Skill Effect Data (2)",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Force Blessing - Plague Res Reduction - Status Definition",
+                            "id": 88,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                },
+                                {
+                                    "name": "Damage Type Skill Effect Rule",
+                                    "type": "DamageTypeSkillEffectRule",
+                                    "eDamageTypeDefinition": "PLAGUE",
+                                    "negate": true
+                                },
+                                {
+                                    "name": "Damage Type Skill Effect Rule (1)",
+                                    "type": "DamageTypeSkillEffectRule",
+                                    "eDamageTypeDefinition": "PHYSICAL",
+                                    "negate": true
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.2,
+                0.2
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Stärke IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Force IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Fuerza IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'essence IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "剛力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Mocy IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Força IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение силы IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "力量之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_BlessedGear_Base",
+            "effectTypeIcon": "Icon_BlessedGear_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Treffer mit Elementarschaden verringern Resistenzen gegen alle anderen Elementartypen um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Hits with Elemental damage reduce resistances to all other Elemental types by <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Los golpes con daño elemental reducen la resistencia a todos los otros tipos elementales en <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Les attaques infligeant des dégâts élémentaires réduisent les résistances aux autres éléments de <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "元素ダメージのヒットにより他のあらゆる元素属性への抵抗が<style=\"GreenText\">{0}</style>減少する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Trafienia zadające obrażenia żywiołowe zmniejszają odporności na pozostałe żywioły o <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Acertos com dano Elemental reduzem todas as outras Resistências elementais em <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Попадания стихийными атаками снижают сопротивление всем другим типам стихий на <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "元素伤害命中时，敌人对其他元素的抗性降低 <style=\"GreenText\">{0}</style>。"
                 }
             ]
         },
@@ -18257,6 +20295,546 @@
             ]
         },
         {
+            "name": "Constitution 3 - Life on Kill - Skill Blessing",
+            "id": 206,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Regen Skill Effect Data",
+                        "type": "RegenSkillEffectData",
+                        "eStatRegen": "Life",
+                        "regenValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "eRegenSourceValue": "Percentage",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Rare",
+            "rareRollRange": [
+                0.0075,
+                0.0075
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Konstitution III"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Constitution III"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Constitución III"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de constitution III"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "耐久力の祝福III"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Kondycji III"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Constituição III"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение телосложения III"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "体质之恩泽 III"
+                }
+            ],
+            "icon": "Icon_Life_Base",
+            "effectTypeIcon": "Icon_Life_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Heilt bei Töten eines Gegners <style=\"GreenText\">{0}</style> Leben."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Heals <style=\"GreenText\">{0}</style> Life on Kill."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Cura <style=\"GreenText\">{0}</style> de vida al matar."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Restaure <style=\"GreenText\">{0}</style> de votre santé lorsque vous tuez un ennemi"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "倒すことによりライフが<style=\"GreenText\">{0}</style>回復する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Leczy <style=\"GreenText\">{0}</style> życia przy zabójstwie"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Cure <style=\"GreenText\">{0}</style> de Vida ao matar."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Исцеляет <style=\"GreenText\">{0}</style> ед. здоровья при убийстве"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "击杀敌人时治疗 <style=\"GreenText\">{0}</style> 生命值。"
+                }
+            ]
+        },
+        {
+            "name": "Constitution 4 - Life on Hit Elites - Skill Blessing",
+            "id": 207,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Interval",
+                            "baseValue": 1.0,
+                            "eSkillEffectVariableStackType": "UseLowest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Regen Skill Effect Data",
+                        "type": "RegenSkillEffectData",
+                        "eStatRegen": "Life",
+                        "regenValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "eRegenSourceValue": "Percentage",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "DealDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "IsDirectHit",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                },
+                                {
+                                    "name": "Use Interval Skill Effect Rule",
+                                    "type": "UseIntervalSkillEffectRule",
+                                    "interval": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "Interval",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                },
+                                {
+                                    "name": "Value Comparison Skill Effect Rule (1)",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "TargetIsElite",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.015,
+                0.015
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Konstitution IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Constitution IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Constitución IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de constitution IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "耐久力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Kondycji IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Constituição IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение телосложения IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "体质之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_Life_Base",
+            "effectTypeIcon": "Icon_Life_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Heilt <style=\"GreenText\">{0}</style> Leben, wenn du Elitegegner triffst (Abklingzeit: 1 Sek.)."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Heals <style=\"GreenText\">{0}</style> Life when you hit Elites (Cooldown: 1s.)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Cura <style=\"GreenText\">{0}</style> de vida cuando golpeas a enemigos de élite (enfriamiento: 1 s)."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Restaure <style=\"GreenText\">{0}</style> de votre santé lorsque vous touchez un ennemi d'élite (temps de recharge : 1 s)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "エリートへのヒットによりライフが<style=\"GreenText\">{0}</style>回復する（クールダウン：1秒）。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Leczy <style=\"GreenText\">{0}</style> życia po trafieniu Elity (czas odnawiania: 1 s)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Cure <style=\"GreenText\">{0}</style> de Vida ao acertar Elites (Tempo de Recarga: 1s)."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Исцеляет <style=\"GreenText\">{0}</style> ед. здоровья при попадании по элитному врагу. Перезарядка: 1 сек."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "命中精锐敌人时治疗 <style=\"GreenText\">{0}</style> 生命值 (冷却时间：1 秒。)"
+                }
+            ]
+        },
+        {
+            "name": "Constitution 4 - Lifesteal Potion CD - Skill Blessing",
+            "id": 208,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {
+                    "name": "Use Potion Skill Definition",
+                    "id": 150,
+                    "type": "UsePotionSkillDefinition"
+                },
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Character Stat Modifier Skill Effect Data",
+                        "type": "AddCharacterStatModifierSkillEffectData",
+                        "effectTarget": "Self",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "Always",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "DamageLifeRegen",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.05,
+                0.05
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Konstitution IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Constitution IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Constitución IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de constitution IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "耐久力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Kondycji IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Constituição IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение телосложения IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "体质之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_Life_Base",
+            "effectTypeIcon": "Icon_Life_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Gewährt <style=\"GreenText\">{0}</style> globalen Lebensraub."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Grants <style=\"GreenText\">{0}</style> Life Leech."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Otorga <style=\"GreenText\">{0}</style> de Robavida global."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Vous gagnez <style=\"GreenText\">{0}</style> de drain de vie global"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "グローバルライフ収を<style=\"GreenText\">{0}</style>得る。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zapewnia <style=\"GreenText\">{0}</style> globalnej kradzieży zdrowia."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ganhe <style=\"GreenText\">{0}</style> de Roubo De Vida Global."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Дает <style=\"GreenText\">{0}</style> зар. общей кражи здоровья."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "获得 <style=\"GreenText\">{0}</style> 全局吸血。"
+                }
+            ]
+        },
+        {
             "name": "Constitution 4 - Endurance - Stat Blessing",
             "id": 209,
             "type": "StatModifierBlessingDefinition",
@@ -18350,6 +20928,172 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": ""
+                }
+            ]
+        },
+        {
+            "name": "Constitution 4 - Life to Melee Damage - Skill Blessing",
+            "id": 210,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Melee",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Conversion",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Skill Stat Modifier Skill Effect Data",
+                        "type": "AddSkillStatModifierSkillEffectData",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "BuildDamage",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "BaseDamage",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Conversion",
+                                    "eSkillEffectVariableModifier": "MultiplyByCurrentLife, LimitToValue",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "Roll",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                500.0,
+                500.0
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Konstitution IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Constitution IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Constitución IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de constitution IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "耐久力の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Kondycji IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Constituição IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение телосложения IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "体质之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_Life_Base",
+            "effectTypeIcon": "Icon_Life_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Gewährt Nahkampffertigkeiten zusätzlichen Schaden in Höhe von <style=\"GreenText\">7%</style> deines aktuellen Lebens (maximaler Bonus {0})."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Grants additional damage to Melee Skills equal to <style=\"GreenText\">7%</style> of your current Life (max bonus {0})"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Otorga daño adicional a las habilidades de combate cuerpo a cuerpo equivalente al <style=\"GreenText\">7%</style> de tu vida actual (bonificación máxima {0})."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Vos compétences de mêlée infligent des dégâts supplémentaires équivalant à <style=\"GreenText\">7%</style> de votre santé actuelle (bonus maximum {0})."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "近接スキルに、自身の現在のライフの<style=\"GreenText\">7%</style>に等しい追加ダメージを与える（最大ボーナス {0}）。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zyskujesz dodatkowe obrażenia dla umiejętności wręcz równe <style=\"GreenText\">7%</style> twojego aktualnego życia (maksymalny bonus {0})."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Concede dano adicional a Habilidades Corpo-a-corpo equivalente a <style=\"GreenText\">7%</style> de sua Vida atual (bônus máximo {0})."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Увеличивает урон навыков ближнего боя на <style=\"GreenText\">7%</style> от текущего запаса здоровья (максимальный бонус {0})."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "近战技能造成的额外伤害等于当前生命值的<style=\"GreenText\">7%</style>（最大加成为 {0}）。"
                 }
             ]
         },
@@ -18731,6 +21475,214 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": ""
+                }
+            ]
+        },
+        {
+            "name": "Alacrity 4 - Speed on Evade - Skill Blessing",
+            "id": 215,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Duration",
+                            "baseValue": 3.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "Self",
+                        "statusDefinition": {
+                            "name": "Alacrity Blessing - Increase Move Speed and Attack Speed - Status Definition",
+                            "id": 90,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Duration",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "IgnoreDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "EvadedDamage",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "comparisonOperator": "Equal",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {}
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.2,
+                0.2
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen des Eifers IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Alacrity IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Celeridad IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'alacrité IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "機敏の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Żwawości IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção da Alacridade IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение рвения IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "敏捷之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_MoveSpeed_Base",
+            "effectTypeIcon": "Icon_MoveSpeed_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Erhalte 3 Sek. lang <style=\"GreenText\">{0}</style> Bewegungs- und Angriffstempo, nachdem du einem Angriff ausgewichen bist."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Grants <style=\"GreenText\">{0}</style> Move Speed and Attack Speed for 3s after you Evade an attack."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Otorga <style=\"GreenText\">{0}</style> de velocidad de movimiento y de ataque durante 3 s después de evadir un ataque."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Augmente votre vitesse de déplacement et d'attaque de <style=\"GreenText\">{0}</style> pendant 3 s quand vous esquivez"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "攻撃を開始してから3秒間、移動速度と攻撃速度が<style=\"GreenText\">{0}</style>増加する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zyskujesz <style=\"GreenText\">{0}</style> prędkości ruchu i ataku na 3 s po uniknięciu ataku"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ganhe <style=\"GreenText\">{0}</style> de Velocidade de Movimento e de Ataque por 3s após Evadir um ataque."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Дает <style=\"GreenText\">{0}</style> к скорости передвижения и атаки на 3 сек. после уклонения от атаки."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "成功闪避攻击后，获得 <style=\"GreenText\">{0}</style> 移动速度与攻击速度加成，持续 3 秒。"
                 }
             ]
         },
@@ -19992,6 +22944,325 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": ""
+                }
+            ]
+        },
+        {
+            "name": "Spirit 4 - Cooldown On Kill - Skill Blessing",
+            "id": 229,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Recharge Skill Cooldown Skill Effect Data",
+                        "type": "RechargeSkillCooldownSkillEffectData",
+                        "useAllSkills": true,
+                        "ignoredSkills": [],
+                        "value": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "Roll",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "cooldownRechargeType": "CurrentPercentage",
+                        "limitMinimumValue": false,
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                0.02,
+                0.02
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen des Geistes IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Spirit IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Espíritu IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de l'esprit IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "精神の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Ducha IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção do Espírito IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение духа IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "精神之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_Mana_Base",
+            "effectTypeIcon": "Icon_Mana_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Verringert beim Töten eines Gegners die Abklingzeit aller Fertigkeiten um <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Reduces all skills Cooldown by <style=\"GreenText\">{0}</style> on Kill."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Reduce el enfriamiento de todas las habilidades en <style=\"GreenText\">{0}</style> al matar."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Réduit le temps de recharge de toutes les compétences de <style=\"GreenText\">{0}</style> lorsque vous tuez un ennemi"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "敵を倒すと、あらゆるスキルのクールダウンが<style=\"GreenText\">{0}</style>減少する。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Skraca czas odnawiania wszystkich umiejętności o <style=\"GreenText\">{0}</style> po zabiciu wroga"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Reduz o Tempo de Recarga de todas as habilidades em <style=\"GreenText\">{0}</style> ao matar."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Ускоряет перезарядку всех навыков на <style=\"GreenText\">{0}</style> при убийстве."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "击杀敌人时，所有技能的冷却时间缩短 <style=\"GreenText\">{0}</style>。"
+                }
+            ]
+        },
+        {
+            "name": "Spirit 4 - Mana to Spell Damage - Skill Blessing",
+            "id": 230,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {},
+            "rollVariableName": "Roll",
+            "eModifierType": "Additive",
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Spell",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Rounded"
+                        },
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Conversion",
+                            "baseValue": 0.07,
+                            "eSkillEffectVariableStackType": "UseHighest",
+                            "eSkillEffectVariableFormat": "Percentage"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Skill Stat Modifier Skill Effect Data",
+                        "type": "AddSkillStatModifierSkillEffectData",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "BuildDamage",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {}
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "BaseDamage",
+                                "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Conversion",
+                                    "eSkillEffectVariableModifier": "MultiplyBySkillDamage, MultiplyByCurrentMana, LimitToValue",
+                                    "statusToStack": {},
+                                    "supportVariableValueOrName": "Roll",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {}
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "basePrice": 600.0,
+            "supportedRarities": "Epic",
+            "epicRollRange": [
+                500.0,
+                500.0
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen des Geistes IV"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Spirit IV"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Espíritu IV"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de l'esprit IV"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "精神の祝福IV"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Ducha IV"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Benção do Espírito IV"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение духа IV"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "精神之恩泽 IV"
+                }
+            ],
+            "icon": "Icon_Mana_Base",
+            "effectTypeIcon": "Icon_Mana_Base",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Erhöht den Schaden durch Zauber um <style=\"GreenText\">7%</style> deines aktuellen Manas (maximaler Bonus {0})."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Adds more damage to Spells, equal to <style=\"GreenText\">7%</style> of your current Mana (max bonus is {0})."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Agrega más daño a los hechizos, equivalente al <style=\"GreenText\">7%</style> de tu maná actual (la bonificación máxima es {0})."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Vos sorts infligent des dégâts supplémentaires équivalant à <style=\"GreenText\">7%</style> de votre ferveur actuelle (bonus maximum {0})."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪文に、自身の現在のマナの<style=\"GreenText\">7%</style>に等しい追加ダメージを与える（最大ボーナス {0}）。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Dodaje obrażenia do zaklęć równe <style=\"GreenText\">7%</style> twojej aktualnej many (maksymalny bonus {0})."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Adiciona mais dano a Magias, equivalente a <style=\"GreenText\">7%</style> de sua Energia atual (bônus máximo é {0})."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Увеличивает урон заклинаний на <style=\"GreenText\">7%</style> от текущего запаса маны (максимальный бонус {0})."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "法术造成的额外伤害等于当前法力值的<style=\"GreenText\">7%</style>（最大加成为 {0}）。"
                 }
             ]
         },
@@ -25237,6 +28508,106 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": "爆炸范围：<style=\"GreenText\">{0}</style>"
+                }
+            ]
+        },
+        {
+            "name": "Judgement - Book of Sin - Activation Cooldown",
+            "id": 264,
+            "type": "SkillBlessingDefinition",
+            "behaviorAffixDefinition": {
+                "name": "Judgement - Book of Sin - Cast on Kill Debuffed Target Affix",
+                "id": 140,
+                "type": "SkillBehaviorAffixDefinition"
+            },
+            "rollVariableName": "Roll",
+            "eModifierType": "Multiplicative",
+            "basePrice": 300.0,
+            "supportedRarities": "Magic, Rare",
+            "magicRollRange": [
+                0.8,
+                0.8
+            ],
+            "rareRollRange": [
+                0.7,
+                0.7
+            ],
+            "titleLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Buch der Sünde"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Book of Sin"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Libro del Pecado"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Livre des péchés"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "罪の書"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Księga Grzechu"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Livro dos Pecados"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Книга греха"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "罪之书"
+                }
+            ],
+            "icon": "",
+            "effectTypeIcon": "Icon_Duration",
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Aktivierung-Abklingtempo: <style=\"GreenText\">{0}</style>."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Activation Cooldown Speed <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Velocidad de enfriamiento de activación <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Vitesse de recharge d'activation <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "発動時のクールダウン速度<style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Prędkość odnawiania po aktywacji <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Vel. do Tempo de Recarga da Ativação <style=\"GreenText\">{0}</style>"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "<style=\"GreenText\">{0}</style> к скорости активации перезарядки"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "激活冷却速度：<style=\"GreenText\">{0}</style>"
                 }
             ]
         },

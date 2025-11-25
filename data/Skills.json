@@ -8982,7 +8982,24 @@
                 }
             ],
             "skillDamageStatModifiers": {},
-            "skillValueModifierConfigs": [],
+            "skillValueModifierConfigs": [
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Radius Modifier",
+                    "multiplicativeStats": [
+                        "SkillAreaOfEffect"
+                    ],
+                    "additiveStats": []
+                },
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Explode On Death Life To Damage Modifier",
+                    "multiplicativeStats": [
+                        "SummonDamagePercentage"
+                    ],
+                    "additiveStats": []
+                }
+            ],
             "cooldown": 12.0,
             "minCooldown": 0.3,
             "useAttackSpeed": false,
