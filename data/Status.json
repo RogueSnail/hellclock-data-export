@@ -11936,7 +11936,7 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Disparo dividido +{0} Cantidad de proyectiles por pila"
+                        "langTranslation": "Disparo dividido +{0} Cantidad de proyectiles por acumulación"
                     },
                     {
                         "langCode": "fr",
@@ -13469,7 +13469,7 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Cráneo del Olvidado"
+                        "langTranslation": "Cráneo de los olvidados"
                     },
                     {
                         "langCode": "fr",
@@ -13569,7 +13569,7 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Cráneo del Olvidado"
+                        "langTranslation": "Cráneo de los olvidados"
                     },
                     {
                         "langCode": "fr",
@@ -13970,7 +13970,7 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Forúnculo de sangre"
+                        "langTranslation": "Hervir la sangre"
                     },
                     {
                         "langCode": "fr",
@@ -14008,7 +14008,7 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Forúnculo de sangre"
+                        "langTranslation": "Hervir la sangre"
                     },
                     {
                         "langCode": "fr",

@@ -18137,7 +18137,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
+                                        "langTranslation": "Leben, das du erhältst, während du volles Leben hast, wird in Überzeugung umgewandelt.\nDu erhältst pro Sekunde Lebensregeneration in Höhe von {0} deiner Überzeugungsverfall-Resistenz."
                                     },
                                     {
                                         "langCode": "en",
@@ -18145,31 +18145,31 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
+                                        "langTranslation": "La vida obtenida cuando estás a vida máxima se convierte en Convicción.\nObtienes regeneración de vida por segundo equivalente a {0} de tu resistencia al desgaste de convicción."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
+                                        "langTranslation": "La vie gagnée lorsque vous êtes à vie pleine est convertie en conviction.\nVous gagnez une régénération de vie par seconde égale à {0} de votre résist. perte de conviction."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
+                                        "langTranslation": "ライフが全快のときに得たライフは信念に変換される。\n毎秒、信念減衰抵抗の{0}に等しいライフ再生を得る。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
+                                        "langTranslation": "Zdrowie zdobyte przy pełnym poziomie Życia zostaje zamienione na Przekonanie.\nZyskujesz Regenerację życia na sekundę równą {0} twojej Odporności na rozpad Przekonania."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Vida ganha quando a Vida está cheia é convertida em Convicção. Ganhe Regeneração de Vida por segundo igual a {0} da sua Resistência à Deterioração da Convicção."
+                                        "langTranslation": "Vida ganha enquanto você está com Vida cheia é convertida em Convicção.\nGanhe Regeneração de Vida por segundo igual a {0} da sua Resistência ao Decaimento da Convicção."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
+                                        "langTranslation": "Здоровье, получаемое при полном запасе здоровья, преобразуется в непоколебимость.\nВы получаете восстановление здоровья в секунду в размере {0} от вашего сопр. снижению непоколебимости."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "Life gained when you are at full Life is converted to Conviction.\nGain Life Regen per second equal to {0} of your Conviction Decay Resistance"
+                                        "langTranslation": "在生命值全满时获得的生命会转化为信念。\n每秒获得等同于你信念减弱抗性 {0} 的生命再生。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -43957,7 +43957,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Projektile verursachen {0} Schaden, jedes Mal, wenn sie einen Gegner durchdringen."
                                     },
                                     {
                                         "langCode": "en",
@@ -43965,19 +43965,19 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Los proyectiles obtienen {0} de daño cada vez que perforan a un enemigo."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Les projectiles infligent {0} dégâts à chaque fois qu'ils transpercent un ennemi"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "発射物は敵を貫通するたびに{0}ダメージを獲得します"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Pociski otrzymują {0} obrażeń za każdym razem, gdy przebiją wroga"
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -43985,11 +43985,11 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Снаряды получают {0} урона каждый раз, когда они пронзают врага."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "投射物每次穿透敌人时都会造成{0}点伤害"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -44135,7 +44135,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Projektile verursachen {0} Schaden, jedes Mal, wenn sie einen Gegner durchdringen."
                                     },
                                     {
                                         "langCode": "en",
@@ -44143,19 +44143,19 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Los proyectiles obtienen {0} de daño cada vez que perforan a un enemigo."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Les projectiles infligent {0} dégâts à chaque fois qu'ils transpercent un ennemi"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "発射物は敵を貫通するたびに{0}ダメージを獲得します"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Pociski otrzymują {0} obrażeń za każdym razem, gdy przebiją wroga"
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -44163,11 +44163,11 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "Снаряды получают {0} урона каждый раз, когда они пронзают врага."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "Projectiles gain {0} damage each time they Pierce an enemy"
+                                        "langTranslation": "投射物每次穿透敌人时都会造成{0}点伤害"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -44313,7 +44313,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "All projectiles gain {0} Pierce"
+                                        "langTranslation": "Alle Projektile erhalten {0} Durchschlagskraft"
                                     },
                                     {
                                         "langCode": "en",
@@ -44321,19 +44321,19 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "All projectiles gain {0} Pierce"
+                                        "langTranslation": "Todos los proyectiles obtienen {0} de perforación"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "All projectiles gain {0} Pierce"
+                                        "langTranslation": "Tous les projectiles gagnent {0} Perforation"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "All projectiles gain {0} Pierce"
+                                        "langTranslation": "すべての発射物は{0}貫通力を得る"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "All projectiles gain {0} Pierce"
+                                        "langTranslation": "Wszystkie pociski zyskują {0} Przebicie"
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -44341,11 +44341,11 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "All projectiles gain {0} Pierce"
+                                        "langTranslation": "Все снаряды получают {0} пробития"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "All projectiles gain {0} Pierce"
+                                        "langTranslation": "所有投射物获得{0}穿透"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""

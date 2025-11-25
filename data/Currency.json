@@ -15,7 +15,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Herramienta de experimentación"
+                    "langTranslation": "Herramienta de retoques"
                 },
                 {
                     "langCode": "fr",
@@ -53,7 +53,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Reemplaza el afijo de una reliquia, elegido al azar, por otro diferente."
+                    "langTranslation": "Reemplaza el afijo de una reliquia, elegido al azar, por uno diferente."
                 },
                 {
                     "langCode": "fr",
@@ -138,7 +138,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Mejora una reliquia común, transformándola en una reliquia mágica."
+                    "langTranslation": "Mejora una reliquia común y la transforma en una reliquia mágica."
                 },
                 {
                     "langCode": "fr",
@@ -179,7 +179,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de mejora"
+                    "langTranslation": "Fragmento de Mejora"
                 },
                 {
                     "langCode": "fr",
@@ -263,7 +263,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Mejora una Reliquia Mágica, transformándola en una Reliquia Rara.\n\nLos distintos tamaños de Reliquia pueden tener diferentes afijos Raros."
+                    "langTranslation": "Mejora una Reliquia Mágica, transformándola en una Reliquia Rara.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos Raros."
                 },
                 {
                     "langCode": "fr",
@@ -304,7 +304,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de mejora superior"
+                    "langTranslation": "Fragmento de Mayor Mejora"
                 },
                 {
                     "langCode": "fr",
@@ -387,7 +387,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bloquea un afijo normal aleatorio en una reliquia. Los afijos bloqueados no se pueden eliminar ni reemplazar con ninguna herramienta.\n\nSi la reliquia ya tiene un afijo bloqueado, este se desbloquea y se bloquea otro afijo aleatorio."
+                    "langTranslation": "Bloquea un afijo regular aleatorio en una reliquia. Los afijos bloqueados no se pueden eliminar ni reemplazar con ninguna herramienta.\n\nSi la reliquia ya tiene un afijo bloqueado, se desbloquea y se bloquea otro afijo aleatorio en su lugar."
                 },
                 {
                     "langCode": "fr",
@@ -395,7 +395,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "遺物にランダムな通常アフィックスをロックします。ロックされたアフィックスは、いかなるツールを使っても解除または置換できません。\n\n遺物に既にロックされたアフィックスがある場合は、そのアフィックスはロック解除され、代わりにランダムなアフィックスがロックされます。"
+                    "langTranslation": "遺物にランダムな通常アフィックスをロックします。ロックされたアフィックスは、いかなるツールを使っても削除または置換できません。\n\n遺物に既にロックされたアフィックスがある場合は、そのアフィックスはロック解除され、代わりにランダムなアフィックスがロックされます。"
                 },
                 {
                     "langCode": "pl",
@@ -428,7 +428,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de cerrajería"
+                    "langTranslation": "Fragmento de Cerrajería"
                 },
                 {
                     "langCode": "fr",
@@ -479,7 +479,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Herramienta de Furia Imbuida"
+                    "langTranslation": "Herramienta de furia imbuida"
                 },
                 {
                     "langCode": "fr",
@@ -509,7 +509,7 @@
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Verleiht einem Relikt den impliziten Wut-Affix. Besitzt das Relikt bereits einen impliziten Implikations-Affix, wird dieser ersetzt.\n\nRelikte unterschiedlicher Größe können unterschiedliche implizite Implikations-Affixe erhalten."
+                    "langTranslation": "Verleiht einem Relikt den impliziten Affix „Wut“. Besitzt das Relikt bereits einen solchen Affix, wird dieser ersetzt.\n\nRelikte unterschiedlicher Größe können unterschiedliche implizite Affixe erhalten."
                 },
                 {
                     "langCode": "en",
@@ -517,7 +517,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Imbuye una reliquia con el afijo Furia implícito. Si la reliquia ya tiene el afijo Imbuido implícito, lo reemplaza.\n\nLos distintos tamaños de reliquia pueden tener diferentes afijos Imbuidos implícitos."
+                    "langTranslation": "Imbuye una Reliquia con un afijo de Furia implícito. Si la Reliquia ya tiene un afijo de Furia implícito, lo reemplaza.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos de Furia implícitos."
                 },
                 {
                     "langCode": "fr",
@@ -525,7 +525,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "遺物に暗黙のフューリー効果を付与します。遺物に既に暗黙のフューリー効果が付与されている場合は、置き換えられます。\n\n遺物のサイズによって、付与される暗黙のフューリー効果は異なります。"
+                    "langTranslation": "遺物に暗黙のフューリー効果を付与します。遺物に既に暗黙のフューリー効果が付与されている場合は、置き換えられます。\n\n遺物のサイズによって、付与される暗黙効果が異なる場合があります。"
                 },
                 {
                     "langCode": "pl",
@@ -558,7 +558,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de Furia"
+                    "langTranslation": "Fragmento de furia"
                 },
                 {
                     "langCode": "fr",
@@ -647,7 +647,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Imbuye una reliquia con un afijo de Fe implícito. Si la reliquia ya tiene un afijo de Imbuir implícito, lo reemplaza.\n\nLos distintos tamaños de reliquia pueden generar distintos afijos de Imbuir implícitos."
+                    "langTranslation": "Imbuye una Reliquia con un afijo de Fe implícito. Si la Reliquia ya tiene un afijo de Fe implícito, lo reemplaza.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos de Fe implícitos."
                 },
                 {
                     "langCode": "fr",
@@ -747,7 +747,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "規律を刻み込んだ道具"
+                    "langTranslation": "規律の染み込んだ道具"
                 },
                 {
                     "langCode": "pl",
@@ -777,7 +777,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Imbuye una reliquia con un afijo de Disciplina implícito. Si la reliquia ya tiene un afijo de Imbuido implícito, lo reemplaza.\n\nLos distintos tamaños de reliquia pueden generar distintos afijos de Imbuido implícitos."
+                    "langTranslation": "Imbuye una Reliquia con un afijo de Disciplina implícito. Si la Reliquia ya tiene un afijo implícito imbuido, lo reemplaza.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos implícitos imbuidos."
                 },
                 {
                     "langCode": "fr",
@@ -818,7 +818,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de disciplina"
+                    "langTranslation": "Fragmento de Disciplina"
                 },
                 {
                     "langCode": "fr",
@@ -959,7 +959,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modifica una reliquia de forma impredecible, corrompiéndola posteriormente.\n\nEl poder de la Corrupción es voluble, otorgando triunfo y tragedia a partes iguales.\n\nLas reliquias corrompidas no pueden ser modificadas con ninguna herramienta."
+                    "langTranslation": "Modifica una reliquia de forma impredecible, corrompiéndola posteriormente.\n\nEl poder de la corrupción es voluble, otorgando triunfo y tragedia por igual.\n\nLas reliquias corruptas no pueden modificarse con ninguna herramienta."
                 },
                 {
                     "langCode": "fr",
@@ -979,7 +979,7 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Непредсказуемо изменяет Реликвию, делая её впоследствии Порчей.\n\nСила Порчи переменчива, даруя в равной мере и триумф, и трагедию.\n\nПорченые Реликвии нельзя изменить никакими Инструментами."
+                    "langTranslation": "Непредсказуемо изменяет Реликвию, делая её впоследствии Осквернённой.\n\nСила Осквернения переменчива, даруя в равной степени и триумф, и трагедию.\n\nОсквернённые Реликвии нельзя изменить никакими Инструментами."
                 },
                 {
                     "langCode": "zh-cn",
@@ -1049,7 +1049,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Herramienta Divina"
+                    "langTranslation": "Herramienta divina"
                 },
                 {
                     "langCode": "fr",
@@ -1079,7 +1079,7 @@
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segnet eine Reliquie mit Göttlichkeit und erhöht die Werte all ihrer Affixe um einen zufälligen Wert.\n\nMit Göttlichen Werkzeugen verbesserte Reliquien-Affixe können ihren normalen Maximalwert um bis zu 20 % übersteigen."
+                    "langTranslation": "Segnet eine Reliquie mit Göttlichkeit und erhöht die Werte all ihrer Affixe um einen zufälligen Wert.\n\nMit Göttlichen Werkzeugen verbesserte Reliquien-Affixe können ihren normalen Maximalwert um bis zu 20 % überschreiten."
                 },
                 {
                     "langCode": "en",
@@ -1087,7 +1087,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bendice una reliquia con divinidad, mejorando los valores de todos sus afijos en un margen aleatorio.\n\nLos afijos de las reliquias mejorados con Herramientas Divinas pueden superar su valor máximo habitual, hasta un 20 %."
+                    "langTranslation": "Bendice una reliquia con divinidad, lo que mejora los valores de todos sus afijos con un margen aleatorio.\n\nLos afijos de reliquia mejorados con Herramientas Divinas pueden superar su valor máximo habitual, hasta en un 20 %."
                 },
                 {
                     "langCode": "fr",
@@ -1128,7 +1128,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de Divinidad"
+                    "langTranslation": "Fragmento de la Divinidad"
                 },
                 {
                     "langCode": "fr",

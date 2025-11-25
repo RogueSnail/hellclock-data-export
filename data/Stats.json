@@ -3369,7 +3369,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Porcentaje de tu vida máxima recuperada por segundo si has infligido daño a un monstruo en el último segundo."
+                    "langTranslation": "Porcentaje de tu Vida Máxima curada por segundo si has infligido daño a un monstruo en el último segundo."
                 },
                 {
                     "langCode": "fr",
@@ -3377,7 +3377,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージ。"
+                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージです。"
                 },
                 {
                     "langCode": "pl",
@@ -4745,7 +4745,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la Habilidad de Invocación al golpear enemigos."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad de invocación al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -7041,7 +7041,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Aumenta la cantidad de proyectiles lanzados por las habilidades relevantes al activarse. El bono sobrante se utilizará para lanzar un proyectil adicional."
+                    "langTranslation": "Aumenta la cantidad de proyectiles lanzados por las habilidades relevantes al activarse. Cualquier bonificación sobrante se contabilizará como una oportunidad para obtener un proyectil adicional."
                 },
                 {
                     "langCode": "fr",
@@ -7049,7 +7049,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "発動時に関連スキルによる発射物の数を増加させます。余剰ボーナスは、追加の発射物を獲得するチャンスとしてロールされます。"
+                    "langTranslation": "発動時に関連スキルの投射物数を増加させます。余剰ボーナスは、追加の投射物を獲得するチャンスとしてロールされます。"
                 },
                 {
                     "langCode": "pl",
@@ -7127,7 +7127,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de las habilidades cuerpo a cuerpo al golpear a los enemigos."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad cuerpo a cuerpo al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -7299,7 +7299,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de las Habilidades de Hechizo al golpear enemigos."
+                    "langTranslation": "Modificador multiplicativo que se aplica a todo el daño de la habilidad de hechizo al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -8081,7 +8081,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit angewendet, wenn Gegner getroffen werden."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit beim Treffen von Feinden angewendet."
                 },
                 {
                     "langCode": "en",
@@ -8089,7 +8089,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad de Tirador al golpear a los enemigos."
+                    "langTranslation": "Modificador multiplicativo aplicado a todo el daño de la habilidad Tirador al golpear enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -9561,7 +9561,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Resistencia a la ignición"
+                    "langTranslation": "Encender la resistencia"
                 },
                 {
                     "langCode": "fr",
@@ -9831,7 +9831,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Resistencia máxima a los rayos"
+                    "langTranslation": "Máxima resistencia a los rayos"
                 },
                 {
                     "langCode": "fr",
@@ -9921,7 +9921,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Máxima resistencia a la plaga"
+                    "langTranslation": "Máxima resistencia a las plagas"
                 },
                 {
                     "langCode": "fr",
@@ -10011,7 +10011,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Resistencia física máxima"
+                    "langTranslation": "Máxima resistencia física"
                 },
                 {
                     "langCode": "fr",
@@ -11219,7 +11219,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bonificación por tiempo de reloj infernal"
+                    "langTranslation": "Bono de probabilidad de obtener tiempo del reloj del infierno"
                 },
                 {
                     "langCode": "fr",
