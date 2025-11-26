@@ -1467,7 +1467,7 @@
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
-            "purgeOnDeath": true,
+            "purgeOnDeath": false,
             "purgeOnSourceDeath": false
         },
         {
@@ -1573,7 +1573,7 @@
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
-            "purgeOnDeath": true,
+            "purgeOnDeath": false,
             "purgeOnSourceDeath": false
         },
         {
@@ -1802,7 +1802,7 @@
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
-            "purgeOnDeath": true,
+            "purgeOnDeath": false,
             "purgeOnSourceDeath": false
         },
         {
@@ -3874,7 +3874,7 @@
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
-            "purgeOnDeath": true,
+            "purgeOnDeath": false,
             "purgeOnSourceDeath": false
         },
         {
@@ -3974,7 +3974,7 @@
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
-            "purgeOnDeath": true,
+            "purgeOnDeath": false,
             "purgeOnSourceDeath": false
         },
         {
@@ -4074,7 +4074,7 @@
             "eStatusStackBehavior": "Refresh",
             "effectInterval": 0.0,
             "shouldEchoClone": false,
-            "purgeOnDeath": true,
+            "purgeOnDeath": false,
             "purgeOnSourceDeath": false
         },
         {
@@ -11948,7 +11948,7 @@
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Podzielony strzał + {0} Ilość pocisków na stos"
+                        "langTranslation": "Podzielony strzał + {0} Ilość pocisku na stos"
                     },
                     {
                         "langCode": "pt-br",

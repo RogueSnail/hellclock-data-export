@@ -6372,14 +6372,23 @@
                     "type": "SkillBlessingDefinition"
                 }
             ],
-            "modifierType": "Additive",
-            "upgradeModifierOverride": {
-                "0": 0.0,
-                "1": 0.005,
-                "2": 0.01,
-                "3": 0.015,
-                "4": 0.02,
-                "5": 0.025
+            "relicUpgradeModifierConfig": {
+                "name": "Default Relic Upgrade Modifier Config",
+                "type": "RelicUpgradeModifierConfig",
+                "modifierType": "Multiplicative",
+                "upgradeModifier": {
+                    "0": 1.0,
+                    "1": 1.2,
+                    "2": 1.4,
+                    "3": 1.6,
+                    "4": 1.8,
+                    "5": 2.0,
+                    "6": 2.2,
+                    "7": 2.4,
+                    "8": 2.6,
+                    "9": 2.8,
+                    "10": 3.0
+                }
             },
             "description": [
                 {
@@ -13415,7 +13424,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Rounded"
                         }
                     ]
                 },
@@ -13433,7 +13442,7 @@
                             "supportESkillEffectVariableModifier": "0",
                             "supportStatusToStack": {}
                         },
-                        "eRegenSourceValue": "Percentage",
+                        "eRegenSourceValue": "Flat",
                         "startDisabled": false,
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "Using",
@@ -13465,32 +13474,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.2,
-                        0.25
+                        250.0,
+                        300.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.25,
-                        0.325
+                        350.0,
+                        600.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.325,
-                        0.4225
+                        650.0,
+                        900.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.4225,
-                        0.5
+                        950.0,
+                        1200.0
                     ]
                 }
             ],
@@ -13539,7 +13548,24 @@
                 "Grand"
             ],
             "incompatibleBlessings": [],
-            "relicUpgradeModifierConfig": {},
+            "relicUpgradeModifierConfig": {
+                "name": "Default Relic Upgrade Modifier Config",
+                "type": "RelicUpgradeModifierConfig",
+                "modifierType": "Multiplicative",
+                "upgradeModifier": {
+                    "0": 1.0,
+                    "1": 1.2,
+                    "2": 1.4,
+                    "3": 1.6,
+                    "4": 1.8,
+                    "5": 2.0,
+                    "6": 2.2,
+                    "7": 2.4,
+                    "8": 2.6,
+                    "9": 2.8,
+                    "10": 3.0
+                }
+            },
             "description": [
                 {
                     "langCode": "de",
@@ -16052,11 +16078,15 @@
             "additionalLocalizationVariables": [],
             "behaviorData": {
                 "type": "SkillBehaviorData",
-                "affectMultipleSkills": true,
+                "affectMultipleSkills": false,
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Everything",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "JudgementDefinition",
+                    "id": 67,
+                    "type": "PlaceEffectAreaSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -28127,7 +28157,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Rounded"
                         }
                     ]
                 },
@@ -28145,7 +28175,7 @@
                             "supportESkillEffectVariableModifier": "0",
                             "supportStatusToStack": {}
                         },
-                        "eRegenSourceValue": "Percentage",
+                        "eRegenSourceValue": "Flat",
                         "startDisabled": false,
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "Using",
@@ -28177,32 +28207,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.08,
-                        0.1
+                        100.0,
+                        120.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.1,
-                        0.12
+                        120.0,
+                        200.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.12,
-                        0.14
+                        200.0,
+                        280.0
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.14,
-                        0.16
+                        280.0,
+                        360.0
                     ]
                 }
             ],
@@ -28251,14 +28281,23 @@
                 "Grand"
             ],
             "incompatibleBlessings": [],
-            "modifierType": "Additive",
-            "upgradeModifierOverride": {
-                "0": 0.0,
-                "1": 0.01,
-                "2": 0.02,
-                "3": 0.03,
-                "4": 0.04,
-                "5": 0.05
+            "relicUpgradeModifierConfig": {
+                "name": "Default Relic Upgrade Modifier Config",
+                "type": "RelicUpgradeModifierConfig",
+                "modifierType": "Multiplicative",
+                "upgradeModifier": {
+                    "0": 1.0,
+                    "1": 1.2,
+                    "2": 1.4,
+                    "3": 1.6,
+                    "4": 1.8,
+                    "5": 2.0,
+                    "6": 2.2,
+                    "7": 2.4,
+                    "8": 2.6,
+                    "9": 2.8,
+                    "10": 3.0
+                }
             },
             "description": [
                 {
@@ -35809,7 +35848,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "{0} Obrażenia od podpalenia. Zabijanie podpalonych potworów sprawi, że ich łupy będą zawsze przyciągać Cię, bez ograniczeń zasięgu."
+                    "langTranslation": "{0} Obrażenia od podpalenia. Zabijanie podpalonych potworów sprawi, że ich łupy zawsze będą do ciebie przyciągać, bez ograniczeń zasięgu."
                 },
                 {
                     "langCode": "pt-br",
@@ -48277,7 +48316,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Jeśli Twoja obecna mana jest powyżej {0}, zyskaj {1} obrażeń od magii"
+                    "langTranslation": "Jeśli Twoja aktualna mana jest powyżej {0}, zyskaj {1} obrażeń od magii"
                 },
                 {
                     "langCode": "pt-br",
@@ -50460,7 +50499,7 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Wenn man verdorrte Gegner mit physischem Schaden trifft, wird ein Projektil aus Stacheln erzeugt, das {0} seines ursprünglichen Schadens verursacht."
+                    "langTranslation": "Wenn man verwelkte Gegner mit physischem Schaden trifft, wird ein Projektil aus Stacheln erzeugt, das {0} seines ursprünglichen Schadens verursacht."
                 },
                 {
                     "langCode": "en",
@@ -50476,7 +50515,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "物理ダメージでウィザード状態の敵に命中すると、ヴェール・オブ・クイルの弾丸が出現し、元のダメージの{0}を与える。"
+                    "langTranslation": "物理ダメージでウィザード状態の敵に命中すると、ヴェール・オブ・クイル弾が出現し、元のダメージの{0}を与える。"
                 },
                 {
                     "langCode": "pl",

@@ -3377,7 +3377,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージです。"
+                    "langTranslation": "過去 1 秒間にモンスターにダメージを与えた場合、1 秒あたりに回復する最大ライフのパーセンテージ。"
                 },
                 {
                     "langCode": "pl",
@@ -4757,7 +4757,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń zadawanych przez umiejętność przywoływania przy uderzaniu wrogów."
+                    "langTranslation": "Modyfikator mnożnikowy stosowany do wszystkich obrażeń zadawanych przez umiejętność przywoływania podczas uderzania wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -7049,7 +7049,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "発動時に関連スキルの投射物数を増加させます。余剰ボーナスは、追加の投射物を獲得するチャンスとしてロールされます。"
+                    "langTranslation": "発動時に関連スキルによる発射物の数を増加させます。余剰ボーナスは、追加の発射物を獲得するチャンスとしてロールされます。"
                 },
                 {
                     "langCode": "pl",
@@ -8081,7 +8081,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit beim Treffen von Feinden angewendet."
+                    "langTranslation": "Multiplikativer Modifikator wird auf den gesamten Schaden der Scharfschützenfertigkeit angewendet, wenn Gegner getroffen werden."
                 },
                 {
                     "langCode": "en",
@@ -11223,7 +11223,7 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Bonus de chance de butin de l'horloge infernale"
+                    "langTranslation": "Bonus Chance de butin de l'horloge infernale"
                 },
                 {
                     "langCode": "ja",

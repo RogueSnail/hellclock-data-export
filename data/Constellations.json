@@ -40121,7 +40121,22 @@
                             {
                                 "name": "24c4bb9c-ac3f-4595-876d-7110e195d542",
                                 "type": "SkillBehaviorNodeAffixDefinition",
-                                "additionalLocalizationVariables": [],
+                                "additionalLocalizationVariables": [
+                                    {
+                                        "type": "SkillBehaviorLocalizationVariable",
+                                        "skillEffectVariableReference": {
+                                            "type": "SkillEffectVariableReference",
+                                            "valueOrName": "Penalty",
+                                            "eSkillEffectVariableModifier": "0",
+                                            "statusToStack": {},
+                                            "supportVariableValueOrName": "",
+                                            "supportESkillEffectVariableModifier": "0",
+                                            "supportStatusToStack": {}
+                                        },
+                                        "overrideFormat": false,
+                                        "valueFormatOverride": "Multiplicative"
+                                    }
+                                ],
                                 "eModifierType": "Additive",
                                 "valuePerLevel": 200.0,
                                 "behaviorData": {
@@ -40140,6 +40155,13 @@
                                                 "baseValue": 0.0,
                                                 "eSkillEffectVariableStackType": "UseHighest",
                                                 "eSkillEffectVariableFormat": "Rounded"
+                                            },
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Penalty",
+                                                "baseValue": 0.35,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Multiplicative"
                                             }
                                         ]
                                     },
@@ -40206,6 +40228,52 @@
                                             "triggerTargetEnumValue": 0,
                                             "triggerTargetStringValue": "",
                                             "subEffects": []
+                                        },
+                                        {
+                                            "name": "Add Character Stat Modifier Skill Effect Data",
+                                            "type": "AddCharacterStatModifierSkillEffectData",
+                                            "effectTarget": "Self",
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": true,
+                                            "effectTrigger": "Always",
+                                            "characterEffectTrigger": "Always",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {}
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": [],
+                                            "statModifiers": [
+                                                {
+                                                    "type": "SkillEffectStatModifierDefinition",
+                                                    "eStatDefinition": "CooldownSpeed",
+                                                    "modifierType": "Multiplicative",
+                                                    "value": {
+                                                        "type": "SkillEffectVariableReference",
+                                                        "valueOrName": "Penalty",
+                                                        "eSkillEffectVariableModifier": "0",
+                                                        "statusToStack": {},
+                                                        "supportVariableValueOrName": "",
+                                                        "supportESkillEffectVariableModifier": "0",
+                                                        "supportStatusToStack": {}
+                                                    },
+                                                    "useStatConversion": "NoConversion",
+                                                    "conversionStatDefinition": "BaseDamage",
+                                                    "listenToVariableModifiersUpdate": false
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
@@ -40214,39 +40282,39 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Fertigkeiten haben keine Abklingzeiten mehr.\nErhöht die Manakosten jeder Fertigkeit pro Sekunde Abklingzeit, die durch diesen Effekt entfernt wird, um {0}."
+                                        "langTranslation": "Fertigkeiten haben keine Abklingzeiten mehr (einige Fertigkeiten haben jedoch eine minimale Abklingzeit, die von diesem Effekt nicht aufgehoben werden kann).\nErhöht die Manakosten jeder Fertigkeit pro Sekunde Abklingzeit, die durch diesen Effekt entfernt wird, um {0}.\nDeine Abklinggeschwindigkeit wird um {1} verringert."
                                     },
                                     {
                                         "langCode": "en",
-                                        "langTranslation": "Skills no longer have Cooldowns.\nIncrease the Mana cost for each skill by {0} for each second of Cooldown removed by this effect."
+                                        "langTranslation": "Skills no longer have Cooldowns (but some Skills have a minimum Cooldown time that cannot be overriden by this effect)\nIncrease the Mana cost for each skill by {0} for each second of Cooldown removed by this effect.\nYour Cooldown Speed is reduced by {1}."
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Las habilidades ya no tienen enfriamiento.\nAumenta el costo de maná de cada habilidad en {0} por cada segundo de enfriamiento que quita este efecto."
+                                        "langTranslation": "Las habilidades ya no tienen enfriamiento (pero algunas habilidades tienen un tiempo de reutilización mínimo que este efecto no puede anular).\nAumenta el costo de maná de cada habilidad en {0} por cada segundo de enfriamiento que quita este efecto.\nTu velocidad de reutilización se reduce en {1}."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Les compétences n'ont plus de temps de recharge.\nAugmente le coût en ferveur de chaque compétence de {0} par seconde de temps de recharge gagnée grâce à cet effet."
+                                        "langTranslation": "Les compétences n'ont plus de temps de recharge (mais certaines compétences ont un temps de recharge minimum que cet effet ne peut pas annuler).\nAugmente le coût en ferveur de chaque compétence de {0} par seconde de temps de recharge gagnée grâce à cet effet.\nVotre vitesse de recharge est réduite de {1}."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "スキルのクールダウンが無くなる。\n各スキルのマナコストは、この効果によって取り除かれたクールダウン1秒につき{0}増加する。"
+                                        "langTranslation": "スキルのクールダウンが無くなる（ただし、一部のスキルにはこの効果では無効化できない最小クールダウン時間がある）。\nこの効果によって取り除かれたクールダウン1秒につき、各スキルのマナコストが{0}増加する。\nクールダウン速度が{1}低下する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Umiejętności nie mają już czasu odnowienia.\nZwiększ koszt many dla każdej umiejętności o {0} za każdą sekundę czasu odnowienia usuniętego przez ten efekt."
+                                        "langTranslation": "Umiejętności nie mają już czasu odnowienia (ale niektóre umiejętności mają minimalny czas odnowienia, którego ten efekt nie może ominąć).\nZwiększ koszt many dla każdej umiejętności o {0} za każdą sekundę czasu odnowienia usuniętego przez ten efekt.\nTwoja szybkość odnowienia zostaje zmniejszona o {1}."
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Habilidades não têm mais Tempo de Recarga.\nAumenta o custo de Energia de cada habilidade em {0} para cada segundo de Tempo de Recarga removido por este efeito."
+                                        "langTranslation": "Habilidades não têm mais Tempo de Recarga (mas algumas Habilidades têm um Tempo de Recarga mínimo que não pode ser ignorado por este efeito).\nAumenta o custo de Energia de cada habilidade em {0} para cada segundo de Tempo de Recarga removido por este efeito.\nSua Velocidade de Recarga é reduzida em {1}."
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Навыкам больше не нужна перезарядка.\nУвеличивает расход маны всех навыков на {0} за каждую секунду перезарядки, убранной этим эффектом."
+                                        "langTranslation": "Навыкам больше не нужна перезарядка (но у некоторых навыков есть минимальное время перезарядки, которое этот эффект не может отменить).\nУвеличивает расход маны всех навыков на {0} за каждую секунду перезарядки, убранной этим эффектом.\nСкорость перезарядки уменьшается на {1}."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "技能不再有冷却时间。\n每移除 1 秒冷却时间，该技能的法力消耗将增加 {0}。"
+                                        "langTranslation": "技能不再有冷却时间（但某些技能有冷却时间下限，此效果无法突破该下限）。\n每移除 1 秒冷却时间，该技能的法力消耗将增加 {0}。\n你的冷却速度降低 {1}。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -41304,7 +41372,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "{0} Chance, bei einem Kill einen Trank zu erhalten\n{1} Chance, beim Treffen von Elitegegnern einen Trank zu erhalten"
                                     },
                                     {
                                         "langCode": "en",
@@ -41312,31 +41380,31 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "{0} de probabilidad de obtener una poción al matar enemigos\n{1} de probabilidad de obtener una poción al golpear enemigos de élite"
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "{0} de chances d’obtenir une potion en tuant un ennemi\n{1} de chances d’obtenir une potion en touchant des ennemis d’élite"
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "キル時にポーションを獲得する確率 {0}\nエリート敵にヒットしたときにポーションを獲得する確率 {1}"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "{0} szansy na zdobycie Mikstury przy zabiciu wroga\n{1} szansy na zdobycie Mikstury przy trafieniu Elitarnych wrogów"
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "{0} de chance de ganhar uma Poção ao matar inimigos\n{1} de chance de ganhar uma Poção ao atingir inimigos de Elite"
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "{0} шанс получить зелье при убийстве врага\n{1} шанс получить зелье при попадании по элитным врагам"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "{0} chance to gain a Potion on Kill\n{1} chance to gain a Potion on hitting Elite enemies"
+                                        "langTranslation": "{0} 几率在击杀敌人时获得一瓶药水\n{1} 几率在击中精英敌人时获得一瓶药水"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
