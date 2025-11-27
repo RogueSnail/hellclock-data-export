@@ -12,6 +12,7 @@
                 360.0,
                 400.0
             ],
+            "GUID": "86b25177-dafc-46a2-831d-55c94b4ec90e",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -123,6 +124,7 @@
                 620.0,
                 380.0
             ],
+            "GUID": "8a2b22d3-1a7c-45a0-8163-b6fd3f8ff1bd",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -234,6 +236,7 @@
                 820.0,
                 380.0
             ],
+            "GUID": "8f6757e8-92f5-4636-a5fd-e59feabc89ec",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -345,6 +348,7 @@
                 1060.0,
                 380.0
             ],
+            "GUID": "5a999a9f-5a39-4290-89fd-c686f8c3b718",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -456,6 +460,7 @@
                 300.0,
                 580.0
             ],
+            "GUID": "b0152648-9bd3-4dec-9994-132deb742553",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -521,7 +526,11 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "SkillAreaOfEffect": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "SkillAreaOfEffect": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -578,6 +587,7 @@
                 440.0,
                 760.0
             ],
+            "GUID": "569e75a4-35df-4454-94f2-3e966c5d0b73",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -643,7 +653,11 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "SkillAreaOfEffect": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "SkillAreaOfEffect": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -700,6 +714,7 @@
                 200.0,
                 760.0
             ],
+            "GUID": "b285d218-e5dc-4537-9ef4-d3948b89a01a",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -765,7 +780,11 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "SkillAreaOfEffect": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "SkillAreaOfEffect": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -822,6 +841,7 @@
                 800.0,
                 1580.0
             ],
+            "GUID": "61d03ebc-df74-45bc-b361-9c92e1820b62",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -978,6 +998,7 @@
                 980.0,
                 1740.0
             ],
+            "GUID": "5b46a506-23b6-48ae-9bb0-6474e9192cec",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1089,6 +1110,7 @@
                 1160.0,
                 1920.0
             ],
+            "GUID": "7b4a55bc-86c5-4ca3-8ee0-89192e1b8327",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1200,6 +1222,7 @@
                 740.0,
                 600.0
             ],
+            "GUID": "a29e8399-302a-412a-a114-0141eaecb81b",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1273,8 +1296,16 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "AttackSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig",
-                            "MovementSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "AttackSpeed": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            },
+                            "MovementSpeed": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -1331,6 +1362,7 @@
                 760.0,
                 800.0
             ],
+            "GUID": "5ef2b107-633c-483e-996a-358c65d3b874",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1396,8 +1428,16 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "AttackSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig",
-                            "MovementSpeed": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "AttackSpeed": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            },
+                            "MovementSpeed": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -1454,6 +1494,7 @@
                 620.0,
                 980.0
             ],
+            "GUID": "325c0cea-57e1-4f27-ba6e-8fe98caf9cbd",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1651,6 +1692,7 @@
                 920.0,
                 600.0
             ],
+            "GUID": "6e8a07b6-2944-4b05-a3e0-20bdfc409659",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1770,6 +1812,7 @@
                 1180.0,
                 600.0
             ],
+            "GUID": "5cd57ceb-2a89-4718-8eb1-f181d525e4e5",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1881,6 +1924,7 @@
                 960.0,
                 800.0
             ],
+            "GUID": "add30814-8dd1-4053-8843-14df006a0fb7",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -1992,6 +2036,7 @@
                 880.0,
                 980.0
             ],
+            "GUID": "e74e2ad4-c62e-404f-81fd-215cb41c9f6c",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2103,6 +2148,7 @@
                 200.0,
                 980.0
             ],
+            "GUID": "4b74be67-2e9b-4654-ad95-00db4f9f9ce3",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2246,6 +2292,7 @@
                 -40.0,
                 980.0
             ],
+            "GUID": "7f759b43-fc04-4d13-8ba2-d1416b1d8cd4",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2356,6 +2403,7 @@
                 960.0,
                 1180.0
             ],
+            "GUID": "0b429544-0dc3-4c52-a46d-c9951200d4d1",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2467,6 +2515,7 @@
                 780.0,
                 1180.0
             ],
+            "GUID": "21ae1972-4c3e-4765-af7a-0ff60cba016d",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2578,6 +2627,7 @@
                 580.0,
                 1180.0
             ],
+            "GUID": "4a2cfc44-4c9d-4952-b3b2-b3f0922dd982",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2689,6 +2739,7 @@
                 400.0,
                 1180.0
             ],
+            "GUID": "ffe06514-399e-4081-a305-d06d96dd701d",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2800,6 +2851,7 @@
                 200.0,
                 1180.0
             ],
+            "GUID": "343287df-b5a1-4a5d-8466-1bc3354f5131",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -2911,6 +2963,7 @@
                 -20.0,
                 1180.0
             ],
+            "GUID": "2f2e2c46-766c-4698-b9fd-1628d787d4aa",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3022,6 +3075,7 @@
                 1160.0,
                 1180.0
             ],
+            "GUID": "5e8f8fe3-5096-4beb-ba1e-548e36cee0cf",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3133,6 +3187,7 @@
                 1320.0,
                 1180.0
             ],
+            "GUID": "13c376f6-42fd-46b7-8dfc-5e12fc3cc6f3",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3244,6 +3299,7 @@
                 1340.0,
                 1380.0
             ],
+            "GUID": "24cc11f9-4e91-4fc7-8c3a-bdbf481e7309",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3317,7 +3373,11 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "SkillProjectileAmount": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "SkillProjectileAmount": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -3374,6 +3434,7 @@
                 620.0,
                 1400.0
             ],
+            "GUID": "01812d28-4459-431f-bcac-9d083fc39bf0",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3507,6 +3568,7 @@
                 860.0,
                 1400.0
             ],
+            "GUID": "ae3e941b-e285-47f1-aae4-680abe8211a2",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3616,6 +3678,7 @@
                 1140.0,
                 1620.0
             ],
+            "GUID": "60c41c1a-3489-4f83-9308-39e7dc525ee8",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3725,6 +3788,7 @@
                 1100.0,
                 1420.0
             ],
+            "GUID": "3e478ce3-5806-4b10-af37-f3fe598d50ba",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3834,6 +3898,7 @@
                 1380.0,
                 1560.0
             ],
+            "GUID": "99925595-b227-4773-b9af-e2f581131193",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -3945,6 +4010,7 @@
                 1540.0,
                 1660.0
             ],
+            "GUID": "70a42654-7618-4b10-9aba-efd6d6a63fec",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4056,6 +4122,7 @@
                 380.0,
                 1380.0
             ],
+            "GUID": "e14afd4b-beb3-448a-9285-23deefa5a8fa",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4167,6 +4234,7 @@
                 180.0,
                 1380.0
             ],
+            "GUID": "1b8b807c-07ce-4174-a16e-a974d78f7842",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4278,6 +4346,7 @@
                 440.0,
                 1640.0
             ],
+            "GUID": "d4cd1f05-f4c0-4491-8fc7-6761790e1ad1",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4343,7 +4412,11 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "StunResistance": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "StunResistance": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 1.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -4400,6 +4473,7 @@
                 260.0,
                 1580.0
             ],
+            "GUID": "0ddac70d-240b-4ee5-b288-1f39dde0f7ba",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4465,7 +4539,11 @@
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
                         "baseStatModifiers": {
-                            "WitherResistance": "HellClock.Stats.CharacterSheetBaseModifierConfig"
+                            "WitherResistance": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 1.0
+                            }
                         },
                         "statModifiersPerType": {},
                         "specificSheetBaseStatModifiers": {}
@@ -4522,6 +4600,7 @@
                 620.0,
                 1960.0
             ],
+            "GUID": "73456de1-b27e-47ad-9d96-504ee5255d43",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4633,6 +4712,7 @@
                 620.0,
                 1740.0
             ],
+            "GUID": "e3e875c5-a4d7-4de8-b934-b0fc19be4cbe",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4744,6 +4824,7 @@
                 380.0,
                 1960.0
             ],
+            "GUID": "7cb25844-c325-468f-a0ad-968889fb5f90",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4855,6 +4936,7 @@
                 820.0,
                 1960.0
             ],
+            "GUID": "686a419b-165f-4dbe-b192-f37c4654236c",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -4966,6 +5048,7 @@
                 700.0,
                 120.0
             ],
+            "GUID": "78b2e1e3-af7f-4b38-aef1-36221ccbb135",
             "edges": [],
             "sprite": "UI_HellLevel_Icon",
             "nameLocalizationKey": [
@@ -5068,6 +5151,7 @@
                 380.0,
                 2140.0
             ],
+            "GUID": "e507a6a9-6bc4-44ab-9c3b-f72495dea50f",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5179,6 +5263,7 @@
                 380.0,
                 2320.0
             ],
+            "GUID": "b0486408-6d57-4df4-9120-f48cee94b8e9",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5290,6 +5375,7 @@
                 620.0,
                 2480.0
             ],
+            "GUID": "94aef6a1-fa41-4f0b-b68f-eaf566a802c6",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5425,6 +5511,7 @@
                 820.0,
                 2140.0
             ],
+            "GUID": "dc8e6a46-2b65-40eb-963e-c450e00f9a1c",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5536,6 +5623,7 @@
                 820.0,
                 2300.0
             ],
+            "GUID": "39cdcbe7-1819-488c-b0d6-c339914b821c",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5647,6 +5735,7 @@
                 620.0,
                 2200.0
             ],
+            "GUID": "07ac5ed6-10e6-48bf-bfc6-cf1393d3a186",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5758,6 +5847,7 @@
                 860.0,
                 2680.0
             ],
+            "GUID": "c4001ee0-53e0-4934-a240-e3496e0ddb29",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5869,6 +5959,7 @@
                 620.0,
                 2680.0
             ],
+            "GUID": "49c12a35-c074-4110-9da8-ca4576c2b5b3",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -5980,6 +6071,7 @@
                 620.0,
                 2880.0
             ],
+            "GUID": "70bb970a-5dc6-48b5-8108-be2652e6ca24",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -6091,6 +6183,7 @@
                 400.0,
                 2680.0
             ],
+            "GUID": "0a9d6095-e497-41a8-9df8-af3c4bee74b7",
             "edges": [
                 {
                     "type": "SkillTreeNodeEdgeData",
@@ -6202,6 +6295,7 @@
                 280.0,
                 2880.0
             ],
+            "GUID": "59a0919e-7ac1-4769-bbfd-59547e3e9db5",
             "edges": [],
             "sprite": "Icon_Soulstone_Base",
             "nameLocalizationKey": [

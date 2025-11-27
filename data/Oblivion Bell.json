@@ -118,7 +118,8 @@
             "Position": [
                 480.0,
                 -420.0
-            ]
+            ],
+            "GUID": "113836f1-a9ce-4e0b-ab0a-cc101adbfbfb"
         },
         {
             "name": "3101dda6-30b6-467c-8757-30f5ef291134",
@@ -227,7 +228,8 @@
             "Position": [
                 500.0,
                 -220.0
-            ]
+            ],
+            "GUID": "3101dda6-30b6-467c-8757-30f5ef291134"
         },
         {
             "name": "38ea687e-9a55-45ba-9b7b-86d7a7c9850c",
@@ -344,7 +346,8 @@
             "Position": [
                 680.0,
                 -540.0
-            ]
+            ],
+            "GUID": "38ea687e-9a55-45ba-9b7b-86d7a7c9850c"
         },
         {
             "name": "2a26765a-38de-428e-8678-4c5a7f7c329c",
@@ -453,7 +456,8 @@
             "Position": [
                 860.0,
                 -220.0
-            ]
+            ],
+            "GUID": "2a26765a-38de-428e-8678-4c5a7f7c329c"
         },
         {
             "name": "409fcb48-1652-408e-9ae3-e25dbc569b00",
@@ -562,7 +566,8 @@
             "Position": [
                 880.0,
                 -420.0
-            ]
+            ],
+            "GUID": "409fcb48-1652-408e-9ae3-e25dbc569b00"
         },
         {
             "name": "3b08be91-52e6-4950-b9da-c5acb910dfb8",
@@ -671,7 +676,8 @@
             "Position": [
                 680.0,
                 -100.0
-            ]
+            ],
+            "GUID": "3b08be91-52e6-4950-b9da-c5acb910dfb8"
         },
         {
             "name": "ecb1a751-2d4a-4cb1-9f0b-319d0be0d01c",
@@ -780,7 +786,8 @@
             "Position": [
                 460.0,
                 -700.0
-            ]
+            ],
+            "GUID": "ecb1a751-2d4a-4cb1-9f0b-319d0be0d01c"
         },
         {
             "name": "8ae64a76-e564-4079-9909-f237cdd303da",
@@ -880,7 +887,8 @@
             "Position": [
                 680.0,
                 -780.0
-            ]
+            ],
+            "GUID": "8ae64a76-e564-4079-9909-f237cdd303da"
         },
         {
             "name": "7c649193-ad47-4689-ab62-b5d166dee95c",
@@ -989,7 +997,8 @@
             "Position": [
                 880.0,
                 -720.0
-            ]
+            ],
+            "GUID": "7c649193-ad47-4689-ab62-b5d166dee95c"
         },
         {
             "name": "7d239e7f-8a76-4056-9878-32e81e81bbb4",
@@ -1098,7 +1107,8 @@
             "Position": [
                 980.0,
                 -960.0
-            ]
+            ],
+            "GUID": "7d239e7f-8a76-4056-9878-32e81e81bbb4"
         },
         {
             "name": "dc260031-fbcc-4940-a587-11737a14a5ca",
@@ -1207,7 +1217,8 @@
             "Position": [
                 980.0,
                 -1140.0
-            ]
+            ],
+            "GUID": "dc260031-fbcc-4940-a587-11737a14a5ca"
         },
         {
             "name": "cbe00e72-aac6-483e-8da6-fa35f56af3a7",
@@ -1307,7 +1318,8 @@
             "Position": [
                 240.0,
                 -560.0
-            ]
+            ],
+            "GUID": "cbe00e72-aac6-483e-8da6-fa35f56af3a7"
         },
         {
             "name": "1f8968a4-df1e-46fa-9be2-9d5152e850fa",
@@ -1440,7 +1452,8 @@
             "Position": [
                 240.0,
                 -340.0
-            ]
+            ],
+            "GUID": "1f8968a4-df1e-46fa-9be2-9d5152e850fa"
         },
         {
             "name": "e6c4ab88-a3aa-4828-a7cf-af51b77cc283",
@@ -1549,7 +1562,8 @@
             "Position": [
                 240.0,
                 -120.0
-            ]
+            ],
+            "GUID": "e6c4ab88-a3aa-4828-a7cf-af51b77cc283"
         },
         {
             "name": "83b5923c-28f4-40d5-944b-631495e5478b",
@@ -1658,7 +1672,8 @@
             "Position": [
                 360.0,
                 20.0
-            ]
+            ],
+            "GUID": "83b5923c-28f4-40d5-944b-631495e5478b"
         },
         {
             "name": "01abc9e8-13a0-4636-ad81-850972c8278d",
@@ -1758,7 +1773,8 @@
             "Position": [
                 320.0,
                 540.0
-            ]
+            ],
+            "GUID": "01abc9e8-13a0-4636-ad81-850972c8278d"
         },
         {
             "name": "58b444f5-f5fd-4bb5-b89d-5d7565dac49d",
@@ -1883,7 +1899,8 @@
             "Position": [
                 160.0,
                 220.0
-            ]
+            ],
+            "GUID": "58b444f5-f5fd-4bb5-b89d-5d7565dac49d"
         },
         {
             "name": "3c499985-a803-4fa1-bb4c-ac5969969a42",
@@ -1992,7 +2009,8 @@
             "Position": [
                 420.0,
                 220.0
-            ]
+            ],
+            "GUID": "3c499985-a803-4fa1-bb4c-ac5969969a42"
         },
         {
             "name": "acb2b752-6bf8-4936-9f35-0c961df6f386",
@@ -2101,7 +2119,8 @@
             "Position": [
                 580.0,
                 220.0
-            ]
+            ],
+            "GUID": "acb2b752-6bf8-4936-9f35-0c961df6f386"
         },
         {
             "name": "b64e3329-99e8-4e63-91c9-3972d7b59658",
@@ -2210,7 +2229,8 @@
             "Position": [
                 900.0,
                 220.0
-            ]
+            ],
+            "GUID": "b64e3329-99e8-4e63-91c9-3972d7b59658"
         },
         {
             "name": "5230b086-c46f-45ed-aac7-8bfc5ee309a9",
@@ -2319,7 +2339,8 @@
             "Position": [
                 1080.0,
                 -40.0
-            ]
+            ],
+            "GUID": "5230b086-c46f-45ed-aac7-8bfc5ee309a9"
         },
         {
             "name": "18c6eb33-b659-461a-b657-062285217198",
@@ -2428,7 +2449,8 @@
             "Position": [
                 960.0,
                 100.0
-            ]
+            ],
+            "GUID": "18c6eb33-b659-461a-b657-062285217198"
         },
         {
             "name": "adfbc65b-accf-4a11-9703-8334f3dc6b86",
@@ -2537,7 +2559,8 @@
             "Position": [
                 1100.0,
                 -700.0
-            ]
+            ],
+            "GUID": "adfbc65b-accf-4a11-9703-8334f3dc6b86"
         },
         {
             "name": "71d78870-e00c-49e1-8393-eea234612bd4",
@@ -2646,7 +2669,8 @@
             "Position": [
                 1220.0,
                 -300.0
-            ]
+            ],
+            "GUID": "71d78870-e00c-49e1-8393-eea234612bd4"
         },
         {
             "name": "71a564f1-3492-459e-8bf8-f26a38a45073",
@@ -2755,7 +2779,8 @@
             "Position": [
                 1160.0,
                 -580.0
-            ]
+            ],
+            "GUID": "71a564f1-3492-459e-8bf8-f26a38a45073"
         },
         {
             "name": "5d5267b2-8b32-4dd5-80f4-7c150c6955aa",
@@ -2864,7 +2889,8 @@
             "Position": [
                 1200.0,
                 -440.0
-            ]
+            ],
+            "GUID": "5d5267b2-8b32-4dd5-80f4-7c150c6955aa"
         },
         {
             "name": "665f3661-7a9f-4991-bc6a-7d055cb8ae71",
@@ -3094,7 +3120,8 @@
             "Position": [
                 1280.0,
                 100.0
-            ]
+            ],
+            "GUID": "665f3661-7a9f-4991-bc6a-7d055cb8ae71"
         },
         {
             "name": "e669bdf8-89fa-4e3c-a594-fe5b091b5332",
@@ -3211,7 +3238,8 @@
             "Position": [
                 -20.0,
                 340.0
-            ]
+            ],
+            "GUID": "e669bdf8-89fa-4e3c-a594-fe5b091b5332"
         },
         {
             "name": "55794f05-7e08-4023-b8ad-87b9850c6229",
@@ -3311,7 +3339,8 @@
             "Position": [
                 -20.0,
                 -300.0
-            ]
+            ],
+            "GUID": "55794f05-7e08-4023-b8ad-87b9850c6229"
         },
         {
             "name": "ef869300-3da5-4cc0-aca1-5881af4a6ee7",
@@ -3411,7 +3440,8 @@
             "Position": [
                 -20.0,
                 -100.0
-            ]
+            ],
+            "GUID": "ef869300-3da5-4cc0-aca1-5881af4a6ee7"
         },
         {
             "name": "8d4a96fc-3b02-4e7e-a1ac-1f2d713c3550",
@@ -3528,7 +3558,8 @@
             "Position": [
                 -20.0,
                 -480.0
-            ]
+            ],
+            "GUID": "8d4a96fc-3b02-4e7e-a1ac-1f2d713c3550"
         },
         {
             "name": "755bf234-3879-459e-bf8a-e26baaa549f6",
@@ -3637,7 +3668,8 @@
             "Position": [
                 -260.0,
                 -300.0
-            ]
+            ],
+            "GUID": "755bf234-3879-459e-bf8a-e26baaa549f6"
         },
         {
             "name": "857f8983-be8c-4c9c-8cf8-988683387695",
@@ -3746,7 +3778,8 @@
             "Position": [
                 240.0,
                 -820.0
-            ]
+            ],
+            "GUID": "857f8983-be8c-4c9c-8cf8-988683387695"
         },
         {
             "name": "c734afb3-85e7-4d36-8b11-96ec9678c6d2",
@@ -3855,7 +3888,8 @@
             "Position": [
                 40.0,
                 -780.0
-            ]
+            ],
+            "GUID": "c734afb3-85e7-4d36-8b11-96ec9678c6d2"
         },
         {
             "name": "e0046e81-6aea-4128-8f4a-881d1e95aa00",
@@ -3972,7 +4006,8 @@
             "Position": [
                 220.0,
                 -1040.0
-            ]
+            ],
+            "GUID": "e0046e81-6aea-4128-8f4a-881d1e95aa00"
         },
         {
             "name": "d897d166-1af9-4957-bc57-4655422b8f56",
@@ -4072,7 +4107,8 @@
             "Position": [
                 -180.0,
                 -800.0
-            ]
+            ],
+            "GUID": "d897d166-1af9-4957-bc57-4655422b8f56"
         },
         {
             "name": "4ba62888-909b-451a-9503-803ddbe40c08",
@@ -4260,7 +4296,8 @@
             "Position": [
                 1540.0,
                 -740.0
-            ]
+            ],
+            "GUID": "4ba62888-909b-451a-9503-803ddbe40c08"
         },
         {
             "name": "51b9f473-a154-48bb-9cb8-fc29c043e1d8",
@@ -4385,7 +4422,8 @@
             "Position": [
                 1120.0,
                 340.0
-            ]
+            ],
+            "GUID": "51b9f473-a154-48bb-9cb8-fc29c043e1d8"
         },
         {
             "name": "eec61952-867a-494c-9b61-be6d5698a39b",
@@ -4502,7 +4540,8 @@
             "Position": [
                 1540.0,
                 -340.0
-            ]
+            ],
+            "GUID": "eec61952-867a-494c-9b61-be6d5698a39b"
         },
         {
             "name": "c09a1692-a8f8-4da3-a918-1da7b7597756",
@@ -4602,7 +4641,8 @@
             "Position": [
                 1540.0,
                 -1020.0
-            ]
+            ],
+            "GUID": "c09a1692-a8f8-4da3-a918-1da7b7597756"
         },
         {
             "name": "4c83d17b-fc9a-47c8-acfe-4a2c6915ef41",
@@ -4711,7 +4751,8 @@
             "Position": [
                 1340.0,
                 -1280.0
-            ]
+            ],
+            "GUID": "4c83d17b-fc9a-47c8-acfe-4a2c6915ef41"
         },
         {
             "name": "8e5a3759-1190-4f03-b806-aa2ecdc2ae35",
@@ -4828,7 +4869,8 @@
             "Position": [
                 1060.0,
                 -1520.0
-            ]
+            ],
+            "GUID": "8e5a3759-1190-4f03-b806-aa2ecdc2ae35"
         },
         {
             "name": "316481ad-d5b9-4651-82a9-b6efa18c3b47",
@@ -4937,7 +4979,8 @@
             "Position": [
                 660.0,
                 -1280.0
-            ]
+            ],
+            "GUID": "316481ad-d5b9-4651-82a9-b6efa18c3b47"
         },
         {
             "name": "c9484580-7bfd-4b43-8090-532cc8683698",
@@ -5062,7 +5105,8 @@
             "Position": [
                 660.0,
                 -1040.0
-            ]
+            ],
+            "GUID": "c9484580-7bfd-4b43-8090-532cc8683698"
         },
         {
             "name": "728f00f2-cb36-4097-8f67-7956f0776fb4",
@@ -5171,7 +5215,8 @@
             "Position": [
                 660.0,
                 -1600.0
-            ]
+            ],
+            "GUID": "728f00f2-cb36-4097-8f67-7956f0776fb4"
         },
         {
             "name": "10bb0b42-10c9-4e4d-a08b-c0a1619e66e9",
@@ -5296,7 +5341,8 @@
             "Position": [
                 160.0,
                 -1500.0
-            ]
+            ],
+            "GUID": "10bb0b42-10c9-4e4d-a08b-c0a1619e66e9"
         },
         {
             "name": "e2eeb331-197d-424d-8fb8-87cd3b2e129a",
@@ -5396,7 +5442,8 @@
             "Position": [
                 -40.0,
                 -1620.0
-            ]
+            ],
+            "GUID": "e2eeb331-197d-424d-8fb8-87cd3b2e129a"
         },
         {
             "name": "0dc10894-96aa-4922-a57c-8d221b0942dd",
@@ -5537,7 +5584,8 @@
             "Position": [
                 660.0,
                 540.0
-            ]
+            ],
+            "GUID": "0dc10894-96aa-4922-a57c-8d221b0942dd"
         },
         {
             "name": "bce70529-a281-4754-b0cf-a7e274603e51",
@@ -5646,7 +5694,8 @@
             "Position": [
                 1120.0,
                 -180.0
-            ]
+            ],
+            "GUID": "bce70529-a281-4754-b0cf-a7e274603e51"
         },
         {
             "name": "43c72c35-cf0b-4745-a3e0-1c97d95ff256",
@@ -5763,7 +5812,8 @@
             "Position": [
                 1500.0,
                 220.0
-            ]
+            ],
+            "GUID": "43c72c35-cf0b-4745-a3e0-1c97d95ff256"
         },
         {
             "name": "92ad4b2c-200e-4e0f-bfb8-a5eeea2fac0a",
@@ -5880,7 +5930,8 @@
             "Position": [
                 1240.0,
                 540.0
-            ]
+            ],
+            "GUID": "92ad4b2c-200e-4e0f-bfb8-a5eeea2fac0a"
         },
         {
             "name": "e86fdd79-cb72-4a2b-a733-52752bac344c",
@@ -5989,7 +6040,8 @@
             "Position": [
                 -180.0,
                 -1080.0
-            ]
+            ],
+            "GUID": "e86fdd79-cb72-4a2b-a733-52752bac344c"
         },
         {
             "name": "f1153dc1-50cd-422d-9626-43efa1ba2f63",
@@ -6098,7 +6150,8 @@
             "Position": [
                 -180.0,
                 -1260.0
-            ]
+            ],
+            "GUID": "f1153dc1-50cd-422d-9626-43efa1ba2f63"
         },
         {
             "name": "2763fdf8-9251-4c99-89d0-b19978c1da3b",
@@ -6207,7 +6260,8 @@
             "Position": [
                 -180.0,
                 -1440.0
-            ]
+            ],
+            "GUID": "2763fdf8-9251-4c99-89d0-b19978c1da3b"
         },
         {
             "name": "55033fab-e057-4833-8d5b-e2a15021975b",
@@ -6223,39 +6277,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/40消費してアンロック"
+                            "langTranslation": "合計ポイントを119/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/40 总点数以解锁"
+                            "langTranslation": "投入 119/40 总点数以解锁"
                         }
                     ]
                 }
@@ -6354,7 +6408,8 @@
             "Position": [
                 420.0,
                 760.0
-            ]
+            ],
+            "GUID": "55033fab-e057-4833-8d5b-e2a15021975b"
         },
         {
             "name": "01d72ea2-c7c3-43eb-8a67-4aa11147b02a",
@@ -6370,39 +6425,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/35消費してアンロック"
+                            "langTranslation": "合計ポイントを119/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/35 总点数以解锁"
+                            "langTranslation": "投入 119/35 总点数以解锁"
                         }
                     ]
                 }
@@ -6501,7 +6556,8 @@
             "Position": [
                 900.0,
                 1060.0
-            ]
+            ],
+            "GUID": "01d72ea2-c7c3-43eb-8a67-4aa11147b02a"
         },
         {
             "name": "b16139f9-435f-49c9-8bad-1cc894d660c6",
@@ -6517,39 +6573,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/35消費してアンロック"
+                            "langTranslation": "合計ポイントを119/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/35 总点数以解锁"
+                            "langTranslation": "投入 119/35 总点数以解锁"
                         }
                     ]
                 }
@@ -6648,7 +6704,8 @@
             "Position": [
                 580.0,
                 1060.0
-            ]
+            ],
+            "GUID": "b16139f9-435f-49c9-8bad-1cc894d660c6"
         },
         {
             "name": "5809ea3f-e5c5-4878-8124-a89fcd82864c",
@@ -6664,39 +6721,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/35消費してアンロック"
+                            "langTranslation": "合計ポイントを119/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/35 总点数以解锁"
+                            "langTranslation": "投入 119/35 总点数以解锁"
                         }
                     ]
                 }
@@ -6795,7 +6852,8 @@
             "Position": [
                 420.0,
                 1060.0
-            ]
+            ],
+            "GUID": "5809ea3f-e5c5-4878-8124-a89fcd82864c"
         },
         {
             "name": "bb1cf681-b42c-4c1e-b266-262c2f4c8e15",
@@ -6811,39 +6869,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 },
@@ -6857,39 +6915,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 },
@@ -6903,39 +6961,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 },
@@ -6949,39 +7007,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -7080,7 +7138,8 @@
             "Position": [
                 660.0,
                 1320.0
-            ]
+            ],
+            "GUID": "bb1cf681-b42c-4c1e-b266-262c2f4c8e15"
         },
         {
             "name": "fe22622a-44d6-47c4-84b8-e0728d09119f",
@@ -7189,7 +7248,8 @@
             "Position": [
                 1200.0,
                 920.0
-            ]
+            ],
+            "GUID": "fe22622a-44d6-47c4-84b8-e0728d09119f"
         },
         {
             "name": "887d7906-ecdc-4236-9435-611ba4fd169c",
@@ -7298,7 +7358,8 @@
             "Position": [
                 980.0,
                 780.0
-            ]
+            ],
+            "GUID": "887d7906-ecdc-4236-9435-611ba4fd169c"
         },
         {
             "name": "69d749ab-d6c0-4320-9e60-f538871936f3",
@@ -7314,39 +7375,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/40消費してアンロック"
+                            "langTranslation": "合計ポイントを119/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/40 总点数以解锁"
+                            "langTranslation": "投入 119/40 总点数以解锁"
                         }
                     ]
                 }
@@ -7445,7 +7506,8 @@
             "Position": [
                 1420.0,
                 680.0
-            ]
+            ],
+            "GUID": "69d749ab-d6c0-4320-9e60-f538871936f3"
         },
         {
             "name": "6d157096-4396-4ae0-94e6-dbb5e9d3ba39",
@@ -7554,7 +7616,8 @@
             "Position": [
                 1420.0,
                 940.0
-            ]
+            ],
+            "GUID": "6d157096-4396-4ae0-94e6-dbb5e9d3ba39"
         },
         {
             "name": "3bd91b9b-618c-4f32-b119-bf12b134fcb2",
@@ -7679,7 +7742,8 @@
             "Position": [
                 1320.0,
                 1180.0
-            ]
+            ],
+            "GUID": "3bd91b9b-618c-4f32-b119-bf12b134fcb2"
         },
         {
             "name": "54e82f90-1519-4a43-afbb-d90a80d5bbec",
@@ -7703,39 +7767,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -7834,7 +7898,8 @@
             "Position": [
                 1320.0,
                 1380.0
-            ]
+            ],
+            "GUID": "54e82f90-1519-4a43-afbb-d90a80d5bbec"
         },
         {
             "name": "8aba6ccd-aeb3-4c1a-ae6d-4a86be305d5e",
@@ -7850,39 +7915,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/40消費してアンロック"
+                            "langTranslation": "合計ポイントを119/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/40 总点数以解锁"
+                            "langTranslation": "投入 119/40 总点数以解锁"
                         }
                     ]
                 }
@@ -7981,7 +8046,8 @@
             "Position": [
                 1680.0,
                 220.0
-            ]
+            ],
+            "GUID": "8aba6ccd-aeb3-4c1a-ae6d-4a86be305d5e"
         },
         {
             "name": "af0bcc25-8e6d-4752-874a-a799b9c1dc13",
@@ -8090,7 +8156,8 @@
             "Position": [
                 1680.0,
                 520.0
-            ]
+            ],
+            "GUID": "af0bcc25-8e6d-4752-874a-a799b9c1dc13"
         },
         {
             "name": "a5c6e92f-ff84-4cc3-81cb-d960fc5f82ee",
@@ -8199,7 +8266,8 @@
             "Position": [
                 1680.0,
                 760.0
-            ]
+            ],
+            "GUID": "a5c6e92f-ff84-4cc3-81cb-d960fc5f82ee"
         },
         {
             "name": "3a1caaa4-bfa1-4c14-b6f5-1ff20871d405",
@@ -8308,7 +8376,8 @@
             "Position": [
                 1680.0,
                 940.0
-            ]
+            ],
+            "GUID": "3a1caaa4-bfa1-4c14-b6f5-1ff20871d405"
         },
         {
             "name": "b2967bdc-d1ba-46dc-a7d0-02d45093e4da",
@@ -8324,39 +8393,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -8502,7 +8571,8 @@
             "Position": [
                 1680.0,
                 1200.0
-            ]
+            ],
+            "GUID": "b2967bdc-d1ba-46dc-a7d0-02d45093e4da"
         },
         {
             "name": "5c327a27-bef5-49ed-a9bc-a7e501737f03",
@@ -8518,39 +8588,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/40消費してアンロック"
+                            "langTranslation": "合計ポイントを119/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/40 总点数以解锁"
+                            "langTranslation": "投入 119/40 总点数以解锁"
                         }
                     ]
                 }
@@ -8649,7 +8719,8 @@
             "Position": [
                 40.0,
                 540.0
-            ]
+            ],
+            "GUID": "5c327a27-bef5-49ed-a9bc-a7e501737f03"
         },
         {
             "name": "005a3ef1-6984-4bbd-a6bb-431ff655fb9e",
@@ -8758,7 +8829,8 @@
             "Position": [
                 40.0,
                 880.0
-            ]
+            ],
+            "GUID": "005a3ef1-6984-4bbd-a6bb-431ff655fb9e"
         },
         {
             "name": "33897467-38d7-492c-bdf7-c709093b5a50",
@@ -8774,39 +8846,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -8905,7 +8977,8 @@
             "Position": [
                 160.0,
                 1080.0
-            ]
+            ],
+            "GUID": "33897467-38d7-492c-bdf7-c709093b5a50"
         },
         {
             "name": "26e36db7-63bd-400e-a7a4-9f608b52d014",
@@ -9014,7 +9087,8 @@
             "Position": [
                 160.0,
                 1300.0
-            ]
+            ],
+            "GUID": "26e36db7-63bd-400e-a7a4-9f608b52d014"
         },
         {
             "name": "0e011a81-bc66-4485-83ca-3de6b2adbd09",
@@ -9030,39 +9104,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/40消費してアンロック"
+                            "langTranslation": "合計ポイントを119/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/40 总点数以解锁"
+                            "langTranslation": "投入 119/40 总点数以解锁"
                         }
                     ]
                 }
@@ -9161,7 +9235,8 @@
             "Position": [
                 -300.0,
                 200.0
-            ]
+            ],
+            "GUID": "0e011a81-bc66-4485-83ca-3de6b2adbd09"
         },
         {
             "name": "10207d74-c764-482e-bef3-259f5c16e063",
@@ -9270,7 +9345,8 @@
             "Position": [
                 -300.0,
                 540.0
-            ]
+            ],
+            "GUID": "10207d74-c764-482e-bef3-259f5c16e063"
         },
         {
             "name": "9b1e00e4-e727-4764-9353-70bfacdfef54",
@@ -9379,7 +9455,8 @@
             "Position": [
                 -460.0,
                 540.0
-            ]
+            ],
+            "GUID": "9b1e00e4-e727-4764-9353-70bfacdfef54"
         },
         {
             "name": "53516567-4c43-4a83-b3c3-a10cb5d2a40a",
@@ -9488,7 +9565,8 @@
             "Position": [
                 -140.0,
                 540.0
-            ]
+            ],
+            "GUID": "53516567-4c43-4a83-b3c3-a10cb5d2a40a"
         },
         {
             "name": "b5dcacdb-45d0-45bb-b059-e779b8c85c8b",
@@ -9613,7 +9691,8 @@
             "Position": [
                 -300.0,
                 720.0
-            ]
+            ],
+            "GUID": "b5dcacdb-45d0-45bb-b059-e779b8c85c8b"
         },
         {
             "name": "4ce6d449-9eed-4a93-8f16-063222445802",
@@ -9629,39 +9708,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -9760,7 +9839,8 @@
             "Position": [
                 -320.0,
                 1120.0
-            ]
+            ],
+            "GUID": "4ce6d449-9eed-4a93-8f16-063222445802"
         },
         {
             "name": "9dc36e74-bb6d-4cc7-be7b-e61d0e2cd682",
@@ -9869,7 +9949,8 @@
             "Position": [
                 -320.0,
                 1360.0
-            ]
+            ],
+            "GUID": "9dc36e74-bb6d-4cc7-be7b-e61d0e2cd682"
         },
         {
             "name": "9642506e-face-4911-af82-c16fa6d706c2",
@@ -9978,7 +10059,8 @@
             "Position": [
                 -320.0,
                 1600.0
-            ]
+            ],
+            "GUID": "9642506e-face-4911-af82-c16fa6d706c2"
         },
         {
             "name": "64e08463-f3b4-471c-a982-fc6e2e5feb2c",
@@ -9994,39 +10076,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/35消費してアンロック"
+                            "langTranslation": "合計ポイントを119/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/35 总点数以解锁"
+                            "langTranslation": "投入 119/35 总点数以解锁"
                         }
                     ]
                 }
@@ -10125,7 +10207,8 @@
             "Position": [
                 440.0,
                 -2020.0
-            ]
+            ],
+            "GUID": "64e08463-f3b4-471c-a982-fc6e2e5feb2c"
         },
         {
             "name": "a5eb6a8d-cc17-4eb9-9c8a-f96199abfce4",
@@ -10141,39 +10224,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/20 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/20 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/20 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/20 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/20 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/20 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/20 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/20 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/20消費してアンロック"
+                            "langTranslation": "合計ポイントを119/20消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/20 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/20 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/20 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/20 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/20 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/20 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/20 总点数以解锁"
+                            "langTranslation": "投入 119/20 总点数以解锁"
                         }
                     ]
                 },
@@ -10280,7 +10363,8 @@
             "Position": [
                 660.0,
                 -1900.0
-            ]
+            ],
+            "GUID": "a5eb6a8d-cc17-4eb9-9c8a-f96199abfce4"
         },
         {
             "name": "b14a2a31-2991-469c-a90b-133bfc4dca58",
@@ -10380,7 +10464,8 @@
             "Position": [
                 420.0,
                 -1760.0
-            ]
+            ],
+            "GUID": "b14a2a31-2991-469c-a90b-133bfc4dca58"
         },
         {
             "name": "a7be26ee-0688-405e-972e-d4c936186931",
@@ -10489,7 +10574,8 @@
             "Position": [
                 900.0,
                 -1760.0
-            ]
+            ],
+            "GUID": "a7be26ee-0688-405e-972e-d4c936186931"
         },
         {
             "name": "b9973643-b9b6-4fc3-b3ef-2b8d7be82da2",
@@ -10598,7 +10684,8 @@
             "Position": [
                 1140.0,
                 -1700.0
-            ]
+            ],
+            "GUID": "b9973643-b9b6-4fc3-b3ef-2b8d7be82da2"
         },
         {
             "name": "7a5a4625-a13e-464c-9251-8c844f6c6071",
@@ -10707,7 +10794,8 @@
             "Position": [
                 200.0,
                 760.0
-            ]
+            ],
+            "GUID": "7a5a4625-a13e-464c-9251-8c844f6c6071"
         },
         {
             "name": "6d02fa62-5baf-452d-b215-22e97ebefd60",
@@ -10723,39 +10811,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -10854,7 +10942,8 @@
             "Position": [
                 -160.0,
                 1000.0
-            ]
+            ],
+            "GUID": "6d02fa62-5baf-452d-b215-22e97ebefd60"
         },
         {
             "name": "6758192a-5c0b-4208-b064-0c948e8c5900",
@@ -10870,39 +10959,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -11001,7 +11090,8 @@
             "Position": [
                 -460.0,
                 1000.0
-            ]
+            ],
+            "GUID": "6758192a-5c0b-4208-b064-0c948e8c5900"
         },
         {
             "name": "28ef7635-dd22-4a2c-9692-1fbb5f887498",
@@ -11110,7 +11200,8 @@
             "Position": [
                 740.0,
                 220.0
-            ]
+            ],
+            "GUID": "28ef7635-dd22-4a2c-9692-1fbb5f887498"
         },
         {
             "name": "8932eeb6-f22c-478a-a8eb-75f8098a0337",
@@ -11126,39 +11217,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/35消費してアンロック"
+                            "langTranslation": "合計ポイントを119/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/35 总点数以解锁"
+                            "langTranslation": "投入 119/35 总点数以解锁"
                         }
                     ]
                 }
@@ -11257,7 +11348,8 @@
             "Position": [
                 740.0,
                 1060.0
-            ]
+            ],
+            "GUID": "8932eeb6-f22c-478a-a8eb-75f8098a0337"
         },
         {
             "name": "54409bac-61aa-420f-a3c1-1b3a94664b8d",
@@ -11443,7 +11535,8 @@
             "Position": [
                 1340.0,
                 -80.0
-            ]
+            ],
+            "GUID": "54409bac-61aa-420f-a3c1-1b3a94664b8d"
         },
         {
             "name": "8d0150d5-eb84-4198-9986-45f3245f1df1",
@@ -11587,7 +11680,8 @@
             "Position": [
                 680.0,
                 -340.0
-            ]
+            ],
+            "GUID": "8d0150d5-eb84-4198-9986-45f3245f1df1"
         },
         {
             "name": "f1bb3180-70a7-4f0d-a7aa-161f3906b07b",
@@ -11603,39 +11697,39 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 14/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 14/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 14/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 14/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを14/55消費してアンロック"
+                            "langTranslation": "合計ポイントを119/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 14/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 14/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 14/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 14/55 总点数以解锁"
+                            "langTranslation": "投入 119/55 总点数以解锁"
                         }
                     ]
                 }
@@ -11734,7 +11828,8 @@
             "Position": [
                 660.0,
                 -2100.0
-            ]
+            ],
+            "GUID": "f1bb3180-70a7-4f0d-a7aa-161f3906b07b"
         }
     ]
 }
