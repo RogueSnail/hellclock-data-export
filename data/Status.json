@@ -15856,7 +15856,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Everything",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "BlankSkillDefinition",
+                    "id": 672,
+                    "type": "BlankSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [

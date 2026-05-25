@@ -1809,7 +1809,11 @@
                                     "useListOfSkills": "UseSkillTag",
                                     "listOfSkills": [],
                                     "skillTagFilter": "Everything",
-                                    "skillDefinition": {},
+                                    "skillDefinition": {
+                                        "name": "Tupa Orbiting Projectiles Skill Definition",
+                                        "id": 324,
+                                        "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                    },
                                     "variables": {
                                         "type": "SkillEffectVariables",
                                         "variables": [
@@ -2084,7 +2088,11 @@
                             {
                                 "name": "7735041e-b909-4b0c-b4ee-5f39419ce5f8",
                                 "type": "SkillEquipNodeAffixDefinition",
-                                "skillDefinition": {},
+                                "skillDefinition": {
+                                    "name": "Tupa Orbiting Projectiles Skill Definition",
+                                    "id": 324,
+                                    "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                },
                                 "hideDescription": true,
                                 "description": [
                                     {
@@ -2132,7 +2140,11 @@
                             {
                                 "name": "8f11dc84-2c64-43b5-a690-9e0703adf7b5",
                                 "type": "SkillUnlockNodeAffixDefinition",
-                                "skillDefinition": {},
+                                "skillDefinition": {
+                                    "name": "Tupa Orbiting Projectiles Skill Definition",
+                                    "id": 324,
+                                    "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                },
                                 "hideDescription": true,
                                 "description": [
                                     {
@@ -2600,7 +2612,11 @@
                                     "useListOfSkills": "UseSkillTag",
                                     "listOfSkills": [],
                                     "skillTagFilter": "Everything",
-                                    "skillDefinition": {},
+                                    "skillDefinition": {
+                                        "name": "Tupa Orbiting Projectiles Skill Definition",
+                                        "id": 324,
+                                        "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                    },
                                     "variables": {
                                         "type": "SkillEffectVariables",
                                         "variables": [
@@ -6771,7 +6787,11 @@
                             {
                                 "name": "396c967f-49c5-4d8c-b733-6983286efff9",
                                 "type": "SkillUnlockNodeAffixDefinition",
-                                "skillDefinition": {},
+                                "skillDefinition": {
+                                    "name": "Jurupari - Son of the Sun - Passive Skill Definition",
+                                    "id": 333,
+                                    "type": "AddStatusOnEnemyProximitySkillDefinition"
+                                },
                                 "hideDescription": true,
                                 "description": [
                                     {
@@ -6819,7 +6839,11 @@
                             {
                                 "name": "5486ce46-7127-43b9-85f9-b34d74545215",
                                 "type": "SkillEquipNodeAffixDefinition",
-                                "skillDefinition": {},
+                                "skillDefinition": {
+                                    "name": "Jurupari - Son of the Sun - Passive Skill Definition",
+                                    "id": 333,
+                                    "type": "AddStatusOnEnemyProximitySkillDefinition"
+                                },
                                 "hideDescription": true,
                                 "description": [
                                     {
@@ -6893,7 +6917,11 @@
                                     "useListOfSkills": "UseSkillTag",
                                     "listOfSkills": [],
                                     "skillTagFilter": "0",
-                                    "skillDefinition": {},
+                                    "skillDefinition": {
+                                        "name": "Jurupari - Son of the Sun - Passive Skill Definition",
+                                        "id": 333,
+                                        "type": "AddStatusOnEnemyProximitySkillDefinition"
+                                    },
                                     "variables": {
                                         "type": "SkillEffectVariables",
                                         "variables": [
@@ -28459,7 +28487,11 @@
                                     "useListOfSkills": "UseSkillTag",
                                     "listOfSkills": [],
                                     "skillTagFilter": "Everything",
-                                    "skillDefinition": {},
+                                    "skillDefinition": {
+                                        "name": "Tupa Orbiting Projectiles Skill Definition",
+                                        "id": 324,
+                                        "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                    },
                                     "variables": {
                                         "type": "SkillEffectVariables",
                                         "variables": [
@@ -29005,7 +29037,11 @@
                                     "useListOfSkills": "UseSkillTag",
                                     "listOfSkills": [],
                                     "skillTagFilter": "0",
-                                    "skillDefinition": {},
+                                    "skillDefinition": {
+                                        "name": "Tupa Orbiting Projectiles Skill Definition",
+                                        "id": 324,
+                                        "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                    },
                                     "variables": {
                                         "type": "SkillEffectVariables",
                                         "variables": [
@@ -36148,7 +36184,11 @@
                                     "useListOfSkills": "UseSkillTag",
                                     "listOfSkills": [],
                                     "skillTagFilter": "0",
-                                    "skillDefinition": {},
+                                    "skillDefinition": {
+                                        "name": "Tupa Orbiting Projectiles Skill Definition",
+                                        "id": 324,
+                                        "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                    },
                                     "variables": {
                                         "type": "SkillEffectVariables",
                                         "variables": [
@@ -41939,7 +41979,11 @@
                                         {
                                             "name": "Execute Skill Raw Skill Effect Data",
                                             "type": "ExecuteSkillRawSkillEffectData",
-                                            "skillDefinition": {},
+                                            "skillDefinition": {
+                                                "name": "The Carpenter Homing Projectile Skill Definition",
+                                                "id": 608,
+                                                "type": "HomingProjectileAttackSkillDefinition"
+                                            },
                                             "effectTarget": "Self",
                                             "overrideProjectileAmount": true,
                                             "projectileAmount": {

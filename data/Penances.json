@@ -2634,35 +2634,67 @@
                     "additionalAffixes": [
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Evasive - Passive Skill Definition",
+                                "id": 426,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
                         },
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Evoker -  Passive Projectile Rain - Skill Definition",
+                                "id": 428,
+                                "type": "PassiveSpawnFallingProjectilesSkillDefinition"
+                            }
                         },
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Orbiting - Passive Skill Behavior",
+                                "id": 443,
+                                "type": "PassiveSkillBehaviorSkillDefinition"
+                            }
                         },
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Regen Aura - Minion Heal - Passive Skill Definition",
+                                "id": 441,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
                         },
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Immortal Minions - Passive Skill Definition",
+                                "id": 427,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
                         },
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Protected - Passive Skill Definition",
+                                "id": 448,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
                         },
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Spiral Orb - Passive Skill Behavior",
+                                "id": 447,
+                                "type": "PassiveSkillBehaviorSkillDefinition"
+                            }
                         },
                         {
                             "weight": 0.01,
-                            "value": {}
+                            "value": {
+                                "name": "EG - Elite Affix - Haste Aura -Passive Skill Definition",
+                                "id": 445,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
                         }
                     ],
                     "hideDescription": false,

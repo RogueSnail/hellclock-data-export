@@ -23185,7 +23185,11 @@
                     {
                         "name": "Execute Skill Raw Skill Effect Data",
                         "type": "ExecuteSkillRawSkillEffectData",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "SecondWindDefinition",
+                            "id": 9,
+                            "type": "SecondWindSkillDefinition"
+                        },
                         "effectTarget": "Self",
                         "overrideProjectileAmount": false,
                         "hasDamageModifier": false,
@@ -25067,7 +25071,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "SecondWindDefinition",
+                    "id": 9,
+                    "type": "SecondWindSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -48507,7 +48515,11 @@
                         "id": 1,
                         "type": "SplitshotSkillDefinition"
                     },
-                    {}
+                    {
+                        "name": "Six Shooter Skill Definition",
+                        "id": 558,
+                        "type": "SixShooterSkillDefinition"
+                    }
                 ],
                 "skillTagFilter": "0",
                 "skillDefinition": {},
@@ -50920,7 +50932,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Everything",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Tupa Orbiting Projectiles Skill Definition",
+                    "id": 324,
+                    "type": "PassiveOrbitingProjectilesSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -51889,7 +51905,11 @@
                     {
                         "name": "Equip Skill Effect Data",
                         "type": "EquipSkillEffectData",
-                        "specificSkillDefinition": {},
+                        "specificSkillDefinition": {
+                            "name": "Urgency of Expedito - Unique - Passive Skill Definition",
+                            "id": 781,
+                            "type": "AddStatusOnEnemyProximitySkillDefinition"
+                        },
                         "startDisabled": false,
                         "useCharacterEffectTrigger": true,
                         "effectTrigger": "TargetHit",
@@ -51919,7 +51939,11 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
-                        "specificSkillDefinition": {},
+                        "specificSkillDefinition": {
+                            "name": "Urgency of Expedito - Unique - Passive Skill Definition",
+                            "id": 781,
+                            "type": "AddStatusOnEnemyProximitySkillDefinition"
+                        },
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -53170,7 +53194,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Everything",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Murks Blood Veil - Unique - Passive Effect Area Skill Definition",
+                    "id": 646,
+                    "type": "PassiveEffectAreaSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -56449,7 +56477,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Jaguar Spear Skill Definition",
+                    "id": 556,
+                    "type": "SpearAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -56686,7 +56718,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Jaguar Spear Skill Definition",
+                    "id": 556,
+                    "type": "SpearAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -56703,7 +56739,11 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
-                        "specificSkillDefinition": {},
+                        "specificSkillDefinition": {
+                            "name": "Jaguar Spear Skill Definition",
+                            "id": 556,
+                            "type": "SpearAttackSkillDefinition"
+                        },
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -56949,7 +56989,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Marksman",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Cilada Skill Definition",
+                    "id": 557,
+                    "type": "PlaceTrapSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -57173,7 +57217,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Cilada Skill Definition",
+                    "id": 557,
+                    "type": "PlaceTrapSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -57436,7 +57484,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Cilada Skill Definition",
+                    "id": 557,
+                    "type": "PlaceTrapSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -57691,7 +57743,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Carcara Dive Skill Definition",
+                    "id": 554,
+                    "type": "JumpAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -57954,7 +58010,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Jaguar Spear Skill Definition",
+                    "id": 556,
+                    "type": "SpearAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -57978,7 +58038,11 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
-                        "specificSkillDefinition": {},
+                        "specificSkillDefinition": {
+                            "name": "Jaguar Spear Skill Definition",
+                            "id": 556,
+                            "type": "SpearAttackSkillDefinition"
+                        },
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -58322,7 +58386,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Carcara Dive Skill Definition",
+                    "id": 554,
+                    "type": "JumpAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -58340,7 +58408,11 @@
                         "name": "Recharge Skill Cooldown Skill Effect Data",
                         "type": "RechargeSkillCooldownSkillEffectData",
                         "useAllSkills": false,
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "Carcara Dive Skill Definition",
+                            "id": 554,
+                            "type": "JumpAttackSkillDefinition"
+                        },
                         "value": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "1",
@@ -58578,7 +58650,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Carcara Dive Skill Definition",
+                    "id": 554,
+                    "type": "JumpAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -58595,7 +58671,11 @@
                     {
                         "name": "Add Skill Value Modifier Skill Effect Data",
                         "type": "AddSkillValueModifierSkillEffectData",
-                        "specificSkillDefinition": {},
+                        "specificSkillDefinition": {
+                            "name": "Carcara Dive Skill Definition",
+                            "id": 554,
+                            "type": "JumpAttackSkillDefinition"
+                        },
                         "modifiers": [
                             {
                                 "type": "SkillEffectSkillModifierDefinition",
@@ -58869,7 +58949,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Holy Fire Skill Definition",
+                    "id": 555,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -59254,7 +59338,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Holy Fire Skill Definition",
+                    "id": 555,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -59619,7 +59707,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Holy Fire Skill Definition",
+                    "id": 555,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -59888,7 +59980,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Tupas Wrath Skill Definition",
+                    "id": 577,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -60136,7 +60232,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Tupas Wrath Skill Definition",
+                    "id": 577,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -60424,7 +60524,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Tupas Wrath Skill Definition",
+                    "id": 577,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -60635,7 +60739,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Six Shooter Skill Definition",
+                    "id": 558,
+                    "type": "SixShooterSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -61004,7 +61112,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Six Shooter Skill Definition",
+                    "id": 558,
+                    "type": "SixShooterSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -61259,7 +61371,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Six Shooter Skill Definition",
+                    "id": 558,
+                    "type": "SixShooterSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -61283,7 +61399,11 @@
                     {
                         "name": "Add Charge To Skill Effect Data",
                         "type": "AddSkillChargeSkillEffectData",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "Six Shooter Skill Definition",
+                            "id": 558,
+                            "type": "SixShooterSkillDefinition"
+                        },
                         "value": {
                             "type": "SkillEffectVariableReference",
                             "valueOrName": "1",
@@ -64661,7 +64781,11 @@
             "name": "Skill Level EXP - Implicit - JaguarSpear Plus 2 Affix",
             "id": 373,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Jaguar Spear Skill Definition",
+                "id": 556,
+                "type": "SpearAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -64802,7 +64926,11 @@
             "name": "Skill Level EXP - Implicit - Cilada Plus 2 Affix",
             "id": 374,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Cilada Skill Definition",
+                "id": 557,
+                "type": "PlaceTrapSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -64943,7 +65071,11 @@
             "name": "Skill Level EXP - Implicit - CarcaraDive Plus 2 Affix",
             "id": 375,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Carcara Dive Skill Definition",
+                "id": 554,
+                "type": "JumpAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -65084,7 +65216,11 @@
             "name": "Skill Level EXP - Implicit - HolyFire Plus 2 Affix",
             "id": 376,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Holy Fire Skill Definition",
+                "id": 555,
+                "type": "ProjectileAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -65225,7 +65361,11 @@
             "name": "Skill Level EXP - Implicit - TupasWrath Plus 2 Affix",
             "id": 377,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Tupas Wrath Skill Definition",
+                "id": 577,
+                "type": "ProjectileAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -65366,7 +65506,11 @@
             "name": "Skill Level EXP - Implicit - SixShooter Plus 2 Affix",
             "id": 378,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Six Shooter Skill Definition",
+                "id": 558,
+                "type": "SixShooterSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -65507,7 +65651,11 @@
             "name": "Skill Level EXP - Implicit - CarcaraDive Plus 1 Affix",
             "id": 379,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Carcara Dive Skill Definition",
+                "id": 554,
+                "type": "JumpAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -65648,7 +65796,11 @@
             "name": "Skill Level EXP - Implicit - Cilada Plus 1 Affix",
             "id": 380,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Cilada Skill Definition",
+                "id": 557,
+                "type": "PlaceTrapSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -65789,7 +65941,11 @@
             "name": "Skill Level EXP - Implicit - HolyFire Plus 1 Affix",
             "id": 381,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Holy Fire Skill Definition",
+                "id": 555,
+                "type": "ProjectileAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -65930,7 +66086,11 @@
             "name": "Skill Level EXP - Implicit - JaguarSpear Plus 1 Affix",
             "id": 382,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Jaguar Spear Skill Definition",
+                "id": 556,
+                "type": "SpearAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -66071,7 +66231,11 @@
             "name": "Skill Level EXP - Implicit - SixShooter Plus 1 Affix",
             "id": 383,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Six Shooter Skill Definition",
+                "id": 558,
+                "type": "SixShooterSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -66212,7 +66376,11 @@
             "name": "Skill Level EXP - Implicit - TupasWrath Plus 1 Affix",
             "id": 384,
             "type": "SkillLevelAffixDefinition",
-            "skillDefinition": {},
+            "skillDefinition": {
+                "name": "Tupas Wrath Skill Definition",
+                "id": 577,
+                "type": "ProjectileAttackSkillDefinition"
+            },
             "customIcon": "",
             "tierRollRanges": [
                 {
@@ -66362,7 +66530,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Six Shooter Skill Definition",
+                    "id": 558,
+                    "type": "SixShooterSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -66593,7 +66765,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Cilada Skill Definition",
+                    "id": 557,
+                    "type": "PlaceTrapSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -67156,7 +67332,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Jaguar Spear Skill Definition",
+                    "id": 556,
+                    "type": "SpearAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -68471,7 +68651,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Marksman",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Cilada Skill Definition",
+                    "id": 557,
+                    "type": "PlaceTrapSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -70752,7 +70936,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Everything",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Tupa Orbiting Projectiles Skill Definition",
+                    "id": 324,
+                    "type": "PassiveOrbitingProjectilesSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -71615,7 +71803,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Carcara Dive Skill Definition",
+                    "id": 554,
+                    "type": "JumpAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -73203,7 +73395,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Tupas Wrath Skill Definition",
+                    "id": 577,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -73220,7 +73416,11 @@
                     {
                         "name": "Execute Skill Raw Skill Effect Data",
                         "type": "ExecuteSkillRawSkillEffectData",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "Tupas Wrath Skill Definition",
+                            "id": 577,
+                            "type": "ProjectileAttackSkillDefinition"
+                        },
                         "effectTarget": "Self",
                         "overrideProjectileAmount": false,
                         "hasDamageModifier": false,
@@ -73255,7 +73455,11 @@
                     {
                         "name": "Execute Skill Raw Skill Effect Data (1)",
                         "type": "ExecuteSkillRawSkillEffectData",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "Tupas Wrath Skill Definition",
+                            "id": 577,
+                            "type": "ProjectileAttackSkillDefinition"
+                        },
                         "effectTarget": "Self",
                         "overrideProjectileAmount": false,
                         "hasDamageModifier": false,
@@ -73290,7 +73494,11 @@
                     {
                         "name": "Execute Skill Raw Skill Effect Data (2)",
                         "type": "ExecuteSkillRawSkillEffectData",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "Tupas Wrath Skill Definition",
+                            "id": 577,
+                            "type": "ProjectileAttackSkillDefinition"
+                        },
                         "effectTarget": "Self",
                         "overrideProjectileAmount": false,
                         "hasDamageModifier": false,
@@ -74258,7 +74466,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Jaguar Spear Skill Definition",
+                    "id": 556,
+                    "type": "SpearAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -74493,7 +74705,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Six Shooter Skill Definition",
+                    "id": 558,
+                    "type": "SixShooterSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -74745,7 +74961,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Tupas Wrath Skill Definition",
+                    "id": 577,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -75275,7 +75495,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Six Shooter Skill Definition",
+                    "id": 558,
+                    "type": "SixShooterSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -75671,7 +75895,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Holy Fire Skill Definition",
+                    "id": 555,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -75943,7 +76171,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "Everything",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Cilada Skill Definition",
+                    "id": 557,
+                    "type": "PlaceTrapSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -76187,7 +76419,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Holy Fire Skill Definition",
+                    "id": 555,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [
@@ -76427,7 +76663,11 @@
                 "useListOfSkills": "UseSkillTag",
                 "listOfSkills": [],
                 "skillTagFilter": "0",
-                "skillDefinition": {},
+                "skillDefinition": {
+                    "name": "Holy Fire Skill Definition",
+                    "id": 555,
+                    "type": "ProjectileAttackSkillDefinition"
+                },
                 "variables": {
                     "type": "SkillEffectVariables",
                     "variables": [

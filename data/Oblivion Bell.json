@@ -3171,7 +3171,11 @@
                 {
                     "name": "1ae56ec1-1fee-4bc0-a31a-fb2099d7ca81",
                     "type": "SkillEquipNodeAffixDefinition",
-                    "skillDefinition": {},
+                    "skillDefinition": {
+                        "name": "SecondWindDefinition",
+                        "id": 9,
+                        "type": "SecondWindSkillDefinition"
+                    },
                     "hideDescription": true,
                     "description": [
                         {
@@ -3228,7 +3232,11 @@
                         "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "SecondWindDefinition",
+                            "id": 9,
+                            "type": "SecondWindSkillDefinition"
+                        },
                         "variables": {
                             "type": "SkillEffectVariables",
                             "variables": [
@@ -12370,7 +12378,11 @@
                         "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "SecondWindDefinition",
+                            "id": 9,
+                            "type": "SecondWindSkillDefinition"
+                        },
                         "variables": {
                             "type": "SkillEffectVariables",
                             "variables": [

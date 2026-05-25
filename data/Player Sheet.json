@@ -62,7 +62,11 @@
             "id": 3,
             "type": "RepeaterSkillDefinition"
         },
-        {},
+        {
+            "name": "SecondWindDefinition",
+            "id": 9,
+            "type": "SecondWindSkillDefinition"
+        },
         {
             "name": "ShadowDashDefinition",
             "id": 2,
@@ -118,39 +122,123 @@
             "id": 323,
             "type": "SummonBruteSkillDefinition"
         },
-        {},
+        {
+            "name": "Tupa Orbiting Projectiles Skill Definition",
+            "id": 324,
+            "type": "PassiveOrbitingProjectilesSkillDefinition"
+        },
         {
             "name": "Summon Marksmen Skill Definition",
             "id": 326,
             "type": "SummonMarksmenSkillDefinition"
         },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
+        {
+            "name": "Jurupari - Son of the Sun - Passive Skill Definition",
+            "id": 333,
+            "type": "AddStatusOnEnemyProximitySkillDefinition"
+        },
+        {
+            "name": "Summon Marksmen Basic Attack Skill Definition",
+            "id": 325,
+            "type": "RangedAttackSkillDefinition"
+        },
+        {
+            "name": "Summon The Guard Basic Attack Skill Definition",
+            "id": 202,
+            "type": "RangedAttackSkillDefinition"
+        },
+        {
+            "name": "Brute Melee Attack Skill Definition",
+            "id": 322,
+            "type": "MeleeAttackSkillDefinition"
+        },
+        {
+            "name": "Carcara Dive Skill Definition",
+            "id": 554,
+            "type": "JumpAttackSkillDefinition"
+        },
+        {
+            "name": "Holy Fire Skill Definition",
+            "id": 555,
+            "type": "ProjectileAttackSkillDefinition"
+        },
+        {
+            "name": "Jaguar Spear Skill Definition",
+            "id": 556,
+            "type": "SpearAttackSkillDefinition"
+        },
+        {
+            "name": "Cilada Skill Definition",
+            "id": 557,
+            "type": "PlaceTrapSkillDefinition"
+        },
+        {
+            "name": "Six Shooter Skill Definition",
+            "id": 558,
+            "type": "SixShooterSkillDefinition"
+        },
+        {
+            "name": "Tupas Wrath Skill Definition",
+            "id": 577,
+            "type": "ProjectileAttackSkillDefinition"
+        },
+        {
+            "name": "The Carpenter Homing Projectile Skill Definition",
+            "id": 608,
+            "type": "HomingProjectileAttackSkillDefinition"
+        },
+        {
+            "name": "Murks Blood Veil - Unique - Passive Effect Area Skill Definition",
+            "id": 646,
+            "type": "PassiveEffectAreaSkillDefinition"
+        },
         {
             "name": "Summon Hound Skill Definition",
             "id": 724,
             "type": "PassiveSummonCompanionSkillDefinition"
         },
-        {},
-        {}
+        {
+            "name": "Urgency of Expedito - Unique - Passive Skill Definition",
+            "id": 781,
+            "type": "AddStatusOnEnemyProximitySkillDefinition"
+        },
+        {
+            "name": "Summon Hound Melee Attack Skill Definition",
+            "id": 782,
+            "type": "MeleeAttackSkillDefinition"
+        }
     ],
     "act4SkillsDefinitions": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+            "name": "Carcara Dive Skill Definition",
+            "id": 554,
+            "type": "JumpAttackSkillDefinition"
+        },
+        {
+            "name": "Holy Fire Skill Definition",
+            "id": 555,
+            "type": "ProjectileAttackSkillDefinition"
+        },
+        {
+            "name": "Jaguar Spear Skill Definition",
+            "id": 556,
+            "type": "SpearAttackSkillDefinition"
+        },
+        {
+            "name": "Cilada Skill Definition",
+            "id": 557,
+            "type": "PlaceTrapSkillDefinition"
+        },
+        {
+            "name": "Six Shooter Skill Definition",
+            "id": 558,
+            "type": "SixShooterSkillDefinition"
+        },
+        {
+            "name": "Tupas Wrath Skill Definition",
+            "id": 577,
+            "type": "ProjectileAttackSkillDefinition"
+        }
     ],
     "usePotionSkillDefinition": {
         "name": "Use Potion Skill Definition",
