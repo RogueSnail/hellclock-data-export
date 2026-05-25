@@ -10,15 +10,15 @@
             ],
             "eAilmentApplicationLogic": "DamageSeverity",
             "ailmentApplicationStat": "ChanceToApplyBleed",
-            "ailmentChanceFactor": 30.0,
+            "ailmentChanceFactor": 60.0,
             "minimumAilmentChanceFromStat": 0.1,
-            "ailmentStatusDefinition": {
+            "ailmentStatus": {
                 "name": "BleedingStatusDefinition",
                 "id": 38,
                 "type": "BleedingDamageOverTimeStatusDefinition"
             },
             "ailmentBuildupStatusDefinition": {},
-            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatus": {},
             "ailmentResistanceStatusDuration": 0.0,
             "ailmentStatusDurationStat": "BleedDuration",
             "noAilmentDurationModifierStat": true,
@@ -42,13 +42,13 @@
             "ailmentApplicationStat": "ChanceToApplyIgnite",
             "ailmentChanceFactor": 0.0,
             "minimumAilmentChanceFromStat": 0.0,
-            "ailmentStatusDefinition": {
+            "ailmentStatus": {
                 "name": "IgnitedStatusDefinition",
                 "id": 37,
                 "type": "DamageOverTimeStatusDefinition"
             },
             "ailmentBuildupStatusDefinition": {},
-            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatus": {},
             "ailmentResistanceStatusDuration": 0.0,
             "ailmentStatusDurationStat": "IgniteDuration",
             "noAilmentDurationModifierStat": false,
@@ -63,13 +63,13 @@
             "ailmentStatusReactions": [
                 {
                     "type": "AilmentStatusReaction",
-                    "baseStatusDefinition": {
+                    "baseStatus": {
                         "name": "OiledStatusDefinition",
                         "id": 47,
                         "type": "StatModifierStatusDefinition"
                     },
-                    "ailmentIntensityMultiplier": 1.0,
-                    "ailmentDurationMultiplier": 1.0
+                    "ailmentIntensityMultiplier": 3.0,
+                    "ailmentDurationMultiplier": 0.33
                 }
             ]
         },
@@ -83,13 +83,13 @@
             "ailmentApplicationStat": "ChanceToApplyIgnite",
             "ailmentChanceFactor": 0.0,
             "minimumAilmentChanceFromStat": 0.0,
-            "ailmentStatusDefinition": {
+            "ailmentStatus": {
                 "name": "ShockedStatusDefinition",
                 "id": 39,
                 "type": "StatModifierStatusDefinition"
             },
             "ailmentBuildupStatusDefinition": {},
-            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatus": {},
             "ailmentResistanceStatusDuration": 0.0,
             "ailmentStatusDurationStat": "ShockDuration",
             "noAilmentDurationModifierStat": false,
@@ -113,13 +113,13 @@
             "ailmentApplicationStat": "ChanceToApplyIgnite",
             "ailmentChanceFactor": 0.0,
             "minimumAilmentChanceFromStat": 0.0,
-            "ailmentStatusDefinition": {
+            "ailmentStatus": {
                 "name": "BlightedStatusDefinition",
                 "id": 40,
                 "type": "StatModifierStatusDefinition"
             },
             "ailmentBuildupStatusDefinition": {},
-            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatus": {},
             "ailmentResistanceStatusDuration": 0.0,
             "ailmentStatusDurationStat": "BlightDuration",
             "noAilmentDurationModifierStat": false,
@@ -143,7 +143,7 @@
             "ailmentApplicationStat": "WitherBuildupRate",
             "ailmentChanceFactor": 2.5,
             "minimumAilmentChanceFromStat": 0.0,
-            "ailmentStatusDefinition": {
+            "ailmentStatus": {
                 "name": "WitherStatusDefinition",
                 "id": 83,
                 "type": "FreezeStatusDefinition"
@@ -153,7 +153,7 @@
                 "id": 172,
                 "type": "BuildupStatusDefinition"
             },
-            "ailmentResistanceStatusDefinition": {},
+            "ailmentResistanceStatus": {},
             "ailmentResistanceStatusDuration": 0.0,
             "ailmentStatusDurationStat": "WitherDuration",
             "noAilmentDurationModifierStat": false,
@@ -180,7 +180,7 @@
             "ailmentApplicationStat": "StunBuildupRate",
             "ailmentChanceFactor": 2.5,
             "minimumAilmentChanceFromStat": 0.0,
-            "ailmentStatusDefinition": {
+            "ailmentStatus": {
                 "name": "StunStatusDefinition",
                 "id": 41,
                 "type": "StunStatusDefinition"
@@ -190,7 +190,7 @@
                 "id": 173,
                 "type": "BuildupStatusDefinition"
             },
-            "ailmentResistanceStatusDefinition": {
+            "ailmentResistanceStatus": {
                 "name": "Stun Resistance - Status Definition",
                 "id": 109,
                 "type": "StatModifierStatusDefinition"

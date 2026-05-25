@@ -58,6 +58,10 @@
                     "langTranslation": "Уязвимость: огонь"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰虚弱"
                 }
@@ -105,6 +109,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -170,6 +178,10 @@
                     "langTranslation": "Физическая слабость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фізична слабкість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "物理虚弱"
                 }
@@ -217,6 +229,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -282,6 +298,10 @@
                     "langTranslation": "Уязвимость: молния"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до блискавки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电虚弱"
                 }
@@ -329,6 +349,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -394,6 +418,10 @@
                     "langTranslation": "Уязвимость: чума"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до чуми"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫虚弱"
                 }
@@ -441,6 +469,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -506,6 +538,10 @@
                     "langTranslation": "Разрастание"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Поширення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "扩散"
                 }
@@ -517,14 +553,59 @@
                 {
                     "name": "4e0f5b67-8dc1-434a-8919-2ccfbb8dea54",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "BETA: Noch in Arbeit"
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "BETA: Work In Progress"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "BETA: En progreso"
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "BETA : Développement en cours"
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "ベータ：鋭意開発中"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "BETA: Praca w toku"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "BETA: Trabalho em Progresso"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "BETA：开发中内容"
+                        }
+                    ],
                     "valuePerLevel": 1.2,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "MultiplicativeAdditive",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Area of Effect - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "SkillAreaOfEffect": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -540,7 +621,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -548,15 +629,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -568,11 +649,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -633,6 +718,10 @@
                     "langTranslation": "Разрастание"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Поширення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "扩散"
                 }
@@ -644,14 +733,59 @@
                 {
                     "name": "aecad1c0-3305-4cbb-b03c-dbfabbb2d427",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "BETA: Noch in Arbeit"
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "BETA: Work In Progress"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "BETA: En progreso"
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "BETA : Développement en cours"
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "ベータ：鋭意開発中"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "BETA: Praca w toku"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "BETA: Trabalho em Progresso"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "BETA：开发中内容"
+                        }
+                    ],
                     "valuePerLevel": 1.2,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "MultiplicativeAdditive",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Area of Effect - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "SkillAreaOfEffect": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -667,7 +801,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -675,15 +809,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -695,11 +829,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -760,6 +898,10 @@
                     "langTranslation": "Разрастание"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Поширення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "扩散"
                 }
@@ -771,14 +913,59 @@
                 {
                     "name": "7c4b4d14-99d3-49ae-8e81-56e09d92df8f",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "BETA: Noch in Arbeit"
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "BETA: Work In Progress"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "BETA: En progreso"
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "BETA : Développement en cours"
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "ベータ：鋭意開発中"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "BETA: Praca w toku"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "BETA: Trabalho em Progresso"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "BETA：开发中内容"
+                        }
+                    ],
                     "valuePerLevel": 1.35,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "MultiplicativeAdditive",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Area of Effect - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "SkillAreaOfEffect": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -794,7 +981,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -802,15 +989,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -822,11 +1009,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -887,6 +1078,10 @@
                     "langTranslation": "Адский прилив"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Пекельна хвиля"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地狱狂潮"
                 }
@@ -906,7 +1101,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -914,15 +1109,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -934,11 +1129,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 },
@@ -982,6 +1181,10 @@
                             "langTranslation": ""
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": ""
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": ""
                         }
@@ -1013,7 +1216,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Harte Flut"
+                    "langTranslation": "Harsche Flut"
                 },
                 {
                     "langCode": "en",
@@ -1025,15 +1228,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Marée forte"
+                    "langTranslation": "Forte marée"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "厳しい潮流"
+                    "langTranslation": "過酷な潮流"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Brutalny przypływ"
                 },
                 {
                     "langCode": "pt-br",
@@ -1044,8 +1247,12 @@
                     "langTranslation": "Суровый прилив"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Різкий приплив"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "恶劣的潮汐"
+                    "langTranslation": "残酷潮汐"
                 }
             ],
             "maxLevel": 1,
@@ -1063,7 +1270,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -1071,15 +1278,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -1091,11 +1298,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -1125,7 +1336,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Harte Flut"
+                    "langTranslation": "Harsche Flut"
                 },
                 {
                     "langCode": "en",
@@ -1137,15 +1348,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Marée forte"
+                    "langTranslation": "Forte marée"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "厳しい潮流"
+                    "langTranslation": "過酷な潮流"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Harsh Tide"
+                    "langTranslation": "Brutalny przypływ"
                 },
                 {
                     "langCode": "pt-br",
@@ -1156,8 +1367,12 @@
                     "langTranslation": "Суровый прилив"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Різкий приплив"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "恶劣的潮汐"
+                    "langTranslation": "残酷潮汐"
                 }
             ],
             "maxLevel": 1,
@@ -1175,7 +1390,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -1183,15 +1398,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -1203,11 +1418,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -1276,6 +1495,10 @@
                     "langTranslation": "Демоническая скорость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Демонічна швидкість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "恶魔疾速"
                 }
@@ -1287,14 +1510,59 @@
                 {
                     "name": "edfa0524-31d5-4fd7-99ba-b009acc7fe4f",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "Bewegungs- und Angriffstempo der Gegner sind um {0} erhöht."
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "Enemies move and attack {0} faster."
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "Los enemigos se mueven y atacan {0} más rápido."
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite."
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "敵の移動速度と攻撃速度が{0}速くなる。"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej."
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "Inimigos se movem e atacam {0} mais rápido."
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "Враги движутся и атакуют на {0} быстрее."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Супротивники рухаються та атакують на {0} швидше."
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "敌人的移动速度和攻击速度提高 {0}。"
+                        }
+                    ],
                     "valuePerLevel": 1.3,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "MultiplicativeAdditive",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Attack and Move Speed - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "AttackSpeed": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -1327,7 +1595,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite"
+                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite."
                         },
                         {
                             "langCode": "ja",
@@ -1335,7 +1603,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej"
+                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej."
                         },
                         {
                             "langCode": "pt-br",
@@ -1343,11 +1611,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Враги движутся и атакуют на {0} быстрее"
+                            "langTranslation": "Враги движутся и атакуют на {0} быстрее."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Супротивники рухаються та атакують на {0} швидше."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "敌人的移动与攻击速度提高 {0}。"
+                            "langTranslation": "敌人的移动速度和攻击速度提高 {0}。"
                         }
                     ]
                 }
@@ -1408,6 +1680,10 @@
                     "langTranslation": "Демоническая скорость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Демонічна швидкість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "恶魔疾速"
                 }
@@ -1419,14 +1695,59 @@
                 {
                     "name": "7982a944-9a2e-4808-b2b9-ea9fd8248bcd",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "Bewegungs- und Angriffstempo der Gegner sind um {0} erhöht."
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "Enemies move and attack {0} faster."
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "Los enemigos se mueven y atacan {0} más rápido."
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite."
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "敵の移動速度と攻撃速度が{0}速くなる。"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej."
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "Inimigos se movem e atacam {0} mais rápido."
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "Враги движутся и атакуют на {0} быстрее."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Супротивники рухаються та атакують на {0} швидше."
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "敌人的移动速度和攻击速度提高 {0}。"
+                        }
+                    ],
                     "valuePerLevel": 1.4,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "MultiplicativeAdditive",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Attack and Move Speed - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "AttackSpeed": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -1459,7 +1780,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite"
+                            "langTranslation": "Les ennemis se déplacent et attaquent {0} plus vite."
                         },
                         {
                             "langCode": "ja",
@@ -1467,7 +1788,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej"
+                            "langTranslation": "Wrogowie poruszają się i atakują {0} szybciej."
                         },
                         {
                             "langCode": "pt-br",
@@ -1475,11 +1796,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Враги движутся и атакуют на {0} быстрее"
+                            "langTranslation": "Враги движутся и атакуют на {0} быстрее."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Супротивники рухаються та атакують на {0} швидше."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "敌人的移动与攻击速度提高 {0}。"
+                            "langTranslation": "敌人的移动速度和攻击速度提高 {0}。"
                         }
                     ]
                 }
@@ -1540,6 +1865,10 @@
                     "langTranslation": "Новые трюки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Нові хитрощі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "新战术"
                 }
@@ -1550,7 +1879,7 @@
             "affixes": [
                 {
                     "name": "da23b9fb-1138-41d8-be7f-75e75fe6dfab",
-                    "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
                     "enemyGlobalModifierSemaphore": "Act1BossUseAlternativeConfig",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
@@ -1569,7 +1898,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les boss ont des mécaniques supplémentaires"
+                            "langTranslation": "Les boss ont des mécaniques supplémentaires."
                         },
                         {
                             "langCode": "ja",
@@ -1577,7 +1906,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Starcia z bossami mają dodatkowe mechaniki"
+                            "langTranslation": "Starcia z bossami mają dodatkowe mechaniki."
                         },
                         {
                             "langCode": "pt-br",
@@ -1585,7 +1914,11 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "У боссов появляются новые приемы"
+                            "langTranslation": "У боссов появляются новые приемы."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Зіткнення з босами мають додаткові механіки."
                         },
                         {
                             "langCode": "zh-cn",
@@ -1595,7 +1928,7 @@
                 },
                 {
                     "name": "4eb5cb45-5a83-481c-bec5-977e4e98ff12",
-                    "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
                     "enemyGlobalModifierSemaphore": "Act2BossUseAlternativeConfig",
                     "hideDescription": true,
                     "description": [
@@ -1632,6 +1965,10 @@
                             "langTranslation": ""
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": ""
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": ""
                         }
@@ -1639,7 +1976,7 @@
                 },
                 {
                     "name": "ab8a4898-2b5b-4486-9cf8-5bc18bccaaed",
-                    "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
                     "enemyGlobalModifierSemaphore": "Act3BossUseAlternativeConfig",
                     "hideDescription": true,
                     "description": [
@@ -1673,6 +2010,58 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "30fc12fa-3d18-47e9-8b98-88b0c2e269df",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
+                    "enemyGlobalModifierSemaphore": "Act4BossUseAlternativeConfig",
+                    "hideDescription": true,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": ""
                         },
                         {
@@ -1746,6 +2135,10 @@
                     "langTranslation": "Засуха"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Посуха"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "干旱"
                 }
@@ -1793,6 +2186,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1858,6 +2255,10 @@
                     "langTranslation": "Засуха"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Посуха"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "干旱"
                 }
@@ -1905,6 +2306,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1970,6 +2375,10 @@
                     "langTranslation": "Налоги"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Податки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "税捐"
                 }
@@ -1997,11 +2406,11 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Costo de cambio de bendición {0}"
+                            "langTranslation": "Costo de cambio de bendición {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le retirage des bénédictions coûte {0}"
+                            "langTranslation": "Le retirage des bénédictions coûte {0}."
                         },
                         {
                             "langCode": "ja",
@@ -2009,7 +2418,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Koszt ponownego rzutu na błogosławieństwo: {0}"
+                            "langTranslation": "Koszt Przerzucenia Błogosławieństwa: {0}."
                         },
                         {
                             "langCode": "pt-br",
@@ -2020,8 +2429,12 @@
                             "langTranslation": "{0} к стоимости сброса благословений"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "Вартість перевибору благословення: {0}."
+                        },
+                        {
                             "langCode": "zh-cn",
-                            "langTranslation": "恩泽重掷消耗 {0}"
+                            "langTranslation": "恩泽重掷消耗 {0}。"
                         }
                     ]
                 }
@@ -2082,6 +2495,10 @@
                     "langTranslation": "Угнетение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Пригнічення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "压迫"
                 }
@@ -2113,7 +2530,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Vous avez une bénédiction de moins à choisir"
+                            "langTranslation": "Vous avez une bénédiction de moins à choisir."
                         },
                         {
                             "langCode": "ja",
@@ -2121,7 +2538,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Masz o jedno Błogosławieństwo mniej do wyboru"
+                            "langTranslation": "Masz o jedno błogosławieństwo mniej do wyboru."
                         },
                         {
                             "langCode": "pt-br",
@@ -2129,7 +2546,11 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вам доступно для выбора на одно благословение меньше"
+                            "langTranslation": "Вам доступно для выбора на одно благословение меньше."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "У вас на одне благословення менше."
                         },
                         {
                             "langCode": "zh-cn",
@@ -2192,6 +2613,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Опасные враги"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Небезпечні супротивники"
                 },
                 {
                     "langCode": "zh-cn",
@@ -2276,6 +2701,10 @@
                             "langTranslation": "Элитные враги получают дополнительные эффекты опасности: {0} шт."
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "Елітні супротивники мають додаткові небезпечні афікси ({0})"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "精锐敌人将额外拥有 {0} 个危险词缀。"
                         }
@@ -2338,6 +2767,10 @@
                     "langTranslation": "Опасные враги"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Небезпечні супротивники"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "危险敌人"
                 }
@@ -2356,7 +2789,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -2364,15 +2797,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -2384,11 +2817,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -2449,6 +2886,10 @@
                     "langTranslation": "Уязвимость: огонь"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰虚弱"
                 }
@@ -2496,6 +2937,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2561,6 +3006,10 @@
                     "langTranslation": "Уязвимость: молния"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до блискавки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电虚弱"
                 }
@@ -2608,6 +3057,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2673,6 +3126,10 @@
                     "langTranslation": "Уязвимость: чума"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до чуми"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫虚弱"
                 }
@@ -2720,6 +3177,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2785,6 +3246,10 @@
                     "langTranslation": "Физическая слабость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фізична слабкість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "物理虚弱"
                 }
@@ -2832,6 +3297,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2897,6 +3366,10 @@
                     "langTranslation": "Безнадежность"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Безнадія"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "绝望"
                 }
@@ -2928,7 +3401,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de {0}"
+                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de {0}."
                         },
                         {
                             "langCode": "ja",
@@ -2936,7 +3409,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o {0}"
+                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o {0}."
                         },
                         {
                             "langCode": "pt-br",
@@ -2944,7 +3417,11 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все пополнение и восстановление маны уменьшено на {0}"
+                            "langTranslation": "Все эффекты пополнения и восстановления маны уменьшены на {0}."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Відновлення мани та інтенсивність ефектів, які її відновлюють, зменшено на {0}."
                         },
                         {
                             "langCode": "zh-cn",
@@ -3009,6 +3486,10 @@
                     "langTranslation": "Безнадежность"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Безнадія"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "绝望"
                 }
@@ -3040,7 +3521,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de {0}"
+                            "langTranslation": "Tous les effets de régénération de ferveur sont réduits de {0}."
                         },
                         {
                             "langCode": "ja",
@@ -3048,7 +3529,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o {0}"
+                            "langTranslation": "Wszystkie efekty odzyskiwania i regeneracji many są zmniejszone o {0}."
                         },
                         {
                             "langCode": "pt-br",
@@ -3056,7 +3537,11 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все пополнение и восстановление маны уменьшено на {0}"
+                            "langTranslation": "Все эффекты пополнения и восстановления маны уменьшены на {0}."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Відновлення мани та інтенсивність ефектів, які її відновлюють, зменшено на {0}."
                         },
                         {
                             "langCode": "zh-cn",
@@ -3121,6 +3606,10 @@
                     "langTranslation": "Болезнь"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Хвороба"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "病痛"
                 }
@@ -3140,7 +3629,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Alle Effekte von Heilung, Lebensraub und Lebensregeneration sind um {0} verringert."
+                            "langTranslation": "Alle Effekte von Heilung, Gesundheitsraub und Gesundheitsregeneration sind um {0} verringert."
                         },
                         {
                             "langCode": "en",
@@ -3152,15 +3641,15 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de gain, drain et régénération de vie sont réduits de {0}"
+                            "langTranslation": "Tous les effets de gain, vol et régénération de vie sont réduits de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆる回復量、ライフ吸収量、ライフ再生量が{0}減少する。"
+                            "langTranslation": "あらゆる回復量、体力吸収量、体力再生量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty leczenia, kradzieży życia i regeneracji życia są zmniejszone o {0}"
+                            "langTranslation": "Wszystkie efekty leczenia, wysysania i regeneracji zdrowia są zmniejszone o {0}"
                         },
                         {
                             "langCode": "pt-br",
@@ -3168,11 +3657,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все лечение, кража здоровья и восстановление здоровья уменьшены на {0}"
+                            "langTranslation": "Все эффекты лечения, вампиризма и восстановления здоровья уменьшены на {0}."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Інтенсивність усіх ефектів зцілення, витягання та відновлення життя зменшено на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "所有治疗、吸血与生命再生效果降低 {0}"
+                            "langTranslation": "所有治疗、吸血与生命再生效果降低 {0}。"
                         }
                     ]
                 }
@@ -3233,6 +3726,10 @@
                     "langTranslation": "Болезнь"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Хвороба"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "病痛"
                 }
@@ -3252,7 +3749,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Alle Effekte von Heilung, Lebensraub und Lebensregeneration sind um {0} verringert."
+                            "langTranslation": "Alle Effekte von Heilung, Gesundheitsraub und Gesundheitsregeneration sind um {0} verringert."
                         },
                         {
                             "langCode": "en",
@@ -3264,15 +3761,15 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Tous les effets de gain, drain et régénération de vie sont réduits de {0}"
+                            "langTranslation": "Tous les effets de gain, vol et régénération de vie sont réduits de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "あらゆる回復量、ライフ吸収量、ライフ再生量が{0}減少する。"
+                            "langTranslation": "あらゆる回復量、体力吸収量、体力再生量が{0}減少する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wszystkie efekty leczenia, kradzieży życia i regeneracji życia są zmniejszone o {0}"
+                            "langTranslation": "Wszystkie efekty leczenia, wysysania i regeneracji zdrowia są zmniejszone o {0}"
                         },
                         {
                             "langCode": "pt-br",
@@ -3280,11 +3777,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Все лечение, кража здоровья и восстановление здоровья уменьшены на {0}"
+                            "langTranslation": "Все эффекты лечения, вампиризма и восстановления здоровья уменьшены на {0}."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Інтенсивність усіх ефектів зцілення, витягання та відновлення життя зменшено на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "所有治疗、吸血与生命再生效果降低 {0}"
+                            "langTranslation": "所有治疗、吸血与生命再生效果降低 {0}。"
                         }
                     ]
                 }
@@ -3353,6 +3854,10 @@
                     "langTranslation": "Рой"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Рой"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "群袭"
                 }
@@ -3364,14 +3869,59 @@
                 {
                     "name": "139d214f-2c6f-4c81-8923-0526d7aa3039",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "Gegner schießen {0} zusätzliche Geschosse."
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "Enemies Shoot {0} Additional Projectiles."
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "Los enemigos disparan {0} proyectiles adicionales."
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "Les ennemis tirent {0} projectiles supplémentaires."
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "敵の射撃が追加の投射物を{0}持つ"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "Przeciwnicy wystrzeliwują {0} dodatkowych pocisków."
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "Inimigos atiram {0} projéteis adicionais."
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "Враги выпускают больше снарядов (на {0})"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Супротивники випускають додаткові снаряди ({0})."
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "敌人额外发射 {0} 个投射物。"
+                        }
+                    ],
                     "valuePerLevel": 2.0,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "MultiplicativeAdditive",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Additional Projectile - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "SkillProjectileAmount": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -3395,11 +3945,11 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Los enemigos disparan {0} proyectiles adicionales"
+                            "langTranslation": "Los enemigos disparan {0} proyectiles adicionales."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les ennemis tirent {0} projectiles supplémentaires"
+                            "langTranslation": "Les ennemis tirent {0} projectiles supplémentaires."
                         },
                         {
                             "langCode": "ja",
@@ -3407,7 +3957,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Przeciwnicy wystrzeliwują {0} dodatkowych pocisków"
+                            "langTranslation": "Przeciwnicy wystrzeliwują {0} dodatkowych pocisków."
                         },
                         {
                             "langCode": "pt-br",
@@ -3416,6 +3966,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Враги выпускают больше снарядов (на {0})"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Супротивники випускають додаткові снаряди ({0})."
                         },
                         {
                             "langCode": "zh-cn",
@@ -3504,6 +4058,10 @@
                     "langTranslation": "Ярость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Лють"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "狂暴"
                 }
@@ -3514,7 +4072,7 @@
             "affixes": [
                 {
                     "name": "bdd68e1d-68d7-4332-9261-a0b3c74def96",
-                    "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
                     "enemyGlobalModifierSemaphore": "EnableEnrage",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
@@ -3533,7 +4091,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les boss entrent en rage après un certain temps"
+                            "langTranslation": "Les boss entrent en rage après un certain temps."
                         },
                         {
                             "langCode": "ja",
@@ -3541,19 +4099,23 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Bossowie mają licznik Szału"
+                            "langTranslation": "Bossowie mają licznik Szału."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Chefes têm um temporizador de Fúria."
+                            "langTranslation": "Chefes têm um temporizador de Fúria"
                         },
                         {
                             "langCode": "ru",
                             "langTranslation": "У боссов появляется таймер ярости."
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "Боси мають таймер розлютованості."
+                        },
+                        {
                             "langCode": "zh-cn",
-                            "langTranslation": "敌人首领拥有激怒计时器。"
+                            "langTranslation": "首领设有狂暴计时器。"
                         }
                     ]
                 }
@@ -3614,6 +4176,10 @@
                     "langTranslation": "Опасность"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Небезпека"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地面危害"
                 }
@@ -3624,14 +4190,14 @@
             "affixes": [
                 {
                     "name": "bef44f4c-f332-4230-8d4a-0ccfe6c7b274",
-                    "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
                     "enemyGlobalModifierSemaphore": "None",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -3639,15 +4205,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -3659,11 +4225,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -3724,6 +4294,10 @@
                     "langTranslation": "Опасность"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Небезпека"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地面危害"
                 }
@@ -3734,14 +4308,14 @@
             "affixes": [
                 {
                     "name": "b55d9ef0-43d8-4602-b283-18dc19417aa2",
-                    "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
                     "enemyGlobalModifierSemaphore": "None",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -3749,15 +4323,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -3769,11 +4343,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -3834,6 +4412,10 @@
                     "langTranslation": "Второй огонь"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Другий вогонь"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "双重火线"
                 }
@@ -3844,14 +4426,14 @@
             "affixes": [
                 {
                     "name": "25787eec-5031-4e53-8a18-d44d1dcedb9f",
-                    "type": "EnemyGlobalModifierNodeAffixDefinition",
+                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
                     "enemyGlobalModifierSemaphore": "AdditionalBoss",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -3859,15 +4441,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -3879,11 +4461,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -3944,6 +4530,10 @@
                     "langTranslation": "Проклятие"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Проклятий"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "诅咒"
                 }
@@ -3991,6 +4581,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4056,6 +4650,10 @@
                     "langTranslation": "Проклятие"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Проклятий"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "诅咒"
                 }
@@ -4103,6 +4701,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4168,6 +4770,10 @@
                     "langTranslation": "Онемение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Оніміння"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "麻木"
                 }
@@ -4215,6 +4821,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4280,6 +4890,10 @@
                     "langTranslation": "Онемение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Оніміння"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "麻木"
                 }
@@ -4327,6 +4941,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4392,6 +5010,10 @@
                     "langTranslation": "Несокрушимый"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Незламний"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "不灭之躯"
                 }
@@ -4403,14 +5025,59 @@
                 {
                     "name": "9f862d10-a4ea-45dc-83b2-5c48ec3d2af6",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "Monster können nicht betäubt werden."
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "Enemies Cannot Be Stunned."
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "No se puede aturdir a los monstruos."
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "Les monstres ne peuvent pas être étourdis."
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "モンスターはスタンしない。"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "Potworów nie można oszołomić."
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "Inimigos não podem ser Atordoados."
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "Монстров нельзя оглушить."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Монстри стійкі до оглушення."
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "无法使怪物眩晕。"
+                        }
+                    ],
                     "valuePerLevel": 10.0,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "Multiplicative",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Immune to Stun - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "StunResistance": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -4430,7 +5097,7 @@
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Monsters Cannot Be Stunned."
+                            "langTranslation": "Enemies Cannot Be Stunned."
                         },
                         {
                             "langCode": "es",
@@ -4438,7 +5105,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les monstres ne peuvent pas être étourdis"
+                            "langTranslation": "Les monstres ne peuvent pas être étourdis."
                         },
                         {
                             "langCode": "ja",
@@ -4446,15 +5113,19 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Potworów nie można oszołomić"
+                            "langTranslation": "Potworów nie można oszołomić."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Monstros não podem ser Atordoados."
+                            "langTranslation": "Inimigos não podem ser Atordoados."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Чудовищ нельзя оглушить"
+                            "langTranslation": "Монстров нельзя оглушить."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Монстри стійкі до оглушення."
                         },
                         {
                             "langCode": "zh-cn",
@@ -4519,6 +5190,10 @@
                     "langTranslation": "Незамерзающие"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Загартований"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "免疫冻结"
                 }
@@ -4530,14 +5205,59 @@
                 {
                     "name": "eb3753c4-0dcd-444d-91d5-651679b76c39",
                     "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "Monster können nicht verwelken."
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "Enemies Cannot Be Withered."
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "No se puede hacer marchitar a los monstruos."
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "Les monstres ne peuvent pas subir de décrépitude."
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "モンスターは荒廃しない。"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "Potworów nie można wysuszać."
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "Inimigos não podem ser Decrepitados."
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "На монстров нельзя наложить увядание."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Монстри стійкі до зачахнення."
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "无法使怪物衰竭。"
+                        }
+                    ],
                     "valuePerLevel": 10.0,
                     "useTotalRunsAsMultiplier": false,
                     "eVariableFormat": "Multiplicative",
+                    "eSignType": "Default",
                     "characterSheetBaseModifier": {
                         "name": "Enemy Buff - Immune to Wither - Sheet Scale",
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
+                        "rawMultiplicativeScaling": false,
                         "baseStatModifiers": {
                             "WitherResistance": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -4557,7 +5277,7 @@
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Monsters Cannot Be Withered."
+                            "langTranslation": "Enemies Cannot Be Withered."
                         },
                         {
                             "langCode": "es",
@@ -4565,7 +5285,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les monstres ne peuvent pas subir de décrépitude"
+                            "langTranslation": "Les monstres ne peuvent pas subir de décrépitude."
                         },
                         {
                             "langCode": "ja",
@@ -4573,15 +5293,19 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Potworów nie można wysuszać"
+                            "langTranslation": "Potworów nie można wysuszać."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Monstros não podem ser Decrepitados."
+                            "langTranslation": "Inimigos não podem ser Decrepitados."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "На чудовищ нельзя наложить увядание"
+                            "langTranslation": "На монстров нельзя наложить увядание."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Монстри стійкі до зачахнення."
                         },
                         {
                             "langCode": "zh-cn",
@@ -4646,6 +5370,10 @@
                     "langTranslation": "Уязвимость: огонь"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰虚弱"
                 }
@@ -4693,6 +5421,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4758,6 +5490,10 @@
                     "langTranslation": "Физическая слабость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фізична слабкість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "物理虚弱"
                 }
@@ -4805,6 +5541,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4870,6 +5610,10 @@
                     "langTranslation": "Уязвимость: молния"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до блискавки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电虚弱"
                 }
@@ -4917,6 +5661,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4982,6 +5730,10 @@
                     "langTranslation": "Уязвимость: чума"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Слабкість до чуми"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫虚弱"
                 }
@@ -5029,6 +5781,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5085,6 +5841,10 @@
                     "langTranslation": "Ад"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Пекло"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地狱"
                 }
@@ -5135,6 +5895,10 @@
                             "langTranslation": "Количество попыток ограничено: {0}.\nКоличество попыток увеличится на {0} за первое прохождение каждого акта."
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "У вас є обмежена кількість проходжень ({0}).\nВи отримуєте додаткові проходження ({0}) за перше завершення кожного акту."
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "你当前最多可进行 {0} 次挑战。\n首次完成每一幕时可额外获得 +{0} 次挑战机会。"
                         }
@@ -5166,7 +5930,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "In die Dunkelheit gezogen"
+                    "langTranslation": "In die Dunkelheit geschleppt"
                 },
                 {
                     "langCode": "en",
@@ -5178,11 +5942,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Traîné dans les ténèbres"
+                    "langTranslation": "La plongée dans les ténèbres"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "暗闇に引きずり込まれる"
+                    "langTranslation": "引きずり込む闇"
                 },
                 {
                     "langCode": "pl",
@@ -5194,7 +5958,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Затянутые во тьму"
+                    "langTranslation": "Утащенный во тьму"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Поглинутий темрявою"
                 },
                 {
                     "langCode": "zh-cn",
@@ -5216,7 +5984,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -5224,15 +5992,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -5244,11 +6012,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -5278,7 +6050,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Aus der Dunkelheit durchbohrt"
+                    "langTranslation": "Durchbohrt von Dunkelheit"
                 },
                 {
                     "langCode": "en",
@@ -5290,11 +6062,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Percée par l'obscurité"
+                    "langTranslation": "Tapis dans l'obscurité"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "暗闇から突き抜けて"
+                    "langTranslation": "刺し貫く闇"
                 },
                 {
                     "langCode": "pl",
@@ -5309,8 +6081,12 @@
                     "langTranslation": "Пронзенный из тьмы"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Пронизаний темрявою"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "黑暗中的刺穿"
+                    "langTranslation": "黑暗穿透"
                 }
             ],
             "maxLevel": 1,
@@ -5328,7 +6104,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -5336,15 +6112,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -5356,11 +6132,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -5445,6 +6225,10 @@
                     "langTranslation": "Демоническая выносливость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Демонічна витривалість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "恶魔的耐性"
                 }
@@ -5464,7 +6248,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -5472,15 +6256,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -5492,11 +6276,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -5538,11 +6326,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Soif"
+                    "langTranslation": "La soif"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "渇き"
+                    "langTranslation": "喉の渇き"
                 },
                 {
                     "langCode": "pl",
@@ -5557,8 +6345,12 @@
                     "langTranslation": "Жажда"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Спрага"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "口渴"
+                    "langTranslation": "干渴"
                 }
             ],
             "maxLevel": 1,
@@ -5576,7 +6368,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -5584,15 +6376,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -5604,11 +6396,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -5638,7 +6434,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Barone des Zuges"
+                    "langTranslation": "Barone der Dürre"
                 },
                 {
                     "langCode": "en",
@@ -5650,15 +6446,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Barons de la Draft"
+                    "langTranslation": "Barons de la sécheresse"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ドラフトの男爵"
+                    "langTranslation": "干魃の強者"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Baronowie Draught"
+                    "langTranslation": "Baronowie suszy"
                 },
                 {
                     "langCode": "pt-br",
@@ -5666,11 +6462,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Бароны шашлыка"
+                    "langTranslation": "Бароны засухи"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Володарі посухи"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "酒桶男爵"
+                    "langTranslation": "旱灾男爵"
                 }
             ],
             "maxLevel": 1,
@@ -5688,7 +6488,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -5696,15 +6496,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -5716,11 +6516,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -5762,11 +6566,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Horreur sans fin"
+                    "langTranslation": "L'horreur sans fin"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "終わりのない恐怖"
+                    "langTranslation": "果てなき恐怖"
                 },
                 {
                     "langCode": "pl",
@@ -5781,8 +6585,12 @@
                     "langTranslation": "Бесконечный ужас"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Нескінченний жах"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "无尽的恐怖"
+                    "langTranslation": "无尽恐惧"
                 }
             ],
             "maxLevel": 1,
@@ -5800,7 +6608,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -5808,15 +6616,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -5828,11 +6636,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -5893,6 +6705,10 @@
                     "langTranslation": "Проклятая хватка"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Проклята хватка"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "诅咒之握"
                 }
@@ -5912,7 +6728,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -5920,15 +6736,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -5940,11 +6756,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -5986,7 +6806,7 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Abîme"
+                    "langTranslation": "L'Abysse"
                 },
                 {
                     "langCode": "ja",
@@ -5994,7 +6814,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przepaść"
+                    "langTranslation": "Otchłań"
                 },
                 {
                     "langCode": "pt-br",
@@ -6003,6 +6823,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Бездна"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Безодня"
                 },
                 {
                     "langCode": "zh-cn",
@@ -6024,7 +6848,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -6032,15 +6856,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -6052,11 +6876,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -6098,7 +6926,7 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Abîme"
+                    "langTranslation": "L'Abysse"
                 },
                 {
                     "langCode": "ja",
@@ -6106,7 +6934,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przepaść"
+                    "langTranslation": "Otchłań"
                 },
                 {
                     "langCode": "pt-br",
@@ -6115,6 +6943,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Бездна"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Безодня"
                 },
                 {
                     "langCode": "zh-cn",
@@ -6136,7 +6968,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: In Arbeit"
+                            "langTranslation": "BETA: Noch in Arbeit"
                         },
                         {
                             "langCode": "en",
@@ -6144,15 +6976,15 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: Trabajo en progreso"
+                            "langTranslation": "BETA: En progreso"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BÊTA : Travail en cours"
+                            "langTranslation": "BETA : Développement en cours"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ版: 進行中"
+                            "langTranslation": "ベータ：鋭意開発中"
                         },
                         {
                             "langCode": "pl",
@@ -6164,11 +6996,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "BETA: Работа в процессе"
+                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "测试版：开发中"
+                            "langTranslation": "BETA：开发中内容"
                         }
                     ]
                 }
@@ -6229,6 +7065,10 @@
                     "langTranslation": "Бездуховность"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Бездушність"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "失魂"
                 }
@@ -6260,7 +7100,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le gain de pierres d'âmes est réduit de {0}"
+                            "langTranslation": "Le gain de pierres d'âmes est réduit de {0}."
                         },
                         {
                             "langCode": "ja",
@@ -6268,7 +7108,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o {0}"
+                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o {0}."
                         },
                         {
                             "langCode": "pt-br",
@@ -6276,7 +7116,11 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вы получаете на {0} меньше камней душ"
+                            "langTranslation": "Вы получаете на {0} камней душ меньше."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Ви отримуєте на {0} менше каменів душ з усіх джерел."
                         },
                         {
                             "langCode": "zh-cn",
@@ -6332,6 +7176,10 @@
                     "langTranslation": "Бездуховность"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Бездушність"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "失魂"
                 }
@@ -6363,7 +7211,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le gain de pierres d'âmes est réduit de {0}"
+                            "langTranslation": "Le gain de pierres d'âmes est réduit de {0}."
                         },
                         {
                             "langCode": "ja",
@@ -6371,7 +7219,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o {0}"
+                            "langTranslation": "Cały zysk w Kamieniach Dusz zmniejszony o {0}."
                         },
                         {
                             "langCode": "pt-br",
@@ -6379,7 +7227,11 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вы получаете на {0} меньше камней душ"
+                            "langTranslation": "Вы получаете на {0} камней душ меньше."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Ви отримуєте на {0} менше каменів душ з усіх джерел."
                         },
                         {
                             "langCode": "zh-cn",

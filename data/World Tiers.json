@@ -32,7 +32,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Normalny"
+                    "langTranslation": "Zwykły"
                 },
                 {
                     "langCode": "pt-br",
@@ -40,14 +40,20 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Обычный"
+                    "langTranslation": "Обычный режим"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Звичайний"
                 },
                 {
                     "langCode": "zh-cn",
                     "langTranslation": "普通"
                 }
             ],
-            "worldTierColor": "RGBA(1.000, 0.309, 0.000, 1.000)"
+            "worldTierColor": "RGBA(1.000, 0.309, 0.000, 1.000)",
+            "worldTierIcon": "NightmareTier1",
+            "requiredConditions": "HellClock.Condition.ConditionGroups"
         },
         {
             "name": "Abyss World Tier Config",
@@ -57,6 +63,7 @@
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
+                "rawMultiplicativeScaling": false,
                 "baseStatModifiers": {},
                 "statModifiersPerType": {
                     "Regular": {
@@ -139,6 +146,7 @@
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
+                "rawMultiplicativeScaling": false,
                 "baseStatModifiers": {},
                 "statModifiersPerType": {
                     "Regular": {
@@ -351,11 +359,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Abysses"
+                    "langTranslation": "L'Abysse"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "アビス"
+                    "langTranslation": "深淵"
                 },
                 {
                     "langCode": "pl",
@@ -370,11 +378,17 @@
                     "langTranslation": "Бездна"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Безодня"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "深渊"
                 }
             ],
-            "worldTierColor": "RGBA(0.547, 0.008, 0.008, 1.000)"
+            "worldTierColor": "RGBA(0.529, 0.000, 0.110, 1.000)",
+            "worldTierIcon": "NightmareTier2",
+            "requiredConditions": "HellClock.Condition.ConditionGroups"
         },
         {
             "name": "Oblivion World Tier Config",
@@ -384,6 +398,7 @@
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
+                "rawMultiplicativeScaling": false,
                 "baseStatModifiers": {},
                 "statModifiersPerType": {
                     "Regular": {
@@ -509,6 +524,7 @@
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
+                "rawMultiplicativeScaling": false,
                 "baseStatModifiers": {},
                 "statModifiersPerType": {
                     "Regular": {
@@ -709,7 +725,7 @@
             "worldTierLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Vergessen"
+                    "langTranslation": "Das Vergessen"
                 },
                 {
                     "langCode": "en",
@@ -721,7 +737,7 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Oubli"
+                    "langTranslation": "L'Oubli"
                 },
                 {
                     "langCode": "ja",
@@ -740,11 +756,17 @@
                     "langTranslation": "Забвение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Забуття"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "遗忘"
+                    "langTranslation": "湮灭"
                 }
             ],
-            "worldTierColor": "RGBA(0.187, 0.000, 0.396, 1.000)"
+            "worldTierColor": "RGBA(0.369, 0.282, 0.824, 1.000)",
+            "worldTierIcon": "NightmareTier3",
+            "requiredConditions": "HellClock.Condition.ConditionGroups"
         },
         {
             "name": "Void World Tier Config",
@@ -754,77 +776,78 @@
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
+                "rawMultiplicativeScaling": false,
                 "baseStatModifiers": {},
                 "statModifiersPerType": {
                     "Regular": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 4.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 6.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         }
                     },
                     "Minion": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 4.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 6.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         }
                     },
                     "Champion": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 4.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 6.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         }
                     },
                     "Rare": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 4.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 6.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         }
                     },
                     "Boss": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 3.2,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 6.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         }
                     },
                     "Unique": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 3.2,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 6.0,
+                            "multiplicative": 1.5,
                             "additive": 0.0
                         }
                     }
@@ -879,6 +902,7 @@
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
+                "rawMultiplicativeScaling": false,
                 "baseStatModifiers": {},
                 "statModifiersPerType": {
                     "Regular": {
@@ -1098,15 +1122,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Vide"
+                    "langTranslation": "Le Néant"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "空所"
+                    "langTranslation": "虚無"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Próżnia"
+                    "langTranslation": "Pustka"
                 },
                 {
                     "langCode": "pt-br",
@@ -1117,11 +1141,17 @@
                     "langTranslation": "Пустота"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Порожнеча"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "空白"
+                    "langTranslation": "虚空"
                 }
             ],
-            "worldTierColor": "RGBA(0.000, 0.529, 0.478, 1.000)"
+            "worldTierColor": "RGBA(0.000, 0.529, 0.478, 1.000)",
+            "worldTierIcon": "NightmareTier4",
+            "requiredConditions": "HellClock.Condition.ConditionGroups"
         }
     ]
 }

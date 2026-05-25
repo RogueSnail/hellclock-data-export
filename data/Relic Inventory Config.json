@@ -910,6 +910,54 @@
                             "id": 263,
                             "type": "SkillLevelAffixDefinition"
                         }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - CarcaraDive Plus 1 Affix",
+                            "id": 379,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - Cilada Plus 1 Affix",
+                            "id": 380,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - HolyFire Plus 1 Affix",
+                            "id": 381,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - JaguarSpear Plus 1 Affix",
+                            "id": 382,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - SixShooter Plus 1 Affix",
+                            "id": 383,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - TupasWrath Plus 1 Affix",
+                            "id": 384,
+                            "type": "SkillLevelAffixDefinition"
+                        }
                     }
                 ]
             }
@@ -1327,6 +1375,54 @@
                             "name": "SkillBehavior - Implicit - Max Summons",
                             "id": 337,
                             "type": "SkillBehaviorAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - CarcaraDive Plus 2 Affix",
+                            "id": 375,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - Cilada Plus 2 Affix",
+                            "id": 374,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - HolyFire Plus 2 Affix",
+                            "id": 376,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - JaguarSpear Plus 2 Affix",
+                            "id": 373,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - SixShooter Plus 2 Affix",
+                            "id": 378,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - TupasWrath Plus 2 Affix",
+                            "id": 377,
+                            "type": "SkillLevelAffixDefinition"
                         }
                     }
                 ]
@@ -1746,6 +1842,54 @@
                             "id": 337,
                             "type": "SkillBehaviorAffixDefinition"
                         }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - CarcaraDive Plus 2 Affix",
+                            "id": 375,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - Cilada Plus 2 Affix",
+                            "id": 374,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - HolyFire Plus 2 Affix",
+                            "id": 376,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - JaguarSpear Plus 2 Affix",
+                            "id": 373,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - SixShooter Plus 2 Affix",
+                            "id": 378,
+                            "type": "SkillLevelAffixDefinition"
+                        }
+                    },
+                    {
+                        "weight": 10.0,
+                        "value": {
+                            "name": "Skill Level EXP - Implicit - TupasWrath Plus 2 Affix",
+                            "id": 377,
+                            "type": "SkillLevelAffixDefinition"
+                        }
                     }
                 ]
             }
@@ -1818,6 +1962,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Обычное"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Звичайна"
                 },
                 {
                     "langCode": "zh-cn",
@@ -1901,6 +2049,10 @@
                     "langTranslation": "Необычное"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Магічна"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "魔法"
                 }
@@ -1982,6 +2134,10 @@
                     "langTranslation": "Редкое"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Рідкісна"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "稀有"
                 }
@@ -2018,7 +2174,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Unikalny"
+                    "langTranslation": "Unikatowy"
                 },
                 {
                     "langCode": "pt-br",
@@ -2027,6 +2183,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Уникальное"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Унікальна"
                 },
                 {
                     "langCode": "zh-cn",
@@ -2124,5 +2284,33 @@
         4.0,
         5.0
     ],
-    "nonUniqueRelicDisassembleValuePerAffix": 20
+    "nonUniqueRelicDisassembleValuePerAffix": 20,
+    "disassembleCurrencyRewardsPerRarity": {
+        "Common": [
+            "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+        ],
+        "Magic": [
+            "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+        ],
+        "Rare": [
+            "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+        ],
+        "Unique": [
+            "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+        ]
+    },
+    "corruptedRelicDisassembleCurrencyReward": [
+        "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+    ],
+    "disassembleCurrencyRewardsPerImplicitAffixCategory": {
+        "FuryImbued": [
+            "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+        ],
+        "FaithImbued": [
+            "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+        ],
+        "DisciplineImbued": [
+            "HellClock.RelicInventory.RelicDisassembleCurrencyReward"
+        ]
+    }
 }

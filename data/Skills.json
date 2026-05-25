@@ -54,6 +54,10 @@
                     "langTranslation": "Атака"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Атака"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击"
                 }
@@ -92,6 +96,10 @@
                     "langTranslation": "Обычный выстрел из револьвера. Восстанавливает 15% от максимального запаса маны."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий постріл з револьвера. Під час влучання відновлює 15% від максимальної мани."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础左轮手枪射击。命中时恢复最大法力值的 15%。"
                 }
@@ -100,6 +108,7 @@
             "baseDamageMod": 1.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -260,6 +269,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -294,6 +307,10 @@
                 {
                     "valueKey": "Bounce Amount Modifier",
                     "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Bounce On Caster Enabled Modifier",
+                    "valueType": "Toggle"
                 }
             ]
         },
@@ -360,6 +377,10 @@
                     "langTranslation": "Выстрел дробью"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Розлітання куль"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "分裂射击"
                 }
@@ -398,6 +419,10 @@
                     "langTranslation": "Выстрелите несколькими снарядами перед собой. Особенно полезно против близко стоящих врагов."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Випускає кілька снярядів, які віялом розлітаються перед персонажем. Завдає особливо сильної шкоди супротивникам поблизу."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "向前方锥形区域发射多枚投射物，对附近敌人效果更强。"
                 }
@@ -406,6 +431,7 @@
             "baseDamageMod": 0.8,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -418,7 +444,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.3
+                        "value": 1.1
                     }
                 ],
                 "2": [
@@ -432,7 +458,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.65
+                        "value": 1.3
                     }
                 ],
                 "3": [
@@ -446,7 +472,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.15
+                        "value": 1.55
                     }
                 ],
                 "4": [
@@ -460,7 +486,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.6
+                        "value": 1.85
                     }
                 ],
                 "5": [
@@ -474,7 +500,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.1
+                        "value": 2.2
                     }
                 ],
                 "6": [
@@ -488,7 +514,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.6
+                        "value": 2.5
                     }
                 ],
                 "7": [
@@ -502,7 +528,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ],
                 "8": [
@@ -516,7 +542,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ],
                 "9": [
@@ -530,7 +556,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ],
                 "10": [
@@ -544,7 +570,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ]
             },
@@ -633,6 +659,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -669,6 +699,10 @@
                     "valueType": "Increment"
                 },
                 {
+                    "valueKey": "Bounce On Caster Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Same Target Shot Bonus Damage Modifier",
                     "valueType": "Multiplier"
                 },
@@ -693,6 +727,37 @@
             "hitRadius": 1.5,
             "distance": 10.0,
             "timeToComplete": 0.3,
+            "blightEffectAreaConfig": {
+                "type": "EffectAreaConfig`1",
+                "effectAreaDefinition": {
+                    "name": "Cilada - Trap Explosion Area Definition",
+                    "id": 125,
+                    "type": "DamageStatusAreaDefinition",
+                    "damageMod": 1.0,
+                    "useSourceSkillDamageModifierWhenAvailable": true,
+                    "useDamageTypeScalingOnOverride": false,
+                    "singleInstanceDamage": true,
+                    "eDamageType": "PHYSICAL",
+                    "damageStatModifiers": [],
+                    "statusDefinitions": [
+                        {
+                            "name": "Rooted Status Definition",
+                            "id": 175,
+                            "type": "RootedStatusDefinition"
+                        }
+                    ],
+                    "refreshOnAreaEnter": false,
+                    "removeOnAreaExit": false,
+                    "applyOnInterval": false,
+                    "statusDuration": 5.0,
+                    "radius": 5.0,
+                    "effectInterval": 0.5
+                },
+                "effectAreaDuration": 1.0,
+                "hasAnticipation": false,
+                "anticipationDuration": 1.0,
+                "anticipationDelay": 0.0
+            },
             "manaCost": 100.0,
             "useNegativeMana": true,
             "lifeCost": 0.0,
@@ -729,6 +794,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Рывок тени"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Тіньовий ривок"
                 },
                 {
                     "langCode": "zh-cn",
@@ -769,14 +838,19 @@
                     "langTranslation": "Вы совершаете быстрый рывок, нанося урон врагам на своем пути."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Надзвичайно швидкий ривок, який завдає шкоди супротивникам на вашому шляху."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "极速冲刺，对路径上的敌人造成伤害。"
                 }
             ],
             "icon": "IconSkill_ShadowDash",
-            "baseDamageMod": 0.8,
+            "baseDamageMod": 1.2,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -1001,6 +1075,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -1031,6 +1109,18 @@
                 {
                     "valueKey": "Dash Speed Modifier",
                     "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Consume Blight and Wither Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Blight Explosion Radius Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Wither Explosion Radius Modifier",
+                    "valueType": "Multiplier"
                 }
             ]
         },
@@ -1050,8 +1140,8 @@
             "bulletCount": 1,
             "bounceAmount": 0,
             "canPierce": false,
-            "loopInterval": 0.125,
-            "useCooldownSpeedForLoop": true,
+            "loopInterval": 0.25,
+            "useSkillSpeedForLoop": true,
             "manaCost": 42.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
@@ -1088,6 +1178,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Очередь"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Черга пострілів"
                 },
                 {
                     "langCode": "zh-cn",
@@ -1128,6 +1222,10 @@
                     "langTranslation": "Удерживайте кнопку навыка, чтобы вести огонь по одиночной цели очередью."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Утримуйте кнопку навичок, щоб випустити чергу пострілів по одній цілі."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "按住技能按钮，可如机枪扫射般向单一目标连续发射投射物。"
                 }
@@ -1136,6 +1234,7 @@
             "baseDamageMod": 0.8,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -1148,7 +1247,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.3
+                        "value": 1.1
                     }
                 ],
                 "2": [
@@ -1162,7 +1261,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.65
+                        "value": 1.3
                     }
                 ],
                 "3": [
@@ -1176,7 +1275,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.15
+                        "value": 1.55
                     }
                 ],
                 "4": [
@@ -1190,7 +1289,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.6
+                        "value": 1.85
                     }
                 ],
                 "5": [
@@ -1204,7 +1303,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.1
+                        "value": 2.2
                     }
                 ],
                 "6": [
@@ -1218,7 +1317,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.6
+                        "value": 2.5
                     }
                 ],
                 "7": [
@@ -1232,7 +1331,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ],
                 "8": [
@@ -1246,7 +1345,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ],
                 "9": [
@@ -1260,7 +1359,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ],
                 "10": [
@@ -1274,7 +1373,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "value": 2.85
                     }
                 ]
             },
@@ -1362,6 +1461,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -1400,6 +1503,10 @@
                 {
                     "valueKey": "Bounce Amount Modifier",
                     "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Random Angle Deviation Modifier",
+                    "valueType": "Increment"
                 }
             ]
         },
@@ -1437,7 +1544,7 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Couteaux Spectraux"
+                    "langTranslation": "Couteaux spectraux"
                 },
                 {
                     "langCode": "ja",
@@ -1453,7 +1560,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Призрачные Ножи"
+                    "langTranslation": "Спектральные ножи"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Спектральні ножі"
                 },
                 {
                     "langCode": "zh-cn",
@@ -1463,7 +1574,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beschwört einen Ring von Spektralmessern um den Spieler herum, die automatisch auf Gegner in der Nähe geworfen werden."
+                    "langTranslation": "Beschwört einen Ring aus Spektralmessern um dich herum, die automatisch auf nahe Gegner geworfen werden.\n\nWenn du die Fertigkeit aktivierst, regenerieren sich die Messer sofort und schießen einige Sekunden lang schneller und verursachen mehr Schaden.\n\nDie Chance der Spektralmesser, zu bluten, wird natürlich verdoppelt."
                 },
                 {
                     "langCode": "en",
@@ -1471,19 +1582,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Invoca un anillo de cuchillos espectrales que rodean al jugador y se disparan automáticamente a los enemigos cercanos."
+                    "langTranslation": "Invoca un anillo de cuchillos espectrales a tu alrededor que se lanzan automáticamente a los enemigos cercanos.\n\n Al activar la habilidad, se regeneran instantáneamente los cuchillos y estos disparan más rápido e infligen más daño durante unos segundos.\n\n La probabilidad de sangrado de los Cuchillos espectrales se duplica naturalmente."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Invoque un anneau de couteaux spectraux qui vous entourent et sont automatiquement envoyés sur les ennemis à portée."
+                    "langTranslation": "Invoque un anneau de Couteaux spectraux qui vous entourent et sont automatiquement envoyés sur les ennemis à proximité.\n\nEn activant la compétence, les couteaux sont plus rapides et infligent plus de dégâts pendant quelques secondes.\n\nLes Couteaux spectraux ont deux fois plus de chances d'infliger saignement."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "プレイヤーを囲むように霊体のナイフが召喚され、近くの敵へと自動的に放たれる。"
+                    "langTranslation": "自身を囲むように霊体のナイフが召喚され、付近の敵へと自動的に放たれる。\n\nスキルを発動するとナイフが即座に回復し、ナイフが飛ぶ速度とダメージが数秒間上昇する。\n\n霊体のナイフによる出血確率が2倍になる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Wokół gracza pojawia się krąg widmowych noży, które są automatycznie rzucane w pobliskich wrogów."
+                    "langTranslation": "Przyzywa wokół ciebie krąg Widmowych Noży, które są automatycznie rzucane w pobliskich wrogów.\n\nAktywacja umiejętności natychmiast regeneruje noże, sprawiając, że lecą szybciej i zadają większe obrażenia przez kilka sekund.\n\nSzansa na krwawienie po użyciu Widmowych Noży jest naturalnie podwojona."
                 },
                 {
                     "langCode": "pt-br",
@@ -1491,17 +1602,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вокруг вас появляется кольцо призрачных ножей, которые автоматически поражают ближайших врагов."
+                    "langTranslation": "Вокруг вас появляется кольцо призрачных ножей, которые автоматически поражают ближайших врагов.\n\nАктивация навыка мгновенно восстанавливает ножи — они быстрее перемещаются и наносят больший урон в течение нескольких секунд.\n\nВероятность кровотечения для навыка Спектральные ножи удваивается естественным образом."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Створює навколо себе кільце спектральних ножів, які автоматично атакують супротивників поблизу.\n\nНожі автоматично поновлюються в разі використання навички – вони атакують швидше й завдають більше шкоди протягом кількох секунд.\n\nСпектральні ножі мають удвічі вищий шанс накласти кровотечу."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "在玩家周围召唤一圈幽冥飞刀，这些飞刀会自动投向附近的敌人。"
+                    "langTranslation": "在玩家周围召唤一圈幽冥飞刀，这些飞刀会自动投向附近的敌人。\n\n激活技能时，飞刀会立即刷新，并在数秒内提升射击速度与造成的伤害。\n\n幽冥飞刀造成流血的几率将自然翻倍。"
                 }
             ],
             "icon": "IconSkill_Reflexes",
             "baseDamageMod": 0.5,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -1742,6 +1858,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -1872,7 +1992,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Modlitwa o zdrowie"
+                    "langTranslation": "Modlitwa o Zdrowie"
                 },
                 {
                     "langCode": "pt-br",
@@ -1881,6 +2001,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Молитва о здравии"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Молитва за здоров'я"
                 },
                 {
                     "langCode": "zh-cn",
@@ -1910,7 +2034,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Co sekundę odzyskujesz {1} zdrowia.\n\nAktywacja Modlitwy natychmiast przywraca ci {0} zdrowia i zapewnia chwilową redukcję obrażeń o 20%.\n\nUmiejętność ta działa zarówno na ciebie, jak i na twoich sojuszników."
+                    "langTranslation": "Co sekundę odzyskujesz {1} zdrowia.\n\nAktywacja modlitwy natychmiast przywraca ci {0} zdrowia i zapewnia chwilową redukcję obrażeń o 20%.\n\nUmiejętność ta działa zarówno na ciebie, jak i na twoich sojuszników."
                 },
                 {
                     "langCode": "pt-br",
@@ -1921,6 +2045,10 @@
                     "langTranslation": "Вы восстанавливаете {1} ед. здоровья каждую секунду.\n\nИспользование молитвы мгновенно излечивает вас на {0} ед. и на время снижает получаемый урон на 20%.\n\nЭтот навык влияет и на ваших союзников."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Відновлює {1} здоров'я за секунду.\n\nАктивуйте молитву, щоб миттєво відновити {0} здоров'я і тимчасово знизити отримувану шкоду на 20%.\n\nЦя навичка також впливає на ваших союзників."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "每秒获得 {1} 生命再生。\n\n激活祈祷时，立即恢复 {0} 生命值，并获得 20% 的临时伤害减免。\n\n该技能同时作用于你和盟友。"
                 }
@@ -1929,6 +2057,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "FIRE",
             "isAreaDamage": true,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -2273,6 +2402,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -2404,7 +2537,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Modlitwa o zemstę"
+                    "langTranslation": "Modlitwa o Zemstę"
                 },
                 {
                     "langCode": "pt-br",
@@ -2415,6 +2548,10 @@
                     "langTranslation": "Молитва о воздаянии"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Молитва помсти"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "复仇之祷"
                 }
@@ -2422,7 +2559,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Erhalte passiv {0} Krit.-Treffer-Chance und Krit.-Treffer-Schaden.\n\nBei Aktivierung des Gebets erhöht sich die Intensität dieses Effekts vorübergehend um {1}.\n\nDiese Fertigkeit betrifft sowohl dich als auch deine Verbündeten."
+                    "langTranslation": "Erhalte passiv {0} Krit.-Treffer-Chance und {2} Krit.-Treffer-Schaden.\n\nBei Aktivierung des Gebets erhöht sich die Intensität dieses Effekts vorübergehend um {1}.\n\nDiese Fertigkeit betrifft sowohl dich als auch deine Verbündeten."
                 },
                 {
                     "langCode": "en",
@@ -2430,19 +2567,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Obtienes {0} de probabilidad de golpe crítico y de daño crítico de forma pasiva.\n\nActivar Plegaria, aumenta temporalmente la intensidad del efecto en {1}.\n\nEsta habilidad te afecta a ti y a tus aliados."
+                    "langTranslation": "Obtienes {0} de probabilidad de golpe crítico y {2} de daño crítico de forma pasiva.\n\nActivar Plegaria aumenta temporalmente la intensidad del efecto en {1}.\n\nEsta habilidad te afecta a ti y a tus aliados."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Accorde un bonus passif de {0} de chances de critique et de dégâts critiques.\n\nEn activant la prière, cet effet est temporairement augmenté de {1}.\n\nCette compétence affecte également vos alliés."
+                    "langTranslation": "Accorde un bonus passif de {0} de chances de critique et {2} de dégâts critiques.\n\nEn activant la prière, cet effet est temporairement augmenté de {1}.\n\nCette compétence affecte également vos alliés."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "クリティカル率とクリティカルダメージを{0}得る。\n\n祈りを発動させると、一時的にこの効果の強度が{1}強化される。\n\nこのスキルはプレイヤーと仲間の両方に効果を発揮する。"
+                    "langTranslation": "クリティカルヒット率{0}とクリティカルダメージ{2}を得る。\n\n祈りを発動させると、一時的にこの効果の強度が{1}強化される。\n\nこのスキルはプレイヤーと仲間の両方に効果を発揮する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Pasywnie zapewnia {0} szansy na trafienie krytyczne i obrażenia od trafień krytycznych.\n\nAktywacja Modlitwy chwilowo zwiększa intensywność tego efektu o {1}.\n\nUmiejętność ta działa zarówno na ciebie, jak i na twoich sojuszników."
+                    "langTranslation": "Pasywnie zapewnia {0} szansy na trafienie krytyczne i {2} obrażeń od trafień krytycznych.\n\nAktywacja modlitwy chwilowo zwiększa intensywność tego efektu o {1}.\n\nUmiejętność ta działa zarówno na ciebie, jak i na twoich sojuszników."
                 },
                 {
                     "langCode": "pt-br",
@@ -2450,17 +2587,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вероятность нанести критический удар и крит. урон постоянно повышены на {0}.\n\nПри использовании молитвы эффект временно усиливается на {1}.\n\nЭтот навык влияет и на ваших союзников."
+                    "langTranslation": "Дает пассивно вероятность критического удара {0} и критического урона {2}.\n\nАктивация молитвы временно увеличивает интенсивность этого эффекта на {1}.\n\nЭтот навык действует как на вас, так и на ваших союзников."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Пасивна навичка, яка збільшує шанс критичного удару на {0}, а критичну шкоду на {2}.\n\nМолитва тимчасово підвищує ефект на {1} після активації навички.\n\nЦя навичка також впливає на ваших союзників."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "被动获得 {0} 暴击几率与暴击伤害。\n\n激活祈祷时，该效果强度临时提升 {1}。\n\n该技能同时作用于你和盟友。"
+                    "langTranslation": "被动获得 {0} 暴击几率与 {2} 暴击伤害。\n\n激活祈祷时，该效果强度临时提升 {1}。\n\n该技能同时作用于你和盟友。"
                 }
             ],
             "icon": "IconSkill_PrayerofVengeance",
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -2796,6 +2938,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -2856,7 +3002,7 @@
             "duration": 6.0,
             "radius": 4.0,
             "manaCost": 400.0,
-            "useNegativeMana": false,
+            "useNegativeMana": true,
             "lifeCost": 0.0,
             "baseSkillSpeed": 1.0,
             "localizedName": [
@@ -2891,6 +3037,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Старый колокол"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Старий дзвін"
                 },
                 {
                     "langCode": "zh-cn",
@@ -2931,6 +3081,10 @@
                     "langTranslation": "Старый колокол падает на ваших врагов."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "На супротивників обрушується старий дзвін."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "一口古钟从天而降，猛烈砸向敌人。"
                 }
@@ -2939,6 +3093,7 @@
             "baseDamageMod": 4.0,
             "eDamageType": "PLAGUE",
             "isAreaDamage": true,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -3171,6 +3326,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -3192,6 +3351,18 @@
                 },
                 {
                     "valueKey": "Radius Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Death Bell Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Death Bell Damage Multiplier Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Death Bell Radius Multiplier Modifier",
                     "valueType": "Multiplier"
                 }
             ]
@@ -3270,6 +3441,10 @@
                     "langTranslation": "Божья кара"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Осуд"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "审判"
                 }
@@ -3277,7 +3452,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Alle Gegner im Zielbereich werden verurteilt, wodurch all ihre Resistenzen {0} Sek. lang um 20% verringert werden. Betroffene Gegner erleiden zudem 20% zusätzlichen Schaden durch Beeinträchtigungen."
+                    "langTranslation": "Alle Gegner im Zielbereich werden gerichtet und ihre Resistenzen werden über {0} s um 20 % reduziert. Die betroffenen Gegner erleiden außerdem 20 % mehr Schaden durch Leiden."
                 },
                 {
                     "langCode": "en",
@@ -3285,19 +3460,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Se juzga a todos los enemigos en el área objetivo, reduciendo todas sus resistencias en un 20% durante {0} s. Los enemigos afectados también reciben un 20% de daño adicional por Afecciones."
+                    "langTranslation": "Todos los enemigos en el área objetivo son juzgados, y todas sus resistencias se reducen en un 20 % por {0} s. Los enemigos afectados también reciben un 20 % más de daño por dolencias."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Tous les ennemis dans la zone ciblée sont jugés, réduisant toutes leurs résistances de 20% pendant {0} secondes. Les ennemis affectés subissent également 20% de dégâts supplémentaires provenant des altérations."
+                    "langTranslation": "Tous les ennemis dans la zone ciblée sont jugés, ce qui réduit toutes leurs résistances de 20 % pendant {0} secondes. Les ennemis touchés subissent également 20 % de dégâts supplémentaires de leurs afflictions."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "対象エリア内のすべての敵が審判を受け、{0}秒間あらゆる耐性が20%低下する。影響を受けた敵はさらに状態異常からのダメージが20%増加する。"
+                    "langTranslation": "対象エリア内の敵はすべて審判状態になり、{0}秒間、あらゆる抵抗が20%低下する。さらに、効果を受けた敵は状態異常で受けるダメージが20%上昇する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Wszyscy wrogowie w obszarze docelowym zostają osądzeni, co zmniejsza ich odporności o 20% na {0} s. Dotknięci wrogowie otrzymują także 20% dodatkowych obrażeń od dolegliwości."
+                    "langTranslation": "Wszyscy wrogowie w obszarze docelowym zostają osądzeni, co zmniejsza ich odporność o 20% w ciągu {0} s. Dotknięci wrogowie również otrzymują o 20% więcej obrażeń od dolegliwości."
                 },
                 {
                     "langCode": "pt-br",
@@ -3305,17 +3480,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Все враги в целевой области подвергаются суду, снижая все их сопротивления на 20% в течение {0} сек. Затронутые враги также получают на 20% больше урона от недугов."
+                    "langTranslation": "Все враги в области действия навыка получают -20% к сопротивлению всем типам урона на {0} сек. Кроме того, пораженные враги получают на 20% больше урона от недугов."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Накладає на всіх супротивників у вибраній області осуд. Цей ефект знижує в них всі типи опору на 20% протягом {0} с. Уражені супротивники також отримують на 20% більше шкоди від недуг."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "目标区域内的所有敌人将被审判，在 {0} 秒内全抗性降低 20%。受影响的敌人还会受到 20% 额外的异常状态伤害。"
+                    "langTranslation": "目标区域内的所有敌人被审判，全体抗性降低 20%，持续 {0} 秒。此外，被影响的敌人受到异常状态的伤害提高 20%。"
                 }
             ],
             "icon": "IconSkill_Judgement",
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -3540,6 +3720,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -3654,7 +3838,7 @@
             "baseSpinSpeed": 1.0,
             "moveSpeedSlow": 0.5,
             "loopInterval": 0.2,
-            "useCooldownSpeedForLoop": false,
+            "useSkillSpeedForLoop": false,
             "manaCost": 55.0,
             "useNegativeMana": true,
             "lifeCost": 0.0,
@@ -3691,6 +3875,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Двойные ножи"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Подвійні ножі"
                 },
                 {
                     "langCode": "zh-cn",
@@ -3731,6 +3919,10 @@
                     "langTranslation": "Вокруг вас постоянно вращаются два ножа, которые наносят урон ближайшим врагам."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Під час руху навколо вас постійно обертаються два ножі, які завдають фізичної шкоди супротивникам поблизу."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "移动时持续旋转双刃，对附近敌人造成物理伤害。"
                 }
@@ -3739,6 +3931,7 @@
             "baseDamageMod": 0.64,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -3751,7 +3944,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.3
+                        "value": 1.15
                     }
                 ],
                 "2": [
@@ -3765,7 +3958,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.65
+                        "value": 1.35
                     }
                 ],
                 "3": [
@@ -3779,7 +3972,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.15
+                        "value": 1.75
                     }
                 ],
                 "4": [
@@ -3793,7 +3986,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.6
+                        "value": 2.2
                     }
                 ],
                 "5": [
@@ -3807,7 +4000,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.1
+                        "value": 2.5
                     }
                 ],
                 "6": [
@@ -3821,7 +4014,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.7
+                        "value": 2.8
                     }
                 ],
                 "7": [
@@ -3835,7 +4028,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "8": [
@@ -3849,7 +4042,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "9": [
@@ -3863,7 +4056,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "10": [
@@ -3877,7 +4070,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ]
             },
@@ -3964,6 +4157,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -4030,6 +4227,7 @@
             "teleportConfig": {
                 "type": "TeleportConfig",
                 "anticipationTime": 0.0,
+                "transitionTime": 0.0,
                 "recoveryTime": 0.0
             },
             "manaCost": 100.0,
@@ -4070,6 +4268,10 @@
                     "langTranslation": "Проход"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Прохід"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "虚空通道"
                 }
@@ -4097,7 +4299,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przecinaj przestrzeń i czas, natychmiast pojawiając się w innym miejscu."
+                    "langTranslation": "Przechodź przez przestrzeń i czas, natychmiast pojawiając się w innym miejscu."
                 },
                 {
                     "langCode": "pt-br",
@@ -4108,6 +4310,10 @@
                     "langTranslation": "Вы преодолеваете время и пространство и мгновенно оказываетесь в другом месте."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Створює прохід крізь простір і час, а персонаж миттєво з'являється деінде."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "撕裂时空，瞬间传送至目标位置。"
                 }
@@ -4116,6 +4322,7 @@
             "baseDamageMod": 1.0,
             "eDamageType": "LIGHTNING",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -4343,6 +4550,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -4465,6 +4676,10 @@
                     "langTranslation": "Лассо"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Ласо"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "套索牵制"
                 }
@@ -4503,6 +4718,10 @@
                     "langTranslation": "Притягивает врагов в область, оглушает их на 2 сек. и с вероятностью 20% вызывает кровотечение с воздействием {0} на 4 сек. Боссов нельзя притянуть, но они все еще подвержены кровотечению и оглушению."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Хапає і тягне супротивників, які опинились у радіусі дії, а також оглушує їх на 2 с та із шансом 20% накладає на них кровотечу (сила ефекту: {0}) на 4 с. Не притягує босів, але завдає їм шкоди від кровотечі й оглушує їх."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "用套索钩住并拉拽区域内敌人，使其眩晕 2 秒，并有 20% 的几率造成 {0} 强度的流血，持续 4 秒。敌人首领不会被拉拽，但仍可受到流血和眩晕伤害。"
                 }
@@ -4511,6 +4730,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -4855,6 +5075,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -4944,6 +5168,10 @@
                     "langTranslation": "Кнут надзирателя"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Батіг наглядача"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "惩戒之鞭"
                 }
@@ -4982,6 +5210,10 @@
                     "langTranslation": "Вы наносите размашистый удар кнутом врагам перед собой."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Завдає шкоди супротивникам, б'ючи по дузі перед персонажем."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "挥鞭横扫前方弧形区域的敌人。"
                 }
@@ -4990,6 +5222,7 @@
             "baseDamageMod": 1.9,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -5002,7 +5235,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.3
+                        "value": 1.15
                     }
                 ],
                 "2": [
@@ -5016,7 +5249,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.65
+                        "value": 1.35
                     }
                 ],
                 "3": [
@@ -5030,7 +5263,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.15
+                        "value": 1.75
                     }
                 ],
                 "4": [
@@ -5044,7 +5277,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.6
+                        "value": 2.2
                     }
                 ],
                 "5": [
@@ -5058,7 +5291,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.1
+                        "value": 2.5
                     }
                 ],
                 "6": [
@@ -5072,7 +5305,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.7
+                        "value": 2.8
                     }
                 ],
                 "7": [
@@ -5086,7 +5319,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "8": [
@@ -5100,7 +5333,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "9": [
@@ -5114,7 +5347,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "10": [
@@ -5128,7 +5361,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ]
             },
@@ -5224,6 +5457,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -5270,10 +5507,10 @@
                     ],
                     "refreshOnAreaEnter": true,
                     "removeOnAreaExit": true,
-                    "applyOnInterval": false,
+                    "applyOnInterval": true,
                     "statusDuration": 0.0,
                     "radius": 5.0,
-                    "effectInterval": 0.0
+                    "effectInterval": 0.1
                 },
                 "effectAreaDuration": 9.0,
                 "hasAnticipation": false,
@@ -5320,6 +5557,10 @@
                     "langTranslation": "Замедление времени"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Сповільнення часу"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "时间凝滞"
                 }
@@ -5358,6 +5599,10 @@
                     "langTranslation": "Создает искажение времени, сохраняющееся {0} сек.\n\nСкорость всех врагов в области, их скорость атаки и скорость снарядов снижается на {1}."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Створює викривлення часу, яке триває {0} с.\n\nЗнижує швидкість пересування та атаки супротивників у радіусі дії, а також швидкість їхніх снарядів на {1}."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "生成一个持续 {0} 秒的时间扭曲区域。\n\n区域内所有敌人的移动速度、攻击速度和投射物速度降低 {1}。"
                 }
@@ -5366,6 +5611,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "LIGHTNING",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -5710,6 +5956,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -5817,6 +6067,10 @@
                     "langTranslation": ""
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": ""
                 }
@@ -5855,6 +6109,10 @@
                     "langTranslation": ""
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": ""
                 }
@@ -5863,6 +6121,7 @@
             "baseDamageMod": 1.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -5927,6 +6186,10 @@
                 {
                     "valueKey": "Range Modifier",
                     "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
                 },
                 {
                     "valueKey": "Mana Cost Modifier",
@@ -6015,6 +6278,10 @@
                     "langTranslation": "Защищенное тело"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Захисна аура"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "封闭躯壳"
                 }
@@ -6042,7 +6309,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Otacza cię barierą Przekonania stanowiącą {0} twojej maks. many. Gdy Niezniszczalność jest aktywna, utrata Przekonania jest zmniejszona o 50%, a na każdy wycelowany w ciebie atak odpowiadasz eksplozją obszarową zadającą obrażenia fizyczne."
+                    "langTranslation": "Otacza cię barierą Przekonania stanowiącą {0} twojej maks. many. Gdy Zamknięte Ciało jest aktywne, utrata Przekonania jest zmniejszona o 50%, a na każdy wycelowany w ciebie atak odpowiadasz eksplozją obszarową zadającą obrażenia fizyczne."
                 },
                 {
                     "langCode": "pt-br",
@@ -6053,6 +6320,10 @@
                     "langTranslation": "Вы получаете щит непоколебимости, равный {0} от вашей макс. маны. Пока активен навык «Защищенное тело», снижение непоколебимости уменьшено на 50%, а после каждой полученной атаки происходит взрыв, наносящий физ. урон."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Огортає персонажа аурою впевненості, сила якої складає {0} максимальної кількості мани. Поки навичка захисної аури активна, темп ослаблення впевненості зменшується на 50%, а коли персонажа атакують, фізична шкода розсіюється з вибухом."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "该技能以你最大法力值的 {0} 构筑一层信念屏障，环绕自身。封闭躯壳持续期间，信念减弱速度降低 50%，并在每次受到攻击时触发一次物理伤害爆炸反击敌人。"
                 }
@@ -6061,6 +6332,7 @@
             "baseDamageMod": 2.5,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -6406,6 +6678,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -6549,6 +6825,10 @@
                     "langTranslation": "Обстрел"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Бомбардування"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "炮火倾泻"
                 }
@@ -6556,7 +6836,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beschwört eine Bombardierung über ein großes Gebiet, die 5 Sek. lang anhält und beim Einschlagen physischen Schaden in einem Wirkungsbereich verursacht."
+                    "langTranslation": "Beschwört eine Bombardierung über ein großes Gebiet, die 5 Sek. lang anhält und beim Einschlagen physischen Schaden in einem Wirkungsbereich verursacht. "
                 },
                 {
                     "langCode": "en",
@@ -6564,19 +6844,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Invoca un bombardeo en un área amplia durante 5 s que inflige daño físico de área al impactar."
+                    "langTranslation": "Invoca un bombardeo en un área amplia durante 5 s que inflige daño físico de área al impactar. "
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fait pleuvoir l'artillerie sur une large zone pendant 5 secondes, infligeant des dégâts physiques de zone à l'impact."
+                    "langTranslation": "Fait pleuvoir l'artillerie sur une large zone pendant 5 secondes, infligeant des dégâts physiques de zone à l'impact. "
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "5秒間、広いエリアに砲撃を召喚し、着弾するとエリア物理ダメージを与える。"
+                    "langTranslation": "5秒間、広いエリアに砲撃を召喚し、着弾するとエリア物理ダメージを与える。 "
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przywołuje Bombardowanie na dużym obszarze na 5 s, zadając obszarowe obrażenia fizyczne."
+                    "langTranslation": "Przyzywa Bombardowanie na dużym obszarze na 5 s, zadając obszarowe obrażenia fizyczne. "
                 },
                 {
                     "langCode": "pt-br",
@@ -6584,17 +6864,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Большая зона обстреливается в течение 5 сек., а враги в ней получают физический урон."
+                    "langTranslation": "Большая зона обстреливается в течение 5 сек., а враги в ней получают физический урон. "
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Бомбардує велику область протягом 5 с і завдає фізичної шкоди в радіусі дії під час ударів. "
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "在一片广阔区域内召唤炮火倾泻，持续 5 秒，命中时造成范围物理伤害。"
+                    "langTranslation": "在一片广阔区域内召唤炮火倾泻，持续 5 秒，命中时造成范围物理伤害。 "
                 }
             ],
             "icon": "IconSkill_RainOfHeads",
             "baseDamageMod": 1.5,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -6828,6 +7113,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -6937,6 +7226,7 @@
                 "id": 0,
                 "type": "PlayerCompanionDefinition"
             },
+            "updateDamageMod": false,
             "manaCost": 100.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
@@ -6975,6 +7265,10 @@
                     "langTranslation": "Призыв стражи"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Виклик гвардійця"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "召唤卫兵"
                 }
@@ -7002,7 +7296,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Do walki u twego boku zostają wezwane duchy Guarda Católica z Canudos.\n\nWściekłość Guardy: Po aktywacji umiejętności wszystkie Duchy Guarda Católica otrzymują 200% premii do prędkości ataku na 4 s.\n\n"
+                    "langTranslation": "Do walki u twego boku zostają przyzwane duchy Guarda Católica z Canudos.\n\nWściekłość Guardy: Po aktywacji umiejętności wszystkie Duchy Guarda Católica otrzymują 200% premii do prędkości ataku na 4 s.\n\n"
                 },
                 {
                     "langCode": "pt-br",
@@ -7013,6 +7307,10 @@
                     "langTranslation": "Призраки Католической стражи Канудуса приходят вам на помощь.\n\nЯрость стража: при использовании навыка все призраки Католической стражи получают +200% к скорости атаки на 4 сек.\n\n"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Викликає духи католицької гвардії Канудуса, які б'ються на вашому боці.\n\nЛють гвардійця: після активації навички швидкість атаки всіх духів католицької гвардії підвищується на 200% на 4 с.\n\n"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "召唤卡努杜斯天主教卫队的英灵协助作战。\n\n卫兵之怒：技能激活时，所有天主教卫队英灵的攻击速度提升 200%，持续 4 秒。\n\n"
                 }
@@ -7021,6 +7319,7 @@
             "baseDamageMod": 0.45,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -7297,6 +7596,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -7426,6 +7729,10 @@
                     "langTranslation": "Матадейра"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Матадейра"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "歼击炮"
                 }
@@ -7464,6 +7771,10 @@
                     "langTranslation": "По указанной вами области производится мощный выстрел из пушки. Область взрыва воспламеняется на 3 сек."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Позначте область й обстріляйте її потужною канонадою. Зона обстрілу горить протягом 3 с."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "标记一个区域，并用强力炮弹轰炸该区域，爆炸区域持续燃烧 3 秒。"
                 }
@@ -7472,6 +7783,7 @@
             "baseDamageMod": 3.0,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -7484,7 +7796,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.3
+                        "value": 1.15
                     }
                 ],
                 "2": [
@@ -7498,7 +7810,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 1.65
+                        "value": 1.35
                     }
                 ],
                 "3": [
@@ -7512,7 +7824,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.15
+                        "value": 1.75
                     }
                 ],
                 "4": [
@@ -7526,7 +7838,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 2.6
+                        "value": 2.2
                     }
                 ],
                 "5": [
@@ -7540,7 +7852,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.1
+                        "value": 2.5
                     }
                 ],
                 "6": [
@@ -7554,7 +7866,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 3.7
+                        "value": 2.8
                     }
                 ],
                 "7": [
@@ -7568,7 +7880,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "8": [
@@ -7582,7 +7894,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "9": [
@@ -7596,7 +7908,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ],
                 "10": [
@@ -7610,7 +7922,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Mana Cost Modifier",
                         "modifierType": "Multiplicative",
-                        "value": 4.2
+                        "value": 3.2
                     }
                 ]
             },
@@ -7706,6 +8018,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -7798,6 +8114,7 @@
             "expansionSpeed": 2.0,
             "baseOrbitRadius": 2.0,
             "orbitAroundTarget": false,
+            "inverseDirection": false,
             "projectileSpeedModifierRange": [
                 300.0,
                 300.0
@@ -7838,7 +8155,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Święty różaniec"
+                    "langTranslation": "Święty Różaniec"
                 },
                 {
                     "langCode": "pt-br",
@@ -7847,6 +8164,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Святые четки"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Святі чотки"
                 },
                 {
                     "langCode": "zh-cn",
@@ -7876,7 +8197,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przywołuje paciorki różańca, które krążą wokół ciebie, zadając obrażenia od błyskawic."
+                    "langTranslation": "Przyzywa paciorki różańca, które krążą wokół ciebie, zadając obrażenia od błyskawic."
                 },
                 {
                     "langCode": "pt-br",
@@ -7887,6 +8208,10 @@
                     "langTranslation": "Вокруг вас появляются вращающиеся четки, которые наносят урон молниями."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Викликає чотки, намистини з яких обертаються навколо вас і завдають супротивникам шкоди від блискавки."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "召唤念珠呈螺旋状环绕自身，造成闪电伤害。"
                 }
@@ -7895,6 +8220,7 @@
             "baseDamageMod": 1.3,
             "eDamageType": "LIGHTNING",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -8121,6 +8447,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -8153,12 +8483,40 @@
                     "valueType": "Increment"
                 },
                 {
+                    "valueKey": "Projectile Scale Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
                     "valueKey": "Projectile Amount Modifier",
                     "valueType": "Increment"
                 },
                 {
                     "valueKey": "Pierce Damage Modifier",
                     "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Direction Angle Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Count Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Angle Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Pierce Amount Modifier",
+                    "valueType": "Increment"
                 },
                 {
                     "valueKey": "Orbit Around Target Modifier",
@@ -8239,6 +8597,10 @@
                     "langTranslation": "Завеса перьев"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Завіса з пір'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "幽羽帷幕"
                 }
@@ -8250,7 +8612,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Unleashes a flurry of spectral quills that seek out nearby enemies, dealing 70% Plague damage."
+                    "langTranslation": "Unleashes a flurry of spectral quills that seek out nearby enemies, dealing Plague damage."
                 },
                 {
                     "langCode": "es",
@@ -8270,11 +8632,15 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Conjura uma rajada de penas espectrais que perseguem inimigos próximos, causando 70% de dano Tóxico."
+                    "langTranslation": "Conjura uma rajada de penas espectrais que perseguem inimigos próximos, causando dano Tóxico."
                 },
                 {
                     "langCode": "ru",
                     "langTranslation": "Вокруг вас появляется вихрь призрачных перьев, которые наводятся на ближайших врагов и наносят им 70% урона чумой."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Викликає шквал спектрального пір'я, яке знаходить і атакує супротивників поблизу, завдаючи 70% шкоди від чуми."
                 },
                 {
                     "langCode": "zh-cn",
@@ -8285,6 +8651,7 @@
             "baseDamageMod": 0.7,
             "eDamageType": "PLAGUE",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -8517,6 +8884,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -8549,11 +8920,59 @@
                     "valueType": "Increment"
                 },
                 {
+                    "valueKey": "Projectile Scale Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
                     "valueKey": "Projectile Amount Modifier",
                     "valueType": "Increment"
                 },
                 {
                     "valueKey": "Pierce Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Direction Angle Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Count Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Angle Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Hit Area Cascade Projectiles Pierce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Ignore Homing Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Charged Shot Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Projectile Rotation Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Projectile Rotation Acceleration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Delay To Start Following Target Modifier",
                     "valueType": "Multiplier"
                 }
             ]
@@ -8621,12 +9040,14 @@
                 "type": "StatModifierStatusDefinition"
             },
             "activationOwnerBuffIntensity": 0.0,
+            "retaliationDamageTypeDefinition": "LIGHTNING",
             "summonAmount": 1,
             "companionDefinition": {
                 "name": "Summon Brute - Companion",
                 "id": 2,
                 "type": "PlayerCompanionDefinition"
             },
+            "updateDamageMod": false,
             "manaCost": 100.0,
             "useNegativeMana": true,
             "lifeCost": 0.0,
@@ -8654,7 +9075,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przyzwanie Brutala"
+                    "langTranslation": "Przyzwanie Bestii"
                 },
                 {
                     "langCode": "pt-br",
@@ -8663,6 +9084,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Призыв громилы"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Виклик розбишаки"
                 },
                 {
                     "langCode": "zh-cn",
@@ -8692,7 +9117,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przywołuje dużego sojusznika o zdrowiu {0}, w którego mogą celować wrogowie.\n\nBrutal jest przywoływany automatycznie i odradza się 10 s po tym, jak zostanie zabity.\n\nAktywuj umiejętność, aby zmusić wszystkich pobliskich wrogów do atakowania wyłącznie Brutala przez {1} s."
+                    "langTranslation": "Przyzywa dużego sojusznika o zdrowiu {0}, w którego mogą celować wrogowie.\n\nBestia jest przyzywana automatycznie i odradza się 10 s po tym, jak zostanie zabita.\n\nAktywuj umiejętność, aby zmusić wszystkich pobliskich wrogów do atakowania wyłącznie Bestii przez {1} s."
                 },
                 {
                     "langCode": "pt-br",
@@ -8703,6 +9128,10 @@
                     "langTranslation": "Вам на помощь приходит крупный союзник с {0} ОЗ, на которого могут отвлечься враги.\n\nГромила призывается автоматически и оживает через 10 сек. после смерти.\n\nПри использовании навыка все враги поблизости атакуют только громилу в течение {1} сек."
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Викликає великого союзника з {0} здоров'я, якого можуть атакувати супротивники.\n\nРозбишака з'являється автоматично під час активації та відроджується через 10 с після його смерті.\n\nАктивуйте навичку, щоб усі супротивники поблизу могли атакувати лише розбишаку протягом {1} с."
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "召唤一名拥有 {0} 生命值且可被敌人锁定的强大盟友。\n\n蛮人会被自动召唤，并在被击杀后于 10 秒内自动复活。\n\n激活该技能将迫使附近所有敌人优先攻击蛮人，持续 {1} 秒。"
                 }
@@ -8711,6 +9140,7 @@
             "baseDamageMod": 3.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -9070,6 +9500,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -9138,6 +9572,18 @@
                     "valueType": "Toggle"
                 },
                 {
+                    "valueKey": "Retaliation Enabled Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Retaliation Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Retaliation Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
                     "valueKey": "!StatusDefinitionCollection(124) - Status Interval Modifier",
                     "valueType": "Multiplier"
                 },
@@ -9189,6 +9635,16 @@
             "type": "SummonMarksmenSkillDefinition",
             "summonAttackSpeed": 1.0,
             "marksmenShotBounceAmount": 0,
+            "alternativeSkillPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "RepeaterDefinition",
+                        "id": 3,
+                        "type": "RepeaterSkillDefinition"
+                    }
+                }
+            ],
             "summonAmount": 2,
             "summonDuration": 8.0,
             "companionDefinition": {
@@ -9223,7 +9679,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Widmowych Strzelców"
+                    "langTranslation": "Widmowi Strzelcy"
                 },
                 {
                     "langCode": "pt-br",
@@ -9234,6 +9690,10 @@
                     "langTranslation": "Призрачный стрелок"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Примарні стрільці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "幻影神射手"
                 }
@@ -9241,7 +9701,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beschwöre ein stationäres Phantomgewehr, das auf die nächstgelegenen Gegner feuert.\n\nEs können maximal 2 Gewehre gleichzeitig aktiv sein.\n\nDer Schaden der Schüsse wird mit allen Boni auf Projektilanzahl multipliziert."
+                    "langTranslation": "Beschwöre ein stationäres Phantomgewehr, das auf die Gegner feuert, die am nächsten sind.\n\nEs können max. 2 Gewehre auf einmal aktiv sein.\n\nDer Schaden durch Schüsse wird mit allen Boni für die Geschossmenge multipliziert."
                 },
                 {
                     "langCode": "en",
@@ -9249,19 +9709,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Invoca un rifle fantasma fijo que dispara a los enemigos cercanos.\n\nComo máximo, puedes activar 2 rifles en simultáneo.\n\nEl daño de los disparos se multiplica por cualquier bonificación a la Cantidad de Proyectiles."
+                    "langTranslation": "Invoca un rifle fantasma fijo que dispara a los enemigos cercanos.\n\nComo máximo, puedes activar 2 rifles en simultáneo.\n\nEl daño por disparo se multiplica por los bonos al monto de proyectil."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Invoque un fusil fantôme statique qui tire sur les ennemis les plus proches.\n\nVous pouvez avoir un maximum de 2 fusils actifs à la fois.\n\nLes dégâts des tirs sont multipliés par tous les bonus au Nombre de projectiles."
+                    "langTranslation": "Invoque un tireur fantôme statique qui tire sur les ennemis les plus proches.\n\nVous pouvez avoir un maximum de 2 tireurs actifs à la fois.\n\nLes dégâts de tir sont multipliés par les bonus associés au nombre de projectiles."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "その場に留まり、最も近い敵に射撃する幻影のライフルを召喚する。\n\n同時に最大2個までのライフルを起動できる。\n\n射撃ダメージは「投射物数」へのボーナスによって倍率がかかる。"
+                    "langTranslation": "その場に留まり、最も近い敵に射撃する幻影のライフルを召喚する。\n\n同時に最大2個までのライフルを起動できる。\n\n射撃のダメージは投射物発射数のボーナスによって増幅する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przywołuje stacjonarny karabin-widmo, który strzela do najbliższych wrogów.\n\nAktywne mogą być jednocześnie maksymalnie 2 karabiny.\n\nObrażenia z wystrzałów są mnożone przez wszystkie premie do Liczby Pocisków."
+                    "langTranslation": "Przyzywa stacjonarny karabin-widmo, który strzela do najbliższych wrogów.\n\nAktywne mogą być jednocześnie maksymalnie 2 karabiny.\n\nObrażenia od strzału mnożone są przez wszelkie premie do liczby pocisków."
                 },
                 {
                     "langCode": "pt-br",
@@ -9269,17 +9729,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Призывает стационарное фантомное ружьё, которое стреляет по ближайшим врагам.\n\nОдновременно может быть активно не более 2 ружей.\n\nУрон выстрелов умножается на все бонусы к количеству снарядов."
+                    "langTranslation": "Вам на помощь приходит стрелок, который стоит на месте и ведет огонь по ближайшим врагам.\n\nОдновременно можно призвать не более 2 стрелков.\n\nУрон от выстрелов умножается на любые бонусы к количеству снарядов."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Викликає примарну нерухому вогневу точку, яка стріляє по найближчих супротивниках.\n\nОдночасно можна активувати до 2 вогневих точок.\n\nШкода від пострілу відповідним чином збільшується за наявності бонусів, які змінюють кількість снарядів."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "召唤一把定点幻影步枪，自动射击最近的敌人。\n\n最多可同时激活 2 把步枪。\n\n射击伤害会根据所有【投射物数量】加成进行倍增。"
+                    "langTranslation": "召唤一把定点幻影步枪，自动射击最近的敌人。\n\n最多可同时激活 2 把步枪。\n\n射击伤害以投射物数量加成为倍率结算。"
                 }
             ],
             "icon": "IconSkill_PhantomMarksmen",
             "baseDamageMod": 1.3,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
             "modifiersPerLevel": {
                 "1": [
                     {
@@ -9506,6 +9971,10 @@
                     "valueType": "Multiplier"
                 },
                 {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
                     "valueKey": "Mana Cost Modifier",
                     "valueType": "Multiplier"
                 },
@@ -9539,6 +10008,666 @@
                 },
                 {
                     "valueKey": "Marksmen Shot Bounce Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Enable Alternative Skills Modifier",
+                    "valueType": "Toggle"
+                }
+            ]
+        },
+        {
+            "name": "Broken Mirror - Unique - Passive Summon Skill Definition",
+            "id": 678,
+            "type": "SummonTheGuardSkillDefinition",
+            "summonAttackSpeedModifier": 1.0,
+            "companionBuff": {
+                "name": "Summon The Guard Companion Buff",
+                "id": 79,
+                "type": "StatModifierStatusDefinition"
+            },
+            "companionBuffDuration": 3.0,
+            "companionSpawnDelay": 0.05,
+            "alternativeSkillPool": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "RepeaterDefinition",
+                        "id": 3,
+                        "type": "RepeaterSkillDefinition"
+                    }
+                }
+            ],
+            "summonAmount": 1,
+            "companionDefinition": {
+                "name": "Broken Mirror - Companion",
+                "id": 5,
+                "type": "PlayerCompanionDefinition"
+            },
+            "updateDamageMod": false,
+            "manaCost": 100.0,
+            "useNegativeMana": false,
+            "lifeCost": 0.0,
+            "baseSkillSpeed": 1.0,
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Garde beschwören"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Summon the Guard"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Invoca a la Guardia"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Appel à la Garde"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "衛兵召喚"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Przyzwanie Guardy"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Chamado da Guarda"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Призыв стражи"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Виклик гвардійця"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "召唤卫兵"
+                }
+            ],
+            "descriptionKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Beschwört Geister der katholischen Garde von Canudos, die an deiner Seite kämpfen.\n\nZorn der Garde: Nach Aktivierung der Fertigkeit erhalten alle Geister der katholischen Garde 4 Sek. lang einen Bonus von 200 % auf das Angriffstempo.\n\n"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Spirits of the Canudos Catholic Guard are summoned to fight by your side.\n\nGuard's Rage: Upon skill activation, all Catholic Guard's Spirits receive a 200% boost to attack speed for 4 seconds.\n\n"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Se invoca a los espíritus de la Guardia Católica de Canudos para luchar a tu lado.\n\nFuria de la Guardia: cuando se activa la habilidad, todos los espíritus de la Guardia Católica reciben una bonificación del 200 % en la velocidad de ataque durante 4 segundos.\n\n"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Les esprits de la Garde catholique de Canudos sont invoqués pour se battre à vos côtés.\n\nRage de la Garde : lorsque la compétence est activée, tous les esprits obtiennent un bonus de vitesse d'attaque de 200% pendant 4 secondes.\n\n"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "カヌードスのカトリック衛兵の霊が召喚され、ともに戦う。\n\n衛兵の怒り：スキルを発動させると、あらゆるカトリック衛兵は4秒間、攻撃速度に200%のボーナスを得る。\n\n"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Do walki u twego boku zostają przyzwane duchy Guarda Católica z Canudos.\n\nWściekłość Guardy: Po aktywacji umiejętności wszystkie Duchy Guarda Católica otrzymują 200% premii do prędkości ataku na 4 s.\n\n"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Espíritos da Guarda Católica de Canudos são invocados para lutar ao seu lado.\n\nFrenesi da Guarda: Ao ativar a habilidade, todos os Espíritos da Guarda Católica recebem um aumento de 200% na velocidade de ataque por 4 segundos.\n\n"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Призраки Католической стражи Канудуса приходят вам на помощь.\n\nЯрость стража: при использовании навыка все призраки Католической стражи получают +200% к скорости атаки на 4 сек.\n\n"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Викликає духи католицької гвардії Канудуса, які б'ються на вашому боці.\n\nЛють гвардійця: після активації навички швидкість атаки всіх духів католицької гвардії підвищується на 200% на 4 с.\n\n"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "召唤卡努杜斯天主教卫队的英灵协助作战。\n\n卫兵之怒：技能激活时，所有天主教卫队英灵的攻击速度提升 200%，持续 4 秒。\n\n"
+                }
+            ],
+            "icon": "IconSkill_SummonTheGuard",
+            "baseDamageMod": 0.45,
+            "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
+            "modifiersPerLevel": {
+                "1": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.15
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.3
+                    }
+                ],
+                "2": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.65
+                    }
+                ],
+                "3": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.45
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.3
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 2.15
+                    }
+                ],
+                "4": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.4
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.0
+                    }
+                ],
+                "5": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.75
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.3
+                    }
+                ],
+                "6": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 0.9
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.6
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 3.65
+                    }
+                ],
+                "7": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.05
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "8": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.2
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "9": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.35
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ],
+                "10": [
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Damage Modifier",
+                        "modifierType": "Additive",
+                        "value": 1.5
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Mana Cost Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 1.7
+                    },
+                    {
+                        "type": "SkillUpgradeModifier",
+                        "skillValueModifierKey": "Cooldown Modifier",
+                        "modifierType": "Multiplicative",
+                        "value": 4.0
+                    }
+                ]
+            },
+            "statModifiersPerRankUpgrade": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CooldownSpeed",
+                    "modifierType": "Additive",
+                    "value": 0.015
+                }
+            ],
+            "skillDamageStatModifiers": {},
+            "skillValueModifierConfigs": [],
+            "cooldown": 15.0,
+            "minCooldown": 0.3,
+            "useAttackSpeed": false,
+            "ignoreCooldownSpeed": false,
+            "range": 10.0,
+            "skillTags": [
+                "Summon",
+                "Projectile",
+                "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Amount Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Summon Attack Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Activation Buff Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Amount Multiplier Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Amount Buff Base Duration Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Enable Companion Buff Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Enable Amount Buff Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Enable Alternative Skills Modifier",
+                    "valueType": "Toggle"
+                }
+            ]
+        },
+        {
+            "name": "Summon Hound Skill Definition",
+            "id": 724,
+            "type": "PassiveSummonCompanionSkillDefinition",
+            "summonAmount": 1,
+            "companionDefinition": {
+                "name": "Summon Hound - Companion",
+                "id": 6,
+                "type": "PlayerCompanionDefinition"
+            },
+            "updateDamageMod": true,
+            "manaCost": 0.0,
+            "useNegativeMana": false,
+            "lifeCost": 0.0,
+            "baseSkillSpeed": 1.0,
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "descriptionKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "",
+            "baseDamageMod": 1.0,
+            "eDamageType": "PHYSICAL",
+            "isAreaDamage": false,
+            "sameTargetHitCooldown": 0.0,
+            "modifiersPerLevel": {},
+            "statModifiersPerRankUpgrade": [],
+            "skillDamageStatModifiers": {},
+            "skillValueModifierConfigs": [],
+            "cooldown": 0.0,
+            "minCooldown": 0.0,
+            "useAttackSpeed": false,
+            "ignoreCooldownSpeed": false,
+            "range": 0.0,
+            "skillTags": [
+                "Melee",
+                "Summon",
+                "Physical Damage"
+            ],
+            "skillValueModifiers": [
+                {
+                    "valueKey": "Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Skill Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Charges Modifier",
+                    "valueType": "Increment"
+                },
+                {
+                    "valueKey": "Physical Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Fire Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Lightning Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Plague Damage Conversion Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Physical Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Fire Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Lightning Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Additional Plague Damage Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Range Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Use Friendly Hit Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Mana Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Life Cost Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Can Use Negative Mana Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Ignore Cooldown Modifier",
+                    "valueType": "Toggle"
+                },
+                {
+                    "valueKey": "Skill Character Movement Speed Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Summon Amount Modifier",
                     "valueType": "Increment"
                 }
             ]
