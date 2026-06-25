@@ -53,7 +53,10 @@
             ],
             "worldTierColor": "RGBA(1.000, 0.309, 0.000, 1.000)",
             "worldTierIcon": "NightmareTier1",
-            "requiredConditions": "HellClock.Condition.ConditionGroups"
+            "requiredConditions": {
+                "type": "ConditionGroups",
+                "conditionGroups": []
+            }
         },
         {
             "name": "Abyss World Tier Config",
@@ -345,7 +348,35 @@
             ],
             "worldTierColor": "RGBA(0.529, 0.000, 0.110, 1.000)",
             "worldTierIcon": "NightmareTier2",
-            "requiredConditions": "HellClock.Condition.ConditionGroups"
+            "requiredConditions": {
+                "type": "ConditionGroups",
+                "conditionGroups": [
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Cursed War DLC Condition"
+                            },
+                            {
+                                "condition": "Has Completed Dungeon Condition"
+                            }
+                        ]
+                    },
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Completed Dungeon Condition"
+                            }
+                        ]
+                    },
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Completed Nightmare Tier Condition"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Oblivion World Tier Config",
@@ -723,7 +754,35 @@
             ],
             "worldTierColor": "RGBA(0.369, 0.282, 0.824, 1.000)",
             "worldTierIcon": "NightmareTier3",
-            "requiredConditions": "HellClock.Condition.ConditionGroups"
+            "requiredConditions": {
+                "type": "ConditionGroups",
+                "conditionGroups": [
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Cursed War DLC Condition"
+                            },
+                            {
+                                "condition": "Has Completed Dungeon Condition"
+                            }
+                        ]
+                    },
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Completed Dungeon Condition"
+                            }
+                        ]
+                    },
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Completed Nightmare Tier Condition"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Nightmare Void World Tier Config",
@@ -1108,7 +1167,35 @@
             ],
             "worldTierColor": "RGBA(0.000, 0.529, 0.478, 1.000)",
             "worldTierIcon": "NightmareTier4",
-            "requiredConditions": "HellClock.Condition.ConditionGroups"
+            "requiredConditions": {
+                "type": "ConditionGroups",
+                "conditionGroups": [
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Cursed War DLC Condition"
+                            },
+                            {
+                                "condition": "Has Completed Dungeon Condition"
+                            }
+                        ]
+                    },
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Completed Dungeon Condition"
+                            }
+                        ]
+                    },
+                    {
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Completed Nightmare Tier Condition"
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }

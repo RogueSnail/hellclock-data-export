@@ -47883,8 +47883,562 @@
                 }
             ],
             "implicitAffixPool": [
-                "HellClock.RelicInventory.UniqueRelic.RelicImplicitAffixPool",
-                "HellClock.RelicInventory.UniqueRelic.RelicImplicitAffixPool"
+                {
+                    "type": "RelicImplicitAffixPool",
+                    "implicitAffixCategory": "Corrupted",
+                    "affixAmount": [
+                        1,
+                        1
+                    ],
+                    "affixPool": [
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Bombardment  Plus 1 Affix",
+                                "id": 246,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - ClosedBody  Plus 1 Affix",
+                                "id": 245,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Double Knives Plus 1 Affix",
+                                "id": 244,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - FeitorsLash  Plus 1 Affix",
+                                "id": 247,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - HolyRosary Plus 1 Affix",
+                                "id": 248,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Judgment  Plus 1 Affix",
+                                "id": 249,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Lasso Plus 1 Affix",
+                                "id": 250,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Matadeira  Plus 1 Affix",
+                                "id": 251,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Passage  Plus 1 Affix",
+                                "id": 252,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - PrayerHealth  Plus 1 Affix",
+                                "id": 253,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - PrayerVengeance  Plus 1 Affix",
+                                "id": 254,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Reflexes  Plus 1 Affix",
+                                "id": 255,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Repeater  Plus 1 Affix",
+                                "id": 256,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - ShadowDash  Plus 1 Affix",
+                                "id": 257,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SlowTime  Plus 1 Affix",
+                                "id": 258,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SplitShot  Plus 1 Affix",
+                                "id": 243,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SummonBrute  Plus 1 Affix",
+                                "id": 259,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SummonGuard  Plus 1 Affix",
+                                "id": 261,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SummonMarksmen  Plus 1 Affix",
+                                "id": 260,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - TheOldBell  Plus 1 Affix",
+                                "id": 262,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - VeilofQuills  Plus 1 Affix",
+                                "id": 263,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - CarcaraDive Plus 1 Affix",
+                                "id": 379,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - Cilada Plus 1 Affix",
+                                "id": 380,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - HolyFire Plus 1 Affix",
+                                "id": 381,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - JaguarSpear Plus 1 Affix",
+                                "id": 382,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - SixShooter Plus 1 Affix",
+                                "id": 383,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 3.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - TupasWrath Plus 1 Affix",
+                                "id": 384,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "RelicImplicitAffixPool",
+                    "implicitAffixCategory": "Corrupted",
+                    "affixAmount": [
+                        1,
+                        1
+                    ],
+                    "affixPool": [
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Attack Speed",
+                                "id": 291,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Cooldown Speed",
+                                "id": 292,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Healing Received",
+                                "id": 293,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - All Resist (Major)",
+                                "id": 294,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Max Conviction",
+                                "id": 295,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Evasion Endurance Antimagic",
+                                "id": 296,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Max Vigor Stack",
+                                "id": 234,
+                                "type": "StatusMaxStacksAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Max Agility Orbs",
+                                "id": 236,
+                                "type": "StatusMaxStacksAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Max Power Orbs",
+                                "id": 235,
+                                "type": "StatusMaxStacksAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Life and Life Regen",
+                                "id": 301,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Max Resistances",
+                                "id": 299,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - All Resist (Major)",
+                                "id": 294,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 100.0,
+                            "value": {
+                                "name": "Stat - Implicit - Soulstone Gain",
+                                "id": 287,
+                                "type": "StatModifierAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Bombardment  Plus 2 Affix",
+                                "id": 264,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - ClosedBody  Plus 2 Affix",
+                                "id": 265,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Double Knives Plus 2 Affix",
+                                "id": 266,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - FeitorsLash  Plus 2 Affix",
+                                "id": 267,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - HolyRosary Plus 2 Affix",
+                                "id": 268,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Judgment  Plus 2 Affix",
+                                "id": 269,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Lasso Plus 2 Affix",
+                                "id": 270,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Matadeira  Plus 2 Affix",
+                                "id": 271,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Passage  Plus 2 Affix",
+                                "id": 272,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - PrayerHealth  Plus 2 Affix",
+                                "id": 273,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - PrayerVengeance  Plus 2 Affix",
+                                "id": 274,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Reflexes  Plus 2 Affix",
+                                "id": 275,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - Repeater  Plus 2 Affix",
+                                "id": 276,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - ShadowDash  Plus 2 Affix",
+                                "id": 277,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SlowTime  Plus 2 Affix",
+                                "id": 278,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SplitShot  Plus 2 Affix",
+                                "id": 279,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SummonBrute  Plus 2 Affix",
+                                "id": 280,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SummonGuard  Plus 2 Affix",
+                                "id": 281,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - SummonMarksmen  Plus 2 Affix",
+                                "id": 282,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - TheOldBell  Plus 2 Affix",
+                                "id": 283,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level - Implicit - VeilofQuills  Plus 2 Affix",
+                                "id": 285,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - CarcaraDive Plus 2 Affix",
+                                "id": 375,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - Cilada Plus 2 Affix",
+                                "id": 374,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - HolyFire Plus 2 Affix",
+                                "id": 376,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - JaguarSpear Plus 2 Affix",
+                                "id": 373,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - SixShooter Plus 2 Affix",
+                                "id": 378,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        },
+                        {
+                            "weight": 10.0,
+                            "value": {
+                                "name": "Skill Level EXP - Implicit - TupasWrath Plus 2 Affix",
+                                "id": 377,
+                                "type": "SkillLevelAffixDefinition"
+                            }
+                        }
+                    ]
+                }
             ],
             "disassembleSoulStonesReward": 120,
             "eRelicSize": "Large",

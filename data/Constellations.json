@@ -8,7 +8,10 @@
                 "name": "Tres Marias - Constellation Definition",
                 "id": 1,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": []
+                },
                 "masteredDevotionGranted": {},
                 "eDevotionCategory": "Neutral",
                 "nameKey": [
@@ -548,15 +551,15 @@
                 "name": "Santo Expedito - Constellation Definition",
                 "id": 2,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "1",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 1
@@ -1629,15 +1632,15 @@
                 "name": "Tupa - Constellation Definition",
                 "id": 3,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "1",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 3,
                     "Green": 1
@@ -2805,15 +2808,15 @@
                 "name": "Ogum - Constellation Definition",
                 "id": 4,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "1",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Blue": 1
@@ -3833,15 +3836,15 @@
                 "name": "Yorixiamori - Constellation Definition",
                 "id": 19,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "5",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2
                 },
@@ -4479,15 +4482,15 @@
                 "name": "Oxossi - Constellation Definition",
                 "id": 20,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Blue": 3,
@@ -6202,15 +6205,15 @@
                 "name": "Jurupari - Constellation Definition",
                 "id": 21,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Green": 1
@@ -7082,15 +7085,15 @@
                 "name": "Guaraci - Constellation Definition",
                 "id": 23,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 4,
                     "Blue": 3,
@@ -8391,15 +8394,15 @@
                 "name": "Anhanga - Constellation Definition",
                 "id": 27,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Red": 2,
@@ -9420,22 +9423,19 @@
                 "name": "Oxum - Constellation Definition",
                 "id": 24,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Green": 2
@@ -10198,15 +10198,15 @@
                 "name": "Caupe - Constellation Definition",
                 "id": 25,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 1
@@ -10905,22 +10905,19 @@
                 "name": "Oxumare - Constellation Definition",
                 "id": 26,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Green": 2
@@ -11762,15 +11759,15 @@
                 "name": "Sao Joao - Constellation Definition",
                 "id": 37,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 2
                 },
@@ -12471,15 +12468,15 @@
                 "name": "Ossain - Constellation Definition",
                 "id": 54,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2,
@@ -13342,15 +13339,15 @@
                 "name": "Onile - Constellation Definition",
                 "id": 59,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Green": 1,
@@ -14190,15 +14187,15 @@
                 "name": "Logun Ede - Constellation Definition",
                 "id": 64,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Blue": 1,
@@ -15413,15 +15410,15 @@
                 "name": "Sao Pedro - Constellation Definition",
                 "id": 38,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 2
                 },
@@ -16074,15 +16071,15 @@
                 "name": "Sao Jorge - Constellation Definition",
                 "id": 36,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Blue": 1
@@ -16815,15 +16812,15 @@
                 "name": "Curupira - Constellation Definition",
                 "id": 52,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Red": 2,
@@ -17851,15 +17848,15 @@
                 "name": "Exu Caveira - Constellation Definition",
                 "id": 44,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 3,
                     "Green": 1,
@@ -18801,15 +18798,15 @@
                 "name": "Nossa Sra de Aparecida - Constellation Definition",
                 "id": 58,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Green": 2,
@@ -19752,15 +19749,15 @@
                 "name": "Orunmila - Constellation Definition",
                 "id": 45,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 3
                 },
@@ -20545,22 +20542,19 @@
                 "name": "Akuanduba - Constellation Definition",
                 "id": 30,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Red": 2
@@ -21312,22 +21306,19 @@
                 "name": "Boitata - Constellation Definition",
                 "id": 48,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Blue": 1
@@ -21854,22 +21845,19 @@
                 "name": "Caipora - Constellation Definition",
                 "id": 50,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2
@@ -22693,22 +22681,19 @@
                 "name": "Ceuci Star Mother - Constellation Definition",
                 "id": 66,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 4,
                     "Green": 3,
@@ -24273,22 +24258,19 @@
                 "name": "Exu - Constellation Definition",
                 "id": 49,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "5",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 3,
                     "Green": 2,
@@ -25360,22 +25342,19 @@
                 "name": "Iansa - Constellation Definition",
                 "id": 41,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 3
@@ -26605,15 +26584,15 @@
                 "name": "Jaci - Constellation Definition",
                 "id": 34,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 4,
                     "Red": 3,
@@ -27866,15 +27845,15 @@
                 "name": "Iemanja - Constellation Definition",
                 "id": 31,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 4,
                     "Green": 3,
@@ -29237,15 +29216,15 @@
                 "name": "Santa Edwiges - Constellation Definition",
                 "id": 35,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 2
                 },
@@ -30099,22 +30078,19 @@
                 "name": "Iroko - Constellation Definition",
                 "id": 67,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Blue": 3
@@ -31196,22 +31172,19 @@
                 "name": "Jurupari Demon - Constellation Definition",
                 "id": 68,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Green": 2,
@@ -32340,22 +32313,19 @@
                 "name": "Nana - Constellation Definition",
                 "id": 70,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Blue": 2
@@ -33085,29 +33055,23 @@
                 "name": "Nossa Sra de Fatima - Constellation Definition",
                 "id": 63,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 1,
                     "Green": 1,
@@ -33518,22 +33482,19 @@
                 "name": "Nossa Sra Do Carmo - Constellation Definition",
                 "id": 42,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 3,
                     "Green": 2,
@@ -34275,22 +34236,19 @@
                 "name": "Oba - Constellation Definition",
                 "id": 40,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2
@@ -34962,22 +34920,19 @@
                 "name": "Omolu - Constellation Definition",
                 "id": 55,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 1,
                     "Green": 1,
@@ -35928,15 +35883,15 @@
                 "name": "Santa Ana - Constellation Definition",
                 "id": 69,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "5",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 1
                 },
@@ -36466,22 +36421,19 @@
                 "name": "Santa Rita - Constellation Definition",
                 "id": 51,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 2
@@ -37490,29 +37442,23 @@
                 "name": "Sao Longuinho - Constellation Definition",
                 "id": 33,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2,
@@ -38356,29 +38302,23 @@
                 "name": "Oxala - Constellation Definition",
                 "id": 32,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "2",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Red": 2,
@@ -39315,22 +39255,19 @@
                 "name": "Santo Antonio - Constellation Definition",
                 "id": 53,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Red": 1
@@ -39940,22 +39877,19 @@
                 "name": "Sao Cosme Damiao - Constellation Definition",
                 "id": 65,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 3,
                     "Green": 3
@@ -40853,22 +40787,19 @@
                 "name": "Sao Jose - Constellation Definition",
                 "id": 39,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 4,
                     "Red": 4,
@@ -42161,22 +42092,19 @@
                 "name": "Sao Judas Tadeu - Constellation Definition",
                 "id": 57,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Green": 2,
@@ -43271,29 +43199,23 @@
                 "name": "Sao Paulo - Constellation Definition",
                 "id": 61,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 1,
                     "Green": 1,
@@ -43826,22 +43748,19 @@
                 "name": "Sao Sebastiao - Constellation Definition",
                 "id": 43,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 2,
                     "Blue": 1
@@ -44421,15 +44340,15 @@
                 "name": "Sume - Constellation Definition",
                 "id": 60,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "7",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 4,
                     "Green": 2,
@@ -45598,22 +45517,19 @@
                 "name": "Xango - Constellation Definition",
                 "id": 47,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "8",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Red": 4,
                     "Blue": 3
@@ -46696,22 +46612,19 @@
                 "name": "Yaci Yatere - Constellation Definition",
                 "id": 62,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 3,
                     "Red": 3
@@ -47378,22 +47291,19 @@
                 "name": "Yeba Belo - Constellation Definition",
                 "id": 46,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "5",
-                        "negate": false,
-                        "condition": "Has Green Devotion Condition",
-                        "required_devotion": "Green"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "3",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Green Devotion Condition",
+                            "required_devotion": "Green"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Green": 2,
                     "Blue": 2
@@ -48262,22 +48172,19 @@
                 "name": "Sao Francisco - Constellation Definition",
                 "id": 71,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "6",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        },
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 2,
                     "Red": 1
@@ -49183,22 +49090,19 @@
                 "name": "Charia - Constellation Definition",
                 "id": 75,
                 "type": "ConstellationSkillTreeDefinition",
-                "conditions": [
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Blue Devotion Condition",
-                        "required_devotion": "Blue"
-                    },
-                    {
-                        "type": "ConditionConfig",
-                        "targetValue": "4",
-                        "negate": false,
-                        "condition": "Has Red Devotion Condition",
-                        "required_devotion": "Red"
-                    }
-                ],
+                "conditions": {
+                    "type": "ConditionConfigList",
+                    "conditionsConfigList": [
+                        {
+                            "condition": "Has Blue Devotion Condition",
+                            "required_devotion": "Blue"
+                        },
+                        {
+                            "condition": "Has Red Devotion Condition",
+                            "required_devotion": "Red"
+                        }
+                    ]
+                },
                 "masteredDevotionGranted": {
                     "Blue": 4,
                     "Red": 3

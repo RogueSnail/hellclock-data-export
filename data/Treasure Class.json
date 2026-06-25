@@ -1960,7 +1960,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -40056,14 +40063,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40077,14 +40084,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40107,7 +40114,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40130,7 +40140,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40511,7 +40524,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40534,7 +40550,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40557,7 +40576,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40580,7 +40602,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40603,7 +40628,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40626,7 +40654,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -40649,7 +40680,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -42020,7 +42054,55 @@
             "conditionalTreasureClasses": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.Drop.LootTreasureClass]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": [
+                                {
+                                    "conditionsConfigList": [
+                                        {
+                                            "condition": "Has Character Toggle Condition"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "value": [
+                            {
+                                "weight": 1.0,
+                                "value": {
+                                    "type": "LootTreasureClass",
+                                    "treasureClass": {
+                                        "name": "Time x30 Treasure Class",
+                                        "id": 151,
+                                        "type": "HellClockTimeTreasureClass"
+                                    },
+                                    "useLimit": true,
+                                    "amountLimit": [
+                                        0,
+                                        1
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 150.0,
+                                "value": {
+                                    "type": "LootTreasureClass",
+                                    "treasureClass": {
+                                        "name": "Empty Treasure Class",
+                                        "id": 0,
+                                        "type": "EmptyTreasureClass"
+                                    },
+                                    "useLimit": false,
+                                    "amountLimit": [
+                                        0,
+                                        0
+                                    ]
+                                }
+                            }
+                        ]
+                    }
                 ]
             }
         },
@@ -43802,7 +43884,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -44995,7 +45084,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -45181,14 +45277,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -45202,14 +45298,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -45405,7 +45501,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -46089,7 +46188,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -51554,7 +51656,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -52651,7 +52756,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -55004,7 +55116,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -56197,7 +56316,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -57390,7 +57516,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -58583,7 +58716,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -59776,7 +59916,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -60969,7 +61116,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -86936,14 +87090,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -86957,14 +87111,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -87333,7 +87487,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -87356,7 +87513,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -87552,14 +87712,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -87573,14 +87733,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -93531,7 +93691,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -96766,7 +96929,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -98119,7 +98285,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -106977,7 +107146,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -108912,14 +109084,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -108933,14 +109105,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -109201,7 +109373,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -109452,7 +109631,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -109699,7 +109885,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -109946,7 +110139,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -110197,7 +110397,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
@@ -110556,14 +110763,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -110577,14 +110784,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -110780,14 +110987,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -110801,14 +111008,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -111004,14 +111211,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -111025,14 +111232,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -111228,14 +111435,14 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": false,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -111249,14 +111456,14 @@
                 },
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [
-                        {
-                            "type": "ConditionConfig",
-                            "targetValue": "Interacted With [Bell]",
-                            "negate": true,
-                            "condition": "Has Flag Condition"
-                        }
-                    ],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": [
+                            {
+                                "condition": "Has Flag Condition"
+                            }
+                        ]
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -111279,7 +111486,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -111302,7 +111512,10 @@
             "treasureClassPool": [
                 {
                     "type": "BlessingLootTreasureList",
-                    "conditionConfigList": [],
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
                     "availableTreasureClasses": [
                         {
                             "weight": 1.0,
@@ -113441,7 +113654,14 @@
             "conditionalRelics": {
                 "type": "ConditionalList`1",
                 "list": [
-                    "HellClock.Extensions.HelperTypes.Conditional`1[HellClock.Extensions.HelperTypes.WeightedList`1[HellClock.RelicInventory.UniqueRelic.UniqueRelicBaseDefinition]]"
+                    {
+                        "type": "Conditional`1",
+                        "conditionGroups": {
+                            "type": "ConditionGroups",
+                            "conditionGroups": []
+                        },
+                        "value": []
+                    }
                 ]
             }
         },
