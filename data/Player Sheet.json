@@ -1,250 +1,58 @@
 {
     "name": "PlayerSheet",
     "type": "PlayerSheet",
-    "basicAttackSkillDefinition": {
-        "name": "BasicAttackDefinition",
-        "id": 0,
-        "type": "RangedAttackSkillDefinition"
-    },
+    "basicAttackSkillDefinition": "[0]=>NULL(NULL)",
     "availableSkillDefinitions": [
-        {
-            "name": "BasicAttackDefinition",
-            "id": 0,
-            "type": "RangedAttackSkillDefinition"
-        },
-        {
-            "name": "ClosedBodySkillDefinition",
-            "id": 157,
-            "type": "ClosedBodySkillDefinition"
-        },
-        {
-            "name": "DoubleKnivesSkillDefinition",
-            "id": 69,
-            "type": "DoubleKnivesSkillDefinition"
-        },
-        {
-            "name": "FeitorsLashSkillDefinition",
-            "id": 72,
-            "type": "SlashSkillDefinition"
-        },
-        {
-            "name": "JudgementDefinition",
-            "id": 67,
-            "type": "PlaceEffectAreaSkillDefinition"
-        },
-        {
-            "name": "LassoSkillDefinition",
-            "id": 71,
-            "type": "LassoSkillDefinition"
-        },
-        {
-            "name": "PassageSkillDefinition",
-            "id": 70,
-            "type": "PassageSkillDefinition"
-        },
-        {
-            "name": "PrayerOfHealthSkillDefinition",
-            "id": 46,
-            "type": "PrayerOfHealthSkillDefinition"
-        },
-        {
-            "name": "PrayerOfVengeanceSkillDefinition",
-            "id": 49,
-            "type": "PrayerOfVengeanceSkillDefinition"
-        },
-        {
-            "name": "ReflexesDefinition",
-            "id": 4,
-            "type": "ReflexesSkillDefinition"
-        },
-        {
-            "name": "RepeaterDefinition",
-            "id": 3,
-            "type": "RepeaterSkillDefinition"
-        },
-        {
-            "name": "SecondWindDefinition",
-            "id": 9,
-            "type": "SecondWindSkillDefinition"
-        },
-        {
-            "name": "ShadowDashDefinition",
-            "id": 2,
-            "type": "ShadowDashSkillDefinition"
-        },
-        {
-            "name": "SplitshotDefinition",
-            "id": 1,
-            "type": "SplitshotSkillDefinition"
-        },
-        {
-            "name": "Matadeira Skill Definition",
-            "id": 209,
-            "type": "SpawnFallingProjectilesSkillDefinition"
-        },
-        {
-            "name": "TheOldBellSkillDefinition",
-            "id": 50,
-            "type": "TheOldBellSkillDefinition"
-        },
-        {
-            "name": "SlowTimeSkillDefinition",
-            "id": 74,
-            "type": "PlaceEffectAreaSkillDefinition"
-        },
-        {
-            "name": "Use Potion Skill Definition",
-            "id": 150,
-            "type": "UsePotionSkillDefinition"
-        },
-        {
-            "name": "BombardmentSkillDefinition",
-            "id": 201,
-            "type": "SpawnFallingProjectilesSkillDefinition"
-        },
-        {
-            "name": "Summon The Guard Skill Definition",
-            "id": 203,
-            "type": "SummonTheGuardSkillDefinition"
-        },
-        {
-            "name": "Holy Rosary Skill Definition",
-            "id": 210,
-            "type": "SpinningProjectileAttackSkillDefinition"
-        },
-        {
-            "name": "Veil of Quils Skill Definition",
-            "id": 211,
-            "type": "HomingProjectileAttackSkillDefinition"
-        },
-        {
-            "name": "Summon Brute Skill Definition",
-            "id": 323,
-            "type": "SummonBruteSkillDefinition"
-        },
-        {
-            "name": "Tupa Orbiting Projectiles Skill Definition",
-            "id": 324,
-            "type": "PassiveOrbitingProjectilesSkillDefinition"
-        },
-        {
-            "name": "Summon Marksmen Skill Definition",
-            "id": 326,
-            "type": "SummonMarksmenSkillDefinition"
-        },
-        {
-            "name": "Jurupari - Son of the Sun - Passive Skill Definition",
-            "id": 333,
-            "type": "AddStatusOnEnemyProximitySkillDefinition"
-        },
-        {
-            "name": "Summon Marksmen Basic Attack Skill Definition",
-            "id": 325,
-            "type": "RangedAttackSkillDefinition"
-        },
-        {
-            "name": "Summon The Guard Basic Attack Skill Definition",
-            "id": 202,
-            "type": "RangedAttackSkillDefinition"
-        },
-        {
-            "name": "Brute Melee Attack Skill Definition",
-            "id": 322,
-            "type": "MeleeAttackSkillDefinition"
-        },
-        {
-            "name": "Carcara Dive Skill Definition",
-            "id": 554,
-            "type": "JumpAttackSkillDefinition"
-        },
-        {
-            "name": "Holy Fire Skill Definition",
-            "id": 555,
-            "type": "ProjectileAttackSkillDefinition"
-        },
-        {
-            "name": "Jaguar Spear Skill Definition",
-            "id": 556,
-            "type": "SpearAttackSkillDefinition"
-        },
-        {
-            "name": "Cilada Skill Definition",
-            "id": 557,
-            "type": "PlaceTrapSkillDefinition"
-        },
-        {
-            "name": "Six Shooter Skill Definition",
-            "id": 558,
-            "type": "SixShooterSkillDefinition"
-        },
-        {
-            "name": "Tupas Wrath Skill Definition",
-            "id": 577,
-            "type": "ProjectileAttackSkillDefinition"
-        },
-        {
-            "name": "The Carpenter Homing Projectile Skill Definition",
-            "id": 608,
-            "type": "HomingProjectileAttackSkillDefinition"
-        },
-        {
-            "name": "Murks Blood Veil - Unique - Passive Effect Area Skill Definition",
-            "id": 646,
-            "type": "PassiveEffectAreaSkillDefinition"
-        },
-        {
-            "name": "Summon Hound Skill Definition",
-            "id": 724,
-            "type": "PassiveSummonCompanionSkillDefinition"
-        },
-        {
-            "name": "Urgency of Expedito - Unique - Passive Skill Definition",
-            "id": 781,
-            "type": "AddStatusOnEnemyProximitySkillDefinition"
-        },
-        {
-            "name": "Summon Hound Melee Attack Skill Definition",
-            "id": 782,
-            "type": "MeleeAttackSkillDefinition"
-        }
+        "[0]=>NULL(NULL)",
+        "[157]=>NULL(NULL)",
+        "[69]=>NULL(NULL)",
+        "[72]=>NULL(NULL)",
+        "[67]=>NULL(NULL)",
+        "[71]=>NULL(NULL)",
+        "[70]=>NULL(NULL)",
+        "[46]=>NULL(NULL)",
+        "[49]=>NULL(NULL)",
+        "[4]=>NULL(NULL)",
+        "[3]=>NULL(NULL)",
+        "[9]=>NULL(NULL)",
+        "[2]=>NULL(NULL)",
+        "[1]=>NULL(NULL)",
+        "[209]=>NULL(NULL)",
+        "[50]=>NULL(NULL)",
+        "[74]=>NULL(NULL)",
+        "[150]=>NULL(NULL)",
+        "[201]=>NULL(NULL)",
+        "[203]=>NULL(NULL)",
+        "[210]=>NULL(NULL)",
+        "[211]=>NULL(NULL)",
+        "[323]=>NULL(NULL)",
+        "[324]=>NULL(NULL)",
+        "[326]=>NULL(NULL)",
+        "[333]=>NULL(NULL)",
+        "[325]=>NULL(NULL)",
+        "[202]=>NULL(NULL)",
+        "[322]=>NULL(NULL)",
+        "[554]=>NULL(NULL)",
+        "[555]=>NULL(NULL)",
+        "[556]=>NULL(NULL)",
+        "[557]=>NULL(NULL)",
+        "[558]=>NULL(NULL)",
+        "[577]=>NULL(NULL)",
+        "[608]=>NULL(NULL)",
+        "[646]=>NULL(NULL)",
+        "[724]=>NULL(NULL)",
+        "[781]=>NULL(NULL)",
+        "[782]=>NULL(NULL)"
     ],
     "act4SkillsDefinitions": [
-        {
-            "name": "Carcara Dive Skill Definition",
-            "id": 554,
-            "type": "JumpAttackSkillDefinition"
-        },
-        {
-            "name": "Holy Fire Skill Definition",
-            "id": 555,
-            "type": "ProjectileAttackSkillDefinition"
-        },
-        {
-            "name": "Jaguar Spear Skill Definition",
-            "id": 556,
-            "type": "SpearAttackSkillDefinition"
-        },
-        {
-            "name": "Cilada Skill Definition",
-            "id": 557,
-            "type": "PlaceTrapSkillDefinition"
-        },
-        {
-            "name": "Six Shooter Skill Definition",
-            "id": 558,
-            "type": "SixShooterSkillDefinition"
-        },
-        {
-            "name": "Tupas Wrath Skill Definition",
-            "id": 577,
-            "type": "ProjectileAttackSkillDefinition"
-        }
+        "[554]=>NULL(NULL)",
+        "[555]=>NULL(NULL)",
+        "[556]=>NULL(NULL)",
+        "[557]=>NULL(NULL)",
+        "[558]=>NULL(NULL)",
+        "[577]=>NULL(NULL)"
     ],
-    "usePotionSkillDefinition": {
-        "name": "Use Potion Skill Definition",
-        "id": 150,
-        "type": "UsePotionSkillDefinition"
-    },
+    "usePotionSkillDefinition": "[150]=>NULL(NULL)",
     "vengeanceModeStatConfigs": [
         {
             "type": "VengeanceModeStatConfig",
@@ -353,7 +161,8 @@
         "MinimumMovementSpeed": "BaseOverride",
         "LifeRegen": "BaseOverride",
         "SkillProjectileDamage": "BaseOverride",
-        "SummonBasicSkillDamagePercentage": "BaseOverride"
+        "SummonBasicSkillDamagePercentage": "BaseOverride",
+        "CriticalDamageResistance": "BaseOverride"
     },
     "displayedStats": {
         "DamageLabel": [

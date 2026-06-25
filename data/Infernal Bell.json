@@ -2443,7 +2443,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die maximale Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell in deinem Fertigkeitsbuch erhöhen oder verringern."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
@@ -2451,19 +2451,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel máximo de habilidad en {0}.\nDebes aumentar/disminuir manualmente los niveles de habilidad desde tu libro de habilidades."
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente le niveau maximum des compétences de {0}.\nVous devez augmenter/diminuer manuellement vos niveaux de compétence via votre livre de compétences."
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減する必要がある。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać poziomy umiejętności w Księdze Umiejętności."
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
@@ -2471,15 +2471,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}.\nВы должны вручную увеличивать или уменьшать уровни навыков через книгу навыков."
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nВам потрібно вручну збільшувати/зменшувати рівні навичок у книзі навичок."
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}。\n你需要前往技能书手动提升/降低技能等级。"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }
@@ -6320,43 +6320,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/20 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/20 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/20 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/20 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/20 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/20 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/20 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/20 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/20消費してアンロック"
+                            "langTranslation": "合計ポイントを81/20消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/20 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/20 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/20 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/20 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/20 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/20 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/20"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/20"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/20 总点数以解锁"
+                            "langTranslation": "投入 81/20 总点数以解锁"
                         }
                     ]
                 }
@@ -7204,43 +7204,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 }
@@ -7412,7 +7412,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die maximale Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell in deinem Fertigkeitsbuch erhöhen oder verringern."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
@@ -7420,19 +7420,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel máximo de habilidad en {0}.\nDebes aumentar/disminuir manualmente los niveles de habilidad desde tu libro de habilidades."
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente le niveau maximum des compétences de {0}.\nVous devez augmenter/diminuer manuellement vos niveaux de compétence via votre livre de compétences."
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減する必要がある。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać poziomy umiejętności w Księdze Umiejętności."
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
@@ -7440,15 +7440,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}.\nВы должны вручную увеличивать или уменьшать уровни навыков через книгу навыков."
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nВам потрібно вручну збільшувати/зменшувати рівні навичок у книзі навичок."
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}。\n你需要前往技能书手动提升/降低技能等级。"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }
@@ -7827,43 +7827,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 },
@@ -7877,43 +7877,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 },
@@ -7927,43 +7927,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 },
@@ -7977,43 +7977,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 }
@@ -8076,7 +8076,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die maximale Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell in deinem Fertigkeitsbuch erhöhen oder verringern."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
@@ -8084,19 +8084,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel máximo de habilidad en {0}.\nDebes aumentar/disminuir manualmente los niveles de habilidad desde tu libro de habilidades."
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente le niveau maximum des compétences de {0}.\nVous devez augmenter/diminuer manuellement vos niveaux de compétence via votre livre de compétences."
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減する必要がある。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać poziomy umiejętności w Księdze Umiejętności."
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
@@ -8104,15 +8104,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}.\nВы должны вручную увеличивать или уменьшать уровни навыков через книгу навыков."
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nВам потрібно вручну збільшувати/зменшувати рівні навичок у книзі навичок."
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}。\n你需要前往技能书手动提升/降低技能等级。"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }
@@ -8137,43 +8137,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }
@@ -8236,7 +8236,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die maximale Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell in deinem Fertigkeitsbuch erhöhen oder verringern."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
@@ -8244,19 +8244,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel máximo de habilidad en {0}.\nDebes aumentar/disminuir manualmente los niveles de habilidad desde tu libro de habilidades."
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente le niveau maximum des compétences de {0}.\nVous devez augmenter/diminuer manuellement vos niveaux de compétence via votre livre de compétences."
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減する必要がある。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać poziomy umiejętności w Księdze Umiejętności."
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
@@ -8264,15 +8264,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}.\nВы должны вручную увеличивать или уменьшать уровни навыков через книгу навыков."
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nВам потрібно вручну збільшувати/зменшувати рівні навичок у книзі навичок."
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}。\n你需要前往技能书手动提升/降低技能等级。"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }
@@ -8651,43 +8651,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 }
@@ -9071,43 +9071,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }
@@ -9231,43 +9231,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 }
@@ -9745,43 +9745,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }
@@ -9956,43 +9956,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 }
@@ -10234,43 +10234,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }
@@ -10512,43 +10512,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 }
@@ -11160,43 +11160,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }
@@ -11556,43 +11556,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }
@@ -11832,43 +11832,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを81/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/40 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/40"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 81/40 总点数以解锁"
                         }
                     ]
                 }
@@ -12108,43 +12108,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/20 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/20 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/20 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/20 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/20 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/20 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/20 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/20 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/20消費してアンロック"
+                            "langTranslation": "合計ポイントを81/20消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/20 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/20 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/20 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/20 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/20 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/20 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/20"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/20"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/20 总点数以解锁"
+                            "langTranslation": "投入 81/20 总点数以解锁"
                         }
                     ]
                 },
@@ -12855,43 +12855,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }
@@ -13015,43 +13015,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 81/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 81/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 81/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 81/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを81/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 81/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 81/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 81/55 оч., чтобы открыть"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 119/55"
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 81/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 81/55 总点数以解锁"
                         }
                     ]
                 }

@@ -2633,7 +2633,7 @@
             },
             "damageBypassBarrier": true,
             "useFixedBaseDamage": false,
-            "damageMod": 0.4,
+            "damageMod": 0.8,
             "eDamageType": "PHYSICAL",
             "hasSpecificResistance": true,
             "specificResistanceStat": "BleedResistance",
@@ -2654,15 +2654,21 @@
             "statModifierDefinitions": [
                 {
                     "type": "StatModifierDefinition",
-                    "eStatDefinition": "AdditionalChanceToReceiveCritical",
+                    "eStatDefinition": "CriticalChanceResistance",
                     "modifierType": "Additive",
-                    "value": 0.2
+                    "value": -0.2
                 },
                 {
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "AilmentResistance",
                     "modifierType": "Additive",
                     "value": -0.2
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CriticalDamageResistance",
+                    "modifierType": "Additive",
+                    "value": -0.4
                 }
             ],
             "statusDisplayInfo": {
@@ -6324,43 +6330,43 @@
                 "descriptionKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Demnächst"
+                        "langTranslation": "Erhöhte Betäubungsresistenz."
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": "Coming Soon"
+                        "langTranslation": "Increased Stun resistance"
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Próximamente"
+                        "langTranslation": "Resistencia aumentada al Aturdimiento."
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "À venir"
+                        "langTranslation": "Résistance à l'étourdissement augmentée"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "近日登場"
+                        "langTranslation": "スタン抵抗が上昇している"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Wkrótce"
+                        "langTranslation": "Zwiększona odporność na ogłuszenie"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "Em breve"
+                        "langTranslation": "Resistência aumentada contra Atordoamento"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Скоро"
+                        "langTranslation": "Увеличенное сопротивление оглушению."
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Скоро"
+                        "langTranslation": "Підвищений опір оглушенню"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "即将上线"
+                        "langTranslation": "眩晕抗性提高"
                     }
                 ],
                 "icon": "IconStatus_MarkoftheVulture"
@@ -7905,43 +7911,43 @@
                 "descriptionKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Demnächst"
+                        "langTranslation": "Erhöhte Betäubungsresistenz."
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": "Coming Soon"
+                        "langTranslation": "Increased Stun resistance"
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Próximamente"
+                        "langTranslation": "Resistencia aumentada al Aturdimiento."
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "À venir"
+                        "langTranslation": "Résistance à l'étourdissement augmentée"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "近日登場"
+                        "langTranslation": "スタン抵抗が上昇している"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Wkrótce"
+                        "langTranslation": "Zwiększona odporność na ogłuszenie"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": "Em breve"
+                        "langTranslation": "Resistência aumentada contra Atordoamento"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Скоро"
+                        "langTranslation": "Увеличенное сопротивление оглушению."
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Скоро"
+                        "langTranslation": "Підвищений опір оглушенню"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "即将上线"
+                        "langTranslation": "眩晕抗性提高"
                     }
                 ],
                 "icon": "Icon_Conviction_Resilience"
@@ -16186,7 +16192,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Explosive Geschosse"
+                        "langTranslation": "Explosive Predigt"
                     },
                     {
                         "langCode": "en",
@@ -16194,19 +16200,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Munición Explosiva"
+                        "langTranslation": "Liderazgo explosivo"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Munitions explosives"
+                        "langTranslation": "Explosion de plomb"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "爆発弾"
+                        "langTranslation": "爆発的導き"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Wybuchowa amunicja"
+                        "langTranslation": "Wybuchowe Kazanie"
                     },
                     {
                         "langCode": "pt-br",
@@ -16214,15 +16220,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Взрывные боеприпасы"
+                        "langTranslation": "Главный взрыв"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Вибухові набої"
+                        "langTranslation": "Вибуховий свинець"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "爆裂弹"
+                        "langTranslation": "爆炸性铅"
                     }
                 ],
                 "descriptionKey": [
@@ -16298,7 +16304,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "In Flammen"
                     },
                     {
                         "langCode": "en",
@@ -16306,19 +16312,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "En llamas"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "En feu"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "業火の内"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "W płomieniach"
                     },
                     {
                         "langCode": "pt-br",
@@ -16326,15 +16332,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "В пламени"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "Палання"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "In Flames"
+                        "langTranslation": "烈焰之中"
                     }
                 ],
                 "descriptionKey": [
@@ -16400,88 +16406,88 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": ""
+                        "langTranslation": "Mauer aus Dornen"
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": ""
+                        "langTranslation": "Wall of Thorns"
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": ""
+                        "langTranslation": "Muro de espinas"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": ""
+                        "langTranslation": "Mur d'épines"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": ""
+                        "langTranslation": "茨の壁"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": ""
+                        "langTranslation": "Ciernista Ściana"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": ""
+                        "langTranslation": "Muralha de Espinhos"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": ""
+                        "langTranslation": "Стена из терновника"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": ""
+                        "langTranslation": "Тернова стіна"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": ""
+                        "langTranslation": "荆棘之墙"
                     }
                 ],
                 "descriptionKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": ""
+                        "langTranslation": "Mauer aus Dornen"
                     },
                     {
                         "langCode": "en",
-                        "langTranslation": ""
+                        "langTranslation": "Wall of Thorns"
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": ""
+                        "langTranslation": "Muro de espinas"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": ""
+                        "langTranslation": "Mur d'épines"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": ""
+                        "langTranslation": "茨の壁"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": ""
+                        "langTranslation": "Ciernista Ściana"
                     },
                     {
                         "langCode": "pt-br",
-                        "langTranslation": ""
+                        "langTranslation": "Muralha de Espinhos"
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": ""
+                        "langTranslation": "Стена из терновника"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": ""
+                        "langTranslation": "Тернова стіна"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": ""
+                        "langTranslation": "荆棘之墙"
                     }
                 ],
-                "icon": ""
+                "icon": "IconStatus_WallofThorns"
             },
             "hideFromHud": false,
             "isBuff": true,
@@ -16530,7 +16536,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "Federknochen"
                     },
                     {
                         "langCode": "en",
@@ -16538,19 +16544,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "Hueso emplumado"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "Ossements à plumes"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "羽根骨"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "Pierzasta Kość"
                     },
                     {
                         "langCode": "pt-br",
@@ -16558,15 +16564,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "Пернатая кость"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "Перната кістка"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Feathered Bone"
+                        "langTranslation": "羽饰骨"
                     }
                 ],
                 "descriptionKey": [
@@ -16640,7 +16646,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "Tiriris Cachaça"
                     },
                     {
                         "langCode": "en",
@@ -16648,19 +16654,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "Cachaça de Tiriri"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "Cachaça de Tiriri"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "ティリリのカシャッサ"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "Cachaça Tiriri"
                     },
                     {
                         "langCode": "pt-br",
@@ -16668,15 +16674,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "Кашаса Тирири"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "Кашаса Тірірі"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Tiriri's Cachaça"
+                        "langTranslation": "提里里的卡沙萨酒"
                     }
                 ],
                 "descriptionKey": [
@@ -16750,7 +16756,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "Arbeiterhandschuhe"
                     },
                     {
                         "langCode": "en",
@@ -16758,19 +16764,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "Guantes de Trabajo"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "Gants du travailleur"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "労働者の手袋"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "Rękawice Robocze"
                     },
                     {
                         "langCode": "pt-br",
@@ -16778,15 +16784,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "Перчатки работника"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "Робітничі рукавички"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Worker's Gloves"
+                        "langTranslation": "工人手套"
                     }
                 ],
                 "descriptionKey": [
@@ -16860,7 +16866,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Schlagring"
                     },
                     {
                         "langCode": "en",
@@ -16868,19 +16874,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Nudillos de latón"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Poings américains"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "メリケンサック"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Kastety"
                     },
                     {
                         "langCode": "pt-br",
@@ -16888,15 +16894,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Кастеты"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Латунний кастет"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "黄铜指套"
                     }
                 ],
                 "descriptionKey": [
@@ -16970,7 +16976,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "Blutrote Blume"
                     },
                     {
                         "langCode": "en",
@@ -16978,19 +16984,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "Flor carmesí"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "Fleur écarlate"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "深紅の花"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "Karmazynowy Kwiat"
                     },
                     {
                         "langCode": "pt-br",
@@ -16998,15 +17004,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "Багровый цветок"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "Багряна квітка"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Crimson Flower"
+                        "langTranslation": "绯红之花"
                     }
                 ],
                 "descriptionKey": [
@@ -17214,7 +17220,7 @@
                 "nameKey": [
                     {
                         "langCode": "de",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Schlagring"
                     },
                     {
                         "langCode": "en",
@@ -17222,19 +17228,19 @@
                     },
                     {
                         "langCode": "es",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Nudillos de latón"
                     },
                     {
                         "langCode": "fr",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Poings américains"
                     },
                     {
                         "langCode": "ja",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "メリケンサック"
                     },
                     {
                         "langCode": "pl",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Kastety"
                     },
                     {
                         "langCode": "pt-br",
@@ -17242,15 +17248,15 @@
                     },
                     {
                         "langCode": "ru",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Кастеты"
                     },
                     {
                         "langCode": "uk",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "Латунний кастет"
                     },
                     {
                         "langCode": "zh-cn",
-                        "langTranslation": "Brass Knuckles"
+                        "langTranslation": "黄铜指套"
                     }
                 ],
                 "descriptionKey": [
@@ -17516,6 +17522,362 @@
             "effectInterval": 0.0,
             "shouldEchoClone": false,
             "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Jaguar Spear - Unique Blessing - Move Speed",
+            "id": 216,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Jägeranhänger"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Hunter's Charm"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Encanto del cazador"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Breloque du chasseur"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "狩人のお守り"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Urok Łowcy"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Amuleto do Caçador"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Амулет охотника"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Оберіг мисливця"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "猎之护符"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_HuntersCharm"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Slow Time - Unique Blessing - Regen",
+            "id": 217,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LifeRegen",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "ManaRegen",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Mutter ewiger Hilfe"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Mother of Perpetual Help"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Madre del Perpetuo Socorro"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Mère du Perpétuel Secours"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "絶えざる御助けの聖母"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Matka Boża Nieustającej Pomocy"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Mãe do Perpétuo Socorro"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Мать постоянной помощи"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Неустанна мати-берегиня"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "永恒护佑之母"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconSkill_SlowTime_grayscale"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Prayer of Health - Unique Blessing - Move Speed",
+            "id": 218,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "hideFromHud": true,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Prayer of Vengeance - Unique Blessing - Attack and Cooldown Speed",
+            "id": 219,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "AttackSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CooldownSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Gebet der Vergeltung"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Prayer of Vengeance"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Plegaria de Venganza"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Prière de vengeance"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "復讐の祈り"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Modlitwa o Zemstę"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Reza da Vingança"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Молитва о воздаянии"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Молитва помсти"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "复仇之祷"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_PrayerofVengeance_v1"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
             "purgeOnSourceDeath": false
         }
     ]

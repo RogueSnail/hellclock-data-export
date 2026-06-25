@@ -2235,7 +2235,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Monster gesegnete Ausrüstung fallen lassen."
+                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Gegner gesegnete Ausrüstung fallen lassen."
                 },
                 {
                     "langCode": "en",
@@ -2243,7 +2243,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener equipo bendecido al matar monstruos."
+                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener equipo bendecido al eliminar enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -2251,11 +2251,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "モンスターをたおしたときの祝福装備獲得確率に適用される倍率。"
+                    "langTranslation": "敵を倒したときの祝福装備獲得確率に適用される倍率。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie błogosławionego sprzętu podczas zabijania potworów."
+                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie błogosławionego sprzętu podczas zabijania wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -2263,15 +2263,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Множитель вероятности получения освященного снаряжения при убийстве чудовищ."
+                    "langTranslation": "Множитель вероятности получения освященного снаряжения при убийстве врагов."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Множник шансу отримання благословенного спорядження за вбивство монстрів."
+                    "langTranslation": "Множник шансу отримання благословенного спорядження за вбивство супротивників."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对击杀怪物时获得圣铸装备的几率应用的乘算加成。"
+                    "langTranslation": "对击杀敌人时获得圣铸装备的几率应用的乘算加成。"
                 }
             ],
             "icon": "",
@@ -2329,7 +2329,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Monster Relikte fallen lassen."
+                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Gegner Relikte fallen lassen."
                 },
                 {
                     "langCode": "en",
@@ -2337,7 +2337,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener reliquias al matar monstruos."
+                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener reliquias al eliminar enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -2345,11 +2345,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "モンスターをたおしたときの聖遺物獲得確率に適用される倍率。"
+                    "langTranslation": "敵を倒したときの聖遺物獲得確率に適用される倍率。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie artefaktów w trakcie zabijania potworów."
+                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie artefaktów w trakcie zabijania wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -2357,15 +2357,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Множитель вероятности получения реликвий при убийстве чудовищ."
+                    "langTranslation": "Множитель вероятности получения реликвий при убийстве врагов."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Множник шансу отримання реліквій за вбивство монстрів."
+                    "langTranslation": "Множник шансу отримання реліквій за вбивство супротивників."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对击杀怪物时获得遗物的几率应用的乘算加成。"
+                    "langTranslation": "对击杀敌人时获得遗物的几率应用的乘算加成。"
                 }
             ],
             "icon": "",
@@ -2905,7 +2905,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Die Chance, beim Verursachen von physischem Schaden Bluten anzuwenden.\nMonster können Schaden durch beliebig viele gleichzeitig aktive Stapel Bluten erleiden."
+                    "langTranslation": "Die Chance, beim Verursachen von physischem Schaden Bluten anzuwenden.\nGegner können Schaden durch beliebig viele gleichzeitig aktive Stapel Bluten erleiden."
                 },
                 {
                     "langCode": "en",
@@ -2913,19 +2913,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de ocasionar la dolencia de Sangrado al infligir daño físico.\nLos monstruos pueden recibir daño de cualquier cantidad de acumulaciones simultáneas de Sangrado que estén activas a la vez."
+                    "langTranslation": "Probabilidad de ocasionar la dolencia de Sangrado al infligir daño físico.\nLos enemigos pueden recibir daño de cualquier cantidad de acumulaciones simultáneas de Sangrado que estén activas a la vez."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chance d'infliger un saignement lorsque vous infligez des dégâts physiques.\nIl n'y a pas de limite au nombre de saignements qui peuvent blesser un ennemi simultanément."
+                    "langTranslation": "Chance d'infliger un saignement lorsque vous infligez des dégâts physiques. \nIl n'y a pas de limite au nombre de cumuls de saignement qui peuvent blesser un ennemi simultanément."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "物理ダメージを与えた際に出血を付与する確率。\nモンスターは同時に付与されている複数の出血状態からそれぞれダメージを受ける。"
+                    "langTranslation": "物理ダメージを与えた際に出血を付与する確率。\n敵は同時に付与されている複数の出血状態からそれぞれダメージを受ける。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na wywołanie krwawienia przy zadawaniu obrażeń fizycznych.\nPotwory mogą otrzymać obrażenia od dowolnej liczby aktywnych kumulacji krwawienia."
+                    "langTranslation": "Szansa na wywołanie krwawienia przy zadawaniu obrażeń fizycznych. \nWrogowie mogą otrzymać obrażenia od dowolnej liczby aktywnych kumulacji krwawienia."
                 },
                 {
                     "langCode": "pt-br",
@@ -2933,15 +2933,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вероятность наложить кровотечение при нанесении физ. урона.\nЧудовища могут получать урон от любого количества действующих на них зарядов кровотечения."
+                    "langTranslation": "Вероятность вызвать кровотечение при нанесении физического урона. \nВраги получают урон от всех действующих на них зарядов кровотечения."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Шанс викликати недугу кровотечі завданням фізичної шкоди. \nМонстри можуть отримувати шкоду від будь-якої кількості одночасно активних зарядів кровотечі."
+                    "langTranslation": "Шанс викликати недугу кровотечі завданням фізичної шкоди. \nСупротивники можуть отримувати шкоду від будь-якої кількості одночасно активних зарядів кровотечі."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "造成物理伤害时有几率施加流血异常。\n怪物可以同时受到多个流血层的伤害。"
+                    "langTranslation": "造成物理伤害时有几率施加流血异常。\n敌人可以同时受到多个流血层的伤害。"
                 }
             ],
             "icon": "IconStatus_Bleeding_white",
@@ -2999,7 +2999,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Die Chance, beim Verursachen von Feuerschaden auch Entzünden anzuwenden.\nMonster erleiden immer nur Schaden durch den jeweils stärksten Stapel Entzünden."
+                    "langTranslation": "Die Chance, beim Verursachen von Feuerschaden auch Entzünden anzuwenden.\nGegner erleiden immer nur Schaden durch den jeweils stärksten Stapel Entzünden."
                 },
                 {
                     "langCode": "en",
@@ -3007,7 +3007,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de ocasionar la dolencia de Ardor al infligir daño de Fuego.\nLos monstruos solo pueden recibir daño de la acumulación de Ardor más potente que esté activa en cualquier momento."
+                    "langTranslation": "Probabilidad de ocasionar la dolencia de Ardor al infligir daño de Fuego.\nLos enemigos solo pueden recibir daño de la acumulación de Ardor más potente que esté activa en cualquier momento."
                 },
                 {
                     "langCode": "fr",
@@ -3015,11 +3015,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "火炎ダメージを与えた際に、炎上を付与する確率。\nモンスターは同時に付与されている複数の炎上状態のうち、最も強力な1つからのみダメージを受ける。"
+                    "langTranslation": "火炎ダメージを与えた際に、炎上を付与する確率。\n敵は同時に付与されている複数の炎上状態のうち、最も強力な1つからのみダメージを受ける。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na wywołanie podpalenia podczas zadawania obrażeń od ognia.\nPotwory otrzymują obrażenia tylko od najsilniejszej kumulacji podpalenia, która jest aktualnie aktywna."
+                    "langTranslation": "Szansa na wywołanie podpalenia podczas zadawania obrażeń od ognia.\nWrogowie otrzymują obrażenia tylko od najsilniejszej kumulacji podpalenia, która jest aktualnie aktywna."
                 },
                 {
                     "langCode": "pt-br",
@@ -3027,15 +3027,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вероятность наложить горение при нанесении урона огнем.\nЧудовища получают урон только от самого мощного заряда горения, действующего на них в данный момент."
+                    "langTranslation": "Вероятность вызвать горение при нанесении урона от огня.\nВраги получают урон только от самого мощного действующего на них заряда горения."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Шанс викликати недугу займання завданням шкоди від вогню.\nМонстри отримують шкоду лише від найсильнішого заряду займання."
+                    "langTranslation": "Шанс викликати недугу займання завданням шкоди від вогню.\nСупротивники отримують шкоду лише від найсильнішого заряду займання."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "造成火焰伤害时有几率施加点燃异常。\n怪物同一时间仅受到最强点燃层的伤害。"
+                    "langTranslation": "造成火焰伤害时有几率施加点燃异常。\n敌人同一时间仅受到最强点燃层的伤害。"
                 }
             ],
             "icon": "",
@@ -3093,43 +3093,43 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Chance, beim Verursachen von Blitzschaden das Leiden „Geschockt“ zu verursachen. \nBei geschockten Monstern ist die Wahrscheinlichkeit, kritische Treffer und Leiden zu erhalten, um 20 % erhöht."
+                    "langTranslation": "Chance, beim Verursachen von Blitzschaden das Leiden Geschockt zu verursachen.\nBei geschockten Gegnern ist die Wahrscheinlichkeit, kritische Treffer und Leiden zu erhalten, um 20 % erhöht. Außerdem sind sie um 40 % anfälliger gegen Krit.-Treffer-Schaden."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Chance to cause the Shocked ailment when dealing Lightning damage. \nShocked enemies are 20% more likely to receive Critical Hits and Ailments."
+                    "langTranslation": "Chance to cause the Shocked ailment when dealing Lightning damage. \nShocked enemies are 20% more likely to receive Critical Hits and Ailments, and they are 40% more vulnerable to Critical Damage."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Posibilidad de causar la dolencia Conmocionado al infligir daño de Rayo.\nLos monstruos impactados tienen un 20 % más de probabilidades de recibir golpes críticos y dolencias."
+                    "langTranslation": "Probabilidad de causar la dolencia Electrocutado al infligir daño de Rayo. \nLos enemigos electrocutados tienen un 20 % más de probabilidades de recibir golpes críticos y dolencias. y son 40 % más vulnerables a recibir daño crítico."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chances d'infliger l'affliction Électrocuté suite à des dégâts de foudre. \nLes monstres électrocutés ont 20 % de chances supplémentaires de subir des coups critiques et des afflictions."
+                    "langTranslation": "Chances d'infliger l'affliction Électrocuté suite à des dégâts de foudre. \nLes ennemis électrocutés ont 20 % de chances supplémentaires de subir des coups critiques et des afflictions, et leur vulnérabilité aux dégâts critiques augmente de 40 %."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "電撃ダメージを与えると、一定確率で感電の状態異常を付与する。\n感電状態のモンスターは、クリティカルヒットや状態異常を受ける確率が20%上昇する。"
+                    "langTranslation": "電撃ダメージを与えると、一定確率で感電の状態異常を付与する。\n感電状態の敵は、クリティカルヒットや状態異常を受ける確率が20%上昇し、受けるクリティカルダメージが40%増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Istnieje szansa na wywołanie dolegliwości Porażenie podczas zadawania obrażeń od błyskawic.\nPorażone potwory mają o 20% większą szansę na otrzymanie trafień krytycznych i dolegliwości."
+                    "langTranslation": "Istnieje szansa na wywołanie dolegliwości Porażenie podczas zadawania obrażeń od błyskawic. \nPorażeni wrogowie mają o 20% większą szansę na otrzymanie trafień krytycznych i dolegliwości oraz są o 40% bardziej podatni na obrażenia krytyczne."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Chance de causar a Condição de Eletrocussão ao causar Dano Elétrico.\nInimigos Eletrocutados são 20% mais suscetíveis a receberem acertos Críticos e Condições."
+                    "langTranslation": "Chance de causar a Condição de Eletrocussão ao causar Dano Elétrico.\r\nInimigos Eletrocutados são 20% mais suscetíveis a receberem Acertos Críticos e Condições, e são 40% mais vulneráveis a Dano Crítico.\r\n"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "При нанесении урона от молний существует вероятность вызвать состояние шока. \nУ монстров, находящихся в состоянии шока, вероятность получения критических ударов и негативных эффектов на 20% выше."
+                    "langTranslation": "При нанесении урона молнией есть вероятность вызвать шок. \nШокированные враги с вероятностью на 20% выше получают критические удары и негативные эффекты, а также получают на 40% больше критического урона."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Шанс викликати недугу шоку завданням шкоди від блискавки.\nДля монстрів із цим ефектом шанс завдання критичних ударів і накладання недуг збільшено на 20%."
+                    "langTranslation": "Шанс викликати недугу шоку завданням шкоди від блискавки. \nДля супротивників із цим ефектом шанс отримання критичних ударів і недуг збільшено на 20%. Крім того, вони на 40% вразливіші до критичної шкоди."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "造成闪电伤害时，有几率施加触电异常状态。\n处于触电状态的怪物受到暴击与异常状态影响的几率提高 20%。"
+                    "langTranslation": "造成闪电伤害时，有几率施加触电异常。\n触电敌人被暴击和被施加异常状态的几率提高 20%，且受到的暴击伤害提高 40%。"
                 }
             ],
             "icon": "",
@@ -3187,7 +3187,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Chance, das Leiden „Faulend“ zu verursachen, wenn du Seuchenschaden verursachst.\nFaulende Monster haben ein um 20 % verringertes Bewegungstempo und ein um 8 % verringertes Angriffstempo."
+                    "langTranslation": "Chance, das Leiden Faulend zu verursachen, wenn du Seuchenschaden verursachst.\nFaulende Gegner haben ein um 20 % verringertes Bewegungstempo und ein um 8 % verringertes Angriffstempo."
                 },
                 {
                     "langCode": "en",
@@ -3195,19 +3195,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Posibilidad de causar la dolencia Maldito al infligir daño de Plaga.\nLos monstruos infestados tienen su velocidad de movimiento reducida en un 20 % y su velocidad de ataque reducida en un 8 %."
+                    "langTranslation": "Probabilidad de causar la dolencia Maldito al infligir daño de Plaga.\nLos enemigos enfermos tienen su velocidad de movimiento reducida en un 20 % y su velocidad de ataque reducida en un 8 %."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chances d'infliger l'affliction Flétri suite à des dégâts de peste.\nLa vitesse de déplacement des monstres flétris est réduite de 20 % et leur vitesse d'attaque de 8 %."
+                    "langTranslation": "Chances d'infliger l'affliction Flétri suite à des dégâts de peste.\nLa vitesse de déplacement des ennemis flétris est réduite de 20 % et leur vitesse d'attaque de 8 %."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "疫病ダメージを与えると、一定確率で荒廃の状態異常を付与する。\n荒廃状態のモンスターは、移動速度が20%、攻撃速度が8%低下する。"
+                    "langTranslation": "疫病ダメージを与えると、一定確率で荒廃の状態異常を付与する。\n荒廃状態の敵は、移動速度が20%、攻撃速度が8%低下する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Istnieje szansa na wywołanie dolegliwości Wypaczony podczas zadawania obrażeń od zarazy.\nPrędkość ruchu dotkniętych zarazą potworów zostaje zmniejszona o 20%, a prędkość ataku o 8%."
+                    "langTranslation": "Szansa na wywołanie dolegliwości Wypaczony podczas zadawania obrażeń od zarazy.\nPrędkość ruchu wypaczonych wrogów zostaje zmniejszona o 20%, a prędkość ataku o 8%."
                 },
                 {
                     "langCode": "pt-br",
@@ -3215,15 +3215,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "При нанесении урона от чумы существует вероятность вызвать эффект болезни.\nУ пораженных монстров скорость передвижения снижается на 20%, а скорость атаки — на 8%."
+                    "langTranslation": "При нанесении урона от чумы есть вероятность вызвать эффект болезни.\nУ больных врагов скорость передвижения снижается на 20%, а скорость атаки — на 8%."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Шанс викликати недугу пошесті завданням шкоди від чуми.\nШвидкість руху монстрів із цим ефектом зменшено на 20%, а швидкість атаки – на 8%."
+                    "langTranslation": "Шанс викликати недугу пошесті завданням шкоди від чуми.\nШвидкість руху супротивників із цим ефектом зменшено на 20%, а швидкість атаки – на 8%."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "造成瘟疫伤害时，有几率施加枯疫异常状态。\n处于枯疫状态的怪物其移动速度降低 20%，攻击速度降低 8%。"
+                    "langTranslation": "造成瘟疫伤害时，有几率施加枯疫异常状态。\n处于枯疫状态的敌人移动速度降低 20%，攻击速度降低 8%。"
                 }
             ],
             "icon": "",
@@ -3233,98 +3233,102 @@
             "willClamp": false
         },
         {
-            "name": "AdditionalChanceToReceiveCritical",
+            "name": "CriticalChanceResistance",
             "id": 34,
             "type": "StatDefinition",
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Zusätzliche Chance auf Erleiden von Krit.-Treffer-Schaden"
+                    "langTranslation": "Chance, keinen Krit.-Treffer-Schaden zu erleiden."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Additional Chance to Suffer Critical Damage"
+                    "langTranslation": "Chance to not take Critical Damage"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad adicional de sufrir daño crítico"
+                    "langTranslation": "Probabilidad de no sufrir daño crítico"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chances suppl. de subir des dégâts critiques"
+                    "langTranslation": "Chances de ne pas subir de dégâts critiques"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "敵のクリティカルダメージ発生上昇率"
+                    "langTranslation": "クリティカルダメージを受けない確率"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Dodatkowa szansa na otrzymanie obrażeń krytycznych"
+                    "langTranslation": "Szansa na nieotrzymanie obrażeń krytycznych"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Chance adicional de receber Dano Crítico"
+                    "langTranslation": "Chance to not take Critical Damage"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Доп. шанс получить крит. урон"
+                    "langTranslation": "Вероятность избежать критического урона"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Додатковий шанс отримати критичну шкоду"
+                    "langTranslation": "Шанс не отримати критичної шкоди"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "受到暴击伤害的额外几率"
+                    "langTranslation": "暴击伤害免疫几率"
                 }
             ],
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "TNF:(AdditionalChanceToReceiveCriticalStatDesc)"
+                    "langTranslation": ""
                 }
             ],
             "icon": "",
             "eStatFormat": "PERCENTAGE",
             "baseValue": 0.0,
             "isPlayerStat": false,
-            "willClamp": false
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": -1000.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1.0
         },
         {
             "name": "DamageOverTimeResistance",
@@ -3669,7 +3673,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Prozentualer Anteil deiner maximalen Gesundheit, der pro Sekunde geheilt wird, wenn du in der letzten Sekunde einem Monster Schaden zugefügt hast."
+                    "langTranslation": "Prozentualer Anteil deiner max. Gesundheit, der pro Sekunde geheilt wird, wenn du in der letzten Sekunde einem Gegner Schaden zugefügt hast."
                 },
                 {
                     "langCode": "en",
@@ -3677,19 +3681,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Porcentaje de tu vida máxima curada por segundo si has infligido daño a un monstruo en el último segundo."
+                    "langTranslation": "Curarás un porcentaje de tu vida máxima por segundo si infliges daño a un enemigo en el último segundo."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Pourcentage de votre santé maximale régénérée par seconde si vous avez infligé des dégâts à un monstre au cours de la dernière seconde."
+                    "langTranslation": "Pourcentage de votre santé maximale régénérée par seconde si vous avez infligé des dégâts à un ennemi au cours de la dernière seconde."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "モンスターにダメージを与えた直後、1秒ごとに回復される最大体力の割合。"
+                    "langTranslation": "敵にダメージを与えた直後、1秒ごとに回復される最大体力の割合。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Procent maksymalnego zdrowia przywracanego na sekundę, jeśli w ostatniej sekundzie zadano potworowi jakieś obrażenia."
+                    "langTranslation": "Procent maksymalnego zdrowia przywracanego na sekundę, jeśli w ostatniej sekundzie zadano wrogowi jakieś obrażenia."
                 },
                 {
                     "langCode": "pt-br",
@@ -3697,15 +3701,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Процент от вашего максимального запаса здоровья, восстанавливаемый в секунду, если вы нанесли урон монстру за последнюю секунду."
+                    "langTranslation": "Процент от максимального здоровья, восстанавливаемый каждую секунду, если вы нанесли урон врагу за последнюю секунду."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Відсоток максимального здоров'я, відновленого за секунду, якщо ви завдали будь-якої шкоди монстру протягом останньої секунди."
+                    "langTranslation": "Відсоток максимального здоров'я, відновленого за секунду, якщо ви завдали будь-якої шкоди супротивнику протягом останньої секунди."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "每秒恢复相当于你最大生命值一定比例的生命值，前提是你在过去 1 秒内对任意怪物造成过伤害。"
+                    "langTranslation": "每秒恢复相当于你最大生命值一定比例的生命值，前提是你在过去 1 秒内对任意敌人造成过伤害。"
                 }
             ],
             "icon": "",
@@ -4891,7 +4895,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Monster Talismane fallen lassen."
+                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Gegner Talismane fallen lassen."
                 },
                 {
                     "langCode": "en",
@@ -4899,7 +4903,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener amuletos al matar monstruos."
+                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener amuletos al eliminar enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -4907,11 +4911,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "モンスターをたおしたときの護符獲得確率に適用される倍率。"
+                    "langTranslation": "敵を倒したときの護符獲得確率に適用される倍率。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie świecidełek podczas zabijania potworów."
+                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie świecidełek podczas zabijania wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -4919,15 +4923,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Множитель вероятности получения амулетов при убийстве чудовищ."
+                    "langTranslation": "Множитель вероятности получения амулетов при убийстве врагов."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Множник шансу отримання талісманів за вбивство монстрів."
+                    "langTranslation": "Множник шансу отримання талісманів за вбивство супротивників."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对击杀怪物时获得护符的几率应用的乘算加成。"
+                    "langTranslation": "对击杀敌人时获得护符的几率应用的乘算加成。"
                 }
             ],
             "icon": "",
@@ -4985,7 +4989,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Monster Relikte fallen lassen."
+                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Gegner Relikte fallen lassen."
                 },
                 {
                     "langCode": "en",
@@ -4993,7 +4997,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener reliquias al matar monstruos."
+                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener reliquias al eliminar enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -5001,11 +5005,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "モンスターをたおしたときの聖遺物獲得確率に適用される倍率。"
+                    "langTranslation": "敵を倒したときの聖遺物獲得確率に適用される倍率。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie artefaktów w trakcie zabijania potworów."
+                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie artefaktów w trakcie zabijania wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -5013,15 +5017,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Множитель вероятности получения реликвий при убийстве чудовищ."
+                    "langTranslation": "Множитель вероятности получения реликвий при убийстве врагов."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Множник шансу отримання реліквій за вбивство монстрів."
+                    "langTranslation": "Множник шансу отримання реліквій за вбивство супротивників."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对击杀怪物时获得遗物的几率应用的乘算加成。"
+                    "langTranslation": "对击杀敌人时获得遗物的几率应用的乘算加成。"
                 }
             ],
             "icon": "",
@@ -6419,7 +6423,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Das Tempo, mit dem Seuchenschaden den Aufbau des Effekts Verwelken bei Monstern beschleunigt.\nDieses Tempo erhöht oder verringert sich basierend auf dem Verhältnis der aktuellen Gesundheit des Monsters zu dem Schaden, den du ihm zugefügt hast.\nVerwelkte Monster sind komplett gelähmt und können nichts machen."
+                    "langTranslation": "Das Tempo, mit dem Seuchenschaden den Aufbau des Effekts Verwelken bei Gegnern beschleunigt.\nDieses Tempo erhöht oder verringert sich basierend auf dem Verhältnis der aktuellen Gesundheit des Gegners zu dem Schaden, den du ihm zugefügt hast.\nVerwelkte Gegner sind komplett gelähmt und können nichts machen."
                 },
                 {
                     "langCode": "en",
@@ -6427,19 +6431,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Tasa a la que el daño de Plaga ayuda a acumular el efecto Marchitez en los monstruos.\nEsta tasa aumenta o disminuye en función de la proporción entre la vida actual del monstruo y el daño que infliges.\nLos monstruos marchitos se paralizan por completo y no pueden hacer ninguna acción."
+                    "langTranslation": "Tasa a la que el daño de Plaga ayuda a acumular el efecto Marchitez en los enemigos.\nEsta tasa aumenta o disminuye en función de la proporción entre la vida actual del enemigo y el daño que infliges. \nLos enemigos marchitos se paralizan por completo y no pueden hacer ninguna acción."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Taux auquel les dégâts de peste contribuent à l'application d'un effet de décrépitude sur vos ennemis.\nCe taux varie en fonction du ratio entre la santé restante du monstre et les dégâts que vous infligez. \nLes ennemis décrépits sont paralysés et ne peuvent plus effectuer d'actions."
+                    "langTranslation": "Taux auquel les dégâts de peste contribuent à l'application d'un effet de décrépitude sur vos ennemis.\nCe taux varie en fonction du ratio entre la santé restante de l'ennemi et les dégâts que vous infligez. \nLes ennemis décrépits sont paralysés et ne peuvent plus effectuer d'actions."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "疫病ダメージが、モンスターに対する荒廃効果の蓄積に寄与する速度。\nこの速度は、モンスターの現在の体力と与えたダメージの割合に応じて増減する。\n荒廃状態のモンスターは完全に麻痺し、いかなる行動も行えなくなる。"
+                    "langTranslation": "疫病ダメージが、敵に対する荒廃効果の蓄積に寄与する速度。\nこの速度は、敵の現在の体力と与えたダメージの割合に応じて増減する。\n荒廃状態の敵は完全に麻痺し、いかなる行動も行えなくなる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Współczynnik, z jakim obrażenia od zarazy przyczyniają się do kumulowania efektu usychania na potworach.\nWartość ta zwiększa/zmniejsza się w zależności od proporcji aktualnego zdrowia potwora w stosunku do zadanych mu obrażeń. \nUschnięte potwory są całkowicie sparaliżowane i nie mogą wykonać żadnego działania."
+                    "langTranslation": "Współczynnik, z jakim obrażenia od zarazy przyczyniają się do kumulowania efektu usychania na wrogach.\nWartość ta zwiększa/zmniejsza się w zależności od proporcji aktualnego zdrowia wroga w stosunku do zadanych mu obrażeń. \nUschnięci wrogowie są całkowicie sparaliżowani i nie mogą wykonać żadnego działania."
                 },
                 {
                     "langCode": "pt-br",
@@ -6447,15 +6451,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Скорость, с которой наносится урон от чумы, увеличивает накопление увядания у монстров.\nСкорость может увеличиваться/уменьшаться в зависимости от отношения текущего здоровья монстра к нанесенному вами урону. \nОслабленные увяданием монстры полностью парализованы и не могут совершать никаких действий."
+                    "langTranslation": "Скорость нанесения урона от чумы увеличивает накопление увядания у врагов.\nОна может повышаться или снижаться в зависимости от соотношения текущего здоровья врага и нанесенного вами урона. \nВраги, пораженные увяданием, полностью парализованы и не могут действовать."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Швидкість, з якою шкода від чуми сприятиме накопиченню ефекту зачахнення монстрів.\nЦей показник збільшується або зменшується залежно від співвідношення поточного здоров'я монстра до завданої вами шкоди. \nЗачахлі монстри повністю паралізовані та не можуть нічого робити."
+                    "langTranslation": "Швидкість, з якою шкода від чуми сприятиме накопиченню ефекту зачахнення супротивників.\nЦей показник збільшується або зменшується залежно від співвідношення поточного здоров'я супротивника до завданої вами шкоди. \nЗачахлі супротивники повністю паралізовані та не можуть нічого робити."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "瘟疫伤害对怪物施加衰竭效果的积累速率。\n该速率会根据怪物当前生命值与所受伤害的比例动态变化。\n处于衰竭状态的怪物将完全瘫痪，无法执行任何行动。"
+                    "langTranslation": "瘟疫伤害对敌人施加衰竭效果的积蓄速率。\n该速率会根据敌人当前生命值与所受伤害的比例提高或降低。\n衰竭敌人会完全瘫痪，无法执行任何行动。"
                 }
             ],
             "icon": "IconStatus_Wither_white",
@@ -6517,7 +6521,7 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Das Tempo, mit dem beliebiger Schaden den Aufbau des Effekts Betäuben bei Monstern beschleunigt.\nDieses Tempo erhöht oder verringert sich basierend auf dem Verhältnis der aktuellen Gesundheit des Monsters zu dem Schaden, den du ihm zugefügt hast.\nDurch Nahkampfangriffe zugefügter Schaden verdoppelt dieses Tempo.\nBetäubte Monster sind komplett gelähmt und können nichts machen."
+                    "langTranslation": "Das Tempo, mit dem beliebiger Schaden den Aufbau des Effekts Betäuben bei Gegnern beschleunigt.\nDieses Tempo erhöht oder verringert sich basierend auf dem Verhältnis der aktuellen Gesundheit des Gegners zu dem Schaden, den du ihm zugefügt hast.\nDurch Nahkampfangriffe zugefügter Schaden verdoppelt dieses Tempo.\nBetäubte Gegner sind komplett gelähmt und können nichts machen."
                 },
                 {
                     "langCode": "en",
@@ -6525,19 +6529,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Tasa a la que el daño físico ayuda a acumular el efecto Aturdimiento en los monstruos.\nEsta tasa aumenta o disminuye en función de la proporción entre la vida actual del monstruo y el daño que infliges.\nEl daño infligido con ataques de combate cuerpo a cuerpo duplica esta tasa.\nLos monstruos aturdidos se paralizan por completo y no pueden hacer ninguna acción."
+                    "langTranslation": "Tasa a la que el daño físico ayuda a acumular el efecto Aturdimiento en los enemigos.\nEsta tasa aumenta o disminuye en función de la proporción entre la vida actual del enemigo y el daño que infliges.\nEl daño infligido con ataques de combate cuerpo a cuerpo duplica esta tasa. \nLos enemigos aturdidos se paralizan por completo y no pueden hacer ninguna acción."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Taux auquel tous types de dégâts contribuent à étourdir vos ennemis.\nCe taux varie en fonction du ratio entre la santé restante du monstre et les dégâts que vous infligez.\nLes dégâts de mêlée doublent ce taux. \nLes monstres étourdis sont paralysés et ne peuvent plus effectuer d'actions."
+                    "langTranslation": "Taux auquel tous types de dégâts contribuent à étourdir vos ennemis.\nCe taux varie en fonction du ratio entre la santé restante de l'ennemi et les dégâts que vous infligez.\nLes dégâts de mêlée doublent ce taux. \nLes ennemis étourdis sont paralysés et ne peuvent plus effectuer d'actions."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "あらゆるダメージが、モンスターに対するスタン効果の蓄積に寄与する速度。\nこの速度は、モンスターの現在の体力と与えたダメージの割合に応じて増減する。\n近接攻撃によるダメージはこの割合が2倍になる。\nスタン状態のモンスターは完全に麻痺し、いかなる行動も行えなくなる。"
+                    "langTranslation": "あらゆるダメージが、敵に対するスタン効果の蓄積に寄与する速度。\nこの速度は、敵の現在の体力と与えたダメージの割合に応じて増減する。\n近接攻撃によるダメージはこの割合が2倍になる。\nスタン状態の敵は完全に麻痺し、いかなる行動も行えなくなる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Współczynnik, z jakim dowolne obrażenia przyczyniają się do kumulowania efektu ogłuszenia na potworach.\nWartość ta zwiększa/zmniejsza się w zależności od proporcji aktualnego zdrowia potwora w stosunku do zadanych mu obrażeń.\nObrażenia zadawane przez ataki wręcz naturalnie podwajają ten wskaźnik.\nOszołomione potwory są całkowicie sparaliżowane i nie mogą wykonać żadnego działania."
+                    "langTranslation": "Współczynnik, z jakim dowolne obrażenia przyczyniają się do kumulowania efektu ogłuszenia na wrogach.\nWartość ta zwiększa/zmniejsza się w zależności od proporcji aktualnego zdrowia wroga w stosunku do zadanych mu obrażeń.\nObrażenia zadawane przez ataki wręcz naturalnie podwajają ten wskaźnik. \nOszołomieni wrogowie są całkowicie sparaliżowani i nie mogą wykonać żadnego działania."
                 },
                 {
                     "langCode": "pt-br",
@@ -6545,15 +6549,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Скорость, с которой наносится любой урон, увеличивает накопление оглушения у монстров.\nСкорость может увеличиваться/уменьшаться в зависимости от отношения текущего здоровья монстра к нанесенному вами урону.\nУрон, нанесенный атаками в ближнем бою, обычно удваивает это соотношение. \nОслабленные оглушением монстры полностью парализованы и не могут совершать никаких действий."
+                    "langTranslation": "Скорость накопления оглушения от любого урона.\nОна может повышаться или снижаться в зависимости от соотношения текущего здоровья врага и нанесенного вами урона.\nУрон от атак ближнего боя по умолчанию удваивает эту скорость. \nОглушенные враги полностью парализованы и не могут действовать."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Швидкість, з якою будь-яка шкода сприятиме накопиченню ефекту оглушення монстрів.\nЦей показник збільшується або зменшується залежно від співвідношення поточного здоров'я монстра до завданої вами шкоди.\nШкода від ближніх атак подвоює цей показник. \nОглушені монстри повністю паралізовані та не можуть нічого робити."
+                    "langTranslation": "Швидкість, з якою будь-яка шкода сприятиме накопиченню ефекту оглушення супротивників.\nЦей показник збільшується або зменшується залежно від співвідношення поточного здоров'я супротивника до завданої вами шкоди.\nШкода від ближніх атак подвоює цей показник. \nОглушені супротивники повністю паралізовані та не можуть нічого робити."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "物理伤害对怪物施加眩晕效果的积累速率。\n该速率会根据怪物当前生命值与所受伤害的比例动态变化。\n近战攻击造成的伤害将使该速率翻倍。\n处于眩晕状态的怪物将完全瘫痪，无法执行任何行动。"
+                    "langTranslation": "任意伤害对敌人施加眩晕效果的积蓄速率。\n该速率会根据敌人当前生命值与所受伤害的比例提高或降低。\n近战攻击造成的伤害会使该速率翻倍。\n眩晕敌人会完全瘫痪，无法执行任何行动。"
                 }
             ],
             "icon": "IconStatus_Stunned_white",
@@ -7289,43 +7293,43 @@
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Die Chance, physischen Schaden gänzlich zu meiden.\nErhöht oder verringert sich basierend auf dem Verhältnis deines aktuellen Lebens zu dem eingehenden Schaden dynamisch.\nDieser Effekt erfolgt unter Verwendung eines pseudozufälligen Algorithmus, um konsistente Ergebnisse zu erzielen."
+                    "langTranslation": "Immer, wenn du tödlichen Schaden erleiden würdest, erleidest du stattdessen nur einen Teil dieses Schadens in Höhe deines Ausdauerwerts über 4 Sekunden hinweg."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Chance to completely avoid any Physical damage taken. \nDynamically increased/decreased based on the proportion of your current Life versus the incoming damage. \nThis effect uses a pseudo-random algorithm to guarantee consistent results."
+                    "langTranslation": "Whenever you would take damage on your Life, a portion of that damage equal to your Endurance value is taken over 4 seconds instead"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de evitar por completo cualquier daño físico recibido.\nAumenta o reduce de forma dinámica según la proporción de tu vida actual respecto del daño recibido.\nEste efecto usa un algoritmo pseudoaleatorio para garantizar resultados coherentes."
+                    "langTranslation": "Siempre que recibas daño de vida, en su lugar, recibe una porción de ese daño igual a tu valor de Tolerancia durante 4 segundos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chance d'éviter entièrement de subir des dégâts physiques.\nCette valeur est ajustée à la volée en fonction du ratio entre votre santé actuelle et la quantité de dégâts subis.\nCet effet utilise un algorithme pseudo-aléatoire pour garantir des résultats réguliers."
+                    "langTranslation": "Lorsque des dégâts vous font perdre de la santé, une partie des dégâts égale à la valeur de votre endurance est subie pendant 4 secondes."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "物理ダメージを受ける際にそれを完全に回避できる確率。\n自身の現在の体力と受けるダメージによって発動確率は変化する。\nこの効果は一貫性のある結果を実現するため疑似乱数を使用している。"
+                    "langTranslation": "体力にダメージを受けるたび、ダメージの一部（耐久に等しい値）を4秒間の持続ダメージとして受ける。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na całkowite uniknięcie wszystkich otrzymanych obrażeń.\nDynamicznie zwiększane/zmniejszane w oparciu o stosunek aktualnego zdrowia do otrzymanych obrażeń.\nEfekt ten wykorzystuje algorytm pseudolosowy, aby zagwarantować spójne wyniki."
+                    "langTranslation": "Za każdym razem, gdy otrzymasz obrażenia zmniejszające zdrowie, część tych obrażeń równa wartości twojej wytrzymałości jest zamiast tego zadawana w ciągu 4 s."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Chance de evitar completamente qualquer dano Físico recebido.\nAumentada/reduzida dinamicamente baseado na proporção de sua Vida atual relativa ao dano original.\nEste efeito utiliza um algortimo pseudo-aleatório que garante resultados consistentes."
+                    "langTranslation": "Sempre que você receber dano em sua Vida, uma parte desse dano igual ao seu valor de Persistência é recebida ao longo de 4 segundos."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вероятность полностью избежать любого физ. урона.\nДинамически увеличивается/уменьшается в зависимости от отношения вашего текущего запаса здоровья и получаемого урона.\nЭтот эффект действует в соответствии с псевдослучайным алгоритмом, чтобы обеспечить должный результат."
+                    "langTranslation": "При каждом получении урона по запасу здоровья часть этого урона, равная значению выносливости, распределяется в течение 4 секунд."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Шанс повністю уникнути будь-якої фізичної шкоди. \nДинамічно збільшується або зменшується залежно від співвідношення вашого поточного здоров'я і завданої шкоди. \nЦей ефект використовує псевдовипадковий алгоритм для постійного результату."
+                    "langTranslation": "Щоразу, коли вам завдають шкоду й ваше здоров'я знижується, натомість ви отримуєте частину шкоди, яка дорівнює вашій витривалості, протягом 4 с"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "有几率完全规避所受物理伤害。\n此几率将根据当前生命值与即将受到的伤害比例动态调整。\n该效果使用伪随机算法以确保触发概率的稳定性。"
+                    "langTranslation": "每当你的生命值即将受到伤害时，其中等同于你耐力值的部分会改为在 4 秒内逐步结算。"
                 }
             ],
             "icon": "IconStatus_VigorOrb_white",
@@ -7336,7 +7340,7 @@
             "useStatForMinimumValue": false,
             "minimumValue": 0.0,
             "useStatForMaximumValue": false,
-            "maximumValue": 0.95
+            "maximumValue": 0.75
         },
         {
             "name": "AntiMagic",
@@ -10331,7 +10335,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bonuschance auf Werkzeug-Drops"
+                    "langTranslation": "Bonuschance auf Werkzeuge."
                 },
                 {
                     "langCode": "en",
@@ -10339,19 +10343,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad adicional de obtener Herramientas"
+                    "langTranslation": "Probabilidad adicional de encontrar herramientas"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Chance supplémentaire d’obtenir des outils"
+                    "langTranslation": "Obtention d'outils bonus"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ツールのドロップ率ボーナス"
+                    "langTranslation": "道具ドロップ率ボーナス"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Szansa na dodatkowy drop Narzędzi"
+                    "langTranslation": "Szansa na upuszczenie narzędzi"
                 },
                 {
                     "langCode": "pt-br",
@@ -10359,7 +10363,7 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Бонус к шансу выпадения инструментов"
+                    "langTranslation": "Бонус к вероятности выпадения орудий"
                 },
                 {
                     "langCode": "uk",
@@ -10367,13 +10371,13 @@
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "工具掉落几率加成"
+                    "langTranslation": "额外工具掉落几率"
                 }
             ],
             "localizedDescription": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Monster Währung fallen lassen."
+                    "langTranslation": "Multiplikator, der auf die Chance angewendet wird, mit der getötete Gegner Währung fallen lassen."
                 },
                 {
                     "langCode": "en",
@@ -10381,7 +10385,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener dinero al matar monstruos."
+                    "langTranslation": "Modificador multiplicativo aplicado a la probabilidad de obtener dinero al eliminar enemigos."
                 },
                 {
                     "langCode": "fr",
@@ -10389,11 +10393,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "モンスターをたおしたときの通貨獲得確率に適用される倍率。"
+                    "langTranslation": "敵を倒したときの通貨獲得確率に適用される倍率。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie waluty podczas zabijania potworów."
+                    "langTranslation": "Mnożnik stosowany do szansy na zdobycie waluty podczas zabijania wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -10401,15 +10405,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "К вероятности получения валюты при убийстве монстров применяется множитель."
+                    "langTranslation": "К вероятности получения валюты при убийстве врагов применяется множитель."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Множник шансу отримання валюти за вбивство монстрів."
+                    "langTranslation": "Множник шансу отримання валюти за вбивство супротивників."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "对击杀怪物时获得货币的几率应用的乘算加成。"
+                    "langTranslation": "对击杀敌人时获得货币的几率应用的乘算加成。"
                 }
             ],
             "icon": "",
@@ -12565,7 +12569,7 @@
             "localizedName": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "Grundlegender Fertigkeitsschaden durch Beschwörungen."
                 },
                 {
                     "langCode": "en",
@@ -12573,19 +12577,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "Daño de habilidad básica de invocación"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "Dégâts des invocations des compétences de base"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "召喚の基本スキルダメージ"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "Obrażenia od podstawowej umiejętności przyzwania"
                 },
                 {
                     "langCode": "pt-br",
@@ -12593,15 +12597,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "Основной урон навыка призванных существ"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "Шкода від базових навичок викликаних союзників"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Summon Basic Skill Damage"
+                    "langTranslation": "召唤基础技能伤害"
                 }
             ],
             "localizedDescription": [
@@ -12651,6 +12655,104 @@
             "baseValue": 1.0,
             "isPlayerStat": false,
             "willClamp": false
+        },
+        {
+            "name": "CriticalDamageResistance",
+            "id": 134,
+            "type": "StatDefinition",
+            "localizedName": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Resistenz gegen Krit.-Treffer-Schaden."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Critical Damage Resistance"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Resistencia al daño crítico"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Résistance aux dégâts critiques"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "クリティカルダメージ抵抗"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Odporność na obrażenia krytyczne"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Resistência a Dano Crítico"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сопротивление критическому урону"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Опір критичній шкоді"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "暴击伤害抗性"
+                }
+            ],
+            "localizedDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
+            "icon": "",
+            "eStatFormat": "PERCENTAGE",
+            "baseValue": 0.0,
+            "isPlayerStat": false,
+            "willClamp": true,
+            "useStatForMinimumValue": false,
+            "minimumValue": -10000.0,
+            "useStatForMaximumValue": false,
+            "maximumValue": 1.0
         }
     ]
 }

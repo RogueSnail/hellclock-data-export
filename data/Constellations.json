@@ -3081,7 +3081,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Wenn du Nahkampfschaden verursachst, erhältst du einen Stapel Lebenskraft (max. 5 Stapel). Jeder Stapel Lebenskraft gewährt 3 % Schadensverringerung. Du verlierst alle {1} Sek., in denen du keinen Schaden erleidest, 1 Stapel Lebenskraft."
+                                        "langTranslation": "Das Verursachen von Nahkampfschaden gewährt dir einen Stapel Lebenskraft (max. 5 Stapel). Jeder Stapel Lebenskraft gewährt dir 3 % Schadensverringerung. Du verlierst alle {1} Sek., in denen du keinen Schaden erleidest, 1 Stapel Lebenskraft."
                                     },
                                     {
                                         "langCode": "en",
@@ -3089,11 +3089,11 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Infligir daño cuerpo a cuerpo te otorga una acumulación de Vigor (máx. 5 acumulaciones). Cada acumulación de Vigor reduce el daño recibido en un 3%. Pierdes 1 acumulación de Vigor cada {1} s que pasas sin recibir daño."
+                                        "langTranslation": "Recibir daño cuerpo a cuerpo te otorga una acumulación de Vigor (máx. 5 acumulaciones). Cada acumulación reduce el daño en un 3 %. Pierdes 1 acumulación de Vigor cada {1} ssegundos que pasas sin recibir daño."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Infliger des dégâts de mêlée vous accorde un cumul de Vigueur (max : 5). Chaque cumul de Vigueur vous accorde 3 % de réduction des dégâts. Vous perdez 1 cumul de Vigueur toutes les {1} s où vous ne subissez pas de dégâts."
+                                        "langTranslation": "Lorsque vous infligez des dégâts de mêlée, vous obtenez un cumul de Vigueur (max : 5). Chaque cumul vous accorde 3 % de réduction des dégâts. Vous perdez 1 cumul de Vigueur toutes les {1} s où vous ne subissez pas de dégâts."
                                     },
                                     {
                                         "langCode": "ja",
@@ -3101,7 +3101,7 @@
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zadawanie obrażeń wręcz zapewnia 1 ładunek Wigoru (maks. 5 ładunków). Każdy ładunek Wigoru zapewnia 3% redukcji obrażeń. Tracisz 1 ładunek Wigoru co {1} s bez otrzymania obrażeń."
+                                        "langTranslation": "Zadawanie obrażeń wręcz zapewnia ładunek wigoru (maks. 5 ładunków). Każdy ładunek wigoru zapewnia 3% redukcji obrażeń. Tracisz 1 ładunek wigoru co {1} s bez otrzymania obrażeń."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -3109,15 +3109,15 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Нанесение урона в ближнем бою даёт вам заряд рвения (до 5). Каждый заряд рвения снижает получаемый урон на 3%. Вы теряете 1 заряд рвения каждые {1} сек., если не получаете урон."
+                                        "langTranslation": "При нанесении урона в ближнем бою вы получаете заряд рвения (до 5 ед.). Каждый заряд рвения дополнительно снижает урон на 3%. Вы теряете по заряду рвения раз в {1} сек., если не получаете урон."
                                     },
                                     {
                                         "langCode": "uk",
-                                        "langTranslation": "Завдаючи шкоди в ближньому бою, ви отримуєте 1 заряд енергії (макс. 5). Кожен заряд енергії зменшує отриману шкоду на 3%. Ви втрачаєте 1 заряд енергії кожні {1} с, якщо не отримуєте шкоди."
+                                        "langTranslation": "Завдавши шкоди в ближньому бою, ви отримуєте заряд енергії (макс. 5). Кожен такий заряд зменшує отриману шкоду на 3%. Ви втрачаєте 1 заряд енергії кожні {1} с, коли не отримуєте шкоди."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "造成近战伤害时获得 1 层魄力（最多叠加 5 层）。每层魄力使你受到的伤害降低 3%。若 {1} 秒内未受到伤害，则失去 1 层魄力。"
+                                        "langTranslation": "造成近战伤害会使你获得 1 层魄力 (最多 5 层)。每层魄力提供 3% 伤害减免。每 {1} 秒未受到伤害时，失去 1 层魄力。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -3652,7 +3652,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Das Erschöpfen deines Manas verbraucht all deine Stapel Lebenskraft und gewährt dir einen Buff, der +30 %[x] Angriffstempo verleiht und alle Manakosten auf null setzt. Dieser Buff hält {0} Sek. pro verbrauchtem Stapel Lebenskraft an."
+                                        "langTranslation": "Das Erschöpfen deines Manas verbraucht all deine Stapel Lebenskraft und gewährt dir einen Buff, der +30 %[x] Angriffstempo verleiht und alle Manakosten auf null setzt. Dieser Buff dauert für jeden verbrauchten Stapel Lebenskraft {0} Sek. lang an."
                                     },
                                     {
                                         "langCode": "en",
@@ -3660,19 +3660,19 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Agotar el maná consume todas tus acumulaciones de Vigor y te otorga un efecto que proporciona +30%[x] de velocidad de ataque y reduce a cero todos los costos de maná. Este efecto dura {0} s por cada acumulación de Vigor consumida."
+                                        "langTranslation": "Agotar el maná gasta todas las acumulaciones de Vigor y te otorga un potenciamiento que brinda +30 %[x] de velocidad de ataque y reduce a cero todos los costos de maná. El potenciamiento dura {0} s por cada acumulación de Vigor gastada."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque votre ferveur est vide, tous vos cumuls de Vigueur sont consommés et vous obtenez un bonus qui vous accorde +30 %[x] de vitesse d’attaque et réduit les coûts de ferveur à zéro. Ce bonus dure {0} s par cumul de Vigueur consommé."
+                                        "langTranslation": "Lorsque votre ferveur est vide, tous vos cumuls de Vigueur sont utilisés et convertis en un bonus qui vous accorde +30 % de vitesse d'attaque, et réduit les coûts de ferveur à zéro. Durée : {0} s par cumul utilisé."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "マナを使い果たすと、活力効果をすべて消費して、自身に攻撃速度+30%[x]とあらゆるマナコスト0のボーナスを得る。このボーナスは消費された活力効果1回につき{0}秒間続く。"
+                                        "langTranslation": "マナを使い果たすと、活力効果をすべて消費して、自身に攻撃速度+30%[x]とあらゆるマナコスト0のボーナスを得る。このバフは消費された活力効果の累積1個につき{0}秒間続く。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Zużycie całej many pochłania wszystkie ładunki Wigoru i zapewnia wzmocnienie: +30%[x] szybkości ataku oraz zerowy koszt many. Efekt trwa {0} s za każdy wydany ładunek Wigoru."
+                                        "langTranslation": "Zużycie całej many pochłania wszystkie ładunki wigoru i zapewnia wzmocnienie: +30%[x] prędkości ataku oraz redukuje koszt many do 0. Efekt trwa {0} s za każdy wydany ładunek wigoru."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -3680,11 +3680,11 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Когда у вас заканчивается мана, вы расходуете все заряды рвения и получаете усиление, которое увеличивает скорость атаки на 30%[x] и снижает весь расход маны до 0. Усиление действует {0} сек. за каждый потраченный заряд рвения."
+                                        "langTranslation": "Когда мана заканчивается, вы расходуете все заряды рвения и получаете усиление: скорость атаки увеличивается на 30%[x], а расход маны становится равен 0. Усиление действует {0} сек. за каждый потраченный заряд рвения"
                                     },
                                     {
                                         "langCode": "uk",
-                                        "langTranslation": "Коли мана закінчується, усі заряди енергії витрачаються, надаючи посилення: +30%[x] до швидкості атаки та знижуючи витрати мани до нуля. Тривалість посилення — {0} с за кожен витрачений заряд енергії."
+                                        "langTranslation": "Коли мана закінчується, усі заряди енергії поглинаються, надаючи посилення: +30%[x] до швидкості атаки, а також знижує витрати мани до нуля. Тривалість посилення – {0} с за кожен поглинутий заряд"
                                     },
                                     {
                                         "langCode": "zh-cn",
@@ -10459,7 +10459,7 @@
                                             "startDisabled": false,
                                             "useCharacterEffectTrigger": true,
                                             "effectTrigger": "TargetHit",
-                                            "characterEffectTrigger": "OnStatus",
+                                            "characterEffectTrigger": "OnReceiveStatus",
                                             "ruleSet": {
                                                 "type": "SkillEffectRuleSet",
                                                 "useOrLogic": false,
@@ -11614,7 +11614,7 @@
                                             "startDisabled": false,
                                             "useCharacterEffectTrigger": true,
                                             "effectTrigger": "TargetHit",
-                                            "characterEffectTrigger": "OnStatus",
+                                            "characterEffectTrigger": "OnReceiveStatus",
                                             "ruleSet": {
                                                 "type": "SkillEffectRuleSet",
                                                 "useOrLogic": false,
@@ -11669,7 +11669,7 @@
                                             "startDisabled": false,
                                             "useCharacterEffectTrigger": true,
                                             "effectTrigger": "TargetHit",
-                                            "characterEffectTrigger": "OnStatus",
+                                            "characterEffectTrigger": "OnReceiveStatus",
                                             "ruleSet": {
                                                 "type": "SkillEffectRuleSet",
                                                 "useOrLogic": false,
@@ -13458,7 +13458,7 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "Life",
                                 "statModifierType": "Additive",
-                                "value": 50.0,
+                                "value": 85.0,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -13576,7 +13576,7 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "Life",
                                 "statModifierType": "Additive",
-                                "value": 50.0,
+                                "value": 85.0,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -13694,7 +13694,7 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "Life",
                                 "statModifierType": "Additive",
-                                "value": 50.0,
+                                "value": 85.0,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -14048,7 +14048,7 @@
                                 "type": "SkillBehaviorNodeAffixDefinition",
                                 "additionalLocalizationVariables": [],
                                 "eModifierType": "Additive",
-                                "valuePerLevel": 5.0,
+                                "valuePerLevel": 9.0,
                                 "behaviorData": {
                                     "type": "SkillBehaviorData",
                                     "affectMultipleSkills": true,
@@ -14632,7 +14632,7 @@
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "SkillProjectileDamage",
                                 "statModifierType": "MultiplicativeAdditive",
-                                "value": 1.15,
+                                "value": 1.45,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -20535,7 +20535,7 @@
             "width": 500.0,
             "height": 500.0,
             "position": [
-                1680.0,
+                1995.0,
                 -785.0
             ]
         },
@@ -29747,7 +29747,7 @@
                                 "name": "e7e0cf84-40a6-4791-8724-c3b412213594",
                                 "type": "StatModifierNodeAffixDefinition",
                                 "eStatDefinition": "SummonBasicSkillDamagePercentage",
-                                "statModifierType": "Additive",
+                                "statModifierType": "Multiplicative",
                                 "value": 1.06,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
@@ -34869,7 +34869,7 @@
                                             "startDisabled": false,
                                             "useCharacterEffectTrigger": true,
                                             "effectTrigger": "TargetHit",
-                                            "characterEffectTrigger": "OnStatus",
+                                            "characterEffectTrigger": "OnReceiveStatus",
                                             "ruleSet": {
                                                 "type": "SkillEffectRuleSet",
                                                 "useOrLogic": false,
@@ -35704,7 +35704,7 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Aplicar Marchitez te otorga {0} acumulaciones de Marchitez durante {1} s (se puede acumular hasta 5 veces).\nAplicar Aturdimiento te otorga {0} acumulaciones de Aturdimiento durante {1} s (se puede acumular hasta 5 veces)."
+                                        "langTranslation": "Causar Marchitez te otorga {0} acumulaciones de Marchitez durante {1} segundo (se puede acumular hasta 5 veces).\nCausar Aturdimiento te otorga {0} acumulaciones de Aturdimiento durante {1} segundos (se puede acumular hasta 5 veces)."
                                     },
                                     {
                                         "langCode": "fr",
@@ -35716,7 +35716,7 @@
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Użycie usychania zapewnia {0} przyrostu usychania na {1} s (może się kumulować do 5 razy).\nUżycie ogłuszenia zapewnia {0} przyrostu ogłuszenia na {1} s (może się kumulować do 5 razy)."
+                                        "langTranslation": "Użycie usychania zapewnia {0} przyrostu usychania na {1} s (może się kumulować do 5 razy).\nUżycie ogłuszenia zapewnia {0} przyrostu ogłuszenia na {1} s (może się kumulować do 5 razy)."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -35724,7 +35724,7 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Накладывая увядание, вы получаете {0} накопления увядания на {1} сек. (суммируется до 5 раз).\nНакладывая оглушение, вы получаете {0} накопления оглушения на {1} сек. (суммируется до 5 раз)."
+                                        "langTranslation": "При наложении увядания вы получаете {0} к накоплению увядания на {1} сек. (суммируется до 5 раз).\nПри наложении оглушения вы получаете {0} к накоплению оглушения на {1} сек. (суммируется до 5 раз)."
                                     },
                                     {
                                         "langCode": "uk",
@@ -35732,7 +35732,7 @@
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "施加衰竭时获得 {0} 衰竭积累，持续 {1} 秒 (最多叠加 5 层)。\n施加眩晕时获得 {0} 眩晕积累，持续 {1} 秒 (最多叠加 5 层)。"
+                                        "langTranslation": "施加衰竭时获得 {0} 衰竭积蓄，持续 {1} 秒 (最多叠加 5 层)。\n施加眩晕时获得 {0} 眩晕积蓄，持续 {1} 秒 (最多叠加 5 层)。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -38110,7 +38110,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Wenn du ein seltenes Monster besiegst, ziehst du {0} Sek. lang ohne Reichweitenbeschränkung sämtliche Beute an, die auf dem Boden liegt."
+                                        "langTranslation": "Wenn du einen seltenen Gegner besiegst, ziehst du {0} Sek. lang ohne Reichweitenbeschränkung sämtliche Beute an, die auf dem Boden liegt."
                                     },
                                     {
                                         "langCode": "en",
@@ -38118,11 +38118,11 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Derrotar a un monstruo raro atrae hacia ti todo el botín que está en el suelo durante {0} s, sin límite de alcance."
+                                        "langTranslation": "Derrotar a un enemigo raro atrae hacia ti todo el botín que está en el suelo durante {0} segundos, sin límite de rango."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Lorsque vous tuez un monstre rare, tout le butin au sol est attiré vers vous pendant {0} secondes, sans limite de portée"
+                                        "langTranslation": "Lorsque vous tuez un ennemi rare, tout le butin au sol est attiré vers vous pendant {0} secondes, sans limite de portée."
                                     },
                                     {
                                         "langCode": "ja",
@@ -38130,7 +38130,7 @@
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Pokonanie rzadkiego potwora przyciąga wszystkie łupy na ziemi w twoją stronę przez {0} sekund, bez ograniczeń zasięgu."
+                                        "langTranslation": "Pokonanie rzadkiego wroga przyciąga wszystkie łupy na ziemi w twoją stronę przez {0} s bez ograniczeń zasięgu."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -38138,15 +38138,15 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Победа над редким чудовищем притягивает к вам всю добычу на земле в течение {0} сек. без ограничений по дальности."
+                                        "langTranslation": "После победы над редким врагом вся добыча на земле притягивается к вам в течение {0} сек. без ограничений по дальности"
                                     },
                                     {
                                         "langCode": "uk",
-                                        "langTranslation": "Перемога над рідкісним монстром протягом {0} с притягує до вас усю здобич без обмеження по відстані"
+                                        "langTranslation": "Коли ви перемагаєте рідкісного супротивника, до вас протягом {0} с притягується вся здобич без обмеження за відстанню"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "击败稀有怪物后，在 {0} 秒内吸取地面所有战利品，无距离限制。"
+                                        "langTranslation": "击败稀有敌人后，在 {0} 秒内吸取地面所有战利品，无距离限制。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -39930,8 +39930,8 @@
             "width": 500.0,
             "height": 500.0,
             "position": [
-                1106.0,
-                -1041.0
+                1547.0,
+                -1285.0
             ]
         },
         {
@@ -41590,7 +41590,7 @@
                                         {
                                             "name": "Add Status To Target Skill Effect Data",
                                             "type": "AddStatusToTargetSkillEffectData",
-                                            "removeOnEffectReversion": false,
+                                            "removeOnEffectReversion": true,
                                             "effectTarget": "Self",
                                             "statusDefinition": {
                                                 "name": "Sao Jose - Splinter - Status Definition",
@@ -41677,7 +41677,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": false,
-                                            "revertOnRemoval": false,
+                                            "revertOnRemoval": true,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -42098,7 +42098,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Die Verwendung einer Mobilitätsfertigkeit verbraucht alle Splitter-Stapel.\nFür jede verbrauchte Splitterscherbe verschießt du ein zielsuchendes Projektil um dich herum, das {0} des Schadens der auslösenden Fertigkeit als physischen Schaden verursacht und mit einer Chance von {1} Bluten anwendet."
+                                        "langTranslation": "Der Einsatz einer Beweglichkeitsfertigkeit verbraucht bei Benutzung alle Stapel Splitter.\nFür jede verbrauchte Splitterscherbe verschießt du ein zielsuchendes Geschoss, das {0} des Schadens durch die ausgelöste Fertigkeit als physischen Schaden verursacht und mit einer Chance von {1} Bluten anwendet."
                                     },
                                     {
                                         "langCode": "en",
@@ -42106,19 +42106,19 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Usar una habilidad de movilidad consume todas las acumulaciones de Astilla al usarse.\nPor cada fragmento de Astilla consumido, disparas un Proyectil dirigido a tu alrededor que inflige {0} del daño de la habilidad activadora como daño físico, con {1} de probabilidad de Sangrado."
+                                        "langTranslation": "Usar una habilidad de Movilidad consume todas las acumulaciones de Astilla.\nPor cada fragmento de Astilla consumido, lanzas un proyectil dirigido a tu alrededor, que inflige {0} de daño de la habilidad realizada como daño físico, con {1} de probabilidad de Sangrado."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Utiliser une compétence de mobilité consomme tous les cumuls d'Écharde.\nPour chaque Écharde consommée, un projectile à tête chercheuse est tiré autour de vous et inflige des dégâts physiques équivalant à {0} des dégâts de la compétence déclenchée, avec {1} de chances d'infliger saignement."
+                                        "langTranslation": "Utiliser une compétence de mobilité consomme tous les cumuls d'Écharde. \nPour chaque Écharde consommée, un projectile est envoyé sur une cible proche et inflige des dégâts physiques équivalant à {0} des dégâts de la compétence, avec {1} de chances d'infliger saignement."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "移動スキルを使用すると、棘効果の累積をすべて消費する。\n消費した棘効果1個につき、周囲に追尾型の投射物を発射し、発動したスキルのダメージの{0}を物理ダメージとして与え、{1}の確率で出血させる。"
+                                        "langTranslation": "機動スキルの使用時に棘効果の累積をすべて消費する。\n消費した棘効果1個につき、使用したスキルのダメージの{0}を物理ダメージとして与え、{1}の確率で出血させる追尾型の投射物を発射する。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Użycie umiejętności mobilności zużywa wszystkie kumulacje Drzazgi.\nZa każdy zużyty odłamek Drzazgi wystrzeliwany jest wokół ciebie naprowadzający Pocisk, zadający {0} obrażeń fizycznych od umiejętności aktywującej, z {1} szansy na Krwawienie."
+                                        "langTranslation": "Korzystanie z umiejętności Mobilności zużywa wszystkie kumulacje Drzazgi podczas użycia. \nZa każdy zużyty odłamek Drzazgi wystrzeliwuje wokół ciebie pocisk naprowadzający, zadający {0} obrażeń umiejętności wyzwalającej jako obrażenia fizyczne z {1} szans na krwawienie."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -42126,15 +42126,15 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Использование навыка мобильности расходует все заряды осколка.\nЗа каждый израсходованный заряд осколка выпускается самонаводящийся снаряд вокруг вас, наносящий {0} от урона вызвавшего его навыка в качестве физического урона, с вероятностью {1} вызвать кровотечение."
+                                        "langTranslation": "При применении навыка проворства вы расходуете все заряды «Обломка». \nНа каждый израсходованный заряд выпускается самонаводящийся снаряд, который кружит вокруг вас и наносит {0} ед. от урона сработавшего навыка в виде физического урона и с вероятностью {1} вызывает кровотечение."
                                     },
                                     {
                                         "langCode": "uk",
-                                        "langTranslation": "Використання навички мобільності поглинає всі заряди розщеплення.\nЗа кожен поглинутий заряд випускається самонавідний снаряд навколо вас, який завдає {0} фізичної шкоди від навички, що його активувала, із шансом {1} накласти кровотечу."
+                                        "langTranslation": "Використання навички маневреності знімає всі заряди розщеплення під час використання. \nЗа кожен знятий заряд від вас випускається самонавідний снаряд, який завдає {0} фізичної шкоди від активації навички. Із шансом {1} накладається ефект кровотечі"
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "施放位移技能时会消耗所有裂片层数。\n每消耗 1 层裂片，都会向周围发射一枚追踪投射物，造成相当于触发技能 {0} 的物理伤害，并具有 {1} 流血几率。"
+                                        "langTranslation": "使用移动技能会消耗所有裂片层数。\n每消耗 1 枚裂片，向周围发射一枚追踪投射物，造成触发技能伤害 {0} 的物理伤害，并具有 {1} 流血几率。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -43763,7 +43763,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Verändert deine Abklinggeschwindigkeit basierend auf deinem aktuellen Mana, bis zu {2} bei {1} Mana. Niedrige Manawerte können deine Abklinggeschwindigkeit stattdessen verringern."
+                                        "langTranslation": "Ändere dein Abklingtempo basierend auf deinem aktuellen Mana, bis zu {2} bei {1} Mana. Niedrigere Mana-Werte können stattdessen dein Abklingtempo verlangsamen."
                                     },
                                     {
                                         "langCode": "en",
@@ -43771,19 +43771,19 @@
                                     },
                                     {
                                         "langCode": "es",
-                                        "langTranslation": "Modifica tu velocidad de enfriamiento según tu maná actual, hasta {2} al alcanzar {1} de maná. Tener valores bajos de maná puede perjudicar tu velocidad de enfriamiento."
+                                        "langTranslation": "Modifica tu velocidad de enfriamiento en función de tu maná actual, hasta un máximo de{2} en{1} Maná. Tener valores de maná bajos podría perjudicar la velocidad de enfriamiento de tus habilidades."
                                     },
                                     {
                                         "langCode": "fr",
-                                        "langTranslation": "Modifie votre vitesse de recharge en fonction de votre ferveur actuelle, jusqu’à {2} à {1} de ferveur. Une faible ferveur peut au contraire réduire votre vitesse de recharge."
+                                        "langTranslation": "Modifiez votre vitesse de recharge en fonction de votre ferveur actuelle, jusqu'à {2} à {1} de ferveur. Une valeur de votre ferveur faible peut diminuer votre vitesse de recharge."
                                     },
                                     {
                                         "langCode": "ja",
-                                        "langTranslation": "現在のマナに応じてクールダウン速度が変化し、マナが{1}のとき最大で{2}まで上昇する。マナが低い場合、逆にクールダウン速度が低下する可能性がある。"
+                                        "langTranslation": "現在のマナ量に応じてクールダウン速度が補正される（{1}マナで最大{2}）。マナが少なくなるとクールダウン速度が遅くなる可能性もある。"
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Modyfikuje szybkość odnowienia w zależności od twojej aktualnej many, do {2} przy {1} many. Niska ilość many może zamiast tego zmniejszać twoją szybkość odnowienia."
+                                        "langTranslation": "Zmodyfikuj swoją prędkość odnawiania na podstawie aktualnej many, do {2} przy {1} many. Niższe wartości many mogą zamiast tego spowolnić twoją prędkość odnawiania."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -43791,15 +43791,15 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Изменяет скорость перезарядки в зависимости от вашего текущего запаса маны — до {2} при {1} маны. Низкие значения маны могут, наоборот, снижать скорость перезарядки."
+                                        "langTranslation": "Время перезарядки навыков зависит от текущего запаса маны: при {1} ед. маны оно может достигать {2}. При меньшем запасе маны скорость перезарядки может снижаться."
                                     },
                                     {
                                         "langCode": "uk",
-                                        "langTranslation": "Змінює швидкість перезарядки залежно від вашої поточної мани — до {2} при {1} мани. Низький рівень мани може натомість зменшувати швидкість перезарядки."
+                                        "langTranslation": "Ви можете змінити швидкість перезарядки залежно від поточної кількості мани, аж до {2} за {1} мани. За низьких значень мани швидкість перезарядки може навпаки знизитися."
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "根据你当前的法力值调整你的冷却速度，在 {1} 法力时最高可达 {2}。较低的法力值可能反而会降低你的冷却速度。"
+                                        "langTranslation": "根据当前法力调整你的冷却速度，最高可达到 {2}，在 {1} 法力时达到上限。法力较低时，反而可能降低冷却速度。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -44249,7 +44249,7 @@
                                 "description": [
                                     {
                                         "langCode": "de",
-                                        "langTranslation": "Das Erleiden von Schaden wird als Manaverbrauch gezählt. Dadurch werden Kraftkugeln mit einer Effektivität von {0} aufrechterhalten."
+                                        "langTranslation": "Das Erleiden von Schaden wird als Manaverbrauch gezählt. Dadurch werden Kraftkugeln mit einer Effektivität von {0} aufrechterhalten.\nDie durch Schaden verursachte Aufbaurate richtet sich nicht nach dem Manaverbrauch."
                                     },
                                     {
                                         "langCode": "en",
@@ -44269,7 +44269,7 @@
                                     },
                                     {
                                         "langCode": "pl",
-                                        "langTranslation": "Otrzymywanie obrażeń liczy się jako wydawanie many dla utrzymania kul mocy, z {0} skutecznością.\nPrzyrost od obrażeń jest niezależny od wydawania many."
+                                        "langTranslation": "Otrzymywanie obrażeń liczy się jako wydawanie many dla utrzymania kul mocy z {0} skutecznością.\nPrzyrost od obrażeń jest niezależny od wydawania many."
                                     },
                                     {
                                         "langCode": "pt-br",
@@ -44277,7 +44277,7 @@
                                     },
                                     {
                                         "langCode": "ru",
-                                        "langTranslation": "Получение урона считается тратой маны, что позволяет поддерживать сферы мощи с эффективностью {0}.\nНакопление при нанесении урона не зависит от расхода маны."
+                                        "langTranslation": "Получение урона считается тратой маны, что позволяет поддерживать сферы мощи с эффективностью {0}.\nНакопление от полученного урона не зависит от расхода маны."
                                     },
                                     {
                                         "langCode": "uk",
@@ -44285,7 +44285,7 @@
                                     },
                                     {
                                         "langCode": "zh-cn",
-                                        "langTranslation": "在维持战力之球时，承受伤害将被视为消耗法力，效果强度为 {0}。\n承受伤害产生的积累与法力消耗产生的积累互不影响。"
+                                        "langTranslation": "在维持战力之球时，承受伤害会以 {0} 的效果视为消耗法力。\n受到伤害产生的积蓄独立于消耗法力产生的积蓄。"
                                     }
                                 ],
                                 "behaviorAffixDefinition": ""
@@ -47461,43 +47461,43 @@
                         "nameLocalizationKey": [
                             {
                                 "langCode": "de",
-                                "langTranslation": "Geschossmenge der Fertigkeit"
+                                "langTranslation": "Fertigkeitsschaden durch Geschosse"
                             },
                             {
                                 "langCode": "en",
-                                "langTranslation": "Skill Projectile Amount"
+                                "langTranslation": "Projectile Skill Damage"
                             },
                             {
                                 "langCode": "es",
-                                "langTranslation": "Cantidad de proyectiles de habilidades"
+                                "langTranslation": "Daño de habilidad de proyectil"
                             },
                             {
                                 "langCode": "fr",
-                                "langTranslation": "Projectiles des compétences"
+                                "langTranslation": "Dégâts des projectiles de compétence"
                             },
                             {
                                 "langCode": "ja",
-                                "langTranslation": "スキルの投射物発射数"
+                                "langTranslation": "投射物スキルダメージ"
                             },
                             {
                                 "langCode": "pl",
-                                "langTranslation": "Liczba pocisków z umiejętności"
+                                "langTranslation": "Obrażenia od umiejętności pociskowych"
                             },
                             {
                                 "langCode": "pt-br",
-                                "langTranslation": "Número de Projéteis de Habilidade"
+                                "langTranslation": "Dano de Habilidade de Projéteis"
                             },
                             {
                                 "langCode": "ru",
-                                "langTranslation": "Количество снарядов навыка"
+                                "langTranslation": "Урон от навыка стрельбы"
                             },
                             {
                                 "langCode": "uk",
-                                "langTranslation": "Снарядні навички"
+                                "langTranslation": "Шкода від снарядних навичок"
                             },
                             {
                                 "langCode": "zh-cn",
-                                "langTranslation": "技能投射物数量"
+                                "langTranslation": "投射物技能伤害"
                             }
                         ],
                         "maxLevel": 1,
@@ -47570,43 +47570,43 @@
                         "nameLocalizationKey": [
                             {
                                 "langCode": "de",
-                                "langTranslation": "Geschossmenge der Fertigkeit"
+                                "langTranslation": "Fertigkeitsschaden durch Geschosse"
                             },
                             {
                                 "langCode": "en",
-                                "langTranslation": "Skill Projectile Amount"
+                                "langTranslation": "Projectile Skill Damage"
                             },
                             {
                                 "langCode": "es",
-                                "langTranslation": "Cantidad de proyectiles de habilidades"
+                                "langTranslation": "Daño de habilidad de proyectil"
                             },
                             {
                                 "langCode": "fr",
-                                "langTranslation": "Projectiles des compétences"
+                                "langTranslation": "Dégâts des projectiles de compétence"
                             },
                             {
                                 "langCode": "ja",
-                                "langTranslation": "スキルの投射物発射数"
+                                "langTranslation": "投射物スキルダメージ"
                             },
                             {
                                 "langCode": "pl",
-                                "langTranslation": "Liczba pocisków z umiejętności"
+                                "langTranslation": "Obrażenia od umiejętności pociskowych"
                             },
                             {
                                 "langCode": "pt-br",
-                                "langTranslation": "Número de Projéteis de Habilidade"
+                                "langTranslation": "Dano de Habilidade de Projéteis"
                             },
                             {
                                 "langCode": "ru",
-                                "langTranslation": "Количество снарядов навыка"
+                                "langTranslation": "Урон от навыка стрельбы"
                             },
                             {
                                 "langCode": "uk",
-                                "langTranslation": "Снарядні навички"
+                                "langTranslation": "Шкода від снарядних навичок"
                             },
                             {
                                 "langCode": "zh-cn",
-                                "langTranslation": "技能投射物数量"
+                                "langTranslation": "投射物技能伤害"
                             }
                         ],
                         "maxLevel": 1,
@@ -47858,8 +47858,8 @@
                             }
                         ],
                         "Position": [
-                            47.34766,
-                            -0.6906738
+                            40.0,
+                            0.0
                         ],
                         "GUID": "d23f47b4-6e40-467e-92b4-bffa5b29edb2"
                     },
@@ -48614,7 +48614,7 @@
                                             "startDisabled": false,
                                             "useCharacterEffectTrigger": true,
                                             "effectTrigger": "TargetHit",
-                                            "characterEffectTrigger": "OnStatus",
+                                            "characterEffectTrigger": "OnReceiveStatus",
                                             "ruleSet": {
                                                 "type": "SkillEffectRuleSet",
                                                 "useOrLogic": false,
@@ -48669,7 +48669,7 @@
                                             "startDisabled": false,
                                             "useCharacterEffectTrigger": true,
                                             "effectTrigger": "TargetHit",
-                                            "characterEffectTrigger": "OnStatus",
+                                            "characterEffectTrigger": "OnReceiveStatus",
                                             "ruleSet": {
                                                 "type": "SkillEffectRuleSet",
                                                 "useOrLogic": false,
@@ -49175,6 +49175,1326 @@
             "position": [
                 884.0,
                 -1772.0
+            ]
+        },
+        {
+            "type": "ConstellationDetails",
+            "definition": {
+                "name": "Charia - Constellation Definition",
+                "id": 75,
+                "type": "ConstellationSkillTreeDefinition",
+                "conditions": [
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue"
+                    },
+                    {
+                        "type": "ConditionConfig",
+                        "targetValue": "4",
+                        "negate": false,
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red"
+                    }
+                ],
+                "masteredDevotionGranted": {
+                    "Blue": 4,
+                    "Red": 3
+                },
+                "eDevotionCategory": "RedBlue",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Charía"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Charía"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Charía"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Charía"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "シャリア"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Charía"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Charía"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Чария"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Чарія"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "查里亚"
+                    }
+                ],
+                "illustrationLine": "charia_line",
+                "illustrationBlurredLine": "charia_blur",
+                "nodes": [
+                    {
+                        "name": "c0433827-06a0-47c0-988e-64ac4ca94edc",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [],
+                        "sprite": "Icon_Multiskill_Melee",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Schaden durch Nahkampffertigkeit"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Melee Skill Damage"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Daño de habilidades de combate cuerpo a cuerpo"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Dégâts de mêlée"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "近接スキルダメージ"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Obrażenia walki wręcz"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Dano de Habilidade Corpo a corpo "
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Урон навыка: ближний бой"
+                            },
+                            {
+                                "langCode": "uk",
+                                "langTranslation": "Шкода від навичок ближнього бою"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "近战技能伤害"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": true,
+                        "affixes": [
+                            {
+                                "name": "32be8500-095b-4391-8063-da2b1b39f4bd",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "SkillMeleeDamage",
+                                "statModifierType": "Additive",
+                                "value": 0.2,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            -6.0,
+                            148.8
+                        ],
+                        "GUID": "c0433827-06a0-47c0-988e-64ac4ca94edc"
+                    },
+                    {
+                        "name": "6c0787a8-1ff1-4062-8762-11a49e8ce43c",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "c0433827-06a0-47c0-988e-64ac4ca94edc",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Multiskill_Melee",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Schaden durch Nahkampffertigkeit"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Melee Skill Damage"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Daño de habilidades de combate cuerpo a cuerpo"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Dégâts de mêlée"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "近接スキルダメージ"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Obrażenia walki wręcz"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Dano de Habilidade Corpo a corpo "
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Урон навыка: ближний бой"
+                            },
+                            {
+                                "langCode": "uk",
+                                "langTranslation": "Шкода від навичок ближнього бою"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "近战技能伤害"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "1e6ee1c9-ae18-4dac-aac2-b7fd2bc2fe08",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "SkillMeleeDamage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.15,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            -79.8,
+                            69.1
+                        ],
+                        "GUID": "6c0787a8-1ff1-4062-8762-11a49e8ce43c"
+                    },
+                    {
+                        "name": "06a1ef0d-0bb0-4386-a11d-64df9e9912f8",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "6c0787a8-1ff1-4062-8762-11a49e8ce43c",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            },
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "ec28844a-f99c-4351-a985-1682582d3c11",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Cooldown_Base",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Schaden durch Beschwörungen"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Summon Damage"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Daño de Invocación"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Dégâts des invocations"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "召喚ダメージ"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Obrażenia od przyzwania"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Dano de Invocações"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Урон призванных существ"
+                            },
+                            {
+                                "langCode": "uk",
+                                "langTranslation": "Шкода від викликаного союзника"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "召唤物伤害值"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "fa734b65-d902-4f33-b143-2f59095ac9b7",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "SummonDamagePercentage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            64.4,
+                            69.8
+                        ],
+                        "GUID": "06a1ef0d-0bb0-4386-a11d-64df9e9912f8"
+                    },
+                    {
+                        "name": "6df1d31d-457f-42d3-aac4-acc79a283a11",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "6c0787a8-1ff1-4062-8762-11a49e8ce43c",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            },
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "21692b5e-4f3f-4d8b-8c9f-2723cd7254f8",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Multiskill_Spell",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Die Sonnenfinsternis"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "The Eclipse"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "El eclipse"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "L'Éclipse"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "星食"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Zaćmienie"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "O Eclipse"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Затмение"
+                            },
+                            {
+                                "langCode": "uk",
+                                "langTranslation": "Затемнення"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "日食"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": true,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "d6449500-61e2-4bc5-ae43-0e8d8bb53916",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "additionalLocalizationVariables": [],
+                                "eModifierType": "Multiplicative",
+                                "valuePerLevel": 1.0,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": false,
+                                    "useListOfSkills": "UseSkillTag",
+                                    "listOfSkills": [],
+                                    "skillTagFilter": "Spell",
+                                    "skillDefinition": {
+                                        "name": "Carcara Dive Skill Definition",
+                                        "id": 554,
+                                        "type": "JumpAttackSkillDefinition"
+                                    },
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Multiplicative"
+                                            }
+                                        ]
+                                    },
+                                    "effects": [
+                                        {
+                                            "name": "Teleport Companion Skill Effect Data",
+                                            "type": "TeleportCompanionSkillEffectData",
+                                            "allCompanions": true,
+                                            "effectTarget": "Self",
+                                            "baseDelay": 0.0,
+                                            "delayBetweenTeleports": 0.01,
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": false,
+                                            "effectTrigger": "OnFinishUse",
+                                            "characterEffectTrigger": "Kill",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "useOrLogic": false,
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": []
+                                        }
+                                    ]
+                                },
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Carcará-Tauchgang teleportiert alle Beschwörungen an ihren Standort, wenn die Fertigkeit einschlägt."
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Carcará Dive teleports all Summons to its location when it lands."
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "El Descenso Carcará teletransporta todas las invocaciones a su ubicación al tocar el piso."
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "Piqué du carcará téléporte toutes les invocations à l'endroit où il atterrit."
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "猛禽の急降下の着地時、すべての召喚ユニットをその位置にテレポートさせる。"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Nurkowanie w Carcarze teleportuje wszystkie przyzywania do swojej lokalizacji po wylądowaniu."
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Mergulho do Carcará teleporta todas as suas Invocações para o local de sua aterrissagem."
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "При приземлении «Нырок Каркара» телепортирует всех призванных существ в точку своего попадания."
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "Піке каракари телепортує всіх викликаних союзників до місця приземлення."
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "卡尔卡拉俯冲会在落地时将所有召唤物传送到其所在位置。"
+                                    }
+                                ],
+                                "behaviorAffixDefinition": ""
+                            }
+                        ],
+                        "Position": [
+                            -63.2,
+                            -29.0
+                        ],
+                        "GUID": "6df1d31d-457f-42d3-aac4-acc79a283a11"
+                    },
+                    {
+                        "name": "21692b5e-4f3f-4d8b-8c9f-2723cd7254f8",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [],
+                        "sprite": "Icon_Cooldown_Base",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Leben von Beschwörungen"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Summon Life"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Vida de invocación"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Santé des invocations"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "召喚ライフ"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Żywotność przyzwania"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Vida de Invocações"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Здоровье призванных существ"
+                            },
+                            {
+                                "langCode": "uk",
+                                "langTranslation": "Здоров'я викликаного союзника"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "召唤物生命值"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "c7919500-f9ea-496e-b620-3b7ce6354945",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "SummonLifePercentage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.4,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            -106.1,
+                            -120.8
+                        ],
+                        "GUID": "21692b5e-4f3f-4d8b-8c9f-2723cd7254f8"
+                    },
+                    {
+                        "name": "ec28844a-f99c-4351-a985-1682582d3c11",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [],
+                        "sprite": "Icon_Multiskill_Spell",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Himmlischer Jaguar"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Celestial Jaguar"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Jaguar celestial"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Jaguar céleste"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "天空のジャガー"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Niebiański Jaguar"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Onça Celestial"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Небесный ягуар"
+                            },
+                            {
+                                "langCode": "uk",
+                                "langTranslation": "Небесний ягуар"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "天罚美洲豹"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": true,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "01f8da41-7a8d-491e-87e4-c359ab0e703a",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "additionalLocalizationVariables": [
+                                    {
+                                        "type": "SkillBehaviorLocalizationVariable",
+                                        "skillEffectVariableReference": {
+                                            "type": "SkillEffectVariableReference",
+                                            "valueOrName": "MaxSummons",
+                                            "eSkillEffectVariableModifier": "0",
+                                            "statusToStack": {},
+                                            "statDefinition": "BaseDamage",
+                                            "supportVariableValueOrName": "",
+                                            "supportESkillEffectVariableModifier": "0",
+                                            "supportStatusToStack": {},
+                                            "supportStatDefinition": "BaseDamage"
+                                        },
+                                        "overrideFormat": false,
+                                        "valueFormatOverride": "Multiplicative"
+                                    }
+                                ],
+                                "eModifierType": "Multiplicative",
+                                "valuePerLevel": 1.35,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": false,
+                                    "useListOfSkills": "UseListOfSkills",
+                                    "listOfSkills": [
+                                        {
+                                            "name": "Jaguar Spear Skill Definition",
+                                            "id": 556,
+                                            "type": "SpearAttackSkillDefinition"
+                                        },
+                                        {
+                                            "name": "Carcara Dive Skill Definition",
+                                            "id": 554,
+                                            "type": "JumpAttackSkillDefinition"
+                                        }
+                                    ],
+                                    "skillTagFilter": "0",
+                                    "skillDefinition": {
+                                        "name": "Jaguar Spear Skill Definition",
+                                        "id": 556,
+                                        "type": "SpearAttackSkillDefinition"
+                                    },
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Percentage"
+                                            },
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "MaxSummons",
+                                                "baseValue": 3.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Rounded"
+                                            }
+                                        ]
+                                    },
+                                    "effects": [
+                                        {
+                                            "name": "Spawn Companions Skill Effect Data",
+                                            "type": "SpawnCompanionsSkillEffectData",
+                                            "summonCompanionSkillDefinition": {
+                                                "name": "Summon Hound Skill Definition",
+                                                "id": 724,
+                                                "type": "PassiveSummonCompanionSkillDefinition"
+                                            },
+                                            "duration": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "-1",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "amount": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "1",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "maxAmount": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "MaxSummons",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "useSharedKey": true,
+                                            "sharedKey": "ChariaHounds",
+                                            "removeOnEffectReversion": true,
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": false,
+                                            "effectTrigger": "TargetKill",
+                                            "characterEffectTrigger": "Kill",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "useOrLogic": false,
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": true,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": []
+                                        },
+                                        {
+                                            "name": "Add Skill Value Modifier Skill Effect Data",
+                                            "type": "AddSkillValueModifierSkillEffectData",
+                                            "specificSkillDefinition": {
+                                                "name": "Summon Hound Skill Definition",
+                                                "id": 724,
+                                                "type": "PassiveSummonCompanionSkillDefinition"
+                                            },
+                                            "modifiers": [
+                                                {
+                                                    "type": "SkillEffectSkillModifierDefinition",
+                                                    "skillValueModifierKey": "Damage Modifier",
+                                                    "modifierType": "Additive",
+                                                    "value": {
+                                                        "type": "SkillEffectVariableReference",
+                                                        "valueOrName": "Roll",
+                                                        "eSkillEffectVariableModifier": "MultiplyBySkillDamage",
+                                                        "statusToStack": {},
+                                                        "statDefinition": "BaseDamage",
+                                                        "supportVariableValueOrName": "",
+                                                        "supportESkillEffectVariableModifier": "0",
+                                                        "supportStatusToStack": {},
+                                                        "supportStatDefinition": "BaseDamage"
+                                                    },
+                                                    "useStatConversion": "NoConversion",
+                                                    "conversionStatDefinition": "BaseDamage",
+                                                    "listenToVariableModifiersUpdate": true
+                                                }
+                                            ],
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": false,
+                                            "effectTrigger": "Always",
+                                            "characterEffectTrigger": "Kill",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "useOrLogic": false,
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": []
+                                        }
+                                    ]
+                                },
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Tötungen mit Jaguarspeer und mit Carcará-Tauchgang erzielte Treffer bei Elitegegnern beschwören himmlische Jaguare (max {1}). Die Bestien verursachen {0} des Schadens des Jaguarspeers als physischen Nahkampf-Beschwörungsschaden."
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Kills with Jaguar Spear and hits on Elite enemies with Carcará Dive summon Celestial Jaguars (max {1}). The Hounds deal {0} of Jaguar Spear's damage as Physical Melee Summon damage."
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Al matar con la lanza jaguar y golpear a enemigos de élite con el Descenso Carcará, se invocan jaguares celestiales (máx. {1}). Los Sabuesos infligen {0} del daño de la lanza jaguar como daño físico cuerpo a cuerpo de invocación."
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "Tuer des ennemis avec la Lance du jaguar et toucher des ennemis d'élite avec le Piqué du carcará invoque des Jaguars célestes (max : {1}). Les bêtes infligent {0} des dégâts de la Lance de Jaguar en dégâts des invocations physiques."
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "ジャガーの槍で敵を倒し、猛禽の急降下でエリート敵を攻撃すると、天空のジャガーが召喚される（最大{1}）。ジャガーはジャガーの槍のダメージの{0}を物理近接召喚ダメージとして与える。"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Zabójstwa za pomocą Włóczni Jaguara i trafienia w elitarnych wrogów za pomocą Nurkowania w Carcarze przywołują Niebiańskie Jaguary (maks. {1}). Ogary zadają {0} obrażeń od Włóczni Jaguara jako fizyczne obrażenia wręcz od przyzywania."
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Mortes com Dente de Onça e acertos em Elites com Mergulho do Carcará invocam Onças Celestiais (máx. {1}). Os Cães dão {0} do dano do Dente de Onça como dano Físico de Invocação Corpo a corpo."
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Убийства с помощью «Копья ягуара» и попадания «Нырком Каркара» по элитным врагам призывают небесных ягуаров (макс.: {1}). Они наносят {0} ед. от урона «Копья ягуара» в виде физического урона ближнего боя призванных существ."
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "Коли ви вбиваєте цілі списом ягуара та вражаєте елітних супротивників піке каракари, ви викликаєте небесних ягуарів (до {1}). Гончаки завдають {0} шкоди від списа ягуара як фізичну шкоду від викликаного союзника в ближньому бою."
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "使用美洲豹之矛击杀敌人，或使用卡尔卡拉俯冲命中精锐敌人时，会召唤天罚美洲豹 (最多 {1} 只)。天罚美洲豹造成美洲豹之矛伤害 {0} 的物理近战召唤物伤害值。"
+                                    }
+                                ],
+                                "behaviorAffixDefinition": ""
+                            },
+                            {
+                                "name": "a1f04946-8afd-4fe5-a3f6-08882e29673b",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 1.0,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": false,
+                                    "useListOfSkills": "UseSkillTag",
+                                    "listOfSkills": [],
+                                    "skillTagFilter": "0",
+                                    "skillDefinition": {
+                                        "name": "Carcara Dive Skill Definition",
+                                        "id": 554,
+                                        "type": "JumpAttackSkillDefinition"
+                                    },
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Percentage"
+                                            }
+                                        ]
+                                    },
+                                    "effects": [
+                                        {
+                                            "name": "Spawn Companions Skill Effect Data",
+                                            "type": "SpawnCompanionsSkillEffectData",
+                                            "summonCompanionSkillDefinition": {
+                                                "name": "Summon Hound Skill Definition",
+                                                "id": 724,
+                                                "type": "PassiveSummonCompanionSkillDefinition"
+                                            },
+                                            "duration": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "-1",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "amount": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "1",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "maxAmount": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "3",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "useSharedKey": true,
+                                            "sharedKey": "ChariaHounds",
+                                            "removeOnEffectReversion": false,
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": true,
+                                            "effectTrigger": "TargetHit",
+                                            "characterEffectTrigger": "DealDamage",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "useOrLogic": false,
+                                                "rules": [
+                                                    {
+                                                        "name": "Value Comparison Skill Effect Rule",
+                                                        "type": "ValueComparisonSkillEffectRule",
+                                                        "value1Type": "TargetIsElite",
+                                                        "value1Input": {
+                                                            "type": "SkillEffectVariableReference",
+                                                            "valueOrName": "",
+                                                            "eSkillEffectVariableModifier": "0",
+                                                            "statusToStack": {},
+                                                            "statDefinition": "BaseDamage",
+                                                            "supportVariableValueOrName": "",
+                                                            "supportESkillEffectVariableModifier": "0",
+                                                            "supportStatusToStack": {},
+                                                            "supportStatDefinition": "BaseDamage"
+                                                        },
+                                                        "comparisonOperator": "Equal",
+                                                        "value2Type": "InputValue",
+                                                        "value2Input": {
+                                                            "type": "SkillEffectVariableReference",
+                                                            "valueOrName": "1",
+                                                            "eSkillEffectVariableModifier": "0",
+                                                            "statusToStack": {},
+                                                            "statDefinition": "BaseDamage",
+                                                            "supportVariableValueOrName": "",
+                                                            "supportESkillEffectVariableModifier": "0",
+                                                            "supportStatusToStack": {},
+                                                            "supportStatDefinition": "BaseDamage"
+                                                        },
+                                                        "negate": false
+                                                    }
+                                                ]
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": []
+                                        }
+                                    ]
+                                },
+                                "hideDescription": true,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": ""
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": ""
+                                    }
+                                ],
+                                "behaviorAffixDefinition": ""
+                            }
+                        ],
+                        "Position": [
+                            52.3,
+                            -29.0
+                        ],
+                        "GUID": "ec28844a-f99c-4351-a985-1682582d3c11"
+                    },
+                    {
+                        "name": "69bc57ff-34d0-450a-afb1-682a653ce045",
+                        "type": "SkillTreeNodeDefinition",
+                        "edges": [
+                            {
+                                "type": "SkillTreeNodeEdgeData",
+                                "requiredNode": {
+                                    "name": "ec28844a-f99c-4351-a985-1682582d3c11",
+                                    "type": "SkillTreeNodeDefinition"
+                                },
+                                "pointsToUnlock": 1
+                            }
+                        ],
+                        "sprite": "Icon_Cooldown_Base",
+                        "nameLocalizationKey": [
+                            {
+                                "langCode": "de",
+                                "langTranslation": "Schaden durch Beschwörungen"
+                            },
+                            {
+                                "langCode": "en",
+                                "langTranslation": "Summon Damage"
+                            },
+                            {
+                                "langCode": "es",
+                                "langTranslation": "Daño de Invocación"
+                            },
+                            {
+                                "langCode": "fr",
+                                "langTranslation": "Dégâts des invocations"
+                            },
+                            {
+                                "langCode": "ja",
+                                "langTranslation": "召喚ダメージ"
+                            },
+                            {
+                                "langCode": "pl",
+                                "langTranslation": "Obrażenia od przyzwania"
+                            },
+                            {
+                                "langCode": "pt-br",
+                                "langTranslation": "Dano de Invocações"
+                            },
+                            {
+                                "langCode": "ru",
+                                "langTranslation": "Урон призванных существ"
+                            },
+                            {
+                                "langCode": "uk",
+                                "langTranslation": "Шкода від викликаного союзника"
+                            },
+                            {
+                                "langCode": "zh-cn",
+                                "langTranslation": "召唤物伤害值"
+                            }
+                        ],
+                        "maxLevel": 1,
+                        "importantNode": false,
+                        "isRoot": false,
+                        "affixes": [
+                            {
+                                "name": "ae8efe55-4a82-4b5d-bd3d-14e63102ae31",
+                                "type": "StatModifierNodeAffixDefinition",
+                                "eStatDefinition": "SummonDamagePercentage",
+                                "statModifierType": "MultiplicativeAdditive",
+                                "value": 1.1,
+                                "hideDescription": false,
+                                "hideFromAggregatedDescriptions": false,
+                                "description": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "{1} {0}"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "{0}{1}"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "{0} {1}"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "{0} {1}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "Position": [
+                            90.8,
+                            -120.800018
+                        ],
+                        "GUID": "69bc57ff-34d0-450a-afb1-682a653ce045"
+                    }
+                ]
+            },
+            "width": 350.0,
+            "height": 350.0,
+            "position": [
+                1285.0,
+                -875.0
             ]
         }
     ],

@@ -557,43 +557,43 @@
                     "descriptionLocalizationKey": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Radius von gegnerischen Wirkungsbereichen ist um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Area Attack Radius increased by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Se aumenta el radio de ataque del enemigo en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Le rayon des attaques de zone ennemies est augmenté de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵のエリア攻撃範囲が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Zasięg ataków obszarowych wrogów zwiększony o {0}."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Raio de Ataque de Área Inimigo aumentado em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Радиус поражения атак врага увеличен на {0}."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Радіус атаки супротивника по зоні більший на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人范围攻击的半径扩大 {0}。"
                         }
                     ],
                     "valuePerLevel": 1.2,
@@ -621,43 +621,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Radius von gegnerischen Wirkungsbereichen ist um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Area Attack Radius increased by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Se aumenta el radio de ataque del enemigo en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Le rayon des attaques de zone ennemies est augmenté de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵のエリア攻撃範囲が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Zasięg ataków obszarowych wrogów zwiększony o {0}."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Raio de Ataque de Área Inimigo aumentado em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Радиус поражения атак врага увеличен на {0}."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Радіус атаки супротивника по зоні більший на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人范围攻击的半径扩大 {0}。"
                         }
                     ]
                 }
@@ -737,43 +737,43 @@
                     "descriptionLocalizationKey": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Radius von gegnerischen Wirkungsbereichen ist um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Area Attack Radius increased by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Se aumenta el radio de ataque del enemigo en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Le rayon des attaques de zone ennemies est augmenté de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵のエリア攻撃範囲が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Zasięg ataków obszarowych wrogów zwiększony o {0}."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Raio de Ataque de Área Inimigo aumentado em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Радиус поражения атак врага увеличен на {0}."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Радіус атаки супротивника по зоні більший на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人范围攻击的半径扩大 {0}。"
                         }
                     ],
                     "valuePerLevel": 1.2,
@@ -801,43 +801,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Radius von gegnerischen Wirkungsbereichen ist um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Area Attack Radius increased by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Se aumenta el radio de ataque del enemigo en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Le rayon des attaques de zone ennemies est augmenté de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵のエリア攻撃範囲が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Zasięg ataków obszarowych wrogów zwiększony o {0}."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Raio de Ataque de Área Inimigo aumentado em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Радиус поражения атак врага увеличен на {0}."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Радіус атаки супротивника по зоні більший на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人范围攻击的半径扩大 {0}。"
                         }
                     ]
                 }
@@ -917,43 +917,43 @@
                     "descriptionLocalizationKey": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Radius von gegnerischen Wirkungsbereichen ist um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Area Attack Radius increased by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Se aumenta el radio de ataque del enemigo en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Le rayon des attaques de zone ennemies est augmenté de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵のエリア攻撃範囲が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Zasięg ataków obszarowych wrogów zwiększony o {0}."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Raio de Ataque de Área Inimigo aumentado em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Радиус поражения атак врага увеличен на {0}."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Радіус атаки супротивника по зоні більший на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人范围攻击的半径扩大 {0}。"
                         }
                     ],
                     "valuePerLevel": 1.35,
@@ -981,43 +981,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Radius von gegnerischen Wirkungsbereichen ist um {0} erhöht."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Area Attack Radius increased by {0}."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Se aumenta el radio de ataque del enemigo en {0}."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Le rayon des attaques de zone ennemies est augmenté de {0}."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵のエリア攻撃範囲が{0}増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Zasięg ataków obszarowych wrogów zwiększony o {0}."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Raio de Ataque de Área Inimigo aumentado em {0}."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Радиус поражения атак врага увеличен на {0}."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Радіус атаки супротивника по зоні більший на {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人范围攻击的半径扩大 {0}。"
                         }
                     ]
                 }
@@ -1094,50 +1094,50 @@
                     "name": "3b38b845-ef10-47a3-abf5-76f6cff281dc",
                     "type": "CharacterIncrementNodeAffixDefinition",
                     "eCharacterIncrement": "HellClockTimerIncrease",
-                    "valuePerLevel": -6.0,
+                    "valuePerLevel": -200.0,
                     "eModifierType": "Additive",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Die Zeit auf dem Höllenuhr-Timer ist drastisch verringert, aber alle Gegner lassen zusätzliche Zeit fallen."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Hell Clock Timer is drastically reduced but all enemies drop additional time."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "El tiempo del Reloj Infernal se reduce drásticamente, pero todos los enemigos dejan caer tiempo adicional."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Le compte à rebours de l'Horloge infernale est beaucoup plus court, mais vous gagnez du temps en tuant chaque ennemi."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "ヘルクロック制限時間が大きく減少するが、あらゆる敵が追加でドロップする。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Piekielny zegar tyka znacznie szybciej, ale wszyscy wrogowie upuszczają dodatkowy czas."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "O Temporizador do Relógio Infernal é drasticamente reduzido, mas todos os inimigos perdem tempo adicional."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Запас хода Адских часов становится значительно короче, но из всех поверженных врагов выпадает дополнительное время."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Час на таймері Пекельного годинника значно скорочено, але з усіх супротивників випадають бонуси часу."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "地狱时钟计时器时间大幅降低，但所有敌人将掉落额外时间。"
                         }
                     ]
                 },
@@ -1263,50 +1263,50 @@
                     "name": "d9025077-6f7e-4d58-89e1-4581e38119c9",
                     "type": "CharacterIncrementNodeAffixDefinition",
                     "eCharacterIncrement": "HellClockTimerIncrease",
-                    "valuePerLevel": 0.2,
+                    "valuePerLevel": -100.0,
                     "eModifierType": "Additive",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Höllenuhr-Zeit reduziert um {0}s"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Hell Clock time reduced by {0}s"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Tiempo del Reloj Infernal reducido en {0}s"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Temps de l'Horloge infernale réduit de {0}s"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "ヘルクロックの時間が {0} 減少する"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Czas Piekielnego Zegara skrócony o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Tempo do Hell Clock reduzido em {0}s"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Время Адских часов уменьшено на {0}"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Час Пекельного годинника зменшено на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "地狱时钟时间减少 {0}s"
                         }
                     ]
                 }
@@ -1383,50 +1383,50 @@
                     "name": "5b2348fb-bfe6-490e-8912-22dc0e404b68",
                     "type": "CharacterIncrementNodeAffixDefinition",
                     "eCharacterIncrement": "HellClockTimerIncrease",
-                    "valuePerLevel": 0.2,
+                    "valuePerLevel": -100.0,
                     "eModifierType": "Additive",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Höllenuhr-Zeit reduziert um {0}s"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Hell Clock time reduced by {0}s"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Tiempo del Reloj Infernal reducido en {0}s"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Temps de l'Horloge infernale réduit de {0}s"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "ヘルクロックの時間が {0} 減少する"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Czas Piekielnego Zegara skrócony o {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Tempo do Hell Clock reduzido em {0}s"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Время Адских часов уменьшено на {0}"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Час Пекельного годинника зменшено на {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "地狱时钟时间减少 {0}s"
                         }
                     ]
                 }
@@ -2815,49 +2815,114 @@
                     "name": "ba505483-0c58-49e5-b4dd-ca56cb9eb815",
                     "type": "EnemyAdditionalAffixesNodeAffixDefinition",
                     "valuePerLevel": 1,
-                    "additionalAffixes": [],
+                    "additionalAffixes": [
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Evasive - Passive Skill Definition",
+                                "id": 426,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Evoker -  Passive Projectile Rain - Skill Definition",
+                                "id": 428,
+                                "type": "PassiveSpawnFallingProjectilesSkillDefinition"
+                            }
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Orbiting - Passive Skill Behavior",
+                                "id": 443,
+                                "type": "PassiveSkillBehaviorSkillDefinition"
+                            }
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Regen Aura - Minion Heal - Passive Skill Definition",
+                                "id": 441,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Immortal Minions - Passive Skill Definition",
+                                "id": 427,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Protected - Passive Skill Definition",
+                                "id": 448,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Spiral Orb - Passive Skill Behavior",
+                                "id": 447,
+                                "type": "PassiveSkillBehaviorSkillDefinition"
+                            }
+                        },
+                        {
+                            "weight": 0.01,
+                            "value": {
+                                "name": "EG - Elite Affix - Haste Aura -Passive Skill Definition",
+                                "id": 445,
+                                "type": "PassiveAddStatusSkillDefinition"
+                            }
+                        }
+                    ],
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Elitegegner haben {0} zusätzliche gefährliche Affixe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Elite enemies have {0} additional Dangerous affixes"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Los enemigos de élite tienen {0} agregados peligrosos adicionales."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Les ennemis d'élite ont {0} suffixes dangereux en plus"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "エリート敵が追加の危険な特性を{0}持つ。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Elitarni wrogowie mają {0} dodatkowe niebezpieczne atrybuty"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Inimigos de Elite têm {0} afixos Perigosos adicionais."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Элитные враги получают дополнительные эффекты опасности: {0} шт."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Елітні супротивники мають додаткові небезпечні афікси ({0})"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "精锐敌人将额外拥有 {0} 个危险词缀。"
                         }
                     ]
                 }
@@ -4181,7 +4246,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Hazard"
+                    "langTranslation": "Cursed Shadows"
                 },
                 {
                     "langCode": "es",
@@ -4201,7 +4266,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Insegurança"
+                    "langTranslation": "Sombras Amaldiçoadas"
                 },
                 {
                     "langCode": "ru",
@@ -4221,51 +4286,50 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "bef44f4c-f332-4230-8d4a-0ccfe6c7b274",
-                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
-                    "enemyGlobalModifierSemaphore": "None",
+                    "name": "4dc5fde2-351e-43d2-bfee-61d446b2a4c2",
+                    "type": "AddOptionalEnemyNodeAffixDefinition",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Auf manchen Ebenen wird dich ein Verfluchter Schatten verfolgen."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Some Floors will have a Cursed Shadow stalking you."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Algunos pisos tendrán una Sombra Maldita acechándote."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Certains étages seront parcourus par une Ombre maudite qui vous traquera."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "一部のフロアでは、呪われた影がお前を追跡する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Na niektórych piętrach będzie cię ścigać Przeklęty Cień."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Alguns Pisos terão uma Sombra Amaldiçoada perseguindo você."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "На некоторых этажах вас будет преследовать Проклятая тень."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "На деяких поверхах вас переслідуватиме Проклята Тінь."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "部分层级会有一个被诅咒的暗影追猎你。"
                         }
                     ]
                 }
@@ -4299,7 +4363,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Hazard"
+                    "langTranslation": "Cursed Shadows"
                 },
                 {
                     "langCode": "es",
@@ -4319,7 +4383,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Insegurança"
+                    "langTranslation": "Sombras Amaldiçoadas"
                 },
                 {
                     "langCode": "ru",
@@ -4339,51 +4403,50 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "b55d9ef0-43d8-4602-b283-18dc19417aa2",
-                    "type": "EnemyGlobalSemaphoreModifierNodeAffixDefinition",
-                    "enemyGlobalModifierSemaphore": "None",
+                    "name": "634217ed-df23-4c86-b28b-5f04378506ff",
+                    "type": "AddOptionalEnemyNodeAffixDefinition",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Auf jeder Ebene wird dich ein Verfluchter Schatten verfolgen."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Every Floor will have a Cursed Shadow stalking you."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Todos los pisos tendrán una Sombra Maldita acechándote."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "À chaque étage, une Ombre maudite vous traquera."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "すべてのフロアで、呪われた影がお前を追跡する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Na każdym piętrze będzie cię ścigać Przeklęty Cień."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Todos os Pisos terão uma Sombra Amaldiçoada perseguindo você."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "На каждом этаже вас будет преследовать Проклятая тень."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "На кожному поверсі вас переслідуватиме Проклята Тінь."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "所有层级都会有一个被诅咒的暗影追猎你。"
                         }
                     ]
                 }
@@ -4465,43 +4528,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Bei Bossbegegnungen erscheint ein zusätzlicher Boss."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Boss encounters have one additional Boss."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Hay un jefe adicional en los enfrentamientos con jefes."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Les boss sont accompagnés d'un second boss."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "ボス遭遇にボスが１体追加される。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "W starciach z bossami pojawia się dodatkowy boss."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Encontros com chefes têm um chefe adicional."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "В битвах с боссами появляется один дополнительный босс."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Під час зіткнень з босами з'являється додатковий бос."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "首领对战将新增一名首领。"
                         }
                     ]
                 }
@@ -4585,43 +4648,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Dauer vorteilhafter Effekte: {0}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Duration of Beneficial Effects {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Duración de los efectos beneficiosos {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "{1} {0}"
+                            "langTranslation": "Durée des effets bénéfiques : {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "{0}{1}"
+                            "langTranslation": "有益な効果の持続時間{0}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Czas trwania korzystnych efektów: {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Duração de Efeitos Benéficos {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Продолжительность благоприятных эффектов: {0}"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Тривалість корисних ефектів: {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "正面效果持续时间 {0}"
                         }
                     ]
                 }
@@ -4705,43 +4768,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Dauer vorteilhafter Effekte: {0}"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Duration of Beneficial Effects {0}"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Duración de los efectos beneficiosos {0}"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "{1} {0}"
+                            "langTranslation": "Durée des effets bénéfiques : {0}"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "{0}{1}"
+                            "langTranslation": "有益な効果の持続時間{0}"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Czas trwania korzystnych efektów: {0}"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Duração de Efeitos Benéficos {0}"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Продолжительность благоприятных эффектов: {0}"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "Тривалість корисних ефектів: {0}"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "{0} {1}"
+                            "langTranslation": "正面效果持续时间 {0}"
                         }
                     ]
                 }
@@ -5061,7 +5124,7 @@
                     "descriptionLocalizationKey": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Monster können nicht betäubt werden."
+                            "langTranslation": "Gegner können nicht betäubt werden."
                         },
                         {
                             "langCode": "en",
@@ -5069,19 +5132,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "No se puede aturdir a los monstruos."
+                            "langTranslation": "No se puede aturdir a los enemigos."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les monstres ne peuvent pas être étourdis."
+                            "langTranslation": "Les ennemis ne peuvent pas être étourdis."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "モンスターはスタンしない。"
+                            "langTranslation": "敵はスタンしない。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Potworów nie można oszołomić."
+                            "langTranslation": "Wrogów nie można oszołomić."
                         },
                         {
                             "langCode": "pt-br",
@@ -5089,15 +5152,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Монстров нельзя оглушить."
+                            "langTranslation": "Врагов нельзя оглушить."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Монстри стійкі до оглушення."
+                            "langTranslation": "Супротивники стійкі до оглушення."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "无法使怪物眩晕。"
+                            "langTranslation": "无法使敌人眩晕。"
                         }
                     ],
                     "valuePerLevel": 10.0,
@@ -5125,7 +5188,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Monster können nicht betäubt werden."
+                            "langTranslation": "Gegner können nicht betäubt werden."
                         },
                         {
                             "langCode": "en",
@@ -5133,19 +5196,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "No se puede aturdir a los monstruos."
+                            "langTranslation": "No se puede aturdir a los enemigos."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les monstres ne peuvent pas être étourdis."
+                            "langTranslation": "Les ennemis ne peuvent pas être étourdis."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "モンスターはスタンしない。"
+                            "langTranslation": "敵はスタンしない。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Potworów nie można oszołomić."
+                            "langTranslation": "Wrogów nie można oszołomić."
                         },
                         {
                             "langCode": "pt-br",
@@ -5153,15 +5216,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Монстров нельзя оглушить."
+                            "langTranslation": "Врагов нельзя оглушить."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Монстри стійкі до оглушення."
+                            "langTranslation": "Супротивники стійкі до оглушення."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "无法使怪物眩晕。"
+                            "langTranslation": "无法使敌人眩晕。"
                         }
                     ]
                 }
@@ -5241,7 +5304,7 @@
                     "descriptionLocalizationKey": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Monster können nicht verwelken."
+                            "langTranslation": "Gegner können nicht verwelken."
                         },
                         {
                             "langCode": "en",
@@ -5249,19 +5312,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "No se puede hacer marchitar a los monstruos."
+                            "langTranslation": "No se puede hacer marchitar a los enemigos."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les monstres ne peuvent pas subir de décrépitude."
+                            "langTranslation": "Les ennemis ne peuvent pas subir de décrépitude."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "モンスターは荒廃しない。"
+                            "langTranslation": "敵は荒廃しない。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Potworów nie można wysuszać."
+                            "langTranslation": "Wrogów nie można poddać uschnięciu."
                         },
                         {
                             "langCode": "pt-br",
@@ -5269,15 +5332,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "На монстров нельзя наложить увядание."
+                            "langTranslation": "На врагов нельзя наложить увядание."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Монстри стійкі до зачахнення."
+                            "langTranslation": "Супротивники стійкі до зачахнення."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "无法使怪物衰竭。"
+                            "langTranslation": "无法使敌人衰竭。"
                         }
                     ],
                     "valuePerLevel": 10.0,
@@ -5305,7 +5368,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Monster können nicht verwelken."
+                            "langTranslation": "Gegner können nicht verwelken."
                         },
                         {
                             "langCode": "en",
@@ -5313,19 +5376,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "No se puede hacer marchitar a los monstruos."
+                            "langTranslation": "No se puede hacer marchitar a los enemigos."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Les monstres ne peuvent pas subir de décrépitude."
+                            "langTranslation": "Les ennemis ne peuvent pas subir de décrépitude."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "モンスターは荒廃しない。"
+                            "langTranslation": "敵は荒廃しない。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Potworów nie można wysuszać."
+                            "langTranslation": "Wrogów nie można poddać uschnięciu."
                         },
                         {
                             "langCode": "pt-br",
@@ -5333,15 +5396,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "На монстров нельзя наложить увядание."
+                            "langTranslation": "На врагов нельзя наложить увядание."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Монстри стійкі до зачахнення."
+                            "langTranslation": "Супротивники стійкі до зачахнення."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "无法使怪物衰竭。"
+                            "langTranslation": "无法使敌人衰竭。"
                         }
                     ]
                 }
@@ -5889,50 +5952,100 @@
                     "name": "33dd9256-7d4b-4ccc-af14-b934cfdf6c6d",
                     "type": "CharacterIncrementNodeAffixDefinition",
                     "eCharacterIncrement": "RunsPerActIncrementAmount",
-                    "valuePerLevel": 7.0,
+                    "valuePerLevel": 3.0,
+                    "eModifierType": "Additive",
+                    "hideDescription": true,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "Die Anzahl deiner Durchläufe ist auf {0} begrenzt.\nNach erstmaligem Abschließen eines Akts erhältst du +3 Durchläufe."
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "You are limited to {0} runs.\nYou get +3 runs after completing each Step for the first time."
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "Se te limita a {0} intentos.\nObtienes +3 intentos después de completar cada Acto por primera vez."
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "Vous n'avez droit qu'à {0} parties.\nVous gagnez 3 parties après avoir terminé chaque acte pour la première fois."
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "ランが{0}回までしか行えない。\nActを初めて完了する旅、残りラン回数が3回増加する。"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "Możesz podjąć jedynie {0} prób.\nPo pierwszym ukończeniu każdego z Aktów otrzymujesz +3 do liczby prób"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "Você está limitado a {0} tentativas.\nVocê ganha +3 tentativas depois de completar cada Passo pela primeira vez."
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "Количество попыток ограничено: {0}.\nКоличество попыток увеличится на 3 за первое прохождение каждого акта."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "У вас є обмежена кількість проходжень ({0}).\nВи отримуєте додаткові проходження (3) за перше завершення кожного акту."
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "你当前最多可进行 {0} 次挑战。\n首次完成每一幕时可额外获得 3 次挑战机会。"
+                        }
+                    ]
+                },
+                {
+                    "name": "025780d7-2feb-4f94-bbfe-feab34b15d2d",
+                    "type": "CharacterIncrementNodeAffixDefinition",
+                    "eCharacterIncrement": "StartingAscensionRunsIncrementAmount",
+                    "valuePerLevel": 5.0,
                     "eModifierType": "Additive",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": true,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Die Anzahl deiner Durchläufe ist auf {0} begrenzt.\nNach erstmaligem Abschließen eines Akts erhältst du +{0} Durchläufe."
+                            "langTranslation": "Die Anzahl deiner Durchläufe ist auf {0} begrenzt.\nNach erstmaligem Abschließen eines Akts erhältst du +3 Durchläufe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "You are limited to {0} runs.\nYou get +{0} runs after completing each Act for the first time."
+                            "langTranslation": "You are limited to {0} runs.\nYou get +3 runs after completing each Step for the first time."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Se te limita a {0} intentos.\nObtienes +{0} intentos después de completar cada Acto por primera vez."
+                            "langTranslation": "Se te limita a {0} intentos.\nObtienes +3 intentos después de completar cada Acto por primera vez."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Vous n'avez droit qu'à {0} parties.\nVous gagnez {0} parties après avoir terminé chaque acte pour la première fois."
+                            "langTranslation": "Vous n'avez droit qu'à {0} parties.\nVous gagnez 3 parties après avoir terminé chaque acte pour la première fois."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ランが{0}回までしか行えない。\nActを初めて完了する旅、残りラン回数が{0}回増加する。"
+                            "langTranslation": "ランが{0}回までしか行えない。\nActを初めて完了する旅、残りラン回数が3回増加する。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Możesz podjąć jedynie {0} prób.\nPo pierwszym ukończeniu każdego z Aktów otrzymujesz +{0} do liczby prób"
+                            "langTranslation": "Możesz podjąć jedynie {0} prób.\nPo pierwszym ukończeniu każdego z Aktów otrzymujesz +3 do liczby prób"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Você está limitado a {0} tentativas.\nVocê ganha +{0} tentativas depois de completar cada Ato pela primeira vez."
+                            "langTranslation": "Você está limitado a {0} tentativas.\nVocê ganha +3 tentativas depois de completar cada Passo pela primeira vez."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Количество попыток ограничено: {0}.\nКоличество попыток увеличится на {0} за первое прохождение каждого акта."
+                            "langTranslation": "Количество попыток ограничено: {0}.\nКоличество попыток увеличится на 3 за первое прохождение каждого акта."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "У вас є обмежена кількість проходжень ({0}).\nВи отримуєте додаткові проходження ({0}) за перше завершення кожного акту."
+                            "langTranslation": "У вас є обмежена кількість проходжень ({0}).\nВи отримуєте додаткові проходження (3) за перше завершення кожного акту."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "你当前最多可进行 {0} 次挑战。\n首次完成每一幕时可额外获得 +{0} 次挑战机会。"
+                            "langTranslation": "你当前最多可进行 {0} 次挑战。\n首次完成每一幕时可额外获得 3 次挑战机会。"
                         }
                     ]
                 }
@@ -6006,55 +6119,198 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "38973e29-d9ef-4281-b451-99ee128ce674",
-                    "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "name": "e270c99e-6c72-47e5-9ef7-a1e1a5f06ee5",
+                    "type": "SkillBehaviorNodeAffixDefinition",
+                    "additionalLocalizationVariables": [],
+                    "eModifierType": "Additive",
+                    "valuePerLevel": 0.25,
+                    "behaviorData": {
+                        "type": "SkillBehaviorData",
+                        "affectMultipleSkills": false,
+                        "useListOfSkills": "UseSkillTag",
+                        "listOfSkills": [],
+                        "skillTagFilter": "0",
+                        "skillDefinition": {
+                            "name": "BasicAttackDefinition",
+                            "id": 0,
+                            "type": "RangedAttackSkillDefinition"
+                        },
+                        "variables": {
+                            "type": "SkillEffectVariables",
+                            "variables": [
+                                {
+                                    "type": "SkillEffectVariable",
+                                    "name": "Roll",
+                                    "baseValue": 0.0,
+                                    "eSkillEffectVariableStackType": "UseHighest",
+                                    "eSkillEffectVariableFormat": "Percentage"
+                                }
+                            ]
+                        },
+                        "effects": [
+                            {
+                                "name": "Add Status To Target Skill Effect Data",
+                                "type": "AddStatusToTargetSkillEffectData",
+                                "removeOnEffectReversion": false,
+                                "effectTarget": "Self",
+                                "statusDefinition": {
+                                    "name": "Tamarindo - Slow - StatusDefinition",
+                                    "id": 145,
+                                    "type": "StatModifierStatusDefinition"
+                                },
+                                "statusDuration": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "2",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "statusIntensity": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "1",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "stackAmount": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "1",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "startDisabled": false,
+                                "useCharacterEffectTrigger": true,
+                                "effectTrigger": "TargetHit",
+                                "characterEffectTrigger": "OnHurt",
+                                "ruleSet": {
+                                    "type": "SkillEffectRuleSet",
+                                    "useOrLogic": false,
+                                    "rules": [
+                                        {
+                                            "name": "Random Chance Skill Effect Rule",
+                                            "type": "RandomChanceSkillEffectRule",
+                                            "chance": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "0.25",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "negate": false
+                                        },
+                                        {
+                                            "name": "Value Comparison Skill Effect Rule",
+                                            "type": "ValueComparisonSkillEffectRule",
+                                            "value1Type": "DamageIsMelee",
+                                            "value1Input": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "comparisonOperator": "Equal",
+                                            "value2Type": "True",
+                                            "value2Input": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "negate": false
+                                        }
+                                    ]
+                                },
+                                "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
+                                "triggerTargetValue": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "triggerTargetEnumValue": 0,
+                                "triggerTargetStringValue": "",
+                                "subEffects": []
+                            }
+                        ]
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Nahkampfschaden von Gegnern hat die Chance, Verlangsamung zu verursachen"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Melee Damage has Chance to cause Slow"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "El daño cuerpo a cuerpo de los enemigos tiene probabilidad de causar ralentización."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Les dégâts de mêlée des ennemis ont une chance de vous ralentir."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵の近接ダメージが一定確率で時間停滞を付与する"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Obrażenia zadawane wrogom w walce wręcz mają szansę spowodować Spowolnienie."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Dano Corpo a corpo de inimigos tem uma chance de causar Lentidão"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Урон, наносимый врагу в ближнем бою, может вызвать замедление"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Шкода, завдана супротивниками в ближньому бою, може сповільнити вас"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人的近战伤害有几率造成减速。"
                         }
-                    ]
+                    ],
+                    "behaviorAffixDefinition": ""
                 }
             ]
         },
@@ -6126,55 +6382,198 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "31334c57-d077-4b27-bd3a-1fe60e15b3d7",
-                    "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "name": "df9fbb85-97e3-4c85-b1b2-3999f354d1f8",
+                    "type": "SkillBehaviorNodeAffixDefinition",
+                    "additionalLocalizationVariables": [],
+                    "eModifierType": "Additive",
+                    "valuePerLevel": 0.25,
+                    "behaviorData": {
+                        "type": "SkillBehaviorData",
+                        "affectMultipleSkills": false,
+                        "useListOfSkills": "UseSkillTag",
+                        "listOfSkills": [],
+                        "skillTagFilter": "0",
+                        "skillDefinition": {
+                            "name": "BasicAttackDefinition",
+                            "id": 0,
+                            "type": "RangedAttackSkillDefinition"
+                        },
+                        "variables": {
+                            "type": "SkillEffectVariables",
+                            "variables": [
+                                {
+                                    "type": "SkillEffectVariable",
+                                    "name": "Roll",
+                                    "baseValue": 0.0,
+                                    "eSkillEffectVariableStackType": "UseHighest",
+                                    "eSkillEffectVariableFormat": "Percentage"
+                                }
+                            ]
+                        },
+                        "effects": [
+                            {
+                                "name": "Add Status To Target Skill Effect Data",
+                                "type": "AddStatusToTargetSkillEffectData",
+                                "removeOnEffectReversion": false,
+                                "effectTarget": "Self",
+                                "statusDefinition": {
+                                    "name": "Tamarindo - Slow - StatusDefinition",
+                                    "id": 145,
+                                    "type": "StatModifierStatusDefinition"
+                                },
+                                "statusDuration": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "2",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "statusIntensity": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "1",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "stackAmount": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "1",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "startDisabled": false,
+                                "useCharacterEffectTrigger": true,
+                                "effectTrigger": "TargetHit",
+                                "characterEffectTrigger": "OnHurt",
+                                "ruleSet": {
+                                    "type": "SkillEffectRuleSet",
+                                    "useOrLogic": false,
+                                    "rules": [
+                                        {
+                                            "name": "Random Chance Skill Effect Rule",
+                                            "type": "RandomChanceSkillEffectRule",
+                                            "chance": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "0.25",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "negate": false
+                                        },
+                                        {
+                                            "name": "Value Comparison Skill Effect Rule",
+                                            "type": "ValueComparisonSkillEffectRule",
+                                            "value1Type": "DamageIsMelee",
+                                            "value1Input": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "comparisonOperator": "Equal",
+                                            "value2Type": "False",
+                                            "value2Input": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "negate": false
+                                        }
+                                    ]
+                                },
+                                "revertOnRuleFail": false,
+                                "revertOnRemoval": false,
+                                "triggerTargetValue": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "triggerTargetEnumValue": 0,
+                                "triggerTargetStringValue": "",
+                                "subEffects": []
+                            }
+                        ]
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Fernkampfschaden von Gegnern hat die Chance, Verlangsamung zu verursachen."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemy Ranged Damage has Chance to cause Slow"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "El daño a distancia de los enemigos tiene probabilidad de causar ralentización."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Les dégâts à distance des ennemis ont une chance de vous ralentir."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵の遠隔ダメージが一定確率で時間停滞を付与する"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Obrażenia z odległości zadawane wrogom mają szansę spowodować Spowolnienie."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Dano de Longa Distância de inimigos tem uma chance de causar Lentidão"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Урон, наносимый врагу в дальнем бою, может вызвать замедление"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Шкода, завдана супротивниками з відстані, може сповільнити вас"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人的远程伤害有几率造成减速。"
                         }
-                    ]
+                    ],
+                    "behaviorAffixDefinition": ""
                 }
             ]
         },
@@ -6270,53 +6669,311 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "5caf6a3d-6581-474b-a969-0e30551d210b",
-                    "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "name": "7588fd4b-c0a5-44c5-b837-500c45085d00",
+                    "type": "AscensionVariableEnemyStatModifiersNodeAffixDefinition",
+                    "valuePerLevel": 0.0,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "Multiplicative",
+                    "availableModifiers": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "type": "AscensionVariableEnemySheetScaling",
+                                "descriptionKey": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Physischer Schaden"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Physical Damage"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Daño físico"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "Dégâts physiques"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "物理ダメージ"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Obrażenia fizyczne"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Dano Físico"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Физический урон"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "Фізична шкода"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "物理伤害"
+                                    }
+                                ],
+                                "characterSheetBaseModifier": {
+                                    "name": "Enemy Buff - Immune to Fire Damage - Sheet Scale",
+                                    "type": "CharacterSheetBaseModifier",
+                                    "experienceMultiplier": 1.0,
+                                    "useCurveScaling": false,
+                                    "rawMultiplicativeScaling": false,
+                                    "baseStatModifiers": {
+                                        "ImmuneToFireDamage": {
+                                            "type": "CharacterSheetBaseModifierConfig",
+                                            "multiplicative": 1.0,
+                                            "additive": 1.0
+                                        }
+                                    },
+                                    "statModifiersPerType": {},
+                                    "specificSheetBaseStatModifiers": {}
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "type": "AscensionVariableEnemySheetScaling",
+                                "descriptionKey": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Seuchenschaden"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Plague Damage"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Daño de Plaga"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "Dégâts de peste"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "疫病ダメージ"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Obrażenia od zarazy"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Dano Tóxico"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Урон от чумы"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "Шкода від чуми"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "瘟疫伤害"
+                                    }
+                                ],
+                                "characterSheetBaseModifier": {
+                                    "name": "Enemy Buff - Immune to Plague Damage - Sheet Scale",
+                                    "type": "CharacterSheetBaseModifier",
+                                    "experienceMultiplier": 1.0,
+                                    "useCurveScaling": false,
+                                    "rawMultiplicativeScaling": false,
+                                    "baseStatModifiers": {
+                                        "ImmuneToPlagueDamage": {
+                                            "type": "CharacterSheetBaseModifierConfig",
+                                            "multiplicative": 1.0,
+                                            "additive": 1.0
+                                        }
+                                    },
+                                    "statModifiersPerType": {},
+                                    "specificSheetBaseStatModifiers": {}
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "type": "AscensionVariableEnemySheetScaling",
+                                "descriptionKey": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Physischer Schaden"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Physical Damage"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Daño físico"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "Dégâts physiques"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "物理ダメージ"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Obrażenia fizyczne"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Dano Físico"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Физический урон"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "Фізична шкода"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "物理伤害"
+                                    }
+                                ],
+                                "characterSheetBaseModifier": {
+                                    "name": "Enemy Buff - Immune to Physical Damage - Sheet Scale",
+                                    "type": "CharacterSheetBaseModifier",
+                                    "experienceMultiplier": 1.0,
+                                    "useCurveScaling": false,
+                                    "rawMultiplicativeScaling": false,
+                                    "baseStatModifiers": {
+                                        "ImmuneToPhysicalDamage": {
+                                            "type": "CharacterSheetBaseModifierConfig",
+                                            "multiplicative": 1.0,
+                                            "additive": 1.0
+                                        }
+                                    },
+                                    "statModifiersPerType": {},
+                                    "specificSheetBaseStatModifiers": {}
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "type": "AscensionVariableEnemySheetScaling",
+                                "descriptionKey": [
+                                    {
+                                        "langCode": "de",
+                                        "langTranslation": "Blitzschaden"
+                                    },
+                                    {
+                                        "langCode": "en",
+                                        "langTranslation": "Lightning Damage"
+                                    },
+                                    {
+                                        "langCode": "es",
+                                        "langTranslation": "Daño de Rayo"
+                                    },
+                                    {
+                                        "langCode": "fr",
+                                        "langTranslation": "Dégâts de foudre"
+                                    },
+                                    {
+                                        "langCode": "ja",
+                                        "langTranslation": "電撃ダメージ"
+                                    },
+                                    {
+                                        "langCode": "pl",
+                                        "langTranslation": "Obrażenia od błyskawic"
+                                    },
+                                    {
+                                        "langCode": "pt-br",
+                                        "langTranslation": "Dano Elétrico"
+                                    },
+                                    {
+                                        "langCode": "ru",
+                                        "langTranslation": "Урон от молний"
+                                    },
+                                    {
+                                        "langCode": "uk",
+                                        "langTranslation": "Шкода від блискавки"
+                                    },
+                                    {
+                                        "langCode": "zh-cn",
+                                        "langTranslation": "闪电伤害"
+                                    }
+                                ],
+                                "characterSheetBaseModifier": {
+                                    "name": "Enemy Buff - Immune to Lightning Damage - Sheet Scale",
+                                    "type": "CharacterSheetBaseModifier",
+                                    "experienceMultiplier": 1.0,
+                                    "useCurveScaling": false,
+                                    "rawMultiplicativeScaling": false,
+                                    "baseStatModifiers": {
+                                        "ImmuneToLightningDamage": {
+                                            "type": "CharacterSheetBaseModifierConfig",
+                                            "multiplicative": 1.0,
+                                            "additive": 1.0
+                                        }
+                                    },
+                                    "statModifiersPerType": {},
+                                    "specificSheetBaseStatModifiers": {}
+                                }
+                            }
+                        }
+                    ],
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Gegner sind immun gegen {0}. Diese Buße wechselt nach Zufallsprinzip bei jedem Aufstieg."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemies are immune to {0}. This Penance randomly changes at every Ascension."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Los enemigos son inmunes a {0}. Esta Penitencia cambia al azar en cada Ascensión."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Les ennemis sont immunisés à l'effet {0}. Cette pénitence change aléatoirement après chaque Ascension"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵は{0}の耐性を得る。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Wrogowie są odporni na {0}. Ta pokuta zmienia się losowo po każdym Wniebowstąpieniu."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Inimigos são imunes a {0}. Esta Penitência muda aleatoriamente a cada Ascensão."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Враги получают иммунитет к статусу «{0}». Эта кара случайным образом меняется при каждом Вознесении."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Супротивники несприйнятливі до {0}. Ця кара випадковим чином змінюється з кожним вознесінням."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人对{0}免疫。这项苦修在每次升华时都会随机变化。"
                         }
                     ]
                 }
@@ -6392,51 +7049,51 @@
                 {
                     "name": "93856a6b-1bfc-4178-8bef-5118959ed2a0",
                     "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "eStatDefinition": "ChanceToFindPotion",
+                    "statModifierType": "Multiplicative",
+                    "value": 0.5,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Tränke haben eine 50 % geringere Chance fallen gelassen zu werden"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Potions Have 50% Less Chance to Drop"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Las pociones tienen un 50 % menos de probabilidad de aparecer"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Vous avez 50 % de moins de chances d'obtenir des potions."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "ポーションがドロップする確率が50%低下する"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Mikstury mają o 50% mniejszą szansę na upuszczenie"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "50% menos Chance de encontrar Poções"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Вероятность выпадения зелий сокращается на 50%."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Шанс на випадіння зілля знижено на 50%"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "药水掉落几率降低 50%"
                         }
                     ]
                 }
@@ -6510,53 +7167,52 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "7a995118-2cdb-46ce-ad51-0292ea507930",
-                    "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "name": "02d50440-f5f6-414a-a7c0-574665eec375",
+                    "type": "CharacterToggleNodeAffixDefinition",
+                    "eCharacterToggle": "LimitPotionDropToUniquesAndBosses",
+                    "value": true,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Tränke fallen nur von einzigartigen Gegnern und Bossen"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Potions Drop Only From Uniques and Bosses"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Las pociones solo se obtienen de personajes únicos y jefes"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Les potions ne peuvent être obtenues que sur les ennemis uniques et les boss."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "ポーションはユニークとボスからのみドロップする"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Tylko unikatowi i bossowie upuszczają mikstury"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Poções podem ser encontradas apenas em Únicos e Chefes"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Зелья выпадают только из уникальных противников и боссов."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Зілля випадають лише з унікальних супротивників і босів"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "药水只会从特异敌人和首领身上掉落"
                         }
                     ]
                 }
@@ -6630,53 +7286,113 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "d9959a2f-113b-44fc-85c9-26b17a714195",
-                    "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "name": "e4215d2c-0a09-4934-ae1a-96a21c61efc1",
+                    "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "Gegner regenerieren Gesundheit."
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "Enemies Regenerate Life"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "Los enemigos regeneran vida."
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "La santé des ennemis se régénère."
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "敵の体力が回復する"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "Wrogowie regenerują zdrowie."
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "Inimigos regeneram Vida"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "Враги восстанавливают здоровье"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Супротивники відновлюють здоров'я"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "敌人恢复生命值。"
+                        }
+                    ],
+                    "valuePerLevel": 0.025,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "Multiplicative",
+                    "eSignType": "Default",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Life Regen - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "rawMultiplicativeScaling": true,
+                        "baseStatModifiers": {
+                            "LifeRegen": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": -1.0,
+                                "additive": 1.0
+                            }
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Gegner regenerieren Gesundheit."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemies Regenerate Life"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Los enemigos regeneran vida."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "La santé des ennemis se régénère."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵の体力が回復する"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Wrogowie regenerują zdrowie."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Inimigos regeneram Vida"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Враги восстанавливают здоровье"
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Супротивники відновлюють здоров'я"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人恢复生命值。"
                         }
                     ]
                 }
@@ -6750,53 +7466,268 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "362c59c4-83ee-4c03-b038-048a2bad6d83",
+                    "name": "5d437c4a-cc6c-444c-8cb3-aa3e924238fc",
                     "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
+                    "eStatDefinition": "WitherResistance",
+                    "statModifierType": "BaseOverride",
                     "value": 0.0,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Gegner können Leiden auf dich anwenden."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "Enemies can apply Ailments to you."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Los enemigos pueden aplicarte dolencias."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Les ennemis peuvent vous infliger des afflictions."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "敵がプレイヤーを状態異常にする可能性がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Wrogowie mogą nakładać na ciebie dolegliwości."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Inimigos podem aplicar Condições em você."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "Враги могут накладывать на вас неблагоприятные эффекты."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Супротивники можуть накладати на вас недуги."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "敌人可对你施加异常状态。"
+                        }
+                    ]
+                },
+                {
+                    "name": "97f36de0-c33f-4966-b855-0b264733cdf8",
+                    "type": "StatModifierNodeAffixDefinition",
+                    "eStatDefinition": "StunResistance",
+                    "statModifierType": "BaseOverride",
+                    "value": 0.0,
+                    "hideDescription": true,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "{1} {0}"
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "{0}{1}"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "{0} {1}"
+                        }
+                    ]
+                },
+                {
+                    "name": "ba23a8d1-c0aa-4940-903f-dfdb9f9ffb37",
+                    "type": "StatModifierNodeAffixDefinition",
+                    "eStatDefinition": "CrowdControlResistance",
+                    "statModifierType": "BaseOverride",
+                    "value": 0.0,
+                    "hideDescription": true,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "{1} {0}"
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "{0}{1}"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "{0} {1}"
+                        }
+                    ]
+                },
+                {
+                    "name": "7086ed9b-eb41-4dde-9711-6308de9d7428",
+                    "type": "EnemyStatModifiersNodeAffixDefinition",
+                    "useSheetDescriptionForLocalization": false,
+                    "descriptionLocalizationKey": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": ""
+                        }
+                    ],
+                    "valuePerLevel": 1.0,
+                    "useTotalRunsAsMultiplier": false,
+                    "eVariableFormat": "Multiplicative",
+                    "eSignType": "Default",
+                    "characterSheetBaseModifier": {
+                        "name": "Enemy Buff - Chance to Apply Ailments - Sheet Scale",
+                        "type": "CharacterSheetBaseModifier",
+                        "experienceMultiplier": 1.0,
+                        "useCurveScaling": false,
+                        "rawMultiplicativeScaling": true,
+                        "baseStatModifiers": {
+                            "ChanceToApplyBleed": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.08
+                            },
+                            "ChanceToApplyIgnite": {
+                                "type": "CharacterSheetBaseModifierConfig",
+                                "multiplicative": 1.0,
+                                "additive": 0.3
+                            }
+                        },
+                        "statModifiersPerType": {},
+                        "specificSheetBaseStatModifiers": {}
+                    },
+                    "hideDescription": true,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": ""
                         }
                     ]
                 }
@@ -6870,53 +7801,53 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "ca3615f8-0424-4f1d-b23c-389722fb0c12",
-                    "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "name": "285a0837-c9cd-45f2-a4bd-954964c06932",
+                    "type": "CharacterIncrementNodeAffixDefinition",
+                    "eCharacterIncrement": "StartingAscensionRunsIncrementAmount",
+                    "valuePerLevel": -1.0,
+                    "eModifierType": "Additive",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Du hast -{0} Startläufe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "You have -{0} starting Runs."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Tienes -{0} intentos de inicio. "
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Vous n'avez droit qu'à {0} parties."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "開始可能なラン数-{0}。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Masz -{0} prób początkowych."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Você tem -{0} Tentativas iniciais."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "У вас есть -{0} попыток начать."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Стартові проходження: -{0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "初始挑战次数 -{0}。"
                         }
                     ]
                 }
@@ -6990,53 +7921,53 @@
             "isRoot": false,
             "affixes": [
                 {
-                    "name": "afa719ab-487b-4abd-8ebd-e67f637946e1",
-                    "type": "StatModifierNodeAffixDefinition",
-                    "eStatDefinition": "BaseDamage",
-                    "statModifierType": "Additive",
-                    "value": 0.0,
+                    "name": "af7854bd-bb2b-43f6-a404-631bfe9be543",
+                    "type": "CharacterIncrementNodeAffixDefinition",
+                    "eCharacterIncrement": "StartingAscensionRunsIncrementAmount",
+                    "valuePerLevel": -1.0,
+                    "eModifierType": "Additive",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "BETA: Noch in Arbeit"
+                            "langTranslation": "Du hast -{0} Startläufe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "BETA: Work In Progress"
+                            "langTranslation": "You have -{0} starting Runs."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "BETA: En progreso"
+                            "langTranslation": "Tienes -{0} intentos de inicio. "
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "BETA : Développement en cours"
+                            "langTranslation": "Vous n'avez droit qu'à {0} parties."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "ベータ：鋭意開発中"
+                            "langTranslation": "開始可能なラン数-{0}。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "BETA: Praca w toku"
+                            "langTranslation": "Masz -{0} prób początkowych."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "BETA: Trabalho em Progresso"
+                            "langTranslation": "Você tem -{0} Tentativas iniciais."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "БЕТА-ВЕРСИЯ: В процессе разработки"
+                            "langTranslation": "У вас есть -{0} попыток начать."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "БЕТА-ВЕРСІЯ. Ми ще працюємо над грою"
+                            "langTranslation": "Стартові проходження: -{0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "BETA：开发中内容"
+                            "langTranslation": "初始挑战次数 -{0}。"
                         }
                     ]
                 }

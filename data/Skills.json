@@ -197,10 +197,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Bullet Count Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -587,10 +591,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Bullet Count Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -847,7 +855,7 @@
                 }
             ],
             "icon": "IconSkill_ShadowDash",
-            "baseDamageMod": 1.2,
+            "baseDamageMod": 1.6,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
             "sameTargetHitCooldown": 0.0,
@@ -857,7 +865,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.5
+                        "value": 0.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -871,7 +879,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.0
+                        "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -885,7 +893,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 2.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -899,7 +907,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.0
+                        "value": 2.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -913,7 +921,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.5
+                        "value": 3.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -927,7 +935,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.0
+                        "value": 4.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -941,7 +949,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.5
+                        "value": 4.9
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -955,7 +963,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.0
+                        "value": 5.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -969,7 +977,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.5
+                        "value": 6.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -983,7 +991,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 5.0
+                        "value": 7.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -1006,10 +1014,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 3.0,
@@ -1390,10 +1402,25 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Bullet Count Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ],
+            "specificCompanionSkillValueModifierConfigs": [
+                {
+                    "type": "CompanionSpecificSkillValueModifiersConfig",
+                    "companionDefinition": {
+                        "name": "Summon Marksmen - Companion",
+                        "id": 3,
+                        "type": "PlayerCompanionDefinition"
+                    },
+                    "skillValueModifierConfigs": []
                 }
             ],
             "cooldown": 0.0,
@@ -1780,18 +1807,26 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Range Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 },
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Knives Count Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 11.0,
@@ -8447,10 +8482,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 14.5,
@@ -9180,13 +9219,13 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalChance Modifier",
                         "modifierType": "MultiplicativeAdditive",
-                        "value": 1.35
+                        "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalDamage Modifier",
                         "modifierType": "MultiplicativeAdditive",
-                        "value": 1.35
+                        "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -9206,13 +9245,13 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalChance Modifier",
                         "modifierType": "MultiplicativeAdditive",
-                        "value": 1.35
+                        "value": 1.45
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalDamage Modifier",
                         "modifierType": "MultiplicativeAdditive",
-                        "value": 1.35
+                        "value": 1.45
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -9232,13 +9271,13 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalChance Modifier",
                         "modifierType": "MultiplicativeAdditive",
-                        "value": 1.35
+                        "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "!StatusDefinitionCollection(103) - CriticalDamage Modifier",
                         "modifierType": "MultiplicativeAdditive",
-                        "value": 1.35
+                        "value": 1.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -9644,10 +9683,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 1.3,
@@ -11844,10 +11887,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 9.0,
@@ -12229,7 +12276,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.8
+                        "value": 1.85
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -12243,7 +12290,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.95
+                        "value": 2.05
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -12257,7 +12304,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.1
+                        "value": 2.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -12280,10 +12327,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -12671,10 +12722,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 4.8,
@@ -13199,10 +13254,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 11.5,
@@ -13571,18 +13630,26 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Range Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 },
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Slash Area Angle Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -14080,10 +14147,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 11.0,
@@ -18844,13 +18915,13 @@
             "projectileRotationAcceleration": 0.0,
             "shouldLockTargetOnFire": false,
             "projectileSpeedModifierRange": [
-                10.0,
-                12.0
+                11.0,
+                11.0
             ],
-            "projectileLifeTime": 3.5,
+            "projectileLifeTime": 2.5,
             "disableOnCasterDeath": false,
             "projectileAmountRange": [
-                2,
+                1,
                 2
             ],
             "intervalBetweenProjectiles": 0.0,
@@ -20037,8 +20108,8 @@
             "projectileRotationAcceleration": 0.0,
             "shouldLockTargetOnFire": false,
             "projectileSpeedModifierRange": [
-                6.0,
-                6.0
+                8.0,
+                8.0
             ],
             "projectileLifeTime": 5.0,
             "disableOnCasterDeath": false,
@@ -21233,8 +21304,8 @@
             "id": 118,
             "type": "ProjectileAttackSkillDefinition",
             "projectileSpeedModifierRange": [
-                8.0,
-                8.0
+                11.0,
+                11.0
             ],
             "projectileLifeTime": 3.0,
             "disableOnCasterDeath": false,
@@ -26791,10 +26862,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 30.0,
@@ -28903,10 +28978,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Damage Modifier",
-                    "multiplicativeStats": [
-                        "SummonBasicSkillDamagePercentage"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SummonBasicSkillDamagePercentage",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.4,
@@ -33566,7 +33645,7 @@
                 10.0
             ],
             "projectileLifeTime": 3.0,
-            "disableOnCasterDeath": false,
+            "disableOnCasterDeath": true,
             "projectileAmountRange": [
                 4,
                 4
@@ -33839,10 +33918,10 @@
             "projectileRotationAcceleration": 0.0,
             "shouldLockTargetOnFire": false,
             "projectileSpeedModifierRange": [
-                6.0,
-                6.0
+                14.0,
+                14.0
             ],
-            "projectileLifeTime": 4.0,
+            "projectileLifeTime": 3.0,
             "disableOnCasterDeath": false,
             "projectileAmountRange": [
                 1,
@@ -33854,7 +33933,7 @@
             "manaCost": 0.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
+            "baseSkillSpeed": 1.25,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -33952,7 +34031,7 @@
             "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
-            "range": 10.0,
+            "range": 14.0,
             "skillTags": [
                 "Melee",
                 "Spell",
@@ -34390,18 +34469,26 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 },
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Spawner Area Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 10.0,
@@ -34669,10 +34756,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Damage Modifier",
-                    "multiplicativeStats": [
-                        "SummonBasicSkillDamagePercentage"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SummonBasicSkillDamagePercentage",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.4,
@@ -36093,7 +36184,7 @@
                 }
             ],
             "icon": "IconSkill_EnemyCannons",
-            "baseDamageMod": 3.0,
+            "baseDamageMod": 2.6,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
             "sameTargetHitCooldown": 0.0,
@@ -36103,7 +36194,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36117,7 +36208,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.0
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36131,7 +36222,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.5
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36145,7 +36236,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 6.0
+                        "value": 4.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36159,7 +36250,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 7.5
+                        "value": 5.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36173,7 +36264,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 9.0
+                        "value": 6.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36187,7 +36278,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 10.5
+                        "value": 7.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36201,7 +36292,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 12.0
+                        "value": 8.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36215,7 +36306,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 13.5
+                        "value": 9.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36229,7 +36320,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 15.0
+                        "value": 10.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -36252,18 +36343,26 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 },
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Spawner Area Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 6.0,
@@ -36689,10 +36788,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Projectile Amount Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -36921,7 +37024,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Entfesselt eine Salve von Spektralfedern, die Gegner in der Nähe ins Visier nehmen und 70 % Seuchenschaden verursachen."
+                    "langTranslation": "Entfesselt eine Salve von Spektralfedern, die nahe Gegner ins Visier nehmen und Seuchenschaden verursachen."
                 },
                 {
                     "langCode": "en",
@@ -36929,19 +37032,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Libera una ráfaga de plumas espectrales que buscan enemigos cercanos e infligen un 70 % de daño de Plaga."
+                    "langTranslation": "Libera una ráfaga de plumas espectrales que buscan enemigos cercanos e infligen daño de Plaga."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Invoque une nuée de plumes spectrales qui cherchent les ennemis proches et leur infligent 70% de dégâts de peste."
+                    "langTranslation": "Invoque une nuée de plumes spectrales qui cherchent les ennemis à proximité et leur infligent des dégâts de peste."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "近くの敵を探し出し、70%の疫病ダメージを与える霊体の棘を連射する。"
+                    "langTranslation": "付近の敵を探し出し、疫病ダメージを与える霊体の棘を連射する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Uwalnia deszcz widmowych piór, które szukają pobliskich wrogów, zadając 70% obrażeń od zarazy."
+                    "langTranslation": "Uwalnia deszcz widmowych piór, które szukają pobliskich wrogów, zadając obrażenia od zarazy."
                 },
                 {
                     "langCode": "pt-br",
@@ -36949,15 +37052,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вокруг вас появляется вихрь призрачных перьев, которые наводятся на ближайших врагов и наносят им 70% урона чумой."
+                    "langTranslation": "Вокруг вас появляется вихрь призрачных перьев, которые наводятся на ближайших врагов и наносят им урон от чумы."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Викликає шквал спектрального пір'я, яке знаходить і атакує супротивників поблизу, завдаючи 70% шкоди від чуми."
+                    "langTranslation": "Викликає шквал спектрального пір'я, яке знаходить і атакує супротивників поблизу, завдаючи шкоду від чуми."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "释放一连串幽冥羽矢，主动搜寻附近敌人并造成 70% 瘟疫伤害。"
+                    "langTranslation": "释放一连串幽冥羽矢，主动搜寻附近敌人并造成瘟疫伤害。"
                 }
             ],
             "icon": "IconSkill_HomingProjectiles",
@@ -37126,10 +37229,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Projectile Amount Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -39544,197 +39651,6 @@
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
             "range": 10.0,
-            "skillTags": [],
-            "skillValueModifiers": [
-                {
-                    "valueKey": "Damage Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Skill Speed Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Cooldown Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Charges Modifier",
-                    "valueType": "Increment"
-                },
-                {
-                    "valueKey": "Physical Damage Conversion Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Fire Damage Conversion Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Lightning Damage Conversion Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Plague Damage Conversion Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Additional Physical Damage Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Additional Fire Damage Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Additional Lightning Damage Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Additional Plague Damage Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Range Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Use Friendly Hit Modifier",
-                    "valueType": "Toggle"
-                },
-                {
-                    "valueKey": "Mana Cost Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Life Cost Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Can Use Negative Mana Modifier",
-                    "valueType": "Toggle"
-                },
-                {
-                    "valueKey": "Ignore Cooldown Modifier",
-                    "valueType": "Toggle"
-                },
-                {
-                    "valueKey": "Skill Character Movement Speed Modifier",
-                    "valueType": "Multiplier"
-                }
-            ]
-        },
-        {
-            "name": "Canudos Deserter Add Move Speed Status Skill Definition",
-            "id": 225,
-            "type": "AddStatusSkillDefinition",
-            "statusDefinition": {},
-            "statusDuration": [
-                10.0,
-                10.0
-            ],
-            "manaCost": 0.0,
-            "useNegativeMana": false,
-            "lifeCost": 0.0,
-            "baseSkillSpeed": 1.0,
-            "localizedName": [
-                {
-                    "langCode": "de",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "uk",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": ""
-                }
-            ],
-            "descriptionKey": [
-                {
-                    "langCode": "de",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "uk",
-                    "langTranslation": ""
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": ""
-                }
-            ],
-            "icon": "",
-            "baseDamageMod": 0.0,
-            "eDamageType": "PHYSICAL",
-            "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
-            "modifiersPerLevel": {},
-            "statModifiersPerRankUpgrade": [],
-            "skillDamageStatModifiers": {},
-            "skillValueModifierConfigs": [],
-            "cooldown": 0.0,
-            "minCooldown": 0.0,
-            "useAttackSpeed": false,
-            "ignoreCooldownSpeed": false,
-            "range": 0.0,
             "skillTags": [],
             "skillValueModifiers": [
                 {
@@ -47169,7 +47085,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.5,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -47580,7 +47496,7 @@
             "baseDamageMod": 1.0,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -47979,21 +47895,6 @@
             "type": "SkillChainSkillDefinition",
             "skillChainPool": [
                 {
-                    "weight": 1.0,
-                    "value": [
-                        {
-                            "name": "MaquinistaSpawnTurretsSkillDefinition",
-                            "id": 261,
-                            "type": "SpawnEnemyWavesSkillDefinition"
-                        },
-                        {
-                            "name": "MaquinistaDefenseSkillDefinition",
-                            "id": 258,
-                            "type": "AddStatusSkillDefinition"
-                        }
-                    ]
-                },
-                {
                     "weight": 111111.0,
                     "value": [
                         {
@@ -48336,7 +48237,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.5,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -48580,7 +48481,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -48900,7 +48801,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.5,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -49388,7 +49289,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -50560,7 +50461,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -51048,7 +50949,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -51303,7 +51204,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.5,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -52775,7 +52676,7 @@
             "name": "Lab Vulture Charged Attack Skill Definition",
             "id": 289,
             "type": "ChargedAttackSkillDefinition",
-            "chargeDistance": 20.0,
+            "chargeDistance": 17.0,
             "chargeProgressionCurve": "UnityEngine.AnimationCurve",
             "damageRadius": 4.0,
             "startupDuration": 0.7,
@@ -52880,11 +52781,11 @@
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
-            "cooldown": 2.0,
+            "cooldown": 7.0,
             "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
-            "range": 25.0,
+            "range": 8.0,
             "skillTags": [
                 "Plague Damage",
                 "Elemental Damage"
@@ -53069,7 +52970,7 @@
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
-            "cooldown": 1.0,
+            "cooldown": 0.0,
             "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
@@ -58823,10 +58724,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Damage Modifier",
-                    "multiplicativeStats": [
-                        "SummonBasicSkillDamagePercentage"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SummonBasicSkillDamagePercentage",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -59362,18 +59267,26 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 },
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Explode On Death Life To Damage Modifier",
-                    "multiplicativeStats": [
-                        "SummonDamagePercentage"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SummonDamagePercentage",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 12.0,
@@ -59521,6 +59434,10 @@
                 },
                 {
                     "valueKey": "Retaliation Cooldown Modifier",
+                    "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Retaliation Radius Modifier",
                     "valueType": "Multiplier"
                 },
                 {
@@ -59858,10 +59775,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Damage Modifier",
-                    "multiplicativeStats": [
-                        "SummonBasicSkillDamagePercentage"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SummonBasicSkillDamagePercentage",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.4,
@@ -60246,10 +60167,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Damage Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 1.5,
@@ -60347,6 +60272,10 @@
                 {
                     "valueKey": "Summon Duration Modifier",
                     "valueType": "Multiplier"
+                },
+                {
+                    "valueKey": "Enable Ignore Immovable",
+                    "valueType": "Toggle"
                 },
                 {
                     "valueKey": "Summon Attack Speed Modifier",
@@ -67425,7 +67354,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.2,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -67626,7 +67555,7 @@
             "baseDamageMod": 1.0,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -72488,12 +72417,12 @@
                     "useDamageTypeScalingOnOverride": false,
                     "eDamageType": "FIRE",
                     "damageStatModifiers": [],
-                    "radius": 9.0,
-                    "effectInterval": 0.25
+                    "radius": 10.0,
+                    "effectInterval": 0.5
                 },
                 "effectAreaDuration": 3.0,
                 "hasAnticipation": true,
-                "anticipationDuration": 1.0,
+                "anticipationDuration": 0.8,
                 "anticipationDelay": 0.0
             },
             "projectileAmount": [
@@ -86197,7 +86126,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.5,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -91385,7 +91314,7 @@
             ]
         },
         {
-            "name": "Deadman Swarm Vomit Homing Projectilers Skill Definition",
+            "name": "Deadman Swarm Vomit Homing Projectiles Skill Definition",
             "id": 494,
             "type": "HomingProjectileAttackSkillDefinition",
             "areaAngle": 30.0,
@@ -91958,7 +91887,6 @@
                 7
             ],
             "enemiesDropBombAfterDeath": true,
-            "explosiveObjectFx": "HellClock.VFX.GameplayFx",
             "spawnRadius": 3.0,
             "spawnInterval": 0.025,
             "spawnNoise": [
@@ -93119,7 +93047,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -95335,8 +95263,8 @@
             "id": 513,
             "type": "ProjectileAttackSkillDefinition",
             "projectileSpeedModifierRange": [
-                20.0,
-                20.0
+                25.0,
+                25.0
             ],
             "projectileLifeTime": 2.0,
             "disableOnCasterDeath": false,
@@ -95350,7 +95278,7 @@
             "manaCost": 0.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 0.8,
+            "baseSkillSpeed": 1.0,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -104360,7 +104288,7 @@
                     "useDamageTypeScalingOnOverride": false,
                     "eDamageType": "FIRE",
                     "damageStatModifiers": [],
-                    "radius": 3.0,
+                    "radius": 4.5,
                     "effectInterval": -1.0
                 },
                 "effectAreaDuration": 6.0,
@@ -104417,7 +104345,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Tauchen und Springen (PLACEHOLDER)"
+                    "langTranslation": "Schleudere dich in die Luft und lande dann mit der Wucht der Carcará, um in einem Bereich um dich herum Feuerschaden zu verursachen."
                 },
                 {
                     "langCode": "en",
@@ -104425,19 +104353,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descenso y golpe (PLACEHOLDER)"
+                    "langTranslation": "Lánzate por los aires y luego aterriza con la fuerza del Carcará, infligiendo daño de Fuego en un área a tu alrededor."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Piqué assaillant (PLACEHOLDER)"
+                    "langTranslation": "Lancez-vous dans les airs, puis atterrissez avec la force du carcará pour infliger des dégâts de feu dans une zone autour de vous."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "急降下して攻撃（PLACEHOLDER）"
+                    "langTranslation": "空中へ飛び上がり、猛禽さながらの威力で降下して周囲に火炎ダメージを与える。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Nurkowanie i uderzenie (PLACEHOLDER)"
+                    "langTranslation": "Rzuć się w powietrze, a następnie uderz w ziemię z siłą Carcary, zadając obrażenia od ognia na obszarze wokół siebie."
                 },
                 {
                     "langCode": "pt-br",
@@ -104445,15 +104373,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Ныряй и плюхай (УСЛОВНОЕ НАЗВАНИЕ)"
+                    "langTranslation": "Взлетите в воздух, а затем с силой Каркара обрушьтесь на землю, нанося урон от огня по области вокруг себя."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Dive and Bonk (PLACEHOLDER)"
+                    "langTranslation": "Здіймайтеся в повітря, а потім із силою каракари стрімко падайте додолу, завдаючи шкоди від вогню навколо себе."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Dive and Bonk (PLACEHOLDER)"
+                    "langTranslation": "纵身跃入空中，再以卡尔卡拉之力猛烈砸地，对周围区域造成火焰伤害。"
                 }
             ],
             "icon": "IconSkill_CarcaraDive",
@@ -104612,12 +104540,25 @@
                 }
             ],
             "skillDamageStatModifiers": {},
-            "skillValueModifierConfigs": [],
+            "skillValueModifierConfigs": [
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Radius Modifier",
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ],
             "cooldown": 3.2,
             "minCooldown": 0.1,
             "useAttackSpeed": true,
             "ignoreCooldownSpeed": false,
-            "range": 15.0,
+            "range": 18.0,
             "skillTags": [
                 "Area of Effect",
                 "Mobility",
@@ -104807,7 +104748,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Läuterung durch Feuer (PLACEHOLDER)"
+                    "langTranslation": "Wirf einen Feuerball, der beim Aufprall explodiert und in einem Bereich um die Explosion herum Feuerschaden verursacht."
                 },
                 {
                     "langCode": "en",
@@ -104815,19 +104756,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Por el fuego será purificado (PLACEHOLDER)"
+                    "langTranslation": "Lanza una bola de fuego que explota al contacto e inflige daño de Fuego en un área alrededor de la explosión."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Que le feu expie vos péchés (PLACEHOLDER)"
+                    "langTranslation": "Lancez une boule de feu qui explose au contact, infligeant des dégâts de feu dans une zone autour du point d'explosion."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "炎によって浄化する（PLACEHOLDER）"
+                    "langTranslation": "当たると爆発する火の玉を投げ、爆発地点の周囲に火炎ダメージを与える。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Niech ogień cię oczyści (PLACEHOLDER)"
+                    "langTranslation": "Rzuć kulą ognia, która eksploduje przy uderzeniu, zadając obrażenia od ognia na obszarze wokół punktu wybuchu."
                 },
                 {
                     "langCode": "pt-br",
@@ -104835,15 +104776,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Будут очищены огнем (УСЛОВНОЕ НАЗВАНИЕ)"
+                    "langTranslation": "Бросьте огненный шар, который взрывается при попадании, нанося урон от огня по области вокруг точки взрыва."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "By fire be purged (PLACEHOLDER)"
+                    "langTranslation": "Випустіть вогняну кулю: вона вибухає за влучання та завдає шкоди від вогню в області навколо точки вибуху."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "以火净化 (占位符)"
+                    "langTranslation": "投掷一个火球，火球接触目标后会爆炸，对爆炸点周围的区域造成火焰伤害。"
                 }
             ],
             "icon": "IconSkill_HolyFire",
@@ -104857,7 +104798,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.5
+                        "value": 0.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104871,7 +104812,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.0
+                        "value": 1.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104885,7 +104826,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 1.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104899,7 +104840,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.0
+                        "value": 2.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104913,7 +104854,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.5
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104927,7 +104868,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.0
+                        "value": 3.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104941,7 +104882,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.5
+                        "value": 4.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104955,7 +104896,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.0
+                        "value": 4.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104969,7 +104910,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.5
+                        "value": 5.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -104983,7 +104924,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 5.0
+                        "value": 6.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105006,10 +104947,26 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Projectile Amount Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Radius Modifier",
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -105248,7 +105205,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Miau (PLACEHOLDER)"
+                    "langTranslation": "Führe einen physischen Stoßangriff mit einem Speer aus, um den Zorn des Jaguars zu entfesseln.\n\nDieser Angriff kann mehrere Gegner treffen."
                 },
                 {
                     "langCode": "en",
@@ -105256,19 +105213,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Miau (PLACEHOLDER)"
+                    "langTranslation": "Desata la furia del jaguar al realizar un ataque físico con la lanza.\n\n Este ataque puede alcanzar a varios enemigos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Miaou (PLACEHOLDER)"
+                    "langTranslation": "Déchaînez la fureur du Jaguar en lançant une attaque physique avec la lance.\n\nCette attaque peut toucher plusieurs ennemis."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ニャー（PLACEHOLDER）"
+                    "langTranslation": "ジャガーの怒りをこめた槍で物理攻撃を行う。\n\nこれは複数の敵を攻撃できる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Miau (PLACEHOLDER)"
+                    "langTranslation": "Wyzwól furię Jaguara, wykonując pchnięcie włócznią, które zadaje obrażenia fizyczne.\n\nAtak może trafić wielu wrogów."
                 },
                 {
                     "langCode": "pt-br",
@@ -105276,15 +105233,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Мяу (УСЛОВНОЕ НАЗВАНИЕ)"
+                    "langTranslation": "Обрушьте ярость ягуара, нанеся колющий физический урон копьем.\n\nАтака может поразить нескольких врагов."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Meow (PLACEHOLDER)"
+                    "langTranslation": "Викличте лють ягуара, завдавши фізичної атаки списом.\n\nЦя атака може вразити кількох супротивників."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "喵 (占位符)"
+                    "langTranslation": "以物理长矛攻击释放美洲豹的怒火。\n\n该攻击可以击中多个敌人。"
                 }
             ],
             "icon": "IconSkill_JaguarSpear",
@@ -105298,7 +105255,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.5
+                        "value": 1.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105312,7 +105269,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.0
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105326,7 +105283,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 3.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105340,7 +105297,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.0
+                        "value": 4.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105354,7 +105311,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.5
+                        "value": 5.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105368,7 +105325,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.0
+                        "value": 6.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105382,7 +105339,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.5
+                        "value": 7.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105396,7 +105353,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.0
+                        "value": 8.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105410,7 +105367,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.5
+                        "value": 9.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105424,7 +105381,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 5.0
+                        "value": 10.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -105551,7 +105508,6 @@
             "type": "PlaceTrapSkillDefinition",
             "trapCount": 1,
             "multiTrapAngle": 60.0,
-            "trapFx": "HellClock.VFX.GameplayFx",
             "throwTrapDuration": 0.4,
             "triggerOnContact": true,
             "triggerOnPlace": false,
@@ -105638,7 +105594,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "Wirf eine Falle in mittlerer Entfernung auf den Boden.\n\nGegner, die die Falle auslösen, werden für einige Sekunden bewegungsunfähig und erleiden physischen Schaden."
                 },
                 {
                     "langCode": "en",
@@ -105646,19 +105602,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "Lanza una trampa al suelo a rango medio.\n\n Los enemigos que activan la trampa quedan inmovilizados durante unos segundos y sufren daño físico."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "Lancez un piège au sol à une distance moyenne. \n\nLes ennemis qui déclenchent le piège sont immobilisés pendant quelques secondes et subissent des dégâts physiques."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "中距離程度離れた地面に罠を投げる。\n\n罠を踏んだ敵は数秒間動けなくなり、物理ダメージを受ける。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "Rzuć pułapkę na ziemię ze średniego dystansu. \n\nPrzeciwnicy, którzy uruchomią pułapkę, są unieruchomieni na kilka sekund i otrzymują obrażenia fizyczne."
                 },
                 {
                     "langCode": "pt-br",
@@ -105666,15 +105622,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "Бросьте ловушку на землю на средней дистанции. \n\nВраги, попавшие в нее, будут обездвижены на несколько секунд и получат физический урон."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "Киньте пастку на землю на середній відстані. \n\nСупротивники, які потраплять у пастку, будуть знерухомлені на кілька секунд і зазнають фізичної шкоди."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Throw a trap on the ground at medium range. \n\nEnemies who spring the trap are immobilized for a few seconds and take Physical damage."
+                    "langTranslation": "在中距离向地面投掷陷阱。\n\n触发陷阱的敌人会被定身几秒钟，并受到物理伤害。"
                 }
             ],
             "icon": "IconSkill_Cilada",
@@ -105833,7 +105789,20 @@
                 }
             ],
             "skillDamageStatModifiers": {},
-            "skillValueModifierConfigs": [],
+            "skillValueModifierConfigs": [
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Radius Modifier",
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ],
             "cooldown": 3.0,
             "minCooldown": 0.0,
             "useAttackSpeed": true,
@@ -105841,6 +105810,7 @@
             "range": 15.0,
             "skillTags": [
                 "Area of Effect",
+                "Spell",
                 "Trap",
                 "Physical Damage",
                 "Attack"
@@ -106031,7 +106001,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Główne Kazanie"
+                    "langTranslation": "Ołowiane Kazanie"
                 },
                 {
                     "langCode": "pt-br",
@@ -106053,7 +106023,7 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "Schießt Blitzgeschosse ab, die auf nahe Gegner abprallen.\n\nNach dem Abfeuern aller Schüsse muss nachgeladen werden. Die Nachladegeschwindigkeit wird vom Abklingtempo beeinflusst.\n\nHauptpredigt füllt automatisch die Munition auf, wenn du sie ein paar Sekunden lang nicht benutzt."
                 },
                 {
                     "langCode": "en",
@@ -106061,19 +106031,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "Dispara balas de rayo que rebotan hacia los enemigos cercanos.\n\n Es necesario recargar después de disparar todos los proyectiles. La velocidad de recarga se ve afectada por la velocidad de enfriamiento.\n\n El sermón principal regenera automáticamente la munición si no se usa durante unos segundos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "Tirez des projectiles de foudre qui rebondissent sur les ennemis à proximité.\n\nVous devez recharger vos munitions une fois le chargeur vidé en fonction de votre vitesse de recharge.\n\nJugement dernier régénère automatiquement les munitions si vous ne l'utilisez pas pendant quelques secondes."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "連鎖する電撃の弾丸を付近の敵に撃つ。\n\n全弾発射後、リロードが必要になる。リロード速度はクールダウン速度の影響を受ける。\n\n導きの説法は、数秒間弾薬を使用しないと自動的に弾薬が回復する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "Strzelaj pociskami błyskawic, które odbijają się od pobliskich wrogów.\n\nPo oddaniu wszystkich strzałów wymagane jest przeładowanie. Szybkość przeładowania zależy od prędkości odnawiania.\n\nOłowiane Kazanie automatycznie regeneruje amunicję, jeśli nie używasz jej przez kilka sekund."
                 },
                 {
                     "langCode": "pt-br",
@@ -106081,15 +106051,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "Выпускайте снаряды молний, которые рикошетят в ближайших врагов.\n\nПосле расхода всех зарядов требуется перезарядка. Скорость перезарядки зависит от вашего времени восстановления навыков.\n\n«Главная проповедь» автоматически восстанавливает боеприпасы, если не использовать навык несколько секунд."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "Стріляйте блискавичними кулями, які відскакують у найближчих супротивників.\n\nПісля використання всіх набоїв необхідна перезарядка (час залежить від швидкості перезарядки).\n\nГоловна проповідь автоматично відновлює боєприпаси, якщо ви не використовуєте їх протягом кількох секунд."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "Shoot Lightning bullets that bounce to nearby enemies.\n\nReloading is required after firing all of its shots. The reload speed is affected by Cooldown Speed.\n\nLead Sermon automatically regenerates ammo if you don't use it for a few seconds."
+                    "langTranslation": "发射闪电子弹，子弹会反弹攻击附近的敌人。\n\n射击完毕后需要重新装弹。装弹速度受冷却速度影响。\n\n如果几秒钟内不使用“铅弹布道”，弹药会自动补充。"
                 }
             ],
             "icon": "IconSkill_SixShooter",
@@ -106103,7 +106073,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.4
+                        "value": 0.7
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106117,7 +106087,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.8
+                        "value": 1.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106131,7 +106101,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.2
+                        "value": 2.1
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106145,7 +106115,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.6
+                        "value": 2.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106159,7 +106129,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.0
+                        "value": 3.5
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106173,7 +106143,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.4
+                        "value": 4.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106187,7 +106157,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.8
+                        "value": 4.9
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106201,7 +106171,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.2
+                        "value": 5.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106215,7 +106185,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.6
+                        "value": 6.3
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106229,7 +106199,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 4.0
+                        "value": 7.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -106252,10 +106222,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Bullet Count Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 2.0,
@@ -106389,7 +106363,7 @@
             "residualArea": {
                 "type": "EffectAreaConfig`1",
                 "effectAreaDefinition": {
-                    "name": "Madman Slam attack DamageAreaDefinition",
+                    "name": "Madman Slam Attack DamageAreaDefinition",
                     "id": 128,
                     "type": "IntervalDamageAreaDefinition",
                     "hasSpecialDamageOnStart": false,
@@ -110069,7 +110043,7 @@
             "endDamageArea": {
                 "type": "EffectAreaConfig`1",
                 "effectAreaDefinition": {
-                    "name": "Madman Slam attack DamageAreaDefinition",
+                    "name": "Madman Slam Attack DamageAreaDefinition",
                     "id": 128,
                     "type": "IntervalDamageAreaDefinition",
                     "hasSpecialDamageOnStart": false,
@@ -110336,43 +110310,43 @@
             "descriptionKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Donner (PLACEHOLDER)"
+                    "langTranslation": "Entfesselt Blitze, die das Schlachtfeld umkreisen.\n\nDiese Fertigkeit trifft mit einer Verzögerung denselben Gegner mehrmals mit demselben Wurf.\n\nGeschossmengen-Boni gelten für diese Fertigkeit mit 25 % Effektivität, aber sie erhält 50 % der Geschossmengen-Boni als Schaden."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Release Lightning bolts that weave around the battlefield.\n\nThis Skill cannot hit the same enemy multiple times with the same cast."
+                    "langTranslation": "Release Lightning bolts that weave around the battlefield.\n\nThis Skill has a small delay to hit the same enemy multiple times with the same cast.\n\nProjectile Amount bonuses apply at 25% effectiveness to this Skill, but it gains 50% of Projectile Amount bonuses as damage."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Trueno (PLACEHOLDER)"
+                    "langTranslation": "Lanza rayos que se entrelazan por el campo de batalla.\n\n Esta habilidad tiene un pequeño retraso para golpear al mismo enemigo varias veces con el mismo lanzamiento.\n\n Las bonificaciones de la cantidad de proyectiles se aplican con una efectividad del 25 % a esta habilidad, pero obtiene el 50 % de las bonificaciones de la cantidad de proyectiles como daño."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Grondement de tonnerre (PLACEHOLDER)"
+                    "langTranslation": "Lancez des éclairs qui zigzaguent sur le champ de bataille.\n\nUn seul lancer de cette compétence peut toucher plusieurs fois le même ennemi après un certain délai.\n\nLes bonus associés au nombre de projectiles ont une efficacité de 25 % sur cette compétence, mais celle-ci inflige 50 % des bonus associés au nombre de projectiles sous forme de dégâts."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "電撃（PLACEHOLDER）"
+                    "langTranslation": "戦場を旋回する電撃を解き放つ。\n\n1回の発動で同じ敵に複数回命中する場合は、短時間の遅延がある。\n\nこのスキルは投射物発射数ボーナスの効果を25%受けるが、投射物発射数ボーナス効果の50%はダメージとして得る。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Grzmot (PLACEHOLDER)"
+                    "langTranslation": "Wystrzel błyskawice przemieszczające się zygzakiem po polu bitwy.\n\nTa umiejętność wymaga niewielkiego opóźnienia, aby móc trafić tego samego wroga wielokrotnie jednym zaklęciem.\n\nPremie do liczby pocisków działają na tę umiejętność ze skutecznością zmniejszoną do 25%, ale zyskuje 50% tych premii jako dodatkowe obrażenia."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dispara raios Elétricos que se espalham pelo campo de batalha.\n\nEsta Habilidade não pode atingir o mesmo inimigo várias vezes com o mesmo disparo."
+                    "langTranslation": "Dispara raios Elétricos que se espalham pelo campo de batalha.\n\nEsta Habilidade tem um pequeno intervalo para atingir o mesmo inimigo várias vezes com o mesmo disparo.\n\nBônus de Quantidade de Projéteis são aplicados a 25% de eficácia nesta Habilidade, mas ela ganha 50% dos bônus de Quantidade de Projéteis como bônus de dano."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Гром (УСЛОВНОЕ НАЗВАНИЕ)"
+                    "langTranslation": "Выпускайте молнии, которые хаотично перемещаются по полю боя.\n\nНавык имеет небольшую задержку и может поразить одного и того же врага несколько раз за одно применение.\n\nБонусы к количеству снарядов применяются к этому навыку с эффективностью 25%, но при этом 50% этих бонусов дополнительно преобразуются в урон."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Thunder (PLACEHOLDER)"
+                    "langTranslation": "Випускайте блискавки, які обвивають поле бою.\n\nЦя навичка має невелику затримку, перш ніж повторно вразити того самого супротивника за одне застосування.\n\nБонуси до кількості снарядів діють на цю навичку з ефективністю 25%, але вона додатково отримує 50% від цих бонусів у вигляді шкоди."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "雷鸣 (占位符)"
+                    "langTranslation": "释放在战场上穿梭的闪电。\n\n一次施放多次命中同一敌人时，该技能会有短暂命中间隔。\n\n投射物数量加成对该技能仅有 25% 效果，但该技能会获得投射物数量加成 50% 的伤害加成。"
                 }
             ],
             "icon": "IconSkill_TupasWrath",
@@ -110386,7 +110360,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.325
+                        "value": 0.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110400,7 +110374,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.65
+                        "value": 0.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110414,7 +110388,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 0.975
+                        "value": 1.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110428,7 +110402,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.3
+                        "value": 1.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110442,7 +110416,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.625
+                        "value": 2.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110456,7 +110430,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 1.95
+                        "value": 2.4
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110470,7 +110444,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.275
+                        "value": 2.8
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110484,7 +110458,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 2.925
+                        "value": 3.2
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110498,7 +110472,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.25
+                        "value": 3.6
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110512,7 +110486,7 @@
                         "type": "SkillUpgradeModifier",
                         "skillValueModifierKey": "Damage Modifier",
                         "modifierType": "Additive",
-                        "value": 3.575
+                        "value": 4.0
                     },
                     {
                         "type": "SkillUpgradeModifier",
@@ -110535,10 +110509,26 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Projectile Amount Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 0.25
+                        }
+                    ]
+                },
+                {
+                    "type": "SkillValueModifierConfig",
+                    "skillValueModifierKey": "Damage Modifier",
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 0.5
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -112727,7 +112717,7 @@
                 4.0,
                 6.0
             ],
-            "projectileLifeTime": 6.0,
+            "projectileLifeTime": 4.5,
             "disableOnCasterDeath": true,
             "projectileAmountRange": [
                 1,
@@ -112825,10 +112815,10 @@
                 }
             ],
             "icon": "",
-            "baseDamageMod": 1.0,
+            "baseDamageMod": 0.5,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.5,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -113478,7 +113468,7 @@
             "minCooldown": 0.0,
             "useAttackSpeed": true,
             "ignoreCooldownSpeed": false,
-            "range": 7.0,
+            "range": 10.0,
             "skillTags": [
                 "Physical Damage",
                 "Attack"
@@ -113680,7 +113670,7 @@
             "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
-            "range": 15.0,
+            "range": 20.0,
             "skillTags": [
                 "Physical Damage"
             ],
@@ -115609,7 +115599,7 @@
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
-            "cooldown": 5.0,
+            "cooldown": 10.0,
             "minCooldown": 0.0,
             "useAttackSpeed": false,
             "ignoreCooldownSpeed": false,
@@ -116438,14 +116428,14 @@
             "id": 604,
             "type": "ProjectileAttackSkillDefinition",
             "projectileSpeedModifierRange": [
-                20.0,
+                25.0,
                 25.0
             ],
             "projectileLifeTime": 10.0,
             "disableOnCasterDeath": false,
             "projectileAmountRange": [
-                7,
-                8
+                8,
+                9
             ],
             "intervalBetweenProjectiles": 0.0,
             "projectilePierceAmount": 0,
@@ -117487,10 +117477,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Projectile Amount Modifier",
-                    "multiplicativeStats": [
-                        "SkillProjectileAmount"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillProjectileAmount",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -119007,9 +119001,9 @@
                     "damageMod": 1.0,
                     "useSourceSkillDamageModifierWhenAvailable": false,
                     "useDamageTypeScalingOnOverride": false,
-                    "eDamageType": "FIRE",
+                    "eDamageType": "LIGHTNING",
                     "damageStatModifiers": [],
-                    "radius": 2.5,
+                    "radius": 4.0,
                     "effectInterval": 0.5
                 },
                 "effectAreaDuration": 0.2,
@@ -122413,7 +122407,7 @@
                 13.0
             ],
             "projectileLifeTime": 5.0,
-            "disableOnCasterDeath": false,
+            "disableOnCasterDeath": true,
             "projectileAmountRange": [
                 5,
                 5
@@ -124717,7 +124711,7 @@
                 "damageAreaConfig": {
                     "type": "EffectAreaConfig`1",
                     "effectAreaDefinition": {
-                        "name": "Madman Slam attack DamageAreaDefinition",
+                        "name": "Madman Slam Attack DamageAreaDefinition",
                         "id": 128,
                         "type": "IntervalDamageAreaDefinition",
                         "hasSpecialDamageOnStart": false,
@@ -125766,10 +125760,14 @@
                 {
                     "type": "SkillValueModifierConfig",
                     "skillValueModifierKey": "Radius Modifier",
-                    "multiplicativeStats": [
-                        "SkillAreaOfEffect"
-                    ],
-                    "additiveStats": []
+                    "statModifiers": [
+                        {
+                            "type": "StatModifierDefinition",
+                            "eStatDefinition": "SkillAreaOfEffect",
+                            "modifierType": "Multiplicative",
+                            "value": 1.0
+                        }
+                    ]
                 }
             ],
             "cooldown": 0.0,
@@ -128826,7 +128824,6 @@
                 7
             ],
             "enemiesDropBombAfterDeath": true,
-            "explosiveObjectFx": "HellClock.VFX.GameplayFx",
             "spawnRadius": 3.0,
             "spawnInterval": 0.025,
             "spawnNoise": [
@@ -129028,7 +129025,7 @@
             "residualArea": {
                 "type": "EffectAreaConfig`1",
                 "effectAreaDefinition": {
-                    "name": "Madman Slam attack DamageAreaDefinition",
+                    "name": "Madman Slam Attack DamageAreaDefinition",
                     "id": 128,
                     "type": "IntervalDamageAreaDefinition",
                     "hasSpecialDamageOnStart": false,
@@ -129309,7 +129306,7 @@
             "residualArea": {
                 "type": "EffectAreaConfig`1",
                 "effectAreaDefinition": {
-                    "name": "Madman Slam attack DamageAreaDefinition",
+                    "name": "Madman Slam Attack DamageAreaDefinition",
                     "id": 128,
                     "type": "IntervalDamageAreaDefinition",
                     "hasSpecialDamageOnStart": false,
@@ -130136,7 +130133,7 @@
                 5.0
             ],
             "projectileLifeTime": 5.0,
-            "disableOnCasterDeath": false,
+            "disableOnCasterDeath": true,
             "projectileAmountRange": [
                 3,
                 4
@@ -132671,25 +132668,7 @@
         {
             "name": "Broken Mirror - Unique - Passive Summon Skill Definition",
             "id": 678,
-            "type": "SummonTheGuardSkillDefinition",
-            "summonAttackSpeedModifier": 1.0,
-            "companionBuff": {
-                "name": "Summon The Guard Companion Buff",
-                "id": 79,
-                "type": "StatModifierStatusDefinition"
-            },
-            "companionBuffDuration": 3.0,
-            "companionSpawnDelay": 0.05,
-            "alternativeSkillPool": [
-                {
-                    "weight": 1.0,
-                    "value": {
-                        "name": "RepeaterDefinition",
-                        "id": 3,
-                        "type": "RepeaterSkillDefinition"
-                    }
-                }
-            ],
+            "type": "PassiveSummonCompanionSkillDefinition",
             "summonAmount": 1,
             "companionDefinition": {
                 "name": "Broken Mirror - Companion",
@@ -132786,7 +132765,7 @@
                 }
             ],
             "icon": "IconSkill_SummonTheGuard",
-            "baseDamageMod": 0.45,
+            "baseDamageMod": 1.0,
             "eDamageType": "PHYSICAL",
             "isAreaDamage": false,
             "sameTargetHitCooldown": 0.0,
@@ -132794,212 +132773,13 @@
                 "1": [
                     {
                         "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.15
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.1
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.3
-                    }
-                ],
-                "2": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.3
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.2
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.65
-                    }
-                ],
-                "3": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.45
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.3
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 2.15
-                    }
-                ],
-                "4": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.6
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.4
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 3.0
-                    }
-                ],
-                "5": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.75
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.5
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 3.3
-                    }
-                ],
-                "6": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 0.9
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.6
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 3.65
-                    }
-                ],
-                "7": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.05
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.7
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 4.0
-                    }
-                ],
-                "8": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.2
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.7
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 4.0
-                    }
-                ],
-                "9": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.35
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.7
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 4.0
-                    }
-                ],
-                "10": [
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Damage Modifier",
-                        "modifierType": "Additive",
-                        "value": 1.5
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Mana Cost Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 1.7
-                    },
-                    {
-                        "type": "SkillUpgradeModifier",
-                        "skillValueModifierKey": "Cooldown Modifier",
-                        "modifierType": "Multiplicative",
-                        "value": 4.0
+                        "skillValueModifierKey": "Summon Amount Modifier",
+                        "modifierType": "AbsoluteOverride",
+                        "value": 1.0
                     }
                 ]
             },
-            "statModifiersPerRankUpgrade": [
-                {
-                    "type": "StatModifierDefinition",
-                    "eStatDefinition": "CooldownSpeed",
-                    "modifierType": "Additive",
-                    "value": 0.015
-                }
-            ],
+            "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
             "skillValueModifierConfigs": [],
             "cooldown": 15.0,
@@ -133008,8 +132788,6 @@
             "ignoreCooldownSpeed": false,
             "range": 10.0,
             "skillTags": [
-                "Summon",
-                "Projectile",
                 "Physical Damage"
             ],
             "skillValueModifiers": [
@@ -133092,34 +132870,6 @@
                 {
                     "valueKey": "Summon Amount Modifier",
                     "valueType": "Increment"
-                },
-                {
-                    "valueKey": "Summon Attack Speed Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Activation Buff Duration Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Summon Amount Multiplier Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Amount Buff Base Duration Modifier",
-                    "valueType": "Multiplier"
-                },
-                {
-                    "valueKey": "Enable Companion Buff Modifier",
-                    "valueType": "Toggle"
-                },
-                {
-                    "valueKey": "Enable Amount Buff Modifier",
-                    "valueType": "Toggle"
-                },
-                {
-                    "valueKey": "Enable Alternative Skills Modifier",
-                    "valueType": "Toggle"
                 }
             ]
         },
@@ -139206,8 +138956,8 @@
             "id": 710,
             "type": "ProjectileAttackSkillDefinition",
             "projectileSpeedModifierRange": [
-                20.0,
-                20.0
+                30.0,
+                30.0
             ],
             "projectileLifeTime": 2.0,
             "disableOnCasterDeath": false,
@@ -139221,7 +138971,7 @@
             "manaCost": 0.0,
             "useNegativeMana": false,
             "lifeCost": 0.0,
-            "baseSkillSpeed": 0.8,
+            "baseSkillSpeed": 1.0,
             "localizedName": [
                 {
                     "langCode": "de",
@@ -140101,7 +139851,7 @@
             "baseDamageMod": 0.0,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -149434,7 +149184,7 @@
             "residualArea": {
                 "type": "EffectAreaConfig`1",
                 "effectAreaDefinition": {
-                    "name": "Madman Slam attack DamageAreaDefinition",
+                    "name": "Madman Slam Attack DamageAreaDefinition",
                     "id": 128,
                     "type": "IntervalDamageAreaDefinition",
                     "hasSpecialDamageOnStart": false,
@@ -150469,7 +150219,7 @@
                             "type": "TauntSkillDefinition"
                         },
                         {
-                            "name": "Deadman ALT - Spawn Swarrm Right Skill Definition",
+                            "name": "Deadman ALT - Spawn Swarm Right Skill Definition",
                             "id": 764,
                             "type": "SpawnEnemyWavesSkillDefinition"
                         },
@@ -150669,7 +150419,7 @@
             ]
         },
         {
-            "name": "Deadman ALT - Spawn Swarrm Right Skill Definition",
+            "name": "Deadman ALT - Spawn Swarm Right Skill Definition",
             "id": 764,
             "type": "SpawnEnemyWavesSkillDefinition",
             "availableEnemies": [
@@ -150692,7 +150442,6 @@
                 5
             ],
             "enemiesDropBombAfterDeath": true,
-            "explosiveObjectFx": "HellClock.VFX.GameplayFx",
             "spawnRadius": 3.0,
             "spawnInterval": 0.025,
             "spawnNoise": [
@@ -150911,7 +150660,7 @@
                             "type": "TauntSkillDefinition"
                         },
                         {
-                            "name": "Deadman Swarm Vomit Homing Projectilers Skill Definition",
+                            "name": "Deadman Swarm Vomit Homing Projectiles Skill Definition",
                             "id": 494,
                             "type": "HomingProjectileAttackSkillDefinition"
                         }
@@ -152967,7 +152716,7 @@
             "baseDamageMod": 1.0,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},
@@ -153218,7 +152967,7 @@
             "baseDamageMod": 1.0,
             "eDamageType": "FIRE",
             "isAreaDamage": false,
-            "sameTargetHitCooldown": 0.0,
+            "sameTargetHitCooldown": 0.3,
             "modifiersPerLevel": {},
             "statModifiersPerRankUpgrade": [],
             "skillDamageStatModifiers": {},

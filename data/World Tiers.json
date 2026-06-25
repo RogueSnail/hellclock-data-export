@@ -142,7 +142,7 @@
                 "specificSheetBaseStatModifiers": {}
             },
             "regularWorldSheetScaling": {
-                "name": "Abyss Regular Sheet Scaling",
+                "name": "Abyss Veteran Sheet Scaling",
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
@@ -152,120 +152,77 @@
                     "Regular": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.4,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Minion": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.4,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Champion": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.4,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Rare": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.4,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Boss": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.4,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Unique": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.4,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     }
                 },
-                "specificSheetBaseStatModifiers": {
-                    "LootGoblinT1Sheet (HellClock.Stats.EnemySheet)": {
-                        "Life": {
-                            "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.3,
-                            "additive": 0.0
-                        }
-                    },
-                    "LootGoblinT2Sheet (HellClock.Stats.EnemySheet)": {
-                        "Life": {
-                            "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.3,
-                            "additive": 0.0
-                        }
-                    },
-                    "LootGoblinT3Sheet (HellClock.Stats.EnemySheet)": {
-                        "Life": {
-                            "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.3,
-                            "additive": 0.0
-                        }
-                    },
-                    "LootGoblinT4Sheet (HellClock.Stats.EnemySheet)": {
-                        "Life": {
-                            "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.3,
-                            "additive": 0.0
-                        }
-                    },
-                    "LootGoblinT5Sheet (HellClock.Stats.EnemySheet)": {
-                        "Life": {
-                            "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.3,
-                            "additive": 0.0
-                        }
-                    },
-                    "LootGoblinT6Sheet (HellClock.Stats.EnemySheet)": {
-                        "Life": {
-                            "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.3,
-                            "additive": 0.0
-                        }
-                    }
-                }
+                "specificSheetBaseStatModifiers": {}
             },
             "playerStatModifiers": [
                 {
@@ -520,7 +477,7 @@
                 }
             },
             "regularWorldSheetScaling": {
-                "name": "Oblivion Regular Sheet Scaling",
+                "name": "Oblivion Veteran Sheet Scaling",
                 "type": "CharacterSheetBaseModifier",
                 "experienceMultiplier": 1.0,
                 "useCurveScaling": false,
@@ -530,72 +487,72 @@
                     "Regular": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.6,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Minion": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.6,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Champion": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.6,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Rare": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.6,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Boss": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.6,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     },
                     "Unique": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.5,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.6,
+                            "multiplicative": 1.0,
                             "additive": 0.0
                         }
                     }
@@ -604,42 +561,42 @@
                     "LootGoblinT1Sheet (HellClock.Stats.EnemySheet)": {
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.25,
+                            "multiplicative": 0.5,
                             "additive": 0.0
                         }
                     },
                     "LootGoblinT2Sheet (HellClock.Stats.EnemySheet)": {
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.25,
+                            "multiplicative": 0.5,
                             "additive": 0.0
                         }
                     },
                     "LootGoblinT3Sheet (HellClock.Stats.EnemySheet)": {
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.25,
+                            "multiplicative": 0.5,
                             "additive": 0.0
                         }
                     },
                     "LootGoblinT4Sheet (HellClock.Stats.EnemySheet)": {
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.25,
+                            "multiplicative": 0.5,
                             "additive": 0.0
                         }
                     },
                     "LootGoblinT5Sheet (HellClock.Stats.EnemySheet)": {
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.25,
+                            "multiplicative": 0.5,
                             "additive": 0.0
                         }
                     },
                     "LootGoblinT6Sheet (HellClock.Stats.EnemySheet)": {
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 0.25,
+                            "multiplicative": 0.5,
                             "additive": 0.0
                         }
                     }
@@ -769,7 +726,7 @@
             "requiredConditions": "HellClock.Condition.ConditionGroups"
         },
         {
-            "name": "Void World Tier Config",
+            "name": "Nightmare Void World Tier Config",
             "type": "WorldTierConfig",
             "worldSheetScaling": {
                 "name": "Void Veteran Sheet Scaling",
@@ -1082,7 +1039,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "ExperienceGain",
                     "modifierType": "Multiplicative",
-                    "value": 0.4
+                    "value": 0.6
                 },
                 {
                     "type": "StatModifierDefinition",
@@ -1094,7 +1051,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "GoldGain",
                     "modifierType": "Multiplicative",
-                    "value": 0.4
+                    "value": 0.6
                 }
             ],
             "playerIncrementModifiers": [
