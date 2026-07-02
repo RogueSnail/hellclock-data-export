@@ -5594,8 +5594,8 @@
             "aiConfig": {
                 "type": "EnemyAIConfig",
                 "visionRadius": 40.0,
-                "visionAggressivenessIncrement": 2.0,
-                "damageAggressivenessIncrement": 2.0,
+                "visionAggressivenessIncrement": 10.0,
+                "damageAggressivenessIncrement": 10.0,
                 "aggressivenessDecay": 0.0,
                 "passiveSkills": [
                     {
@@ -20310,7 +20310,7 @@
                 ]
             },
             "ignoreKnockback": false,
-            "eCharacterMovementCategory": "EliteEnemy",
+            "eCharacterMovementCategory": "MediumEnemy",
             "aiConfig": {
                 "type": "EnemyAIConfig",
                 "visionRadius": 22.0,

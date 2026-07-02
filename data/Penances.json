@@ -7811,15 +7811,15 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Du hast -{0} Startläufe."
+                            "langTranslation": "Du hast {0} Startläufe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "You have -{0} starting Runs."
+                            "langTranslation": "You have {0} starting Runs."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Tienes -{0} intentos de inicio. "
+                            "langTranslation": "Tienes {0} intentos de inicio. "
                         },
                         {
                             "langCode": "fr",
@@ -7827,27 +7827,27 @@
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "開始可能なラン数-{0}。"
+                            "langTranslation": "開始可能なラン数{0}。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Masz -{0} prób początkowych."
+                            "langTranslation": "Masz {0} prób początkowych."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Você tem -{0} Tentativas iniciais."
+                            "langTranslation": "Você tem {0} Tentativas iniciais."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "У вас есть -{0} попыток начать."
+                            "langTranslation": "У вас есть {0} попыток начать."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Стартові проходження: -{0}."
+                            "langTranslation": "Стартові проходження: {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "初始挑战次数 -{0}。"
+                            "langTranslation": "初始挑战次数 {0}。"
                         }
                     ]
                 }
@@ -7931,15 +7931,15 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Du hast -{0} Startläufe."
+                            "langTranslation": "Du hast {0} Startläufe."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "You have -{0} starting Runs."
+                            "langTranslation": "You have {0} starting Runs."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Tienes -{0} intentos de inicio. "
+                            "langTranslation": "Tienes {0} intentos de inicio. "
                         },
                         {
                             "langCode": "fr",
@@ -7947,27 +7947,27 @@
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "開始可能なラン数-{0}。"
+                            "langTranslation": "開始可能なラン数{0}。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Masz -{0} prób początkowych."
+                            "langTranslation": "Masz {0} prób początkowych."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Você tem -{0} Tentativas iniciais."
+                            "langTranslation": "Você tem {0} Tentativas iniciais."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "У вас есть -{0} попыток начать."
+                            "langTranslation": "У вас есть {0} попыток начать."
                         },
                         {
                             "langCode": "uk",
-                            "langTranslation": "Стартові проходження: -{0}."
+                            "langTranslation": "Стартові проходження: {0}."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "初始挑战次数 -{0}。"
+                            "langTranslation": "初始挑战次数 {0}。"
                         }
                     ]
                 }

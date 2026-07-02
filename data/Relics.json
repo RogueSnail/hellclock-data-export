@@ -794,6 +794,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -1088,6 +1093,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -2771,6 +2781,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -3064,6 +3079,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -3357,6 +3377,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -3619,6 +3644,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -3912,6 +3942,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -4205,6 +4240,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -4498,6 +4538,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -4761,6 +4806,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -4997,6 +5047,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -5290,6 +5345,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -5583,6 +5643,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -5819,6 +5884,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -6055,6 +6125,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -6348,6 +6423,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -6642,6 +6722,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -6937,6 +7022,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -7173,6 +7263,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -7467,6 +7562,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -7729,6 +7829,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -8022,6 +8127,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -8315,6 +8425,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -8609,6 +8724,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -8870,6 +8990,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -9858,6 +9983,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -10094,6 +10224,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "210"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -10388,6 +10528,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -10681,6 +10831,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "67"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -10942,6 +11102,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -11178,6 +11348,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -11471,6 +11646,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "203"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -11732,6 +11917,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "71"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -12025,6 +12220,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -12319,6 +12524,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -12580,6 +12795,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "67"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -12873,6 +13098,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -13150,6 +13385,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "210"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -13412,6 +13657,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "210"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -13705,6 +13960,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "210"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -13998,6 +14263,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -14292,6 +14567,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "71"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -14585,6 +14870,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -14878,6 +15173,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "203"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -15172,6 +15477,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "71"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -15433,6 +15748,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -15727,6 +16052,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -15988,6 +16323,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "209"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -16281,6 +16626,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "209"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -16542,6 +16897,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "209"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -16835,6 +17200,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "72"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -17128,6 +17503,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "72"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -17421,6 +17806,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "72"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -17682,6 +18077,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "46"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -17975,6 +18380,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "46"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -18211,6 +18626,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "46"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -18447,6 +18872,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "70"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -18708,6 +19143,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "70"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -18960,6 +19405,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "70"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -19253,6 +19708,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "209"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -19547,6 +20012,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "49"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -19840,6 +20315,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -20134,6 +20619,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -20427,6 +20922,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "49"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -20661,6 +21166,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "323"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -20923,6 +21438,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "323"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -21184,6 +21709,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "209"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -21478,6 +22013,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "209"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -21739,6 +22284,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "323"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -22727,6 +23282,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -23021,6 +23581,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -23314,6 +23884,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -23575,6 +24150,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "201"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -23836,6 +24421,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -24097,6 +24687,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -24390,6 +24985,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -24651,6 +25251,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -24945,6 +25550,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -25239,6 +25849,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -25501,6 +26116,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -25794,6 +26414,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -26088,6 +26713,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -26381,6 +27017,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -26674,6 +27321,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -26968,6 +27626,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -27261,6 +27930,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -27554,6 +28234,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -27847,6 +28538,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -28140,6 +28842,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -28433,6 +29146,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -28726,6 +29450,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -29019,6 +29754,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -29255,6 +30001,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "4"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -29516,6 +30273,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -29809,6 +30571,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -30103,6 +30870,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -30397,6 +31169,27 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "3"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -30658,6 +31451,27 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "3"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -30919,6 +31733,27 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "3"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -31212,6 +32047,27 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "3"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -31474,6 +32330,27 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "3"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -31767,6 +32644,27 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "3"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -32030,6 +32928,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -32293,6 +33202,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -32588,6 +33508,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -32881,6 +33812,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -33176,6 +34118,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -33471,6 +34424,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -33764,6 +34728,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -34027,6 +35002,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -34322,6 +35308,17 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "10"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -34615,6 +35612,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -34908,6 +35910,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -35201,6 +36208,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -35494,6 +36506,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "556"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -35787,6 +36813,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "556"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -36049,6 +37089,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "556"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -36343,6 +37397,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "557"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -36604,6 +37672,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "557"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -36865,6 +37947,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "557"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -37159,6 +38255,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "554"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -37420,6 +38530,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "554"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -37713,6 +38837,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "554"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -38006,6 +39144,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "555"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -38268,6 +39420,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "555"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -38561,6 +39727,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "555"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -38854,6 +40034,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "577"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -39147,6 +40341,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "577"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -39440,6 +40648,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "577"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -39702,6 +40924,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "558"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -39995,6 +41231,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "558"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -40256,6 +41506,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "558"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -40494,6 +41758,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -40757,6 +42026,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -41053,6 +42327,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -41291,6 +42575,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -41554,6 +42848,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -41793,6 +43097,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -42088,6 +43402,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -42353,6 +43677,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -42618,6 +43952,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "211"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -42882,6 +44226,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -43145,6 +44494,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -43440,6 +44794,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -43703,6 +45062,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Small",
             "primaryAffixAmount": [
                 0,
@@ -43941,6 +45305,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -44205,6 +45574,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -44469,6 +45843,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -44765,6 +46149,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -45061,6 +46455,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -45357,6 +46761,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -45652,6 +47066,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -45947,6 +47371,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "326"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -46210,6 +47644,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "556"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -46506,6 +47954,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "554"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -46770,6 +48232,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "557"
+                    }
+                ]
+            },
             "eRelicSize": "Exalted",
             "primaryAffixAmount": [
                 1,
@@ -47065,6 +48541,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "554"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -47328,6 +48818,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "577"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -47623,6 +49127,20 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": ""
+                    },
+                    {
+                        "condition": "Is Skill Available Condition",
+                        "targetValue": "558"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,
@@ -48441,6 +49959,27 @@
                 }
             ],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Blue Devotion Condition",
+                        "required_devotion": "Blue",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Green Devotion Condition",
+                        "required_devotion": "Green",
+                        "targetValue": "3"
+                    },
+                    {
+                        "condition": "Has Red Devotion Condition",
+                        "required_devotion": "Red",
+                        "targetValue": "3"
+                    }
+                ]
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 0,
@@ -48558,6 +50097,16 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": [
+                    {
+                        "condition": "Has Cursed War DLC Condition",
+                        "targetValue": "555"
+                    }
+                ]
+            },
             "eRelicSize": "Grand",
             "primaryAffixAmount": [
                 1,
@@ -48851,6 +50400,11 @@
             ],
             "implicitAffixPool": [],
             "disassembleSoulStonesReward": 120,
+            "relicShopCost": 250,
+            "availabilityConditions": {
+                "type": "ConditionConfigList",
+                "conditionsConfigList": []
+            },
             "eRelicSize": "Large",
             "primaryAffixAmount": [
                 1,

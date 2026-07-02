@@ -81295,16 +81295,16 @@
             "id": 438,
             "type": "ProjectileAttackSkillDefinition",
             "projectileSpeedModifierRange": [
-                13.0,
-                20.0
+                14.0,
+                17.0
             ],
-            "projectileLifeTime": 10.0,
-            "disableOnCasterDeath": false,
+            "projectileLifeTime": 4.0,
+            "disableOnCasterDeath": true,
             "projectileAmountRange": [
-                30,
-                30
+                13,
+                18
             ],
-            "intervalBetweenProjectiles": 0.1,
+            "intervalBetweenProjectiles": 0.02,
             "projectilePierceAmount": 0,
             "eProjectileWallBehavior": "Default",
             "manaCost": 0.0,
@@ -99284,8 +99284,8 @@
             "id": 532,
             "type": "ParabolaProjectileAttackSkillDefinition",
             "sequenceAttackNoise": [
-                3.0,
-                3.0
+                0.0,
+                0.0
             ],
             "areaType": "DamageOverTime",
             "damageAreaConfig": {
@@ -133877,7 +133877,7 @@
                     },
                     "effectAreaDuration": 20.0,
                     "hasAnticipation": true,
-                    "anticipationDuration": 0.35,
+                    "anticipationDuration": 1.0,
                     "anticipationDelay": 0.0
                 }
             },

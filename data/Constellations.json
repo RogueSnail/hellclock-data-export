@@ -556,7 +556,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "1"
                         }
                     ]
                 },
@@ -1637,7 +1638,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "1"
                         }
                     ]
                 },
@@ -2813,7 +2815,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "1"
                         }
                     ]
                 },
@@ -3841,7 +3844,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "5"
                         }
                     ]
                 },
@@ -4487,7 +4491,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -6210,7 +6215,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "2"
                         }
                     ]
                 },
@@ -7090,7 +7096,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -8399,7 +8406,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -9428,11 +9436,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "2"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "2"
                         }
                     ]
                 },
@@ -10203,7 +10213,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "2"
                         }
                     ]
                 },
@@ -10910,11 +10921,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "3"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -11764,7 +11777,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -12473,7 +12487,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -13344,7 +13359,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -14192,7 +14208,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -15415,7 +15432,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -16076,7 +16094,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -16817,7 +16836,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -17853,7 +17873,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -18803,7 +18824,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -19754,7 +19776,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -20547,11 +20570,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "2"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "2"
                         }
                     ]
                 },
@@ -21311,11 +21336,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -21850,11 +21877,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -22686,11 +22715,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "8"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -24263,11 +24294,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "5"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -25347,11 +25380,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -26589,7 +26624,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -27850,7 +27886,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "2"
                         }
                     ]
                 },
@@ -29221,7 +29258,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -30083,11 +30121,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "8"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "8"
                         }
                     ]
                 },
@@ -31177,11 +31217,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "7"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -32318,11 +32360,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -33060,15 +33104,18 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -33487,11 +33534,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "8"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -34241,11 +34290,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "8"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "8"
                         }
                     ]
                 },
@@ -34925,11 +34976,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "3"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -35888,7 +35941,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "5"
                         }
                     ]
                 },
@@ -36426,11 +36480,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "6"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -37447,15 +37503,18 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "3"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "3"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -38307,15 +38366,18 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "2"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "2"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "2"
                         }
                     ]
                 },
@@ -39260,11 +39322,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -39882,11 +39946,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "6"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -40792,11 +40858,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },
@@ -42097,11 +42165,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "6"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -43204,15 +43274,18 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "6"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "6"
                         },
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -43753,11 +43826,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "8"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -44345,7 +44420,8 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "7"
                         }
                     ]
                 },
@@ -45522,11 +45598,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "8"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "8"
                         }
                     ]
                 },
@@ -46617,11 +46695,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "3"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -47296,11 +47376,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Green Devotion Condition",
-                            "required_devotion": "Green"
+                            "required_devotion": "Green",
+                            "targetValue": "5"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "3"
                         }
                     ]
                 },
@@ -48177,11 +48259,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "6"
                         },
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "6"
                         }
                     ]
                 },
@@ -49095,11 +49179,13 @@
                     "conditionsConfigList": [
                         {
                             "condition": "Has Blue Devotion Condition",
-                            "required_devotion": "Blue"
+                            "required_devotion": "Blue",
+                            "targetValue": "4"
                         },
                         {
                             "condition": "Has Red Devotion Condition",
-                            "required_devotion": "Red"
+                            "required_devotion": "Red",
+                            "targetValue": "4"
                         }
                     ]
                 },

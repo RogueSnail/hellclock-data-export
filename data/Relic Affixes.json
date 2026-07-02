@@ -51627,9 +51627,9 @@
                         {
                             "type": "SkillEffectVariable",
                             "name": "Damage",
-                            "baseValue": 1.4,
+                            "baseValue": 0.4,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                            "eSkillEffectVariableFormat": "Percentage"
                         }
                     ]
                 },
@@ -51640,7 +51640,7 @@
                         "effectTarget": "Self",
                         "startDisabled": false,
                         "useCharacterEffectTrigger": false,
-                        "effectTrigger": "SpendMana",
+                        "effectTrigger": "Always",
                         "characterEffectTrigger": "Kill",
                         "ruleSet": {
                             "type": "SkillEffectRuleSet",
@@ -51698,7 +51698,7 @@
                             {
                                 "type": "SkillEffectStatModifierDefinition",
                                 "eStatDefinition": "SkillSpellDamage",
-                                "modifierType": "MultiplicativeAdditive",
+                                "modifierType": "Additive",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Damage",
@@ -54070,7 +54070,7 @@
                     }
                 ]
             },
-            "customIcon": "IconStatus_Bleeding",
+            "customIcon": "IconStatus_PhysicalDamage",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -54338,7 +54338,7 @@
                     }
                 ]
             },
-            "customIcon": "IconStatus_Bleeding_white",
+            "customIcon": "IconStatus_PhysicalDamage",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -54492,7 +54492,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "Multiplicative"
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
                         }
                     ]
                 },
@@ -54530,7 +54530,7 @@
                             {
                                 "type": "SkillEffectStatModifierDefinition",
                                 "eStatDefinition": "IgniteDamage",
-                                "modifierType": "Multiplicative",
+                                "modifierType": "MultiplicativeAdditive",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Roll",
@@ -56544,7 +56544,7 @@
                     }
                 ]
             },
-            "customIcon": "Icon_MoveSpeed_Increase",
+            "customIcon": "IconSkill_JaguarSpear",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -62739,7 +62739,7 @@
                                 "useDamageTypeScalingOnOverride": false,
                                 "eDamageType": "PHYSICAL",
                                 "damageStatModifiers": [],
-                                "radius": 2.0,
+                                "radius": 10.0,
                                 "effectInterval": 2.0
                             },
                             "effectAreaDuration": 0.1,
@@ -64077,7 +64077,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 },
@@ -64093,7 +64093,7 @@
                                 "modifierType": "Additive",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
-                                    "valueOrName": "Roll",
+                                    "valueOrName": "0.33333",
                                     "eSkillEffectVariableModifier": "0",
                                     "statusToStack": {},
                                     "statDefinition": "BaseDamage",
@@ -64112,7 +64112,7 @@
                                 "modifierType": "Additive",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
-                                    "valueOrName": "Roll",
+                                    "valueOrName": "0.33333",
                                     "eSkillEffectVariableModifier": "0",
                                     "statusToStack": {},
                                     "statDefinition": "BaseDamage",
@@ -64129,6 +64129,25 @@
                                 "type": "SkillEffectSkillModifierDefinition",
                                 "skillValueModifierKey": "Plague Damage Conversion Modifier",
                                 "modifierType": "Additive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "0.33333",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            },
+                            {
+                                "type": "SkillEffectSkillModifierDefinition",
+                                "skillValueModifierKey": "Damage Modifier",
+                                "modifierType": "Multiplicative",
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Roll",
@@ -64208,32 +64227,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.18,
-                        0.22
+                        1.54,
+                        1.66
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.22,
-                        0.26
+                        1.66,
+                        1.78
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.26,
-                        0.3
+                        1.78,
+                        1.9
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.3,
-                        0.34
+                        1.9,
+                        2.02
                     ]
                 }
             ],
@@ -64285,11 +64304,11 @@
             "modifierType": "Additive",
             "upgradeModifierOverride": {
                 "0": 0.0,
-                "1": 0.03,
-                "2": 0.06,
-                "3": 0.09,
-                "4": 0.12,
-                "5": 0.15
+                "1": 0.09,
+                "2": 0.18,
+                "3": 0.27,
+                "4": 0.36,
+                "5": 0.45
             },
             "description": [
                 {
@@ -64298,7 +64317,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Bombardment deals {0} additional Fire, Plague and Lightning damage."
+                    "langTranslation": "Bombardment deals {0} damage, and is divided evenly into Fire, Plague and Lightning damage."
                 },
                 {
                     "langCode": "es",
@@ -64318,7 +64337,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Bombardeio causa {0} de dano de Fogo, Tóxico e Ígneo adicionais."
+                    "langTranslation": "Bombardeio causa {0} de dano, e é dividido igualmente entre Fogo, Tóxico e Ígneo."
                 },
                 {
                     "langCode": "ru",
@@ -67209,7 +67228,7 @@
                         {
                             "type": "SkillEffectVariable",
                             "name": "Cooldown",
-                            "baseValue": 0.0,
+                            "baseValue": 1.0,
                             "eSkillEffectVariableStackType": "UseHighest",
                             "eSkillEffectVariableFormat": "NoFormat"
                         }
@@ -74183,7 +74202,7 @@
                 },
                 "effects": []
             },
-            "customIcon": "Icon_CursedShrine",
+            "customIcon": "IconTool_Corrupted",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -77023,7 +77042,7 @@
                     }
                 ]
             },
-            "customIcon": "IconStatus_Ignited_white",
+            "customIcon": "IconStatus_Oiled",
             "tierRollRanges": [
                 {
                     "type": "TierCategoryRollRange",
@@ -77431,7 +77450,7 @@
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Deal {0} damage against Bleeding enemies. Double the bonus if they have less than 5 Bleed stacks."
+                    "langTranslation": "Deal {0} damage with hits against Bleeding enemies. Double the bonus if they have less than 5 Bleed stacks."
                 },
                 {
                     "langCode": "es",
@@ -77451,7 +77470,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Cause {0} de dano contra inimigos Sangrando. Dobre o bônus se eles tiverem menos que 5 acúmulos de Sangramento."
+                    "langTranslation": "Cause {0} de dano em acertos contra inimigos Sangrando. Dobre o bônus se eles tiverem menos que 5 acúmulos de Sangramento."
                 },
                 {
                     "langCode": "ru",

@@ -29297,27 +29297,27 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Extreme Vorurteile"
+                    "langTranslation": "Anhaltende Salve"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Extreme Prejudice"
+                    "langTranslation": "Sustained Salvo"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Prejuicio Extremo"
+                    "langTranslation": "Salva Sostenida"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Feu à volonté"
+                    "langTranslation": "Rafale prolongée"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "極度の偏見"
+                    "langTranslation": "持続する猛射撃"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Skrajne Uprzedzenie"
+                    "langTranslation": "Ciągła Salwa"
                 },
                 {
                     "langCode": "pt-br",
@@ -29325,15 +29325,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Максимальная жестокость"
+                    "langTranslation": "Непрерывный залп"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Крайнє упередження"
+                    "langTranslation": "Тривалий залп"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "极端偏见"
+                    "langTranslation": "持续齐射"
                 }
             ],
             "effectTypeIcon": "Icon_Duration",
@@ -44109,19 +44109,19 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segen für Anzahl der Sprünge von Repetierer – Titel"
+                    "langTranslation": "Evangelium aus Eisen"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Repeater Bounce Amount Blessing Title"
+                    "langTranslation": "Iron Gospel"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de bendición de la cantidad de rebote del Repetidor"
+                    "langTranslation": "Evangelio de Hierro"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction des ricochets du Tir à répétition"
+                    "langTranslation": "Évangile de Fer"
                 },
                 {
                     "langCode": "ja",
@@ -44129,23 +44129,23 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa liczby odbić Powtarzacza"
+                    "langTranslation": "Żelazna Ewangelia"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Repeater Bounce Amount Blessing Title"
+                    "langTranslation": "Evangelho de Chumbo"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: количество рикошетов «Очереди»"
+                    "langTranslation": "Железное Евангелие"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Кількість відскоків черги пострілів»"
+                    "langTranslation": "Залізне Євангеліє"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "连发射击弹跳次数恩泽标题"
+                    "langTranslation": "钢铁福音"
                 }
             ],
             "effectTypeIcon": "Icon_Amount",
@@ -44637,86 +44637,86 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segen für max. Aufladungen von Passage – Titel"
+                    "langTranslation": "Bewegungsfreiheit"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Passage Max Charges Blessing Title"
+                    "langTranslation": "Freedom of Movement"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de bendición de la carga máxima de Pasaje"
+                    "langTranslation": "Libertad de Movimiento"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction des charges max de Passage"
+                    "langTranslation": "Liberté de Mouvement"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "通路最大チャージ 祝福タイトル"
+                    "langTranslation": "自由移動"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa maks. doładowania Przejścia"
+                    "langTranslation": "Swoboda Ruchu"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Passage Max Charges Blessing Title"
+                    "langTranslation": "Liberdade de Movimento"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: макс. количество зарядов «Прохода»"
+                    "langTranslation": "Свобода передвижения"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Максимальні заряди за прохід»"
+                    "langTranslation": "Свобода пересування"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "虚空通道最大充能恩泽标题"
+                    "langTranslation": "自由移动"
                 }
             ],
             "effectTypeIcon": "Icon_Multiskill_Marksman",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segen für max. Aufladungen von Passage – Beschreibung"
+                    "langTranslation": "Max. Aufladungen: {0} "
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Passage Max Charges Blessing Description"
+                    "langTranslation": "Max Charges {0}"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición de las cargas máximas de Pasaje"
+                    "langTranslation": "Cargas máximas {0} "
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction des charges max de Passage"
+                    "langTranslation": "Charges max : {0} "
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "通路最大チャージ 祝福説明"
+                    "langTranslation": "最大チャージ数{0} "
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa maks. doładowania Przejścia"
+                    "langTranslation": "Maks. doładowania: {0} "
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Passage Max Charges Blessing Description"
+                    "langTranslation": "Cargas Máximas {0}"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: макс. количество зарядов «Прохода»"
+                    "langTranslation": "Макс. количество зарядов: {0} "
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Максимальні заряди за прохід»"
+                    "langTranslation": "Максимальні заряди: {0} "
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "虚空通道最大充能恩泽描述"
+                    "langTranslation": "最大充能 {0} "
                 }
             ]
         },
@@ -45320,43 +45320,43 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "„Asche der Trauer“-Segen für Bombardierung – Beschreibung"
+                    "langTranslation": "Bombardierung verursacht Seuchenschaden; Treffer stellen {0} der Abklingzeiten aller anderen Fertigkeiten wieder her."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Bombardment Ashes of Mourning Blessing Description"
+                    "langTranslation": "Bombardment deals Plague damage, Hits recover {0} of cooldowns for all other Skills."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición de las Cenizas de Duelo de Bombardeo"
+                    "langTranslation": "Bombardeo inflige daño de Plaga, los golpes recuperan {0} de los enfriamientos de las demás habilidades."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction des cendres du deuil du Bombardement"
+                    "langTranslation": "Bombardement inflige des dégâts de peste et redonne {0} de temps de recharge pour toutes les autres compétences en touchant un ennemi."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "砲撃 嘆きの灰 祝福説明"
+                    "langTranslation": "砲撃は疫病ダメージを与え、他のすべてのスキルのクールダウンが{0}解除される。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa bombardowania prochów żałoby"
+                    "langTranslation": "Bombardowanie zadaje obrażenia od zarazy, a trafienia przywracają {0} prędkości odnawiania wszystkich pozostałych umiejętności."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Bombardment Ashes of Mourning Blessing Description"
+                    "langTranslation": "Bombardeio causa dano Tóxico, e os acertos recuperam {0} de todos os Tempos de Recarga das outras Habilidades."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: обстрел «Праха скорби»"
+                    "langTranslation": "Обстрел наносит урон от чумы. Попадания ускоряют перезарядку всех других навыков на {0}."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Попіл жалоби під час бомбардування»"
+                    "langTranslation": "Бомбардування завдає шкоди від чуми, а кожне влучання відновлює {0} часу відновлення для всіх інших навичок."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "炮火倾泻丧灰恩泽描述"
+                    "langTranslation": "炮火倾泻造成瘟疫伤害。命中时，使所有其他技能的冷却时间恢复 {0}。"
                 }
             ]
         },
@@ -45432,43 +45432,43 @@
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "„Faulender Kadaver“-Segen für Heiliges Feuer – Beschreibung"
+                    "langTranslation": "Wandelt Heiliges Feuer in Seuche um. Heiliges Feuer durchdringt nun alle Gegner und explodiert erst bei max. Reichweite. Du erhältst {0} Verwelken-Aufbaurate."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Holy Fire Blighted Carcass Blessing Description"
+                    "langTranslation": "Converts Holy Fire to Plague. Holy Fire now pierces all enemies and only explodes at maximum range. You gain {0} Wither Build Up Rate."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición del cadáver marchito del Fuego sagrado"
+                    "langTranslation": "Convierte el fuego sagrado en Plaga. El fuego sagrado ahora perfora a todos los enemigos y solo explota al rango máximo. Obtén {0} de tasa de acumulación de marchitez."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction de la carcasse flétrie du Feu sacré"
+                    "langTranslation": "Convertit Feu sacré en dégâts de peste. Feu sacré transperce désormais tous les ennemis et n'explose qu'à portée maximale. Vous obtenez {0} de taux de décrépitude."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "聖なる炎 悪疫の死体 祝福説明"
+                    "langTranslation": "聖なる炎を疫病に変換する。聖なる炎はすべての敵を貫通し、最大射程でのみ爆発する。荒廃の蓄積速度が{0}上昇する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa okaleczonych zwłok Świętego Ognia"
+                    "langTranslation": "Zamienia Święty Ogień w zarazę. Święty Ogień przebija teraz wszystkich wrogów i wybucha tylko przy maksymalnym zasięgu. Zyskujesz {0} szybkości przyrostu Usychania."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Holy Fire Blighted Carcass Blessing Description"
+                    "langTranslation": "Converte Fogo Santo em Tóxico. O Fogo Santo agora atravessa todos os inimigos e explode apenas no alcance máximo. O jogador ganha {0} de Acúmulo de Decreptação."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: оскверненный труп «Священного огня»"
+                    "langTranslation": "Преобразует «Священный огонь» в урон от чумы. Теперь этот навык пронзает всех врагов и взрывается только на максимальной дистанции. Вы получаете {0} ед. к ускорению накопления увядания."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Виклик зруйнованого скелета за використання святого вогню»"
+                    "langTranslation": "Перетворює святий вогонь на чуму. Святий вогонь пронизує всіх супротивників і вибухає лише на максимальній відстані. Ви отримуєте {0} швидкості накопичення зачахнення."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "圣火枯疫尸骸恩泽描述"
+                    "langTranslation": "将圣火转化为瘟疫。圣火现在会穿透所有敌人，并且只在达到最大射程时爆炸。你获得 {0} 衰竭积蓄速率。"
                 }
             ]
         },
@@ -46121,86 +46121,86 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segen für Wirken von Matadeira bei Tötung – Titel"
+                    "langTranslation": "Keine Zeugen"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Matadeira Cast On Kill Blessing Title"
+                    "langTranslation": "No Witnesses"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de bendición de la invocación Matadeira al matar"
+                    "langTranslation": "Sin Testigos"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction du lancement de Matadeira à la mort d'un ennemi"
+                    "langTranslation": "Aucun Témoin"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "敵撃破時のマタデイラ発動 祝福タイトル"
+                    "langTranslation": "生き証人は残さない"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa rzucenia Matadeiry przy zabiciu"
+                    "langTranslation": "Bez Świadków"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Matadeira Cast On Kill Blessing Title"
+                    "langTranslation": "Sem Testemunhas"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: применение «Матадейры» при убийстве"
+                    "langTranslation": "Без свидетелей"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Накладання матадейри за вбивство»"
+                    "langTranslation": "Без свідків"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "击杀时施放歼击炮恩泽标题"
+                    "langTranslation": "不留活口"
                 }
             ],
             "effectTypeIcon": "Icon_AreaofEffect",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segen für Wirken von Matadeira bei Tötung – Beschreibung"
+                    "langTranslation": "Wirkt Matadeira automatisch auf der Position von Gegnern, wenn sie sterben ({0} Sek. Abklingzeit)."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Matadeira Cast On Kill Blessing Description"
+                    "langTranslation": "Cast Matadeira automatically on the position of enemies when they die ({0}s Cooldown)."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de bendición de la invocación Matadeira al matar"
+                    "langTranslation": "Invoca Matadeira automáticamente en el lugar de los enemigos cuando mueren ({0} s de enfriamiento)."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction du lancement de Matadeira à la mort d'un ennemi"
+                    "langTranslation": "Lance automatiquement Matadeira à l'emplacement des ennemis qui meurent (temps de recharge : {0} s)."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "敵撃破時のマタデイラ発動 祝福説明"
+                    "langTranslation": "敵が死亡した場合、その敵の位置に対して自動的にマタデイラが発動する（{0}秒クールダウン）。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa rzucenia Matadeiry przy zabiciu"
+                    "langTranslation": "Automatycznie rzuca Matadeira na wrogów, kiedy giną (czas odnowienia: {0} s)."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Matadeira Cast On Kill Blessing Description"
+                    "langTranslation": "Conjura Matadeira automaticamente na posição dos inimigos quando eles morrem ({0}s de Tempo de Recarga)."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: применение «Матадейры» при убийстве"
+                    "langTranslation": "При смерти врагов автоматически применяется Матадейра в месте их гибели. Перезарядка: {0} сек."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Накладання матадейри за вбивство»"
+                    "langTranslation": "Автоматично застосовує Матадейра в місці загибелі ворогів (час перезарядки: {0} с)."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "击杀时施放歼击炮恩泽描述"
+                    "langTranslation": "敌人死亡时，自动在其位置施放歼击炮（冷却时间：{0} 秒）。"
                 }
             ]
         },
@@ -46526,7 +46526,7 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bewegungstempo-Segen für Jaguarspeer bei Tötung – Titel"
+                    "langTranslation": "Flinker Jäger"
                 },
                 {
                     "langCode": "en",
@@ -46534,19 +46534,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de bendición de velocidad de movimiento de la lanza de jaguar al matar"
+                    "langTranslation": "Cazador Ágil"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction de vitesse de déplacement de la Lance du jaguar à la mort d'un ennemi"
+                    "langTranslation": "Chasseur agile"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ジャガーの槍 撃破時の移動速度 祝福タイトル"
+                    "langTranslation": "俊敏なる狩人"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa prędkości ruchu Włóczni Jaguara przy zabiciu"
+                    "langTranslation": "Zwinny Łowca"
                 },
                 {
                     "langCode": "pt-br",
@@ -46554,58 +46554,58 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: скорость передвижения при убийстве «Копьем ягуара»"
+                    "langTranslation": "Проворный охотник"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Швидкість руху за вбивство списом ягуара»"
+                    "langTranslation": "Спритний мисливець"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "击杀时美洲豹之矛移动速度恩泽标题"
+                    "langTranslation": "敏捷猎手"
                 }
             ],
             "effectTypeIcon": "Icon_MoveSpeed_Base",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bewegungstempo-Segen für Jaguarspeer bei Tötung – Beschreibung"
+                    "langTranslation": "Tötungen mit dem Jaguarspeer gewähren {0} Bewegungstempo für 5 Sekunden"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Kills with Jaguar Spear grant {0} Move Speed for {1} seconds"
+                    "langTranslation": "Kills with Jaguar Spear grant {0} Move Speed for 5 seconds"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición de velocidad de movimiento de la lanza de jaguar al matar"
+                    "langTranslation": "Las bajas con Lanza de jaguar otorgan {0} de Velocidad de movimiento durante 5 segundos"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction de vitesse de déplacement de la Lance du jaguar à la mort d'un ennemi"
+                    "langTranslation": "Les éliminations avec la Lance du jaguar confèrent {0} de Vitesse de déplacement pendant 5 secondes"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ジャガーの槍 撃破時の移動速度 祝福説明"
+                    "langTranslation": "ジャガーの槍で敵を倒すと、5秒間、移動速度が{0}増加する"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa prędkości ruchu Włóczni Jaguara przy zabiciu"
+                    "langTranslation": "Zabójstwa Włócznią Jaguara zapewniają {0} Prędkości poruszania się na 5 sek."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Mortes com Dente de Onça dão {0} de Velocidade de Movimento por {1} segundos"
+                    "langTranslation": "Mortes com Dente de Onça concedem {0} de Velocidade de Movimento por 5 segundos"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: скорость передвижения при убийстве «Копьем ягуара»"
+                    "langTranslation": "Убийства с помощью Копья ягуара дают {0} к Скорости перемещения на 5 сек."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Швидкість руху за вбивство списом ягуара»"
+                    "langTranslation": "Убивства Списом ягуара надають {0} до Швидкості руху на 5 секунд"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "击杀时美洲豹之矛移动速度恩泽描述"
+                    "langTranslation": "使用美洲豹之矛击杀敌人后，获得{0}移动速度，持续5秒"
                 }
             ]
         },
@@ -46663,7 +46663,23 @@
                         },
                         "overrideLayerMask": true,
                         "layerMask": "UnityEngine.LayerMask",
-                        "effectAreaValueOverrides": [],
+                        "effectAreaValueOverrides": [
+                            {
+                                "type": "SkillEffectAreaValueOverride",
+                                "valueKey": "Status !StatusDefinitionCollection(217) Intensity",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Intensity",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                }
+                            }
+                        ],
                         "startDisabled": false,
                         "useCharacterEffectTrigger": false,
                         "effectTrigger": "Always",
@@ -46693,8 +46709,8 @@
                 ]
             },
             "uniqueRollRange": [
-                0.02,
-                0.02
+                0.05,
+                0.05
             ],
             "basePrice": 300.0,
             "supportedRarities": "Unique",

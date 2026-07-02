@@ -354,24 +354,28 @@
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Cursed War DLC Condition"
+                                "condition": "Has Cursed War DLC Condition",
+                                "targetValue": ""
                             },
                             {
-                                "condition": "Has Completed Dungeon Condition"
+                                "condition": "Has Completed Dungeon Condition",
+                                "targetValue": "2"
                             }
                         ]
                     },
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Completed Dungeon Condition"
+                                "condition": "Has Completed Dungeon Condition",
+                                "targetValue": "8"
                             }
                         ]
                     },
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Completed Nightmare Tier Condition"
+                                "condition": "Has Completed Nightmare Tier Condition",
+                                "targetValue": "4"
                             }
                         ]
                     }
@@ -760,24 +764,28 @@
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Cursed War DLC Condition"
+                                "condition": "Has Cursed War DLC Condition",
+                                "targetValue": ""
                             },
                             {
-                                "condition": "Has Completed Dungeon Condition"
+                                "condition": "Has Completed Dungeon Condition",
+                                "targetValue": "12"
                             }
                         ]
                     },
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Completed Dungeon Condition"
+                                "condition": "Has Completed Dungeon Condition",
+                                "targetValue": "13"
                             }
                         ]
                     },
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Completed Nightmare Tier Condition"
+                                "condition": "Has Completed Nightmare Tier Condition",
+                                "targetValue": "8"
                             }
                         ]
                     }
@@ -1173,24 +1181,28 @@
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Cursed War DLC Condition"
+                                "condition": "Has Cursed War DLC Condition",
+                                "targetValue": ""
                             },
                             {
-                                "condition": "Has Completed Dungeon Condition"
+                                "condition": "Has Completed Dungeon Condition",
+                                "targetValue": "16"
                             }
                         ]
                     },
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Completed Dungeon Condition"
+                                "condition": "Has Completed Dungeon Condition",
+                                "targetValue": "17"
                             }
                         ]
                     },
                     {
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Completed Nightmare Tier Condition"
+                                "condition": "Has Completed Nightmare Tier Condition",
+                                "targetValue": "12"
                             }
                         ]
                     }

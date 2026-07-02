@@ -790,7 +790,7 @@
                             },
                             {
                                 "langCode": "pt-br",
-                                "langTranslation": "Cinta desgastado"
+                                "langTranslation": "Cinto desgastado"
                             },
                             {
                                 "langCode": "ru",
@@ -4065,7 +4065,7 @@
                             },
                             {
                                 "langCode": "pt-br",
-                                "langTranslation": "Cinta desgastado"
+                                "langTranslation": "Cinto desgastado"
                             },
                             {
                                 "langCode": "ru",
@@ -7447,7 +7447,7 @@
                             },
                             {
                                 "langCode": "pt-br",
-                                "langTranslation": "Cinta desgastado"
+                                "langTranslation": "Cinto desgastado"
                             },
                             {
                                 "langCode": "ru",
@@ -26252,43 +26252,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -26309,43 +26309,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -30945,43 +30945,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -31002,43 +31002,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -35990,43 +35990,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -36047,43 +36047,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -40067,7 +40067,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -40088,7 +40089,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -42062,7 +42064,8 @@
                                 {
                                     "conditionsConfigList": [
                                         {
-                                            "condition": "Has Character Toggle Condition"
+                                            "condition": "Has Character Toggle Condition",
+                                            "targetValue": "AddTimeToDropPool"
                                         }
                                     ]
                                 }
@@ -45281,7 +45284,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -45302,7 +45306,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -47730,7 +47735,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -47787,7 +47792,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -47844,7 +47849,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -49915,7 +49920,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -49972,7 +49977,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -50029,7 +50034,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -62501,43 +62506,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -62558,43 +62563,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -65311,43 +65316,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -65368,43 +65373,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -68130,43 +68135,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -68187,43 +68192,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -70940,43 +70945,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -70997,43 +71002,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -73750,43 +73755,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -73807,43 +73812,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -76569,43 +76574,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -76626,43 +76631,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -79379,43 +79384,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -79436,43 +79441,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -82198,43 +82203,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -82255,43 +82260,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -85008,43 +85013,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -85065,43 +85070,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -87094,7 +87099,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -87115,7 +87121,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -87716,7 +87723,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -87737,7 +87745,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -101627,43 +101636,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -101684,43 +101693,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -105535,43 +105544,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Verbesserte Lederarmschienen"
+                                            "langTranslation": "Verstärkter Ledergürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Reinforced Leather Bracers"
+                                            "langTranslation": "Reinforced Leather Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal reforzado de cuero"
+                                            "langTranslation": "Cinturón de cuero reforzado"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet renforcé en cuir"
+                                            "langTranslation": "Ceinture en cuir renforcée"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "頑強の革腕甲"
+                                            "langTranslation": "補強された革"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Skórzane Bransolety Wzmocnienia"
+                                            "langTranslation": "Wzmocniony skórzany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Reforçadas de Couro"
+                                            "langTranslation": "Cinto Reforçado de Couro"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Надежные кожаные браслеты"
+                                            "langTranslation": "Укреплённый кожаный пояс"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Посилені шкіряні наручі"
+                                            "langTranslation": "Посилений шкіряний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "强化皮护腕"
+                                            "langTranslation": "强化皮革腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -105592,43 +105601,43 @@
                                     "variantLocalizedName": [
                                         {
                                             "langCode": "de",
-                                            "langTranslation": "Wollarmschienen mit Dornen"
+                                            "langTranslation": "Dornenbesetzter Wollgürtel"
                                         },
                                         {
                                             "langCode": "en",
-                                            "langTranslation": "Thorned Wool Bracers"
+                                            "langTranslation": "Thorned Wool Belt"
                                         },
                                         {
                                             "langCode": "es",
-                                            "langTranslation": "Brazal de lana con púas"
+                                            "langTranslation": "Cinturón de lana con espinas"
                                         },
                                         {
                                             "langCode": "fr",
-                                            "langTranslation": "Bracelet épineux en laine"
+                                            "langTranslation": "Ceinture en laine épineuse"
                                         },
                                         {
                                             "langCode": "ja",
-                                            "langTranslation": "棘のウール腕甲"
+                                            "langTranslation": "棘付き羊毛のベルト"
                                         },
                                         {
                                             "langCode": "pl",
-                                            "langTranslation": "Cierniste Wełniane Bransolety"
+                                            "langTranslation": "Kolczasty wełniany pas"
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Braçadeiras Espinhosa de Lã"
+                                            "langTranslation": "Cinto Espinhoso de Lã"
                                         },
                                         {
                                             "langCode": "ru",
-                                            "langTranslation": "Шерстяные браслеты с шипами"
+                                            "langTranslation": "Шерстяной пояс с шипами"
                                         },
                                         {
                                             "langCode": "uk",
-                                            "langTranslation": "Вовняні наручі із шипами"
+                                            "langTranslation": "Колючий вовняний пояс"
                                         },
                                         {
                                             "langCode": "zh-cn",
-                                            "langTranslation": "荆棘羊毛护腕"
+                                            "langTranslation": "带刺羊毛腰带"
                                         }
                                     ],
                                     "sprite": "IconGear_BracersT1",
@@ -109088,7 +109097,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -109109,7 +109119,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -110767,7 +110778,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -110788,7 +110800,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -110991,7 +111004,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -111012,7 +111026,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -111215,7 +111230,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -111236,7 +111252,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -111439,7 +111456,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -111460,7 +111478,8 @@
                         "type": "ConditionConfigList",
                         "conditionsConfigList": [
                             {
-                                "condition": "Has Flag Condition"
+                                "condition": "Has Flag Condition",
+                                "targetValue": "Interacted With [Bell]"
                             }
                         ]
                     },
@@ -114860,7 +114879,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -114917,7 +114936,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -114974,7 +114993,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -117036,7 +117055,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -117093,7 +117112,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
@@ -117150,7 +117169,7 @@
                                         },
                                         {
                                             "langCode": "pt-br",
-                                            "langTranslation": "Cinta desgastado"
+                                            "langTranslation": "Cinto desgastado"
                                         },
                                         {
                                             "langCode": "ru",
