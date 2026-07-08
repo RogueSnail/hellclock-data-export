@@ -1,0 +1,2058 @@
+{
+    "Blessing Roll Groups": [
+        {
+            "name": "Ascension Starting Choice Blessing Roll Group",
+            "type": "LootTreasureBlessingRollGroup",
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Anfänge"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Beginnings"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "La bendición del inicio"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction des débuts"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "始まりの祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Początków"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção dos Começos"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение начал"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення починань"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "初始之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Schließe Ebene 14 des ersten Akts ab, um die verfügbare Auswahl zu aktualisieren."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Update available choices by clearing Floor 14 of the first Act"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Actualiza las opciones disponibles al superar el piso 14 del primer acto."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Mettez à jour les choix disponibles en terminant le 14e étage de l'acte I."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "第一章の第14階層を完了すると、選べる選択肢が更新される"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zaktualizuj dostępne wybory, oczyszczając 14. piętro pierwszego aktu."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Atualize as opções disponíveis concluindo o Piso 14 do Ato 1"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Обновите доступные варианты, пройдя 14-й этап первого акта"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Щоб оновити доступні варіанти, пройдіть поверх 14 першого акту"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "通关第一幕第 14 层后，可用选项将会更新。"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Anfänge"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Beginnings"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "La bendición del inicio"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction des débuts"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "始まりの祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Początków"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção dos Começos"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение начал"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення починань"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "初始之恩泽"
+                }
+            ],
+            "supportedCategories": "0",
+            "rarityChances": []
+        },
+        {
+            "name": "Epic Blessings Roll Group",
+            "type": "BlessingRollGroup",
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Meisterung"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Mastery"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Perfección"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de maîtrise"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "達人の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Mistrzostwa"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Maestria"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословление мастерства"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення майстерності"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "御术之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Exzellenz – durch unser Blut erkauft."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Excellence achieved at the cost of our blood"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Excelencia alcanzada con el precio de nuestra sangre."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Une excellence conquise par le sang"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "我々の血の代償として成し遂げられた卓越"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Doskonałość osiągnięta za cenę naszej krwi"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Excelência conquistada ao custo do nosso sangue"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Превосходство, добытое нашей кровью."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Досконалість, здобута ціною нашої крові"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "以献血换来的卓绝成就"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Beherrschung"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Mastery"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Perfección"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de maîtrise"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "達人の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Mistrzostwa"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Maestria"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословление мастерства"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення майстерності"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "御术之恩泽"
+                }
+            ],
+            "supportedCategories": "StatModifier",
+            "rarityChances": [
+                {
+                    "weight": 1.0,
+                    "value": "Epic"
+                }
+            ]
+        },
+        {
+            "name": "Foundation Blessing Roll Group",
+            "type": "FoundationBlessingRollGroup",
+            "foundationTypeConfigs": [
+                {
+                    "type": "FoundationTypeConfig",
+                    "baseCards": [
+                        {
+                            "type": "FoundationBlessingCard",
+                            "blessingDefinition": {
+                                "name": "Precision 1 - Critical Chance - Stat Blessing",
+                                "id": 17,
+                                "type": "StatModifierBlessingDefinition"
+                            },
+                            "cards": [
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Precision 2 - Critical Chance- Stat Blessing",
+                                        "id": 161,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Precision 3 - Critical Chance - Stat Blessing",
+                                                "id": 162,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Precision 4 - Critical Hits Increase Crit Chance - Skill Blessing",
+                                                        "id": 167,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Precision 3 - Critical Damage - Stat Blessing",
+                                                "id": 163,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Precision 4 - Critical Damage - Stat Blessing",
+                                                        "id": 166,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Precision 2 - Critical Damage - Stat Blessing",
+                                        "id": 18,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Precision 3 - Critical Chance and Damage - Stat Blessing",
+                                                "id": 164,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Precision 4 - Critical Damage - Stat Blessing",
+                                                        "id": 166,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Precision 3 - Projectile Skill Damage - Skill Blessing",
+                                                "id": 165,
+                                                "type": "SkillBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Precision 4 - Projectile Amount - Stat Blessing",
+                                                        "id": 168,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "FoundationTypeConfig",
+                    "baseCards": [
+                        {
+                            "type": "FoundationBlessingCard",
+                            "blessingDefinition": {
+                                "name": "Lethality 1 - Phys Damage - Stat Blessing",
+                                "id": 169,
+                                "type": "StatModifierBlessingDefinition"
+                            },
+                            "cards": [
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Lethality 2 - Bleed Chance - Stat Blessing",
+                                        "id": 19,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Lethality 3 - Bleed Damage - Stat Blessing",
+                                                "id": 173,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Lethality 4 - Bleed Duration - Stat Blessing",
+                                                        "id": 177,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Lethality 2 - Melee Damage - Stat Blessing",
+                                        "id": 170,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Lethality 3 - Melee Damage - Stat Blessing",
+                                                "id": 174,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Lethality 4 - Melee Damage - Stat Blessing",
+                                                        "id": 176,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Lethality 3 - Melee AoE - Skill Blessing",
+                                                "id": 175,
+                                                "type": "SkillBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Lethality 4 - Melee Damage - Stat Blessing",
+                                                        "id": 176,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Lethality 2 - Phys Damage - Stat Blessing",
+                                        "id": 171,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Lethality 3 - Phys Damage - Stat Blessing",
+                                                "id": 172,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Lethality 4 - Hits Reduce Phys Res - Skill Blessing",
+                                                        "id": 178,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "FoundationTypeConfig",
+                    "baseCards": [
+                        {
+                            "type": "FoundationBlessingCard",
+                            "blessingDefinition": {
+                                "name": "Force 1 - Elemental Damage - Stat Blessing",
+                                "id": 181,
+                                "type": "StatModifierBlessingDefinition"
+                            },
+                            "cards": [
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Force 2 - Elemental Ailment Duration - Stat Blessing",
+                                        "id": 183,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Force 3 - Ignite Damage - Stat Blessing",
+                                                "id": 186,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - Ignite Duration - Stat Blessing",
+                                                        "id": 194,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Force 3 - Elemental Ailment Duration - Stat Blessing",
+                                                "id": 187,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - Shock and Blight Intensity - Stat Blessing",
+                                                        "id": 195,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                },
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - Wither Buildup - Stat Blessing",
+                                                        "id": 196,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Force 2 - Elemental Damage - Stat Blessing",
+                                        "id": 184,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Force 3 - Fire Damage - Stat Blessing",
+                                                "id": 188,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - Hits Reduce Fire Res - Skill Blessing",
+                                                        "id": 197,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Force 3 - Lightning Damage - Stat Blessing",
+                                                "id": 189,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - Hits Reduce Lightning Res - Skill Blessing",
+                                                        "id": 198,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Force 3 - Plague Damage - Stat Blessing",
+                                                "id": 190,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - Hits Reduce Plague Res - Skill Blessing",
+                                                        "id": 199,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Force 2 - AoE Skills Damage - Skill Blessing",
+                                        "id": 192,
+                                        "type": "SkillBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Force 3 - AoE - Stat Blessing",
+                                                "id": 191,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - AoE - Stat Blessing",
+                                                        "id": 185,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Force 3 - Elemental Damage - Stat Blessing",
+                                                "id": 193,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Force 4 - Hits Reduce Other Elemental Res - Skill Blessing",
+                                                        "id": 200,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "FoundationTypeConfig",
+                    "baseCards": [
+                        {
+                            "type": "FoundationBlessingCard",
+                            "blessingDefinition": {
+                                "name": "Constitution 1 - Life - Stat Blessing",
+                                "id": 180,
+                                "type": "StatModifierBlessingDefinition"
+                            },
+                            "cards": [
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Constitution 2 - Life - Stat Blessing",
+                                        "id": 201,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Constitution 3 - Phys Res - Stat Blessing",
+                                                "id": 203,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Constitution 4 - Endurance - Stat Blessing",
+                                                        "id": 209,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Constitution 3 - Life - Stat Blessing",
+                                                "id": 204,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Constitution 4 - Life to Melee Damage - Skill Blessing",
+                                                        "id": 210,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Constitution 2 - Life Regen - Stat Blessing",
+                                        "id": 202,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Constitution 3 - Max Potion - Stat Blessing",
+                                                "id": 205,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Constitution 4 - Lifesteal Potion CD - Skill Blessing",
+                                                        "id": 208,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Constitution 3 - Life on Kill - Skill Blessing",
+                                                "id": 206,
+                                                "type": "SkillBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Constitution 4 - Life on Hit Elites - Skill Blessing",
+                                                        "id": 207,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "FoundationTypeConfig",
+                    "baseCards": [
+                        {
+                            "type": "FoundationBlessingCard",
+                            "blessingDefinition": {
+                                "name": "Alacrity 1 - Move Speed - Stat Blessing",
+                                "id": 179,
+                                "type": "StatModifierBlessingDefinition"
+                            },
+                            "cards": [
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Alacrity 2 - Attack Speed - Stat Blessing",
+                                        "id": 212,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Alacrity 3 - Attack Speed - Stat Blessing",
+                                                "id": 216,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Alacrity 4 - Attack Speed - Stat Blessing",
+                                                        "id": 217,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Alacrity 3 - Move Speed - Stat Blessing",
+                                                "id": 218,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Alacrity 4 - Move Speed on No Damage - Passive Skill Blessing",
+                                                        "id": 211,
+                                                        "type": "PassiveSkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Alacrity 2 - Evasion - Stat Blessing",
+                                        "id": 213,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Alacrity 3 - Evasion - Stat Blessing",
+                                                "id": 214,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Alacrity 4 - Speed on Evade - Skill Blessing",
+                                                        "id": 215,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Alacrity 3 - Move Speed - Stat Blessing",
+                                                "id": 218,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Alacrity 4 - Move Speed on No Damage - Passive Skill Blessing",
+                                                        "id": 211,
+                                                        "type": "PassiveSkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "FoundationTypeConfig",
+                    "baseCards": [
+                        {
+                            "type": "FoundationBlessingCard",
+                            "blessingDefinition": {
+                                "name": "Spirit 1 - Mana - Stat Blessing",
+                                "id": 182,
+                                "type": "StatModifierBlessingDefinition"
+                            },
+                            "cards": [
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Spirit 2 - CDR - Stat Blessing",
+                                        "id": 219,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Spirit 3 - CDR - Stat Blessing",
+                                                "id": 222,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Spirit 4 - Cooldown On Kill - Skill Blessing",
+                                                        "id": 229,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Spirit 2 - Mana Regen - Stat Blessing",
+                                        "id": 220,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Spirit 3 - Mana Cost - Stat Blessing",
+                                                "id": 223,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Spirit 4 - Mana to Spell Damage - Skill Blessing",
+                                                        "id": 230,
+                                                        "type": "SkillBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Spirit 3 - Mana - Stat Blessing",
+                                                "id": 224,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Spirit 4 - Mana Shield - Stat Blessing",
+                                                        "id": 228,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "FoundationBlessingCard",
+                                    "blessingDefinition": {
+                                        "name": "Spirit 2 - Conviction Gain - Stat Blessing",
+                                        "id": 221,
+                                        "type": "StatModifierBlessingDefinition"
+                                    },
+                                    "cards": [
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Spirit 3 - Conviction Decay Resistance - Stat Blessing",
+                                                "id": 225,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Spirit 4 - Conviction from Mana - Stat Blessing",
+                                                        "id": 227,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "FoundationBlessingCard",
+                                            "blessingDefinition": {
+                                                "name": "Spirit 3 - Conviction Gain - Stat Blessing",
+                                                "id": 226,
+                                                "type": "StatModifierBlessingDefinition"
+                                            },
+                                            "cards": [
+                                                {
+                                                    "type": "FoundationBlessingCard",
+                                                    "blessingDefinition": {
+                                                        "name": "Spirit 4 - Conviction from Mana - Stat Blessing",
+                                                        "id": 227,
+                                                        "type": "StatModifierBlessingDefinition"
+                                                    },
+                                                    "cards": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "fallbackBlessing": {
+                "name": "Fallback Skill Blessing Loot Treasure Class",
+                "id": 140,
+                "type": "BlessingLootTreasureClass"
+            },
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Grundlage"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Foundation"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición Fundacional"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de la terre"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "基礎の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Fundamentu"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Fundação"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение основ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення витоків"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "根基之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Stärke, die den harten Prüfungen des Sertão entwächst."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Strength rooted in the trials of the Backlands"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fuerza basada en las pruebas de los sertones."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Une force puisée dans les épreuves des hautes terres"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "内陸の試練に根ざした力"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Siła zakorzeniona w próbach pustkowia"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Força enraizada nas provações do Sertão"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сила, растущая из испытаний в глубинке."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Міць, загартована в горнилі Сертанів"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "根植于荒原试炼的坚韧之力"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Essenz"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Foundation"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición Fundacional"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de la terre"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "基礎の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Fundamentu"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Essência"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение основ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення витоків"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "根基之恩泽"
+                }
+            ],
+            "supportedCategories": "0",
+            "rarityChances": []
+        },
+        {
+            "name": "Future Blessing Roll Group",
+            "type": "FutureBlessingRollGroup",
+            "chanceToDrawRelic": 0.7,
+            "rareRelicPrice": 1250.0,
+            "uniqueRelicPrice": 1500.0,
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Grundlage"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Foundation"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición Fundacional"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de la terre"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "基礎の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Fundamentu"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Fundação"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение основ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення витоків"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "根基之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Begabung, die durch die Bemühungen der Demütigen erlangt wurde."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Aptitude crafted through the struggles of the humble"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Aptitud elaborada con las dificultades de los humildes."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Une maîtrise formée par les luttes des plus humbles"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "謙虚な者たちの苦闘を通じて育まれた才覚"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zdolność ukształtowana przez trud pokornych"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aptidão moldada pela perseverança dos humildes"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сноровка, достигнутая тяготами смиренных."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Майстерність, викувана в муках смиренних"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "卑微者努力铸就的天资"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Zukunft"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of the Future"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición del Futuro"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de l'avenir"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "未来の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Przyszłości"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção do Futuro"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение будущего"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення майбутнього"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "未来之恩泽"
+                }
+            ],
+            "supportedCategories": "0",
+            "rarityChances": []
+        },
+        {
+            "name": "Loot Treasure Blessing Roll Group",
+            "type": "LootTreasureBlessingRollGroup",
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen des Vermächtnisses"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Legacy"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Legado"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'héritage"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "遺産の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Dziedzictwa"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção do Legado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение наследия"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення минулого"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "传承之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Echos unserer Geschichte, die die Zeit überdauern."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Echoes of our history that endure through eternity"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Ecos de nuestra historia que duran en la eternidad."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Un écho de notre histoire qui perdure à travers l'éternité"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "永遠に残り続ける、我らの歴史の残響"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Echa naszej historii, które przetrwają wieczność"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Ecos da nossa história que perduram na eternidade"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Эхо нашей истории, которое пронесется сквозь вечность."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Відлуння нашої історії, що житиме вічно"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "穿越永恒的历史回响"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen des Vermächtnisses"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Legacy"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Legado"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'héritage"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "遺産の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Dziedzictwa"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção do Legado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение наследия"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення минулого"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "传承之恩泽"
+                }
+            ],
+            "supportedCategories": "0",
+            "rarityChances": []
+        },
+        {
+            "name": "Nightmare Blessing Group",
+            "type": "NightmareBlessingRollGroup",
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "TNF:(Undefined1)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(Undefined1)"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "TNF:(Undefined2)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(Undefined2)"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "TNF:(Undefined3)"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "TNF:(Undefined3)"
+                }
+            ],
+            "supportedCategories": "0",
+            "rarityChances": []
+        },
+        {
+            "name": "Rare Blessings Roll Group",
+            "type": "BlessingRollGroup",
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Kompetenz"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Expertise"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Experiencia"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'expertise"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "卓越の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Biegłości"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Expertise"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение опыта"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення досвіду"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "巧艺之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Begabung, die durch die Bemühungen der Demütigen erlangt wurde."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Aptitude crafted through the struggles of the humble"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Aptitud elaborada con las dificultades de los humildes."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Une maîtrise formée par les luttes des plus humbles"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "謙虚な者たちの苦闘を通じて育まれた才覚"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zdolność ukształtowana przez trud pokornych"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aptidão moldada pela perseverança dos humildes"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сноровка, достигнутая тяготами смиренных."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Майстерність, викувана в муках смиренних"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "卑微者努力铸就的天资"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Kompetenz"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Expertise"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Experiencia"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction d'expertise"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "卓越の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Biegłości"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Expertise"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение опыта"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення досвіду"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "巧艺之恩泽"
+                }
+            ],
+            "supportedCategories": "StatModifier",
+            "rarityChances": [
+                {
+                    "weight": 10.0,
+                    "value": "Rare"
+                }
+            ]
+        },
+        {
+            "name": "Skil Blessings Roll Group",
+            "type": "SkillBlessingRollGroup",
+            "fallbackBlessing": {
+                "name": "Fallback Skill Blessing Loot Treasure Class",
+                "id": 140,
+                "type": "BlessingLootTreasureClass"
+            },
+            "blessingRarityRules": {
+                "Common": {
+                    "type": "BlessingRarityRules",
+                    "baseAmount": 4,
+                    "amountIncrementPerBossDefeated": [],
+                    "sameBlessingMaximumAmount": 4
+                },
+                "Magic": {
+                    "type": "BlessingRarityRules",
+                    "baseAmount": 3,
+                    "amountIncrementPerBossDefeated": [],
+                    "sameBlessingMaximumAmount": 3
+                },
+                "Rare": {
+                    "type": "BlessingRarityRules",
+                    "baseAmount": 2,
+                    "amountIncrementPerBossDefeated": [],
+                    "sameBlessingMaximumAmount": 2
+                },
+                "Epic": {
+                    "type": "BlessingRarityRules",
+                    "baseAmount": 1,
+                    "amountIncrementPerBossDefeated": [],
+                    "sameBlessingMaximumAmount": 1
+                }
+            },
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Fertigkeit"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Proficiency"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Dominio"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de talent"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "熟練の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Sprawności"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Proficiência"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение умения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення вправності"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "纯熟之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Ein Erbe der Weisheit, geschmiedet in der Not."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "A heritage of wisdom forged in adversity"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Una herencia de sabiduría forjada en la adversidad."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Un héritage de la sagesse forgée dans l'adversité"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "逆境の中で鍛え上げられた、知恵の遺産"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Dziedzictwo mądrości wykuwanej w przeciwnościach"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Uma herança de sabedoria forjada na adversidade"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Наследие мудрости, закаленной невзгодами."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Мудрість поколінь, загартована в незгодах"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "逆境中淬炼出的智慧传承"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Tüchtigkeit"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Proficiency"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición de Dominio"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de talent"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "熟練の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Sprawności"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Proficiência"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение умения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення вправності"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "纯熟之恩泽"
+                }
+            ],
+            "supportedCategories": "Skill",
+            "rarityChances": [
+                {
+                    "weight": 100.0,
+                    "value": "Common"
+                },
+                {
+                    "weight": 20.0,
+                    "value": "Magic"
+                },
+                {
+                    "weight": 10.0,
+                    "value": "Rare"
+                },
+                {
+                    "weight": 1.0,
+                    "value": "Epic"
+                }
+            ]
+        },
+        {
+            "name": "Stat Modifier Blessings Roll Group",
+            "type": "BlessingRollGroup",
+            "rollGroupTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Grundlage"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Foundation"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición Fundacional"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de la terre"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "基礎の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Fundamentu"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Fundação"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение основ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення витоків"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "根基之恩泽"
+                }
+            ],
+            "screenDescription": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Stärke, die den harten Prüfungen des Sertão entwächst."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Strength rooted in the trials of the Backlands"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fuerza basada en las pruebas de los sertones."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Une force puisée dans les épreuves des hautes terres"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "内陸の試練に根ざした力"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Siła zakorzeniona w próbach pustkowia"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Força enraizada nas provações do Sertão"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Сила, растущая из испытаний в глубинке."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Міць, загартована в горнилі Сертанів"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "根植于荒原试炼的坚韧之力"
+                }
+            ],
+            "screenTitle": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Segen der Essenz"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Blessing of Foundation"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Bendición Fundacional"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Bénédiction de la terre"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "基礎の祝福"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Błogosławieństwo Fundamentu"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Bênção da Essência"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Благословение основ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Благословення витоків"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "根基之恩泽"
+                }
+            ],
+            "supportedCategories": "StatModifier",
+            "rarityChances": [
+                {
+                    "weight": 30.0,
+                    "value": "Common"
+                },
+                {
+                    "weight": 40.0,
+                    "value": "Magic"
+                },
+                {
+                    "weight": 20.0,
+                    "value": "Rare"
+                },
+                {
+                    "weight": 5.0,
+                    "value": "Epic"
+                }
+            ]
+        }
+    ]
+}

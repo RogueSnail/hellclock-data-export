@@ -59,6 +59,10 @@
                     "langTranslation": "Количество маны"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова мана"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础法力值"
                 }
@@ -106,6 +110,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -169,6 +177,10 @@
                     "langTranslation": "Скорость перемещения"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість руху"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "移动速度"
                 }
@@ -216,6 +228,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -287,6 +303,10 @@
                     "langTranslation": "Получение камней душ"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток каменів душ"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "魂石获取"
                 }
@@ -334,6 +354,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -397,6 +421,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -444,6 +472,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -507,6 +539,10 @@
                     "langTranslation": "Сопротивление стихийному урону"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір стихіям"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "元素抗性"
                 }
@@ -554,6 +590,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -617,6 +657,10 @@
                     "langTranslation": "Основной урон"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова шкода"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础伤害值"
                 }
@@ -664,6 +708,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -716,7 +764,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Upuszczany Błogosławiony Sprzęt"
+                    "langTranslation": "Upuszczany błogosławiony sprzęt"
                 },
                 {
                     "langCode": "pt-br",
@@ -725,6 +773,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Вероятность выпадения освященного снаряжения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Випадіння благословенного спорядження"
                 },
                 {
                     "langCode": "zh-cn",
@@ -774,6 +826,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -828,6 +884,10 @@
                     "langTranslation": "Вероятность выпадения амулетов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Випадіння талісмана"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符掉落"
                 }
@@ -875,6 +935,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -938,6 +1002,10 @@
                     "langTranslation": "Получение золота"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток золота"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "金币获取"
                 }
@@ -985,6 +1053,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1048,6 +1120,10 @@
                     "langTranslation": "Начальный запас золота"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Золото на початку"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "初始金币"
                 }
@@ -1096,6 +1172,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Вы начинаете подземелье с {0} ед. золота"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Ви отримуєте {0} золота під час входу в підземелля"
                         },
                         {
                             "langCode": "zh-cn",
@@ -1158,6 +1238,10 @@
                     "langTranslation": "Получение золота"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток золота"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "金币获取"
                 }
@@ -1205,6 +1289,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1259,6 +1347,10 @@
                     "langTranslation": "Мистическая непоколебимость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Сокровенна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "奥术信念"
                 }
@@ -1306,6 +1398,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1393,6 +1489,10 @@
                     "langTranslation": "Время восстановления навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість перезарядки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "冷却速度"
                 }
@@ -1440,6 +1540,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1503,6 +1607,10 @@
                     "langTranslation": "Уклонение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Ухилення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪避"
                 }
@@ -1550,6 +1658,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1613,6 +1725,10 @@
                     "langTranslation": "Скорость атаки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість атак"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击速度"
                 }
@@ -1660,6 +1776,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1714,6 +1834,10 @@
                     "langTranslation": "Критический урон"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Критична шкода"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "暴击伤害"
                 }
@@ -1761,6 +1885,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1840,6 +1968,10 @@
                     "langTranslation": "Шанс критического попадания"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Шанс критичного удару"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "暴击几率"
                 }
@@ -1887,6 +2019,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1950,6 +2086,10 @@
                     "langTranslation": "Урон навыка стрелка"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода від стрілецьких навичок"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "神射手技能伤害"
                 }
@@ -1997,6 +2137,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2060,6 +2204,10 @@
                     "langTranslation": "Урон навыка: заклинание"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода заклинань"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "技能法术伤害"
                 }
@@ -2107,6 +2255,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2163,11 +2315,15 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano de Habilidade Corpo-a-corpo "
+                    "langTranslation": "Dano de Habilidade Corpo a corpo "
                 },
                 {
                     "langCode": "ru",
                     "langTranslation": "Урон навыка: ближний бой"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода від навичок ближнього бою"
                 },
                 {
                     "langCode": "zh-cn",
@@ -2217,6 +2373,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2280,6 +2440,10 @@
                     "langTranslation": "Количество целебных зелий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Ефект зцілення від зілля"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "药水治疗量"
                 }
@@ -2327,6 +2491,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2390,6 +2558,10 @@
                     "langTranslation": "Выносливость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Витривалість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "耐力"
                 }
@@ -2437,6 +2609,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2500,6 +2676,10 @@
                     "langTranslation": "Сопротивление огню"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰抗性"
                 }
@@ -2547,6 +2727,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2610,6 +2794,10 @@
                     "langTranslation": "Сопротивление физ. урону"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фізичний опір"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "物理抗性"
                 }
@@ -2657,6 +2845,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2720,6 +2912,10 @@
                     "langTranslation": "Сопротивление молниям"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір блискавці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电抗性"
                 }
@@ -2767,6 +2963,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2830,6 +3030,10 @@
                     "langTranslation": "Сопротивление чуме"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір чумі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫抗性"
                 }
@@ -2877,6 +3081,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2948,6 +3156,10 @@
                     "langTranslation": "Второе дыхание"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Друге дихання"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "绝处逢生"
                 }
@@ -2959,7 +3171,11 @@
                 {
                     "name": "1ae56ec1-1fee-4bc0-a31a-fb2099d7ca81",
                     "type": "SkillEquipNodeAffixDefinition",
-                    "skillDefinition": {},
+                    "skillDefinition": {
+                        "name": "SecondWindDefinition",
+                        "id": 9,
+                        "type": "SecondWindSkillDefinition"
+                    },
                     "hideDescription": true,
                     "description": [
                         {
@@ -2984,7 +3200,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odblokowuje {0} – pasywną umiejętność, która chroni cię przed śmiercią. Czas odnawiania: 300 s"
+                            "langTranslation": "Odblokowuje {0} – pasywną umiejętność, która chroni cię przed śmiercią. Prędkość odnawiania: 300 s"
                         },
                         {
                             "langCode": "pt-br",
@@ -2993,6 +3209,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Открывает пассивный навык «{0}», который защищает вас от смерти (перезарядка: 300 сек.)"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Відкриває пасивну навичку {0}, яка захищає вас після смерті (перезарядка: 300 с)"
                         },
                         {
                             "langCode": "zh-cn",
@@ -3012,7 +3232,11 @@
                         "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "SecondWindDefinition",
+                            "id": 9,
+                            "type": "SecondWindSkillDefinition"
+                        },
                         "variables": {
                             "type": "SkillEffectVariables",
                             "variables": [
@@ -3040,9 +3264,11 @@
                                             "valueOrName": "Roll",
                                             "eSkillEffectVariableModifier": "0",
                                             "statusToStack": {},
+                                            "statDefinition": "BaseDamage",
                                             "supportVariableValueOrName": "",
                                             "supportESkillEffectVariableModifier": "0",
-                                            "supportStatusToStack": {}
+                                            "supportStatusToStack": {},
+                                            "supportStatDefinition": "BaseDamage"
                                         },
                                         "useStatConversion": "NoConversion",
                                         "conversionStatDefinition": "BaseDamage",
@@ -3055,6 +3281,7 @@
                                 "characterEffectTrigger": "Kill",
                                 "ruleSet": {
                                     "type": "SkillEffectRuleSet",
+                                    "useOrLogic": false,
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
@@ -3064,9 +3291,11 @@
                                     "valueOrName": "",
                                     "eSkillEffectVariableModifier": "0",
                                     "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
-                                    "supportStatusToStack": {}
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
                                 },
                                 "triggerTargetEnumValue": 0,
                                 "triggerTargetStringValue": "",
@@ -3079,7 +3308,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Schaltet Neuer Atem frei, eine passive Fähigkeit, die beim Tod {0} Chance bietet, dich zu schützen (Abklingzeit: 300 s)"
+                            "langTranslation": "Schaltet „Neuer Atem“ frei, eine passive Fertigkeit, die dich mit einer Chance von {0} vor dem Tod schützt (Abklingzeit: 300s)"
                         },
                         {
                             "langCode": "en",
@@ -3087,19 +3316,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Desbloquea Segundo Aliento, una habilidad pasiva que tiene {0} de probabilidad de protegerte al morir (Recarga: 300 s)"
+                            "langTranslation": "Desbloquea Segundo Aliento, una habilidad pasiva que tiene {0} de probabilidad de protegerte al morir (Tiempo de enfriamiento: 300 s)"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Débloque Second souffle, une compétence passive qui a {0} de chance de vous protéger à la mort (Temps de recharge : 300 s)"
+                            "langTranslation": "Débloque Second souffle, une compétence passive qui a {0} de chances de vous protéger de la mort (temps de recharge : 300 secondes)"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "復活の息吹を解放する、死亡時に {0} の確率で保護するパッシブスキル（クールダウン: 300秒）"
+                            "langTranslation": "復活の息吹をアンロックする。このパッシヴスキルは{0}の確率でお前を死から守る（クールダウン：300秒）"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odkrywa Второе дыхание, pasywną umiejętność, która ma {0} szansy ochrony przy śmierci (Czas odnowienia: 300 s)"
+                            "langTranslation": "Odblokowuje Nową Energię, pasywną umiejętność, która ma {0} szans na ochronę po śmierci (prędkość odnawiania: 300 s)"
                         },
                         {
                             "langCode": "pt-br",
@@ -3107,11 +3336,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Открывает Второе дыхание — пассивное умение, которое при смерти даёт {0} шанс защитить вас (Перезарядка: 300 с)"
+                            "langTranslation": "Открывает пассивный навык «Второе дыхание», который имеет вероятность {0} обеспечить вам защиту после смерти (перезарядка: 300 сек.)"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Відкриває друге дихання – пасивну навичку, яка захищає вас після смерті із шансом {0} (перезарядка: 300 с)"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "解锁绝处逢生，被动技能，在你死亡时有 {0} 的几率保护你（冷却时间：300秒）"
+                            "langTranslation": "解锁绝处逢生，这项被动技能在你濒死时有 {0} 几率保你不死。(冷却时间：300 秒)"
                         }
                     ],
                     "behaviorAffixDefinition": ""
@@ -3179,6 +3412,10 @@
                     "langTranslation": "Скорость атаки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість атак"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击速度"
                 }
@@ -3226,6 +3463,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3280,6 +3521,10 @@
                     "langTranslation": "Щит маны"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Щит мани"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "法力护盾"
                 }
@@ -3327,6 +3572,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3381,6 +3630,10 @@
                     "langTranslation": "Защита от магии"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Захист від магії"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "反魔法"
                 }
@@ -3428,6 +3681,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3499,6 +3756,10 @@
                     "langTranslation": "Расход маны на навык"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Витрати мани на навичку"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "技能法力消耗"
                 }
@@ -3546,6 +3807,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3609,6 +3874,10 @@
                     "langTranslation": "Количество маны"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова мана"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础法力值"
                 }
@@ -3656,6 +3925,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3719,6 +3992,10 @@
                     "langTranslation": "Получение непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток упевненості"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念获取"
                 }
@@ -3766,6 +4043,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3829,6 +4110,10 @@
                     "langTranslation": "Стойкость непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Непохитна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念抗性"
                 }
@@ -3876,6 +4161,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3947,6 +4236,10 @@
                     "langTranslation": "Получение опыта"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток досвіду"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "经验值获取"
                 }
@@ -3994,6 +4287,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4048,6 +4345,10 @@
                     "langTranslation": "Сброс благословений"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Перевибір благословення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "恩泽重掷"
                 }
@@ -4091,11 +4392,15 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Reduz o custo do Ressorteio de Bençãos em {0}"
+                            "langTranslation": "Reduz o custo do Ressorteio de Bênçãos em {0}"
                         },
                         {
                             "langCode": "ru",
                             "langTranslation": "Понижает стоимость сброса благословений на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Зменшує вартість змінення благословень на {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -4190,6 +4495,10 @@
                     "langTranslation": "Все сопротивления"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Усі опори"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "所有抗性"
                 }
@@ -4240,6 +4549,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -4284,6 +4597,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4332,7 +4649,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Lebensraub durch Nahkampffertigkeit"
+                    "langTranslation": "Gesundheitsraub im Nahkampf"
                 },
                 {
                     "langCode": "en",
@@ -4344,23 +4661,27 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Drain de vie en mêlée"
+                    "langTranslation": "Vol de vie en mêlée"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "近接ライフ吸収"
+                    "langTranslation": "近接体力吸収"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Kradzież zdrowia, walka wręcz"
+                    "langTranslation": "Wysysanie zdrowia w walce wręcz"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Vampirismo de Habilidade Corpo-a-corpo"
+                    "langTranslation": "Vampirismo de Habilidade Corpo a corpo"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Кража здоровья в ближнем бою"
+                    "langTranslation": "Вампиризм в ближнем бою"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Витягання здоров'я в ближньому бою"
                 },
                 {
                     "langCode": "zh-cn",
@@ -4410,6 +4731,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4481,6 +4806,10 @@
                     "langTranslation": "Сопротивление физ. урону"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фізичний опір"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "物理抗性"
                 }
@@ -4528,6 +4857,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4582,6 +4915,10 @@
                     "langTranslation": "Сопротивление огню"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰抗性"
                 }
@@ -4629,6 +4966,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4692,6 +5033,10 @@
                     "langTranslation": "Сопротивление чуме"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір чумі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫抗性"
                 }
@@ -4739,6 +5084,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4810,6 +5159,10 @@
                     "langTranslation": "Сопротивление молниям"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір блискавці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电抗性"
                 }
@@ -4857,6 +5210,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4920,6 +5277,10 @@
                     "langTranslation": "Получение камней душ"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток каменів душ"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "魂石获取"
                 }
@@ -4967,6 +5328,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5046,6 +5411,10 @@
                     "langTranslation": "+60 сек. к запасу хода Адских часов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Таймер Пекельного годинника: +60 с"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地狱时钟时限 +60 秒"
                 }
@@ -5094,6 +5463,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает запас хода Адских часов на {0} сек."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує час на таймері Пекельного годинника на{0} с"
                         },
                         {
                             "langCode": "zh-cn",
@@ -5156,6 +5529,10 @@
                     "langTranslation": "Четвертое благословение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "4-те благословення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "第 4 个恩泽"
                 }
@@ -5195,7 +5572,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa liczbę oferowanych Błogosławieństw do 4"
+                            "langTranslation": "Zwiększa liczbę oferowanych błogosławieństw do 4"
                         },
                         {
                             "langCode": "pt-br",
@@ -5204,6 +5581,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает количество благословений на выбор до 4"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує кількість запропонованих благословень до 4"
                         },
                         {
                             "langCode": "zh-cn",
@@ -5282,6 +5663,10 @@
                     "langTranslation": "Отказ от благословений"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Розвіяння благословень"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "恩泽放逐"
                 }
@@ -5325,11 +5710,15 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Desbloqueia o Banimento de Bençãos."
+                            "langTranslation": "Desbloqueia o Banimento de Bênçãos."
                         },
                         {
                             "langCode": "ru",
                             "langTranslation": "Становится доступен отказ от благословений"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Розблоковує розвіяння благословень"
                         },
                         {
                             "langCode": "zh-cn",
@@ -5360,7 +5749,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Cantidad de Desvanecer Bendiciones"
+                    "langTranslation": "Cantidad de bendiciones desvanecidas"
                 },
                 {
                     "langCode": "fr",
@@ -5381,6 +5770,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Кол-во отказов от благословений"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Запас розвіяння благословень"
                 },
                 {
                     "langCode": "zh-cn",
@@ -5431,6 +5824,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Увеличивает количество отказов от благословений на 1"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує заряди розвіяння благословень на +1"
                         },
                         {
                             "langCode": "zh-cn",
@@ -5525,6 +5922,10 @@
                     "langTranslation": "Основной урон"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова шкода"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础伤害值"
                 }
@@ -5572,6 +5973,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5635,6 +6040,10 @@
                     "langTranslation": "Количество зелий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Кількість зілля"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "药水数量"
                 }
@@ -5682,6 +6091,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5753,6 +6166,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -5800,6 +6217,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5871,6 +6292,10 @@
                     "langTranslation": "Восстановление здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Відновлення здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "生命再生"
                 }
@@ -5918,6 +6343,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5981,6 +6410,10 @@
                     "langTranslation": "Красный портал"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Червоний портал"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "红色传送门"
                 }
@@ -6000,7 +6433,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Das Rote Portal hat eine 15%ige Chance, auf bekannten Ebenen zu erscheinen.\nEs ermöglicht dir, bereits erkundete Bereiche zu überspringen und gewährt einen Segen, der Erfahrungs- und Goldgewinne erhöht."
+                            "langTranslation": "Das Rote Portal hat eine Chance von 15 %, auf bekannten Ebenen zu spawnen. Es erlaubt dir, zuvor erforschte Bereiche zu überspringen, und bietet einen Segen, der die EP- und Goldgewinne erhöht."
                         },
                         {
                             "langCode": "en",
@@ -6008,19 +6441,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "El Portal Rojo tiene un 15% de probabilidad de aparecer en pisos conocidos.\nTe permite saltarte áreas ya exploradas y otorga una Bendición que aumenta la experiencia y el oro obtenidos."
+                            "langTranslation": "El Portal Rojo tiene un 15 % de probabilidad de aparecer en pisos conocidos. Permite saltarse zonas exploradas previamente y otorga una ventaja que aumenta la obtención de XP y Oro."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le Portail Rouge a 15 % de chance d’apparaître sur les étages connus.\nIl vous permet d’ignorer les zones déjà explorées et offre une Bénédiction augmentant les gains d’XP et d’or."
+                            "langTranslation": "Le Portail rouge a 15 % de chances d'apparaître aux étages connus. Il vous permet de passer les zones déjà explorées et vous accorde un bonus de gain d'expérience et de réis."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "赤いポータルは既知のフロアで15%の確率で出現します。\n探索済みのエリアをスキップでき、経験値とゴールドの獲得量を増加させる恩恵を与えます。"
+                            "langTranslation": "レッドポータルは、すでに到達済みの階層に15%の確率で出現する。これを利用することで探索済みのエリアをスキップし、経験値やゴールドの獲得量を増やす恩恵が得られる。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Czerwony portal ma 15% szans na pojawienie się na znanych poziomach.\nPozwala pominąć wcześniej zbadane obszary i zapewnia Błogosławieństwo zwiększające zyski XP oraz złota."
+                            "langTranslation": "15% szansy na pojawienie się Czerwonego Portalu na znanych piętrach. Pozwala to pomijać odkryte już obszary i zapewnia dar zwiększający liczbę PD i zyskiwanego złota."
                         },
                         {
                             "langCode": "pt-br",
@@ -6028,11 +6461,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Красный портал имеет 15% шанс появиться на известных этажах.\nОн позволяет пропустить ранее исследованные области и даёт Благословение, увеличивающее получаемый опыт и золото."
+                            "langTranslation": "Красный портал появляется на известных этажах с вероятностью 15%. Он позволяет пропускать ранее исследованные области и дает бонус, увеличивающий получение опыта и золота."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Шанс появи червоного порталу на всіх відомих поверхах складає 15%. Він дає змогу пропустити вже досліджені області. Дає бонус, з яким ви отримуватимете більше досвіду й золота."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "红色传送门在已探索的层中有15%几率出现。\n它可以让你跳过之前探索过的区域，并提供增加经验值和金币获取的祝福。"
+                            "langTranslation": "红色传送门有 15% 的几率在已知层级生成，可助你跳过已探索区域，并施予恩泽来提升经验值和金币获取。"
                         }
                     ]
                 }
@@ -6091,6 +6528,10 @@
                     "langTranslation": "Вероятность появления красного портала"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Частота появи Червоного порталу"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "红色传送门出现频率"
                 }
@@ -6122,7 +6563,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} les chances qu'un Portail Rouge apparaisse"
+                            "langTranslation": "Augmente de {0} les chances qu'un Portail rouge apparaisse"
                         },
                         {
                             "langCode": "ja",
@@ -6139,6 +6580,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает вероятность появления красного портала на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує шанс появи Червоного порталу на {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -6201,6 +6646,10 @@
                     "langTranslation": "Глубина красного портала"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Потужність Червоного порталу"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "红色传送门强度"
                 }
@@ -6232,7 +6681,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} le nombre d'étages que le Portail Rouge permet de passer"
+                            "langTranslation": "Augmente de {0} le nombre d'étages que le Portail rouge permet de passer"
                         },
                         {
                             "langCode": "ja",
@@ -6249,6 +6698,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает количество этажей, которые можно пропустить при помощи красного портала, на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує кількість поверхів, пропущених за допомогою Червоного порталу, на {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -6277,39 +6730,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを0/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/40 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 0/40 总点数以解锁"
                         }
                     ]
                 }
@@ -6347,6 +6804,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Критический урон"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Критична шкода"
                 },
                 {
                     "langCode": "zh-cn",
@@ -6399,6 +6860,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -6425,39 +6890,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/35消費してアンロック"
+                            "langTranslation": "合計ポイントを0/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/35 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/35"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/35 总点数以解锁"
+                            "langTranslation": "投入 0/35 总点数以解锁"
                         }
                     ]
                 }
@@ -6490,11 +6959,15 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Dano de Habilidade Corpo-a-corpo "
+                    "langTranslation": "Dano de Habilidade Corpo a corpo "
                 },
                 {
                     "langCode": "ru",
                     "langTranslation": "Урон навыка: ближний бой"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода від навичок ближнього бою"
                 },
                 {
                     "langCode": "zh-cn",
@@ -6547,6 +7020,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -6573,39 +7050,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/35消費してアンロック"
+                            "langTranslation": "合計ポイントを0/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/35 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/35"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/35 总点数以解锁"
+                            "langTranslation": "投入 0/35 总点数以解锁"
                         }
                     ]
                 }
@@ -6643,6 +7124,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Урон навыка: заклинание"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода заклинань"
                 },
                 {
                     "langCode": "zh-cn",
@@ -6695,6 +7180,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -6721,39 +7210,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/35消費してアンロック"
+                            "langTranslation": "合計ポイントを0/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/35 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/35"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/35 总点数以解锁"
+                            "langTranslation": "投入 0/35 总点数以解锁"
                         }
                     ]
                 }
@@ -6791,6 +7284,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Урон навыка стрелка"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода від стрілецьких навичок"
                 },
                 {
                     "langCode": "zh-cn",
@@ -6843,6 +7340,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -6869,39 +7370,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 },
@@ -6915,39 +7420,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 },
@@ -6961,39 +7470,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 },
@@ -7007,39 +7520,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -7077,6 +7594,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Основной урон"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Базова шкода"
                 },
                 {
                     "langCode": "zh-cn",
@@ -7126,6 +7647,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7189,6 +7714,10 @@
                     "langTranslation": "Количество целебных зелий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Ефект зцілення від зілля"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "药水治疗量"
                 }
@@ -7236,6 +7765,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7299,6 +7832,10 @@
                     "langTranslation": "Количество зелий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Кількість зілля"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "药水数量"
                 }
@@ -7349,6 +7886,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -7375,39 +7916,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを0/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/40 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 0/40 总点数以解锁"
                         }
                     ]
                 }
@@ -7445,6 +7990,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Выносливость"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Витривалість"
                 },
                 {
                     "langCode": "zh-cn",
@@ -7494,6 +8043,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7557,6 +8110,10 @@
                     "langTranslation": "Восстановление здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Відновлення здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "生命再生"
                 }
@@ -7604,6 +8161,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7683,6 +8244,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -7733,6 +8298,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -7767,39 +8336,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -7837,6 +8410,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Очки здоровья"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
                 },
                 {
                     "langCode": "zh-cn",
@@ -7889,6 +8466,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -7915,39 +8496,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを0/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/40 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 0/40 总点数以解锁"
                         }
                     ]
                 }
@@ -7985,6 +8570,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Сопротивление физ. урону"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Фізичний опір"
                 },
                 {
                     "langCode": "zh-cn",
@@ -8034,6 +8623,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8097,6 +8690,10 @@
                     "langTranslation": "Сопротивление огню"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰抗性"
                 }
@@ -8144,6 +8741,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8207,6 +8808,10 @@
                     "langTranslation": "Сопротивление молниям"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір блискавці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电抗性"
                 }
@@ -8254,6 +8859,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8317,6 +8926,10 @@
                     "langTranslation": "Сопротивление чуме"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір чумі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫抗性"
                 }
@@ -8367,6 +8980,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -8393,39 +9010,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -8463,6 +9084,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Все сопротивления"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Усі опори"
                 },
                 {
                     "langCode": "zh-cn",
@@ -8515,6 +9140,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -8562,6 +9191,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -8588,39 +9221,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを0/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/40 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 0/40 总点数以解锁"
                         }
                     ]
                 }
@@ -8658,6 +9295,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Скорость перемещения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість руху"
                 },
                 {
                     "langCode": "zh-cn",
@@ -8707,6 +9348,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8770,6 +9415,10 @@
                     "langTranslation": "Скорость атаки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість атак"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击速度"
                 }
@@ -8820,6 +9469,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -8846,39 +9499,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -8916,6 +9573,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Скорость перемещения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість руху"
                 },
                 {
                     "langCode": "zh-cn",
@@ -8965,6 +9626,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -9028,6 +9693,10 @@
                     "langTranslation": "Скорость атаки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість атак"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击速度"
                 }
@@ -9078,6 +9747,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -9104,39 +9777,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/40 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/40 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/40 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/40 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/40 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/40 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/40 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/40 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/40消費してアンロック"
+                            "langTranslation": "合計ポイントを0/40消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/40 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/40 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/40 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/40 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/40 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/40 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/40"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/40 总点数以解锁"
+                            "langTranslation": "投入 0/40 总点数以解锁"
                         }
                     ]
                 }
@@ -9174,6 +9851,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Время восстановления навыков"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість перезарядки"
                 },
                 {
                     "langCode": "zh-cn",
@@ -9223,6 +9904,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -9286,6 +9971,10 @@
                     "langTranslation": "Защита от магии"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Захист від магії"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "反魔法"
                 }
@@ -9333,6 +10022,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -9396,6 +10089,10 @@
                     "langTranslation": "Щит маны"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Щит мани"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "法力护盾"
                 }
@@ -9443,6 +10140,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -9506,6 +10207,10 @@
                     "langTranslation": "Мистическая непоколебимость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Сокровенна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "奥术信念"
                 }
@@ -9553,6 +10258,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -9632,6 +10341,10 @@
                     "langTranslation": "Количество маны"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова мана"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础法力值"
                 }
@@ -9682,6 +10395,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -9708,39 +10425,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -9778,6 +10499,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Количество маны"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Базова мана"
                 },
                 {
                     "langCode": "zh-cn",
@@ -9827,6 +10552,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -9890,6 +10619,10 @@
                     "langTranslation": "Мистическая непоколебимость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Сокровенна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "奥术信念"
                 }
@@ -9937,6 +10670,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -10000,6 +10737,10 @@
                     "langTranslation": "Стойкость непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Непохитна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念抗性"
                 }
@@ -10050,6 +10791,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -10076,39 +10821,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/35消費してアンロック"
+                            "langTranslation": "合計ポイントを0/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/35 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/35"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/35 总点数以解锁"
+                            "langTranslation": "投入 0/35 总点数以解锁"
                         }
                     ]
                 }
@@ -10146,6 +10895,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Получение камней душ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток каменів душ"
                 },
                 {
                     "langCode": "zh-cn",
@@ -10198,6 +10951,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -10224,39 +10981,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/20 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/20 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/20 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/20 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/20 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/20 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/20 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/20 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/20消費してアンロック"
+                            "langTranslation": "合計ポイントを0/20消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/20 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/20 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/20 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/20 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/20 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/20 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/20"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/20 总点数以解锁"
+                            "langTranslation": "投入 0/20 总点数以解锁"
                         }
                     ]
                 },
@@ -10302,6 +11063,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Исходные благословения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Початкові благословення"
                 },
                 {
                     "langCode": "zh-cn",
@@ -10354,6 +11119,10 @@
                             "langTranslation": "Дает +{0} к благословению навыков в начале каждого забега."
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "Дає додаткові благословення навичок ({0}) на початку нового проходження."
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "每次开始新一轮挑战时，额外获得 +{0} 个技能恩泽。"
                         }
@@ -10382,7 +11151,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de que se suelten reliquias"
+                    "langTranslation": "Probabilidad de caída de reliquias"
                 },
                 {
                     "langCode": "fr",
@@ -10403,6 +11172,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Вероятность выпадения реликвий"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шанс випадіння реліквій"
                 },
                 {
                     "langCode": "zh-cn",
@@ -10452,6 +11225,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -10515,6 +11292,10 @@
                     "langTranslation": "+60 сек. к запасу хода Адских часов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Таймер Пекельного годинника: +60 с"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地狱时钟时限 +60 秒"
                 }
@@ -10563,6 +11344,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает запас хода Адских часов на {0} сек."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує час на таймері Пекельного годинника на{0} с"
                         },
                         {
                             "langCode": "zh-cn",
@@ -10625,6 +11410,10 @@
                     "langTranslation": "+30 сек. к запасу хода Адских часов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Таймер Пекельного годинника: +30 с"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地狱时钟时限 +30 秒"
                 }
@@ -10673,6 +11462,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает запас хода Адских часов на {0} сек."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує час на таймері Пекельного годинника на{0} с"
                         },
                         {
                             "langCode": "zh-cn",
@@ -10735,6 +11528,10 @@
                     "langTranslation": "Уклонение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Ухилення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪避"
                 }
@@ -10785,6 +11582,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -10811,39 +11612,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -10881,6 +11686,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Щит маны"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Щит мани"
                 },
                 {
                     "langCode": "zh-cn",
@@ -10933,6 +11742,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -10959,39 +11772,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -11029,6 +11846,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Защита от магии"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Захист від магії"
                 },
                 {
                     "langCode": "zh-cn",
@@ -11081,6 +11902,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -11130,7 +11955,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Obrażenia od przywołania"
+                    "langTranslation": "Obrażenia od przyzwania"
                 },
                 {
                     "langCode": "pt-br",
@@ -11139,6 +11964,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Урон призванных существ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода від викликаного союзника"
                 },
                 {
                     "langCode": "zh-cn",
@@ -11154,7 +11983,7 @@
                     "type": "StatModifierNodeAffixDefinition",
                     "eStatDefinition": "SummonDamagePercentage",
                     "statModifierType": "Additive",
-                    "value": 0.14,
+                    "value": 0.07,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -11188,6 +12017,61 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "{0} {1}"
+                        }
+                    ]
+                },
+                {
+                    "name": "28c3617d-0b19-4fd8-99d2-8f2c01b6a2ba",
+                    "type": "StatModifierNodeAffixDefinition",
+                    "eStatDefinition": "SummonBasicSkillDamagePercentage",
+                    "statModifierType": "Additive",
+                    "value": 0.07,
+                    "hideDescription": false,
+                    "hideFromAggregatedDescriptions": false,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "{1} {0}"
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "{0}{1}"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -11217,39 +12101,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/35 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/35 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/35 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/35 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/35 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/35 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/35 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/35 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/35消費してアンロック"
+                            "langTranslation": "合計ポイントを0/35消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/35 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/35 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/35 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/35 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/35 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/35 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/35"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/35 总点数以解锁"
+                            "langTranslation": "投入 0/35 总点数以解锁"
                         }
                     ]
                 }
@@ -11278,7 +12166,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Obrażenia od przywołania"
+                    "langTranslation": "Obrażenia od przyzwania"
                 },
                 {
                     "langCode": "pt-br",
@@ -11287,6 +12175,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Урон призванных существ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шкода від викликаного союзника"
                 },
                 {
                     "langCode": "zh-cn",
@@ -11302,7 +12194,7 @@
                     "type": "StatModifierNodeAffixDefinition",
                     "eStatDefinition": "SummonDamagePercentage",
                     "statModifierType": "Additive",
-                    "value": 0.12,
+                    "value": 0.06,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -11336,6 +12228,61 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "zh-cn",
+                            "langTranslation": "{0} {1}"
+                        }
+                    ]
+                },
+                {
+                    "name": "c5f8e373-41b5-4fdf-aca4-fcba87c6d21f",
+                    "type": "StatModifierNodeAffixDefinition",
+                    "eStatDefinition": "SummonBasicSkillDamagePercentage",
+                    "statModifierType": "Additive",
+                    "value": 0.06,
+                    "hideDescription": false,
+                    "hideFromAggregatedDescriptions": false,
+                    "description": [
+                        {
+                            "langCode": "de",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "en",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "es",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "fr",
+                            "langTranslation": "{1} {0}"
+                        },
+                        {
+                            "langCode": "ja",
+                            "langTranslation": "{0}{1}"
+                        },
+                        {
+                            "langCode": "pl",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "pt-br",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -11407,6 +12354,10 @@
                     "langTranslation": "Время восстановления «Второго дыхания»"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Перезарядка другого дихання"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "绝处逢生冷却时间"
                 }
@@ -11427,7 +12378,11 @@
                         "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "SecondWindDefinition",
+                            "id": 9,
+                            "type": "SecondWindSkillDefinition"
+                        },
                         "variables": {
                             "type": "SkillEffectVariables",
                             "variables": [
@@ -11455,9 +12410,11 @@
                                             "valueOrName": "Roll",
                                             "eSkillEffectVariableModifier": "0",
                                             "statusToStack": {},
+                                            "statDefinition": "BaseDamage",
                                             "supportVariableValueOrName": "",
                                             "supportESkillEffectVariableModifier": "0",
-                                            "supportStatusToStack": {}
+                                            "supportStatusToStack": {},
+                                            "supportStatDefinition": "BaseDamage"
                                         },
                                         "useStatConversion": "NoConversion",
                                         "conversionStatDefinition": "BaseDamage",
@@ -11470,6 +12427,7 @@
                                 "characterEffectTrigger": "Kill",
                                 "ruleSet": {
                                     "type": "SkillEffectRuleSet",
+                                    "useOrLogic": false,
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
@@ -11479,9 +12437,11 @@
                                     "valueOrName": "",
                                     "eSkillEffectVariableModifier": "0",
                                     "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
-                                    "supportStatusToStack": {}
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
                                 },
                                 "triggerTargetEnumValue": 0,
                                 "triggerTargetStringValue": "",
@@ -11514,7 +12474,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Czas odnawiania <style=\"GreenText\">{0}</style>"
+                            "langTranslation": "Prędkość odnawiania <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "pt-br",
@@ -11523,6 +12483,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "<style=\"GreenText\">{0}</style> к перезарядке"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Час перезарядки: <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "zh-cn",
@@ -11546,7 +12510,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Vergessen"
+                    "langTranslation": "Das Vergessen"
                 },
                 {
                     "langCode": "en",
@@ -11558,7 +12522,7 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Oubli"
+                    "langTranslation": "L'Oubli"
                 },
                 {
                     "langCode": "ja",
@@ -11577,8 +12541,12 @@
                     "langTranslation": "Забвение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Забуття"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "遗忘"
+                    "langTranslation": "湮灭"
                 }
             ],
             "maxLevel": 1,
@@ -11596,7 +12564,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Schaltet die max. Fertigkeitsstufe frei\nSchaltet die maximale Größe des Reliktschreins frei"
+                            "langTranslation": "Schaltet die maximale Fertigkeitsstufe frei\nSchaltet die Maximalgröße des Reliktschreins frei"
                         },
                         {
                             "langCode": "en",
@@ -11608,11 +12576,11 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Déverrouille le niveau maximum des compétences\nDéverrouille la taille maximale du reliquaire"
+                            "langTranslation": "Débloque le niveau maximum des compétences\nDébloque la taille maximale du reliquaire"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルを解放\n聖遺物箱の最大サイズを解放"
+                            "langTranslation": "最大スキルレベルをアンロック\n聖遺物箱の最大サイズをアンロック"
                         },
                         {
                             "langCode": "pl",
@@ -11624,11 +12592,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Разблокирует макс. уровень навыков\nРазблокирует максимальный размер реликвария"
+                            "langTranslation": "Открывает максимальный уровень навыка\nРазблокирует максимальный размер реликвария"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Відкриває максимальний рівень навичок\nВідкриває максимальний розмір релікварію"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "解锁技能等级上限\n解锁圣物匣最大容量"
+                            "langTranslation": "解锁最高技能等级\n解锁最大圣物匣容量"
                         }
                     ]
                 },
@@ -11660,7 +12632,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa miejsce na wyposażone artefakty w ekwipunku"
+                            "langTranslation": "Zwiększa miejsce na artefakty w ekwipunku dodane do wyposażenia"
                         },
                         {
                             "langCode": "pt-br",
@@ -11669,6 +12641,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Увеличивает место для реликвий в инвентаре"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує інвентар екіпірованих реліквій"
                         },
                         {
                             "langCode": "zh-cn",
@@ -11697,39 +12673,43 @@
                     "requirements": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Investiere INSGESAMT 119/55 PUNKTE zum Freischalten"
+                            "langTranslation": "Investiere INSGESAMT 0/55 PUNKTE zum Freischalten"
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Invest 119/55 TOTAL POINTS to Unlock"
+                            "langTranslation": "Invest 0/55 TOTAL POINTS to Unlock"
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Invierte 119/55 PUNTOS TOTALES para desbloquear"
+                            "langTranslation": "Invierte 0/55 PUNTOS TOTALES para desbloquear"
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Dépensez 119/55 POINTS AU TOTAL pour débloquer ceci"
+                            "langTranslation": "Dépensez 0/55 POINTS AU TOTAL pour débloquer ceci"
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "合計ポイントを119/55消費してアンロック"
+                            "langTranslation": "合計ポイントを0/55消費してアンロック"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Wydaj W SUMIE 119/55 pkt., aby odblokować"
+                            "langTranslation": "Wydaj W SUMIE 0/55 pkt., aby odblokować"
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Invista 119/55 PONTOS NO TOTAL para Desbloquear"
+                            "langTranslation": "Invista 0/55 PONTOS NO TOTAL para Desbloquear"
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Вложите 119/55 оч., чтобы открыть"
+                            "langTranslation": "Вложите 0/55 оч., чтобы открыть"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "ВСЬОГО БАЛІВ, щоб відкрити: 0/55"
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "投入 119/55 总点数以解锁"
+                            "langTranslation": "投入 0/55 总点数以解锁"
                         }
                     ]
                 }
@@ -11767,6 +12747,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Получение камней душ"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток каменів душ"
                 },
                 {
                     "langCode": "zh-cn",
@@ -11816,6 +12800,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {

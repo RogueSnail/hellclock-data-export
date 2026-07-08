@@ -7,7 +7,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Werkzeug zum Basteln"
+                    "langTranslation": "Werkzeug der Bastelei"
                 },
                 {
                     "langCode": "en",
@@ -23,11 +23,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "いじくり回すための道具"
+                    "langTranslation": "いじくり道具"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Narzędzie majsterkowania"
+                    "langTranslation": "Narzędzie do majsterkowania"
                 },
                 {
                     "langCode": "pt-br",
@@ -35,17 +35,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Инструмент для ремонта"
+                    "langTranslation": "Орудие экспериментов"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Інструмент лагодження"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "修补工具"
+                    "langTranslation": "改造工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Ersetzt das Affix eines Relikts, das zufällig ausgewählt wird, durch ein anderes."
+                    "langTranslation": "Ersetzt das zufällig gewählte Affix eines Relikts durch ein anderes."
                 },
                 {
                     "langCode": "en",
@@ -57,15 +61,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Remplace l'affixe d'une relique, choisi au hasard, par un autre."
+                    "langTranslation": "Remplace aléatoirement le suffixe d'une relique par un autre."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ランダムに選択された遺物の接尾辞を別の接尾辞に置き換えます。"
+                    "langTranslation": "聖遺物の特性をランダムに選び、別の特性で置き換える。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zastępuje losowo wybrany atrybut Relikwii innym."
+                    "langTranslation": "Zastępuje losowo wybrany atrybut artefaktu innym."
                 },
                 {
                     "langCode": "pt-br",
@@ -73,11 +77,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Заменяет аффикс реликвии, выбранный случайным образом, на другой."
+                    "langTranslation": "Заменяет случайно выбранный свойство реликвии на другое."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Замінює випадковий афікс реліквії на інший."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "随机替换一件圣物的词缀。"
+                    "langTranslation": "随机选择一个遗物词缀，将其替换为不同的词缀。"
                 }
             ],
             "currencyIcon": "IconTool_Tinkering",
@@ -92,7 +100,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Werkzeug zur Verbesserung"
+                    "langTranslation": "Werkzeug der Verbesserung"
                 },
                 {
                     "langCode": "en",
@@ -108,11 +116,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "強化ツール"
+                    "langTranslation": "強化道具"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Narzędzie udoskonalenia"
+                    "langTranslation": "Narzędzie ulepszenia"
                 },
                 {
                     "langCode": "pt-br",
@@ -120,17 +128,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Инструмент улучшения"
+                    "langTranslation": "Орудие улучшения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Інструмент покращення"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "增强工具"
+                    "langTranslation": "强化工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Wertt ein gewöhnliches Relikt auf und verwandelt es in ein magisches Relikt."
+                    "langTranslation": "Verbessert ein gewöhnliches Relikt und verwandelt es in ein magisches Relikt."
                 },
                 {
                     "langCode": "en",
@@ -142,15 +154,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Améliore une relique commune, la transformant en relique magique."
+                    "langTranslation": "Transforme une relique commune en relique magique."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "一般的な遺物をアップグレードして、魔法の遺物に変換します。"
+                    "langTranslation": "コモンの聖遺物をアップグレードし、マジックの聖遺物に変化させる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Ulepsza zwykłą relikwię, zamieniając ją w magiczną relikwię."
+                    "langTranslation": "Ulepsza zwykły artefakt, zamieniając go w magiczny artefakt."
                 },
                 {
                     "langCode": "pt-br",
@@ -158,11 +170,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Улучшает обычную реликвию, превращая ее в магическую реликвию."
+                    "langTranslation": "Улучшает обычную реликвию, превращая ее в необычную реликвию."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Покращує звичайну реліквію, перетворюючи її на магічну."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "将一件普通遗物升级为一件魔法遗物。"
+                    "langTranslation": "将普通遗物升级为魔法遗物。"
                 }
             ],
             "currencyIcon": "IconTool_Enhancement",
@@ -179,7 +195,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de Mejora"
+                    "langTranslation": "Fragmento de mejora"
                 },
                 {
                     "langCode": "fr",
@@ -191,7 +207,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Fragment Ulepszenia"
+                    "langTranslation": "Fragment ulepszenia"
                 },
                 {
                     "langCode": "pt-br",
@@ -202,8 +218,12 @@
                     "langTranslation": "Фрагмент улучшения"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент покращення"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "增强片段"
+                    "langTranslation": "强化碎片"
                 }
             ],
             "fragmentIcon": "IconFragment_Enhancement",
@@ -217,7 +237,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Größeres Werkzeug zur Verbesserung"
+                    "langTranslation": "Stärkeres Werkzeug der Verbesserung"
                 },
                 {
                     "langCode": "en",
@@ -229,15 +249,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Outil d'amélioration supérieur"
+                    "langTranslation": "Outil d'amélioration renforcée"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "より強力な強化ツール"
+                    "langTranslation": "大強化道具"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Większe narzędzie ulepszeń"
+                    "langTranslation": "Większe narzędzie ulepszenia"
                 },
                 {
                     "langCode": "pt-br",
@@ -245,17 +265,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Лучший инструмент улучшения"
+                    "langTranslation": "Более мощное орудие улучшения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Інструмент для більшого покращення"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "更强大的增强工具"
+                    "langTranslation": "高阶强化工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Verbessert ein magisches Relikt und verwandelt es in ein seltenes Relikt.\n\nRelikte unterschiedlicher Größe können unterschiedliche seltene Eigenschaften aufweisen."
+                    "langTranslation": "Verbessert ein magisches Relikt und verwandelt sie in ein seltenes Relikt. \n\nVerschiedene Reliktgrößen können verschiedene seltene Affixe erhalten."
                 },
                 {
                     "langCode": "en",
@@ -263,19 +287,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Mejora una Reliquia Mágica, transformándola en una Reliquia Rara.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos Raros."
+                    "langTranslation": "Mejora una reliquia mágica y la transforma en una reliquia rara.\n\nLos diferentes tamaños de reliquia pueden generar distintos afijos raros."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Améliore une relique magique et la transforme en relique rare.\n\nLes reliques de différentes tailles peuvent avoir différents affixes rares."
+                    "langTranslation": "Transforme une relique magique en relique rare. \n\nLes suffixes rares dépendent de la taille des reliques."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "魔法の遺物をアップグレードし、レア遺物へと変化させます。\n\n遺物のサイズによって、付与されるレア効果は異なります。"
+                    "langTranslation": "マジックの聖遺物をアップグレードし、レアの聖遺物に変化させる。\n\n付与されるレア特性は聖遺物のサイズによって異なる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Ulepsza Magiczny Relikt, przekształcając go w Rzadki Relikt.\n\nRóżne rozmiary Reliktu pozwalają na wylosowanie różnych rzadkich afiksów."
+                    "langTranslation": "Ulepsza zwykły artefakt, zamieniając go w magiczny artefakt.\n\nArtefakty o różnych rozmiarach mogą dawać różne rzadkie afiksy."
                 },
                 {
                     "langCode": "pt-br",
@@ -283,11 +307,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Улучшает магическую реликвию, превращая её в редкую.\n\nРазные размеры реликвий могут давать разные редкие свойства."
+                    "langTranslation": "Улучшает необычную реликвию, превращая ее в редкую реликвию. \n\nРеликвии разных размеров могут обладать разными редкими свойствами."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Покращує магічну реліквію, перетворюючи її на рідкісну.\n\nРізні розміри реліквій можуть призводити до різних рідкісних афіксів."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "升级一件魔法遗物，将其转化为一件稀有遗物。\n\n不同尺寸的遗物可能带有不同的稀有词缀。"
+                    "langTranslation": "将魔法遗物升级为稀有遗物。\n\n不同尺寸的遗物可随机生成不同的稀有词缀。"
                 }
             ],
             "currencyIcon": "IconTool_GreaterEnhancement",
@@ -296,7 +324,7 @@
             "fragmentNameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Fragment der größeren Verbesserung"
+                    "langTranslation": "Fragment der stärkeren Verbesserung"
                 },
                 {
                     "langCode": "en",
@@ -304,19 +332,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de Mayor Mejora"
+                    "langTranslation": "Fragmento de mayor mejora"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fragment d'amélioration supérieure"
+                    "langTranslation": "Fragment d'amélioration renforcée"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "強化強化の破片"
+                    "langTranslation": "大強化の破片"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Fragment Większego Ulepszenia"
+                    "langTranslation": "Fragment większego ulepszenia"
                 },
                 {
                     "langCode": "pt-br",
@@ -324,11 +352,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Фрагмент Великого Улучшения"
+                    "langTranslation": "Более мощный фрагмент улучшения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент для більшого покращення"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "增强片段"
+                    "langTranslation": "高阶强化碎片"
                 }
             ],
             "fragmentIcon": "IconFragment_GreaterEnhancement",
@@ -341,7 +373,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Werkzeug des Schlossers"
+                    "langTranslation": "Werkzeug des Schlosserhandwerks"
                 },
                 {
                     "langCode": "en",
@@ -353,11 +385,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Outil de serrurier"
+                    "langTranslation": "Outil de soudure"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "錠前屋の道具"
+                    "langTranslation": "鍵屋の道具"
                 },
                 {
                     "langCode": "pl",
@@ -369,17 +401,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Инструмент слесаря"
+                    "langTranslation": "Орудие слесаря"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Інструмент слюсаря"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "锁匠工具"
+                    "langTranslation": "锁定工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Sperrt ein zufälliges reguläres Affix auf einem Relikt. Gesperrte Affixe können durch kein Werkzeug entfernt oder ersetzt werden.\n\nFalls das Relikt bereits ein gesperrtes Affix besitzt, wird dieses entsperrt und stattdessen ein anderes zufälliges Affix gesperrt."
+                    "langTranslation": "Verankert einen zufälligen regulären Affix auf einem Relikt. Verankerte Affixe können mit keinem Werkzeug entfernt oder ersetzt werden.\n\nWenn das Relikt bereits ein verankertes Affix hat, wird dieses gelöst und stattdessen ein anderes zufälliges Affix verankert."
                 },
                 {
                     "langCode": "en",
@@ -387,19 +423,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bloquea un afijo regular aleatorio en una reliquia. Los afijos bloqueados no se pueden eliminar ni reemplazar con ninguna herramienta.\n\nSi la reliquia ya tiene un afijo bloqueado, se desbloquea y se bloquea otro afijo aleatorio en su lugar."
+                    "langTranslation": "Bloquea un afijo regular aleatorio en una reliquia. Los afijos bloqueados no se pueden eliminar ni reemplazar con ninguna herramienta.\n\nSi la reliquia ya tiene un afijo bloqueado, se desbloquea y en su lugar se bloquea otro afijo aleatorio."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Verrouille un affixe aléatoire sur une relique. Les affixes verrouillés ne peuvent être ni retirés ni remplacés par aucun outil.\n\nSi la relique possède déjà un affixe verrouillé, celui-ci est déverrouillé et remplacé par un autre affixe aléatoire."
+                    "langTranslation": "Soude un suffixe normal aléatoire à une relique. Les suffixes soudés ne peuvent pas être retirés ou remplacés par un outil.\n\nSi la relique possède déjà un suffixe soudé, celui-ci est dessoudé et un autre suffixe aléatoire est soudé à sa place."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "遺物にランダムな通常アフィックスをロックします。ロックされたアフィックスは、いかなるツールを使っても解除または置換できません。\n\n遺物に既にロックされたアフィックスがある場合は、そのアフィックスはロック解除され、代わりにランダムなアフィックスがロックされます。"
+                    "langTranslation": "聖遺物のランダムな通常特性をロックする。ロックされた特性は、いかなる道具でも削除・交換できない。\n\nすでに聖遺物にロックされた特性がある場合、その特性のロックを解除し、別のランダムな特性をロックする。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Blokuje losowy, zwykły afiks na Relikcie. Zablokowanych afiksów nie można usunąć ani zastąpić żadnym narzędziem.\n\nJeśli Relikt ma już zablokowany afiks, zostaje on odblokowany, a zamiast niego blokowany jest inny, losowy afiks."
+                    "langTranslation": "Blokuje losowy standardowy afiks na artefakcie. Zablokowanych afiksów nie można usunąć ani zastąpić żadnym narzędziem.\n\nJeśli artefakt ma już zablokowany afiks, zostaje on odblokowany, a zamiast niego zablokowany zostanie inny losowy afiks."
                 },
                 {
                     "langCode": "pt-br",
@@ -407,11 +443,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Блокирует случайный обычный аффикс на реликвии. Заблокированные аффиксы нельзя удалить или заменить никаким инструментом.\n\nЕсли у реликвии уже есть заблокированный аффикс, он разблокируется, и вместо него блокируется другой случайный аффикс."
+                    "langTranslation": "Блокирует у реликвии случайное обычное свойство. Заблокированные свойства нельзя удалить или заменить никаким орудием.\n\nЕсли у реликвии уже есть заблокированное свойство, то оно разблокируется, и вместо него заблокируется другое случайное свойство."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Надає реліквії випадковий звичайний афікс і фіксує його. Зафіксовані афікси не можна прибрати або замінити жодним інструментом.\n\nЯкщо в реліквії вже є зафіксований афікс, його буде знято, а натомість зафіксовано інший випадковий афікс."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "锁定遗物上的一个随机普通词缀。被锁定的词缀无法被任何工具移除或替换。\n\n如果遗物上已经存在一个被锁定的词缀，则会解锁该词缀，并锁定另一个随机词缀。"
+                    "langTranslation": "随机锁定遗物的一个普通词缀。被锁定词缀无法被任何工具移除或替换。\n\n若该遗物已有被锁定词缀，则原词缀会解锁，并随机锁定另一个词缀。"
                 }
             ],
             "currencyIcon": "IconTool_Locksmithing",
@@ -420,7 +460,7 @@
             "fragmentNameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Fragment der Schlosserkunst"
+                    "langTranslation": "Fragment des Schlosserhandwerks"
                 },
                 {
                     "langCode": "en",
@@ -432,11 +472,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fragment de serrurerie"
+                    "langTranslation": "Fragment de soudure"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "錠前師の断片"
+                    "langTranslation": "鍵屋の欠片"
                 },
                 {
                     "langCode": "pl",
@@ -451,8 +491,12 @@
                     "langTranslation": "Фрагмент слесарного дела"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент слюсарного ремесла"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "锁匠技艺片段"
+                    "langTranslation": "锁定碎片"
                 }
             ],
             "fragmentIcon": "IconFragment_Locksmithing",
@@ -471,7 +515,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Durchdrungenes Werkzeug der Wut"
+                    "langTranslation": "Durchdrungenes Werkzeug des Zorns"
                 },
                 {
                     "langCode": "en",
@@ -483,15 +527,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Outil imprégné de fureur"
+                    "langTranslation": "Outil imprégné de Zèle"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "怒りの刻印された道具"
+                    "langTranslation": "激情宿しの道具"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Nasycone Narzędzie Furii"
+                    "langTranslation": "Nasycone narzędzie Furii"
                 },
                 {
                     "langCode": "pt-br",
@@ -499,17 +543,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Зачарованный инструмент ярости"
+                    "langTranslation": "Орудие ярости, наделенное силой"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Сповнений люті інструмент"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "狂怒之器"
+                    "langTranslation": "怒火灌注工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Verleiht einem Relikt den impliziten Affix „Wut“. Besitzt das Relikt bereits einen solchen Affix, wird dieser ersetzt.\n\nRelikte unterschiedlicher Größe können unterschiedliche implizite Affixe erhalten."
+                    "langTranslation": "Durchdringt ein Relikt mit einem impliziten Zorn-Affix. Wenn das Relikt bereits ein durchdrungenes Implizit hat, ersetzt es dieses.\n\nVerschiedene Reliquiengrößen können verschiedene durchdrungene Implizite erhalten."
                 },
                 {
                     "langCode": "en",
@@ -517,19 +565,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Imbuye una Reliquia con un afijo de Furia implícito. Si la Reliquia ya tiene un afijo de Furia implícito, lo reemplaza.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos de Furia implícitos."
+                    "langTranslation": "Imbuye una reliquia con un afijo de Furia implícito. Si la reliquia ya tiene un afijo de Furia implícito, lo reemplaza.\n\nLos diferentes tamaños de reliquia pueden generar distintos implícitos imbuidos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Confère à une relique un affixe implicite de Fureur. Si la relique possède déjà un affixe implicite d'Impression, celui-ci le remplace.\n\nLes reliques de différentes tailles peuvent avoir des affixes implicites d'Impression différents."
+                    "langTranslation": "Confère un suffixe de Zèle inhérent à une relique. Si la relique possède déjà un suffixe inhérent, celui-ci le remplace.\n\nLes suffixes inhérents dépendent de la taille des reliques."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "遺物に暗黙のフューリー効果を付与します。遺物に既に暗黙のフューリー効果が付与されている場合は、置き換えられます。\n\n遺物のサイズによって、付与される暗黙効果が異なる場合があります。"
+                    "langTranslation": "聖遺物に激情の潜在特性を付与する。すでに聖遺物に潜在特性がある場合は、それを置き換える。\n\n付与される潜在特性は聖遺物のサイズによって異なる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Nasyca Relikwię domyślnym afiksem Furii. Jeśli Relikwia ma już afiks Nasycenia, zastępuje go.\n\nRóżne rozmiary Reliktów pozwalają na rzucanie różnymi afiksami Nasycenia."
+                    "langTranslation": "Nasyca artefakt domyślnym afiksem Furii. Jeśli artefakt ma już domyślny afiks nasycenia, zastępuje go.\n\nArtefakty o różnych rozmiarach mogą dawać różne domyślne nasycenia."
                 },
                 {
                     "langCode": "pt-br",
@@ -537,11 +585,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Наделяет реликвию неявным свойством Ярости. Если у реликвии уже есть неявное свойство «Наделение», она заменяет его.\n\nРазные размеры реликвий могут давать разные неявные свойства «Наделение»."
+                    "langTranslation": "Наделяет реликвию скрытым свойством «Ярость». Если реликвия уже имеет скрытое свойство, то новое свойство заменяет старое.\n\nРеликвии разных размеров могут иметь разные скрытые свойства."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Надає реліквії власний афікс люті. Якщо в реліквії вже є власна властивість, її буде замінено на цей афікс.\n\nРеліквії різного розміру можуть отримувати різні властивості."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "为一件圣物赋予一个隐含的狂怒词缀。如果该圣物已经拥有一个已赋予的隐含词缀，则会替换它。\n\n不同尺寸的圣物可能随机获得不同的已赋予隐含词缀。"
+                    "langTranslation": "为遗物灌注隐性怒火词缀。若该遗物已有灌注隐性词缀，则将其替换。\n\n不同尺寸的遗物可随机生成不同的灌注隐性词缀。"
                 }
             ],
             "currencyIcon": "IconTool_Fury",
@@ -550,7 +602,7 @@
             "fragmentNameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Fragment der Wut"
+                    "langTranslation": "Fragment des Zorns"
                 },
                 {
                     "langCode": "en",
@@ -562,11 +614,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fragment de fureur"
+                    "langTranslation": "Fragment de Zèle"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "怒りの断片"
+                    "langTranslation": "激情の破片"
                 },
                 {
                     "langCode": "pl",
@@ -578,11 +630,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Фрагмент Ярости"
+                    "langTranslation": "Фрагмент ярости"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент люті"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "愤怒碎片"
+                    "langTranslation": "怒火碎片"
                 }
             ],
             "fragmentIcon": "IconFragment_Fury",
@@ -601,7 +657,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Ein durchdrungenes Werkzeug des Glaubens"
+                    "langTranslation": "Durchdrungenes Werkzeug des Glaubens"
                 },
                 {
                     "langCode": "en",
@@ -613,15 +669,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Outil imprégné de foi"
+                    "langTranslation": "Outil imprégné de Foi"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "信仰の染み込んだ道具"
+                    "langTranslation": "信仰宿しの道具"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przesiąknięte narzędziem wiary"
+                    "langTranslation": "Nasycone narzędzie wiary"
                 },
                 {
                     "langCode": "pt-br",
@@ -629,17 +685,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Вдохновленный инструмент веры"
+                    "langTranslation": "Орудие веры, наделенное силой"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Сповнений віри інструмент"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "信仰的工具"
+                    "langTranslation": "信仰灌注工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Verleiht einem Relikt einen impliziten Glaubens-Affix. Besitzt das Relikt bereits einen solchen Affix, wird dieser ersetzt.\n\nRelikte unterschiedlicher Größe können unterschiedliche implizite Glaubens-Affixe erhalten."
+                    "langTranslation": "Verleiht einer Reliquie ein implizites Glaubens-Affix. Wenn das Relikt bereits ein durchdrungenes Implizit hat, ersetzt es dieses.\n\nVerschiedene Reliquiengrößen können verschiedene durchdrungene Implizite erhalten."
                 },
                 {
                     "langCode": "en",
@@ -647,19 +707,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Imbuye una Reliquia con un afijo de Fe implícito. Si la Reliquia ya tiene un afijo de Fe implícito, lo reemplaza.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos de Fe implícitos."
+                    "langTranslation": "Imbuye una reliquia con un afijo de fe implícito. Si la reliquia ya tiene un afijo de fe implícito, lo reemplaza.\n\nLos diferentes tamaños de reliquia pueden generar distintos implícitos imbuidos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Confère à une relique un affixe Foi implicite. Si la relique possède déjà un affixe Imprégnation implicite, celui-ci le remplace.\n\nLes reliques de différentes tailles peuvent avoir des affixes Imprégnation implicites différents."
+                    "langTranslation": "Confère un suffixe de Foi inhérent à une relique. Si la relique possède déjà un suffixe inhérent, celui-ci le remplace.\n\nLes suffixes inhérents dépendent de la taille des reliques."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "聖遺物に暗黙の信仰効果を付与します。聖遺物に既に暗黙の信仰効果が付与されている場合は、置き換えられます。\n\n聖遺物のサイズによって、付与される暗黙効果が異なる場合があります。"
+                    "langTranslation": "聖遺物に信仰の潜在特性を付与する。すでに聖遺物に潜在特性がある場合は、それを置き換える。\n\n付与される潜在特性は聖遺物のサイズによって異なる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Nasyca relikwię ukrytym afiksem Wiary. Jeśli relikwia ma już afiks Nasycenia, zastępuje go.\n\nRóżne rozmiary relikwii pozwalają na rzucanie różnymi afiksami Nasycenia."
+                    "langTranslation": "Nasyca artefakt domyślnym afiksem Wiary. Jeśli artefakt ma już domyślny afiks nasycenia, zastępuje go.\n\nArtefakty o różnych rozmiarach mogą dawać różne domyślne nasycenia."
                 },
                 {
                     "langCode": "pt-br",
@@ -667,11 +727,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Наделяет реликвию неявным свойством веры. Если у реликвии уже есть неявное свойство веры, она заменяет его.\n\nРазные размеры реликвий могут генерировать разные неявные свойства веры."
+                    "langTranslation": "Наделяет реликвию скрытым свойством «Вера». Если реликвия уже имеет скрытое свойство, то новое свойство заменяет старое.\n\nРеликвии разных размеров могут иметь разные скрытые свойства."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Надає реліквії власний афікс віри. Якщо в реліквії вже є власна властивість, її буде замінено на цей афікс.\n\nРеліквії різного розміру можуть отримувати різні властивості."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "为一件圣物赋予一个固有的信仰词缀。如果该圣物已经拥有固有的信仰词缀，则会替换掉原有的。\n\n不同尺寸的圣物可能拥有不同的固有信仰词缀。"
+                    "langTranslation": "为遗物灌注隐性信仰词缀。若该遗物已有灌注隐性词缀，则将其替换。\n\n不同尺寸的遗物可随机生成不同的灌注隐性词缀。"
                 }
             ],
             "currencyIcon": "IconTool_Faith",
@@ -680,7 +744,7 @@
             "fragmentNameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Glaubensfragment"
+                    "langTranslation": "Fragment des Glaubens"
                 },
                 {
                     "langCode": "en",
@@ -692,11 +756,11 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fragment de foi"
+                    "langTranslation": "Fragment de Foi"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "信仰の断片"
+                    "langTranslation": "信仰の破片"
                 },
                 {
                     "langCode": "pl",
@@ -708,7 +772,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Фрагмент Веры"
+                    "langTranslation": "Фрагмент веры"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент віри"
                 },
                 {
                     "langCode": "zh-cn",
@@ -731,7 +799,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Eingebettetes Werkzeug der Disziplin"
+                    "langTranslation": "Durchdrungenes Werkzeug der Disziplin"
                 },
                 {
                     "langCode": "en",
@@ -743,15 +811,15 @@
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Outil imprégné de discipline"
+                    "langTranslation": "Outil imprégné de Discipline"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "規律の染み込んだ道具"
+                    "langTranslation": "規律宿しの道具"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Przesiąknięte narzędzie dyscypliny"
+                    "langTranslation": "Nasycone narzędzie dyscypliny"
                 },
                 {
                     "langCode": "pt-br",
@@ -759,17 +827,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Встроенный инструмент дисциплины"
+                    "langTranslation": "Орудие дисциплины, наделенный силой"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Сповнений дисципліни інструмент"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "蕴含纪律的工具"
+                    "langTranslation": "律制灌注工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Verleiht einem Relikt einen impliziten Disziplin-Affix. Besitzt das Relikt bereits einen solchen Affix, wird dieser ersetzt.\n\nRelikte unterschiedlicher Größe können unterschiedliche implizite Affixe erhalten."
+                    "langTranslation": "Verleiht einer Reliquie ein implizites Disziplin-Affix. Wenn das Relikt bereits ein durchdrungenes Implizit hat, ersetzt es dieses.\n\nVerschiedene Reliquiengrößen können verschiedene durchdrungene Implizite erhalten."
                 },
                 {
                     "langCode": "en",
@@ -777,19 +849,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Imbuye una Reliquia con un afijo de Disciplina implícito. Si la Reliquia ya tiene un afijo implícito imbuido, lo reemplaza.\n\nDistintos tamaños de Reliquia pueden generar distintos afijos implícitos imbuidos."
+                    "langTranslation": "Imbuye una reliquia con un afijo de Disciplina implícito. Si la Reliquia ya tiene un afijo de Disciplina implícito, lo reemplaza.\n\nLos diferentes tamaños de reliquia pueden generar distintos implícitos imbuidos."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Confère à une relique un affixe Discipline implicite. Si la relique possède déjà un affixe Imprégnation implicite, celui-ci le remplace.\n\nLes reliques de différentes tailles peuvent obtenir différents affixes Imprégnation implicites."
+                    "langTranslation": "Confère un suffixe de Discipline inhérent à une relique. Si la relique possède déjà un suffixe inhérent, celui-ci le remplace.\n\nLes suffixes inhérents dépendent de la taille des reliques."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "聖遺物に暗黙の「規律」効果を付与します。聖遺物に既に暗黙の「付与」効果がある場合は、置き換えられます。\n\n聖遺物のサイズによって、付与される暗黙効果は異なります。"
+                    "langTranslation": "聖遺物に規律の潜在特性を付与する。すでに聖遺物に潜在特性がある場合は、それを置き換える。\n\n付与される潜在特性は聖遺物のサイズによって異なる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Nasyca Relikwię ukrytym afiksem Dyscypliny. Jeśli Relikwia ma już ukryty afiks Nasycenia, zastępuje go.\n\nRóżne rozmiary Reliktów pozwalają na rzucanie różnymi ukrytymi afiksami Nasycenia."
+                    "langTranslation": "Nasyca artefakt domyślnym afiksem Dyscypliny. Jeśli artefakt ma już domyślny afiks nasycenia, zastępuje go.\n\nArtefakty o różnych rozmiarach mogą dawać różne domyślne nasycenia."
                 },
                 {
                     "langCode": "pt-br",
@@ -797,11 +869,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Наделяет Реликвию неявным свойством Дисциплины. Если у Реликвии уже есть неявное свойство «Наделение», она заменяет его.\n\nРазные размеры Реликвий могут генерировать разные неявные свойства «Наделение»."
+                    "langTranslation": "Наделяет реликвию скрытым свойством «Дисциплина». Если реликвия уже имеет скрытое свойство, то новое свойство заменяет старое.\n\nРеликвии разных размеров могут иметь разные скрытые свойства."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Надає реліквії власний афікс дисципліни. Якщо в реліквії вже є власна властивість, її буде замінено на цей афікс.\n\nРеліквії різного розміру можуть отримувати різні властивості."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "为一件圣物赋予一个隐含的戒律词缀。如果该圣物已带有隐含词缀，则会替换原有词缀。\n\n不同尺寸的圣物可能随机获得不同的隐含词缀。"
+                    "langTranslation": "为遗物灌注隐性律制词缀。若该遗物已有灌注隐性词缀，则将其替换。\n\n不同尺寸的遗物可随机生成不同的灌注隐性词缀。"
                 }
             ],
             "currencyIcon": "IconTool_Discipline",
@@ -818,19 +894,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de Disciplina"
+                    "langTranslation": "Fragmento de disciplina"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fragment de discipline"
+                    "langTranslation": "Fragment de Discipline"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "規律の断片"
+                    "langTranslation": "規律の破片"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Fragment Dyscypliny"
+                    "langTranslation": "Fragment dyscypliny"
                 },
                 {
                     "langCode": "pt-br",
@@ -841,8 +917,12 @@
                     "langTranslation": "Фрагмент дисциплины"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент дисципліни"
+                },
+                {
                     "langCode": "zh-cn",
-                    "langTranslation": "学科片段"
+                    "langTranslation": "律制碎片"
                 }
             ],
             "fragmentIcon": "IconFragment_Discipline",
@@ -913,7 +993,7 @@
             "nameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beschädigtes Werkzeug"
+                    "langTranslation": "Verderbtes Werkzeug"
                 },
                 {
                     "langCode": "en",
@@ -929,11 +1009,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "破損したツール"
+                    "langTranslation": "堕落した道具"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Uszkodzone narzędzie"
+                    "langTranslation": "Zniszczone narzędzie"
                 },
                 {
                     "langCode": "pt-br",
@@ -941,17 +1021,21 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Поврежденный инструмент"
+                    "langTranslation": "Поврежденное орудие"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Пошкоджений інструмент"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "损坏的工具"
+                    "langTranslation": "腐化工具"
                 }
             ],
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Verändert Relikte unvorhersehbar und macht sie anschließend korrumpiert.\n\nDie Macht der Korruption ist unberechenbar und bringt gleichermaßen Triumph und Tragödie.\n\nKorrumpierte Relikte können mit keinem Werkzeug verändert werden."
+                    "langTranslation": "Verändert ein Relikt auf unvorhersehbare Weise und macht sie im Nachhinein verdorben.\n\nDie Macht der Verderbnis ist unbeständig und verleiht Triumph und Tragödie gleichermaßen.\n\nVerdorbene Reliquien können nicht durch irgendwelche Werkzeuge verändert werden."
                 },
                 {
                     "langCode": "en",
@@ -959,19 +1043,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Modifica una reliquia de forma impredecible, corrompiéndola posteriormente.\n\nEl poder de la corrupción es voluble, otorgando triunfo y tragedia por igual.\n\nLas reliquias corruptas no pueden modificarse con ninguna herramienta."
+                    "langTranslation": "Modifica de forma impredecible una reliquia, volviéndola corrupta a partir de entonces.\n\nEl poder de la corrupción es voluble y otorga triunfo y tragedia en igual medida.\n\nLas reliquias corruptas no se pueden modificar con ninguna herramienta."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "La corruption modifie une relique de façon imprévisible, la rendant corrompue par la suite.\n\nLe pouvoir de la corruption est capricieux ; il confère aussi bien triomphe que tragédie.\n\nLes reliques corrompues ne peuvent être modifiées par aucun outil."
+                    "langTranslation": "Modifie une relique de façon imprévisible et la corrompt.\n\nLe pouvoir de la corruption est capricieux, accordant équitablement gloire et chagrin.\n\nLes reliques corrompues ne peuvent pas être modifiées par un outil."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "予期せぬ形で遺物を変化させ、後に穢れをもたらします。\n\n穢れの力は移ろいやすく、勝利と悲劇を等しくもたらします。\n\n穢れた遺物はいかなる道具によっても変化させることができません。"
+                    "langTranslation": "聖遺物に予想外の変化をもたらし、堕落状態にする。\n\n堕落の力は気まぐれで、勝利と悲劇を同等に引き起こす。\n\n堕落状態の聖遺物はいかなる道具でも改変できない。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Nieprzewidywalnie modyfikuje Relikwię, czyniąc ją później Zepsutą.\n\nMoc Zepsucia jest kapryśna, przynosząc w równym stopniu triumf i tragedię.\n\nZepsutych Reliktów nie można modyfikować żadnymi Narzędziami."
+                    "langTranslation": "Nieprzewidywalnie modyfikuje artefakt, sprawiając, że staje się on później zniszczony.\n\nSiła zniszczenia jest kapryśna, przynosi zarówno triumfy, jak i tragedie.\n\nZniszczonych artefaktów nie można modyfikować za pomocą żadnych narzędzi."
                 },
                 {
                     "langCode": "pt-br",
@@ -979,11 +1063,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Непредсказуемо изменяет Реликвию, делая её впоследствии Порчей.\n\nСила Порчи переменчива, даруя в равной мере и триумф, и трагедию.\n\nПорченые Реликвии нельзя изменить никакими Инструментами."
+                    "langTranslation": "Непредсказуемо изменяет реликвию, в результате чего она становится испорченной.\n\nВласть порчи непостоянна, она дарует как триумф, так и трагедию в равной мере.\n\nИспорченные реликвии нельзя изменить никакими инструментами."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Вносить до реліквії непередбачувані зміни, через які вона стає пошкодженою.\n\nТакі реліквії примхливі та з однаковою ймовірністю можуть привести до тріумфу або трагедії.\n\nПошкоджені реліквії не можна змінити жодними інструментами."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "腐化会不可预测地改变一件圣物，使其堕落。\n\n腐化的力量变幻莫测，既能带来胜利，也能带来悲剧。\n\n堕落的圣物无法被任何工具修改。"
+                    "langTranslation": "以不可预测的方式改造一件遗物，使其变为腐化状态。\n\n腐化之力反复无常，既可能带来胜利，也可能招致灾厄。\n\n腐化遗物无法再被任何工具修改。"
                 }
             ],
             "currencyIcon": "IconTool_Corrupted",
@@ -992,7 +1080,7 @@
             "fragmentNameLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Fragment der Korruption"
+                    "langTranslation": "Fragment der Verderbnis"
                 },
                 {
                     "langCode": "en",
@@ -1008,11 +1096,11 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "腐敗の断片"
+                    "langTranslation": "堕落の破片"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Fragment Korupcji"
+                    "langTranslation": "Fragment zniszczenia"
                 },
                 {
                     "langCode": "pt-br",
@@ -1020,11 +1108,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Фрагмент коррупции"
+                    "langTranslation": "Фрагмент порчи"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент пошкодження"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "腐败的碎片"
+                    "langTranslation": "腐化碎片"
                 }
             ],
             "fragmentIcon": "IconFragment_Corrupted",
@@ -1057,7 +1149,7 @@
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "神の道具"
+                    "langTranslation": "神聖な道具"
                 },
                 {
                     "langCode": "pl",
@@ -1069,7 +1161,11 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Божественный инструмент"
+                    "langTranslation": "Божественное орудие"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Божественний інструмент"
                 },
                 {
                     "langCode": "zh-cn",
@@ -1079,7 +1175,7 @@
             "descriptionLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segnet eine Reliquie mit Göttlichkeit und erhöht die Werte all ihrer Affixe um einen zufälligen Wert.\n\nMit Göttlichen Werkzeugen verbesserte Reliquien-Affixe können ihren normalen Maximalwert um bis zu 20 % überschreiten."
+                    "langTranslation": "Segnet ein Relikt mit Göttlichkeit und verbessert die Werte aller ihrer Affixe um eine zufällige Spanne.\n\nRelikt-Affixe, die mit göttlichen Werkzeugen aufgewertet wurden, können ihren normalen Maximalwert um bis zu 20 % übersteigen."
                 },
                 {
                     "langCode": "en",
@@ -1087,19 +1183,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Bendice una reliquia con divinidad, lo que mejora los valores de todos sus afijos con un margen aleatorio.\n\nLos afijos de reliquia mejorados con Herramientas Divinas pueden superar su valor máximo habitual, hasta en un 20 %."
+                    "langTranslation": "Bendice una reliquia con divinidad y mejoran los valores de todos sus afijos en un margen aleatorio.\n\nLos afijos de reliquia mejorados con herramientas divinas pueden superar lo que normalmente sería su valor máximo, hasta un 20 %."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Bénit une relique de divinité, améliorant aléatoirement la valeur de tous ses affixes.\n\nLes affixes de relique améliorés par des outils divins peuvent dépasser leur valeur maximale normale, jusqu'à 20 %."
+                    "langTranslation": "Bénit une relique de divinité, ce qui améliore aléatoirement les valeurs de tous ses suffixes.\n\nLes suffixes des reliques améliorés avec des outils divins peuvent dépasser leur valeur maximale normale de 20 % maximum."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "聖なる力で聖遺物を祝福し、その全ての効果をランダムな割合で向上させます。\n\n聖なる道具で強化された聖遺物の効果は、通常の最大値を最大20%上回ります。"
+                    "langTranslation": "聖遺物に神性を授け、すべての特性の価値をランダムに強化する。\n\n神聖な道具でアップグレードされた聖遺物の特性は、通常の最大値を最大20%上回ることがある。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Obdarza Relikwię boskością, zwiększając wartości wszystkich jej atrybutów o losowy margines.\n\nAfiksy Reliktu ulepszone Boskimi Narzędziami mogą przekroczyć swoją normalną maksymalną wartość, nawet o 20%."
+                    "langTranslation": "Obdarza artefakt boskością, zwiększając wartości wszystkich jego afiksów o losowy margines.\n\nUlepszone za pomocą boskich narzędzi afiksy artefaktu mogą przekroczyć swoją maksymalną wartość nawet o 20%"
                 },
                 {
                     "langCode": "pt-br",
@@ -1107,11 +1203,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Благословляет реликвию божественностью, увеличивая значения всех её аффиксов на случайную величину.\n\nАффиксы реликвий, улучшенные с помощью Божественных инструментов, могут превышать их максимальное значение до 20%."
+                    "langTranslation": "Наделяет реликвию божественным даром, улучшая значения всех ее свойств на случайную величину.\n\nУлучшенные с помощью Божественных Орудий свойства реликвий могут превышать свои обычные максимальные значения, вплоть до 20%"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Надає реліквії божественне благословення й випадковим чином підвищує значення всіх її афіксів.\n\nАфікси реліквій, покращених за допомогою божественних інструментів, можуть збільшувати значення характеристик вище максимуму (до 20%)."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "以神力祝福一件圣物，随机提升其所有词缀的数值。\n\n使用神圣工具升级的圣物词缀数值可超出其通常的最大值，最高可达 20%。"
+                    "langTranslation": "对遗物施加神圣恩赐，以随机幅度提升其所有词缀的数值。\n\n经由神圣工具升级的遗物词缀，其数值可突破正常上限，最高可超出 20%。"
                 }
             ],
             "currencyIcon": "IconTool_Divine",
@@ -1128,19 +1228,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Fragmento de la Divinidad"
+                    "langTranslation": "Fragmento de divinidad"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Fragment de la Divinité"
+                    "langTranslation": "Fragment de divinité"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "神性の断片"
+                    "langTranslation": "神聖の破片"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Fragment Boskości"
+                    "langTranslation": "Fragment boskości"
                 },
                 {
                     "langCode": "pt-br",
@@ -1148,11 +1248,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Фрагмент Божественности"
+                    "langTranslation": "Фрагмент божественного дара"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Фрагмент божественності"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "神性碎片"
+                    "langTranslation": "神圣碎片"
                 }
             ],
             "fragmentIcon": "IconFragment_Divine",

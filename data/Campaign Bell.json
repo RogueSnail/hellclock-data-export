@@ -42,6 +42,10 @@
                     "langTranslation": "Основной урон"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова шкода"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础伤害值"
                 }
@@ -89,6 +93,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -152,6 +160,10 @@
                     "langTranslation": "Количество маны"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова мана"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础法力值"
                 }
@@ -199,6 +211,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -262,6 +278,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -309,6 +329,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -385,6 +409,10 @@
                             "langTranslation": "Чтобы разблокировать, откройте акт II"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "Дійдіть до АКТУ 2, щоб розблокувати"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "到达第二幕以解锁"
                         }
@@ -424,6 +452,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Получение опыта"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток досвіду"
                 },
                 {
                     "langCode": "zh-cn",
@@ -473,6 +505,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -536,6 +572,10 @@
                     "langTranslation": "Получение золота"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток золота"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "金币获取"
                 }
@@ -583,6 +623,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -654,6 +698,10 @@
                     "langTranslation": "Красный портал"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Червоний портал"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "红色传送门"
                 }
@@ -673,7 +721,7 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Das Rote Portal hat eine 15%ige Chance, auf bekannten Ebenen zu erscheinen.\nEs ermöglicht dir, bereits erkundete Bereiche zu überspringen und gewährt einen Segen, der Erfahrungs- und Goldgewinne erhöht."
+                            "langTranslation": "Das Rote Portal hat eine Chance von 15 %, auf bekannten Ebenen zu spawnen. Es erlaubt dir, zuvor erforschte Bereiche zu überspringen, und bietet einen Segen, der die EP- und Goldgewinne erhöht."
                         },
                         {
                             "langCode": "en",
@@ -681,19 +729,19 @@
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "El Portal Rojo tiene un 15% de probabilidad de aparecer en pisos conocidos.\nTe permite saltarte áreas ya exploradas y otorga una Bendición que aumenta la experiencia y el oro obtenidos."
+                            "langTranslation": "El Portal Rojo tiene un 15 % de probabilidad de aparecer en pisos conocidos. Permite saltarse zonas exploradas previamente y otorga una ventaja que aumenta la obtención de XP y Oro."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Le Portail Rouge a 15 % de chance d’apparaître sur les étages connus.\nIl vous permet d’ignorer les zones déjà explorées et offre une Bénédiction augmentant les gains d’XP et d’or."
+                            "langTranslation": "Le Portail rouge a 15 % de chances d'apparaître aux étages connus. Il vous permet de passer les zones déjà explorées et vous accorde un bonus de gain d'expérience et de réis."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "赤いポータルは既知のフロアで15%の確率で出現します。\n探索済みのエリアをスキップでき、経験値とゴールドの獲得量を増加させる恩恵を与えます。"
+                            "langTranslation": "レッドポータルは、すでに到達済みの階層に15%の確率で出現する。これを利用することで探索済みのエリアをスキップし、経験値やゴールドの獲得量を増やす恩恵が得られる。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Czerwony portal ma 15% szans na pojawienie się na znanych poziomach.\nPozwala pominąć wcześniej zbadane obszary i zapewnia Błogosławieństwo zwiększające zyski XP oraz złota."
+                            "langTranslation": "15% szansy na pojawienie się Czerwonego Portalu na znanych piętrach. Pozwala to pomijać odkryte już obszary i zapewnia dar zwiększający liczbę PD i zyskiwanego złota."
                         },
                         {
                             "langCode": "pt-br",
@@ -701,11 +749,15 @@
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Красный портал имеет 15% шанс появиться на известных этажах.\nОн позволяет пропустить ранее исследованные области и даёт Благословение, увеличивающее получаемый опыт и золото."
+                            "langTranslation": "Красный портал появляется на известных этажах с вероятностью 15%. Он позволяет пропускать ранее исследованные области и дает бонус, увеличивающий получение опыта и золота."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Шанс появи червоного порталу на всіх відомих поверхах складає 15%. Він дає змогу пропустити вже досліджені області. Дає бонус, з яким ви отримуватимете більше досвіду й золота."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "红色传送门在已探索的层中有15%几率出现。\n它可以让你跳过之前探索过的区域，并提供增加经验值和金币获取的祝福。"
+                            "langTranslation": "红色传送门有 15% 的几率在已知层级生成，可助你跳过已探索区域，并施予恩泽来提升经验值和金币获取。"
                         }
                     ]
                 }
@@ -772,6 +824,10 @@
                     "langTranslation": "+120 сек. к запасу хода Адских часов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Таймер Пекельного годинника: +120 с"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地狱时钟时限 +120 秒"
                 }
@@ -820,6 +876,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает запас хода Адских часов на {0} сек."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує час на таймері Пекельного годинника на{0} с"
                         },
                         {
                             "langCode": "zh-cn",
@@ -882,6 +942,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -929,6 +993,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -992,6 +1060,10 @@
                     "langTranslation": "Количество целебных зелий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Ефект зцілення від зілля"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "药水治疗量"
                 }
@@ -1039,6 +1111,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1126,6 +1202,10 @@
                     "langTranslation": "Увеличение реликвария"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Збільшення розміру релікварію"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "圣物匣容量升级"
                 }
@@ -1163,7 +1243,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa miejsce na wyposażone artefakty w ekwipunku"
+                            "langTranslation": "Zwiększa miejsce na artefakty w ekwipunku dodane do wyposażenia"
                         },
                         {
                             "langCode": "pt-br",
@@ -1172,6 +1252,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Увеличивает место для реликвий в инвентаре"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує інвентар екіпірованих реліквій"
                         },
                         {
                             "langCode": "zh-cn",
@@ -1234,6 +1318,10 @@
                     "langTranslation": "+30 сек. к запасу хода Адских часов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Таймер Пекельного годинника: +30 с"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "地狱时钟时限 +30 秒"
                 }
@@ -1282,6 +1370,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает запас хода Адских часов на {0} сек."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує час на таймері Пекельного годинника на{0} с"
                         },
                         {
                             "langCode": "zh-cn",
@@ -1344,6 +1436,10 @@
                     "langTranslation": "Получение камней душ"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток каменів душ"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "魂石获取"
                 }
@@ -1356,7 +1452,7 @@
                     "name": "4feb1fce-e650-4d85-b181-1f74c1365ae3",
                     "type": "StatModifierNodeAffixDefinition",
                     "eStatDefinition": "SoulStoneGain",
-                    "statModifierType": "Multiplicative",
+                    "statModifierType": "MultiplicativeAdditive",
                     "value": 1.05,
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
@@ -1391,6 +1487,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1454,6 +1554,10 @@
                     "langTranslation": "Вероятность появления красного портала"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Частота появи Червоного порталу"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "红色传送门出现频率"
                 }
@@ -1485,7 +1589,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} les chances qu'un Portail Rouge apparaisse"
+                            "langTranslation": "Augmente de {0} les chances qu'un Portail rouge apparaisse"
                         },
                         {
                             "langCode": "ja",
@@ -1502,6 +1606,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает вероятность появления красного портала на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує шанс появи Червоного порталу на {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -1564,6 +1672,10 @@
                     "langTranslation": "Глубина красного портала"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Потужність Червоного порталу"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "红色传送门强度"
                 }
@@ -1595,7 +1707,7 @@
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} le nombre d'étages que le Portail Rouge permet de passer"
+                            "langTranslation": "Augmente de {0} le nombre d'étages que le Portail rouge permet de passer"
                         },
                         {
                             "langCode": "ja",
@@ -1612,6 +1724,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает количество этажей, которые можно пропустить при помощи красного портала, на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує кількість поверхів, пропущених за допомогою Червоного порталу, на {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -1674,6 +1790,10 @@
                     "langTranslation": "Сопротивление физ. урону"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фізичний опір"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "物理抗性"
                 }
@@ -1721,6 +1841,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1784,6 +1908,10 @@
                     "langTranslation": "Сопротивление огню"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰抗性"
                 }
@@ -1831,6 +1959,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -1894,6 +2026,10 @@
                     "langTranslation": "Сопротивление огню"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰抗性"
                 }
@@ -1941,6 +2077,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2004,6 +2144,10 @@
                     "langTranslation": "Сопротивление молниям"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір блискавці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电抗性"
                 }
@@ -2051,6 +2195,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2114,6 +2262,10 @@
                     "langTranslation": "Сопротивление молниям"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір блискавці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电抗性"
                 }
@@ -2161,6 +2313,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2224,6 +2380,10 @@
                     "langTranslation": "Сопротивление чуме"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір чумі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫抗性"
                 }
@@ -2271,6 +2431,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2334,6 +2498,10 @@
                     "langTranslation": "Сопротивление чуме"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір чумі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫抗性"
                 }
@@ -2381,6 +2549,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2452,6 +2624,10 @@
                     "langTranslation": "Увеличение реликвария"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Збільшення розміру релікварію"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "圣物匣容量升级"
                 }
@@ -2489,7 +2665,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa miejsce na wyposażone artefakty w ekwipunku"
+                            "langTranslation": "Zwiększa miejsce na artefakty w ekwipunku dodane do wyposażenia"
                         },
                         {
                             "langCode": "pt-br",
@@ -2498,6 +2674,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Увеличивает место для реликвий в инвентаре"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує інвентар екіпірованих реліквій"
                         },
                         {
                             "langCode": "zh-cn",
@@ -2560,6 +2740,10 @@
                     "langTranslation": "Начальный запас золота"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Золото на початку"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "初始金币"
                 }
@@ -2608,6 +2792,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Вы начинаете подземелье с {0} ед. золота"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Ви отримуєте {0} золота під час входу в підземелля"
                         },
                         {
                             "langCode": "zh-cn",
@@ -2670,6 +2858,10 @@
                     "langTranslation": "Получение непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток упевненості"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念获取"
                 }
@@ -2717,6 +2909,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -2780,6 +2976,10 @@
                     "langTranslation": "Мистическая непоколебимость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Сокровенна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "奥术信念"
                 }
@@ -2828,6 +3028,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Дает {0} ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Дає {0} впевненості за витрачену ману\n<i>Упевненість дає тимчасовий щит, який захищає від шкоди, але слабне й зникає із часом.</i>"
                         },
                         {
                             "langCode": "zh-cn",
@@ -2890,6 +3094,10 @@
                     "langTranslation": "Стойкость непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Непохитна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念抗性"
                 }
@@ -2937,6 +3145,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3000,6 +3212,10 @@
                     "langTranslation": "Получение камней душ"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток каменів душ"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "魂石获取"
                 }
@@ -3047,6 +3263,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3110,6 +3330,10 @@
                     "langTranslation": "Получение золота"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток золота"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "金币获取"
                 }
@@ -3157,6 +3381,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3209,7 +3437,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Zniżka na Błogosławiony Sprzęt"
+                    "langTranslation": "Zniżka na błogosławiony sprzęt"
                 },
                 {
                     "langCode": "pt-br",
@@ -3218,6 +3446,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Скидка на освященное снаряжение"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Знижка на благословенне спорядження"
                 },
                 {
                     "langCode": "zh-cn",
@@ -3268,6 +3500,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Понижает стоимость освященного снаряжения в лавке Жуана Аббата на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Зменшує вартість благословенного спорядження в магазині Жуана Абаді в {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -3330,6 +3566,10 @@
                     "langTranslation": "Скидка на улучшение реликвий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Знижка на покращення реліквії"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "遗物升级减免"
                 }
@@ -3378,6 +3618,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Понижает стоимость улучшения реликвий на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Зменшує вартість покращення реліквій на {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -3440,6 +3684,10 @@
                     "langTranslation": "Вероятность выпадения амулетов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Випадіння талісмана"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符掉落"
                 }
@@ -3490,6 +3738,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -3535,7 +3787,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Probabilidad de que se suelten reliquias"
+                    "langTranslation": "Probabilidad de caída de reliquias"
                 },
                 {
                     "langCode": "fr",
@@ -3556,6 +3808,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Вероятность выпадения реликвий"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шанс випадіння реліквій"
                 },
                 {
                     "langCode": "zh-cn",
@@ -3605,6 +3861,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3668,6 +3928,10 @@
                     "langTranslation": "Камни душ, получаемые за преобразование реликвий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Камені душ після розбирання реліквій"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "遗物回收获得的魂石"
                 }
@@ -3716,6 +3980,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает количество камней душ, получаемых за преобразование реликвий, на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує кількість каменів душ, які можна отримати під час розбирання реліквій, на{0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -3778,6 +4046,10 @@
                     "langTranslation": "Получение непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток упевненості"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念获取"
                 }
@@ -3825,6 +4097,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -3888,6 +4164,10 @@
                     "langTranslation": "Стойкость непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Непохитна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念抗性"
                 }
@@ -3935,6 +4215,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4006,6 +4290,10 @@
                     "langTranslation": "Количество зелий"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Кількість зілля"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "药水数量"
                 }
@@ -4053,6 +4341,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4113,7 +4405,7 @@
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Upuszczany Błogosławiony Sprzęt"
+                    "langTranslation": "Upuszczany błogosławiony sprzęt"
                 },
                 {
                     "langCode": "pt-br",
@@ -4122,6 +4414,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Вероятность выпадения освященного снаряжения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Випадіння благословенного спорядження"
                 },
                 {
                     "langCode": "zh-cn",
@@ -4171,6 +4467,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4234,6 +4534,10 @@
                     "langTranslation": "Сброс благословений"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Перевибір благословення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "恩泽重掷"
                 }
@@ -4277,11 +4581,15 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Reduz o custo do Ressorteio de Bençãos em {0}"
+                            "langTranslation": "Reduz o custo do Ressorteio de Bênçãos em {0}"
                         },
                         {
                             "langCode": "ru",
                             "langTranslation": "Понижает стоимость сброса благословений на {0}"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Зменшує вартість змінення благословень на {0}"
                         },
                         {
                             "langCode": "zh-cn",
@@ -4344,6 +4652,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -4391,6 +4703,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4454,6 +4770,10 @@
                     "langTranslation": "Время восстановления «Второго дыхания»"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Перезарядка другого дихання"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "绝处逢生冷却时间"
                 }
@@ -4474,7 +4794,11 @@
                         "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "SecondWindDefinition",
+                            "id": 9,
+                            "type": "SecondWindSkillDefinition"
+                        },
                         "variables": {
                             "type": "SkillEffectVariables",
                             "variables": [
@@ -4502,9 +4826,11 @@
                                             "valueOrName": "Cooldown",
                                             "eSkillEffectVariableModifier": "0",
                                             "statusToStack": {},
+                                            "statDefinition": "BaseDamage",
                                             "supportVariableValueOrName": "",
                                             "supportESkillEffectVariableModifier": "0",
-                                            "supportStatusToStack": {}
+                                            "supportStatusToStack": {},
+                                            "supportStatDefinition": "BaseDamage"
                                         },
                                         "useStatConversion": "NoConversion",
                                         "conversionStatDefinition": "BaseDamage",
@@ -4517,6 +4843,7 @@
                                 "characterEffectTrigger": "Kill",
                                 "ruleSet": {
                                     "type": "SkillEffectRuleSet",
+                                    "useOrLogic": false,
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
@@ -4526,9 +4853,11 @@
                                     "valueOrName": "",
                                     "eSkillEffectVariableModifier": "0",
                                     "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
-                                    "supportStatusToStack": {}
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
                                 },
                                 "triggerTargetEnumValue": 0,
                                 "triggerTargetStringValue": "",
@@ -4561,7 +4890,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Czas odnawiania <style=\"GreenText\">{0}</style>"
+                            "langTranslation": "Prędkość odnawiania <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "pt-br",
@@ -4570,6 +4899,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "<style=\"GreenText\">{0}</style> к перезарядке"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Час перезарядки: <style=\"GreenText\">{0}</style>"
                         },
                         {
                             "langCode": "zh-cn",
@@ -4633,6 +4966,10 @@
                     "langTranslation": "Второе дыхание"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Друге дихання"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "绝处逢生"
                 }
@@ -4644,7 +4981,11 @@
                 {
                     "name": "47275bf2-22cb-41f3-88bd-3f1c3f579038",
                     "type": "SkillEquipNodeAffixDefinition",
-                    "skillDefinition": {},
+                    "skillDefinition": {
+                        "name": "SecondWindDefinition",
+                        "id": 9,
+                        "type": "SecondWindSkillDefinition"
+                    },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [
@@ -4670,7 +5011,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Odblokowuje {0} – pasywną umiejętność, która chroni cię przed śmiercią. Czas odnawiania: 300 s"
+                            "langTranslation": "Odblokowuje {0} – pasywną umiejętność, która chroni cię przed śmiercią. Prędkość odnawiania: 300 s"
                         },
                         {
                             "langCode": "pt-br",
@@ -4679,6 +5020,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Открывает пассивный навык «{0}», который защищает вас от смерти (перезарядка: 300 сек.)"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Відкриває пасивну навичку {0}, яка захищає вас після смерті (перезарядка: 300 с)"
                         },
                         {
                             "langCode": "zh-cn",
@@ -4697,7 +5042,11 @@
                         "useListOfSkills": "UseSkillTag",
                         "listOfSkills": [],
                         "skillTagFilter": "0",
-                        "skillDefinition": {},
+                        "skillDefinition": {
+                            "name": "SecondWindDefinition",
+                            "id": 9,
+                            "type": "SecondWindSkillDefinition"
+                        },
                         "variables": {
                             "type": "SkillEffectVariables",
                             "variables": [
@@ -4725,9 +5074,11 @@
                                             "valueOrName": "Roll",
                                             "eSkillEffectVariableModifier": "0",
                                             "statusToStack": {},
+                                            "statDefinition": "BaseDamage",
                                             "supportVariableValueOrName": "",
                                             "supportESkillEffectVariableModifier": "0",
-                                            "supportStatusToStack": {}
+                                            "supportStatusToStack": {},
+                                            "supportStatDefinition": "BaseDamage"
                                         },
                                         "useStatConversion": "NoConversion",
                                         "conversionStatDefinition": "BaseDamage",
@@ -4740,6 +5091,7 @@
                                 "characterEffectTrigger": "Kill",
                                 "ruleSet": {
                                     "type": "SkillEffectRuleSet",
+                                    "useOrLogic": false,
                                     "rules": []
                                 },
                                 "revertOnRuleFail": false,
@@ -4749,9 +5101,11 @@
                                     "valueOrName": "",
                                     "eSkillEffectVariableModifier": "0",
                                     "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
                                     "supportVariableValueOrName": "",
                                     "supportESkillEffectVariableModifier": "0",
-                                    "supportStatusToStack": {}
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
                                 },
                                 "triggerTargetEnumValue": 0,
                                 "triggerTargetStringValue": "",
@@ -4791,6 +5145,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": ""
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": ""
                         },
                         {
@@ -4855,6 +5213,10 @@
                     "langTranslation": "Скорость атаки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість атак"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击速度"
                 }
@@ -4902,6 +5264,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -4965,6 +5331,10 @@
                     "langTranslation": "Время восстановления навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість перезарядки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "冷却速度"
                 }
@@ -5012,6 +5382,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5075,6 +5449,10 @@
                     "langTranslation": "Четвертое благословение"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "4-те благословення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "第 4 个恩泽"
                 }
@@ -5114,7 +5492,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa liczbę oferowanych Błogosławieństw do 4"
+                            "langTranslation": "Zwiększa liczbę oferowanych błogosławieństw do 4"
                         },
                         {
                             "langCode": "pt-br",
@@ -5123,6 +5501,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Повышает количество благословений на выбор до 4"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує кількість запропонованих благословень до 4"
                         },
                         {
                             "langCode": "zh-cn",
@@ -5185,6 +5567,10 @@
                     "langTranslation": "Скорость перемещения"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість руху"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "移动速度"
                 }
@@ -5232,6 +5618,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5292,6 +5682,10 @@
                             "langTranslation": "Чтобы разблокировать, откройте акт III"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "Дійдіть до АКТУ 3, щоб розблокувати"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "到达第三幕以解锁"
                         }
@@ -5331,6 +5725,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Исходные благословения"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Початкові благословення"
                 },
                 {
                     "langCode": "zh-cn",
@@ -5381,6 +5779,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Дает +{0} к благословению навыков в начале каждого забега."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Дає додаткові благословення навичок ({0}) на початку нового проходження."
                         },
                         {
                             "langCode": "zh-cn",
@@ -5434,6 +5836,10 @@
                     "langTranslation": "Исходные благословения"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Початкові благословення"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "初始恩泽"
                 }
@@ -5482,6 +5888,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Дает +{0} к благословению навыков в начале каждого забега."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Дає додаткові благословення навичок ({0}) на початку нового проходження."
                         },
                         {
                             "langCode": "zh-cn",
@@ -5544,6 +5954,10 @@
                     "langTranslation": "Макс. уровень навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Максимальний рівень навичок"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "技能等级上限"
                 }
@@ -5563,39 +5977,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by {0}"
+                            "langTranslation": "Increases Maximum Skill Level by {0}.\nYou need to manually increase/decrease your Skill Levels by going to your Skill Book."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}.\nVocê precisa aumentar/diminuir manualmente os Níveis de Habilidade acessando seu Livro de Habilidades."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }
@@ -5654,6 +6072,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -5701,6 +6123,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5772,6 +6198,10 @@
                     "langTranslation": "Увеличение реликвария"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Збільшення розміру релікварію"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "圣物匣容量升级"
                 }
@@ -5809,7 +6239,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa miejsce na wyposażone artefakty w ekwipunku"
+                            "langTranslation": "Zwiększa miejsce na artefakty w ekwipunku dodane do wyposażenia"
                         },
                         {
                             "langCode": "pt-br",
@@ -5818,6 +6248,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Увеличивает место для реликвий в инвентаре"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує інвентар екіпірованих реліквій"
                         },
                         {
                             "langCode": "zh-cn",
@@ -5880,6 +6314,10 @@
                     "langTranslation": "Скорость перемещения"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість руху"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "移动速度"
                 }
@@ -5927,6 +6365,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -5990,6 +6432,10 @@
                     "langTranslation": "Мистическая непоколебимость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Сокровенна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "奥术信念"
                 }
@@ -6038,6 +6484,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Дает {0} ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Дає {0} впевненості за витрачену ману\n<i>Упевненість дає тимчасовий щит, який захищає від шкоди, але слабне й зникає із часом.</i>"
                         },
                         {
                             "langCode": "zh-cn",
@@ -6100,6 +6550,10 @@
                     "langTranslation": "Стойкость непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Непохитна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念抗性"
                 }
@@ -6147,6 +6601,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -6210,6 +6668,10 @@
                     "langTranslation": "Получение непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток упевненості"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念获取"
                 }
@@ -6257,6 +6719,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -6320,6 +6786,10 @@
                     "langTranslation": "Сопротивление чуме"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір чумі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫抗性"
                 }
@@ -6367,6 +6837,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -6430,6 +6904,10 @@
                     "langTranslation": "Время восстановления навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість перезарядки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "冷却速度"
                 }
@@ -6477,6 +6955,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -6556,6 +7038,10 @@
                     "langTranslation": "Отказ от благословений"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Розвіяння благословень"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "恩泽放逐"
                 }
@@ -6599,11 +7085,15 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Desbloqueia o Banimento de Bençãos."
+                            "langTranslation": "Desbloqueia o Banimento de Bênçãos."
                         },
                         {
                             "langCode": "ru",
                             "langTranslation": "Становится доступен отказ от благословений"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Розблоковує розвіяння благословень"
                         },
                         {
                             "langCode": "zh-cn",
@@ -6674,6 +7164,10 @@
                     "langTranslation": "Скорость атаки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість атак"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击速度"
                 }
@@ -6721,6 +7215,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -6784,6 +7282,10 @@
                     "langTranslation": "Сопротивление молниям"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір блискавці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电抗性"
                 }
@@ -6831,6 +7333,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -6894,6 +7400,10 @@
                     "langTranslation": "Сопротивление огню"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰抗性"
                 }
@@ -6941,6 +7451,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7012,6 +7526,10 @@
                     "langTranslation": "Сопротивление физ. урону"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Фізичний опір"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "物理抗性"
                 }
@@ -7062,6 +7580,10 @@
                             "langTranslation": "{0} {1}"
                         },
                         {
+                            "langCode": "uk",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
                             "langCode": "zh-cn",
                             "langTranslation": "{0} {1}"
                         }
@@ -7099,7 +7621,7 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Cantidad de Desvanecer Bendiciones"
+                    "langTranslation": "Cantidad de bendiciones desvanecidas"
                 },
                 {
                     "langCode": "fr",
@@ -7120,6 +7642,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Кол-во отказов от благословений"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Запас розвіяння благословень"
                 },
                 {
                     "langCode": "zh-cn",
@@ -7170,6 +7696,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Увеличивает количество отказов от благословений на 1"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує заряди розвіяння благословень на +1"
                         },
                         {
                             "langCode": "zh-cn",
@@ -7232,6 +7762,10 @@
                     "langTranslation": "Очки здоровья"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базовий рівень здоров'я"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础生命值"
                 }
@@ -7279,6 +7813,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7342,6 +7880,10 @@
                     "langTranslation": "Основной урон"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Базова шкода"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "基础伤害值"
                 }
@@ -7389,6 +7931,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7460,6 +8006,10 @@
                     "langTranslation": "Доп. реликвии из боссов"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Додаткова реліквія за знищення босів"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "首领掉落额外遗物"
                 }
@@ -7507,6 +8057,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7570,6 +8124,10 @@
                     "langTranslation": "Скорость перемещения"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість руху"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "移动速度"
                 }
@@ -7617,6 +8175,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7680,6 +8242,10 @@
                     "langTranslation": "Мистическая непоколебимость"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Сокровенна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "奥术信念"
                 }
@@ -7728,6 +8294,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Дает {0} ед. непоколебимости за потраченную ману\n<i>Непоколебимость — это временный щит, который блокирует урон, но постепенно исчезает.</i>"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Дає {0} впевненості за витрачену ману\n<i>Упевненість дає тимчасовий щит, який захищає від шкоди, але слабне й зникає із часом.</i>"
                         },
                         {
                             "langCode": "zh-cn",
@@ -7790,6 +8360,10 @@
                     "langTranslation": "Стойкость непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Непохитна впевненість"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念抗性"
                 }
@@ -7837,6 +8411,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -7900,6 +8478,10 @@
                     "langTranslation": "Получение непоколебимости"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток упевненості"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "信念获取"
                 }
@@ -7947,6 +8529,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8010,6 +8596,10 @@
                     "langTranslation": "Макс. уровень навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Максимальний рівень навичок"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "技能等级上限"
                 }
@@ -8029,39 +8619,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by {0}"
+                            "langTranslation": "Increases Maximum Skill Level by {0}.\nYou need to manually increase/decrease your Skill Levels by going to your Skill Book."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}.\nVocê precisa aumentar/diminuir manualmente os Níveis de Habilidade acessando seu Livro de Habilidades."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }
@@ -8120,6 +8714,10 @@
                     "langTranslation": "Время восстановления навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість перезарядки"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "冷却速度"
                 }
@@ -8167,6 +8765,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8230,6 +8832,10 @@
                     "langTranslation": "Скорость атаки"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Швидкість атак"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "攻击速度"
                 }
@@ -8277,6 +8883,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8348,6 +8958,10 @@
                     "langTranslation": "Увеличение реликвария"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Збільшення розміру релікварію"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "圣物匣容量升级"
                 }
@@ -8385,7 +8999,7 @@
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa miejsce na wyposażone artefakty w ekwipunku"
+                            "langTranslation": "Zwiększa miejsce na artefakty w ekwipunku dodane do wyposażenia"
                         },
                         {
                             "langCode": "pt-br",
@@ -8394,6 +9008,10 @@
                         {
                             "langCode": "ru",
                             "langTranslation": "Увеличивает место для реликвий в инвентаре"
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує інвентар екіпірованих реліквій"
                         },
                         {
                             "langCode": "zh-cn",
@@ -8456,6 +9074,10 @@
                     "langTranslation": "Сопротивление молниям"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір блискавці"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "闪电抗性"
                 }
@@ -8503,6 +9125,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8566,6 +9192,10 @@
                     "langTranslation": "Сопротивление огню"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір вогню"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "火焰抗性"
                 }
@@ -8613,6 +9243,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8684,6 +9318,10 @@
                     "langTranslation": "Сопротивление чуме"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Опір чумі"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "瘟疫抗性"
                 }
@@ -8731,6 +9369,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8794,6 +9436,10 @@
                     "langTranslation": "Получение камней душ"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Здобуток каменів душ"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "魂石获取"
                 }
@@ -8841,6 +9487,10 @@
                         },
                         {
                             "langCode": "ru",
+                            "langTranslation": "{0} {1}"
+                        },
+                        {
+                            "langCode": "uk",
                             "langTranslation": "{0} {1}"
                         },
                         {
@@ -8904,6 +9554,10 @@
                     "langTranslation": "Макс. уровень навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Максимальний рівень навичок"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "技能等级上限"
                 }
@@ -8923,39 +9577,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by {0}"
+                            "langTranslation": "Increases Maximum Skill Level by {0}.\nYou need to manually increase/decrease your Skill Levels by going to your Skill Book."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}.\nVocê precisa aumentar/diminuir manualmente os Níveis de Habilidade acessando seu Livro de Habilidades."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }
@@ -9014,6 +9672,10 @@
                     "langTranslation": "Макс. уровень навыков"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Максимальний рівень навичок"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "技能等级上限"
                 }
@@ -9033,39 +9695,43 @@
                     "description": [
                         {
                             "langCode": "de",
-                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}."
+                            "langTranslation": "Erhöht die max. Fertigkeitsstufe um {0}.\nDu musst deine Fertigkeitsstufen manuell erhöhen/verringern. Dies geht nur in deinem Fertigkeitenbuch."
                         },
                         {
                             "langCode": "en",
-                            "langTranslation": "Increases Maximum Skill Level by {0}"
+                            "langTranslation": "Increases Maximum Skill Level by {0}.\nYou need to manually increase/decrease your Skill Levels by going to your Skill Book."
                         },
                         {
                             "langCode": "es",
-                            "langTranslation": "Aumenta el nivel de habilidad máximo en {0}"
+                            "langTranslation": "Aumenta el nivel de habilidad máximo en{0} .\n Debes aumentar o disminuir manualmente los niveles de habilidad en el Libro de habilidades."
                         },
                         {
                             "langCode": "fr",
-                            "langTranslation": "Augmente de {0} le niveau maximum des compétences"
+                            "langTranslation": "Augmente de {0} le niveau maximum des compétences.\nUtilisez le grimoire des compétences pour augmenter/réduire manuellement vos niveaux de compétence."
                         },
                         {
                             "langCode": "ja",
-                            "langTranslation": "最大スキルレベルが{0}上昇する。"
+                            "langTranslation": "最大スキルレベルが{0}上昇する。\nスキルレベルはスキルブックから手動で増減させる必要がある。"
                         },
                         {
                             "langCode": "pl",
-                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}"
+                            "langTranslation": "Zwiększa maksymalny poziom umiejętności o {0}.\nMusisz ręcznie zwiększać/zmniejszać swoje poziomy umiejętności, przechodząc do Księgi Umiejętności."
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}."
+                            "langTranslation": "Aumenta o Nível de Habilidade Máximo em {0}.\nVocê precisa aumentar/diminuir manualmente os Níveis de Habilidade acessando seu Livro de Habilidades."
                         },
                         {
                             "langCode": "ru",
-                            "langTranslation": "Повышает максимальный уровень навыков на {0}"
+                            "langTranslation": "Повышает максимальный уровень навыка на {0}.\nОткройте книгу навыков, чтобы вручную повышать/понижать уровни навыков."
+                        },
+                        {
+                            "langCode": "uk",
+                            "langTranslation": "Збільшує максимальний рівень навичок на {0}.\nРівень навичок потрібно вручну зменшувати або збільшувати в Книзі навичок."
                         },
                         {
                             "langCode": "zh-cn",
-                            "langTranslation": "技能等级上限提高 {0}"
+                            "langTranslation": "最高技能等级提高 {0}。\n你需要打开技能书，主动提高或降低技能等级。"
                         }
                     ]
                 }

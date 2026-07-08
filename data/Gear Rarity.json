@@ -47,6 +47,10 @@
                         "langTranslation": "Эпич."
                     },
                     {
+                        "langCode": "uk",
+                        "langTranslation": "Епічний"
+                    },
+                    {
                         "langCode": "zh-cn",
                         "langTranslation": "史诗"
                     }
@@ -96,6 +100,10 @@
                     {
                         "langCode": "ru",
                         "langTranslation": "Редк."
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Рідкісний"
                     },
                     {
                         "langCode": "zh-cn",
@@ -149,6 +157,10 @@
                         "langTranslation": "Необычн."
                     },
                     {
+                        "langCode": "uk",
+                        "langTranslation": "Магічний"
+                    },
+                    {
                         "langCode": "zh-cn",
                         "langTranslation": "魔法"
                     }
@@ -198,6 +210,10 @@
                     {
                         "langCode": "ru",
                         "langTranslation": "Обычн."
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Звичайний"
                     },
                     {
                         "langCode": "zh-cn",
@@ -250,6 +266,10 @@
                 "langTranslation": "Обычн."
             },
             {
+                "langCode": "uk",
+                "langTranslation": "Звичайний"
+            },
+            {
                 "langCode": "zh-cn",
                 "langTranslation": "普通"
             }
@@ -296,6 +316,10 @@
             {
                 "langCode": "ru",
                 "langTranslation": "Необычн."
+            },
+            {
+                "langCode": "uk",
+                "langTranslation": "Магічний"
             },
             {
                 "langCode": "zh-cn",
@@ -346,6 +370,10 @@
                 "langTranslation": "Редк."
             },
             {
+                "langCode": "uk",
+                "langTranslation": "Рідкісний"
+            },
+            {
                 "langCode": "zh-cn",
                 "langTranslation": "稀有"
             }
@@ -394,6 +422,10 @@
                 "langTranslation": "Эпич."
             },
             {
+                "langCode": "uk",
+                "langTranslation": "Епічний"
+            },
+            {
                 "langCode": "zh-cn",
                 "langTranslation": "史诗"
             }
@@ -440,6 +472,10 @@
             {
                 "langCode": "ru",
                 "langTranslation": "Божеств."
+            },
+            {
+                "langCode": "uk",
+                "langTranslation": "Благословенний"
             },
             {
                 "langCode": "zh-cn",

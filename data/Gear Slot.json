@@ -41,6 +41,10 @@
                     "langTranslation": "Амулет"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符"
                 }
@@ -83,6 +87,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
                 },
                 {
                     "langCode": "zh-cn",
@@ -129,6 +137,10 @@
                     "langTranslation": "Амулет"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符"
                 }
@@ -171,6 +183,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
                 },
                 {
                     "langCode": "zh-cn",
@@ -217,6 +233,10 @@
                     "langTranslation": "Амулет"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符"
                 }
@@ -259,6 +279,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
                 },
                 {
                     "langCode": "zh-cn",
@@ -305,6 +329,10 @@
                     "langTranslation": "Амулет"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符"
                 }
@@ -347,6 +375,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
                 },
                 {
                     "langCode": "zh-cn",
@@ -393,6 +425,10 @@
                     "langTranslation": "Амулет"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符"
                 }
@@ -437,6 +473,10 @@
                     "langTranslation": "Амулет"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "护符"
                 }
@@ -479,6 +519,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Амулет"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Талісман"
                 },
                 {
                     "langCode": "zh-cn",
@@ -527,6 +571,10 @@
                     "langTranslation": "Револьвер"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Револьвер"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "左轮手枪"
                 }
@@ -569,6 +617,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Кольцо"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Кільце"
                 },
                 {
                     "langCode": "zh-cn",
@@ -615,6 +667,10 @@
                     "langTranslation": "Кольцо"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Кільце"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "戒指"
                 }
@@ -659,6 +715,10 @@
                     "langTranslation": "Куртка"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Куртка"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "夹克"
                 }
@@ -672,39 +732,43 @@
             "slotNameKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Schulterrüstung"
+                    "langTranslation": "Halstuch"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Shoulders"
+                    "langTranslation": "Neckerchief"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Hombreras"
+                    "langTranslation": "Pañuelo"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Épaulière"
+                    "langTranslation": "Foulard"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "肩"
+                    "langTranslation": "バンダナ"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Ramiona"
+                    "langTranslation": "Chusta"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ombreira"
+                    "langTranslation": "Lenço"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Плечи"
+                    "langTranslation": "Шейный платок"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Шийна хустка"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "护肩"
+                    "langTranslation": "头巾"
                 }
             ]
         },
@@ -745,6 +809,10 @@
                 {
                     "langCode": "ru",
                     "langTranslation": "Фуражка"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Головний убір"
                 },
                 {
                     "langCode": "zh-cn",
@@ -791,6 +859,10 @@
                     "langTranslation": "Обувь"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Взуття"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "鞋履"
                 }
@@ -804,39 +876,43 @@
             "slotNameKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Armschienen"
+                    "langTranslation": "Gürtel"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Bracers"
+                    "langTranslation": "Belt"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Brazales"
+                    "langTranslation": "Cinturón"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Bracelet"
+                    "langTranslation": "Ceinture"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "腕甲"
+                    "langTranslation": "ベルト"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Karwasze"
+                    "langTranslation": "Pas"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Bracelete"
+                    "langTranslation": "Cinto"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Браслеты"
+                    "langTranslation": "Пояс"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Пояс"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "护腕"
+                    "langTranslation": "腰带"
                 }
             ]
         },
@@ -872,11 +948,15 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Calça"
+                    "langTranslation": "Calção"
                 },
                 {
                     "langCode": "ru",
                     "langTranslation": "Штаны"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Штани"
                 },
                 {
                     "langCode": "zh-cn",
@@ -923,6 +1003,10 @@
                     "langTranslation": "Плащ"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Плащ"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "斗篷"
                 }
@@ -933,50 +1017,6 @@
             "slot": "TRINKET",
             "statDefinition": "Mana",
             "eStatModifierType": "Additive",
-            "slotNameKey": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Andenken"
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Keepsake"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Recuerdo"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Souvenir"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "形見"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Pamiątka"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Recordação"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Безделушка"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "纪念物"
-                }
-            ]
-        },
-        {
-            "type": "GearSlotDefinition",
-            "slot": "ACCESSORY",
-            "statDefinition": "Life",
-            "eStatModifierType": "MultiplicativeAdditive",
             "slotNameKey": [
                 {
                     "langCode": "de",
@@ -1011,8 +1051,60 @@
                     "langTranslation": "Аксессуары"
                 },
                 {
+                    "langCode": "uk",
+                    "langTranslation": "Аксесуари"
+                },
+                {
                     "langCode": "zh-cn",
                     "langTranslation": "配饰"
+                }
+            ]
+        },
+        {
+            "type": "GearSlotDefinition",
+            "slot": "ACCESSORY",
+            "statDefinition": "Life",
+            "eStatModifierType": "MultiplicativeAdditive",
+            "slotNameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Andenken"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Keepsake"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Recuerdo"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Souvenir"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "形見"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Pamiątka"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Amuleto"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Безделушка"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Дрібнички"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "纪念物"
                 }
             ]
         }
