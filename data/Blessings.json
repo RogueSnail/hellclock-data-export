@@ -43807,10 +43807,10 @@
             },
             "useAffixAsProxy": true,
             "rollVariableName": "Roll",
-            "eModifierType": "MultiplicativeAdditive",
+            "eModifierType": "Additive",
             "uniqueRollRange": [
-                1.35,
-                1.35
+                300.0,
+                300.0
             ],
             "basePrice": 300.0,
             "supportedRarities": "Unique",
@@ -46029,7 +46029,7 @@
             "type": "SkillBlessingDefinition",
             "behaviorAffixDefinition": {},
             "rollVariableName": "Modifier",
-            "eModifierType": "MultiplicativeAdditive",
+            "eModifierType": "Additive",
             "behaviorData": {
                 "type": "SkillBehaviorData",
                 "affectMultipleSkills": false,
@@ -46048,8 +46048,8 @@
                             "type": "SkillEffectVariable",
                             "name": "Modifier",
                             "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                            "eSkillEffectVariableStackType": "Sum",
+                            "eSkillEffectVariableFormat": "Rounded"
                         }
                     ]
                 },

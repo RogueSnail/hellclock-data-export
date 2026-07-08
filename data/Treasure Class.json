@@ -18128,7 +18128,7 @@
             "id": 70,
             "type": "UniqueRelicTreasureClass",
             "imbueRelicChance": 0.0,
-            "imbueCategories": [],
+            "imbueCategories": "",
             "corruptedRelicChance": 0.0,
             "locksmithRelicChance": 0.0,
             "tiers": [
@@ -49681,7 +49681,7 @@
                                             "type": "StatModifierDefinition",
                                             "eStatDefinition": "PhysicalResistance",
                                             "modifierType": "Additive",
-                                            "value": 0.0105
+                                            "value": 0.105
                                         }
                                     ]
                                 }
@@ -111497,7 +111497,7 @@
             ]
         },
         {
-            "name": "Ascension Starting Gear",
+            "name": "Ascension Starting Gear-Other",
             "id": 381,
             "type": "BlessingLootTreasureClass",
             "disableRedraw": true,
@@ -111513,9 +111513,9 @@
                         {
                             "weight": 1.0,
                             "value": {
-                                "name": "Ascension Starting Gear Loot Group Treasure Class",
-                                "id": 392,
-                                "type": "LootGroupTreasureClass"
+                                "name": "Ascension Starting Blessed Gear Treasure Class",
+                                "id": 390,
+                                "type": "BlessedGearTreasureClass"
                             }
                         }
                     ]
@@ -114013,268 +114013,6 @@
                         "sellingValue": 10,
                         "gearShopCost": 25,
                         "blessingPrice": 250
-                    }
-                },
-                {
-                    "weight": 2.0,
-                    "value": {
-                        "name": "EndgameAct1_Weapon_BlessedT1",
-                        "id": 151,
-                        "type": "GearDefinition",
-                        "slot": "WEAPON",
-                        "tier": 1,
-                        "visualTier": 1,
-                        "variants": [
-                            {
-                                "weight": 0.01,
-                                "value": {
-                                    "type": "GearDefinitionVariantData",
-                                    "variantLocalizedName": [
-                                        {
-                                            "langCode": "de",
-                                            "langTranslation": "Rostiger Revolver"
-                                        },
-                                        {
-                                            "langCode": "en",
-                                            "langTranslation": "Rusty Revolver"
-                                        },
-                                        {
-                                            "langCode": "es",
-                                            "langTranslation": "Revólver oxidado"
-                                        },
-                                        {
-                                            "langCode": "fr",
-                                            "langTranslation": "Revolver rouillé"
-                                        },
-                                        {
-                                            "langCode": "ja",
-                                            "langTranslation": "錆びついたリボルバー"
-                                        },
-                                        {
-                                            "langCode": "pl",
-                                            "langTranslation": "Zardzewiały rewolwer"
-                                        },
-                                        {
-                                            "langCode": "pt-br",
-                                            "langTranslation": "Revólver enferrujado"
-                                        },
-                                        {
-                                            "langCode": "ru",
-                                            "langTranslation": "Ржавый револьвер"
-                                        },
-                                        {
-                                            "langCode": "uk",
-                                            "langTranslation": "Іржавий револьвер"
-                                        },
-                                        {
-                                            "langCode": "zh-cn",
-                                            "langTranslation": "锈蚀的左轮手枪"
-                                        }
-                                    ],
-                                    "sprite": "IconGear_WeaponT1",
-                                    "statModifiersDefinitions": [
-                                        {
-                                            "type": "StatModifierDefinition",
-                                            "eStatDefinition": "BaseDamage",
-                                            "modifierType": "Additive",
-                                            "value": 320.0
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "weight": 0.01,
-                                "value": {
-                                    "type": "GearDefinitionVariantData",
-                                    "variantLocalizedName": [
-                                        {
-                                            "langCode": "de",
-                                            "langTranslation": "Rostiger Revolver"
-                                        },
-                                        {
-                                            "langCode": "en",
-                                            "langTranslation": "Rusty Revolver"
-                                        },
-                                        {
-                                            "langCode": "es",
-                                            "langTranslation": "Revólver oxidado"
-                                        },
-                                        {
-                                            "langCode": "fr",
-                                            "langTranslation": "Revolver rouillé"
-                                        },
-                                        {
-                                            "langCode": "ja",
-                                            "langTranslation": "錆びついたリボルバー"
-                                        },
-                                        {
-                                            "langCode": "pl",
-                                            "langTranslation": "Zardzewiały rewolwer"
-                                        },
-                                        {
-                                            "langCode": "pt-br",
-                                            "langTranslation": "Revólver enferrujado"
-                                        },
-                                        {
-                                            "langCode": "ru",
-                                            "langTranslation": "Ржавый револьвер"
-                                        },
-                                        {
-                                            "langCode": "uk",
-                                            "langTranslation": "Іржавий револьвер"
-                                        },
-                                        {
-                                            "langCode": "zh-cn",
-                                            "langTranslation": "锈蚀的左轮手枪"
-                                        }
-                                    ],
-                                    "sprite": "IconGear_WeaponT1",
-                                    "statModifiersDefinitions": [
-                                        {
-                                            "type": "StatModifierDefinition",
-                                            "eStatDefinition": "BaseDamage",
-                                            "modifierType": "Additive",
-                                            "value": 276.0
-                                        },
-                                        {
-                                            "type": "StatModifierDefinition",
-                                            "eStatDefinition": "AttackSpeed",
-                                            "modifierType": "Additive",
-                                            "value": 0.075
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "weight": 0.01,
-                                "value": {
-                                    "type": "GearDefinitionVariantData",
-                                    "variantLocalizedName": [
-                                        {
-                                            "langCode": "de",
-                                            "langTranslation": "Rostiger Revolver"
-                                        },
-                                        {
-                                            "langCode": "en",
-                                            "langTranslation": "Rusty Revolver"
-                                        },
-                                        {
-                                            "langCode": "es",
-                                            "langTranslation": "Revólver oxidado"
-                                        },
-                                        {
-                                            "langCode": "fr",
-                                            "langTranslation": "Revolver rouillé"
-                                        },
-                                        {
-                                            "langCode": "ja",
-                                            "langTranslation": "錆びついたリボルバー"
-                                        },
-                                        {
-                                            "langCode": "pl",
-                                            "langTranslation": "Zardzewiały rewolwer"
-                                        },
-                                        {
-                                            "langCode": "pt-br",
-                                            "langTranslation": "Revólver enferrujado"
-                                        },
-                                        {
-                                            "langCode": "ru",
-                                            "langTranslation": "Ржавый револьвер"
-                                        },
-                                        {
-                                            "langCode": "uk",
-                                            "langTranslation": "Іржавий револьвер"
-                                        },
-                                        {
-                                            "langCode": "zh-cn",
-                                            "langTranslation": "锈蚀的左轮手枪"
-                                        }
-                                    ],
-                                    "sprite": "IconGear_WeaponT1",
-                                    "statModifiersDefinitions": [
-                                        {
-                                            "type": "StatModifierDefinition",
-                                            "eStatDefinition": "BaseDamage",
-                                            "modifierType": "Additive",
-                                            "value": 266.0
-                                        },
-                                        {
-                                            "type": "StatModifierDefinition",
-                                            "eStatDefinition": "SkillProjectileAmount",
-                                            "modifierType": "Additive",
-                                            "value": 0.1
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "weight": 0.01,
-                                "value": {
-                                    "type": "GearDefinitionVariantData",
-                                    "variantLocalizedName": [
-                                        {
-                                            "langCode": "de",
-                                            "langTranslation": "Rostiger Revolver"
-                                        },
-                                        {
-                                            "langCode": "en",
-                                            "langTranslation": "Rusty Revolver"
-                                        },
-                                        {
-                                            "langCode": "es",
-                                            "langTranslation": "Revólver oxidado"
-                                        },
-                                        {
-                                            "langCode": "fr",
-                                            "langTranslation": "Revolver rouillé"
-                                        },
-                                        {
-                                            "langCode": "ja",
-                                            "langTranslation": "錆びついたリボルバー"
-                                        },
-                                        {
-                                            "langCode": "pl",
-                                            "langTranslation": "Zardzewiały rewolwer"
-                                        },
-                                        {
-                                            "langCode": "pt-br",
-                                            "langTranslation": "Revólver enferrujado"
-                                        },
-                                        {
-                                            "langCode": "ru",
-                                            "langTranslation": "Ржавый револьвер"
-                                        },
-                                        {
-                                            "langCode": "uk",
-                                            "langTranslation": "Іржавий револьвер"
-                                        },
-                                        {
-                                            "langCode": "zh-cn",
-                                            "langTranslation": "锈蚀的左轮手枪"
-                                        }
-                                    ],
-                                    "sprite": "IconGear_WeaponT1",
-                                    "statModifiersDefinitions": [
-                                        {
-                                            "type": "StatModifierDefinition",
-                                            "eStatDefinition": "BaseDamage",
-                                            "modifierType": "Additive",
-                                            "value": 282.0
-                                        },
-                                        {
-                                            "type": "StatModifierDefinition",
-                                            "eStatDefinition": "SkillMeleeDamage",
-                                            "modifierType": "Additive",
-                                            "value": 0.15
-                                        }
-                                    ]
-                                }
-                            }
-                        ],
-                        "sellingValue": 20,
-                        "gearShopCost": 25,
-                        "blessingPrice": 500
                     }
                 },
                 {
@@ -116816,7 +116554,7 @@
                                             "type": "StatModifierDefinition",
                                             "eStatDefinition": "PhysicalResistance",
                                             "modifierType": "Additive",
-                                            "value": 0.0105
+                                            "value": 0.105
                                         }
                                     ]
                                 }
@@ -118317,49 +118055,30 @@
             "cachedAvailableGear": []
         },
         {
-            "name": "Ascension Starting Gear Loot Group Treasure Class",
+            "name": "Ascension Starting Gear-Weapon",
             "id": 392,
-            "type": "LootGroupTreasureClass",
-            "amount": 3,
-            "useDropBlockFlags": false,
-            "availableTreasureClasses": [
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": true,
+            "options": "0",
+            "treasureClassPool": [
                 {
-                    "weight": 1.0,
-                    "value": {
-                        "type": "LootTreasureClass",
-                        "treasureClass": {
-                            "name": "Ascension Forced T1 Weapon Blessed Gear Treasure Class",
-                            "id": 391,
-                            "type": "BlessedGearTreasureClass"
-                        },
-                        "useLimit": true,
-                        "amountLimit": [
-                            1,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "weight": 1.0,
-                    "value": {
-                        "type": "LootTreasureClass",
-                        "treasureClass": {
-                            "name": "Ascension Starting Blessed Gear Treasure Class",
-                            "id": 390,
-                            "type": "BlessedGearTreasureClass"
-                        },
-                        "useLimit": true,
-                        "amountLimit": [
-                            2,
-                            2
-                        ]
-                    }
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Ascension Forced T1 Weapon Blessed Gear Treasure Class",
+                                "id": 391,
+                                "type": "BlessedGearTreasureClass"
+                            }
+                        }
+                    ]
                 }
-            ],
-            "conditionalTreasureClasses": {
-                "type": "ConditionalList`1",
-                "list": []
-            }
+            ]
         }
     ]
 }

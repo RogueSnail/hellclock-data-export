@@ -84,7 +84,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -214,7 +214,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1129,7 +1129,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1278,7 +1278,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1427,7 +1427,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1576,7 +1576,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -1725,7 +1725,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -1865,7 +1865,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2014,7 +2014,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2163,7 +2163,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2312,7 +2312,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2610,7 +2610,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2759,7 +2759,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -2908,7 +2908,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -3057,7 +3057,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -3206,7 +3206,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -4742,7 +4742,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -4977,7 +4977,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -5996,7 +5996,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -6251,7 +6251,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -7917,7 +7917,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -8151,7 +8151,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -8386,7 +8386,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -10044,7 +10044,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10193,7 +10193,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10342,7 +10342,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10491,7 +10491,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10640,7 +10640,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -10789,7 +10789,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -11087,7 +11087,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -11236,7 +11236,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Default Relic Upgrade Modifier Config",
@@ -12261,7 +12261,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -12410,7 +12410,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -13514,7 +13514,7 @@
                 }
             ],
             "eAffixRarity": "Common",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -13749,7 +13749,7 @@
                 }
             ],
             "eAffixRarity": "Special",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -15054,7 +15054,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [
                 {
                     "name": "Double Knives - General - Move Speed Blessing",
@@ -15347,7 +15347,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -15631,7 +15631,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -16194,7 +16194,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -16433,7 +16433,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -17744,7 +17744,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -18226,7 +18226,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -19272,7 +19272,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -19802,7 +19802,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -20052,7 +20052,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -21116,7 +21116,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {
                 "name": "Multiplicative Relic Upgrade Modifier Config",
@@ -23323,7 +23323,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -23794,7 +23794,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -24239,7 +24239,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -24497,7 +24497,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -24755,7 +24755,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -25005,7 +25005,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -25555,7 +25555,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "modifierType": "Additive",
             "upgradeModifierOverride": {
@@ -25761,7 +25761,7 @@
                 }
             ],
             "eAffixRarity": "Unique",
-            "blockCraftOnRelicSizes": [],
+            "blockCraftOnRelicSizes": "",
             "incompatibleBlessings": [],
             "relicUpgradeModifierConfig": {},
             "description": [
@@ -59682,7 +59682,68 @@
                         "ruleSet": {
                             "type": "SkillEffectRuleSet",
                             "useOrLogic": false,
-                            "rules": []
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "CasterLifePercentage",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "statDefinition": "BaseDamage",
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {},
+                                        "supportStatDefinition": "BaseDamage"
+                                    },
+                                    "comparisonOperator": "LessThan",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "1",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "statDefinition": "BaseDamage",
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {},
+                                        "supportStatDefinition": "BaseDamage"
+                                    },
+                                    "negate": false
+                                },
+                                {
+                                    "name": "Value Comparison Skill Effect Rule (1)",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "CasterLifePercentage",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "statDefinition": "BaseDamage",
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {},
+                                        "supportStatDefinition": "BaseDamage"
+                                    },
+                                    "comparisonOperator": "GreaterThanOrEqual",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "0.5",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "statDefinition": "BaseDamage",
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {},
+                                        "supportStatDefinition": "BaseDamage"
+                                    },
+                                    "negate": false
+                                }
+                            ]
                         },
                         "revertOnRuleFail": false,
                         "revertOnRemoval": false,
@@ -59708,7 +59769,88 @@
                                 "value": {
                                     "type": "SkillEffectVariableReference",
                                     "valueOrName": "Roll",
-                                    "eSkillEffectVariableModifier": "MultiplyByMissingLifeRatio",
+                                    "eSkillEffectVariableModifier": "MultiplyByValue",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "0.75",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Add Skill Stat Modifier Skill Effect Data (1)",
+                        "type": "AddSkillStatModifierSkillEffectData",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": false,
+                        "effectTrigger": "BuildDamage",
+                        "characterEffectTrigger": "Kill",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "useOrLogic": false,
+                            "rules": [
+                                {
+                                    "name": "Value Comparison Skill Effect Rule",
+                                    "type": "ValueComparisonSkillEffectRule",
+                                    "value1Type": "CasterLifePercentage",
+                                    "value1Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "statDefinition": "BaseDamage",
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {},
+                                        "supportStatDefinition": "BaseDamage"
+                                    },
+                                    "comparisonOperator": "LessThan",
+                                    "value2Type": "InputValue",
+                                    "value2Input": {
+                                        "type": "SkillEffectVariableReference",
+                                        "valueOrName": "0.5",
+                                        "eSkillEffectVariableModifier": "0",
+                                        "statusToStack": {},
+                                        "statDefinition": "BaseDamage",
+                                        "supportVariableValueOrName": "",
+                                        "supportESkillEffectVariableModifier": "0",
+                                        "supportStatusToStack": {},
+                                        "supportStatDefinition": "BaseDamage"
+                                    },
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "statDefinition": "BaseDamage",
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {},
+                            "supportStatDefinition": "BaseDamage"
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "Damage",
+                                "modifierType": "MultiplicativeAdditive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
                                     "statusToStack": {},
                                     "statDefinition": "BaseDamage",
                                     "supportVariableValueOrName": "",
@@ -60274,32 +60416,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        1.26,
-                        1.3
+                        1.2,
+                        1.24
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        1.3,
-                        1.34
+                        1.24,
+                        1.28
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        1.34,
-                        1.38
+                        1.28,
+                        1.32
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        1.38,
-                        1.42
+                        1.32,
+                        1.36
                     ]
                 }
             ],
@@ -60351,11 +60493,11 @@
             "modifierType": "Additive",
             "upgradeModifierOverride": {
                 "0": 0.0,
-                "1": 0.03,
-                "2": 0.06,
-                "3": 0.09,
-                "4": 0.12,
-                "5": 0.15
+                "1": 0.02,
+                "2": 0.04,
+                "3": 0.06,
+                "4": 0.08,
+                "5": 0.1
             },
             "description": [
                 {
@@ -67796,7 +67938,7 @@
                             "name": "Roll",
                             "baseValue": 0.0,
                             "eSkillEffectVariableStackType": "UseHighest",
-                            "eSkillEffectVariableFormat": "Percentage"
+                            "eSkillEffectVariableFormat": "Multiplicative"
                         }
                     ]
                 },
@@ -67870,32 +68012,32 @@
                     "type": "TierCategoryRollRange",
                     "tier": 1,
                     "rollRange": [
-                        0.3,
-                        0.4
+                        1.3,
+                        1.4
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 2,
                     "rollRange": [
-                        0.4,
-                        0.5
+                        1.4,
+                        1.45
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 3,
                     "rollRange": [
-                        0.5,
-                        0.6
+                        1.45,
+                        1.5
                     ]
                 },
                 {
                     "type": "TierCategoryRollRange",
                     "tier": 4,
                     "rollRange": [
-                        0.6,
-                        0.7
+                        1.5,
+                        1.55
                     ]
                 }
             ],
@@ -67947,11 +68089,11 @@
             "modifierType": "Additive",
             "upgradeModifierOverride": {
                 "0": 0.0,
-                "1": 0.05,
-                "2": 0.1,
-                "3": 0.15,
-                "4": 0.2,
-                "5": 0.25
+                "1": 0.02,
+                "2": 0.04,
+                "3": 0.06,
+                "4": 0.08,
+                "5": 0.1
             },
             "description": [
                 {
@@ -76346,267 +76488,6 @@
             ]
         },
         {
-            "name": "Holy Fire - Rare - Hits Give Ailment Vulnerability Affix",
-            "id": 423,
-            "type": "SkillBehaviorAffixDefinition",
-            "rollVariableName": "Roll",
-            "descriptionValuePrefix": "",
-            "additionalLocalizationVariables": [
-                {
-                    "type": "SkillBehaviorLocalizationVariable",
-                    "skillEffectVariableReference": {
-                        "type": "SkillEffectVariableReference",
-                        "valueOrName": "Duration",
-                        "eSkillEffectVariableModifier": "0",
-                        "statusToStack": {},
-                        "statDefinition": "BaseDamage",
-                        "supportVariableValueOrName": "",
-                        "supportESkillEffectVariableModifier": "0",
-                        "supportStatusToStack": {},
-                        "supportStatDefinition": "BaseDamage"
-                    },
-                    "overrideFormat": false,
-                    "valueFormatOverride": "Multiplicative"
-                }
-            ],
-            "behaviorData": {
-                "type": "SkillBehaviorData",
-                "affectMultipleSkills": false,
-                "useListOfSkills": "UseSkillTag",
-                "listOfSkills": [],
-                "skillTagFilter": "0",
-                "skillDefinition": {
-                    "name": "Holy Fire Skill Definition",
-                    "id": 555,
-                    "type": "ProjectileAttackSkillDefinition"
-                },
-                "variables": {
-                    "type": "SkillEffectVariables",
-                    "variables": [
-                        {
-                            "type": "SkillEffectVariable",
-                            "name": "Roll",
-                            "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
-                        },
-                        {
-                            "type": "SkillEffectVariable",
-                            "name": "Duration",
-                            "baseValue": 5.0,
-                            "eSkillEffectVariableStackType": "Sum",
-                            "eSkillEffectVariableFormat": "NoFormat"
-                        }
-                    ]
-                },
-                "effects": [
-                    {
-                        "name": "Add Status To Target Skill Effect Data",
-                        "type": "AddStatusToTargetSkillEffectData",
-                        "removeOnEffectReversion": false,
-                        "effectTarget": "TargetHit",
-                        "statusDefinition": {
-                            "name": "Rare - Ailment Vulnerability Status Definition",
-                            "id": 213,
-                            "type": "StatModifierStatusDefinition"
-                        },
-                        "statusDuration": {
-                            "type": "SkillEffectVariableReference",
-                            "valueOrName": "Duration",
-                            "eSkillEffectVariableModifier": "0",
-                            "statusToStack": {},
-                            "statDefinition": "BaseDamage",
-                            "supportVariableValueOrName": "",
-                            "supportESkillEffectVariableModifier": "0",
-                            "supportStatusToStack": {},
-                            "supportStatDefinition": "BaseDamage"
-                        },
-                        "statusIntensity": {
-                            "type": "SkillEffectVariableReference",
-                            "valueOrName": "Roll",
-                            "eSkillEffectVariableModifier": "0",
-                            "statusToStack": {},
-                            "statDefinition": "BaseDamage",
-                            "supportVariableValueOrName": "",
-                            "supportESkillEffectVariableModifier": "0",
-                            "supportStatusToStack": {},
-                            "supportStatDefinition": "BaseDamage"
-                        },
-                        "stackAmount": {
-                            "type": "SkillEffectVariableReference",
-                            "valueOrName": "1",
-                            "eSkillEffectVariableModifier": "0",
-                            "statusToStack": {},
-                            "statDefinition": "BaseDamage",
-                            "supportVariableValueOrName": "",
-                            "supportESkillEffectVariableModifier": "0",
-                            "supportStatusToStack": {},
-                            "supportStatDefinition": "BaseDamage"
-                        },
-                        "startDisabled": false,
-                        "useCharacterEffectTrigger": false,
-                        "effectTrigger": "TargetHit",
-                        "characterEffectTrigger": "Kill",
-                        "ruleSet": {
-                            "type": "SkillEffectRuleSet",
-                            "useOrLogic": false,
-                            "rules": []
-                        },
-                        "revertOnRuleFail": false,
-                        "revertOnRemoval": false,
-                        "triggerTargetValue": {
-                            "type": "SkillEffectVariableReference",
-                            "valueOrName": "",
-                            "eSkillEffectVariableModifier": "0",
-                            "statusToStack": {},
-                            "statDefinition": "BaseDamage",
-                            "supportVariableValueOrName": "",
-                            "supportESkillEffectVariableModifier": "0",
-                            "supportStatusToStack": {},
-                            "supportStatDefinition": "BaseDamage"
-                        },
-                        "triggerTargetEnumValue": 0,
-                        "triggerTargetStringValue": "",
-                        "subEffects": []
-                    }
-                ]
-            },
-            "customIcon": "IconSkill_HolyFire",
-            "tierRollRanges": [
-                {
-                    "type": "TierCategoryRollRange",
-                    "tier": 1,
-                    "rollRange": [
-                        0.84,
-                        0.78
-                    ]
-                },
-                {
-                    "type": "TierCategoryRollRange",
-                    "tier": 2,
-                    "rollRange": [
-                        0.78,
-                        0.714
-                    ]
-                },
-                {
-                    "type": "TierCategoryRollRange",
-                    "tier": 3,
-                    "rollRange": [
-                        0.714,
-                        0.629
-                    ]
-                },
-                {
-                    "type": "TierCategoryRollRange",
-                    "tier": 4,
-                    "rollRange": [
-                        0.629,
-                        0.55
-                    ]
-                }
-            ],
-            "nameLocalizationKey": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Geschwärzt"
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Blackened"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Ennegrecido"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Noirci"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "黒ずんだ"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Zaciemniony"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Enegrecido"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Почерневший"
-                },
-                {
-                    "langCode": "uk",
-                    "langTranslation": "Почорніння"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "焦黑"
-                }
-            ],
-            "eAffixRarity": "Special",
-            "blockCraftOnRelicSizes": [
-                "Small",
-                "Large"
-            ],
-            "incompatibleBlessings": [],
-            "modifierType": "Additive",
-            "upgradeModifierOverride": {
-                "0": 0.0,
-                "1": -0.05,
-                "2": -0.1,
-                "3": -0.15,
-                "4": -0.2,
-                "5": -0.25
-            },
-            "description": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Von Heiliges Feuer getroffene Gegner haben für {1} Sek. eine um {0} verringerte Resistenz gegen Leiden."
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Enemies hit by Holy Fire have {0} reduced resistance to Ailments for {1} seconds"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Los enemigos alcanzados por Fuego Sagrado tienen{0} resistencia reducida a las dolencias por{1} artículos de segunda clase"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "La résistance aux afflictions des ennemis touchés par Feu sacré est réduite de {0} pendant {1} secondes."
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "聖なる炎が命中した敵の状態異常抵抗は、{1}秒間、{0}減少する。"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Wrogowie trafieni Świętym Ogniem mają o {0} obniżoną odporność na dolegliwości przez {1} s."
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Inimigos atingidos por Fogo Sagrado são {0} mais vulneráveis a Condições"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Враги, пораженные «Священным огнем», на {1} сек. получают снижение сопротивления к негативным эффектам на {0}."
-                },
-                {
-                    "langCode": "uk",
-                    "langTranslation": "Супротивники, які зазнали шкоди від святого вогню, мають на {0} меншу стійкість до недугів протягом {1} с"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "被圣火命中的敌人对异常状态的抗性降低 {0}，持续 {1} 秒。"
-                }
-            ]
-        },
-        {
             "name": "Holy Fire - Charred Figurine - Charged Shot Affix",
             "id": 424,
             "type": "SkillBehaviorAffixDefinition",
@@ -77483,6 +77364,378 @@
                 {
                     "langCode": "zh-cn",
                     "langTranslation": "对流血敌人造成 {0} 伤害。若其流血层数少于 5 层，则该加成翻倍。"
+                }
+            ]
+        },
+        {
+            "name": "All Skills - Rare - Ignite Gives Vulnerability Affix",
+            "id": 427,
+            "type": "SkillBehaviorAffixDefinition",
+            "rollVariableName": "Roll",
+            "descriptionValuePrefix": "",
+            "additionalLocalizationVariables": [],
+            "behaviorData": {
+                "type": "SkillBehaviorData",
+                "affectMultipleSkills": true,
+                "useListOfSkills": "UseSkillTag",
+                "listOfSkills": [],
+                "skillTagFilter": "Everything",
+                "skillDefinition": {},
+                "variables": {
+                    "type": "SkillEffectVariables",
+                    "variables": [
+                        {
+                            "type": "SkillEffectVariable",
+                            "name": "Roll",
+                            "baseValue": 0.0,
+                            "eSkillEffectVariableStackType": "MultiplierSum",
+                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
+                        }
+                    ]
+                },
+                "effects": [
+                    {
+                        "name": "Add Status To Target Skill Effect Data",
+                        "type": "AddStatusToTargetSkillEffectData",
+                        "removeOnEffectReversion": false,
+                        "effectTarget": "TargetHit",
+                        "statusDefinition": {
+                            "name": "Soldering Damage Vulnerability - Status Definition",
+                            "id": 214,
+                            "type": "StatModifierStatusDefinition"
+                        },
+                        "statusDuration": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "statDefinition": "BaseDamage",
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {},
+                            "supportStatDefinition": "BaseDamage"
+                        },
+                        "statusIntensity": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "0",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "statDefinition": "BaseDamage",
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {},
+                            "supportStatDefinition": "BaseDamage"
+                        },
+                        "stackAmount": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "1",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "statDefinition": "BaseDamage",
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {},
+                            "supportStatDefinition": "BaseDamage"
+                        },
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "TargetHit",
+                        "characterEffectTrigger": "OnApplyStatus",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "useOrLogic": false,
+                            "rules": []
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "statDefinition": "BaseDamage",
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {},
+                            "supportStatDefinition": "BaseDamage"
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": []
+                    },
+                    {
+                        "name": "Add Skill Stat Modifier Skill Effect Data",
+                        "type": "AddSkillStatModifierSkillEffectData",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "BuildDamage",
+                        "characterEffectTrigger": "OnBuildDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "useOrLogic": false,
+                            "rules": [
+                                {
+                                    "name": "Target Has Status Skill Effect Rule",
+                                    "type": "TargetHasStatusSkillEffectRule",
+                                    "effectTarget": "TargetHit",
+                                    "statusDefinition": {
+                                        "name": "Soldering Damage Vulnerability - Status Definition",
+                                        "id": 214,
+                                        "type": "StatModifierStatusDefinition"
+                                    },
+                                    "checkForStacks": false,
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "statDefinition": "BaseDamage",
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {},
+                            "supportStatDefinition": "BaseDamage"
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "Damage",
+                                "modifierType": "MultiplicativeAdditive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Add Skill Stat Modifier Skill Effect Data (1)",
+                        "type": "AddSkillStatModifierSkillEffectData",
+                        "startDisabled": false,
+                        "useCharacterEffectTrigger": true,
+                        "effectTrigger": "BuildDamage",
+                        "characterEffectTrigger": "OnBuildDamage",
+                        "ruleSet": {
+                            "type": "SkillEffectRuleSet",
+                            "useOrLogic": false,
+                            "rules": [
+                                {
+                                    "name": "Target Has Status Skill Effect Rule",
+                                    "type": "TargetHasStatusSkillEffectRule",
+                                    "effectTarget": "TargetHit",
+                                    "statusDefinition": {
+                                        "name": "Soldering Damage Vulnerability - Status Definition",
+                                        "id": 214,
+                                        "type": "StatModifierStatusDefinition"
+                                    },
+                                    "checkForStacks": false,
+                                    "negate": false
+                                },
+                                {
+                                    "name": "Target Has Status Skill Effect Rule (1)",
+                                    "type": "TargetHasStatusSkillEffectRule",
+                                    "effectTarget": "TargetHit",
+                                    "statusDefinition": {
+                                        "name": "OiledStatusDefinition",
+                                        "id": 47,
+                                        "type": "StatModifierStatusDefinition"
+                                    },
+                                    "checkForStacks": false,
+                                    "negate": false
+                                }
+                            ]
+                        },
+                        "revertOnRuleFail": false,
+                        "revertOnRemoval": false,
+                        "triggerTargetValue": {
+                            "type": "SkillEffectVariableReference",
+                            "valueOrName": "",
+                            "eSkillEffectVariableModifier": "0",
+                            "statusToStack": {},
+                            "statDefinition": "BaseDamage",
+                            "supportVariableValueOrName": "",
+                            "supportESkillEffectVariableModifier": "0",
+                            "supportStatusToStack": {},
+                            "supportStatDefinition": "BaseDamage"
+                        },
+                        "triggerTargetEnumValue": 0,
+                        "triggerTargetStringValue": "",
+                        "subEffects": [],
+                        "statModifiers": [
+                            {
+                                "type": "SkillEffectStatModifierDefinition",
+                                "eStatDefinition": "Damage",
+                                "modifierType": "MultiplicativeAdditive",
+                                "value": {
+                                    "type": "SkillEffectVariableReference",
+                                    "valueOrName": "Roll",
+                                    "eSkillEffectVariableModifier": "0",
+                                    "statusToStack": {},
+                                    "statDefinition": "BaseDamage",
+                                    "supportVariableValueOrName": "",
+                                    "supportESkillEffectVariableModifier": "0",
+                                    "supportStatusToStack": {},
+                                    "supportStatDefinition": "BaseDamage"
+                                },
+                                "useStatConversion": "NoConversion",
+                                "conversionStatDefinition": "BaseDamage",
+                                "listenToVariableModifiersUpdate": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customIcon": "IconStatus_Ignited_white",
+            "tierRollRanges": [
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 1,
+                    "rollRange": [
+                        1.12,
+                        1.14
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 2,
+                    "rollRange": [
+                        1.14,
+                        1.18
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 3,
+                    "rollRange": [
+                        1.18,
+                        1.24
+                    ]
+                },
+                {
+                    "type": "TierCategoryRollRange",
+                    "tier": 4,
+                    "rollRange": [
+                        1.24,
+                        1.28
+                    ]
+                }
+            ],
+            "nameLocalizationKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Löten"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Soldering"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Soldadura"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Soudure"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "溶融の"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Lutowanie"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "da Solda"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Спайка"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Пайка"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "熔焊"
+                }
+            ],
+            "eAffixRarity": "Special",
+            "blockCraftOnRelicSizes": [
+                "Small",
+                "Exalted",
+                "Grand"
+            ],
+            "incompatibleBlessings": [],
+            "modifierType": "Additive",
+            "upgradeModifierOverride": {
+                "0": 0.0,
+                "1": 0.04,
+                "2": 0.08,
+                "3": 0.12,
+                "4": 0.16,
+                "5": 0.2
+            },
+            "description": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Wenn du Entzünden auf Gegner anwendest, erleiden sie 1 Sekunde lang {0} Schaden. Der Bonus wird verdoppelt, wenn sie geölt sind."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Applying Ignite to enemies makes them take {0} damage for 1 second. Double the bonus if they are Oiled."
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Aplicar Ignite a los enemigos hace que se conviertan en enemigos.{0} Daño durante 1 segundo. El bono se duplica si están aceitados."
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Lorsque vous appliquez l'effet embrasement à un ennemi, il subit {0} de dégâts pendant 1 seconde. Le bonus est doublé s'il est couvert d'huile."
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "敵に炎上を付与すると、1秒間、{0}ダメージを与える。敵が油まみれ状態なら追加ダメージが2倍になる。"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nałożenie podpalenia na wrogów powoduje, że przyjmują {0} obrażeń przez 1 s. Podwaja premię, jeśli są zatłuszczeni."
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Aplicar Ignição em inimigos os faz receber {0} de dano por 1 segundo. Dobre o bônus se eles estiverem Cobertos de Óleo."
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Враги с эффектом «Горение» получают {0} ед. урона в течение 1 секунды. Бонус удваивается, если враг масляный."
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Якщо на супротивників накладено ефект займання, їм протягом 1 с завдається {0} шкоди. Цей бонус подвоюється, якщо на них накладено ефект промаслення."
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "对敌人施加点燃时，会使其承受 {0} 伤害，持续 1 秒。若目标处于油浸状态，则该加成翻倍。"
                 }
             ]
         }

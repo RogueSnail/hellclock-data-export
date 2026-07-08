@@ -784,7 +784,7 @@
                     "langTranslation": "“浓云如屏障般笼罩远方地平线，勾勒出一片如黑色山脉般雄伟肃穆的轮廓。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Double Knives - Tempest - Lightning and  Move Speed Damage Affix",
@@ -1083,7 +1083,7 @@
                     "langTranslation": "“群山以近乎完美的圆形姿态拥抱着卡努杜斯。(...) 那里仿佛是一片虚无，仿佛并不存在于这世间。一旦踏入那片山脉之中，人们便洗去了所有罪孽。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "ShadowDash - Wheel of Death - Life Cost Affix",
@@ -2771,7 +2771,7 @@
                     "langTranslation": "“当士兵对他们持续射击时，土匪们还在摆弄着老式步枪 (...) 笨拙地装填着那些粗糙的武器。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Split Shot - Blunderbuss - Charged Shot Affix",
@@ -3069,7 +3069,7 @@
                     "langTranslation": "“群山已然被揭露。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Repeater - Molten Relic - Grenade On Hit Affix",
@@ -3367,7 +3367,7 @@
                     "langTranslation": "“他就像人生一样反复无常，这再自然不过了。活着，就是不断适应。生命按她自己的模样塑造了他：野蛮、冲动、突如其来...” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Reflexes - Battered Sheath - Bounce Affix",
@@ -3634,7 +3634,7 @@
                     "langTranslation": "“荒原，就是会把你推回来，又在你最料想不到的时候悄然将你包围的力量。那是这片土地的意外之拥。” - 吉马朗伊斯·罗萨"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Shadow Dash - Skull of the Beast - Hit Damage Bonus Affix",
@@ -3932,7 +3932,7 @@
                     "langTranslation": "“踏上未知之路，四周是野性与贫瘠交织的原野。那位直面敌人、从不退缩的老兵，却在重重埋伏中变得 (...) 怯懦。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Repeater - Last Prayer - Explode on Kill Affix",
@@ -4230,7 +4230,7 @@
                     "langTranslation": "“真正令我们恐惧的并非野蛮，而是文明本身。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Split Shot - Spearhead - Pierce Affix",
@@ -4528,7 +4528,7 @@
                     "langTranslation": "“这个特殊的教派 (...) 其最极端的代表，便是那些嗜血的浸礼教徒，他们甚至用念珠装填杀人的火铳。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Reflexes - Delicate Rosary - Mana Regen on Hit Affix",
@@ -4796,7 +4796,7 @@
                     "langTranslation": "“当卡廷加将他吞没时，模糊他的视线，用枝刺纠缠他、震慑他、困住他。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Double Knives - Bloody Thorn - Critical Bleeds Affix",
@@ -5037,7 +5037,7 @@
                     "langTranslation": "“荒原人最不缺的品质就是坚韧。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "The Old Bell - The Sacrificed - Life Cost to Damage Affix",
@@ -5335,7 +5335,7 @@
                     "langTranslation": "“终有一天，杀戮将被时代所摒弃。” - 吉马朗伊斯·罗萨"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Double Knives - Banner of Faith - Life Steal Affix",
@@ -5633,7 +5633,7 @@
                     "langTranslation": "“那片无与伦比的土地，即便被干旱笼罩，贫瘠荒凉，(...) 依旧慷慨地为他奉上配制火药所需的硝石。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Bullet Skills - Powder Bag - Physical Explode Ignited Affix",
@@ -5874,7 +5874,7 @@
                     "langTranslation": "“人生，本就是不断疏忽的过程。” - 吉马朗伊斯·罗萨"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Repeater - Arapuca - Damage on Slowed Affix",
@@ -6115,7 +6115,7 @@
                     "langTranslation": "“因为凡从神生的，就胜过世界；使我们胜了世界的，就是我们的信心。” - (《约翰一书》第 5 章第 4 节)"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "The Old Bell - Unshakable Faith - Mana to Damage Affix",
@@ -6413,7 +6413,7 @@
                     "langTranslation": "一首戛然而止的诗，美感顷刻倾泻，如荒原中一滴蒸发的雨滴。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Slow Time - Poem Never Recited - Applies Oiled Affix",
@@ -6712,7 +6712,7 @@
                     "langTranslation": "“我们注定要走向文明，不是进步，就是灭亡。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Slow Time - Death Notary - Expose Enemies Affix",
@@ -7012,7 +7012,7 @@
                     "langTranslation": "“活着这件事很危险 - 它总是以死亡告终。” - 吉马朗伊斯·罗萨"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Shadow Dash - Skull of the Vulture - Explode Bleeding Affix",
@@ -7253,7 +7253,7 @@
                     "langTranslation": "“牛仔们说，那天夜里晴空万里，一道孤闪将一块普通的石头变成了奇迹。” - 佚名旅者"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Reflexes - Blue Calcite - Lightning Damage Conversion Affix",
@@ -7552,7 +7552,7 @@
                     "langTranslation": "“卡廷加是反叛的荒原人最忠诚的盟友。(...) 它对外人闭塞如铁，却会为 (...) 土生土长的乡民敞开怀抱。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Reflexes - Caatinga Hunter - Move Speed on Hit Affix",
@@ -7819,7 +7819,7 @@
                     "langTranslation": "“真实既不在起点，也不在终点，它只会在旅途中向我们显现。” - 吉马朗伊斯·罗萨"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Shadow Dash - Skull of Wisdom - Hit Mana Bonus Affix",
@@ -8117,7 +8117,7 @@
                     "langTranslation": "“哪知他为我们的过犯受害，为我们的罪孽压伤。因他受的刑罚，我们得平安；因他受的鞭伤，我们得医治。” - 《以赛亚书》第 53 章第 5 节"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Closed Body - Martyr - Missing Life Bonus Conviction",
@@ -8415,7 +8415,7 @@
                     "langTranslation": "“那是一场溃败。八百人溃逃而散，连枪都没来得及带走。(...) 第一声枪响，整个营就崩了。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Bullet Skills - Silver Bullets - Conviction Damage Bonus Affix",
@@ -8714,7 +8714,7 @@
                     "langTranslation": "“盛夏时节，马卡宾拉植物对干渴的荒原人而言，就像是一杯清澈纯净的圣水。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Potion - Conviction Regen",
@@ -8980,7 +8980,7 @@
                     "langTranslation": "“...护佑我们脱离一切身心之患，赐予我们抵御诱惑的力量和面对苦难的勇气。” - 古老的祈祷经文"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Slow Time - Mother of Perpetual Help - Barrier Buff Affix",
@@ -9973,7 +9973,7 @@
                     "langTranslation": "“这些现代圣殿骑士 (...) 左胸前都佩戴着一枚青铜勋章，上面刻着佩肖托元帅的肖像。即使战死，他们也会向其遗像致敬。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Double Knives - Scouts Medal - No Move Speed Penalty Affix",
@@ -10214,7 +10214,7 @@
                     "langTranslation": "“那顶荆棘王冠，是为我们的救世主而戴，为聚拢世间一切苦难与荆棘，并将它们尽数折断。”- 卡西奥多罗斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Holy Rosary - Crown of Thorns - Physical Damage Affix",
@@ -10518,7 +10518,7 @@
                     "langTranslation": "“曼达卡鲁在旱季开花。那是雨水即将降临荒原的预兆。” - 路易斯·贡扎加"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Reflexes - Mandacaru - Damage Against Bleeding Affix",
@@ -10821,7 +10821,7 @@
                     "langTranslation": "“七日乃灵界修行术成之期。清晨祈愿，夜晚感恩。” - 卡博克罗·尼哈劳埃"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Judgement - Memorial Candle - Persistent AoE Affix",
@@ -11092,7 +11092,7 @@
                     "langTranslation": "“他沉着面对危险，穿着醒目的军服站在敌军火力的正中央，敌人总是优先狙击将领。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Bombardment - Colonels Insignia - Follow Caster Affix",
@@ -11338,7 +11338,7 @@
                     "langTranslation": "“他几乎无法发声，只能在喉间低语，难以辨听。他不能被审问，也许撑不到明天。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "The Old Bell - Toll of the Dead - Summon Companion Affix",
@@ -11636,7 +11636,7 @@
                     "langTranslation": "“那支狂热的队伍高喊着‘仁慈的耶稣’与‘长老’，伴随着木笛的尖啸声 (...) 疯狂地穿越广场。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon The Guard - Call of the Guard - Double Companions on Activation",
@@ -11907,7 +11907,7 @@
                     "langTranslation": "“宽沿软檐的帽子遮住面容，腰间挎着手枪与匕首，在皮带上闪出寒光。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Lasso - Northerner Belt - Cast on Crit Affix",
@@ -12210,7 +12210,7 @@
                     "langTranslation": "“瘦秃鹫的毒爪，伤不了壮马。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Veil of Quills - Mark of the Vulture - Stack and Explode Affix",
@@ -12514,7 +12514,7 @@
                     "langTranslation": "“手榴弹在狭小的房间内爆炸，将男人、女人与孩童炸得粉碎，有时还有沉重的土砖天花板一并压下 (...) 就像一块坟墓的石板。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Spell Skills - Bloodied Doll - Additional Damage Per Summon Affix",
@@ -12785,7 +12785,7 @@
                     "langTranslation": "“世人开始悖逆，犯下淫行，迷失正道，堕落于万象之中。” - 《以诺一书》第 8 章第 2 节"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Judgement - Book of Sin - Cast on Kill Debuffed Target Affix",
@@ -13088,7 +13088,7 @@
                     "langTranslation": "“不许诺，便无所亏。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Spell Skills - Written Promise - Additional Damage Per Conviction Affix",
@@ -13375,7 +13375,7 @@
                     "langTranslation": "\"神圣的耶稣，我们向你献上这串念珠，借之诵念，默想神救赎的奥秘。\" - 念珠祈祷经文"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Holy Rosary - Bead Necklace - Cast on Move Distance Affix",
@@ -13647,7 +13647,7 @@
                     "langTranslation": "“以念珠祈祷，如同在灵魂的黑暗中点燃一束光。” - 无名信徒"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Holy Rosary - Golden Chaplet - Orbit Around Target Affix",
@@ -13950,7 +13950,7 @@
                     "langTranslation": "“透过机器复杂的运转，我们聆听到那宏大而有力的劳动交响曲，令人振奋，响彻心扉。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Holy Rosary - Workers Tools - Use Summon as Target Affix",
@@ -14253,7 +14253,7 @@
                     "langTranslation": "“不知道为何，我从未见过男人在我面前脸红。” - 匪王兰皮昂用匕首刺伤被其团伙俘获的警察时说道。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Veil of Quills - Feathered Dagger - Pierce Affix",
@@ -14557,7 +14557,7 @@
                     "langTranslation": "“比空气更轻盈，比烈酒更醇烈，比尘土更低贱。” - 约翰·沃恩·盖茨"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Lasso - Barbed Wire - Guaranteed Bleed Affix",
@@ -14860,7 +14860,7 @@
                     "langTranslation": "“最好的镜子是老友的目光。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Spell Skills - Looking Glass - Mana Regen on Kill Affix",
@@ -15163,7 +15163,7 @@
                     "langTranslation": "“身着破烂制服的骷髅 (...) 暴露了荒原人精心策划的恶魔般的表演。他们只拿走了弹药和武器，其他一无所取。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon The Guard - Stolen Weapons - Alternative Attack using Splitshot",
@@ -15467,7 +15467,7 @@
                     "langTranslation": "“他们身着蓝衣，腰系洁白亚麻绳索。他们从不更换这神圣的制服。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Lasso - Bundle of Rope - Lifelink on Hit Affix",
@@ -15738,7 +15738,7 @@
                     "langTranslation": "“他们身形消瘦，衣衫褴褛，满是苦难的痕迹 (...) 被焚烧殆尽之后，只余下一道道清晰轮廓，在尘土飞扬的褐色土地上，泛着灰白的余烬。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Bombardment - Ashes of Mourning - Plague Damage and Cooldown on Hit Affix",
@@ -16042,7 +16042,7 @@
                     "langTranslation": "“他从黑暗和死荫里领他们出来，折断他们的绑索。” - 《诗篇》第 107 章第 14 节"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Spiked Chains - Bleeding Enemies Less Damage Affix",
@@ -16313,7 +16313,7 @@
                     "langTranslation": "“政府的机械警察冷酷无情，没有怜悯/只有仇恨，笑得如鬣狗般狰狞/砰砰砰，弗勒里和他那帮狗腿子/必将葬身血海。” - 雷森斯·MC"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "ShadowDash - Death Worship - Add Melee Tag Affix",
@@ -16616,7 +16616,7 @@
                     "langTranslation": "“人生苦涩又复杂。(...) 最好的解法，就是去喝杯咖啡。” - 鲁本·布拉加"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Matadeira - Cafezinho - Extra Charges Affix Definition",
@@ -16887,7 +16887,7 @@
                     "langTranslation": "“滚石不生苔。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Matadeira - Cannonball - Physical Single Instance Area Definition",
@@ -17190,7 +17190,7 @@
                     "langTranslation": "“摄影：爱与正义之利刃，亦是真理之明镜。” - 卡洛斯·德鲁蒙德·安德拉德"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Feitors Lash - Ancestral Memory - Recast with Summon Affix Definition",
@@ -17493,7 +17493,7 @@
                     "langTranslation": "“宣传之于民主，一如棍棒之于极权国家。” - 诺姆·乔姆斯基"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Feitors Lash - Settle the Score - Third Strike Bonus Affix Definition",
@@ -17796,7 +17796,7 @@
                     "langTranslation": "“在这崭新时代，纵使惩戒如影随形/我们依然走上街头，打破枷锁。” - 伊万·林斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Feitors Lash - Burning Shackles - Explode Ignite Affix Definition",
@@ -18067,7 +18067,7 @@
                     "langTranslation": "“任刀剑折断/不伤我分毫 (...) 皆因我身披/圣乔治的衣甲” - 雷森斯·MC"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Prayer of Health - Righteous Blade - Fire Damage Aura Affix",
@@ -18370,7 +18370,7 @@
                     "langTranslation": "“当身陷火海时，有人求神，有人报警，但唯有前者，需以信仰为引。” - 佚名"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Prayer of Health - Saviours Shield - Reduced Damage From Ignited Affix",
@@ -18616,7 +18616,7 @@
                     "langTranslation": "“与其赌正反，不如握住整枚硬币。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Prayer of Health - Heads or Tails - Second Wind Chance Affix",
@@ -18862,7 +18862,7 @@
                     "langTranslation": "“他忠贞不渝，毫无保留/他是战士，精力充沛/他是兄弟，如同 90 号宾果球般独特/他是我们的一员，是我们血脉相连的家人。” - 塞乌·乔治"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Passage - Energy Box - Plague Area On Finish Affix",
@@ -19133,7 +19133,7 @@
                     "langTranslation": "“谁人垂泪，谁人欢颜？/谁将驻足，谁又将远行？/因那列车已然抵达/正驶入这终点站台/是那趟七点的列车/也是驶向荒原的末班车” - 劳尔·塞沙斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Passage - Ticket - Teleport All Summons Affix",
@@ -19395,7 +19395,7 @@
                     "langTranslation": "“在灰烬中自救、点燃新火之人/将跨越危机，收获安宁，为灵魂带来喜悦/活在宁静与和谐之中，开启通往欢乐的大门。” - 卡耶塔诺·维洛索"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Passage - Peace and Quiet - Conviction for Near Enemies Affix",
@@ -19698,7 +19698,7 @@
                     "langTranslation": "“噩梦是种赞美/献给那些生于战火、未曾见过和平的人/在这片灼热的大地上，我的族人冷汗涔涔/我见过一个黑人小孩，他的笔记本是一把步枪。” - 雷森斯·MC"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Marksmen - Future Weapon - Bounce Shot Affix",
@@ -20002,7 +20002,7 @@
                     "langTranslation": "“那个黑人走上山岗，拾起吉他为众人奏响乐章/也奏给那些携罪而来的人们，他们缓步卸下武器，将刀枪轻轻置于尘土之上。” - 奥拉帕乐队"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Prayer of Vengeance - Garrison Supplies - Marksman Projectile Amount Affix",
@@ -20305,7 +20305,7 @@
                     "langTranslation": "“如果大地病了，我们也会生病。若这颗星球千疮百孔，人类再无健康可言。” - 艾尔顿·克雷纳克"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Marksmen - Summoning of Earth - Phys Res Shred Affix",
@@ -20609,7 +20609,7 @@
                     "langTranslation": "“自然是我们赖以生存的肺。若摧毁自然，我们将无法生存，再无空气可呼吸。” - 拉奥尼酋长"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Marksmen - Summoning of Air - Light Res Shred Affix",
@@ -20912,7 +20912,7 @@
                     "langTranslation": "“寂静是何模样？/在那一刻，万籁俱寂/于这出人民写下的史诗中，最终审判，终将降临。” - 若泽·拉马略"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Prayer of Vengeance - Final Reckoning - Explosion on Second Wind Affix",
@@ -21156,7 +21156,7 @@
                     "langTranslation": "“试想你生活在这样一个国度，承诺只是逍遥法外的借口/掩盖你的欺诈、你的道德沦丧、你的肮脏财富！” - 呐喊 HC"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Brute - Blood Money - Instant Respawn Life Cost Affix",
@@ -21428,7 +21428,7 @@
                     "langTranslation": "“那些拥有照料他人天赋的人，懂得感受他人的痛苦，并永远不离不弃。” - 莫妮卡·卡拉赞斯，巴西首位新冠疫苗接种者"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Brute - Breath Mask - Conviction on Death Affix",
@@ -21699,7 +21699,7 @@
                     "langTranslation": "“催泪瓦斯、眩晕手雷/橡胶子弹迎面袭来，警察镇压/在暴力冲突中，公民抗命/逆风而行，铁血爱国” - 下水道老鼠乐队"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Brute - Disorientation - Explode on Death Affix",
@@ -22003,7 +22003,7 @@
                     "langTranslation": "“是烈酒，是烟管，是针筒，是拳脚相加，拳拳到肉/自始至终皆是如此/这些人只会为我带来悲剧。” - 马古与荨麻乐队"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Bundle of Syringes - Buff on Lifesteal Affix",
@@ -22274,7 +22274,7 @@
                     "langTranslation": "“不只是旁观与评判/更是交融与共鸣/到那时你会明白/说唱是在发声，雷鬼在发声，桑巴也是在发声。” - 埃米西达与拉尔·达·里马"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Brute - Voice of War - Summon Damage Buff Affix",
@@ -23272,7 +23272,7 @@
                     "langTranslation": "“别点燃一把你无法熄灭的火。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Split Shot - Labaredas - Ignite Projectile Amount Affix",
@@ -23571,7 +23571,7 @@
                     "langTranslation": "“凡是从未做过噩梦的人，今夜都会梦见提里里。” - 翁班达圣歌"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Tiriris Law - Loot Magnet on Kill Ignited Affix",
@@ -23874,7 +23874,7 @@
                     "langTranslation": "“活着这件事很危险 - 它总是以死亡告终。” - 吉马朗伊斯·罗萨"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Shadow Dash - Skull of the Vulture - Explode Bleeding Affix",
@@ -24140,7 +24140,7 @@
                     "langTranslation": "“手榴弹在狭小的房间内爆炸，将男人、女人与孩童炸得粉碎，有时还有沉重的土砖天花板一并压下 (...) 就像一块坟墓的石板。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Spell Skills - Headless Doll - Additional Summon Damage Per Summon Affix",
@@ -24411,7 +24411,7 @@
                     "langTranslation": "“当他才挖到不足一掌深时，我们便闻到了那股熟悉的死亡气息。又一锄落下，一颗腐烂的头骨显露出来。他将那个\n洞堵住，又在不远处重新挖了一个。” - 弗朗西斯科·多拉蒂奥托，《被诅咒的战争》"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Shadow Dash - Skull of the Forgotten - Endurance Movespeed Affix",
@@ -24677,7 +24677,7 @@
                     "langTranslation": "“无论国王还是教皇，都无法逃脱死亡。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Repeater - Summoning of Death - Phys  Res Shred Affix",
@@ -24975,7 +24975,7 @@
                     "langTranslation": "“一个看起来不过十二岁的巴拉圭小兵，浑身是血，在我面前奔逃，被我们的一名士兵紧追不舍 (...) 他扑进我的怀里，哀求我救他。” - 弗朗西斯科·多拉蒂奥托，《被诅咒的战争》"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Bloodied Chains - Bleeding Enemies Less Damage Affix",
@@ -25241,7 +25241,7 @@
                     "langTranslation": "“愿那飞向亵渎者的子弹得以祝圣。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Bullet Skills - Blessed Bullets - Spell Tags Affix",
@@ -25540,7 +25540,7 @@
                     "langTranslation": "“被迫害、被剥夺权利、失去学校/你又如何书写属于自己的荣光/我们的记忆由你诉说/并被视作与法律本身同样真实。” - 纳奇鲁茨乐队"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Judgement - Book of Judgment - Cast on Kill Debuffed Target Affix",
@@ -25839,7 +25839,7 @@
                     "langTranslation": "“我为那些未曾去做的事而哭泣，正因自身的软弱，我才悲伤而不安。原谅我吧，枯叶！我无力的双眼注视着那些倒下的人并为他们祈祷。” - 塞西莉娅·梅雷莱斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Dry Leaf - Lightning Damage vs Ignited Enemies Affix",
@@ -26106,7 +26106,7 @@
                     "langTranslation": "“别错过下一个吻，别阻拦我，别纠缠我，别打扰我/否则我会像只金刚鹦鹉一样爆走！一只金刚鹦鹉，一只金刚鹦鹉！” - 加尔·科斯塔"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Veil of Quills - Energized Figurine - Lightning Projectile Affix",
@@ -26404,7 +26404,7 @@
                     "langTranslation": "“在一个无比忧伤的午后，牛群不停地低鸣，哀悼着他们的牛仔，那个再也不会前来呼唤它们的人。” - 路易斯·贡扎加"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Belt of the Cowboy - Gain Conviction on Hurt Affix",
@@ -26703,7 +26703,7 @@
                     "langTranslation": "“萨拉瓦，奥贡！/我们的巫术仍在延续，终止它的祭品何在？/森林中的神圣战士啊，若你不来，/那便由我亲自迎战。” - 娜拉·莱昂"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Courage of Ogum - Healing on Ogum Affix",
@@ -27007,7 +27007,7 @@
                     "langTranslation": "“巴道埃，伊莱·阿耶，马莱·德·巴莱，奥贡·欧巴/有一种神秘在心中搏动/那是歌声的力量，拥有令人沉醉的魔力。” - 克拉拉·努内斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Strength of Ogum - Max Vigor Stacks Affix",
@@ -27311,7 +27311,7 @@
                     "langTranslation": "“扬萨带来灵魂与旋风/匕首与狂风，雷霆与刀刃。” - 若昂·博斯科"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Primal Dagger - Gain Phys Dmg on Missing Mana Affix",
@@ -27616,7 +27616,7 @@
                     "langTranslation": "“荒原的气候变幻，(...) 最终都凝结为一个词，那是游荡其间的粗犷灵魂所最为恐惧的终极噩梦：干旱。” - 欧克利迪斯·达·库尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Closed Body - Son of the Draught  - Retaliation Affix",
@@ -27920,7 +27920,7 @@
                     "langTranslation": "“主啊，图潘的兄弟/让鞭子终于垂下/废除不容异己的律法/让那些源于尘土之人重归大地。” - 吉尔贝托·吉尔"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Light of Tupa - Power Orb Damage Size Radius Affix",
@@ -28224,7 +28224,7 @@
                     "langTranslation": "“七位巫师，七种晨曦的颜色/他们既是战士，也是恋人/他们是图潘的同伴。” - 鲁伊·毛里蒂"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Sound of Tupa - Max Power Orb Affix",
@@ -28528,7 +28528,7 @@
                     "langTranslation": "“愿那沉重却滋养万物的器具得以祝圣。” - 民间谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Passage - Bloodied Tools - Holy Rosary per Power Orb Affix",
@@ -28832,7 +28832,7 @@
                     "langTranslation": "“海之女王、众生之母倾注她的爱/来吧，赐我她的恩泽，我将以一朵花相赠。” - 玛丽亚·贝塔尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Spell Skills - Mothers Blessing - Spell Damage on High Mana Affix",
@@ -29136,7 +29136,7 @@
                     "langTranslation": "“我的圣埃克斯佩迪托啊，请助我渡过这艰难的时刻，庇护我免受一切可能加害于我的人的侵扰。” - 向圣埃克斯佩迪托的祈祷文"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Justice of Expedito - Max Agi Orbs Affix",
@@ -29440,7 +29440,7 @@
                     "langTranslation": "“我正义而迅捷的圣埃克斯佩迪托啊，在这困苦与绝望的时刻，请助我一臂之力。你是战士之圣，你是掌管急迫事务的圣者。” - 向圣埃克斯佩迪托的祈祷文"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Urgency of Expedito - Damage if no Enemies near Affix",
@@ -29744,7 +29744,7 @@
                     "langTranslation": "“洛贡埃德令人惊叹，睿智非凡，他承继了双亲的优点/拥有猎人的机敏，还有猎人的耐心。” - 吉尔贝托·吉尔"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Careful Hunter - Evasion for Agi Orb Affix",
@@ -29991,7 +29991,7 @@
                     "langTranslation": "“我的土地/是一幅由葡萄牙石铺就的马赛克/鲜血，毫无疑问，涂抹其上/在那片红树林沼泽的环绕之中。” - 克拉拉·努内斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Reflexes - Blood Stone - Throw Knife with Agi Orb Affix",
@@ -30263,7 +30263,7 @@
                     "langTranslation": "“抓到你了！”\n - 这件特异遗物由社区成员 Tenkiei 创作，以表彰他对《地狱钟鸣》社区所作出的卓越贡献。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Matadeira - Tenkieis Skyhammer - Melee Tag and Autocast Affix",
@@ -30561,7 +30561,7 @@
                     "langTranslation": "这件特异遗物由社区成员 Murk 创作，以表彰他对《地狱钟鸣》社区所作出的卓越贡献。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Murks Blood Veil - Degen and Damage Area Affix",
@@ -30860,7 +30860,7 @@
                     "langTranslation": "这件特异遗物由社区成员 Monddoc 创作，以表彰他对《地狱钟鸣》社区所作出的卓越贡献。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Monddocs Earth Orb - Multiple Bonuses PHYS Affix",
@@ -31159,7 +31159,7 @@
                     "langTranslation": "“那些被洛佩斯下令枪决、刺杀的士兵遗骸仍清晰可见。人们清点出了一百多颗头骨 (...) 它们至今仍散发着令人作呕的恶臭。” - 弗朗西斯科·多拉蒂奥托，《被诅咒的战争》"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Summon Brute - Breath of Death - Retaliates Mana Affix",
@@ -31441,7 +31441,7 @@
                     "langTranslation": "“就在那座古老的博芬教堂祭坛前/我想点上一支蜡烛，只为唤回我的爱。” - 若热·古拉特"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Double Knives - Red Candle - Bleed Explosion Affix",
@@ -31723,7 +31723,7 @@
                     "langTranslation": "“正义显现之时/烈焰自一首朴素的歌声中被吟诵而出/正义之火被点燃/我的人民随之歌唱。” - 阿拉·凯图"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - In Flames - Ignite Stacks Max Life Affix",
@@ -32037,7 +32037,7 @@
                     "langTranslation": "“我的饥饿如此深切/植物啊，花朵啊，与国旗一同生长的姐妹/我的命运是绿与黄/如同一株香蕉树。” - 若昂·博斯科"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Veil of Quills - Green Leaf - Spawn Quills From Withered Enemies Affix",
@@ -32320,7 +32320,7 @@
                     "langTranslation": "“认为那些将五发子弹精准射入心脏的警官在扣动扳机时怀有杀意，并非夸张之言。” - 卡科·巴塞洛斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Repeater - Unwieldy Weapon - More Damage Random Direction Affix",
@@ -32634,7 +32634,7 @@
                     "langTranslation": "“我们将神圣的念珠佩于胸前/羽毛念珠，信仰念珠/在自由的生命之中，在基隆博的和平之中/黑与白交织，被鲜血染红。” - 米尔顿·纳西门托"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Reflexes - Grim Rosary - Interval and Regen Speed Affix",
@@ -32918,7 +32918,7 @@
                     "langTranslation": "“为夜色披上红与黑，神秘随之降临/佩戴着如金色耳环般的项链，誓言就此立下。” - 安杰拉·玛丽亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Crimson Necklace - Physical to Fire Conversion Affix",
@@ -33802,7 +33802,7 @@
                     "langTranslation": "“那里有许多[霍乱死者的]尸体。他们的皮肤干瘪，双眼深陷。肤色发青、空洞无神，仿佛是被饥饿夺走了生命。” - 弗朗西斯科·多拉蒂奥托，《被诅咒的战争》"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Bullet Skills - Moldy Skull - Plague Conversion Affix",
@@ -34718,7 +34718,7 @@
                     "langTranslation": "“我总会设宴欢庆/为的是守护我的奥里沙/而巴伊亚赠予我/点缀项链的珠饰。“ - 爱之香乐队"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Calcite Necklace - Physical to Lightning Conversion Affix",
@@ -35602,7 +35602,7 @@
                     "langTranslation": "这件特异遗物由社区成员 Monddoc 创作，以表彰他对《地狱钟鸣》社区所作出的卓越贡献。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Monddocs Air Orb - Multiple Bonuses LIGHTNING Affix",
@@ -35900,7 +35900,7 @@
                     "langTranslation": "这件特异遗物由社区成员 Monddoc 创作，以表彰他对《地狱钟鸣》社区所作出的卓越贡献。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Monddocs Fire Orb - Multiple Bonuses FIRE Affix",
@@ -36198,7 +36198,7 @@
                     "langTranslation": "这件特异遗物由社区成员 Monddoc 创作，以表彰他对《地狱钟鸣》社区所作出的卓越贡献。"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Monddocs Water Orb - Multiple Bonuses PLAGUE Affix",
@@ -36496,7 +36496,7 @@
                     "langTranslation": "“火与血是坏主人，却是好仆人。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Jaguar Spear - Blood and Fire - Converts to Fire Affix",
@@ -36803,7 +36803,7 @@
                     "langTranslation": "“有美洲豹的地方，猴子不敢吱声。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Jaguar Spear - Hunters Charm - Kills Give Move Speed Affix",
@@ -37079,7 +37079,7 @@
                     "langTranslation": "“别用短棍戳美洲豹。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Jaguar Spear - Throwing Spear - Turns into Projectile Affix",
@@ -37387,7 +37387,7 @@
                     "langTranslation": "“真正骗人的是鱼饵，而不是拿着鱼竿的渔夫。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Cilada - Fresh Bait - Additional Marksman Damage Affix",
@@ -37662,7 +37662,7 @@
                     "langTranslation": "他说：“把网撒在船的右边，就会捕到鱼。”他们照做了，却因为鱼太多，拉不上来。 - 约翰福音 21:6"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Cilada - Travellers Pouch - Three Traps Affix",
@@ -37937,7 +37937,7 @@
                     "langTranslation": "“那不是爱。那是个陷阱，一个陷阱，一个陷阱。” - 莫莱霍"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Cilada - Thorned Net - Gain Stack of Bleed Affix",
@@ -38245,7 +38245,7 @@
                     "langTranslation": "“卡尔卡拉捕猎、杀戮、吞食。卡尔卡拉不会饿死。卡尔卡拉比人更勇敢。” - 玛丽亚·贝塔尼亚"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Carcara Dive - Bird Claw - Additional Melee Damage Affix",
@@ -38520,7 +38520,7 @@
                     "langTranslation": "“我听到你在这里呼唤我\n我从远方而来，只为遵从你的旨意\n我是一个只披着羽毛的乡下男孩\n我来此展现朱雷玛树的力量。” - 奥斯廷科昂斯"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Carcara Dive - Feathered Bracers - Reset Cooldown Affix",
@@ -38827,7 +38827,7 @@
                     "langTranslation": "“卡尔卡拉留下的东西，秃鹫不会嫌弃。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Carcara Dive - Feathered Staff - Converts to Physical and Bleed Affix",
@@ -39134,7 +39134,7 @@
                     "langTranslation": "“尸体横陈在地上。\n面孔不在，只剩一幅球门的图景。\n没有祈祷，只有某人的诅咒。\n还有一片沉默充作阿门。” - 西蒙娜"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Holy Fire - Blighted Carcass - Converts to Plague Affix",
@@ -39410,7 +39410,7 @@
                     "langTranslation": "“我带来战士的剑\n和奥夏拉的白旗\n在呼喊中，灿烂的星辰\n奥里萨斯发出的和平呼声。” - 纳扎雷·佩雷拉"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Holy Fire - Crimson Sword - Spawn Projectiles on Finish Affix",
@@ -39717,7 +39717,7 @@
                     "langTranslation": "“饶恕敌人的人，终将死在敌人手中。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Holy Fire - Black Cilice - Drain Life Affix",
@@ -40024,7 +40024,7 @@
                     "langTranslation": "“战士们向黑暗宣战\n战士们射箭照亮太阳\n图潘回应了伟大民族的呼声。” - 博伊·加兰蒂多"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Tupas Wrath - Icon of the Sun - Double Projectile Amount Affix",
@@ -40331,7 +40331,7 @@
                     "langTranslation": "“巴拉圭现在是一个满目疮痍的国家，再也无法崛起：96.50%的男性人口惨遭杀害。” - 胡利奥·若泽·基亚韦纳托"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Tupas Wrath - Scorched Bones - Energizes Summons Affix",
@@ -40638,7 +40638,7 @@
                     "langTranslation": "“既然所有流下的血都是红色的\n那么每一具身体，每一个被鞭打的兄弟\n非洲丛林的主，美洲丛林的姐妹\n我们都属于图潘的巴西丛林。” - 吉尔贝托·吉尔"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Tupas Wrath - Scorched Branch - Builds Up Stun Affix",
@@ -40914,7 +40914,7 @@
                     "langTranslation": "“这项高度专业化的活动凸显了最优秀的牛仔们在田间辛勤劳作中所展现出的自豪感和精湛技艺。” - 达西·里贝罗"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Six Shooter - Explosive Lead - Marked Stack Affix",
@@ -41221,7 +41221,7 @@
                     "langTranslation": "“战争不得人心，迫使政府展开‘一种狩猎’，旨在招募公民奔赴前线。” - 弗朗西斯科·多拉蒂奥托"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Six Shooter - Hunters Pouch - Evade for Move Speed and Evasion Affix",
@@ -41496,7 +41496,7 @@
                     "langTranslation": "“每一步都是胜利，每一次胜利都是喜悦，每一次喜悦都伴随着悲伤，每一次悲伤都蕴含着教训。” - 谚语"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "Six Shooter - Enchanted Loader - Regenerates Ammo on Move Affix",
@@ -49392,7 +49392,7 @@
                     "langTranslation": "“洛佩斯的宣传将巴西帝国军队描绘成‘猴子’，其目的是奴役巴拉圭人民。” - 弗朗西斯科·多拉蒂奥托"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Propaganda - Description Affix",
@@ -50390,7 +50390,7 @@
                     "langTranslation": "“当我看到大地燃烧／如同圣约翰之火...” - 路易斯·贡扎加"
                 }
             ],
-            "relicTypes": [],
+            "relicTypes": "",
             "intrinsicAffixes": [
                 {
                     "name": "All Skills - Bottle of Oil - Physical Damage Oiled Affix",

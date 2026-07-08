@@ -17443,7 +17443,7 @@
                                 "type": "StatModifierDefinition",
                                 "eStatDefinition": "PhysicalResistance",
                                 "modifierType": "Additive",
-                                "value": 0.0105
+                                "value": 0.105
                             }
                         ]
                     }

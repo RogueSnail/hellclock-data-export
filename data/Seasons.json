@@ -11371,9 +11371,9 @@
                     "specificSheetBaseStatModifiers": {}
                 },
                 {
-                    "name": "Act1-T6.5-CaveFlamesBOSSSheetScaling",
+                    "name": "Act1-T6-CaveFlamesBSheetScaling",
                     "type": "CharacterSheetBaseModifier",
-                    "experienceMultiplier": 0.0,
+                    "experienceMultiplier": 7.0,
                     "useCurveScaling": false,
                     "rawMultiplicativeScaling": false,
                     "baseStatModifiers": {
@@ -11384,7 +11384,7 @@
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 210.0,
+                            "multiplicative": 248.0,
                             "additive": 0.0
                         }
                     },
@@ -14469,7 +14469,7 @@
                     "specificSheetBaseStatModifiers": {}
                 },
                 {
-                    "name": "Act3-T3.5-TrainBossSheetScaling",
+                    "name": "Act3-T4-LaboratoryASheetScaling",
                     "type": "CharacterSheetBaseModifier",
                     "experienceMultiplier": 4.0,
                     "useCurveScaling": false,
@@ -14477,12 +14477,12 @@
                     "baseStatModifiers": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 32.0,
+                            "multiplicative": 33.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 3200.0,
+                            "multiplicative": 6400.0,
                             "additive": 0.0
                         }
                     },
@@ -14490,7 +14490,7 @@
                     "specificSheetBaseStatModifiers": {}
                 },
                 {
-                    "name": "Act2-T6-CanudosFlamesBSheetScaling",
+                    "name": "Act3-T6-FinalbossScaling",
                     "type": "CharacterSheetBaseModifier",
                     "experienceMultiplier": 7.0,
                     "useCurveScaling": false,
@@ -14498,25 +14498,17 @@
                     "baseStatModifiers": {
                         "BaseDamage": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 30.0,
+                            "multiplicative": 35.0,
                             "additive": 0.0
                         },
                         "Life": {
                             "type": "CharacterSheetBaseModifierConfig",
-                            "multiplicative": 900.0,
+                            "multiplicative": 12000.0,
                             "additive": 0.0
                         }
                     },
                     "statModifiersPerType": {},
-                    "specificSheetBaseStatModifiers": {
-                        "LootGoblinT2Sheet (HellClock.Stats.EnemySheet)": {
-                            "Life": {
-                                "type": "CharacterSheetBaseModifierConfig",
-                                "multiplicative": 450.0,
-                                "additive": 0.0
-                            }
-                        }
-                    }
+                    "specificSheetBaseStatModifiers": {}
                 }
             ],
             "regularBossSheetModifiers": [

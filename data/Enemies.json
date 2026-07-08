@@ -5868,7 +5868,7 @@
                             "id": 0,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 62.0
+                        "baseValue": 110.0
                     },
                     {
                         "type": "StatBaseOverride",
@@ -5877,7 +5877,7 @@
                             "id": 3,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 350.0
+                        "baseValue": 1333.0
                     }
                 ]
             },
@@ -7046,7 +7046,7 @@
                             "id": 0,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 400.0
+                        "baseValue": 110.0
                     },
                     {
                         "type": "StatBaseOverride",
@@ -7055,7 +7055,7 @@
                             "id": 3,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 40000.0
+                        "baseValue": 1333.0
                     }
                 ]
             },
@@ -10922,7 +10922,7 @@
                             "id": 0,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 62.0
+                        "baseValue": 110.0
                     },
                     {
                         "type": "StatBaseOverride",
@@ -10931,7 +10931,7 @@
                             "id": 3,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 350.0
+                        "baseValue": 1333.0
                     }
                 ]
             },
@@ -20995,7 +20995,7 @@
             "ignoreActionInterruption": false,
             "staticEnemy": false,
             "sheet": {
-                "name": "Act1_BigLeaper_Unique_Sheet",
+                "name": "HorseZombieUnique_Sheet",
                 "type": "EnemySheet",
                 "baseExperience": 1000,
                 "statBaseOverrides": [
