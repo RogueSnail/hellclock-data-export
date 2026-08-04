@@ -28589,7 +28589,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": true,
-                                            "revertOnRemoval": false,
+                                            "revertOnRemoval": true,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -28666,7 +28666,7 @@
                                                 ]
                                             },
                                             "revertOnRuleFail": true,
-                                            "revertOnRemoval": false,
+                                            "revertOnRemoval": true,
                                             "triggerTargetValue": {
                                                 "type": "SkillEffectVariableReference",
                                                 "valueOrName": "",
@@ -32316,7 +32316,7 @@
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Ao conjurar Tempo Lento, consuma todos os seus Orbes de Poder.\nPara cada Orbe de Poder consumido, Tempo Lento causará {0} do seu dano base por segundo como dano de Magia Elétrica por Nível de Habilidade de Tempo Lento.\nOs inimigos sofrem {1} de dano de Tempo Lento para cada Condição única que sofrem."
+                                        "langTranslation": "Ao conjurar Tempo Manso, consuma todos os seus Orbes de Poder.\nPara cada Orbe de Poder consumido, Tempo Lento causará {0} do seu dano base por segundo como dano de Magia Elétrica por Nível de Habilidade de Tempo Lento.\nOs inimigos sofrem {1} de dano de Tempo Lento para cada Condição única que sofrem."
                                     },
                                     {
                                         "langCode": "ru",

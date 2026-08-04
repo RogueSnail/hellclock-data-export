@@ -46205,210 +46205,6 @@
             ]
         },
         {
-            "name": "Judgement - Unique Blessing - Cast on Damage",
-            "id": 373,
-            "type": "SkillBlessingDefinition",
-            "behaviorAffixDefinition": {},
-            "rollVariableName": "Modifier",
-            "eModifierType": "MultiplicativeAdditive",
-            "behaviorData": {
-                "type": "SkillBehaviorData",
-                "affectMultipleSkills": false,
-                "useListOfSkills": "UseSkillTag",
-                "listOfSkills": [],
-                "skillTagFilter": "0",
-                "skillDefinition": {
-                    "name": "Matadeira Skill Definition",
-                    "id": 209,
-                    "type": "SpawnFallingProjectilesSkillDefinition"
-                },
-                "variables": {
-                    "type": "SkillEffectVariables",
-                    "variables": [
-                        {
-                            "type": "SkillEffectVariable",
-                            "name": "Modifier",
-                            "baseValue": 0.0,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
-                        },
-                        {
-                            "type": "SkillEffectVariable",
-                            "name": "Chance",
-                            "baseValue": 0.5,
-                            "eSkillEffectVariableStackType": "MultiplierSum",
-                            "eSkillEffectVariableFormat": "MultiplicativeAdditive"
-                        }
-                    ]
-                },
-                "effects": [
-                    {
-                        "name": "Execute Skill Raw Skill Effect Data",
-                        "type": "ExecuteSkillRawSkillEffectData",
-                        "skillDefinition": {
-                            "name": "Matadeira Skill Definition",
-                            "id": 209,
-                            "type": "SpawnFallingProjectilesSkillDefinition"
-                        },
-                        "effectTarget": "TargetHit",
-                        "overrideProjectileAmount": false,
-                        "hasDamageModifier": false,
-                        "directionIsTarget": false,
-                        "executeMultiple": false,
-                        "startDisabled": false,
-                        "useCharacterEffectTrigger": true,
-                        "effectTrigger": "TargetKill",
-                        "characterEffectTrigger": "Kill",
-                        "ruleSet": {
-                            "type": "SkillEffectRuleSet",
-                            "useOrLogic": false,
-                            "rules": [
-                                {
-                                    "name": "Use Interval Skill Effect Rule",
-                                    "type": "UseIntervalSkillEffectRule",
-                                    "interval": {
-                                        "type": "SkillEffectVariableReference",
-                                        "valueOrName": "Modifier",
-                                        "eSkillEffectVariableModifier": "0",
-                                        "statusToStack": {},
-                                        "statDefinition": "BaseDamage",
-                                        "supportVariableValueOrName": "",
-                                        "supportESkillEffectVariableModifier": "0",
-                                        "supportStatusToStack": {},
-                                        "supportStatDefinition": "BaseDamage"
-                                    },
-                                    "negate": false
-                                },
-                                {
-                                    "name": "Random Chance Skill Effect Rule",
-                                    "type": "RandomChanceSkillEffectRule",
-                                    "chance": {
-                                        "type": "SkillEffectVariableReference",
-                                        "valueOrName": "Chance",
-                                        "eSkillEffectVariableModifier": "0",
-                                        "statusToStack": {},
-                                        "statDefinition": "BaseDamage",
-                                        "supportVariableValueOrName": "",
-                                        "supportESkillEffectVariableModifier": "0",
-                                        "supportStatusToStack": {},
-                                        "supportStatDefinition": "BaseDamage"
-                                    },
-                                    "negate": false
-                                }
-                            ]
-                        },
-                        "revertOnRuleFail": false,
-                        "revertOnRemoval": false,
-                        "triggerTargetValue": {
-                            "type": "SkillEffectVariableReference",
-                            "valueOrName": "",
-                            "eSkillEffectVariableModifier": "0",
-                            "statusToStack": {},
-                            "statDefinition": "BaseDamage",
-                            "supportVariableValueOrName": "",
-                            "supportESkillEffectVariableModifier": "0",
-                            "supportStatusToStack": {},
-                            "supportStatDefinition": "BaseDamage"
-                        },
-                        "triggerTargetEnumValue": 0,
-                        "triggerTargetStringValue": "",
-                        "subEffects": []
-                    }
-                ]
-            },
-            "uniqueRollRange": [
-                2.0,
-                2.0
-            ],
-            "basePrice": 300.0,
-            "supportedRarities": "Unique",
-            "titleLocalizationKey": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Segen für Wirken von Urteil bei Tötung – Titel"
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Judgement Cast On Kill Blessing Title"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Título de bendición de la invocación Juicio al matar"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction du lancement de Jugement à la mort d'un ennemi"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "敵撃破時の審判発動 祝福タイトル"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa rzucenia Osądu przy zabiciu"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Judgement Cast On Kill Blessing Title"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Название благословения: применение «Божьей кары» при убийстве"
-                },
-                {
-                    "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Накладання осуду за вбивство»"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "击杀时施放审判恩泽标题"
-                }
-            ],
-            "effectTypeIcon": "Icon_AreaofEffect",
-            "description": [
-                {
-                    "langCode": "de",
-                    "langTranslation": "Segen für Wirken von Urteil bei Tötung – Beschreibung"
-                },
-                {
-                    "langCode": "en",
-                    "langTranslation": "Judgement Cast On Kill Blessing Description"
-                },
-                {
-                    "langCode": "es",
-                    "langTranslation": "Descripción de la bendición de la invocación Juicio al matar"
-                },
-                {
-                    "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction du lancement de Jugement à la mort d'un ennemi"
-                },
-                {
-                    "langCode": "ja",
-                    "langTranslation": "敵撃破時の審判発動 祝福説明"
-                },
-                {
-                    "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa rzucenia Osądu przy zabiciu"
-                },
-                {
-                    "langCode": "pt-br",
-                    "langTranslation": "Judgement Cast On Kill Blessing Description"
-                },
-                {
-                    "langCode": "ru",
-                    "langTranslation": "Описание благословения: применение «Божьей кары» при убийстве"
-                },
-                {
-                    "langCode": "uk",
-                    "langTranslation": "Опис благословення «Накладання осуду за вбивство»"
-                },
-                {
-                    "langCode": "zh-cn",
-                    "langTranslation": "击杀时施放审判恩泽描述"
-                }
-            ]
-        },
-        {
             "name": "Jaguar Spear - Unique Blessing - Kills Grant Move Speed",
             "id": 374,
             "type": "SkillBlessingDefinition",
@@ -46717,7 +46513,7 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segen für Regeneration von Zeit verlangsamen – Titel"
+                    "langTranslation": "Heiligtum"
                 },
                 {
                     "langCode": "en",
@@ -46725,19 +46521,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de bendición de regeneración de Tiempo Lento"
+                    "langTranslation": "Santuario"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction de la régénération de l'Étirement temporel"
+                    "langTranslation": "Sanctuaire"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "時間停滞の回復 祝福タイトル"
+                    "langTranslation": "聖域"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa spowolnionej regeneracji"
+                    "langTranslation": "Sanktuarium"
                 },
                 {
                     "langCode": "pt-br",
@@ -46745,22 +46541,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: восстановление «Замедления времени»"
+                    "langTranslation": "Святилище"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Регенерація за сповільнення часу»"
+                    "langTranslation": "Святилище"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "时间凝滞恢复恩泽标题"
+                    "langTranslation": "圣所"
                 }
             ],
             "effectTypeIcon": "Icon_Life_Base",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Segen für Regeneration von Zeit verlangsamen – Beschreibung"
+                    "langTranslation": "Solange du dich in Zeit verlangsamen befindest, erhältst du {0} Lebensregeneration und Manaregeneration."
                 },
                 {
                     "langCode": "en",
@@ -46768,19 +46564,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición de regeneración de Tiempo Lento"
+                    "langTranslation": "Mientras estés dentro de Tiempo Lento, obtienes {0} de Regeneración de Vida y Regeneración de maná."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction de la régénération de l'Étirement temporel"
+                    "langTranslation": "Tant que vous êtes dans Étirement temporel, vous gagnez {0} de Régénération de vie et de Régénération de ferveur."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "時間停滞の回復 祝福説明"
+                    "langTranslation": "時間停滞内にいる間、生命とマナ再生が{0}増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa spowolnionej regeneracji"
+                    "langTranslation": "Przebywając w Spowolnieniu, zyskujesz {0} do Regeneracji życia i Regeneracji many."
                 },
                 {
                     "langCode": "pt-br",
@@ -46788,15 +46584,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: восстановление «Замедления времени»"
+                    "langTranslation": "Находясь в области Замедления времени, вы получаете {0} к восстановлению здоровья и восстановлению маны."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Регенерація за сповільнення часу»"
+                    "langTranslation": "Перебуваючи в зоні Сповільнення часу, ви отримуєте {0} до відновлення життя та відновлення мани."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "时间凝滞恢复恩泽描述"
+                    "langTranslation": "位于时间凝滞内时，获得 {0} 生命和法力再生。"
                 }
             ]
         },
@@ -46911,7 +46707,7 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bewegungstempo-Segen für Gebet der Gesundheit – Titel"
+                    "langTranslation": "Gesegnete Geschwindigkeit"
                 },
                 {
                     "langCode": "en",
@@ -46919,19 +46715,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de la bendición de Sable de Justicia de la Plegaria de salud"
+                    "langTranslation": "Velocidad Bendita"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction de la vitesse de déplacement de la Prière de salut"
+                    "langTranslation": "Vitesse bénie"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "生命の祈り 移動速度 祝福タイトル"
+                    "langTranslation": "祝福の俊足"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa Modlitwy o Zdrowie prędkości ruchu"
+                    "langTranslation": "Błogosławiona prędkość"
                 },
                 {
                     "langCode": "pt-br",
@@ -46939,22 +46735,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: скорость передвижения при «Молитве о здравии»"
+                    "langTranslation": "Благословенная скорость"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Швидкість руху за використання молитви за здоров'я»"
+                    "langTranslation": "Благословенна швидкість"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "生命之祷移动速度恩泽标题"
+                    "langTranslation": "神圣迅捷"
                 }
             ],
             "effectTypeIcon": "Icon_MoveSpeed_Base",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Bewegungstempo-Segen für Gebet der Gesundheit – Beschreibung"
+                    "langTranslation": "Erhalte während des aktiven Effekts von Gebet der Gesundheit {0} Bewegungstempo."
                 },
                 {
                     "langCode": "en",
@@ -46962,19 +46758,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición de velocidad de movimiento de la Plegaria de salud"
+                    "langTranslation": "Obtienes {0} de Velocidad de movimiento mientras Plegaria de Salud está activa"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction de la vitesse de déplacement de la Prière de salut"
+                    "langTranslation": "Gagnez {0} de Vitesse de déplacement pendant l'effet actif de Prière de salut."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "生命の祈り 移動速度 祝福説明"
+                    "langTranslation": "生命の祈りの効果中、移動速度が{0}増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa Modlitwy o Zdrowie prędkości ruchu"
+                    "langTranslation": "Zyskujesz {0} Prędkości ruchu podczas działania Modlitwy o Zdrowie."
                 },
                 {
                     "langCode": "pt-br",
@@ -46982,15 +46778,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: скорость передвижения при «Молитве о здравии»"
+                    "langTranslation": "Во время действия Молитвы о здравии вы получаете {0} к скорости передвижения."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Швидкість руху за використання молитви за здоров'я»"
+                    "langTranslation": "Під час дії Молитви за здоров'я ви отримуєте {0} швидкості руху."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "生命之祷移动速度恩泽描述"
+                    "langTranslation": "在生命之祷生效期间，获得 {0} 移动速度。"
                 }
             ]
         },
@@ -47105,7 +46901,7 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Angriff-Segen für Gebet der Vergeltung – Titel"
+                    "langTranslation": "Rasche Vergeltung"
                 },
                 {
                     "langCode": "en",
@@ -47113,19 +46909,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de bendición del ataque de Plegaria de Venganza"
+                    "langTranslation": "Venganza Veloz"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction de l'attaque de la Prière de vengeance"
+                    "langTranslation": "Vengeance fulgurante"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "復讐の祈り 攻撃 祝福タイトル"
+                    "langTranslation": "迅速なる復讐"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa modlitwy o atak zemsty"
+                    "langTranslation": "Błyskawiczna Zemsta"
                 },
                 {
                     "langCode": "pt-br",
@@ -47133,22 +46929,22 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: атака «Молитвы о воздаянии»"
+                    "langTranslation": "Стремительная месть"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Атака за використання молитви помсти»"
+                    "langTranslation": "Стрімка помста"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "复仇之祷攻击恩泽标题"
+                    "langTranslation": "迅捷复仇"
                 }
             ],
             "effectTypeIcon": "Icon_Cooldown_Base",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Angriff-Segen für Gebet der Vergeltung – Beschreibung"
+                    "langTranslation": "Erhalte während des aktiven Effekts von Gebet der Vergeltung {0} Angriffstempo und Abklingtempo."
                 },
                 {
                     "langCode": "en",
@@ -47156,19 +46952,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición del ataque de Plegaria de Venganza"
+                    "langTranslation": "Obtienes {0} de Velocidad de ataque y Velocidad de enfriamiento mientras Plegaria de Venganza está activa."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction de l'attaque de la Prière de vengeance"
+                    "langTranslation": "Gagnez {0} de Vitesse d'attaque et de Vitesse de recharge pendant l'effet actif de Prière de vengeance."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "復讐の祈り 攻撃 祝福説明"
+                    "langTranslation": "復讐の祈りの効果中、攻撃速度とクールダウン速度が{0}増加する。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa modlitwy o atak zemsty"
+                    "langTranslation": "Zyskujesz {0} Prędkości ataku i Prędkości odnawiania podczas działania Modlitwy o Zemstę."
                 },
                 {
                     "langCode": "pt-br",
@@ -47176,15 +46972,15 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: атака «Молитвы о воздаянии»"
+                    "langTranslation": "Во время действия Молитвы о воздаянии вы получаете {0} к скорости атаки и времени восстановления навыков."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Атака за використання молитви помсти»"
+                    "langTranslation": "Під час дії Молитви помсти ви отримуєте {0} до швидкості атак та швидкості перезарядки."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "复仇之祷攻击恩泽描述"
+                    "langTranslation": "在复仇之祷生效期间，获得 {0} 攻击速度和冷却速度。"
                 }
             ]
         },
@@ -47281,7 +47077,7 @@
             "titleLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beweglichkeit-Segen für Scharfschützen beschwören – Titel"
+                    "langTranslation": "Unerbittliche Jäger"
                 },
                 {
                     "langCode": "en",
@@ -47289,19 +47085,19 @@
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Título de bendición de invocación de Tiradores móviles"
+                    "langTranslation": "Cazadores Implacables"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Titre de la bénédiction variable des Tireurs fantômes"
+                    "langTranslation": "Chasseurs implacables"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "射撃手召喚 移動可能 祝福タイトル"
+                    "langTranslation": "執拗なる狩人"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Tytuł błogosławieństwa ruchomego Przyzwania Strzelca"
+                    "langTranslation": "Nieustępliwi Łowcy"
                 },
                 {
                     "langCode": "pt-br",
@@ -47309,58 +47105,58 @@
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Название благословения: перемещение «Призыва стрелка»"
+                    "langTranslation": "Неумолимые охотники"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Заголовок благословення «Виклик стрільців під час руху»"
+                    "langTranslation": "Невблаганні мисливці"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "召唤神射手可移动恩泽标题"
+                    "langTranslation": "无情猎手"
                 }
             ],
             "effectTypeIcon": "Icon_Amount",
             "description": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Beweglichkeit-Segen für Scharfschützen beschwören – Beschreibung"
+                    "langTranslation": "Phantomscharfschützen können sich über das Schlachtfeld bewegen."
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Phantom Marksmen can move around the battlefield"
+                    "langTranslation": "Phantom Marksmen can move around the battlefield."
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Descripción de la bendición de invocación de Tiradores móviles"
+                    "langTranslation": "Los Tiradores Fantasma pueden moverse por el campo de batalla."
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Description de la bénédiction variable des Tireurs fantômes"
+                    "langTranslation": "Les Tireurs fantômes peuvent se déplacer sur le champ de bataille."
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "射撃手召喚 移動可能 祝福説明"
+                    "langTranslation": "幻影の射撃手は戦場を移動できる。"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Opis błogosławieństwa ruchomego Przyzwania Strzelca"
+                    "langTranslation": "Widmowi Strzelcy mogą poruszać się po polu bitwy."
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Rifles Espectrais podem se mover pelo campo de batalha"
+                    "langTranslation": "Rifles Espectrais podem se mover pelo campo de batalha."
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Описание благословения: перемещение «Призыва стрелка»"
+                    "langTranslation": "Призрачный стрелок может перемещаться по полю боя."
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Опис благословення «Виклик стрільців під час руху»"
+                    "langTranslation": "Примарні стрільці можуть пересуватися полем бою."
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "召唤神射手可移动恩泽描述"
+                    "langTranslation": "幻影神射手可以在战场上移动。"
                 }
             ]
         }

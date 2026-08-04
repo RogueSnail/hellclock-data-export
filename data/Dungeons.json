@@ -11492,46 +11492,46 @@
             "actLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Akt I"
+                    "langTranslation": "1. Schritt"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Act I"
+                    "langTranslation": "1st Step"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Acto I"
+                    "langTranslation": "1.º paso"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Acte I"
+                    "langTranslation": "1re étape"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "一章"
+                    "langTranslation": "第1段階"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Akt I"
+                    "langTranslation": "1. krok"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ato I"
+                    "langTranslation": "1º Passo"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Акт I"
+                    "langTranslation": "1-й шаг"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Акт I"
+                    "langTranslation": "1-й крок"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "第一幕"
+                    "langTranslation": "第1步"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "dropBalance": {
                 "name": "Act01_DropBalance_HellMode",
                 "type": "DropBalance",
@@ -13096,46 +13096,46 @@
             "actLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Akt II"
+                    "langTranslation": "2. Schritt"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Act II"
+                    "langTranslation": "2nd Step"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Acto II"
+                    "langTranslation": "2.º paso"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Acte II"
+                    "langTranslation": "2e étape"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "ニ章"
+                    "langTranslation": "第2段階"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Akt II"
+                    "langTranslation": "2. krok"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ato II"
+                    "langTranslation": "2º Passo"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Акт II"
+                    "langTranslation": "2-й шаг"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Акт II"
+                    "langTranslation": "2-й крок"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "第二幕"
+                    "langTranslation": "第2步"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "dropBalance": {
                 "name": "Act02_DropBalance_HellMode",
                 "type": "DropBalance",
@@ -14579,46 +14579,46 @@
             "actLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Akt III"
+                    "langTranslation": "3. Schritt"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Act III"
+                    "langTranslation": "3rd Step"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Acto III"
+                    "langTranslation": "3.º paso"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Acte III"
+                    "langTranslation": "3e étape"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "三章"
+                    "langTranslation": "第3段階"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Akt III"
+                    "langTranslation": "3. krok"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ato III"
+                    "langTranslation": "3º Passo"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Акт III"
+                    "langTranslation": "3-й шаг"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Акт III"
+                    "langTranslation": "3-й крок"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "第三幕"
+                    "langTranslation": "第3步"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "dropBalance": {
                 "name": "Act03_DropBalance_HellMode",
                 "type": "DropBalance",
@@ -19388,46 +19388,46 @@
             "actLocalizationKey": [
                 {
                     "langCode": "de",
-                    "langTranslation": "Akt IV"
+                    "langTranslation": "4. Schritt"
                 },
                 {
                     "langCode": "en",
-                    "langTranslation": "Act IV"
+                    "langTranslation": "4th Step"
                 },
                 {
                     "langCode": "es",
-                    "langTranslation": "Acto IV"
+                    "langTranslation": "4.º paso"
                 },
                 {
                     "langCode": "fr",
-                    "langTranslation": "Acte IV"
+                    "langTranslation": "4e étape"
                 },
                 {
                     "langCode": "ja",
-                    "langTranslation": "四章"
+                    "langTranslation": "第4段階"
                 },
                 {
                     "langCode": "pl",
-                    "langTranslation": "Akt IV"
+                    "langTranslation": "4. krok"
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Ato IV"
+                    "langTranslation": "4º Passo"
                 },
                 {
                     "langCode": "ru",
-                    "langTranslation": "Акт IV"
+                    "langTranslation": "4-й шаг"
                 },
                 {
                     "langCode": "uk",
-                    "langTranslation": "Акт IV"
+                    "langTranslation": "4-й крок"
                 },
                 {
                     "langCode": "zh-cn",
-                    "langTranslation": "第四幕"
+                    "langTranslation": "第4步"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "dropBalance": {
                 "name": "Act03_DropBalance_HellMode",
                 "type": "DropBalance",
@@ -63438,7 +63438,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -66413,7 +66413,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -68517,7 +68517,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -70112,7 +70112,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -73007,7 +73007,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -75902,7 +75902,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -78942,7 +78942,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -81046,7 +81046,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -82786,7 +82786,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -84890,7 +84890,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -86540,7 +86540,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -88644,7 +88644,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -90384,7 +90384,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -92488,7 +92488,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -95032,7 +95032,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -97136,7 +97136,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -99665,7 +99665,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -101769,7 +101769,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -104313,7 +104313,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -106417,7 +106417,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -108940,7 +108940,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -111044,7 +111044,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -113567,7 +113567,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -115671,7 +115671,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -118194,7 +118194,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -120298,7 +120298,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",
@@ -122821,7 +122821,7 @@
                     "langTranslation": "第一幕"
                 }
             ],
-            "ignoreRedPortalMaxLevelReached": false,
+            "ignoreRedPortalMaxLevelReached": true,
             "levelBlocks": [
                 {
                     "name": "Nightmare - Level Block 1 - Necropolis",
@@ -124925,7 +124925,7 @@
                         },
                         {
                             "langCode": "pt-br",
-                            "langTranslation": "Áreas Úmidas"
+                            "langTranslation": "Terras Alagadas"
                         },
                         {
                             "langCode": "ru",

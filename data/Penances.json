@@ -605,7 +605,7 @@
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
-                        "rawMultiplicativeScaling": false,
+                        "rawMultiplicativeScaling": true,
                         "baseStatModifiers": {
                             "SkillAreaOfEffect": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -785,7 +785,7 @@
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
-                        "rawMultiplicativeScaling": false,
+                        "rawMultiplicativeScaling": true,
                         "baseStatModifiers": {
                             "SkillAreaOfEffect": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -965,7 +965,7 @@
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
-                        "rawMultiplicativeScaling": false,
+                        "rawMultiplicativeScaling": true,
                         "baseStatModifiers": {
                             "SkillAreaOfEffect": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -1562,7 +1562,7 @@
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
-                        "rawMultiplicativeScaling": false,
+                        "rawMultiplicativeScaling": true,
                         "baseStatModifiers": {
                             "AttackSpeed": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -1747,7 +1747,7 @@
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
-                        "rawMultiplicativeScaling": false,
+                        "rawMultiplicativeScaling": true,
                         "baseStatModifiers": {
                             "AttackSpeed": {
                                 "type": "CharacterSheetBaseModifierConfig",
@@ -4018,7 +4018,7 @@
                         "type": "CharacterSheetBaseModifier",
                         "experienceMultiplier": 1.0,
                         "useCurveScaling": false,
-                        "rawMultiplicativeScaling": false,
+                        "rawMultiplicativeScaling": true,
                         "baseStatModifiers": {
                             "SkillProjectileAmount": {
                                 "type": "CharacterSheetBaseModifierConfig",

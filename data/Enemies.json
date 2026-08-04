@@ -4567,7 +4567,7 @@
                         }
                     },
                     {
-                        "weight": 5.0,
+                        "weight": 3.0,
                         "value": {
                             "name": "EG_Burrower Miniboss Chain Spinning Projectile Attack Skill Definition",
                             "id": 393,
@@ -4614,8 +4614,8 @@
                     {
                         "weight": 100.0,
                         "value": {
-                            "name": "EG_Burrower Miniboss Summon Enemies Skill Definition",
-                            "id": 396,
+                            "name": "Enraged_Burrower Miniboss Summon Enemies Skill Definition",
+                            "id": 411,
                             "type": "SpawnEnemyWavesSkillDefinition"
                         }
                     },
@@ -4646,8 +4646,8 @@
                     {
                         "weight": 2.0,
                         "value": {
-                            "name": "EG_Enraged Burrower Miniboss Chain Spinning Projectile Attack Skill Definition",
-                            "id": 397,
+                            "name": "EG_Burrower Miniboss Chain Spinning Projectile Attack Skill Definition",
+                            "id": 393,
                             "type": "SkillChainSkillDefinition"
                         }
                     }
@@ -9314,7 +9314,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Carcaça Multilada"
+                    "langTranslation": "Carcaça Mutilada"
                 },
                 {
                     "langCode": "ru",
@@ -11666,14 +11666,6 @@
                             "id": 372,
                             "type": "SkillChainSkillDefinition"
                         }
-                    },
-                    {
-                        "weight": 2.0,
-                        "value": {
-                            "name": "Cursed Spirit Homing Projectiles Skill Definition",
-                            "id": 360,
-                            "type": "HomingProjectileAttackSkillDefinition"
-                        }
                     }
                 ],
                 "secondsToEnrage": 0.0,
@@ -13377,14 +13369,6 @@
                             "id": 372,
                             "type": "SkillChainSkillDefinition"
                         }
-                    },
-                    {
-                        "weight": 2.0,
-                        "value": {
-                            "name": "Cursed Spirit Homing Projectiles Skill Definition",
-                            "id": 360,
-                            "type": "HomingProjectileAttackSkillDefinition"
-                        }
                     }
                 ],
                 "secondsToEnrage": 0.0,
@@ -13907,7 +13891,7 @@
                 },
                 {
                     "langCode": "pt-br",
-                    "langTranslation": "Carcaça Multilada"
+                    "langTranslation": "Carcaça Mutilada"
                 },
                 {
                     "langCode": "ru",
@@ -16793,7 +16777,7 @@
             "sheet": {
                 "name": "EG - Miniboss Vulture Minion Sheet",
                 "type": "EnemySheet",
-                "baseExperience": 425,
+                "baseExperience": 15,
                 "statBaseOverrides": [
                     {
                         "type": "StatBaseOverride",
@@ -16913,8 +16897,8 @@
                     {
                         "weight": 1.0,
                         "value": {
-                            "name": "Deadman CHAIN  Sideways Homing Projectiles Skill Definition",
-                            "id": 492,
+                            "name": "Deadman CHAIN  ALT Sideways Homing Projectiles Skill Definition",
+                            "id": 786,
                             "type": "SkillChainSkillDefinition"
                         }
                     },
@@ -16959,12 +16943,6 @@
                         "eStatDefinition": "BaseDamage",
                         "modifierType": "Multiplicative",
                         "value": 1.5
-                    },
-                    {
-                        "type": "StatModifierDefinition",
-                        "eStatDefinition": "MovementSpeed",
-                        "modifierType": "Additive",
-                        "value": 1.25
                     },
                     {
                         "type": "StatModifierDefinition",
@@ -17179,7 +17157,7 @@
                         "type": "StatModifierDefinition",
                         "eStatDefinition": "MovementSpeed",
                         "modifierType": "Additive",
-                        "value": 1.5
+                        "value": 1.25
                     },
                     {
                         "type": "StatModifierDefinition",
@@ -20635,14 +20613,6 @@
                     {
                         "weight": 0.01,
                         "value": {
-                            "name": "Plague Carrier Unique Homing Projectiles Skill Definition",
-                            "id": 658,
-                            "type": "HomingProjectileAttackSkillDefinition"
-                        }
-                    },
-                    {
-                        "weight": 0.01,
-                        "value": {
                             "name": "Plague Carrier Unique Spawn Minions Waves Skill Definition",
                             "id": 596,
                             "type": "SpawnEnemyWavesSkillDefinition"
@@ -21783,14 +21753,6 @@
                         "value": {
                             "name": "Swarm Homing Projectiles Skill Definition",
                             "id": 674,
-                            "type": "HomingProjectileAttackSkillDefinition"
-                        }
-                    },
-                    {
-                        "weight": 0.01,
-                        "value": {
-                            "name": "Swarm Homing Projectiles Skill Definition close range",
-                            "id": 675,
                             "type": "HomingProjectileAttackSkillDefinition"
                         }
                     },
