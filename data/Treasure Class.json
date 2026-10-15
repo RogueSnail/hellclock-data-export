@@ -43882,6 +43882,30 @@
                         "id": 206,
                         "type": "UniqueRelicBaseDefinition"
                     }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
                 }
             ],
             "conditionalRelics": {
@@ -45080,6 +45104,30 @@
                     "value": {
                         "name": "All Skills - Bottle of Oil - Unique Large Relic",
                         "id": 206,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
                         "type": "UniqueRelicBaseDefinition"
                     }
                 }
@@ -52756,6 +52804,30 @@
                         "id": 206,
                         "type": "UniqueRelicBaseDefinition"
                     }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
                 }
             ],
             "conditionalRelics": {
@@ -54678,6 +54750,30 @@
                     }
                 },
                 {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
                     "weight": 1.0,
                     "value": {
                         "name": "Jaguar Spear - Blood And Fire - Unique Exalted Relic",
@@ -56316,6 +56412,30 @@
                         "id": 206,
                         "type": "UniqueRelicBaseDefinition"
                     }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
                 }
             ],
             "conditionalRelics": {
@@ -57514,6 +57634,30 @@
                     "value": {
                         "name": "All Skills - Bottle of Oil - Unique Large Relic",
                         "id": 206,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
                         "type": "UniqueRelicBaseDefinition"
                     }
                 }
@@ -58716,6 +58860,30 @@
                         "id": 206,
                         "type": "UniqueRelicBaseDefinition"
                     }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
                 }
             ],
             "conditionalRelics": {
@@ -59916,6 +60084,30 @@
                         "id": 206,
                         "type": "UniqueRelicBaseDefinition"
                     }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
                 }
             ],
             "conditionalRelics": {
@@ -61114,6 +61306,30 @@
                     "value": {
                         "name": "All Skills - Bottle of Oil - Unique Large Relic",
                         "id": 206,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
                         "type": "UniqueRelicBaseDefinition"
                     }
                 }
@@ -113668,6 +113884,30 @@
                         "id": 206,
                         "type": "UniqueRelicBaseDefinition"
                     }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "All Skills - Ghost Tales - Unique Exalted Relic",
+                        "id": 220,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Shadow Dash - Captains Broken Wheel - Unique Exalted Relic",
+                        "id": 221,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 0.2,
+                    "value": {
+                        "name": "Repeater - The Kings Potato - Unique Exalted Relic",
+                        "id": 222,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
                 }
             ],
             "conditionalRelics": {
@@ -117817,6 +118057,3044 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Act 1 Season of Miracles Crafting Tools Treasure Class",
+            "id": 393,
+            "type": "LootGroupTreasureClass",
+            "amount": 3,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 100.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Tinkering Tool - Miracles Treasure Class",
+                            "id": 400,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            1,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 30.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Enhancement Tool - Miracles Treasure Class",
+                            "id": 397,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 2.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Greater Enhancement Tool - Miracles Treasure Class",
+                            "id": 398,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 5.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Locksmithing Tool - Miracles Treasure Class",
+                            "id": 399,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 15.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Fragment - Miracles Treasure Class",
+                            "id": 403,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 15.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Fragment - Miracles Treasure Class",
+                            "id": 401,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 15.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Fragment - Miracles Treasure Class",
+                            "id": 402,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Fragment Treasure Class",
+                            "id": 404,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Fragment Treasure Class",
+                            "id": 405,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Tool - Miracles Treasure Class",
+                            "id": 395,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Tool - Miracles Treasure Class",
+                            "id": 396,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Tool - Miracles Treasure Class",
+                            "id": 394,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Tool Treasure Class",
+                            "id": 274,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Tool Treasure Class",
+                            "id": 273,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Imbuement Faith Tool - Miracles Treasure Class",
+            "id": 394,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": false,
+                        "currencyDefinition": {
+                            "name": "Imbued Tool of Faith",
+                            "id": 5,
+                            "type": "ImbueAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Imbuement Fury Tool - Miracles Treasure Class",
+            "id": 395,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": false,
+                        "currencyDefinition": {
+                            "name": "Imbued Tool of Fury",
+                            "id": 4,
+                            "type": "ImbueAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Imbuement Discipline Tool - Miracles Treasure Class",
+            "id": 396,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": false,
+                        "currencyDefinition": {
+                            "name": "Imbued Tool of Discipline",
+                            "id": 6,
+                            "type": "ImbueAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Enhancement Tool - Miracles Treasure Class",
+            "id": 397,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": false,
+                        "currencyDefinition": {
+                            "name": "Tool of Enhancement",
+                            "id": 1,
+                            "type": "UpgradeRarityCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Greater Enhancement Tool - Miracles Treasure Class",
+            "id": 398,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": false,
+                        "currencyDefinition": {
+                            "name": "Greater Tool of Enhancement",
+                            "id": 2,
+                            "type": "UpgradeRarityCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Locksmithing Tool - Miracles Treasure Class",
+            "id": 399,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": false,
+                        "currencyDefinition": {
+                            "name": "Tool of Locksmithing",
+                            "id": 3,
+                            "type": "LockAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tinkering Tool - Miracles Treasure Class",
+            "id": 400,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": false,
+                        "currencyDefinition": {
+                            "name": "Tool of Tinkering",
+                            "id": 0,
+                            "type": "RedrawAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Imbuement Discipline Fragment - Miracles Treasure Class",
+            "id": 401,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": true,
+                        "currencyDefinition": {
+                            "name": "Imbued Tool of Discipline",
+                            "id": 6,
+                            "type": "ImbueAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Imbuement Faith Fragment - Miracles Treasure Class",
+            "id": 402,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": true,
+                        "currencyDefinition": {
+                            "name": "Imbued Tool of Faith",
+                            "id": 5,
+                            "type": "ImbueAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Imbuement Fury Fragment - Miracles Treasure Class",
+            "id": 403,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": true,
+                        "currencyDefinition": {
+                            "name": "Imbued Tool of Fury",
+                            "id": 4,
+                            "type": "ImbueAffixCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Endgame Nightmares Corrupted Fragment Treasure Class",
+            "id": 404,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": true,
+                        "currencyDefinition": {
+                            "name": "Corrupted Tool",
+                            "id": 7,
+                            "type": "CorruptionCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Endgame Nightmares Divine Fragment Treasure Class",
+            "id": 405,
+            "type": "CurrencyTreasureClass",
+            "availableCurrencies": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "CurrencyTreasureDrop",
+                        "isFragment": true,
+                        "currencyDefinition": {
+                            "name": "Divine Tool",
+                            "id": 8,
+                            "type": "ImproveAffixRollsCurrencyDefinition"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Act 2 Season of Miracles Crafting Tools Treasure Class",
+            "id": 406,
+            "type": "LootGroupTreasureClass",
+            "amount": 4,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 80.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Tinkering Tool - Miracles Treasure Class",
+                            "id": 400,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            1,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 35.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Enhancement Tool - Miracles Treasure Class",
+                            "id": 397,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 5.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Greater Enhancement Tool - Miracles Treasure Class",
+                            "id": 398,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 8.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Locksmithing Tool - Miracles Treasure Class",
+                            "id": 399,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 20.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Fragment - Miracles Treasure Class",
+                            "id": 403,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 20.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Fragment - Miracles Treasure Class",
+                            "id": 401,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 20.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Fragment - Miracles Treasure Class",
+                            "id": 402,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Fragment Treasure Class",
+                            "id": 404,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Fragment Treasure Class",
+                            "id": 405,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "weight": 2.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Tool - Miracles Treasure Class",
+                            "id": 395,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 2.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Tool - Miracles Treasure Class",
+                            "id": 396,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 2.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Tool - Miracles Treasure Class",
+                            "id": 394,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Tool Treasure Class",
+                            "id": 274,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Tool Treasure Class",
+                            "id": 273,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 3 Season of Miracles Crafting Tools Treasure Class",
+            "id": 407,
+            "type": "LootGroupTreasureClass",
+            "amount": 5,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 60.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Tinkering Tool - Miracles Treasure Class",
+                            "id": 400,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 40.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Enhancement Tool - Miracles Treasure Class",
+                            "id": 397,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            1,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 8.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Greater Enhancement Tool - Miracles Treasure Class",
+                            "id": 398,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 10.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Locksmithing Tool - Miracles Treasure Class",
+                            "id": 399,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Fragment - Miracles Treasure Class",
+                            "id": 403,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Fragment - Miracles Treasure Class",
+                            "id": 401,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Fragment - Miracles Treasure Class",
+                            "id": 402,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 3.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Fragment Treasure Class",
+                            "id": 404,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Fragment Treasure Class",
+                            "id": 405,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 4.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Tool - Miracles Treasure Class",
+                            "id": 395,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 4.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Tool - Miracles Treasure Class",
+                            "id": 396,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 4.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Tool - Miracles Treasure Class",
+                            "id": 394,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Tool Treasure Class",
+                            "id": 274,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Tool Treasure Class",
+                            "id": 273,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 4 Season of Miracles Crafting Tools Treasure Class",
+            "id": 408,
+            "type": "LootGroupTreasureClass",
+            "amount": 6,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 20.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Tinkering Tool - Miracles Treasure Class",
+                            "id": 400,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 40.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Enhancement Tool - Miracles Treasure Class",
+                            "id": 397,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            1,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 12.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Greater Enhancement Tool - Miracles Treasure Class",
+                            "id": 398,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 10.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Locksmithing Tool - Miracles Treasure Class",
+                            "id": 399,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Fragment - Miracles Treasure Class",
+                            "id": 403,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Fragment - Miracles Treasure Class",
+                            "id": 401,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Fragment - Miracles Treasure Class",
+                            "id": 402,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Fragment Treasure Class",
+                            "id": 404,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 3.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Fragment Treasure Class",
+                            "id": 405,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Tool - Miracles Treasure Class",
+                            "id": 395,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Tool - Miracles Treasure Class",
+                            "id": 396,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Tool - Miracles Treasure Class",
+                            "id": 394,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Tool Treasure Class",
+                            "id": 274,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 0.01,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Tool Treasure Class",
+                            "id": 273,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            0
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Abyss Season of Miracles Crafting Tools Treasure Class",
+            "id": 409,
+            "type": "LootGroupTreasureClass",
+            "amount": 8,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 10.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Tinkering Tool - Miracles Treasure Class",
+                            "id": 400,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 40.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Enhancement Tool - Miracles Treasure Class",
+                            "id": 397,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 20.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Greater Enhancement Tool - Miracles Treasure Class",
+                            "id": 398,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 10.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Locksmithing Tool - Miracles Treasure Class",
+                            "id": 399,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Fragment - Miracles Treasure Class",
+                            "id": 403,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Fragment - Miracles Treasure Class",
+                            "id": 401,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Fragment - Miracles Treasure Class",
+                            "id": 402,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 10.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Fragment Treasure Class",
+                            "id": 404,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Fragment Treasure Class",
+                            "id": 405,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 8.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Tool - Miracles Treasure Class",
+                            "id": 395,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 8.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Tool - Miracles Treasure Class",
+                            "id": 396,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 8.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Tool - Miracles Treasure Class",
+                            "id": 394,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 2.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Tool Treasure Class",
+                            "id": 274,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Tool Treasure Class",
+                            "id": 273,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Oblivion Season of Miracles Crafting Tools Treasure Class",
+            "id": 410,
+            "type": "LootGroupTreasureClass",
+            "amount": 10,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 5.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Tinkering Tool - Miracles Treasure Class",
+                            "id": 400,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 35.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Enhancement Tool - Miracles Treasure Class",
+                            "id": 397,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 25.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Greater Enhancement Tool - Miracles Treasure Class",
+                            "id": 398,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 10.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Locksmithing Tool - Miracles Treasure Class",
+                            "id": 399,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 30.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Fragment - Miracles Treasure Class",
+                            "id": 403,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 30.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Fragment - Miracles Treasure Class",
+                            "id": 401,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 30.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Fragment - Miracles Treasure Class",
+                            "id": 402,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 15.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Fragment Treasure Class",
+                            "id": 404,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 10.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Fragment Treasure Class",
+                            "id": 405,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 12.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Fury Tool - Miracles Treasure Class",
+                            "id": 395,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 12.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Discipline Tool - Miracles Treasure Class",
+                            "id": 396,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 12.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Imbuement Faith Tool - Miracles Treasure Class",
+                            "id": 394,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 3.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Corrupted Tool Treasure Class",
+                            "id": 274,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 2.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Nightmares Divine Tool Treasure Class",
+                            "id": 273,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 2 Season of Miracles - Unique Relic Treasure Class",
+            "id": 412,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 9.0,
+                    "value": 2
+                },
+                {
+                    "weight": 1.0,
+                    "value": 3
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Fury - Unique Relic",
+                        "id": 213,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Faith - Unique Relic",
+                        "id": 215,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Discipline - Unique Relic",
+                        "id": 214,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Brilliance - Unique Relic",
+                        "id": 216,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Doctrine - Unique Relic",
+                        "id": 217,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Mastery - Unique Relic",
+                        "id": 218,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Wisdom - Unique Relic",
+                        "id": 219,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Carcara Dive - Divine Coin - Miracles Unique Small Relic",
+                        "id": 211,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Cilada - Penitence of a Thousand Thorns - Miracles Unique Grand Relic",
+                        "id": 212,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Holy Fire - Resonating Wand - Miracles Unique Large Relic",
+                        "id": 210,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Jaguar Spear - Blessed Speartip - Miracles Unique Large Relic",
+                        "id": 207,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Six Shooter - Divine Guns - Miracles Unique Grand Relic",
+                        "id": 208,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Tupas Wrath - Umbrella - Miracles Unique Exalted Relic",
+                        "id": 209,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 2 Season of Miracles - REWARD Unique Relics - Treasure Class",
+            "id": 413,
+            "type": "LootGroupTreasureClass",
+            "amount": 1,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 2 Season of Miracles - BLESSING - Droplets - Treasure Class",
+                            "id": 439,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 2 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+                            "id": 414,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 2 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+            "id": 414,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 2 Season of Miracles - Unique Relic Treasure Class",
+                                "id": 412,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 1 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+            "id": 415,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 1 Season of Miracles - Unique Relic Treasure Class",
+                                "id": 416,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 1 Season of Miracles - Unique Relic Treasure Class",
+            "id": 416,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 9.0,
+                    "value": 1
+                },
+                {
+                    "weight": 1.0,
+                    "value": 2
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Fury - Unique Relic",
+                        "id": 213,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Faith - Unique Relic",
+                        "id": 215,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Discipline - Unique Relic",
+                        "id": 214,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Brilliance - Unique Relic",
+                        "id": 216,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Doctrine - Unique Relic",
+                        "id": 217,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Mastery - Unique Relic",
+                        "id": 218,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Wisdom - Unique Relic",
+                        "id": 219,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Carcara Dive - Divine Coin - Miracles Unique Small Relic",
+                        "id": 211,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Cilada - Penitence of a Thousand Thorns - Miracles Unique Grand Relic",
+                        "id": 212,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Holy Fire - Resonating Wand - Miracles Unique Large Relic",
+                        "id": 210,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Jaguar Spear - Blessed Speartip - Miracles Unique Large Relic",
+                        "id": 207,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Six Shooter - Divine Guns - Miracles Unique Grand Relic",
+                        "id": 208,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Tupas Wrath - Umbrella - Miracles Unique Exalted Relic",
+                        "id": 209,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "FULL Act 2 Season of Miracles - Reward Relics - Treasure Class",
+            "id": 417,
+            "type": "LootGroupTreasureClass",
+            "amount": 5,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 700.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Gold x5 Treasure Class",
+                            "id": 4,
+                            "type": "GoldTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "weight": 100.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "SoulStone x50 TreasureClass",
+                            "id": 123,
+                            "type": "SoulStoneTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                },
+                {
+                    "weight": 100.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 2 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+                            "id": 414,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            1,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 100.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Time x30 Treasure Class",
+                            "id": 151,
+                            "type": "HellClockTimeTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 100.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 2 Currency Fragments Treasure Class",
+                            "id": 232,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "weight": 100.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 2 Currency Completed Treasure Class",
+                            "id": 236,
+                            "type": "CurrencyTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            2
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 1 Season of Miracles - REWARD Unique Relics - Treasure Class",
+            "id": 418,
+            "type": "LootGroupTreasureClass",
+            "amount": 1,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 1 Season of Miracles - BLESSING - Droplets - Treasure Class",
+                            "id": 437,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 1 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+                            "id": 415,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 3 Season of Miracles - Unique Relic Treasure Class",
+            "id": 423,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 1.0,
+                    "value": 3
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Fury - Unique Relic",
+                        "id": 213,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Faith - Unique Relic",
+                        "id": 215,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Discipline - Unique Relic",
+                        "id": 214,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Brilliance - Unique Relic",
+                        "id": 216,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Doctrine - Unique Relic",
+                        "id": 217,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Mastery - Unique Relic",
+                        "id": 218,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Wisdom - Unique Relic",
+                        "id": 219,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Carcara Dive - Divine Coin - Miracles Unique Small Relic",
+                        "id": 211,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Cilada - Penitence of a Thousand Thorns - Miracles Unique Grand Relic",
+                        "id": 212,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Holy Fire - Resonating Wand - Miracles Unique Large Relic",
+                        "id": 210,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Jaguar Spear - Blessed Speartip - Miracles Unique Large Relic",
+                        "id": 207,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Six Shooter - Divine Guns - Miracles Unique Grand Relic",
+                        "id": 208,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Tupas Wrath - Umbrella - Miracles Unique Exalted Relic",
+                        "id": 209,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 3 Season of Miracles - REWARD Unique Relics - Treasure Class",
+            "id": 425,
+            "type": "LootGroupTreasureClass",
+            "amount": 1,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 3 Season of Miracles - BLESSING - Droplets - Treasure Class",
+                            "id": 441,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 3 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+                            "id": 426,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 3 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+            "id": 426,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 3 Season of Miracles - Unique Relic Treasure Class",
+                                "id": 423,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 4 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+            "id": 427,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 4 Season of Miracles - Unique Relic Treasure Class",
+                                "id": 429,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 4 Season of Miracles - Unique Relic Treasure Class",
+            "id": 429,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 1.0,
+                    "value": 3
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Fury - Unique Relic",
+                        "id": 213,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Faith - Unique Relic",
+                        "id": 215,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Discipline - Unique Relic",
+                        "id": 214,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Brilliance - Unique Relic",
+                        "id": 216,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Doctrine - Unique Relic",
+                        "id": 217,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Mastery - Unique Relic",
+                        "id": 218,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Wisdom - Unique Relic",
+                        "id": 219,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Carcara Dive - Divine Coin - Miracles Unique Small Relic",
+                        "id": 211,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Cilada - Penitence of a Thousand Thorns - Miracles Unique Grand Relic",
+                        "id": 212,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Holy Fire - Resonating Wand - Miracles Unique Large Relic",
+                        "id": 210,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Jaguar Spear - Blessed Speartip - Miracles Unique Large Relic",
+                        "id": 207,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Six Shooter - Divine Guns - Miracles Unique Grand Relic",
+                        "id": 208,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Tupas Wrath - Umbrella - Miracles Unique Exalted Relic",
+                        "id": 209,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 4 Season of Miracles - REWARD Unique Relics - Treasure Class",
+            "id": 431,
+            "type": "LootGroupTreasureClass",
+            "amount": 1,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 4 Season of Miracles - BLESSING - Droplets - Treasure Class",
+                            "id": 443,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Act 4 Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+                            "id": 427,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Endgame Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+            "id": 432,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Endgame Season of Miracles - Unique Relic Treasure Class",
+                                "id": 434,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Endgame Season of Miracles - Unique Relic Treasure Class",
+            "id": 434,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 85.0,
+                    "value": 3
+                },
+                {
+                    "weight": 15.0,
+                    "value": 4
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Fury - Unique Relic",
+                        "id": 213,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Faith - Unique Relic",
+                        "id": 215,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Discipline - Unique Relic",
+                        "id": 214,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Brilliance - Unique Relic",
+                        "id": 216,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Doctrine - Unique Relic",
+                        "id": 217,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Mastery - Unique Relic",
+                        "id": 218,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 6.0,
+                    "value": {
+                        "name": "Miracles - Manifested Miracle of Wisdom - Unique Relic",
+                        "id": 219,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Carcara Dive - Divine Coin - Miracles Unique Small Relic",
+                        "id": 211,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Cilada - Penitence of a Thousand Thorns - Miracles Unique Grand Relic",
+                        "id": 212,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Holy Fire - Resonating Wand - Miracles Unique Large Relic",
+                        "id": 210,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Jaguar Spear - Blessed Speartip - Miracles Unique Large Relic",
+                        "id": 207,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Six Shooter - Divine Guns - Miracles Unique Grand Relic",
+                        "id": 208,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                },
+                {
+                    "weight": 7.0,
+                    "value": {
+                        "name": "Tupas Wrath - Umbrella - Miracles Unique Exalted Relic",
+                        "id": 209,
+                        "type": "UniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Endgame Season of Miracles - REWARD Unique Relics - Treasure Class",
+            "id": 436,
+            "type": "LootGroupTreasureClass",
+            "amount": 1,
+            "useDropBlockFlags": false,
+            "availableTreasureClasses": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Season of Miracles - BLESSING - Droplets - Treasure Class",
+                            "id": 445,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                },
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "type": "LootTreasureClass",
+                        "treasureClass": {
+                            "name": "Endgame Season of Miracles - BLESSING - Unique Relics - Treasure Class",
+                            "id": 432,
+                            "type": "BlessingLootTreasureClass"
+                        },
+                        "useLimit": true,
+                        "amountLimit": [
+                            0,
+                            1
+                        ]
+                    }
+                }
+            ],
+            "conditionalTreasureClasses": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 1 Season of Miracles - BLESSING - Droplets - Treasure Class",
+            "id": 437,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 1 Season of Miracles - Unique Droplet Treasure Class",
+                                "id": 438,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 1 Season of Miracles - Unique Droplet Treasure Class",
+            "id": 438,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 9.0,
+                    "value": 1
+                },
+                {
+                    "weight": 1.0,
+                    "value": 2
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Replica Relic - Miracle Droplet - Miracles Unique Small Relic",
+                        "id": 223,
+                        "type": "ReplicaUniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 2 Season of Miracles - BLESSING - Droplets - Treasure Class",
+            "id": 439,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 2 Season of Miracles - Unique Droplet Treasure Class",
+                                "id": 440,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 2 Season of Miracles - Unique Droplet Treasure Class",
+            "id": 440,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 9.0,
+                    "value": 2
+                },
+                {
+                    "weight": 1.0,
+                    "value": 3
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Replica Relic - Miracle Droplet - Miracles Unique Small Relic",
+                        "id": 223,
+                        "type": "ReplicaUniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 3 Season of Miracles - BLESSING - Droplets - Treasure Class",
+            "id": 441,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 3 Season of Miracles - Unique Droplet Treasure Class",
+                                "id": 442,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 3 Season of Miracles - Unique Droplet Treasure Class",
+            "id": 442,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 1.0,
+                    "value": 3
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Replica Relic - Miracle Droplet - Miracles Unique Small Relic",
+                        "id": 223,
+                        "type": "ReplicaUniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Act 4 Season of Miracles - BLESSING - Droplets - Treasure Class",
+            "id": 443,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Act 4 Season of Miracles - Unique Droplet Treasure Class",
+                                "id": 444,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Act 4 Season of Miracles - Unique Droplet Treasure Class",
+            "id": 444,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 1.0,
+                    "value": 3
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Replica Relic - Miracle Droplet - Miracles Unique Small Relic",
+                        "id": 223,
+                        "type": "ReplicaUniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
+        },
+        {
+            "name": "Endgame Season of Miracles - BLESSING - Droplets - Treasure Class",
+            "id": 445,
+            "type": "BlessingLootTreasureClass",
+            "disableRedraw": false,
+            "options": "ForceFirstRollHighestDevotionAffinity",
+            "treasureClassPool": [
+                {
+                    "type": "BlessingLootTreasureList",
+                    "conditionConfigList": {
+                        "type": "ConditionConfigList",
+                        "conditionsConfigList": []
+                    },
+                    "availableTreasureClasses": [
+                        {
+                            "weight": 1.0,
+                            "value": {
+                                "name": "Endgame Season of Miracles - Unique Droplet Treasure Class",
+                                "id": 446,
+                                "type": "UniqueRelicTreasureClass"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Endgame Season of Miracles - Unique Droplet Treasure Class",
+            "id": 446,
+            "type": "UniqueRelicTreasureClass",
+            "imbueRelicChance": 0.0,
+            "imbueCategories": [],
+            "corruptedRelicChance": 0.0,
+            "locksmithRelicChance": 0.0,
+            "tiers": [
+                {
+                    "weight": 85.0,
+                    "value": 3
+                },
+                {
+                    "weight": 15.0,
+                    "value": 4
+                }
+            ],
+            "availableRelics": [
+                {
+                    "weight": 1.0,
+                    "value": {
+                        "name": "Replica Relic - Miracle Droplet - Miracles Unique Small Relic",
+                        "id": 223,
+                        "type": "ReplicaUniqueRelicBaseDefinition"
+                    }
+                }
+            ],
+            "conditionalRelics": {
+                "type": "ConditionalList`1",
+                "list": []
+            }
         }
     ]
 }

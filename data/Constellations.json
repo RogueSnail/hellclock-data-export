@@ -57,6 +57,7 @@
                     }
                 ],
                 "illustrationLine": "TresMarias_line",
+                "illustrationLineSmall": "TresMarias_line_small",
                 "illustrationBlurredLine": "line_blur",
                 "nodes": [
                     {
@@ -609,6 +610,7 @@
                     }
                 ],
                 "illustrationLine": "santo_espedito_line",
+                "illustrationLineSmall": "santo_espedito_line_small",
                 "illustrationBlurredLine": "santo_espedito_blur",
                 "nodes": [
                     {
@@ -943,6 +945,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Agility Orb Status Definition",
                                                 "id": 97,
@@ -1029,6 +1032,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Agility Orb Status Definition",
                                                 "id": 97,
@@ -1144,6 +1148,7 @@
                                             "name": "Remove Status From Target Skill Effect Data",
                                             "type": "RemoveStatusFromTargetSkillEffectData",
                                             "effectTarget": "Self",
+                                            "useList": false,
                                             "statusDefinition": {
                                                 "name": "Agility Orb Status Definition",
                                                 "id": 97,
@@ -1192,6 +1197,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Agility Orb Status Definition",
                                                 "id": 97,
@@ -1263,6 +1269,7 @@
                                                     "name": "Remove Status From Target Skill Effect Data",
                                                     "type": "RemoveStatusFromTargetSkillEffectData",
                                                     "effectTarget": "Self",
+                                                    "useList": false,
                                                     "statusDefinition": {
                                                         "name": "Logun Ede - Destiny - Status Definition",
                                                         "id": 189,
@@ -1691,6 +1698,7 @@
                     }
                 ],
                 "illustrationLine": "tupa_line",
+                "illustrationLineSmall": "tupa_line_small",
                 "illustrationBlurredLine": "tupa_blur",
                 "nodes": [
                     {
@@ -1858,6 +1866,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Power Orb Status Definition",
                                                 "id": 98,
@@ -1978,6 +1987,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Power Orb Status Definition",
                                                 "id": 98,
@@ -2868,6 +2878,7 @@
                     }
                 ],
                 "illustrationLine": "ogum_line",
+                "illustrationLineSmall": "ogum_line_small",
                 "illustrationBlurredLine": "ogum_blur",
                 "nodes": [
                     {
@@ -2985,6 +2996,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Vigor Status Definition",
                                                 "id": 95,
@@ -3453,6 +3465,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Child of Ogum Status Definition",
                                                 "id": 96,
@@ -3537,6 +3550,7 @@
                                                     "name": "Remove Status From Target Skill Effect Data",
                                                     "type": "RemoveStatusFromTargetSkillEffectData",
                                                     "effectTarget": "Self",
+                                                    "useList": false,
                                                     "statusDefinition": {
                                                         "name": "Vigor Status Definition",
                                                         "id": 95,
@@ -3682,7 +3696,7 @@
                                     },
                                     {
                                         "langCode": "pt-br",
-                                        "langTranslation": "Esgotar sua Energia consome todos os seus acúmulos de Vigor e concede um bônus que fornece +30%[x] de Velocidade de Ataque e reduz todos os custos de Energia a zero. Este bônus dura {0}s para cada acúmulo de Vigor consumido."
+                                        "langTranslation": "Esgotar sua Energia consome todos os seus acúmulos de Vigor e concede um bônus que fornece +30%[x] de Velocidade de Ataque e reduz todos os custos de Energia a zero. Este bônus dura {0}s para cada acúmulo de Vigor consumido.\n"
                                     },
                                     {
                                         "langCode": "ru",
@@ -3896,6 +3910,7 @@
                     }
                 ],
                 "illustrationLine": "Yorixiriamori_line",
+                "illustrationLineSmall": "Yorixiriamori_line_small",
                 "illustrationBlurredLine": "Yorixiriamori_blur",
                 "nodes": [
                     {
@@ -4545,6 +4560,7 @@
                     }
                 ],
                 "illustrationLine": "Oxossi_linha",
+                "illustrationLineSmall": "Oxossi_linha_small",
                 "illustrationBlurredLine": "Oxossi_blur",
                 "nodes": [
                     {
@@ -6268,6 +6284,7 @@
                     }
                 ],
                 "illustrationLine": "Jurupari_linha",
+                "illustrationLineSmall": "Jurupari_linha_small",
                 "illustrationBlurredLine": "Jurupari_blur",
                 "nodes": [
                     {
@@ -7150,6 +7167,7 @@
                     }
                 ],
                 "illustrationLine": "Guaraci_line",
+                "illustrationLineSmall": "Guaraci_line_small",
                 "illustrationBlurredLine": "Guaraci_blur",
                 "nodes": [
                     {
@@ -7494,6 +7512,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": true,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Guaraci - Dawnlight - Status Definition",
                                                 "id": 111,
@@ -7825,6 +7844,7 @@
                                             "name": "Remove Status From Target Skill Effect Data",
                                             "type": "RemoveStatusFromTargetSkillEffectData",
                                             "effectTarget": "Self",
+                                            "useList": false,
                                             "statusDefinition": {
                                                 "name": "Guaraci - Dawnlight - Status Definition",
                                                 "id": 111,
@@ -7877,7 +7897,7 @@
                                                 "supportStatusToStack": {},
                                                 "supportStatDefinition": "BaseDamage"
                                             },
-                                            "eDamageFormulaType": "Flat",
+                                            "eDamageFormulaType": "DamageMod",
                                             "nonLethal": false,
                                             "startDisabled": false,
                                             "useCharacterEffectTrigger": false,
@@ -7900,57 +7920,6 @@
                                                         "negate": false
                                                     }
                                                 ]
-                                            },
-                                            "revertOnRuleFail": false,
-                                            "revertOnRemoval": false,
-                                            "triggerTargetValue": {
-                                                "type": "SkillEffectVariableReference",
-                                                "valueOrName": "",
-                                                "eSkillEffectVariableModifier": "0",
-                                                "statusToStack": {},
-                                                "statDefinition": "BaseDamage",
-                                                "supportVariableValueOrName": "",
-                                                "supportESkillEffectVariableModifier": "0",
-                                                "supportStatusToStack": {},
-                                                "supportStatDefinition": "BaseDamage"
-                                            },
-                                            "triggerTargetEnumValue": 0,
-                                            "triggerTargetStringValue": "",
-                                            "subEffects": []
-                                        },
-                                        {
-                                            "name": "Add Skill Value Modifier Skill Effect Data",
-                                            "type": "AddSkillValueModifierSkillEffectData",
-                                            "specificSkillDefinition": {},
-                                            "modifiers": [
-                                                {
-                                                    "type": "SkillEffectSkillModifierDefinition",
-                                                    "skillValueModifierKey": "Damage Modifier",
-                                                    "modifierType": "Additive",
-                                                    "value": {
-                                                        "type": "SkillEffectVariableReference",
-                                                        "valueOrName": "1",
-                                                        "eSkillEffectVariableModifier": "0",
-                                                        "statusToStack": {},
-                                                        "statDefinition": "BaseDamage",
-                                                        "supportVariableValueOrName": "",
-                                                        "supportESkillEffectVariableModifier": "0",
-                                                        "supportStatusToStack": {},
-                                                        "supportStatDefinition": "BaseDamage"
-                                                    },
-                                                    "useStatConversion": "NoConversion",
-                                                    "conversionStatDefinition": "BaseDamage",
-                                                    "listenToVariableModifiersUpdate": false
-                                                }
-                                            ],
-                                            "startDisabled": false,
-                                            "useCharacterEffectTrigger": false,
-                                            "effectTrigger": "Always",
-                                            "characterEffectTrigger": "Kill",
-                                            "ruleSet": {
-                                                "type": "SkillEffectRuleSet",
-                                                "useOrLogic": false,
-                                                "rules": []
                                             },
                                             "revertOnRuleFail": false,
                                             "revertOnRemoval": false,
@@ -8460,6 +8429,7 @@
                     }
                 ],
                 "illustrationLine": "anhanga_linha",
+                "illustrationLineSmall": "anhanga_linha_small",
                 "illustrationBlurredLine": "anhanga_blur",
                 "nodes": [
                     {
@@ -9494,6 +9464,7 @@
                     }
                 ],
                 "illustrationLine": "oxum_line",
+                "illustrationLineSmall": "oxum_line_small",
                 "illustrationBlurredLine": "oxum_blur",
                 "nodes": [
                     {
@@ -10074,6 +10045,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Oxum - Oxums Gold - Status Definition",
                                                 "id": 137,
@@ -10266,6 +10238,7 @@
                     }
                 ],
                 "illustrationLine": "Caupe_line",
+                "illustrationLineSmall": "Caupe_line_small",
                 "illustrationBlurredLine": "Caupe_blur",
                 "nodes": [
                     {
@@ -10664,6 +10637,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Caupe - Beauty in Motion - Status Definition",
                                                 "id": 136,
@@ -10979,6 +10953,7 @@
                     }
                 ],
                 "illustrationLine": "oxumare_line",
+                "illustrationLineSmall": "oxumare_line_small",
                 "illustrationBlurredLine": "oxumare_blur",
                 "nodes": [
                     {
@@ -11188,7 +11163,7 @@
                                                     "value": {
                                                         "type": "SkillEffectVariableReference",
                                                         "valueOrName": "Roll",
-                                                        "eSkillEffectVariableModifier": "MultiplyByStatusStacks, UseMultipliedModifier, MultiplyByTargetStatusStacks",
+                                                        "eSkillEffectVariableModifier": "MultiplyByStatusStacks, UseMultipliedModifier",
                                                         "statusToStack": {
                                                             "name": "Power Orb Status Definition",
                                                             "id": 98,
@@ -11829,6 +11804,7 @@
                     }
                 ],
                 "illustrationLine": "SaoJoao_linha",
+                "illustrationLineSmall": "SaoJoao_linha_small",
                 "illustrationBlurredLine": "SaoJoao_blur",
                 "nodes": [
                     {
@@ -12348,6 +12324,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Sao Joao - Baptism - Status Definition",
                                                 "id": 177,
@@ -12541,6 +12518,7 @@
                     }
                 ],
                 "illustrationLine": "Ossain_linha",
+                "illustrationLineSmall": "Ossain_linha_small",
                 "illustrationBlurredLine": "Ossain_blur",
                 "nodes": [
                     {
@@ -13413,6 +13391,7 @@
                     }
                 ],
                 "illustrationLine": "Onile_linha",
+                "illustrationLineSmall": "Onile_linha_small",
                 "illustrationBlurredLine": "Onile_blur",
                 "nodes": [
                     {
@@ -14262,6 +14241,7 @@
                     }
                 ],
                 "illustrationLine": "logun_linha",
+                "illustrationLineSmall": "logun_linha_small",
                 "illustrationBlurredLine": "logun_blur",
                 "nodes": [
                     {
@@ -15202,6 +15182,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Logun Ede - Destiny - Status Definition",
                                                 "id": 189,
@@ -15282,6 +15263,7 @@
                                                     "name": "Remove Status From Target Skill Effect Data",
                                                     "type": "RemoveStatusFromTargetSkillEffectData",
                                                     "effectTarget": "Self",
+                                                    "useList": false,
                                                     "statusDefinition": {
                                                         "name": "Agility Orb Status Definition",
                                                         "id": 97,
@@ -15484,6 +15466,7 @@
                     }
                 ],
                 "illustrationLine": "Sao Pedro_linha",
+                "illustrationLineSmall": "Sao Pedro_linha_small",
                 "illustrationBlurredLine": "Sao Pedro_blur",
                 "nodes": [
                     {
@@ -16147,6 +16130,7 @@
                     }
                 ],
                 "illustrationLine": "saojorge_line",
+                "illustrationLineSmall": "saojorge_line_small",
                 "illustrationBlurredLine": "saojorge_blur",
                 "nodes": [
                     {
@@ -16890,6 +16874,7 @@
                     }
                 ],
                 "illustrationLine": "curupira_linha",
+                "illustrationLineSmall": "curupira_linha_small",
                 "illustrationBlurredLine": "curupira_blur",
                 "nodes": [
                     {
@@ -17927,6 +17912,7 @@
                     }
                 ],
                 "illustrationLine": "ExuCaveira_linha",
+                "illustrationLineSmall": "ExuCaveira_linha_small",
                 "illustrationBlurredLine": "ExuCaveira_blur",
                 "nodes": [
                     {
@@ -18878,6 +18864,7 @@
                     }
                 ],
                 "illustrationLine": "nossa sra de aparecida_linha",
+                "illustrationLineSmall": "nossa sra de aparecida_linha_small",
                 "illustrationBlurredLine": "nossa sra de aparecida_blur",
                 "nodes": [
                     {
@@ -19828,6 +19815,7 @@
                     }
                 ],
                 "illustrationLine": "orunmila_linha",
+                "illustrationLineSmall": "orunmila_linha_small",
                 "illustrationBlurredLine": "orunmila_blur",
                 "nodes": [
                     {
@@ -20272,6 +20260,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "TargetHit",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Orunmila - Prophecy of Fire - Status Definition",
                                                 "id": 179,
@@ -20348,6 +20337,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "TargetHit",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Orunmila - Prophecy of Plague - Status Definition",
                                                 "id": 180,
@@ -20424,6 +20414,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "TargetHit",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Orunmila - Prophecy of Lightning - Status Definition",
                                                 "id": 181,
@@ -20628,6 +20619,7 @@
                     }
                 ],
                 "illustrationLine": "Akuanduba_linha",
+                "illustrationLineSmall": "Akuanduba_linha_small",
                 "illustrationBlurredLine": "Akuanduba_blur",
                 "nodes": [
                     {
@@ -21394,6 +21386,7 @@
                     }
                 ],
                 "illustrationLine": "Boitata_linha",
+                "illustrationLineSmall": "Boitata_linha_small",
                 "illustrationBlurredLine": "Boitata_blur",
                 "nodes": [
                     {
@@ -21935,6 +21928,7 @@
                     }
                 ],
                 "illustrationLine": "Caipora_linha",
+                "illustrationLineSmall": "Caipora_linha_small",
                 "illustrationBlurredLine": "Caipora_blur",
                 "nodes": [
                     {
@@ -22774,6 +22768,7 @@
                     }
                 ],
                 "illustrationLine": "ceuci_linha",
+                "illustrationLineSmall": "ceuci_linha_small",
                 "illustrationBlurredLine": "ceuci_BLUR",
                 "nodes": [
                     {
@@ -24353,6 +24348,7 @@
                     }
                 ],
                 "illustrationLine": "Exu_linha",
+                "illustrationLineSmall": "Exu_linha_small",
                 "illustrationBlurredLine": "Exu_blur",
                 "nodes": [
                     {
@@ -25241,6 +25237,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Exu - Messenger - Status Definition",
                                                 "id": 176,
@@ -25438,6 +25435,7 @@
                     }
                 ],
                 "illustrationLine": "Iansa_linha",
+                "illustrationLineSmall": "Iansa_linha_small",
                 "illustrationBlurredLine": "Iansa_blur",
                 "nodes": [
                     {
@@ -26189,6 +26187,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Iansa - Wind Made Manifest - Status Definition",
                                                 "id": 183,
@@ -26454,6 +26453,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Iansa - Sword of Winds and Storms - Status Definition",
                                                 "id": 184,
@@ -26678,6 +26678,7 @@
                     }
                 ],
                 "illustrationLine": "Jaci_linha",
+                "illustrationLineSmall": "Jaci_linha_small",
                 "illustrationBlurredLine": "Jaci_blur",
                 "nodes": [
                     {
@@ -27140,6 +27141,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "TargetHit",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Jaci - Light the Darkness - Status Definition",
                                                 "id": 141,
@@ -27629,6 +27631,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "TargetHit",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Jaci - The Moon - Status Definition",
                                                 "id": 142,
@@ -27940,6 +27943,7 @@
                     }
                 ],
                 "illustrationLine": "Iemanja_linha",
+                "illustrationLineSmall": "Iemanja_linha_small",
                 "illustrationBlurredLine": "Iemanja_blur",
                 "nodes": [
                     {
@@ -29310,6 +29314,7 @@
                     }
                 ],
                 "illustrationLine": "santaedwiges_linha",
+                "illustrationLineSmall": "santaedwiges_linha_small",
                 "illustrationBlurredLine": "santaedwiges_blur",
                 "nodes": [
                     {
@@ -30179,6 +30184,7 @@
                     }
                 ],
                 "illustrationLine": "Iroko_linha",
+                "illustrationLineSmall": "Iroko_linha_small",
                 "illustrationBlurredLine": "Iroko_blur",
                 "nodes": [
                     {
@@ -31276,6 +31282,7 @@
                     }
                 ],
                 "illustrationLine": "JuruparitheDemon_linha",
+                "illustrationLineSmall": "JuruparitheDemon_linha_small",
                 "illustrationBlurredLine": "JuruparitheDemon_blur",
                 "nodes": [
                     {
@@ -32139,6 +32146,7 @@
                                                     "name": "Remove Status From Target Skill Effect Data",
                                                     "type": "RemoveStatusFromTargetSkillEffectData",
                                                     "effectTarget": "Self",
+                                                    "useList": false,
                                                     "statusDefinition": {
                                                         "name": "Power Orb Status Definition",
                                                         "id": 98,
@@ -32418,6 +32426,7 @@
                     }
                 ],
                 "illustrationLine": "Nana_linha",
+                "illustrationLineSmall": "Nana_linha_small",
                 "illustrationBlurredLine": "Nana_blur",
                 "nodes": [
                     {
@@ -32958,6 +32967,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": true,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Nana - Between Life and Death - Status Definition",
                                                 "id": 171,
@@ -33168,6 +33178,7 @@
                     }
                 ],
                 "illustrationLine": "Fatima_linha",
+                "illustrationLineSmall": "Fatima_linha_small",
                 "illustrationBlurredLine": "Fatima_blur",
                 "nodes": [
                     {
@@ -33593,6 +33604,7 @@
                     }
                 ],
                 "illustrationLine": "nossa sra do carmo_LINHA",
+                "illustrationLineSmall": "nossa sra do carmo_LINHA_small",
                 "illustrationBlurredLine": "nossa sra do carmo_BLUR",
                 "nodes": [
                     {
@@ -34348,6 +34360,7 @@
                     }
                 ],
                 "illustrationLine": "Oba_linha",
+                "illustrationLineSmall": "Oba_linha_small",
                 "illustrationBlurredLine": "Oba_blur",
                 "nodes": [
                     {
@@ -34837,6 +34850,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Vigor Status Definition",
                                                 "id": 95,
@@ -35035,6 +35049,7 @@
                     }
                 ],
                 "illustrationLine": "Omolu_linha",
+                "illustrationLineSmall": "Omolu_linha_small",
                 "illustrationBlurredLine": "Omolu_blur",
                 "nodes": [
                     {
@@ -35564,6 +35579,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Omolu - Aspect of the Earth - Wither - Status Definition",
                                                 "id": 161,
@@ -35633,6 +35649,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Omolu - Aspect of the Earth - Stun - Status Definition",
                                                 "id": 162,
@@ -35993,6 +36010,7 @@
                     }
                 ],
                 "illustrationLine": "santaana_linha",
+                "illustrationLineSmall": "santaana_linha_small",
                 "illustrationBlurredLine": "santaana_blur",
                 "nodes": [
                     {
@@ -36223,6 +36241,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "TargetHit",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Santa Ana - Prepared and Strengthened - Status Definition",
                                                 "id": 182,
@@ -36403,11 +36422,88 @@
                         "isRoot": false,
                         "affixes": [
                             {
-                                "name": "18c9bd41-d54d-4967-8352-369b91c4a635",
-                                "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
-                                "statModifierType": "Multiplicative",
-                                "value": 1.3,
+                                "name": "9316ea43-4df4-46aa-bff2-656c49c9e3b7",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "additionalLocalizationVariables": [],
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 1.3,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": false,
+                                    "useListOfSkills": "UseSkillTag",
+                                    "listOfSkills": [],
+                                    "skillTagFilter": "0",
+                                    "skillDefinition": {
+                                        "name": "Tupa Orbiting Projectiles Skill Definition",
+                                        "id": 324,
+                                        "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                    },
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Multiplicative"
+                                            }
+                                        ]
+                                    },
+                                    "effects": [
+                                        {
+                                            "name": "Add Skill Value Modifier Skill Effect Data",
+                                            "type": "AddSkillValueModifierSkillEffectData",
+                                            "specificSkillDefinition": {},
+                                            "modifiers": [
+                                                {
+                                                    "type": "SkillEffectSkillModifierDefinition",
+                                                    "skillValueModifierKey": "Damage Modifier",
+                                                    "modifierType": "Multiplicative",
+                                                    "value": {
+                                                        "type": "SkillEffectVariableReference",
+                                                        "valueOrName": "Roll",
+                                                        "eSkillEffectVariableModifier": "0",
+                                                        "statusToStack": {},
+                                                        "statDefinition": "BaseDamage",
+                                                        "supportVariableValueOrName": "",
+                                                        "supportESkillEffectVariableModifier": "0",
+                                                        "supportStatusToStack": {},
+                                                        "supportStatDefinition": "BaseDamage"
+                                                    },
+                                                    "useStatConversion": "NoConversion",
+                                                    "conversionStatDefinition": "BaseDamage",
+                                                    "listenToVariableModifiersUpdate": false
+                                                }
+                                            ],
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": false,
+                                            "effectTrigger": "Always",
+                                            "characterEffectTrigger": "Kill",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "useOrLogic": false,
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": []
+                                        }
+                                    ]
+                                },
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -36451,7 +36547,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "战力之球伤害 +{0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -36538,6 +36635,7 @@
                     }
                 ],
                 "illustrationLine": "santarita_linha",
+                "illustrationLineSmall": "santarita_linha_small",
                 "illustrationBlurredLine": "santarita_blur",
                 "nodes": [
                     {
@@ -37328,6 +37426,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Santa Rita - Safe Passage - Status Definition",
                                                 "id": 163,
@@ -37396,6 +37495,7 @@
                                             "name": "Remove Status From Target Skill Effect Data",
                                             "type": "RemoveStatusFromTargetSkillEffectData",
                                             "effectTarget": "Self",
+                                            "useList": false,
                                             "statusDefinition": {
                                                 "name": "Santa Rita - Safe Passage - Status Definition",
                                                 "id": 163,
@@ -37567,6 +37667,7 @@
                     }
                 ],
                 "illustrationLine": "saolonguinho_linha",
+                "illustrationLineSmall": "saolonguinho_linha_small",
                 "illustrationBlurredLine": "saolonguinho_blur",
                 "nodes": [
                     {
@@ -38013,6 +38114,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Sao Longuinho - Seeker - Status Definition",
                                                 "id": 146,
@@ -38430,6 +38532,7 @@
                     }
                 ],
                 "illustrationLine": "Oxala_linha",
+                "illustrationLineSmall": "Oxala_linha_small",
                 "illustrationBlurredLine": "Oxala_blur",
                 "nodes": [
                     {
@@ -39380,6 +39483,7 @@
                     }
                 ],
                 "illustrationLine": "SantoAntonio_linha",
+                "illustrationLineSmall": "SantoAntonio_linha_small",
                 "illustrationBlurredLine": "SantoAntonio_blur",
                 "nodes": [
                     {
@@ -40004,6 +40108,7 @@
                     }
                 ],
                 "illustrationLine": "saocosme_linha",
+                "illustrationLineSmall": "saocosme_linha_small",
                 "illustrationBlurredLine": "saocosme_blur",
                 "nodes": [
                     {
@@ -40917,6 +41022,7 @@
                     }
                 ],
                 "illustrationLine": "sao jose_linha",
+                "illustrationLineSmall": "sao jose_linha_small",
                 "illustrationBlurredLine": "sao jose_blur",
                 "nodes": [
                     {
@@ -41591,6 +41697,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": true,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Sao Jose - Splinter - Status Definition",
                                                 "id": 191,
@@ -41984,6 +42091,7 @@
                                                 "type": "HomingProjectileAttackSkillDefinition"
                                             },
                                             "effectTarget": "Self",
+                                            "ignoreCharacterSemaphores": false,
                                             "overrideProjectileAmount": true,
                                             "projectileAmount": {
                                                 "type": "SkillEffectVariableReference",
@@ -42000,6 +42108,7 @@
                                                 "supportStatusToStack": {},
                                                 "supportStatDefinition": "BaseDamage"
                                             },
+                                            "multiplyBySkillProjectileAmount": false,
                                             "hasDamageModifier": true,
                                             "damageModifier": {
                                                 "type": "SkillEffectVariableReference",
@@ -42056,6 +42165,7 @@
                                                     "name": "Remove Status From Target Skill Effect Data",
                                                     "type": "RemoveStatusFromTargetSkillEffectData",
                                                     "effectTarget": "Self",
+                                                    "useList": false,
                                                     "statusDefinition": {
                                                         "name": "Sao Jose - Splinter - Status Definition",
                                                         "id": 191,
@@ -42224,6 +42334,7 @@
                     }
                 ],
                 "illustrationLine": "Sao Judas_linha",
+                "illustrationLineSmall": "Sao Judas_linha_small",
                 "illustrationBlurredLine": "São Judas_blur",
                 "nodes": [
                     {
@@ -43338,6 +43449,7 @@
                     }
                 ],
                 "illustrationLine": "saopaulo_linha",
+                "illustrationLineSmall": "saopaulo_linha_small",
                 "illustrationBlurredLine": "saopaulo_blur",
                 "nodes": [
                     {
@@ -43884,6 +43996,7 @@
                     }
                 ],
                 "illustrationLine": "saosebastiao_linha",
+                "illustrationLineSmall": "saosebastiao_linha_small",
                 "illustrationBlurredLine": "saosebastiao_blur",
                 "nodes": [
                     {
@@ -44073,11 +44186,11 @@
                         "isRoot": false,
                         "affixes": [
                             {
-                                "name": "bd73368c-e598-4e9d-87e0-166a9f8aeaca",
-                                "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
-                                "statModifierType": "Multiplicative",
-                                "value": 0.8,
+                                "name": "88d2826c-19b3-4fb3-bf60-7a226835aafd",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "additionalLocalizationVariables": [],
+                                "eModifierType": "Multiplicative",
+                                "valuePerLevel": 0.8,
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -44121,7 +44234,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "获得战力之球所需法力减少 {0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": "Power Orb Node Affix"
                             }
                         ],
                         "Position": [
@@ -44343,11 +44457,88 @@
                         "isRoot": false,
                         "affixes": [
                             {
-                                "name": "efa7ae2b-80b4-4897-90ff-6cfe4bb67f49",
-                                "type": "StatModifierNodeAffixDefinition",
-                                "eStatDefinition": "BaseDamage",
-                                "statModifierType": "Multiplicative",
-                                "value": 1.2,
+                                "name": "d442e464-a13f-4724-85a1-e158f1ef8441",
+                                "type": "SkillBehaviorNodeAffixDefinition",
+                                "additionalLocalizationVariables": [],
+                                "eModifierType": "Additive",
+                                "valuePerLevel": 1.2,
+                                "behaviorData": {
+                                    "type": "SkillBehaviorData",
+                                    "affectMultipleSkills": false,
+                                    "useListOfSkills": "UseSkillTag",
+                                    "listOfSkills": [],
+                                    "skillTagFilter": "0",
+                                    "skillDefinition": {
+                                        "name": "Tupa Orbiting Projectiles Skill Definition",
+                                        "id": 324,
+                                        "type": "PassiveOrbitingProjectilesSkillDefinition"
+                                    },
+                                    "variables": {
+                                        "type": "SkillEffectVariables",
+                                        "variables": [
+                                            {
+                                                "type": "SkillEffectVariable",
+                                                "name": "Roll",
+                                                "baseValue": 0.0,
+                                                "eSkillEffectVariableStackType": "UseHighest",
+                                                "eSkillEffectVariableFormat": "Multiplicative"
+                                            }
+                                        ]
+                                    },
+                                    "effects": [
+                                        {
+                                            "name": "Add Skill Value Modifier Skill Effect Data",
+                                            "type": "AddSkillValueModifierSkillEffectData",
+                                            "specificSkillDefinition": {},
+                                            "modifiers": [
+                                                {
+                                                    "type": "SkillEffectSkillModifierDefinition",
+                                                    "skillValueModifierKey": "Damage Modifier",
+                                                    "modifierType": "Multiplicative",
+                                                    "value": {
+                                                        "type": "SkillEffectVariableReference",
+                                                        "valueOrName": "Roll",
+                                                        "eSkillEffectVariableModifier": "0",
+                                                        "statusToStack": {},
+                                                        "statDefinition": "BaseDamage",
+                                                        "supportVariableValueOrName": "",
+                                                        "supportESkillEffectVariableModifier": "0",
+                                                        "supportStatusToStack": {},
+                                                        "supportStatDefinition": "BaseDamage"
+                                                    },
+                                                    "useStatConversion": "NoConversion",
+                                                    "conversionStatDefinition": "BaseDamage",
+                                                    "listenToVariableModifiersUpdate": false
+                                                }
+                                            ],
+                                            "startDisabled": false,
+                                            "useCharacterEffectTrigger": false,
+                                            "effectTrigger": "Always",
+                                            "characterEffectTrigger": "Kill",
+                                            "ruleSet": {
+                                                "type": "SkillEffectRuleSet",
+                                                "useOrLogic": false,
+                                                "rules": []
+                                            },
+                                            "revertOnRuleFail": false,
+                                            "revertOnRemoval": false,
+                                            "triggerTargetValue": {
+                                                "type": "SkillEffectVariableReference",
+                                                "valueOrName": "",
+                                                "eSkillEffectVariableModifier": "0",
+                                                "statusToStack": {},
+                                                "statDefinition": "BaseDamage",
+                                                "supportVariableValueOrName": "",
+                                                "supportESkillEffectVariableModifier": "0",
+                                                "supportStatusToStack": {},
+                                                "supportStatDefinition": "BaseDamage"
+                                            },
+                                            "triggerTargetEnumValue": 0,
+                                            "triggerTargetStringValue": "",
+                                            "subEffects": []
+                                        }
+                                    ]
+                                },
                                 "hideDescription": false,
                                 "hideFromAggregatedDescriptions": false,
                                 "description": [
@@ -44391,7 +44582,8 @@
                                         "langCode": "zh-cn",
                                         "langTranslation": "战力之球伤害 +{0}。"
                                     }
-                                ]
+                                ],
+                                "behaviorAffixDefinition": ""
                             }
                         ],
                         "Position": [
@@ -44474,6 +44666,7 @@
                     }
                 ],
                 "illustrationLine": "sume_linha",
+                "illustrationLineSmall": "sume_linha_small",
                 "illustrationBlurredLine": "sume_blur",
                 "nodes": [
                     {
@@ -44591,6 +44784,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Sume - Bloodless - Status Definition",
                                                 "id": 178,
@@ -45656,6 +45850,7 @@
                     }
                 ],
                 "illustrationLine": "Xango_linha",
+                "illustrationLineSmall": "Xango_linha_small",
                 "illustrationBlurredLine": "Xango_blur",
                 "nodes": [
                     {
@@ -46753,6 +46948,7 @@
                     }
                 ],
                 "illustrationLine": "Saci_perere_linha",
+                "illustrationLineSmall": "Saci_perere_linha_small",
                 "illustrationBlurredLine": "Saci_perere_blur",
                 "nodes": [
                     {
@@ -47237,6 +47433,7 @@
                                             "type": "AddStatusToTargetSkillEffectData",
                                             "removeOnEffectReversion": false,
                                             "effectTarget": "Self",
+                                            "usePool": false,
                                             "statusDefinition": {
                                                 "name": "Yaci - Resting Breath - Status Definition",
                                                 "id": 170,
@@ -47434,6 +47631,7 @@
                     }
                 ],
                 "illustrationLine": "yebabelo_linha",
+                "illustrationLineSmall": "yebabelo_linha_small",
                 "illustrationBlurredLine": "yebabelo_blur",
                 "nodes": [
                     {
@@ -48317,6 +48515,7 @@
                     }
                 ],
                 "illustrationLine": "saofrancisco_linha",
+                "illustrationLineSmall": "saofrancisco_linha_small",
                 "illustrationBlurredLine": "saofrancisco_blur",
                 "nodes": [
                     {
@@ -49237,6 +49436,7 @@
                     }
                 ],
                 "illustrationLine": "charia_line",
+                "illustrationLineSmall": "charia_line_small",
                 "illustrationBlurredLine": "charia_blur",
                 "nodes": [
                     {
@@ -50250,7 +50450,7 @@
                                             "sharedKey": "ChariaHounds",
                                             "removeOnEffectReversion": false,
                                             "startDisabled": false,
-                                            "useCharacterEffectTrigger": true,
+                                            "useCharacterEffectTrigger": false,
                                             "effectTrigger": "TargetHit",
                                             "characterEffectTrigger": "DealDamage",
                                             "ruleSet": {
@@ -50498,6 +50698,7 @@
             "investedConnectionColor": "RGBA(0.898, 0.333, 0.369, 0.502)",
             "appliedConnectionColor": "RGBA(0.898, 0.333, 0.369, 1.000)",
             "masteredConnectionColor": "RGBA(1.000, 0.580, 0.608, 1.000)",
+            "uiBaseColor": "RGBA(0.898, 0.333, 0.369, 1.000)",
             "hideFromUI": false,
             "nameKey": [
                 {
@@ -50541,8 +50742,53 @@
                     "langTranslation": "怒火"
                 }
             ],
+            "chanceKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Chance von {0}, <color=#E5555E>Zorn-Relikte</color> zu finden."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "{0} Chance to Find <color=#E5555E>Fury Relics</color>"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "{0} Probabilidad de encontrar <color=#E5555E>reliquias de furia</color>"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "{0} De chances de trouver des <color=#E5555E>reliques de Zèle</color>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "<color=#E5555E>激情の聖遺物</color>が見つかる確率{0}"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "{0} Szansy na znalezienie <color=#E5555E>artefaktów furii</color>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "{0} Chance de Encontrar <color=#E5555E>Relíquias da Fúria</color>"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "{0} Вероятности найти <color=#E5555E>реликвии ярости</color>"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "{0} Шансу знайти <color=#E5555E>реліквії люті</color>"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "找到<color=#E5555E>怒火遗物</color>的几率 {0}"
+                }
+            ],
             "icon": "UI_Constellation_IconFury",
-            "iconColor": "RGBA(0.898, 0.333, 0.369, 1.000)"
+            "iconColor": "RGBA(0.898, 0.333, 0.369, 1.000)",
+            "miracleHeaderColor": "RGBA(0.057, 0.000, 0.004, 1.000)",
+            "miracleBackgroundColor": "RGBA(0.104, 0.000, 0.006, 1.000)",
+            "miracleSeparatorColor": "RGBA(0.311, 0.222, 0.225, 1.000)"
         },
         {
             "type": "DevotionConfig",
@@ -50553,6 +50799,7 @@
             "investedConnectionColor": "RGBA(0.518, 0.906, 0.682, 0.502)",
             "appliedConnectionColor": "RGBA(0.518, 0.906, 0.682, 1.000)",
             "masteredConnectionColor": "RGBA(0.703, 1.000, 0.684, 1.000)",
+            "uiBaseColor": "RGBA(0.518, 0.906, 0.682, 1.000)",
             "hideFromUI": false,
             "nameKey": [
                 {
@@ -50596,8 +50843,53 @@
                     "langTranslation": "律制"
                 }
             ],
+            "chanceKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Chance von {0}, <color=#3AAD57>Disziplin-Relikte</color> zu finden."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "{0} Chance to Find <color=#3AAD57>Discipline Relics</color>"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "{0} Probabilidad de encontrar <color=#3AAD57>reliquias de disciplina</color>"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "{0} De chances de trouver des <color=#3AAD57>reliques de Discipline</color>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "<color=#3AAD57>規律の聖遺物</color>が見つかる確率{0}"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "{0} Szansy na znalezienie <color=#3AAD57>artefaktów dyscypliny</color>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "{0} Chance de Encontrar <color=#3AAD57>Relíquias da Disciplina</color>"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "{0} Вероятности найти <color=#3AAD57>реликвии дисциплины</color>"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "{0} Шансу знайти <color=#3AAD57>реліквії дисципліни</color>"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "找到<color=#3AAD57>律制遗物</color>的几率 {0}"
+                }
+            ],
             "icon": "UI_Constellation_IconDiscipline",
-            "iconColor": "RGBA(0.239, 0.522, 0.357, 1.000)"
+            "iconColor": "RGBA(0.239, 0.522, 0.357, 1.000)",
+            "miracleHeaderColor": "RGBA(0.035, 0.063, 0.071, 1.000)",
+            "miracleBackgroundColor": "RGBA(0.067, 0.118, 0.129, 1.000)",
+            "miracleSeparatorColor": "RGBA(0.282, 0.314, 0.345, 1.000)"
         },
         {
             "type": "DevotionConfig",
@@ -50608,6 +50900,7 @@
             "investedConnectionColor": "RGBA(0.376, 0.718, 0.914, 0.502)",
             "appliedConnectionColor": "RGBA(0.376, 0.718, 0.914, 1.000)",
             "masteredConnectionColor": "RGBA(0.652, 0.846, 0.953, 1.000)",
+            "uiBaseColor": "RGBA(0.376, 0.718, 0.914, 1.000)",
             "hideFromUI": false,
             "nameKey": [
                 {
@@ -50651,8 +50944,53 @@
                     "langTranslation": "信仰"
                 }
             ],
+            "chanceKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Chance von {0}, <color=#35A6CC>Glaube-Relikte</color> zu finden."
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "{0} Chance to Find <color=#35A6CC>Faith Relics</color>"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "{0} Probabilidad de encontrar <color=#35A6CC>reliquias de fe</color>"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "{0} De chances de trouver des <color=#35A6CC>reliques de Foi</color>"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "<color=#35A6CC>信仰の聖遺物</color>が見つかる確率{0}"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "{0} Szansy na znalezienie <color=#35A6CC>artefaktów wiary</color>"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "{0} Chance de Encontrar <color=#35A6CC>Relíquias da Fé</color>"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "{0} Вероятности найти <color=#35A6CC>реликвии веры</color>"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "{0} Шансу знайти <color=#35A6CC>реліквії віри</color>"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "找到<color=#35A6CC>信仰遗物</color>的几率 {0}"
+                }
+            ],
             "icon": "UI_Constellation_IconFaith",
-            "iconColor": "RGBA(0.278, 0.631, 0.792, 1.000)"
+            "iconColor": "RGBA(0.278, 0.631, 0.792, 1.000)",
+            "miracleHeaderColor": "RGBA(0.035, 0.063, 0.071, 1.000)",
+            "miracleBackgroundColor": "RGBA(0.067, 0.118, 0.129, 1.000)",
+            "miracleSeparatorColor": "RGBA(0.282, 0.314, 0.345, 1.000)"
         },
         {
             "type": "DevotionConfig",
@@ -50663,6 +51001,7 @@
             "investedConnectionColor": "RGBA(0.898, 0.694, 0.553, 0.502)",
             "appliedConnectionColor": "RGBA(0.898, 0.694, 0.553, 1.000)",
             "masteredConnectionColor": "RGBA(1.000, 0.569, 0.263, 1.000)",
+            "uiBaseColor": "RGBA(0.859, 0.831, 0.816, 1.000)",
             "hideFromUI": true,
             "nameKey": [
                 {
@@ -50706,8 +51045,53 @@
                     "langTranslation": ""
                 }
             ],
+            "chanceKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
             "icon": "",
-            "iconColor": "RGBA(0.000, 0.000, 0.000, 0.000)"
+            "iconColor": "RGBA(0.898, 0.694, 0.553, 1.000)",
+            "miracleHeaderColor": "RGBA(0.024, 0.008, 0.000, 1.000)",
+            "miracleBackgroundColor": "RGBA(0.104, 0.050, 0.012, 1.000)",
+            "miracleSeparatorColor": "RGBA(0.302, 0.258, 0.229, 1.000)"
         },
         {
             "type": "DevotionConfig",
@@ -50718,6 +51102,7 @@
             "investedConnectionColor": "RGBA(0.663, 0.376, 0.914, 0.502)",
             "appliedConnectionColor": "RGBA(0.663, 0.376, 0.914, 1.000)",
             "masteredConnectionColor": "RGBA(0.789, 0.595, 0.962, 1.000)",
+            "uiBaseColor": "RGBA(0.663, 0.376, 0.914, 1.000)",
             "hideFromUI": false,
             "nameKey": [
                 {
@@ -50761,8 +51146,53 @@
                     "langTranslation": ""
                 }
             ],
+            "chanceKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
             "icon": "UI_Constellation_IconFaith",
-            "iconColor": "RGBA(0.527, 0.278, 0.792, 1.000)"
+            "iconColor": "RGBA(0.527, 0.278, 0.792, 1.000)",
+            "miracleHeaderColor": "RGBA(0.044, 0.012, 0.066, 1.000)",
+            "miracleBackgroundColor": "RGBA(0.077, 0.000, 0.160, 1.000)",
+            "miracleSeparatorColor": "RGBA(0.262, 0.210, 0.330, 1.000)"
         },
         {
             "type": "DevotionConfig",
@@ -50773,6 +51203,7 @@
             "investedConnectionColor": "RGBA(0.376, 0.914, 0.753, 0.502)",
             "appliedConnectionColor": "RGBA(0.376, 0.914, 0.753, 1.000)",
             "masteredConnectionColor": "RGBA(0.599, 1.000, 0.888, 1.000)",
+            "uiBaseColor": "RGBA(0.239, 0.984, 0.776, 1.000)",
             "hideFromUI": false,
             "nameKey": [
                 {
@@ -50816,8 +51247,53 @@
                     "langTranslation": ""
                 }
             ],
+            "chanceKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
             "icon": "UI_Constellation_IconFaith",
-            "iconColor": "RGBA(0.278, 0.792, 0.612, 1.000)"
+            "iconColor": "RGBA(0.278, 0.792, 0.612, 1.000)",
+            "miracleHeaderColor": "RGBA(0.033, 0.068, 0.075, 1.000)",
+            "miracleBackgroundColor": "RGBA(0.041, 0.101, 0.113, 1.000)",
+            "miracleSeparatorColor": "RGBA(0.282, 0.329, 0.345, 1.000)"
         },
         {
             "type": "DevotionConfig",
@@ -50828,6 +51304,7 @@
             "investedConnectionColor": "RGBA(0.737, 0.697, 0.435, 0.502)",
             "appliedConnectionColor": "RGBA(0.737, 0.697, 0.435, 1.000)",
             "masteredConnectionColor": "RGBA(0.915, 0.767, 0.350, 1.000)",
+            "uiBaseColor": "RGBA(1.000, 0.899, 0.222, 1.000)",
             "hideFromUI": false,
             "nameKey": [
                 {
@@ -50871,8 +51348,53 @@
                     "langTranslation": ""
                 }
             ],
+            "chanceKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": ""
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": ""
+                }
+            ],
             "icon": "UI_Constellation_IconFaith",
-            "iconColor": "RGBA(0.682, 0.645, 0.404, 1.000)"
+            "iconColor": "RGBA(0.682, 0.645, 0.404, 1.000)",
+            "miracleHeaderColor": "RGBA(0.000, 0.000, 0.000, 1.000)",
+            "miracleBackgroundColor": "RGBA(0.038, 0.034, 0.007, 1.000)",
+            "miracleSeparatorColor": "RGBA(0.345, 0.331, 0.282, 1.000)"
         }
     ],
     "devotionDropModifierConfig": {
@@ -50900,6 +51422,20 @@
             "baseModifier": 1.0,
             "modifierIncrementPerDevotionPoint": 0.1
         }
+    },
+    "groupedDevotionConfig": {
+        "GreenRed": [
+            "Green",
+            "Red"
+        ],
+        "RedBlue": [
+            "Red",
+            "Blue"
+        ],
+        "GreenBlue": [
+            "Green",
+            "Blue"
+        ]
     },
     "startingConstellationPoints": 6,
     "campaignCompletionConstellationPoints": 4,

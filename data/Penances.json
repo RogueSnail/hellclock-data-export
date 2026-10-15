@@ -1576,7 +1576,32 @@
                             }
                         },
                         "statModifiersPerType": {},
-                        "specificSheetBaseStatModifiers": {}
+                        "specificSheetBaseStatModifiers": {
+                            "Enemy - Miracles Taint Caster - Sheet (HellClock.Stats.EnemySheet)": {
+                                "AttackSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                },
+                                "MovementSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                }
+                            },
+                            "Devils Ward - Miracles Taint Caster - Sheet (HellClock.Stats.EnemySheet)": {
+                                "AttackSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                },
+                                "MovementSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                }
+                            }
+                        }
                     },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
@@ -1761,7 +1786,32 @@
                             }
                         },
                         "statModifiersPerType": {},
-                        "specificSheetBaseStatModifiers": {}
+                        "specificSheetBaseStatModifiers": {
+                            "Enemy - Miracles Taint Caster - Sheet (HellClock.Stats.EnemySheet)": {
+                                "AttackSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                },
+                                "MovementSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                }
+                            },
+                            "Devils Ward - Miracles Taint Caster - Sheet (HellClock.Stats.EnemySheet)": {
+                                "AttackSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                },
+                                "MovementSpeed": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                }
+                            }
+                        }
                     },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
@@ -4027,7 +4077,15 @@
                             }
                         },
                         "statModifiersPerType": {},
-                        "specificSheetBaseStatModifiers": {}
+                        "specificSheetBaseStatModifiers": {
+                            "Enemy - Miracles Taint Caster - Sheet (HellClock.Stats.EnemySheet)": {
+                                "SkillProjectileAmount": {
+                                    "type": "CharacterSheetBaseModifierConfig",
+                                    "multiplicative": -1.0,
+                                    "additive": 0.0
+                                }
+                            }
+                        }
                     },
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
@@ -6153,6 +6211,7 @@
                                 "type": "AddStatusToTargetSkillEffectData",
                                 "removeOnEffectReversion": false,
                                 "effectTarget": "Self",
+                                "usePool": false,
                                 "statusDefinition": {
                                     "name": "Tamarindo - Slow - StatusDefinition",
                                     "id": 145,
@@ -6416,6 +6475,7 @@
                                 "type": "AddStatusToTargetSkillEffectData",
                                 "removeOnEffectReversion": false,
                                 "effectTarget": "Self",
+                                "usePool": false,
                                 "statusDefinition": {
                                     "name": "Tamarindo - Slow - StatusDefinition",
                                     "id": 145,

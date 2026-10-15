@@ -4361,8 +4361,8 @@
                     "name": "675f770b-fc41-4dac-9260-ec82bcc0b84b",
                     "type": "CharacterIncrementNodeAffixDefinition",
                     "eCharacterIncrement": "BlessingRedrawCostMultiplier",
-                    "valuePerLevel": 0.1,
-                    "eModifierType": "Additive",
+                    "valuePerLevel": 0.9,
+                    "eModifierType": "Multiplicative",
                     "hideDescription": false,
                     "hideFromAggregatedDescriptions": false,
                     "description": [

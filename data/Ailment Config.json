@@ -154,7 +154,7 @@
             "ailmentChanceFactor": 2.5,
             "minimumAilmentChanceFromStat": 0.0,
             "ailmentStatus": "[41]=>StunStatusDefinition[41](StunStatusDefinition)",
-            "ailmentBuildupStatusDefinition": "[173]=>NULL(NULL)",
+            "ailmentBuildupStatusDefinition": "[173]=>StunBuildupStatusDefinition[173](StunBuildupStatusDefinition)",
             "ailmentResistanceStatus": "[109]=>Stun Resistance - Status Definition[109](Stun Resistance - Status Definition)",
             "ailmentResistanceStatusDuration": 5.0,
             "ailmentStatusDurationStat": "StunDuration",

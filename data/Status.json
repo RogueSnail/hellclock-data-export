@@ -15616,7 +15616,7 @@
                     "type": "StatModifierDefinition",
                     "eStatDefinition": "MovementSpeed",
                     "modifierType": "MultiplicativeAdditive",
-                    "value": 2.0
+                    "value": 1.5
                 }
             ],
             "hideFromHud": true,
@@ -15915,6 +15915,7 @@
                                 "name": "Remove Status From Target Skill Effect Data",
                                 "type": "RemoveStatusFromTargetSkillEffectData",
                                 "effectTarget": "Self",
+                                "useList": false,
                                 "statusDefinition": {
                                     "name": "Cilada - Bleed - Status Definition",
                                     "id": 200,
@@ -17878,6 +17879,3213 @@
             "effectInterval": 0.0,
             "shouldEchoClone": false,
             "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "UNIQUE - Cangaceiro - Whirlwind Status -  Flurry Only - Status Definition",
+            "id": 220,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "AbsoluteOverride",
+                    "value": 0.0
+                }
+            ],
+            "hideFromHud": true,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "UNIQUE - Cangaceiro - Flurry and Shoot - Slashes AoE - Status Definition",
+            "id": 221,
+            "type": "EffectAreaStatusDefinition",
+            "effectAreaDefinition": {
+                "name": "UNIQUE - Cangaceiro - Flurry - Flurry Area Definition",
+                "id": 161,
+                "type": "IntervalDamageAreaDefinition",
+                "hasSpecialDamageOnStart": false,
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": false,
+                "useDamageTypeScalingOnOverride": false,
+                "eDamageType": "PHYSICAL",
+                "damageStatModifiers": [],
+                "radius": 5.0,
+                "effectInterval": 0.25
+            },
+            "hideFromHud": true,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.5,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "UNIQUE - Cangaceiro - Whirlwind Status - Flurry and Shoot - Status Definition",
+            "id": 222,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "AbsoluteOverride",
+                    "value": 0.0
+                }
+            ],
+            "hideFromHud": true,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "UNIQUE - Cangaceiro - Flurry Only - Slashes AoE - Status Definition",
+            "id": 223,
+            "type": "EffectAreaStatusDefinition",
+            "effectAreaDefinition": {
+                "name": "UNIQUE - Cangaceiro - Flurry Fast - Flurry Area Definition",
+                "id": 162,
+                "type": "IntervalDamageAreaDefinition",
+                "hasSpecialDamageOnStart": false,
+                "damageMod": 1.0,
+                "useSourceSkillDamageModifierWhenAvailable": false,
+                "useDamageTypeScalingOnOverride": false,
+                "eDamageType": "PHYSICAL",
+                "damageStatModifiers": [],
+                "radius": 5.0,
+                "effectInterval": 0.25
+            },
+            "hideFromHud": true,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.5,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Sume - Speed Buff",
+            "id": 224,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "AttackSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CooldownSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Geschwindigkeit von Sumé"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Speed of Sumé"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Velocidad de Sumé"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Vitesse de Sumé"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "スメーの速度"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Szybkość Sumé"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Velocidade de Sumé"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Скорость Сумэ"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Швидкість Суме"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "苏梅的速度"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_MoveSpeed_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Tupa - All Resistances Shred Debuff",
+            "id": 225,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Qual von Tupã"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Agony of Tupã"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Agonía de Tupã"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Agonie de Tupã"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "トゥパンの苦悶"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Agonia Tupy"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Agonia de Tupã"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Страдания Тупа"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Страждання Тупа"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "图潘的苦痛"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_AllResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Caupe - Move Speed Buff",
+            "id": 226,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Schnelligkeit von Caupé"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Swiftness of Caupé"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Velocidad de Caupé"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Vivacité de Caupé"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "カウペの連撃"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Szybkość Caupé"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Rapidez de Caupé"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Ловкость Каупе"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Спритність Коупі"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "考佩的迅捷"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_MoveSpeed_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 50,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Logun Ede - Speed Buff",
+            "id": 227,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "AttackSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CooldownSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Geschwindigkeit von Logun Edé"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Speed of Logun Edé"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Velocidad de Logun Edé"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Vitesse de Logun Edé"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ログン・エデの速度"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Szybkość Loguna Edé"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Velocidade de Logun Edé"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Скорость Логун Эде"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Швидкість Логун Еде"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "洛贡·埃德的速度"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_AttackSpeed_Increase"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Logun Ede - Mana Regen Buff",
+            "id": 228,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "ManaRegen",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Beute von Logun Edé"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Bounty of Logun Edé"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Recompensa de Logun Edé"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Bonté de Logun Edé"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ログン・エデの加護"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Dar Loguna Edé"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Dádiva de Logun Edé"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Щедрость Логун Эде"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Щедрість Логун Еде"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "洛贡·埃德的赏赐"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_ManaRegen"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Yaci Yatere - Move Speed Buff",
+            "id": 229,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "SkillAreaOfEffect",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Reichweite von Yaci"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Reach of Yaci"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Alcance de Yaci"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Portée de Yaci"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ヤシの射程"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Zasięg Yaci"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Alcance de Yaci"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Дальность Яси"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Дальність Ясі"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "雅西之所及"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_AreaofEffect"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 50,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Sao Paulo - Shrine of Aptitude Status",
+            "id": 230,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CooldownSpeed",
+                    "modifierType": "Multiplicative",
+                    "value": 3.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Begabung von St. Paul"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Aptitude of St. Paul"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Aptitud de San Pablo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Aptitude de saint Paul"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "聖パウロの才気"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Zdolności św. Pawła"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Aptidão de São Paulo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Сноровка Святого Павла"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Вправність Святого Павла"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "圣保罗的天资"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_CadencyShrine"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Sao Paulo - Shrine of Learning Status",
+            "id": 231,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "ExperienceGain",
+                    "modifierType": "Multiplicative",
+                    "value": 3.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Lehren von St. Paul"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Teachings of St. Paul"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Enseñanzas de San Pablo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Enseignements de saint Paul"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "聖パウロの教え"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Nauki św. Pawła"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Ensinamentos de São Paulo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Учения Святого Павла"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Вчення Святого Павла"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "圣保罗的教诲"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_LearningShrine"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Sao Paulo - Shrine of Power Status",
+            "id": 232,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Damage",
+                    "modifierType": "Multiplicative",
+                    "value": 2.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Kraft von St. Paul"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Power of St. Paul"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Poder de San Pablo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Puissance de saint Paul"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "聖パウロの力"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Moc św. Pawła"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Poder de São Paulo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Сила Святого Павла"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Міць Святого Павла"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "圣保罗的力量"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_PowerShrine"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Sao Paulo - Shrine of Protection Status",
+            "id": 233,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "StunResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CrowdControlResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "DamageResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Schutz von St. Paul"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Protection of St. Paul"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Protección de San Pablo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Protection de saint Paul"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "聖パウロの守護"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Ochrona św. Pawła"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Proteção de São Paulo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Защита Святого Павла"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Захист Святого Павла"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "圣保罗的庇护"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_ProtectionShrine"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Sao Paulo - Shrine of Speed Status",
+            "id": 234,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Multiplicative",
+                    "value": 1.4
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "AttackSpeed",
+                    "modifierType": "Multiplicative",
+                    "value": 1.4
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Geschwindigkeit von St. Paul"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Speed of St. Paul"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Velocidad de San Pablo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Vitesse de saint Paul"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "聖パウロの速度"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Szybkość św. Pawła"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Velocidade de São Paulo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Скорость Святого Павла"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Швидкість Святого Павла"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "圣保罗的速度"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_SpeedShrine"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Sao Paulo - Shrine of Wealth Status",
+            "id": 235,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "GoldGain",
+                    "modifierType": "Multiplicative",
+                    "value": 5.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Wohlstand von St. Paul"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Wealth of St. Paul"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Riqueza de San Pablo"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Richesse de saint Paul"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "聖パウロの富"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Bogactwo św. Pawła"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Riqueza de São Paulo"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Богатство Святого Павла"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Багатство Святого Павла"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "圣保罗的财富"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_WealthShrine"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Boitata - All Resistances Shred Debuff",
+            "id": 236,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Qual von Boitatá"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Agony of Boitatá"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Agonía de Boitatá"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Agonie de Boitatá"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ボイタタの苦悶"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Agonia Boitatá"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Agonia do Boitatá"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Страдания Бойтата"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Страждання Бойтата"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "博伊塔塔的苦痛"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_AllResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Omolu - Cooldown Status",
+            "id": 237,
+            "type": "BlankStatusDefinition",
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Augen von Omolu"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Eyes of Omolu"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Ojos de Omolu"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Yeux d'Omolu"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "オモルの眼"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Oczy Omolu"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Olhos de Omolu"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Глаза Омолу"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Очі Омолу"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "奥莫鲁之眼"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Auf Abklingzeit\nVerwelke sofort alle nahe Gegner, wenn du Schaden erleidest."
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "On Cooldown\nInstantly Wither all nearby enemies when you take damage"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "En enfriamiento\nMarchita instantáneamente a todos los enemigos cercanos cuando recibes daño"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "En cours de recharge\nDécrépitude instantanée sur tous les ennemis à proximité lorsque vous subissez des dégâts"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "クールダウン中\nダメージを受けると、付近の敵すべてを即座に荒廃状態にする"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Przy odnowieniu\nNatychmiast nałóż usychanie na wszystkich pobliskich wrogów, gdy otrzymasz obrażenia"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Em Recarga\nAplica Decrepitar em todos inimigos próximos ao receber dano"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "На перезарядке\nМгновенно накладывает увядание на всех врагов поблизости, когда вы получаете урон"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "На перезарядці\nМиттєво накладає зачахнення на всіх супротивників поблизу в разі отримання шкоди"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "冷却中\n受到伤害时，立即使周围所有敌人陷入衰竭状态"
+                    }
+                ],
+                "icon": "IconStatus_Wither"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Curupira - Cooldown Status",
+            "id": 238,
+            "type": "BlankStatusDefinition",
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Zorn von Curupira"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Wrath of Curupira"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Ira de Curupira"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Colère de Curupira"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "クルピラの怒り"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Gniew Curupiry"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Ira do Curupira"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Гнев Курупира"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Гнів Курупіра"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "库鲁皮拉的愤怒"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Auf Abklingzeit\nGegner explodieren, wenn sie getötet werden, und fügen nahen Gegnern Gesundheit als Schaden zu."
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "On Cooldown\nEnemies explode when killed, dealing their Life as damage to nearby enemies"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "En enfriamiento\nLos enemigos explotan al morir e infligen su vida como daño a los enemigos cercanos"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "En cours de recharge\nLes ennemis explosent lorsqu'ils sont tués, infligeant une partie de leur santé sous forme de dégâts de peste aux ennemis à proximité"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "クールダウン中\n敵を倒すと爆発し、体力の一部を疫病ダメージとして付近の敵に与える"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Przy odnowieniu\nWrogowie eksplodują po zabiciu, zadając obrażenia od zarazy w wysokości swojego zdrowia pobliskim wrogom"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Em Recarga\nInimigos explodem ao serem mortos, causando parte de sua Vida como dano de Praga a inimigos próximos."
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "На перезарядке\nВраги взрываются при убийстве, нанося свой запас здоровья как урон врагам поблизости"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "На перезарядці\nСупротивники вибухають у разі смерті, завдаючи супротивникам поблизу шкоду, рівну їхньому здоров'ю"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "冷却中\n敌人被击杀时会爆炸，对附近敌人造成等同于其生命值的伤害"
+                    }
+                ],
+                "icon": "IconStatus_ExplodeOnDeath_Plague"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Jurupari the Demon - Cooldown Status",
+            "id": 239,
+            "type": "BlankStatusDefinition",
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Zeit von Jurupari"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Time of Jurupari"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Tiempo de Jurupari"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Temps de Jurupari"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ジュルパリの時"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Czas Jurupari"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Tempo de Jurupari"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Время Юрупари"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Час Юрупарі"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "朱鲁帕里的时间"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Auf Abklingzeit\nWirke Zeit verlangsamen bei Tötung eines Gegners."
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "On Cooldown\nCast Slow Time on Kill"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "En enfriamiento\nLanza Tiempo Lento al matar"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "En cours de recharge\nLancez Étirement temporel à la mort d'un ennemi"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "クールダウン中\n敵を倒す時、時間停滞を発動する"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Przy odnowieniu\nRzuć Spowolnienie przy zabiciu"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Em Recarga\nConjura Tempo Manso ao Matar"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "На перезарядке\nПрименяет замедление времени при убийстве"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "На перезарядці\nВикликає сповільнення часу в разі вбивства"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "冷却中\n击杀敌人时施放时间凝滞"
+                    }
+                ],
+                "icon": "IconSkill_SlowTime_grayscale"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Miracle of Boitata - Cooldown Status",
+            "id": 240,
+            "type": "BlankStatusDefinition",
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Feuer von Boitatá"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Fires of Boitatá"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Fuegos de Boitatá"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Feux de Boitatá"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ボイタタの炎"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Ognie Boitatá"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Chamas do Boitatá"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Огни Бойтата"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Вогні Бойтата"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "博伊塔塔之焰"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Auf Abklingzeit\nChance, Heiliges Feuer zu wirken, wenn du Schaden verursachst."
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "On Cooldown\nChance of casting Holy Fire when dealing damage"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "En enfriamiento\nProbabilidad de lanzar Fuego Sagrado al infligir daño"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "En cours de recharge\nChances de lancer Feu sacré en infligeant des dégâts"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "クールダウン中\nダメージを与えると、一定確率で聖なる炎を発動する"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Przy odnowieniu\nSzansa na rzucenie Świętego Ognia przy zadaniu obrażeń"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Em Recarga\nChance de Conjurar Fogo Santo ao causar Dano"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "На перезарядке\nЕсть вероятность призвать священный огонь при нанесении урона"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "На перезарядці\nДає шанс викликати святий вогонь у разі завдання шкоди"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "冷却中\n造成伤害时有几率施放圣火"
+                    }
+                ],
+                "icon": "IconStatus_FireDamage"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Carcara Dive - Divine Coin - Speed - Status Definition",
+            "id": 241,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Tempo der Carcará"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Speed of Carcará"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Velocidad de Carcará"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Vitesse du carcará"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "猛禽の速度"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Prędkość carcary"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Velocidade do Carcará"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Скорость Каркара"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Швидкість каракари"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "卡尔卡拉的速度"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_DivineCoinSpeed"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 3,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Carcara Dive - Divine Coin - Might - Status Definition",
+            "id": 242,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "Damage",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Kraft der Carcará"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Might of Carcará"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Fuerza de Carcará"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Puissance du carcará"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "猛禽の力"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Siła carcary"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Poder do Carcará"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Могущество Каркара"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Міць каракари"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "卡尔卡拉的威力"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_DivineCoinMight"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 3,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Cilada - Penitence - Status Definition",
+            "id": 243,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "BleedResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "IgniteResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Buße"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Penitence"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Penitencia"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Pénitence"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "贖罪"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Pokuta"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Penitência"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Покаяние"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Покута"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "忏悔"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_Penitence"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 10,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "SharedMisery - Damage Resistance - Stauts AoE Definition",
+            "id": 244,
+            "type": "EffectAreaStatusDefinition",
+            "effectAreaDefinition": {
+                "name": "SharedMisery - Damage Resistance - Effect Area",
+                "id": 173,
+                "type": "StatusAreaDefinition",
+                "statusDefinitions": [
+                    {
+                        "name": "SharedMisery - Damage Resistance - Status Applied",
+                        "id": 250,
+                        "type": "StatModifierStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": true,
+                "removeOnAreaExit": true,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
+                "radius": 10.0,
+                "effectInterval": 0.0
+            },
+            "hideFromHud": true,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": -1.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": true
+        },
+        {
+            "name": "Six Shooter - Divine Guns - Reduced Lightning Resistance - Status Definition",
+            "id": 245,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "IconStatus_LightningResistanceShred"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "SharedMisery - Enemy Buff - Status Applied",
+            "id": 246,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": 0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": 0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": 0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": 0.5
+                }
+            ],
+            "hideFromHud": true,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": true
+        },
+        {
+            "name": "Bannerman - Protect Allies - Stauts AoE Definition",
+            "id": 247,
+            "type": "EffectAreaStatusDefinition",
+            "effectAreaDefinition": {
+                "name": "Bannerman - Protect Allies - Effect Area",
+                "id": 176,
+                "type": "StatusAreaDefinition",
+                "statusDefinitions": [
+                    {
+                        "name": "Bannerman - Protect Allies - Status Definition",
+                        "id": 248,
+                        "type": "StatModifierStatusDefinition"
+                    }
+                ],
+                "refreshOnAreaEnter": true,
+                "removeOnAreaExit": true,
+                "applyOnInterval": false,
+                "statusDuration": 0.0,
+                "radius": 8.0,
+                "effectInterval": 0.0
+            },
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Status_Bannerman"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": -1.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": true
+        },
+        {
+            "name": "Bannerman - Protect Allies - Status Definition",
+            "id": 248,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "DamageResistance",
+                    "modifierType": "Additive",
+                    "value": 0.5
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Status_Bannerman"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": true
+        },
+        {
+            "name": "Frenzied Horde - Taint Affix -Status Definition",
+            "id": 249,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "AttackSpeed",
+                    "modifierType": "Additive",
+                    "value": 0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "SkillProjectileAmount",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "SkillAreaOfEffect",
+                    "modifierType": "MultiplicativeAdditive",
+                    "value": 1.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "CrowdControlResistance",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Status_Frenzy"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": true
+        },
+        {
+            "name": "SharedMisery - Damage Resistance - Status Applied",
+            "id": 250,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "FireResistance",
+                    "modifierType": "Additive",
+                    "value": -0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "LightningResistance",
+                    "modifierType": "Additive",
+                    "value": -0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PlagueResistance",
+                    "modifierType": "Additive",
+                    "value": -0.5
+                },
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "PhysicalResistance",
+                    "modifierType": "Additive",
+                    "value": -0.5
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Geteiltes Elend"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Shared Misery"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Miseria compartida"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Misère partagée"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "共鳴する苦しみ"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Wspólna niedola"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Miséria Compartilhada"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Разделенное страдание"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Спільна мука"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "共苦"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Status_SharedMisery"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": true,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
+            "purgeOnSourceDeath": true
+        },
+        {
+            "name": "Potatos Speed - Move Speed Status",
+            "id": 251,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [
+                {
+                    "type": "StatModifierDefinition",
+                    "eStatDefinition": "MovementSpeed",
+                    "modifierType": "Additive",
+                    "value": 1.0
+                }
+            ],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": "Gnade des Kartoffelkönigs"
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": "Potato King's Grace"
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": "Gracia del rey papa"
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": "Grâce du roi de la pomme de terre"
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": "ポテトキングの恩寵"
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": "Łaska Króla Ziemniaków"
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": "Graça do Rei Batata"
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": "Милость Картофельного короля"
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": "Благодать Картопляного короля"
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": "土豆王的恩泽"
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Status_Potato"
+            },
+            "hideFromHud": false,
+            "isBuff": true,
+            "eStatusStackBehavior": "StackAndRefresh",
+            "maxStacks": 25,
+            "removeStackAndRefreshOnDurationEnd": false,
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": false,
+            "purgeOnSourceDeath": false
+        },
+        {
+            "name": "Six Shooter - Divine Guns - Divine Mark - Status Definition",
+            "id": 252,
+            "type": "StatModifierStatusDefinition",
+            "statModifierDefinitions": [],
+            "statusDisplayInfo": {
+                "type": "StatusDisplayInfo",
+                "nameKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "descriptionKey": [
+                    {
+                        "langCode": "de",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "en",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "es",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "fr",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ja",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pl",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "pt-br",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "ru",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "uk",
+                        "langTranslation": ""
+                    },
+                    {
+                        "langCode": "zh-cn",
+                        "langTranslation": ""
+                    }
+                ],
+                "icon": "Icon_Multiskill_SingleTarget"
+            },
+            "hideFromHud": false,
+            "isBuff": false,
+            "isCrowdControl": false,
+            "isAilment": false,
+            "eStatusStackBehavior": "Refresh",
+            "effectInterval": 0.0,
+            "shouldEchoClone": false,
+            "purgeOnDeath": true,
             "purgeOnSourceDeath": false
         }
     ]

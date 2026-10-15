@@ -821,6 +821,16 @@
                     "name": "EG - Elite Affix - Protected - Passive Skill Definition",
                     "id": 448,
                     "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Bannerman - Protect Allies - Passive Skill",
+                    "id": 870,
+                    "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Cursed Touch - Taint Affix - Passive Skill Behavior",
+                    "id": 855,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
                 }
             ],
             "blockRandomChampionSpawn": false,
@@ -975,6 +985,16 @@
                     "name": "EG - Elite Affix - Protected - Passive Skill Definition",
                     "id": 448,
                     "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Bannerman - Protect Allies - Passive Skill",
+                    "id": 870,
+                    "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Cursed Touch - Taint Affix - Passive Skill Behavior",
+                    "id": 855,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
                 }
             ],
             "blockRandomChampionSpawn": false,
@@ -1085,7 +1105,7 @@
             "blockRandomChampionSpawn": true,
             "blockRandomRareSpawn": false,
             "minionEnemyDefinition": {
-                "name": "ZombieBayonetT2EnemyDefinition",
+                "name": "Bayonet Zombie T1 Canudos EnemyDefinition",
                 "id": 58,
                 "type": "RegularEnemyDefinition"
             }
@@ -3729,7 +3749,7 @@
             "blockRandomChampionSpawn": true,
             "blockRandomRareSpawn": false,
             "minionEnemyDefinition": {
-                "name": "ZombieBayonetT1EnemyDefinition",
+                "name": "Bayonet Zombie T2 Canudos EnemyDefinition",
                 "id": 25,
                 "type": "RegularEnemyDefinition"
             }
@@ -3869,7 +3889,7 @@
             "minionEnemyDefinition": {}
         },
         {
-            "name": "ZombieBayonetT1EnemyDefinition",
+            "name": "Bayonet Zombie T2 Canudos EnemyDefinition",
             "id": 25,
             "type": "RegularEnemyDefinition",
             "nameKey": [
@@ -3919,7 +3939,7 @@
             "ignoreActionInterruption": false,
             "staticEnemy": false,
             "sheet": {
-                "name": "ZombieBayonetT1Sheet",
+                "name": "Bayonet Zombie T2 Canudos Sheet",
                 "type": "EnemySheet",
                 "baseExperience": 15,
                 "statBaseOverrides": [
@@ -5005,6 +5025,16 @@
                     "name": "EG - Elite Affix - Protected - Passive Skill Definition",
                     "id": 448,
                     "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Bannerman - Protect Allies - Passive Skill",
+                    "id": 870,
+                    "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Cursed Touch - Taint Affix - Passive Skill Behavior",
+                    "id": 855,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
                 }
             ],
             "blockRandomChampionSpawn": false,
@@ -6471,7 +6501,7 @@
                             "id": 0,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 200.0
+                        "baseValue": 45.0
                     },
                     {
                         "type": "StatBaseOverride",
@@ -6480,7 +6510,7 @@
                             "id": 3,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 13000.0
+                        "baseValue": 550.0
                     }
                 ]
             },
@@ -6534,7 +6564,7 @@
             "minionEnemyDefinition": {}
         },
         {
-            "name": "ZombieBayonetT2EnemyDefinition",
+            "name": "Bayonet Zombie T1 Canudos EnemyDefinition",
             "id": 58,
             "type": "RegularEnemyDefinition",
             "nameKey": [
@@ -6584,7 +6614,7 @@
             "ignoreActionInterruption": false,
             "staticEnemy": false,
             "sheet": {
-                "name": "ZombieBayonetT2Sheet",
+                "name": "Bayonet Zombie T1 Canudos Sheet",
                 "type": "EnemySheet",
                 "baseExperience": 15,
                 "statBaseOverrides": [
@@ -6639,7 +6669,7 @@
             "minionEnemyDefinition": {}
         },
         {
-            "name": "ZombieBayonetT3EnemyDefinition",
+            "name": "Bayonet Zombie T3 Canudos Flames EnemyDefinition",
             "id": 59,
             "type": "RegularEnemyDefinition",
             "nameKey": [
@@ -6689,7 +6719,7 @@
             "ignoreActionInterruption": false,
             "staticEnemy": false,
             "sheet": {
-                "name": "ZombieBayonetT3Sheet",
+                "name": "Bayonet Zombie T3 Canudos Sheet",
                 "type": "EnemySheet",
                 "baseExperience": 15,
                 "statBaseOverrides": [
@@ -6855,7 +6885,7 @@
             "blockRandomChampionSpawn": true,
             "blockRandomRareSpawn": false,
             "minionEnemyDefinition": {
-                "name": "ZombieBayonetT1EnemyDefinition",
+                "name": "Bayonet Zombie T2 Canudos EnemyDefinition",
                 "id": 25,
                 "type": "RegularEnemyDefinition"
             }
@@ -6922,7 +6952,7 @@
                             "id": 0,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 400.0
+                        "baseValue": 45.0
                     },
                     {
                         "type": "StatBaseOverride",
@@ -6931,7 +6961,7 @@
                             "id": 3,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 28000.0
+                        "baseValue": 550.0
                     }
                 ]
             },
@@ -7107,7 +7137,7 @@
             "blockRandomChampionSpawn": true,
             "blockRandomRareSpawn": false,
             "minionEnemyDefinition": {
-                "name": "ZombieBayonetT2EnemyDefinition",
+                "name": "Bayonet Zombie T1 Canudos EnemyDefinition",
                 "id": 58,
                 "type": "RegularEnemyDefinition"
             }
@@ -10539,7 +10569,7 @@
                             "id": 0,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 35.0
+                        "baseValue": 45.0
                     },
                     {
                         "type": "StatBaseOverride",
@@ -10548,7 +10578,7 @@
                             "id": 3,
                             "type": "StatDefinition"
                         },
-                        "baseValue": 565.0
+                        "baseValue": 550.0
                     }
                 ]
             },
@@ -10854,6 +10884,16 @@
                     "name": "EG - Elite Affix - Protected - Passive Skill Definition",
                     "id": 448,
                     "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Bannerman - Protect Allies - Passive Skill",
+                    "id": 870,
+                    "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Cursed Touch - Taint Affix - Passive Skill Behavior",
+                    "id": 855,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
                 }
             ],
             "blockRandomChampionSpawn": false,
@@ -12836,7 +12876,7 @@
             "blockRandomChampionSpawn": true,
             "blockRandomRareSpawn": false,
             "minionEnemyDefinition": {
-                "name": "ZombieBayonetT1EnemyDefinition",
+                "name": "Bayonet Zombie T2 Canudos EnemyDefinition",
                 "id": 25,
                 "type": "RegularEnemyDefinition"
             }
@@ -16460,6 +16500,16 @@
                     "name": "EG - Elite Affix - Protected - Passive Skill Definition",
                     "id": 448,
                     "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Bannerman - Protect Allies - Passive Skill",
+                    "id": 870,
+                    "type": "PassiveAddStatusSkillDefinition"
+                },
+                {
+                    "name": "Cursed Touch - Taint Affix - Passive Skill Behavior",
+                    "id": 855,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
                 }
             ],
             "blockRandomChampionSpawn": false,
@@ -20867,7 +20917,7 @@
                 ],
                 "skillPool": [
                     {
-                        "weight": 1.0,
+                        "weight": 2.0,
                         "value": {
                             "name": "Horse Zombie - CHAIN Taunt Charge - Skill Definition",
                             "id": 618,
@@ -20875,11 +20925,19 @@
                         }
                     },
                     {
-                        "weight": 3.0,
+                        "weight": 5.0,
                         "value": {
                             "name": "Horse Zombie - Melee Attack Skill Definition",
                             "id": 612,
                             "type": "MeleeAttackSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Horse Zombie - Charged Attack Slow Skill Definition",
+                            "id": 880,
+                            "type": "ChargedAttackSkillDefinition"
                         }
                     }
                 ],
@@ -20899,6 +20957,11 @@
                     "name": "EG - Elite Affix - Orbiting - Passive Skill Behavior",
                     "id": 443,
                     "type": "PassiveSkillBehaviorSkillDefinition"
+                },
+                {
+                    "name": "TeleportSkillDefinition",
+                    "id": 57,
+                    "type": "PassiveTeleportSkillDefinition"
                 }
             ],
             "blockRandomChampionSpawn": false,
@@ -21029,8 +21092,8 @@
                     {
                         "weight": 1.0,
                         "value": {
-                            "name": "Horse Zombie Unique - Charged Attack Fast Skill Definition",
-                            "id": 660,
+                            "name": "Horse Zombie Unique - Charged Attack Slow Skill Definition",
+                            "id": 879,
                             "type": "ChargedAttackSkillDefinition"
                         }
                     },
@@ -22424,6 +22487,1760 @@
                         "value": {
                             "name": "Turret - Teleport to Side A- Instant - Skill Definition",
                             "id": 776,
+                            "type": "TargetTeleportSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "UNIQUE - Cangaceiro - RareEnemyDefinition",
+            "id": 194,
+            "type": "RareEnemyDefinition",
+            "minionAmountRange": [
+                0,
+                0
+            ],
+            "affixes": [],
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Profane Inkarnation"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Profane Incarnation"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Encarnación profana"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Incarnation profanée"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "冒涜の化身"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zbrukana inkarnacja"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Encarnação Profana"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Нечестивое воплощение"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Поругане втілення"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "不洁化身"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": true,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "UNIQUE - Cangaceiro - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 1000,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 21.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 2600.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "MovementSpeed",
+                            "id": 6,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 1.4
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "EliteEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 10.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [
+                    {
+                        "name": "UNIQUE - Cangaceiro - Flurry and Shot - Passive Skill Behavior",
+                        "id": 802,
+                        "type": "PassiveSkillBehaviorSkillDefinition"
+                    }
+                ],
+                "skillPool": [
+                    {
+                        "weight": 2.0,
+                        "value": {
+                            "name": "UNIQUE - Cangaceiro - CHAIN - Short Range Skills",
+                            "id": 790,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 2.0,
+                        "value": {
+                            "name": "UNIQUE - Cangaceiro - CHAIN - Long Range Skills",
+                            "id": 797,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "UNIQUE - Cangaceiro - CHAIN - Reposition Skill Definition",
+                            "id": 810,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 2.0,
+                        "value": {
+                            "name": "UNIQUE - Cangaceiro - CHAIN - Melee Combos",
+                            "id": 816,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Cangaceiro Melee EnemyDefinition",
+            "id": 195,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Verdorbener Soldat"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Tainted Soldier"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Soldado impuro"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Soldat sali"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "穢れた兵士"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Skażony żołnierz"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Soldado Maculado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Порочный солдат"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Спаплюжений солдат"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "污浊的战士"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Cangaceiro Melee Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 15,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 40.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "MovementSpeed",
+                            "id": 6,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 1.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 220.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "MediumEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 21.0,
+                "visionAggressivenessIncrement": 1.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 10.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Cangaceiro - CHAIN - Melee Combo",
+                            "id": 815,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [
+                {
+                    "name": "ElectricAuraSkillDefinition",
+                    "id": 63,
+                    "type": "PassiveAddStatusSkillDefinition"
+                }
+            ],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Miracles - Cursed Shadow FIRE - Ranged EnemyDefinition",
+            "id": 196,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Grotesker Zorn"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Twisted Fury"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Furia retorcida"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Zèle corrompu"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "歪んだ激情"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Skręcona furia"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fúria Distorcida"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Искаженная ярость"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Покручена лють"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "扭曲的怒火"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Miracles - Cursed Shadow Ranged Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 500,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 21.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 2000.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "MediumEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 20.0,
+                "visionAggressivenessIncrement": 1.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 10.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Fire Explosion",
+                            "id": 831,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Fire Homing AoE",
+                            "id": 823,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Shot Skill Definition",
+                            "id": 824,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - Teleport Chain Charged Skill Definition",
+                            "id": 825,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [
+                {
+                    "name": "Shadow Remnants - Taint Affix - Passive Skill Behavior",
+                    "id": 875,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
+                }
+            ],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Miracles - Cursed Shadow LIGHTNING - Ranged EnemyDefinition",
+            "id": 197,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Schändlicher Glaube"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Defiled Faith"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Fe profanada"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Foi souillée"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "冒涜された信仰"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Zbezczeszczona wiara"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Fé Profanada"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Оскверненная вера"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Осквернена віра"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "蒙污的信仰"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Miracles - Cursed Shadow Ranged Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 500,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 21.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 2000.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "MediumEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 20.0,
+                "visionAggressivenessIncrement": 1.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 10.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Lightning  Spinning",
+                            "id": 834,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Lightning  Explosions",
+                            "id": 835,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Shot 3 Skill Definition",
+                            "id": 840,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [
+                {
+                    "name": "Shadow Remnants - Taint Affix - Passive Skill Behavior",
+                    "id": 875,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
+                }
+            ],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Miracles - Cursed Shadow PLAGUE - Ranged EnemyDefinition",
+            "id": 198,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Verdorbene Disziplin"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Tainted Discipline"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Disciplina impura"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Discipline salie"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "穢れた規律"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Skażona dyscyplina"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Disciplina Corrompida"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Порочная дисциплина"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Спаплюжена дисципліна"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "污浊的律制"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Miracles - Cursed Shadow Ranged Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 500,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 21.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 2000.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "MediumEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 20.0,
+                "visionAggressivenessIncrement": 1.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 10.0,
+                "passiveSkills": [
+                    {
+                        "name": "Cursed Shadow PLAGUE - Debuff On Damage - Skill Definition",
+                        "id": 742,
+                        "type": "AddStatusOnDamageSkillDefinition"
+                    }
+                ],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Plague Skills",
+                            "id": 847,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - CHAIN Forked Shot Skill Definition",
+                            "id": 845,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Miracles - Cursed Shadow - Teleport Chain Charged Skill Definition",
+                            "id": 825,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [
+                {
+                    "name": "Shadow Remnants - Taint Affix - Passive Skill Behavior",
+                    "id": 875,
+                    "type": "PassiveSkillBehaviorSkillDefinition"
+                }
+            ],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Miracles - Wraith_Minion_EnemyDefinition",
+            "id": 200,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Geist"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Wraith"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Espectro"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Spectre"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "レイス"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Upiór"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Espectro"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Призрак"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Дух"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "怨灵"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": true,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Wraith_T1_CaveFlames_Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 30,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 50.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 440.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "MediumEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 22.0,
+                "visionAggressivenessIncrement": 2.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 10.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Wraith Homing Projectiles Skill Definition",
+                            "id": 136,
+                            "type": "HomingProjectileAttackSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 3.0,
+                        "value": {
+                            "name": "Wraith Soul Strike Skill Definition",
+                            "id": 137,
+                            "type": "HomingProjectileAttackSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Downfall - Taint Caster - EnemyDefinition",
+            "id": 201,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Rastloser Beschwörer"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Haunted Channeler"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Canalizador poseído"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Conjurateur hanté"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪われた交信者"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nawiedzone medium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Conjurador Amaldiçoado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Заколдованный камнерез"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Одержимий каменяр"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "幽怨的通灵者"
+                }
+            ],
+            "cannotBeTargeted": true,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Enemy - Miracles Taint Caster - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 0,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 64.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 715.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "SmallEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 1111.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Downfall - CHAIN - Taint Caster - Skill Definition",
+                            "id": 851,
+                            "type": "SkillChainSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Limbo - Taint Caster - EnemyDefinition",
+            "id": 202,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Rastloser Beschwörer"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Haunted Channeler"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Canalizador poseído"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Conjurateur hanté"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪われた交信者"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nawiedzone medium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Conjurador Amaldiçoado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Заколдованный камнерез"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Одержимий каменяр"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "幽怨的通灵者"
+                }
+            ],
+            "cannotBeTargeted": true,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Enemy - Miracles Taint Caster - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 0,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 64.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 715.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "SmallEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 1111.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Limbo - Spirit Wave - Skill Definition",
+                            "id": 852,
+                            "type": "HomingProjectileAttackSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Cursed Touch - Miracles Taint Caster - EnemyDefinition",
+            "id": 203,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Rastloser Beschwörer"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Haunted Channeler"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Canalizador poseído"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Conjurateur hanté"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪われた交信者"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nawiedzone medium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Conjurador Amaldiçoado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Заколдованный камнерез"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Одержимий каменяр"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "幽怨的通灵者"
+                }
+            ],
+            "cannotBeTargeted": true,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Enemy - Miracles Taint Caster - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 0,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 64.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 715.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "SmallEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 1111.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [
+                    {
+                        "name": "Cursed Touch - Taint Affix - Passive Skill Behavior",
+                        "id": 855,
+                        "type": "PassiveSkillBehaviorSkillDefinition"
+                    }
+                ],
+                "skillPool": [],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Cursed Pool - Miracles Taint Caster - EnemyDefinition",
+            "id": 204,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Rastloser Beschwörer"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Haunted Channeler"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Canalizador poseído"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Conjurateur hanté"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪われた交信者"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nawiedzone medium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Conjurador Amaldiçoado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Заколдованный камнерез"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Одержимий каменяр"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "幽怨的通灵者"
+                }
+            ],
+            "cannotBeTargeted": true,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Enemy - Miracles Taint Caster - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 0,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 64.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 715.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "SmallEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 1111.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Cursed Pool- Spawn Damage Areas - Skill Definition",
+                            "id": 858,
+                            "type": "SpawnDamageAreasInRadiusSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "SharedMisery - Miracles Taint Caster - EnemyDefinition",
+            "id": 205,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Rastloser Beschwörer"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Haunted Channeler"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Canalizador poseído"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Conjurateur hanté"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪われた交信者"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nawiedzone medium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Conjurador Amaldiçoado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Заколдованный камнерез"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Одержимий каменяр"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "幽怨的通灵者"
+                }
+            ],
+            "cannotBeTargeted": true,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Devils Ward - Miracles Taint Caster - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 0,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 1.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 715.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "SmallEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 1111.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [
+                    {
+                        "name": "SharedMisery - Damage Resistance - Passive Skill",
+                        "id": 864,
+                        "type": "PassiveAddStatusSkillDefinition"
+                    }
+                ],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "SharedMisery - Reposition Skill",
+                            "id": 866,
+                            "type": "RepositionSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "SharedMisery - Reposition Skill",
+                            "id": 866,
+                            "type": "RepositionSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Supernova - Taint Caster - EnemyDefinition",
+            "id": 206,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Rastloser Beschwörer"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Haunted Channeler"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Canalizador poseído"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Conjurateur hanté"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪われた交信者"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nawiedzone medium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Conjurador Amaldiçoado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Заколдованный камнерез"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Одержимий каменяр"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "幽怨的通灵者"
+                }
+            ],
+            "cannotBeTargeted": true,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Enemy - Miracles Taint Caster - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 0,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 64.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 715.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "SmallEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 1111.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Supernova - Fire Orb - Projectile Skill Definition",
+                            "id": 867,
+                            "type": "ProjectileAttackSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Tormenta - Taint Caster - EnemyDefinition",
+            "id": 207,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Rastloser Beschwörer"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Haunted Channeler"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Canalizador poseído"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Conjurateur hanté"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "呪われた交信者"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Nawiedzone medium"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Conjurador Amaldiçoado"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Заколдованный камнерез"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Одержимий каменяр"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "幽怨的通灵者"
+                }
+            ],
+            "cannotBeTargeted": true,
+            "ignoreForceMovement": false,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Enemy - Miracles Taint Caster - Sheet",
+                "type": "EnemySheet",
+                "baseExperience": 0,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 64.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 715.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "SmallEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 50.0,
+                "visionAggressivenessIncrement": 1111.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [
+                    {
+                        "name": "Tormenta - Lightning Bolt - Passive Projectile Rain - Skill Definition",
+                        "id": 874,
+                        "type": "PassiveSpawnFallingProjectilesSkillDefinition"
+                    }
+                ],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Tormenta - Watersprout - Spawn Dmg Areas Skill Definition",
+                            "id": 871,
+                            "type": "SpawnDamageAreasInRadiusSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": true,
+            "blockRandomRareSpawn": true
+        },
+        {
+            "name": "Miracles_TamarindoRangedCloneEnemyDefinition",
+            "id": 208,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "タマリンド"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Тамаринду"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Тамарінду"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "塔马林多"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": true,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Miracles_TamarindoShadowSheet",
+                "type": "EnemySheet",
+                "baseExperience": 7,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 10.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 500.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "MediumEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 20.0,
+                "visionAggressivenessIncrement": 2.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Tamarindo Clone Shot Skill Definition",
+                            "id": 99,
+                            "type": "ProjectileAttackSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Tamarindo Clone Teleport Skill Definition",
+                            "id": 87,
+                            "type": "TargetTeleportSkillDefinition"
+                        }
+                    }
+                ],
+                "secondsToEnrage": 0.0,
+                "enrageAnimDuration": 0.0,
+                "enragedStatModifiers": [],
+                "enragedPassiveSkills": [],
+                "enragedSkillPool": []
+            },
+            "blockedAffixes": [],
+            "blockRandomChampionSpawn": false,
+            "blockRandomRareSpawn": false,
+            "minionEnemyDefinition": {}
+        },
+        {
+            "name": "Miracles_TamarindoMeleeCloneEnemyDefinition",
+            "id": 209,
+            "type": "RegularEnemyDefinition",
+            "nameKey": [
+                {
+                    "langCode": "de",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "en",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "es",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "fr",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "ja",
+                    "langTranslation": "タマリンド"
+                },
+                {
+                    "langCode": "pl",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "pt-br",
+                    "langTranslation": "Tamarindo"
+                },
+                {
+                    "langCode": "ru",
+                    "langTranslation": "Тамаринду"
+                },
+                {
+                    "langCode": "uk",
+                    "langTranslation": "Тамарінду"
+                },
+                {
+                    "langCode": "zh-cn",
+                    "langTranslation": "塔马林多"
+                }
+            ],
+            "cannotBeTargeted": false,
+            "ignoreForceMovement": true,
+            "ignoreActionInterruption": false,
+            "staticEnemy": false,
+            "sheet": {
+                "name": "Miracles_TamarindoShadowSheet",
+                "type": "EnemySheet",
+                "baseExperience": 7,
+                "statBaseOverrides": [
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "BaseDamage",
+                            "id": 0,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 10.0
+                    },
+                    {
+                        "type": "StatBaseOverride",
+                        "statDefinition": {
+                            "name": "Life",
+                            "id": 3,
+                            "type": "StatDefinition"
+                        },
+                        "baseValue": 500.0
+                    }
+                ]
+            },
+            "ignoreKnockback": false,
+            "eCharacterMovementCategory": "MediumEnemy",
+            "aiConfig": {
+                "type": "EnemyAIConfig",
+                "visionRadius": 20.0,
+                "visionAggressivenessIncrement": 2.0,
+                "damageAggressivenessIncrement": 2.0,
+                "aggressivenessDecay": 0.0,
+                "passiveSkills": [],
+                "skillPool": [
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Tamarindo Clone Melee Skill Definition",
+                            "id": 399,
+                            "type": "MeleeAttackSkillDefinition"
+                        }
+                    },
+                    {
+                        "weight": 1.0,
+                        "value": {
+                            "name": "Tamarindo Clone Teleport Skill Definition",
+                            "id": 87,
                             "type": "TargetTeleportSkillDefinition"
                         }
                     }
